@@ -228,6 +228,13 @@
     <comment>Settings only</comment>
     <contributor>AdmiringWorm</contributor>
   </game>
+  <game name="AngryBirdsSpace" platform="Windows">
+    <title>Angry Birds Space</title>
+    <location_path environment_variable="appdata" path="Rovio\Angry Birds Space"/>
+    <save filename="highscores.lua" type="Highscores"/>
+    <save filename="settings.lua" type="Settings"/>
+    <contributor>cheshhire</contributor>
+  </game>
   <game name="Anno1404" platform="Windows">
     <title>Anno 1404</title>
     <location_path environment_variable="userdocuments" path="Anno 1404"/>
