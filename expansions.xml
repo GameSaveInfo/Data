@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-03-12T08:48:46">
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-04-27T00:00:00">
+  <!--This file contains games that are expansions for other games-->
   <game name="AgeOfMythologyTheTitansExpansion" platform="Windows">
     <title>Age of Mythology: The Titans Expansion</title>
     <location_path environment_variable="userdocuments" path="My Games\Age of Mythology"/>
@@ -17,7 +18,7 @@
     <save path="Profiles"/>
     <contributor>SanMadJack</contributor>
   </game>
-    <game name="Civilization3Conquests" platform="Windows">
+  <game name="Civilization3Conquests" platform="Windows">
     <title>Sid Meier's Civilization III: Conquests</title>
     <location_path environment_variable="installlocation" path="Firaxis Games\Civilization III Complete\Conquests"/>
     <location_registry root="local_machine" key="SOFTWARE\Infogrames\Conquests" value="Install_Path"/>
@@ -35,7 +36,7 @@
     <save path="Saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-    <game name="Civilization4BeyondTheSword" platform="Windows">
+  <game name="Civilization4BeyondTheSword" platform="Windows">
     <title>Sid Meier's Civilization IV: Beyond the Sword</title>
     <location_path environment_variable="userdocuments" path="My Games\Beyond the Sword"/>
     <save path="Saves"/>
@@ -103,7 +104,7 @@
     <save path="Users\*\Civilizations" type="Civilizations"/>
     <contributor>SanMadJack</contributor>
   </game>
-    <game name="FEARExtractionPoint" platform="Windows">
+  <game name="FEARExtractionPoint" platform="Windows">
     <title>F.E.A.R.: Extraction Point</title>
     <location_path environment_variable="public" path="Documents\TimeGate Studios\FEARXP" platform_version="Vista"/>
     <location_path environment_variable="allusersprofile" path="Documents\TimeGate Studios\FEARXP" platform_version="XP"/>
@@ -317,13 +318,6 @@
     <save path="player"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="TombRaiderUnfinishedBusiness" platform="DOS">
-    <title>Tomb Raider: Unfinished Business</title>
-    <location_game name="TombRaider" platform="DOS"/>
-    <identifier filename="SAVEUB.*"/>
-    <save filename="SAVEUB.*"/>
-    <contributor>SanMadJack</contributor>
-  </game>
   <game name="ThiefGold" platform="Windows">
     <title>Thief Gold</title>
     <location_path environment_variable="installlocation" path="ThiefG"/>
@@ -352,6 +346,11 @@
     <save filename="savegame.*"/>
     <contributor>SanMadJack</contributor>
   </game>
-
-  
+  <game name="TombRaiderUnfinishedBusiness" platform="DOS">
+    <title>Tomb Raider: Unfinished Business</title>
+    <location_game name="TombRaider" platform="DOS"/>
+    <identifier filename="SAVEUB.*"/>
+    <save filename="SAVEUB.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
 </games>

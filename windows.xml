@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-03-12T08:48:46">
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-04-30T18:20:11">
   <!--This file contains game for Microsoft Windows-->
   <game name="18WheelsOfSteelExtremeTrucker" platform="Windows">
     <title>18 Wheels of Steel: Extreme Trucker</title>
@@ -447,18 +447,18 @@
     <save path="BmGame\Config" type="Settings"/>
     <contributor>paul_taylor30</contributor>
   </game>
+  <game name="BattleArmorDivision" platform="Windows">
+    <title>B.A.D - Battle Armor Division</title>
+    <location_path environment_variable="installlocation" path="B.A.D Battle Armor Division"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\B.A.D Battle Armor Division\BAD Battle Armor Division.lnk"/>
+    <save filename="*.sav"/>
+    <save filename="*.ini" type="Settings"/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="Battlefield3" platform="Windows">
     <title>Battlefield 3</title>
     <location_path environment_variable="userdocuments" path="Battlefield 3"/>
     <save path="settings" type="Settings"/>
-    <contributor>Arc Angel</contributor>
-  </game>
-  <game name="BattleArmorDivision" platform="Windows">
-    <title>B.A.D - Battle Armor Division</title>
-    <location_path environment_variable="installlocation" path="B.A.D Battle Armor Division" />
-    <location_shortcut environment_variable="startmenu" path="Programs\B.A.D Battle Armor Division\BAD Battle Armor Division.lnk"/>
-    <save filename="*.sav" />
-    <save filename="*.ini" type="Settings" />
     <contributor>Arc Angel</contributor>
   </game>
   <game name="BattlefieldBadCompany2" platform="Windows">
@@ -570,7 +570,7 @@
   </game>
   <game name="BlackMarket" platform="Windows">
     <title>Black Market</title>
-    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Black Market_is1" value="InstallLocation" />
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Black Market_is1" value="InstallLocation"/>
     <save filename="save.dat"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -1153,8 +1153,8 @@
   </game>
   <game name="Darkness2" platform="Windows">
     <title>The Darkness II</title>
-    <location_path environment_variable="appdata" path="DarknessII" />
-    <save />
+    <location_path environment_variable="appdata" path="DarknessII"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="DarknessWithin" platform="Windows">
@@ -1271,11 +1271,11 @@
     <contributor>SanMadJack</contributor>
   </game>
   <game name="DepthHunter" platform="Windows">
-		<title>Depth Hunter</title>
-		<location_path environment_variable="userdocuments" path="DepthHunter" />
-		<save />
-		<contributor>Arc Angel</contributor>
-	</game>
+    <title>Depth Hunter</title>
+    <location_path environment_variable="userdocuments" path="DepthHunter"/>
+    <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="Descent2" platform="Windows">
     <title>Descent II</title>
     <location_path environment_variable="installlocation" path="GAMES\DESCENT2"/>
@@ -1518,6 +1518,12 @@
     <save path="SaveData"/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="DungeonSiege3" platform="Windows">
+    <title>Dungeon Siege III</title>
+    <location_path environment_variable="userdocuments" path="My Games\Dungeon Siege III"/>
+    <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="DungeonsOfDredmor" platform="Windows">
     <title>Dungeons of Dredmor</title>
     <location_path environment_variable="userdocuments" path="Gaslamp Games\Dungeons of Dredmor"/>
@@ -1528,12 +1534,6 @@
     <save filename="last.txt"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="DungeonSiege3" platform="Windows">
-		<title>Dungeon Siege III</title>
-		<location_path environment_variable="userdocuments" path="My Games\Dungeon Siege III" />
-		<save />
-		<contributor>Arc Angel</contributor>
-	</game>
   <game name="Earth2140" platform="Windows">
     <title>Earth 2140</title>
     <location_path environment_variable="installlocation" path="GOG.com\Earth 2140"/>
@@ -1746,6 +1746,12 @@
     <save filename="*.fsav"/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="Fahrenheit" platform="Windows">
+    <title>Fahrenheit</title>
+    <location_path environment_variable="userdocuments" path="atari\Fahrenheit Profile"/>
+    <save/>
+    <contributor>slake_jones</contributor>
+  </game>
   <game name="Fallout" platform="Windows">
     <title>Fallout</title>
     <location_path environment_variable="installlocation" path="Interplay\Fallout"/>
@@ -1812,12 +1818,6 @@
     <comment>This also works with Far Cry 2 Fortune's Edition.</comment>
     <contributor>Arc Angel</contributor>
     <contributor>AvvA</contributor>
-  </game>
-  <game name="Fahrenheit" platform="Windows">
-    <title>Fahrenheit</title>
-    <location_path environment_variable="userdocuments" path="atari\Fahrenheit Profile"/>
-    <save/>
-    <contributor>slake_jones</contributor>
   </game>
   <game name="FarmFrenzy" platform="Windows">
     <title>Farm Frenzy</title>
@@ -2650,8 +2650,8 @@
   </game>
   <game name="LegendsofGrimrock" platform="Windows">
     <title>Legends of Grimrock</title>
-    <location_path environment_variable="userdocuments" path="Almost Human\Legend of Grimrock" />
-    <save />
+    <location_path environment_variable="userdocuments" path="Almost Human\Legend of Grimrock"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="Loki" platform="Windows">
@@ -3695,11 +3695,11 @@
     <contributor>Arc Angel</contributor>
   </game>
   <game name="ResidentEvil5" platform="Windows">
-		<title>Resident Evil 5</title>
-		<location_path environment_variable="userdocuments" path="CAPCOM\RESIDENT EVIL 5" />
-		<save />
-		<contributor>Arc Angel</contributor>
-	</game>
+    <title>Resident Evil 5</title>
+    <location_path environment_variable="userdocuments" path="CAPCOM\RESIDENT EVIL 5"/>
+    <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="ReturnOfTheIncredibleMachineContraptions" platform="Windows">
     <title>Return of the Incredible Machine: Contraptions</title>
     <location_path environment_variable="installlocation" path="GOG.com\The Incredible Machine Series\Return of the Incredible Machine Contraptions"/>
@@ -4077,13 +4077,6 @@
     <save path="S9Game\Config"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="SeriousSam2" platform="Windows">
-    <title>Serious Sam 2</title>
-    <location_path environment_variable="steamcommon" path="serious sam 2" />
-    <save path="Content\SeriousSam2\PlayerProfiles"/>
-	  <save path="Content\SeriousSam2" filename="Sam2.ini"/>
-	  <contributor>Arc Angel</contributor>
-  </game>
   <game name="SepterraCoreLegacyOfTheCreator" platform="Windows">
     <title>Septerra Core: Legacy of the Creator</title>
     <location_path environment_variable="installlocation" path="Valkyrie Studios\Septerra Core"/>
@@ -4094,6 +4087,13 @@
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Septerra Core\Septerra Core.lnk"/>
     <save path="savedata"/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SeriousSam2" platform="Windows">
+    <title>Serious Sam 2</title>
+    <location_path environment_variable="steamcommon" path="serious sam 2"/>
+    <save path="Content\SeriousSam2\PlayerProfiles"/>
+    <save path="Content\SeriousSam2" filename="Sam2.ini"/>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="Shadowgrounds" platform="Windows">
     <title>Shadowgrounds</title>
@@ -4184,8 +4184,8 @@
     <save path="LotCatalog"/>
     <save path="Neighborhoods"/>
     <save path="Config" type="Settings"/>
-    <contributor>Samuel Barbour</contributor>
     <contributor>AdmiringWorm</contributor>
+    <contributor>Samuel Barbour</contributor>
   </game>
   <game name="Sims3" platform="Windows">
     <title>The Sims 3</title>
@@ -4194,8 +4194,8 @@
     <save path="SavedSims" type="Characters"/>
     <save path="SavedOutfits" type="Outfits"/>
     <save filename="Options.ini" type="Settings"/>
-    <contributor>Caleb Love</contributor>
     <contributor>AdmiringWorm</contributor>
+    <contributor>Caleb Love</contributor>
   </game>
   <game name="Sin" platform="Windows">
     <title>Sin</title>
@@ -4533,11 +4533,11 @@
     <contributor>SanMadJack</contributor>
   </game>
   <game name="Syndicate2012" platform="Windows">
-		<title>Syndicate (2012)</title>
-		<location_path environment_variable="userdocuments" path="Syndicate" />
-		<save />
-		<contributor>Arc Angel</contributor>
-	</game>
+    <title>Syndicate (2012)</title>
+    <location_path environment_variable="userdocuments" path="Syndicate"/>
+    <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="SystemShock2" platform="Windows">
     <title>System Shock 2</title>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\shock2.exe" value="Path"/>
@@ -4704,7 +4704,7 @@
     <title>Thief: Deadly Shadows</title>
     <location_path environment_variable="public" path="Documents\Thief - Deadly Shadows" platform_version="Vista"/>
     <location_path environment_variable="allusersprofile" path="Documents\Thief - Deadly Shadows" platform_version="XP"/>
-	<location_path environment_variable="steamcommon" path="thief deadly shadows\save" />
+    <location_path environment_variable="steamcommon" path="thief deadly shadows\save"/>
     <save path="SaveGames"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -4890,12 +4890,12 @@
     <save filename="TrueCrime.ini" type="Settings"/>
     <contributor>SanMadJack</contributor>
   </game>
- <game name="Turok2008" platform="Windows">
-		<title>Turok (2008)</title>
-		<location_path environment_variable="appdata" path="Touchstone\Turok" />
-		<save />
-		<contributor>Arc Angel</contributor>
-	</game>
+  <game name="Turok2008" platform="Windows">
+    <title>Turok (2008)</title>
+    <location_path environment_variable="appdata" path="Touchstone\Turok"/>
+    <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="TwinSector" platform="Windows">
     <title>Twin Sector</title>
     <location_path environment_variable="userdocuments" path="TwinSector"/>
@@ -5180,7 +5180,7 @@
   </game>
   <game name="Wolfenstein" platform="Windows">
     <title>Wolfenstein</title>
-    <location_path environment_variable="localappdata" path="id software\WolfSP" />
+    <location_path environment_variable="localappdata" path="id software\WolfSP"/>
     <save path="base"/>
     <contributor>Arc Angel</contributor>
   </game>

@@ -243,11 +243,6 @@
     <ps_code prefix="SCUS" suffix="97472"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="SilentHillShatteredMemories" platform="PS2" region="USA">
-    <title>Silent Hill: Shattered Memories</title>
-    <ps_code prefix="SLUS" suffix="21899"/>
-    <contributor>SanMadJack</contributor>
-  </game>
   <game name="SilentHill2GreatestHits" platform="PS2" region="USA">
     <title>Silent Hill 2: Greatest Hits Edition</title>
     <ps_code prefix="SLUS" suffix="20228"/>
@@ -261,6 +256,11 @@
   <game name="SilentHill4Room" platform="PS2" region="USA">
     <title>Silent Hill 4: The Room</title>
     <ps_code prefix="SLUS" suffix="20873"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SilentHillShatteredMemories" platform="PS2" region="USA">
+    <title>Silent Hill: Shattered Memories</title>
+    <ps_code prefix="SLUS" suffix="21899"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="SlyCooperAndtheThievusRaccoonus" platform="PS2" region="USA">
