@@ -99,6 +99,13 @@
     <ignore path="My Music"/>
     <contributor>AdmiringWorm</contributor>
   </game>
+  <game name="AlanWake" platform="Windows">
+    <title>Alan Wake</title>
+    <location_path environment_variable="userdocuments" path="Remedy\AlanWake_GOG_Version"/>
+    <save path="savegames" />
+    <save filename="*" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="Alice" platform="Windows">
     <title>American McGee's Alice</title>
     <location_path environment_variable="installlocation" path="EA GAMES\American McGee's Alice"/>
@@ -1366,6 +1373,12 @@
     <location_path environment_variable="installlocation" path="Diablo II"/>
     <location_registry root="local_machine" key="SOFTWARE\Blizzard Entertainment\Diablo II" value="InstallPath"/>
     <save path="save"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="DinnerDate" platform="Windows">
+    <title>Dinner Date</title>
+    <location_path environment_variable="steamcommon" path="dinner date"/>
+    <save path="user"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="DiRT" platform="Windows">
