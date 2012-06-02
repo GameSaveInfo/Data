@@ -61,6 +61,12 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="DearEsther" platform="Steam">
+    <title>Dear Esther</title>
+    <location_path environment_variable="steamuserdata" path="203810"/>
+    <save/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="DefenseGridTheAwakening" platform="Steam">
     <title>Defense Grid: The Awakening</title>
     <location_path environment_variable="steamuserdata" path="18500"/>
@@ -224,6 +230,12 @@
     <location_path environment_variable="steamuserdata" path="115110"/>
     <save/>
     <contributor>AdmiringWorm</contributor>
+  </game>
+  <game name="SuperbrothersSwordAndSorcery" platform="Windows">
+    <title>Superbrothers: Sword &amp; Sorcery</title>
+    <location_path environment_variable="steamuserdata" path="204060"/>
+    <save/>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="Trine" platform="Steam">
     <title>Trine</title>

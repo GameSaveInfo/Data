@@ -106,6 +106,13 @@
     <save filename="*" type="Settings"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="AlanWakeAmericanNightmare" platform="Windows">
+    <title>Alan Wake American Nightmare</title>
+    <location_path environment_variable="userdocuments" path="Remedy\AmericanNightmare_GOG_Version"/>
+    <save path="savegames" />
+    <save filename="*" type="Settings"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="Alice" platform="Windows">
     <title>American McGee's Alice</title>
     <location_path environment_variable="installlocation" path="EA GAMES\American McGee's Alice"/>
@@ -440,6 +447,12 @@
     <save path="UDKGame\Config"/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="Bastion" platform="Windows">
+    <title>Bastion</title>
+    <location_path environment_variable="savedgames" path="Bastion"/>
+    <save />
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="BatmanArkhamAsylum" platform="Windows">
     <title>Batman: Arkham Asylum</title>
     <location_path environment_variable="userdocuments" path="Eidos\Batman Arkham Asylum"/>
@@ -594,20 +607,20 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="BlackwellConvergenceRemastered" platform="Windows">
-    <title>Blackwell Trilogy Remastered: Blackwell Convergence</title>
+  <game name="Blackwell3ConvergenceRemastered" platform="Windows">
+    <title>Blackwell Episode 3: Blackwell Convergence (Remastered)</title>
     <location_path environment_variable="steamcommon" path="blackwell convergence"/>
     <save path="Saves"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="BlackwellLegacyRemastered" platform="Windows">
-    <title>Blackwell Trilogy Remastered: The Blackwell Legacy</title>
+  <game name="Blackwell1LegacyRemastered" platform="Windows">
+    <title>Blackwell Episode 1: The Blackwell Legacy (Remastered)</title>
     <location_path environment_variable="steamcommon" path="blackwell legacy"/>
     <save path="Saves"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="BlackwellUnboundRemastered" platform="Windows">
-    <title>Blackwell Trilogy Remastered: Blackwell Unbound</title>
+  <game name="Blackwell2UnboundRemastered" platform="Windows">
+    <title>Blackwell Episode 2: Blackwell Unbound (Remastered)</title>
     <location_path environment_variable="steamcommon" path="blackwell unbound"/>
     <save path="Saves"/>
     <contributor>Arc Angel</contributor>
@@ -1038,8 +1051,12 @@
   <game name="Cryostasis" platform="Windows">
     <title>Cryostasis</title>
     <location_path environment_variable="steamcommon" path="cryostasis"/>
+    <location_path environment_variable="installlocation" path="GOG.com\Cryostasis"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGCRYOSTASIS" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Cryostasis\Cryostasis.lnk"/>
     <save path="Data\Save"/>
     <contributor>Arc Angel</contributor>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="Crysis" platform="Windows">
     <title>Crysis</title>
@@ -2674,6 +2691,14 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="Limbo" platform="Windows">
+    <title>Limbo</title>
+    <location_path environment_variable="installlocation" path="LIMBO"/>
+    <location_registry root="current_user" key="Software\LIMBO" />
+    <location_shortcut environment_variable="startmenu" path="Programs\LIMBO\LIMBO.lnk"/>
+    <save path="save_game"/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="Loki" platform="Windows">
     <title>Loki</title>
     <location_path environment_variable="steamcommon" path="loki"/>
@@ -3535,6 +3560,7 @@
   <game name="Psychonauts" platform="Windows">
     <title>Psychonauts</title>
     <location_path environment_variable="steamcommon" path="psychonauts"/>
+    <location_path environment_variable="installlocation" path="psychonauts"/>
     <location_path environment_variable="installlocation" path="GOG.com\Psychonauts"/>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A129D1F2-CAC4-4AD7-B26D-3C6411B87DCC}" value="InstallLocation"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPSYCHONAUTS" value="PATH"/>
@@ -4513,6 +4539,13 @@
     <save/>
     <contributor>slake_jones</contributor>
   </game>
+  <game name="SuperbrothersSwordAndSorcery" platform="Windows">
+    <title>Superbrothers: Sword &amp; Sorcery</title>
+    <location_path environment_variable="appdata" path="capy\SwordAndSworcery"/>
+    <save filename="config.txt" type="Settings"/>
+    <save filename="savedata.bin"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="SuperMeatBoy" platform="Windows">
     <title>Super Meat Boy</title>
     <location_path environment_variable="steamcommon" path="super meat boy"/>
@@ -5177,6 +5210,14 @@
     <location_path environment_variable="steamcommon" path="whispered world"/>
     <save path="savegames"/>
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="WingCommander4" platform="Windows">
+    <title>Wing Commander IV: The Price of Freedom</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Wing Commander IV"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGWC4" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Wing Commander IV\Wing Commander IV.lnk"/>
+    <save filename="*.WSG"/>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="WingsOfPrey" platform="Windows">
     <title>Wings of Prey</title>

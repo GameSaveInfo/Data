@@ -1,6 +1,23 @@
 New Windows Games:
 * Alan Wake - GoG only
+* Alan Wake American Nightmare - GoG only
+* Bastion - Vista/7 only
+* Dear Esther - Steam only
 * Dinner Date - Steam only
+* Full throttle - ScummVM only
+* Normality - GoG only
+* Sam & Max Hit The Road - ScummVM only
+* Superbrothers: Sword & Sorcery
+* Wing Commander IV: The Price Of Freedom - GoG only
+New DOS Games:
+* Full Throttle
+* Sam & Max Hit The Road
+Updated Windows Games:
+* Cryostasis - Added GoG info
+* King's Quest 1-6 - Added ScummVM info
+* Limbo - Added downloaded install info
+* Return to Zork - Added ScummVM info
+* Space Quest 1-5 - Added ScummVM info
 =2012/5/21=
 New Windows Games:
 * 18 Wheels of Steel: Extreme Trucker - Contributed by AdmiringWorm

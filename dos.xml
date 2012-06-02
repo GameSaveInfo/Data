@@ -85,6 +85,12 @@
     <save path="SAVE*"/>
     <contributor>Jetsetlemming</contributor>
   </game>
+  <game name="FullThrottle" platform="DOS">
+    <title>Full Throttle</title>
+    <location_path environment_variable="installlocation" path="THROTTLE"/>
+    <save filename="SAVEGAME.*"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="Ishar" platform="DOS">
     <title>Ishar: Legend of the Fortress</title>
     <location_path environment_variable="installlocation" path="GOG.com\Ishar Compilation\Ishar - Legend of the Fortress"/>
@@ -247,6 +253,14 @@
     <save filename="HALL.DAT" type="Statistics"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="Normality" platform="DOS">
+    <title>Normality</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Normality"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGNORMALITY" value="SAVEGAMEFOLDER"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Normality\Normality.lnk" append="Normality" detract="DOSBOX"/>
+    <save path="SAVEGAME" />
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="OneUnitWholeBlood" platform="DOS">
     <title>One Unit: Whole Blood</title>
     <location_path environment_variable="installlocation" path="GOG.com\One Unit Whole Blood"/>
@@ -340,6 +354,11 @@
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Robinson's Requiem Collection\Robinson's Requiem\Robinson's Requiem.lnk" append="Robinsons Requiem" detract="DOSBOX"/>
     <save filename="*.SAV"/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="SamAndMaxHitTheRoad" platform="DOS">
+    <title>Sam &amp; Max Hit The Road</title>
+    <location_path environment_variable="installlocation" path="SAMNMAX.CD"/>
+    <save filename="SAVEGAME.*"/>
   </game>
   <game name="ShatteredSteel" platform="DOS">
     <title>Shattered Steel</title>

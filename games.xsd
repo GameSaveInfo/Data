@@ -105,6 +105,7 @@
         <xs:enumeration value="PS3"/>
         <xs:enumeration value="PSP"/>
         <xs:enumeration value="Windows"/>
+        <xs:enumeration value="Android"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
