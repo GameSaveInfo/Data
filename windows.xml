@@ -289,6 +289,18 @@
     <contributor>Dwight Holman</contributor>
     <contributor>slake_jones</contributor>
   </game>
+  <game name="ArcaniaGothic4" platform="Windows">
+    <title>ArcaniA: Gothic 4</title>
+    <location_path environment_variable="userdocuments" path="ArcaniA - Gothic 4" />
+    <save />
+    <contributer>Arc Angel</contributer>
+  </game>
+  <game name="ArcaniaFallofSetarrif" platform="Windows">
+    <title>ArcaniA: Fall of Setarrif</title>
+    <location_path environment_variable="userdocuments" path="ArcaniA - AddOn" />
+    <save />
+    <contributer>Arc Angel</contributer>
+  </game>
   <game name="ArcanumOfSteamworksAndMagickObscura" platform="Windows">
     <title>Arcanum: Of Steamworks and Magick Obscura</title>
     <location_path environment_variable="installlocation" path="GOG.com\Arcanum"/>
@@ -1278,6 +1290,12 @@
     <save path="Profiles"/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="DeepBlackReloaded" platform="Windows">
+    <title>Deep Black: Reloaded</title>
+    <location_path environment_variable="userdocuments" path="DeepBlackReloaded" />
+    <save />
+    <contributer>Arc Angel</contributer>
+  </game>
   <game name="DeathTrackResurrection" platform="Windows">
     <title>Death Track: Resurrection</title>
     <location_path environment_variable="userdocuments" path="Skyfallen Entertaiment\DeathTrack"/>
@@ -1523,6 +1541,12 @@
     <save filename="*.DPLSave"/>
     <contributor>AdmiringWorm</contributor>
   </game>
+  <game name="DriverSanFrancisco" platform="Windows">
+    <title>Driver San Francisco</title>
+    <location_path environment_variable="userdocuments" path="Ubisoft\Driver San Francisco" />
+    <save />
+    <contributer>Arc Angel</contributer>
+  </game>
   <game name="DrugWarsMerchantsOfBrooklyn" platform="Windows">
     <title>Drug Wars: Merchants of Brooklyn</title>
     <location_path environment_variable="userdocuments" path="My Games\MOB"/>
@@ -1749,6 +1773,12 @@
     <location_path environment_variable="userdocuments" path="My Games\Exodus"/>
     <save/>
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="Explodemon" platform="Windows">
+    <title>Explodemon!</title>
+    <location_path environment_variable="userdocuments" path="EXPLODEMON!" />
+    <save />
+    <contributer>Arc Angel</contributer>
   </game>
   <game name="EYEDivineCybermancy" platform="Windows">
     <title>E.Y.E: Divine Cybermancy</title>
@@ -2098,6 +2128,22 @@
     <save path="settings\profiles"/>
     <save filename="level_snapshot.dsl"/>
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="GhostReconDesertSiege" platform="Windows">
+    <title>Tom Clancy's Ghost Recon: Desert Siege</title>
+    <location_game name="GhostRecon" platform="Windows"/>
+    <identifier path="Mods\Mp1"/>
+    <save path="Mods\Mp1\save\game"/>
+    <save path="Mods\Mp1\save\replay" type="Replays"/>
+    <contributer>Arc Angel</contributer>
+  </game>
+  <game name="GhostReconIslandThunder" platform="Windows">
+    <title>Tom Clancy's Ghost Recon: Island Thunder</title>
+    <location_game name="GhostRecon" platform="Windows"/>
+    <identifier path="Mods\Mp2"/>
+    <save path="Mods\Mp2\save\game"/>
+    <save path="Mods\Mp2\save\replay" type="Replays"/>
+    <contributer>Arc Angel</contributer>
   </game>
   <game name="GiantsCitizenKabuto" platform="Windows">
     <title>Giants: Citizen Kabuto</title>
@@ -2619,6 +2665,12 @@
     <contributor>Arc Angel</contributor>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="JurassicParkTheGame" platform="Windows">
+    <title>Jurassic Park: The Game</title>
+    <location_path environment_variable="userdocuments" path="Telltale Games" />
+    <save path="jurassicpark"/>
+    <contributer>Arc Angel</contributer>
+  </game>
   <game name="JustCause" platform="Windows">
     <title>Just Cause</title>
     <location_path environment_variable="userdocuments" path="JustCause"/>
@@ -2704,6 +2756,12 @@
     <location_path environment_variable="steamcommon" path="loki"/>
     <save path="Characters"/>
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="LoneSurvivor" platform="Windows">
+    <title>Lone Survivor</title>
+    <location_path environment_variable="appdata" path="LoneSurvivor\Local Store\Lone Survivor Saved Game" />
+    <save />
+    <contributer>Arc Angel</contributer>
   </game>
   <game name="LongestJourney" platform="Windows">
     <title>The Longest Journey</title>
@@ -3333,6 +3391,12 @@
     <save path="SaveGames"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="PainkillerRedemption" platform="Windows">
+    <title>Painkiller: Redemption</title>
+    <location_path environment_variable="localappdata" path="Painkiller Redemption"/>
+    <save path="Saves"/>
+    <contributer>Arc Angel</contributer>
+  </game>
   <game name="Path" platform="Windows">
     <title>The Path</title>
     <location_path environment_variable="steamcommon" path="the path"/>
@@ -3346,6 +3410,12 @@
     <location_shortcut environment_variable="startmenu" path="Programs\Buka\Pathologic\Pathologic.lnk" detract="bin\Final"/>
     <save path="saves"/>
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="PaydayTheHeist" platform="Steam">
+    <title>Payday: The Heist</title>
+    <location_path environment_variable="steamuserdata" path="24240\remote" />
+    <save />
+    <contributer>Arc Angel</contributer>
   </game>
   <game name="PeggleDeluxe" platform="Windows">
     <title>Peggle Deluxe</title>
@@ -5112,6 +5182,12 @@
     <location_path environment_variable="userdocuments" path="My Games\Void"/>
     <save/>
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="WalkingDead" platform="Windows">
+    <title>The Walking Dead</title>
+    <location_path environment_variable="userdocuments" path="Telltale Games\The Walking Dead" />
+    <save />
+    <contributer>Arc Angel</contributer>
   </game>
   <game name="WallaceAndGrommitsGrandAdventures1" platform="Windows">
     <title>Wallace &amp; Gromit's Grand Adventures Episode 1: Fright of the Bumblebees</title>
