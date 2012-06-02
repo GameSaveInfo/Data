@@ -7,7 +7,13 @@
     <save />
     <contributor>Arc Angel</contributor>
   </game>  
-	<game name="AlienSwarm" platform="Steam">
+  <game name="AlanWakesAmericanNightmare" platform="Steam">
+    <title>Alan Wake's American Nightmare</title>
+    <location_path environment_variable="steamuserdata" path="202750" />
+    <save />
+    <contributer>Arc Angel</contributer>
+  </game>
+  <game name="AlienSwarm" platform="Steam">
     <title>Alien Swarm</title>
     <location_path environment_variable="steamuserdata" path="630"/>
     <save/>
