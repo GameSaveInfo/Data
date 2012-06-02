@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
+  <game name="Sentinel3" platform="Android">
+    <title>Sentinel 3</title>
+    <location_path environment_variable="drive" path="Android"/>
+    <save filename="blahblah"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+</games>
