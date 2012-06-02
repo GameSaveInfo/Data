@@ -127,7 +127,7 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
-	<game name="KingdomsOfAmalurReckoning" platform="Steam">
+  <game name="KingdomsOfAmalurReckoning" platform="Steam">
     <title>Kingdoms of Amalur: Reckoning</title>
     <location_path environment_variable="steamuserdata" path="102500" />
     <save />
@@ -146,6 +146,12 @@
     <location_path environment_variable="steamuserdata" path="48000"/>
     <save/>
     <contributor>Arc Angel</contributor>
+  </game>
+  <game name="MadballsBaboInvasion" platform="Steam">
+    <title>Madballs in.. BaboInvasion</title>
+    <location_path environment_variable="steamuserdata" path="25700" />
+    <save />
+    <contributer>Arc Angel</contributer>
   </game>
   <game name="MonkeyIsland2SpecialEditionLeChucksRevenge" platform="Steam">
     <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
