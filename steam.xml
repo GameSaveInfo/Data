@@ -231,7 +231,7 @@
     <save/>
     <contributor>AdmiringWorm</contributor>
   </game>
-  <game name="SuperbrothersSwordAndSorcery" platform="Windows">
+  <game name="SuperbrothersSwordAndSorcery" platform="Steam">
     <title>Superbrothers: Sword &amp; Sorcery</title>
     <location_path environment_variable="steamuserdata" path="204060"/>
     <save/>

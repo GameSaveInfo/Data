@@ -128,7 +128,7 @@
     <save filename="lure.*"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="ReturnToZork" platform="DOS">
+  <game name="ReturnToZork" platform="ScummVM">
     <title>Return To Zork</title>
     <location_scummvm name="rtz-cd" />
     <identifier filename="rtz-cd.*"/>
