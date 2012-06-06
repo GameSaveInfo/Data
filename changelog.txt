@@ -4,10 +4,7 @@ New Windows Games:
 * ArcaniA (Gothic 4)
 * ArcaniA: Fall of Setarrif
 * Bastion - Vista/7 only
-* B.A.D (Battle Armor Division)
-* Black Market
 * Dear Esther - Steam only
-* Deep Black Reloaded
 * Dinner Date - Steam only
 * Driver San Francisco
 * Explodemon
@@ -15,7 +12,6 @@ New Windows Games:
 * Jurassic Park: The Game
 * Lone Survivor
 * Normality - GoG only
-* Painkiller Redemption
 * Sam & Max Hit The Road - ScummVM only
 * Superbrothers: Sword & Sorcery
 * The Walking Dead
