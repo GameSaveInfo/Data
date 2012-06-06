@@ -1,13 +1,24 @@
 New Windows Games:
 * Alan Wake - GoG only
 * Alan Wake American Nightmare - GoG only
+* ArcaniA (Gothic 4)
+* ArcaniA: Fall of Setarrif
 * Bastion - Vista/7 only
+* B.A.D (Battle Armor Division)
+* Black Market
 * Dear Esther - Steam only
+* Deep Black Reloaded
 * Dinner Date - Steam only
+* Driver San Francisco
+* Explodemon
 * Full throttle - ScummVM only
+* Jurassic Park: The Game
+* Lone Survivor
 * Normality - GoG only
+* Painkiller Redemption
 * Sam & Max Hit The Road - ScummVM only
 * Superbrothers: Sword & Sorcery
+* The Walking Dead
 * Wing Commander IV: The Price Of Freedom - GoG only
 New DOS Games:
 * Full Throttle
@@ -63,7 +74,7 @@ New PS2 Games:
 * Alter Echo
 * Silent Hill: Shattered Memories
 * Xenosaga Episode I: Der Wille zur Macht
-* Xenosaga Episode II: Jenseits von Gut und Böse
+* Xenosaga Episode II: Jenseits von Gut und Bï¿½se
 * Xenosaga Episode III: Also sprach Zarathustra
 New PS3 Games:
 * Beyond Good & Evil
@@ -568,7 +579,7 @@ New Windows Games
 * The Ball - Contributed by Arc Angel
 * Battlefield: Bad Company 2 - Contributed by arc Angel
 * Beneath a Steel Sky - GoG only
-* Bioshock 2 - Contributed by Håvard Krüger
+* Bioshock 2 - Contributed by Hï¿½vard Krï¿½ger
 * Black Mirror 2 - Contributed by Arc Angel
 * Blacklight: Tango Down - Contributed by Arc Angel
 * Blood II: The Chosen - GoG only
@@ -591,7 +602,7 @@ New Windows Games
 * Chrome: SpecForce - Contributed by Arc Angel
 * Crystals of Arborea - GoG only
 * Sid Meier's Civilization V
-* Command & Conquer 4: Tiberian Twilight - Vista & 7 only - Contributed by Håvard Krüger
+* Command & Conquer 4: Tiberian Twilight - Vista & 7 only - Contributed by Hï¿½vard Krï¿½ger
 * Company of Heroes - Contributed by Arc Angel
 * Cryostasis - Contributed by Arc Angel
 * Crysis Warhead - Contributed by Arc Angel
@@ -659,7 +670,7 @@ New Windows Games
 * Mass Effect 2 - Contributed by Christian Hamaan
 * Master of Orion - GoG only
 * Mean Streets - GoG only
-* Metro 2033 - Contributed by Håvard Krüger
+* Metro 2033 - Contributed by Hï¿½vard Krï¿½ger
 * MechWarrior 2: 31st Century Combat: Titanium Edition
 * MechWarrior 2: Ghost Bear's Legacy: Titanium Edition
 * MechWarrior 2: Mercenaries: Titanium Edition
@@ -717,7 +728,7 @@ New Windows Games
 * Split Second - Contributed by Arc Angel
 * Spore - Contributed by duncans_pumpkin
 * Spore Creature Creator - Contributed by duncans_pumpkin
-* S.T.A.L.K.E.R.: Call of Pripyat - Contributed by Håvard Krüger & Arc Angel
+* S.T.A.L.K.E.R.: Call of Pripyat - Contributed by Hï¿½vard Krï¿½ger & Arc Angel
 * S.T.A.L.K.E.R.: Clear Sky - Steam Only - Contributed by Arc Angel
 * Starlancer
 * Star Wars: The Force Unleashed II - contributed by Arc Angel
