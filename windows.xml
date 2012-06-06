@@ -295,7 +295,7 @@
     <save />
     <contributer>Arc Angel</contributer>
   </game>
-  <game name="ArcaniaFallofSetarrif" platform="Windows">
+  <game name="ArcaniaFallOfSetarrif" platform="Windows">
     <title>ArcaniA: Fall of Setarrif</title>
     <location_path environment_variable="userdocuments" path="ArcaniA - AddOn" />
     <save />
@@ -2129,22 +2129,6 @@
     <save filename="level_snapshot.dsl"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="GhostReconDesertSiege" platform="Windows">
-    <title>Tom Clancy's Ghost Recon: Desert Siege</title>
-    <location_game name="GhostRecon" platform="Windows"/>
-    <identifier path="Mods\Mp1"/>
-    <save path="Mods\Mp1\save\game"/>
-    <save path="Mods\Mp1\save\replay" type="Replays"/>
-    <contributer>Arc Angel</contributer>
-  </game>
-  <game name="GhostReconIslandThunder" platform="Windows">
-    <title>Tom Clancy's Ghost Recon: Island Thunder</title>
-    <location_game name="GhostRecon" platform="Windows"/>
-    <identifier path="Mods\Mp2"/>
-    <save path="Mods\Mp2\save\game"/>
-    <save path="Mods\Mp2\save\replay" type="Replays"/>
-    <contributer>Arc Angel</contributer>
-  </game>
   <game name="GiantsCitizenKabuto" platform="Windows">
     <title>Giants: Citizen Kabuto</title>
     <location_path environment_variable="installlocation" path="Giants"/>
@@ -2667,8 +2651,8 @@
   </game>
   <game name="JurassicParkTheGame" platform="Windows">
     <title>Jurassic Park: The Game</title>
-    <location_path environment_variable="userdocuments" path="Telltale Games" />
-    <save path="jurassicpark"/>
+    <location_path environment_variable="userdocuments" path="Telltale Games\jurassicpark" />
+    <save />
     <contributer>Arc Angel</contributer>
   </game>
   <game name="JustCause" platform="Windows">
@@ -2759,8 +2743,8 @@
   </game>
   <game name="LoneSurvivor" platform="Windows">
     <title>Lone Survivor</title>
-    <location_path environment_variable="appdata" path="LoneSurvivor\Local Store\Lone Survivor Saved Game" />
-    <save />
+    <location_path environment_variable="appdata" path="LoneSurvivor" />
+    <save path="Local Store\Lone Survivor Saved Game"/>
     <contributer>Arc Angel</contributer>
   </game>
   <game name="LongestJourney" platform="Windows">
@@ -3410,12 +3394,6 @@
     <location_shortcut environment_variable="startmenu" path="Programs\Buka\Pathologic\Pathologic.lnk" detract="bin\Final"/>
     <save path="saves"/>
     <contributor>Arc Angel</contributor>
-  </game>
-  <game name="PaydayTheHeist" platform="Steam">
-    <title>Payday: The Heist</title>
-    <location_path environment_variable="steamuserdata" path="24240\remote" />
-    <save />
-    <contributer>Arc Angel</contributer>
   </game>
   <game name="PeggleDeluxe" platform="Windows">
     <title>Peggle Deluxe</title>
