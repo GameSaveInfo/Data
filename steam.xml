@@ -11,7 +11,7 @@
     <title>Alan Wake's American Nightmare</title>
     <location_path environment_variable="steamuserdata" path="202750" />
     <save />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="AlienSwarm" platform="Steam">
     <title>Alien Swarm</title>
@@ -151,7 +151,7 @@
     <title>Madballs in.. BaboInvasion</title>
     <location_path environment_variable="steamuserdata" path="25700" />
     <save />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="MonkeyIsland2SpecialEditionLeChucksRevenge" platform="Steam">
     <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
