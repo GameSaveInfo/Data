@@ -293,13 +293,13 @@
     <title>ArcaniA: Gothic 4</title>
     <location_path environment_variable="userdocuments" path="ArcaniA - Gothic 4" />
     <save />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="ArcaniaFallOfSetarrif" platform="Windows">
     <title>ArcaniA: Fall of Setarrif</title>
     <location_path environment_variable="userdocuments" path="ArcaniA - AddOn" />
     <save />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="ArcanumOfSteamworksAndMagickObscura" platform="Windows">
     <title>Arcanum: Of Steamworks and Magick Obscura</title>
@@ -1294,7 +1294,7 @@
     <title>Deep Black: Reloaded</title>
     <location_path environment_variable="userdocuments" path="DeepBlackReloaded" />
     <save />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="DeathTrackResurrection" platform="Windows">
     <title>Death Track: Resurrection</title>
@@ -1545,7 +1545,7 @@
     <title>Driver San Francisco</title>
     <location_path environment_variable="userdocuments" path="Ubisoft\Driver San Francisco" />
     <save />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="DrugWarsMerchantsOfBrooklyn" platform="Windows">
     <title>Drug Wars: Merchants of Brooklyn</title>
@@ -1778,7 +1778,7 @@
     <title>Explodemon!</title>
     <location_path environment_variable="userdocuments" path="EXPLODEMON!" />
     <save />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="EYEDivineCybermancy" platform="Windows">
     <title>E.Y.E: Divine Cybermancy</title>
@@ -2653,7 +2653,7 @@
     <title>Jurassic Park: The Game</title>
     <location_path environment_variable="userdocuments" path="Telltale Games\jurassicpark" />
     <save />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="JustCause" platform="Windows">
     <title>Just Cause</title>
@@ -2745,7 +2745,7 @@
     <title>Lone Survivor</title>
     <location_path environment_variable="appdata" path="LoneSurvivor" />
     <save path="Local Store\Lone Survivor Saved Game"/>
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="LongestJourney" platform="Windows">
     <title>The Longest Journey</title>
@@ -3379,7 +3379,7 @@
     <title>Painkiller: Redemption</title>
     <location_path environment_variable="localappdata" path="Painkiller Redemption"/>
     <save path="Saves"/>
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="Path" platform="Windows">
     <title>The Path</title>
@@ -5165,7 +5165,7 @@
     <title>The Walking Dead</title>
     <location_path environment_variable="userdocuments" path="Telltale Games\The Walking Dead" />
     <save />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="WallaceAndGrommitsGrandAdventures1" platform="Windows">
     <title>Wallace &amp; Gromit's Grand Adventures Episode 1: Fright of the Bumblebees</title>
