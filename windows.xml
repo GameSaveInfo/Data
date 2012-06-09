@@ -5010,6 +5010,13 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="UFOAftermath" platform="Windows">
+    <title>UFO: Aftermath</title>
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\UFO.exe" value="Path" />
+    <location_path environment_variable="installlocation" path="CENEGA\UFO Aftermath" />
+    <save path="Profiles" />
+    <contributer>Arc Angel</contributer>
+  </game>
   <game name="UltimateDoom" platform="Windows">
     <title>Ultimate Doom</title>
     <location_path environment_variable="installlocation" path="DOOM Collector's Edition\Ultimate Doom"/>
