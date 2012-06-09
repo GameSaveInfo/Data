@@ -607,23 +607,35 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="Blackwell3ConvergenceRemastered" platform="Windows">
-    <title>Blackwell Episode 3: Blackwell Convergence (Remastered)</title>
-    <location_path environment_variable="steamcommon" path="blackwell convergence"/>
-    <save path="Saves"/>
+  <game name="BlackwellConvergence" platform="Windows">
+    <title>Blackwell Convergence</title>
+    <location_path environment_variable="steamcommon" path="blackwell convergence\Saves"/>
+    <location_path environment_variable="savedgames" path="Blackwell Convergence"/>
+    <save />
     <contributor>Arc Angel</contributor>
+    <contributor>SanMadJack</contributor>
   </game>
-  <game name="Blackwell1LegacyRemastered" platform="Windows">
-    <title>Blackwell Episode 1: The Blackwell Legacy (Remastered)</title>
-    <location_path environment_variable="steamcommon" path="blackwell legacy"/>
-    <save path="Saves"/>
+  <game name="BlackwellLegacy" platform="Windows">
+    <title>The Blackwell Legacy</title>
+    <location_path environment_variable="steamcommon" path="blackwell legacy\Saves"/>
+    <location_path environment_variable="savedgames" path="Blackwell Legacy v1.7"/>
+    <save />
     <contributor>Arc Angel</contributor>
+    <contributor>SanMadJack</contributor>
   </game>
-  <game name="Blackwell2UnboundRemastered" platform="Windows">
-    <title>Blackwell Episode 2: Blackwell Unbound (Remastered)</title>
-    <location_path environment_variable="steamcommon" path="blackwell unbound"/>
-    <save path="Saves"/>
+  <game name="BlackwellUnbound" platform="Windows">
+    <title>Blackwell Unbound</title>
+    <location_path environment_variable="steamcommon" path="blackwell unbound\Saves"/>
+    <location_path environment_variable="savedgames" path="Blackwell Unbound"/>
+    <save />
     <contributor>Arc Angel</contributor>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="BlackwellDeception" platform="Windows">
+    <title>Blackwell Deception</title>
+    <location_path environment_variable="savedgames" path="Blackwell Deception"/>
+    <save />
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="BladeRunner" platform="Windows">
     <title>Blade Runner</title>
@@ -4548,10 +4560,13 @@
   </game>
   <game name="SuperMeatBoy" platform="Windows">
     <title>Super Meat Boy</title>
+    <location_path environment_variable="installlocation" path="Team Meat\SuperMeatBoy"/>
     <location_path environment_variable="steamcommon" path="super meat boy"/>
     <location_registry root="local_machine" key="SOFTWARE\TeamMeat\SuperMeatBoy" value="Install_Path"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\Team Meat\SuperMeatBoy\Super Meat Boy.lnk"/>
     <save path="UserData"/>
     <contributor>Arc Angel</contributor>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="SupremeCommander" platform="Windows">
     <title>Supreme Commander</title>

@@ -7,6 +7,12 @@
     <save filename="hl2d_settings.sol" type="Settings"/>
     <contributor>AvvA</contributor>
   </game>
+  <game name="LoneSurvivor" platform="Flash">
+    <title>Lone Survivor</title>
+    <location_path environment_variable="appdata" path="\LoneSurvivor"/>
+    <save path="Local Store\Lone Survivor Saved Game"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="Machinarium" platform="Flash">
     <title>Machinarium</title>
     <location_path environment_variable="flashshared" path="localhost\steam\steamapps\common\machinarium"/>

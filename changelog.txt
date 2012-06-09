@@ -1,6 +1,7 @@
 New Windows Games:
 * Alan Wake - GoG only
 * Alan Wake American Nightmare - GoG only
+* Blackwell Deception
 * Bastion - Vista/7 only
 * Dear Esther - Steam only
 * Dinner Date - Steam only
@@ -12,12 +13,16 @@ New Windows Games:
 New DOS Games:
 * Full Throttle
 * Sam & Max Hit The Road
+New Flash Games:
+* Lone Survivor
 Updated Windows Games:
+* Blackwell Trilogy - Updated for regular installs
 * Cryostasis - Added GoG info
 * King's Quest 1-6 - Added ScummVM info
 * Limbo - Added downloaded install info
 * Return to Zork - Added ScummVM info
 * Space Quest 1-5 - Added ScummVM info
+* Super Meat Boy - Added normal install info
 =2012/5/21=
 New Windows Games:
 * 18 Wheels of Steel: Extreme Trucker - Contributed by AdmiringWorm
