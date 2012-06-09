@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-04-27T00:00:00">
   <!--This file contains games that are expansions for other games-->
-  <game name="AgeOfMythologyTheTitansExpansion" platform="Windows">
+  <game name="AgeOfMythologyTheTitansExpansion" platform="Windows" type="Expansion">
     <title>Age of Mythology: The Titans Expansion</title>
     <location_path environment_variable="userdocuments" path="My Games\Age of Mythology"/>
     <save path="Savegame" filename="*.svx"/>
     <save path="Savegame" filename="*.rcx"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="AliensVsPredator2PrimalHunt" platform="Windows">
+  <game name="AliensVsPredator2PrimalHunt" platform="Windows" type="Expansion">
     <title>Aliens vs. Predator 2: Primal Hunt</title>
     <location_path environment_variable="installlocation" path="Fox\Aliens versus Predator 2 - Primal Hunt"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\AVP2X" value="Directory"/>
@@ -18,7 +18,7 @@
     <save path="Profiles"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Civilization3Conquests" platform="Windows">
+  <game name="Civilization3Conquests" platform="Windows" type="Expansion">
     <title>Sid Meier's Civilization III: Conquests</title>
     <location_path environment_variable="installlocation" path="Firaxis Games\Civilization III Complete\Conquests"/>
     <location_registry root="local_machine" key="SOFTWARE\Infogrames\Conquests" value="Install_Path"/>
@@ -27,7 +27,7 @@
     <save path="Saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Civilization3PlayTheWorld" platform="Windows">
+  <game name="Civilization3PlayTheWorld" platform="Windows" type="Expansion">
     <title>Sid Meier's Civilization III: Play The World</title>
     <location_path environment_variable="installlocation" path="Firaxis Games\Civilization III Complete\civ3PTW"/>
     <location_registry root="local_machine" key="SOFTWARE\Infogrames\Civ3PTW" value="Install_Path"/>
@@ -36,45 +36,45 @@
     <save path="Saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Civilization4BeyondTheSword" platform="Windows">
+  <game name="Civilization4BeyondTheSword" platform="Windows" type="Expansion">
     <title>Sid Meier's Civilization IV: Beyond the Sword</title>
     <location_path environment_variable="userdocuments" path="My Games\Beyond the Sword"/>
     <save path="Saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Civilization4Warlords" platform="Windows">
+  <game name="Civilization4Warlords" platform="Windows" type="Expansion">
     <title>Sid Meier's Civilization IV: Warlords</title>
     <location_path environment_variable="userdocuments" path="My Games\Warlords"/>
     <save path="Saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="CommandAndConquer3KanesWrath" platform="Windows">
+  <game name="CommandAndConquer3KanesWrath" platform="Windows" type="Expansion">
     <title>Command &amp; Conquer 3: Kane's Wrath</title>
     <location_path environment_variable="savedgames" path="Command &amp; Conquer 3 Kane's Wrath" platform_version="Vista"/>
     <save/>
     <contributor>Paul Taylor</contributor>
   </game>
-  <game name="CommandAndConquerGeneralsZeroHour" platform="Windows">
+  <game name="CommandAndConquerGeneralsZeroHour" platform="Windows" type="Expansion">
     <title>Command &amp; Conquer: Generals - Zero Hour</title>
     <location_path environment_variable="userdocuments" path="Command and Conquer Generals Zero Hour Data"/>
     <save path="Save"/>
     <save filename="SkirmishStats.ini" type="Statistics"/>
     <contributor>duncans_pumpkin</contributor>
   </game>
-  <game name="CounterStrikeConditionZeroDeletedScenes" platform="Windows">
+  <game name="CounterStrikeConditionZeroDeletedScenes" platform="Windows" type="Expansion">
     <title>Counter-Strike: Condition Zero: Deleted Scenes</title>
     <location_path environment_variable="steamuser" path="condition zero deleted scenes\czeror"/>
     <identifier path="SAVE"/>
     <save path="SAVE"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DeusExHumanRevolutionTheMissingLink" platform="Steam">
+  <game name="DeusExHumanRevolutionTheMissingLink" platform="Steam" type="Expansion">
     <title>Deus Ex: Human Revolution - The Missing Link</title>
     <location_path environment_variable="steamuserdata" path="201280"/>
     <save/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DiabloHellfire" platform="Windows">
+  <game name="DiabloHellfire" platform="Windows" type="Expansion">
     <title>Diablo: Hellfire</title>
     <location_path environment_variable="installlocation" path="SIERRA\HELLFIRE"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\HELLFIRE" value="Directory"/>
@@ -82,7 +82,7 @@
     <save filename="*.hsv"/>
     <contributor>Mark Barbour</contributor>
   </game>
-  <game name="EmpireEarth2TheArtOfSupremacy" platform="Windows">
+  <game name="EmpireEarth2TheArtOfSupremacy" platform="Windows" type="Expansion">
     <title>Empire Earth II: The Art of Supremacy</title>
     <location_path environment_variable="userdocuments" path="Empire Earth II The Art of Supremacy"/>
     <save path="savegame*"/>
@@ -92,7 +92,7 @@
     <save path="scenario*" type="Scenarios"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="EmpireEarthTheArtOfConquest" platform="Windows">
+  <game name="EmpireEarthTheArtOfConquest" platform="Windows" type="Expansion">
     <title>Empire Earth: The Art of Conquest</title>
     <location_path environment_variable="installlocation" path="GOG.com\Empire Earth Gold Edition\Empire Earth - The Art of Conquest"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGEMPIREEARTHADDON" value="PATH"/>
@@ -104,7 +104,7 @@
     <save path="Users\*\Civilizations" type="Civilizations"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="FEARExtractionPoint" platform="Windows">
+  <game name="FEARExtractionPoint" platform="Windows" type="Expansion">
     <title>F.E.A.R.: Extraction Point</title>
     <location_path environment_variable="public" path="Documents\TimeGate Studios\FEARXP" platform_version="Vista"/>
     <location_path environment_variable="allusersprofile" path="Documents\TimeGate Studios\FEARXP" platform_version="XP"/>
@@ -113,13 +113,13 @@
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="GalacticCivilizations2DarkAvatar" platform="Windows">
+  <game name="GalacticCivilizations2DarkAvatar" platform="Windows" type="Expansion">
     <title>Galactic Civilizations II: Dark Avatar</title>
     <location_path environment_variable="userdocuments" path="My Games\GC2DarkAvatar"/>
     <save/>
     <contributor>Mark Barbour</contributor>
   </game>
-  <game name="GhostReconDesertSiege" platform="Windows">
+  <game name="GhostReconDesertSiege" platform="Windows" type="Expansion">
     <title>Tom Clancy's Ghost Recon: Desert Siege</title>
     <location_game name="GhostRecon" platform="Windows"/>
     <identifier path="Mods\Mp1"/>
@@ -127,7 +127,7 @@
     <save path="Mods\Mp1\save\replay" type="Replays"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="GhostReconIslandThunder" platform="Windows">
+  <game name="GhostReconIslandThunder" platform="Windows" type="Expansion">
     <title>Tom Clancy's Ghost Recon: Island Thunder</title>
     <location_game name="GhostRecon" platform="Windows"/>
     <identifier path="Mods\Mp2"/>
@@ -135,7 +135,7 @@
     <save path="Mods\Mp2\save\replay" type="Replays"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="HaegemoniaTheSolonHeritage" platform="Windows">
+  <game name="HaegemoniaTheSolonHeritage" platform="Windows" type="Expansion">
     <title>Haegemonia: The Solon Heritage</title>
     <location_path environment_variable="installlocation" path="GOG.com\Haegemonia Gold Edition\Haegemonia - The Solon Heritage"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGHAEGEMONIATSH" value="PATH"/>
@@ -144,7 +144,7 @@
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="HalfLifeBlueShift" platform="Windows">
+  <game name="HalfLifeBlueShift" platform="Windows" type="Expansion">
     <title>Half-Life: Blue Shift</title>
     <location_path environment_variable="installlocation" path="Sierra\Half-Life\bshift"/>
     <location_path environment_variable="steamuser" path="half-life blue shift\bshift"/>
@@ -153,7 +153,7 @@
     <contributor>SanMadJack</contributor>
     <contributor>Scandalon</contributor>
   </game>
-  <game name="HalfLifeOpposingForce" platform="Windows">
+  <game name="HalfLifeOpposingForce" platform="Windows" type="Expansion">
     <title>Half-Life: Opposing Force</title>
     <location_path environment_variable="installlocation" path="Sierra\Half-Life\gearbox"/>
     <location_path environment_variable="steamuser" path="opposing force\gearbox"/>
@@ -162,7 +162,7 @@
     <contributor>SanMadJack</contributor>
     <contributor>Scandalon</contributor>
   </game>
-  <game name="HeartsOfIron2Doomsday" platform="Windows">
+  <game name="HeartsOfIron2Doomsday" platform="Windows" type="Expansion">
     <title>Hearts of Iron II: Doomsday</title>
     <location_path environment_variable="installlocation" path="Paradox Interactive\Doomsday"/>
     <location_registry root="local_machine" key="SOFTWARE\Paradox Interactive\Doomsday" value="path"/>
@@ -172,7 +172,7 @@
     <save path="scenarios\save games"/>
     <contributor>Craig Schlieve</contributor>
   </game>
-  <game name="HomeworldCataclysm" platform="Windows">
+  <game name="HomeworldCataclysm" platform="Windows" type="Expansion">
     <title>Homeworld: Cataclysm</title>
     <location_path environment_variable="installlocation" path="SIERRA\Cataclysm"/>
     <location_registry root="local_machine" key="SOFTWARE\Sierra On-Line\Cataclysm" value="HW_Data"/>
@@ -181,13 +181,13 @@
     <save path="SavedGames"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="IndependenceWarDefiance" platform="Windows">
+  <game name="IndependenceWarDefiance" platform="Windows" type="Expansion">
     <title>Independence War: Defiance</title>
     <location_game name="IndependenceWar" platform="Windows" append="Defiance"/>
     <save path="psg" filename="*.sav"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="MechWarrior2GhostBearsLegacy" platform="Windows">
+  <game name="MechWarrior2GhostBearsLegacy" platform="Windows" type="Expansion">
     <title>MechWarrior 2: Ghost Bear's Legacy</title>
     <location_path environment_variable="installlocation" path="Activision\Ghost Bear"/>
     <location_shortcut environment_variable="startmenu" path="Programs\Ghost Bear's Legacy\Ghost Bear's Legacy.lnk"/>
@@ -197,7 +197,7 @@
     <save filename="MW2REG.CFG" type="Settings"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="MechWarrior2GhostBearsLegacyTitanium" platform="Windows">
+  <game name="MechWarrior2GhostBearsLegacyTitanium" platform="Windows" type="Expansion">
     <title>MechWarrior 2: Ghost Bear's Legacy: Titanium Edition</title>
     <location_path environment_variable="installlocation" path="Activision\Titanium\GhostBearsLegacy"/>
     <location_path environment_variable="installlocation" path="MechVM\games\mw2-gbl-tt"/>
@@ -208,7 +208,7 @@
     <save filename="MW2REG.CFG" type="Settings"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="MechWarrior3PiratesMoon" platform="Windows">
+  <game name="MechWarrior3PiratesMoon" platform="Windows" type="Expansion">
     <title>MechWarrior 3: Pirate's Moon</title>
     <location_path environment_variable="installlocation" path="MicroProse\MechWarrior 3 Pirate's Moon"/>
     <save path="Keys" type="Settings"/>
@@ -216,7 +216,7 @@
     <save path="pilots"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="MechWarrior4BlackKnight" platform="Windows">
+  <game name="MechWarrior4BlackKnight" platform="Windows" type="Expansion">
     <title>MechWarrior 4: Black Knight</title>
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\MechWarrior Black Knight" value="EXE Path"/>
     <location_game name="MechWarrior4Vengeance" platform="Windows"/>
@@ -226,48 +226,48 @@
     <save path="resource\Variantsx" type="Mechs"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Medieval2TotalWarKingdomsAmericas" platform="Windows">
+  <game name="Medieval2TotalWarKingdomsAmericas" platform="Windows" type="Expansion">
     <title>Medieval II: Total War: Kingdoms - Americas</title>
     <location_game name="Medieval2TotalWar" platform="Windows" append="mods\americas"/>
     <save path="preferences" type="Settings"/>
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Medieval2TotalWarKingdomsBritannia" platform="Windows">
+  <game name="Medieval2TotalWarKingdomsBritannia" platform="Windows" type="Expansion">
     <title>Medieval II: Total War: Kingdoms - Britannia</title>
     <location_game name="Medieval2TotalWar" platform="Windows" append="mods\british_isles"/>
     <save path="preferences" type="Settings"/>
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Medieval2TotalWarKingdomsCrusades" platform="Windows">
+  <game name="Medieval2TotalWarKingdomsCrusades" platform="Windows" type="Expansion">
     <title>Medieval II: Total War: Kingdoms - Crusades</title>
     <location_game name="Medieval2TotalWar" platform="Windows" append="mods\crusades"/>
     <save path="preferences" type="Settings"/>
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Medieval2TotalWarKingdomsTeutonic" platform="Windows">
+  <game name="Medieval2TotalWarKingdomsTeutonic" platform="Windows" type="Expansion">
     <title>Medieval II: Total War: Kingdoms - Teutonic</title>
     <location_game name="Medieval2TotalWar" platform="Windows" append="mods\teutonic"/>
     <save path="preferences" type="Settings"/>
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="PainkillerRedemption" platform="Windows">
+  <game name="PainkillerRedemption" platform="Windows" type="Expansion">
     <title>Painkiller: Redemption</title>
     <location_path environment_variable="localappdata" path="Painkiller Redemption"/>
     <save path="Saves"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="PenumbraRequiem" platform="Windows">
+  <game name="PenumbraRequiem" platform="Windows" type="Expansion">
     <title>Penumbra: Requiem</title>
     <location_path environment_variable="userdocuments" path="Penumbra\Requiem"/>
     <save filename="settings.cfg" type="Settings"/>
     <save path="save"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Postal2ApocalypseWeekend" platform="Windows">
+  <game name="Postal2ApocalypseWeekend" platform="Windows" type="Expansion">
     <title>Postal 2: Apocalypse Weekend</title>
     <location_registry root="local_machine" key="SOFTWARE\Running With Scissors\Postal2AW" value="InstallDir"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Postal 2 Share The Pain\Postal 2 Apocalypse Weekend Expansion Pack.lnk" detract="System"/>
@@ -275,14 +275,14 @@
     <save path="AWSave"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RainbowSix3AthenaSword" platform="Windows">
+  <game name="RainbowSix3AthenaSword" platform="Windows" type="Expansion">
     <title>Tom Clancy's Rainbow Six 3: Athena Sword</title>
     <location_game name="RainbowSix3RavenShield" platform="Windows"/>
     <identifier path="Mods" filename="AthenaSword.mod"/>
     <save path="Save\campaigns\AthenaSword" filename="*"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="RedneckRampageRidesAgain" platform="DOS">
+  <game name="RedneckRampageRidesAgain" platform="DOS" type="Expansion">
     <title>Redneck Rampage Rides Again</title>
     <location_path environment_variable="installlocation" path="GOG.com\Redneck Rampage Collection\Redneck Rides Again"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGCREDNECKRIDESAGAIN" value="PATH"/>
@@ -291,7 +291,7 @@
     <save filename="*.CFG" type="Settings"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RomeTotalWarAlexander" platform="Windows">
+  <game name="RomeTotalWarAlexander" platform="Windows" type="Expansion">
     <title>Rome: Total War: Alexander</title>
     <location_registry root="local_machine" key="SOFTWARE\The Creative Assembly\Rome - Total War - Alexander add-on" value="InstallPath" append="alexander"/>
     <location_game name="RomeTotalWar" platform="Windows" append="alexander"/>
@@ -299,39 +299,46 @@
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RomeTotalWarBarbarianInvasion" platform="Windows">
+  <game name="RomeTotalWarBarbarianInvasion" platform="Windows" type="Expansion">
     <title>Rome: Total War: Barbarian Invasion</title>
     <location_game name="RomeTotalWar" platform="Windows" append="bi"/>
     <save path="preferences" type="Settings"/>
     <save path="saves"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="StarWarsEmpireAtWarForcesOfCorruption" platform="Windows">
+  <game name="ShadowgunTheLeftover" platform="Android" type="Expansion">
+    <title>Shadowgun: The Leftover</title>
+    <location_path environment_variable="drive" path="Android\data\com.madfingergames.shadowgun"/>
+    <identifier path="files" filename="SaveGameSinglePlayer1"/>
+    <save path="files" filename="SaveGameSinglePlayer1"/>
+    <contributor>SanMadJack</contributor>
+  </game>
+  <game name="StarWarsEmpireAtWarForcesOfCorruption" platform="Windows" type="Expansion">
     <title>Star Wars: Empire at War - Forces of Corruption</title>
     <location_path environment_variable="savedgames" path="Petroglyph\Empire At War - Forces of Corruption"/>
     <save/>
     <contributor>AvvA</contributor>
   </game>
-  <game name="StarWarsJediKnightMysteriesOfTheSith" platform="Windows">
+  <game name="StarWarsJediKnightMysteriesOfTheSith" platform="Windows" type="Expansion">
     <title>Star Wars: Jedi Knight: Mysteries of the Sith</title>
     <location_path environment_variable="steamcommon" path="jedi knight mysteries of the sith"/>
     <save path="player"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="ThiefGold" platform="Windows">
+  <game name="ThiefGold" platform="Windows" type="Expansion">
     <title>Thief Gold</title>
     <location_path environment_variable="installlocation" path="ThiefG"/>
     <location_shortcut environment_variable="startmenu" path="Programs\Thief Gold\Thief.lnk"/>
     <save path="SAVES"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="TitanQuestImmortalThrone" platform="Windows">
+  <game name="TitanQuestImmortalThrone" platform="Windows" type="Expansion">
     <title>Titan Quest: Immortal Throne</title>
     <location_path environment_variable="userdocuments" path="My Games\Titan Quest - Immortal Throne"/>
     <save/>
     <contributor>slake_jones</contributor>
   </game>
-  <game name="TombRaider2TheGoldenMask" platform="Windows">
+  <game name="TombRaider2TheGoldenMask" platform="Windows" type="Expansion">
     <title>Tomb Raider II: The Golden Mask</title>
     <location_path environment_variable="installlocation" path="Core Design\Tomb Raider II Gold"/>
     <location_registry root="current_user" key="Software\core design\Tomb Raider II Gold" value="GoldPath"/>
@@ -340,13 +347,13 @@
     <save filename="savegame.*"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="TombRaider3TheLostArtifact" platform="Windows">
+  <game name="TombRaider3TheLostArtifact" platform="Windows" type="Expansion">
     <title>Tomb Raider III: The Lost Artifact</title>
     <location_path environment_variable="installlocation" path="Core Design\Tomb Raider - The Lost Artifact"/>
     <save filename="savegame.*"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="TombRaiderUnfinishedBusiness" platform="DOS">
+  <game name="TombRaiderUnfinishedBusiness" platform="DOS" type="Expansion">
     <title>Tomb Raider: Unfinished Business</title>
     <location_game name="TombRaider" platform="DOS"/>
     <identifier filename="SAVEUB.*"/>

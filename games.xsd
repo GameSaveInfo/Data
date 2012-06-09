@@ -280,6 +280,16 @@
       <xs:attribute ref="name" use="required"/>
       <xs:attribute ref="platform" use="optional"/>
       <xs:attribute ref="region" use="optional"/>
+      <xs:attribute name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Game"/>
+            <xs:enumeration value="Expansion"/>
+            <xs:enumeration value="Mod"/>
+            <xs:enumeration value="System"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
       <xs:attribute ref="deprecated" use="optional"/>
     </xs:complexType>
   </xs:element>
