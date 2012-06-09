@@ -2686,6 +2686,12 @@
     <save path="SaveGame"/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="KingArthur2" platform="Windows">
+    <title>King Arthur II: The Role-Playing Wargame</title>
+    <location_path environment_variable="userdocuments" path="NeocoreGames\King Arthur II" />
+    <save path="SaveGame"/>
+    <contributer>Arc Angel</contributer>
+  </game>
   <game name="KingsBountyTheLegend" platform="Windows">
     <title>King's Bounty: The Legend</title>
     <location_path environment_variable="userdocuments" path="My Games\Kings Bounty"/>
