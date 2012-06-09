@@ -153,6 +153,13 @@
     <save />
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="MidnightClub2" platform="Steam">
+    <title>Midnight Club 2</title>
+    <location_path environment_variable="steamcommon" path="Midnight Club 2\userdata" />
+    <save />
+    <ignore path="mp3" />
+    <contributer>Arc Angel</contributer>
+  </game>
   <game name="MonkeyIsland2SpecialEditionLeChucksRevenge" platform="Steam">
     <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
     <location_path environment_variable="steamuserdata" path="32460"/>
