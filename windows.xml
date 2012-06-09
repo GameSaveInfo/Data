@@ -2690,7 +2690,7 @@
     <title>King Arthur II: The Role-Playing Wargame</title>
     <location_path environment_variable="userdocuments" path="NeocoreGames\King Arthur II" />
     <save path="SaveGame"/>
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="KingsBountyTheLegend" platform="Windows">
     <title>King's Bounty: The Legend</title>
@@ -5021,7 +5021,7 @@
     <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\UFO.exe" value="Path" />
     <location_path environment_variable="installlocation" path="CENEGA\UFO Aftermath" />
     <save path="Profiles" />
-    <contributer>Arc Angel</contributer>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="UltimateDoom" platform="Windows">
     <title>Ultimate Doom</title>
