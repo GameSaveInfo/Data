@@ -7,7 +7,13 @@
     <save />
     <contributor>Arc Angel</contributor>
   </game>  
-	<game name="AlienSwarm" platform="Steam">
+  <game name="AlanWakesAmericanNightmare" platform="Steam">
+    <title>Alan Wake's American Nightmare</title>
+    <location_path environment_variable="steamuserdata" path="202750" />
+    <save />
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="AlienSwarm" platform="Steam">
     <title>Alien Swarm</title>
     <location_path environment_variable="steamuserdata" path="630"/>
     <save/>
@@ -121,7 +127,7 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
-	<game name="KingdomsOfAmalurReckoning" platform="Steam">
+  <game name="KingdomsOfAmalurReckoning" platform="Steam">
     <title>Kingdoms of Amalur: Reckoning</title>
     <location_path environment_variable="steamuserdata" path="102500" />
     <save />
@@ -139,6 +145,19 @@
     <title>Limbo</title>
     <location_path environment_variable="steamuserdata" path="48000"/>
     <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="MadballsBaboInvasion" platform="Steam">
+    <title>Madballs in.. BaboInvasion</title>
+    <location_path environment_variable="steamuserdata" path="25700" />
+    <save />
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="MidnightClub2" platform="Steam">
+    <title>Midnight Club 2</title>
+    <location_path environment_variable="steamcommon" path="Midnight Club 2\userdata" />
+    <save />
+    <ignore path="mp3" />
     <contributor>Arc Angel</contributor>
   </game>
   <game name="MonkeyIsland2SpecialEditionLeChucksRevenge" platform="Steam">

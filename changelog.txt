@@ -2,14 +2,24 @@ New Windows Games:
 * Alan Wake - GoG only
 * Alan Wake American Nightmare - GoG only
 * Blackwell Deception
+* ArcaniA (Gothic 4) - Contributed by Arc Angel
+* ArcaniA: Fall of Setarrif - Contributed by Arc Angel
 * Bastion - Vista/7 only
 * Dear Esther - Steam only
 * Dinner Date - Steam only
+* Driver San Francisco - Contributed by Arc Angel
+* Explodemon - Contributed by Arc Angel
 * Full throttle - ScummVM only
+* Jurassic Park: The Game - Contributed by Arc Angel
+* King Arthur II - Contributed by Arc Angel
+* Lone Survivor - Contributed by Arc Angel
 * Normality - GoG only
 * Sam & Max Hit The Road - ScummVM only
 * Superbrothers: Sword & Sorcery
+* The Walking Dead - Contributed by Arc Angel
 * Wing Commander IV: The Price Of Freedom - GoG only
+New Steam Games:
+* Midnight Club II - Contributed by Arc Angel
 New DOS Games:
 * Full Throttle
 * Sam & Max Hit The Road

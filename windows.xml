@@ -289,6 +289,18 @@
     <contributor>Dwight Holman</contributor>
     <contributor>slake_jones</contributor>
   </game>
+  <game name="ArcaniaGothic4" platform="Windows">
+    <title>ArcaniA: Gothic 4</title>
+    <location_path environment_variable="userdocuments" path="ArcaniA - Gothic 4" />
+    <save />
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="ArcaniaFallOfSetarrif" platform="Windows">
+    <title>ArcaniA: Fall of Setarrif</title>
+    <location_path environment_variable="userdocuments" path="ArcaniA - AddOn" />
+    <save />
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="ArcanumOfSteamworksAndMagickObscura" platform="Windows">
     <title>Arcanum: Of Steamworks and Magick Obscura</title>
     <location_path environment_variable="installlocation" path="GOG.com\Arcanum"/>
@@ -1290,6 +1302,12 @@
     <save path="Profiles"/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="DeepBlackReloaded" platform="Windows">
+    <title>Deep Black: Reloaded</title>
+    <location_path environment_variable="userdocuments" path="DeepBlackReloaded" />
+    <save />
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="DeathTrackResurrection" platform="Windows">
     <title>Death Track: Resurrection</title>
     <location_path environment_variable="userdocuments" path="Skyfallen Entertaiment\DeathTrack"/>
@@ -1535,6 +1553,12 @@
     <save filename="*.DPLSave"/>
     <contributor>AdmiringWorm</contributor>
   </game>
+  <game name="DriverSanFrancisco" platform="Windows">
+    <title>Driver San Francisco</title>
+    <location_path environment_variable="userdocuments" path="Ubisoft\Driver San Francisco" />
+    <save />
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="DrugWarsMerchantsOfBrooklyn" platform="Windows">
     <title>Drug Wars: Merchants of Brooklyn</title>
     <location_path environment_variable="userdocuments" path="My Games\MOB"/>
@@ -1760,6 +1784,12 @@
     <title>Exodus from the Earth</title>
     <location_path environment_variable="userdocuments" path="My Games\Exodus"/>
     <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="Explodemon" platform="Windows">
+    <title>Explodemon!</title>
+    <location_path environment_variable="userdocuments" path="EXPLODEMON!" />
+    <save />
     <contributor>Arc Angel</contributor>
   </game>
   <game name="EYEDivineCybermancy" platform="Windows">
@@ -2631,6 +2661,12 @@
     <contributor>Arc Angel</contributor>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="JurassicParkTheGame" platform="Windows">
+    <title>Jurassic Park: The Game</title>
+    <location_path environment_variable="userdocuments" path="Telltale Games\jurassicpark" />
+    <save />
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="JustCause" platform="Windows">
     <title>Just Cause</title>
     <location_path environment_variable="userdocuments" path="JustCause"/>
@@ -2659,6 +2695,12 @@
   <game name="KingArthur" platform="Windows">
     <title>King Arthur: The Role-Playing Wargame</title>
     <location_path environment_variable="userdocuments" path="NeocoreGames\King Arthur"/>
+    <save path="SaveGame"/>
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="KingArthur2" platform="Windows">
+    <title>King Arthur II: The Role-Playing Wargame</title>
+    <location_path environment_variable="userdocuments" path="NeocoreGames\King Arthur II" />
     <save path="SaveGame"/>
     <contributor>Arc Angel</contributor>
   </game>
@@ -2715,6 +2757,12 @@
     <title>Loki</title>
     <location_path environment_variable="steamcommon" path="loki"/>
     <save path="Characters"/>
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="LoneSurvivor" platform="Windows">
+    <title>Lone Survivor</title>
+    <location_path environment_variable="appdata" path="LoneSurvivor" />
+    <save path="Local Store\Lone Survivor Saved Game"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="LongestJourney" platform="Windows">
@@ -3344,6 +3392,12 @@
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Painkiller Black\Painkiller Black.lnk" detract="Bin"/>
     <save path="SaveGames"/>
     <contributor>SanMadJack</contributor>
+  </game>
+  <game name="PainkillerRedemption" platform="Windows">
+    <title>Painkiller: Redemption</title>
+    <location_path environment_variable="localappdata" path="Painkiller Redemption"/>
+    <save path="Saves"/>
+    <contributor>Arc Angel</contributor>
   </game>
   <game name="Path" platform="Windows">
     <title>The Path</title>
@@ -4977,6 +5031,13 @@
     <save/>
     <contributor>Arc Angel</contributor>
   </game>
+  <game name="UFOAftermath" platform="Windows">
+    <title>UFO: Aftermath</title>
+    <location_registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\UFO.exe" value="Path" />
+    <location_path environment_variable="installlocation" path="CENEGA\UFO Aftermath" />
+    <save path="Profiles" />
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="UltimateDoom" platform="Windows">
     <title>Ultimate Doom</title>
     <location_path environment_variable="installlocation" path="DOOM Collector's Edition\Ultimate Doom"/>
@@ -5126,6 +5187,12 @@
     <title>The Void</title>
     <location_path environment_variable="userdocuments" path="My Games\Void"/>
     <save/>
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="WalkingDead" platform="Windows">
+    <title>The Walking Dead</title>
+    <location_path environment_variable="userdocuments" path="Telltale Games\The Walking Dead" />
+    <save />
     <contributor>Arc Angel</contributor>
   </game>
   <game name="WallaceAndGrommitsGrandAdventures1" platform="Windows">
