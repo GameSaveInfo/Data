@@ -10,12 +10,15 @@ New Windows Games:
 * Explodemon - Contributed by Arc Angel
 * Full throttle - ScummVM only
 * Jurassic Park: The Game - Contributed by Arc Angel
+* King Arthur II - Contributed by Arc Angel
 * Lone Survivor - Contributed by Arc Angel
 * Normality - GoG only
 * Sam & Max Hit The Road - ScummVM only
 * Superbrothers: Sword & Sorcery
 * The Walking Dead - Contributed by Arc Angel
 * Wing Commander IV: The Price Of Freedom - GoG only
+New Steam Games:
+* Midnight Club II
 New DOS Games:
 * Full Throttle
 * Sam & Max Hit The Road
