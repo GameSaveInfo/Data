@@ -639,21 +639,24 @@
   <game name="BlackwellConvergence" platform="Windows" type="Game">
     <title>Blackwell Convergence</title>
     <location_path environment_variable="steamcommon" path="blackwell convergence\Saves"/>
-    <location_path environment_variable="savedgames" path="Blackwell Convergence"/>
+    <location_path environment_variable="savedgames" path="Blackwell Convergence" platform_version="Vista"/>
+    <location_path environment_variable="userdocuments" path="My Saved Games\Blackwell Convergence" platform_version="XP"/>
     <save/>
     <contributor>Arc Angel</contributor>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="BlackwellDeception" platform="Windows" type="Game">
     <title>Blackwell Deception</title>
-    <location_path environment_variable="savedgames" path="Blackwell Deception"/>
+    <location_path environment_variable="savedgames" path="Blackwell Deception" platform_version="Vista"/>
+    <location_path environment_variable="userdocuments" path="My Saved Games\Blackwell Deception" platform_version="XP"/>
     <save/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="BlackwellLegacy" platform="Windows" type="Game">
     <title>The Blackwell Legacy</title>
     <location_path environment_variable="steamcommon" path="blackwell legacy\Saves"/>
-    <location_path environment_variable="savedgames" path="Blackwell Legacy v1.7"/>
+    <location_path environment_variable="savedgames" path="Blackwell Legacy v1.7" platform_version="Vista"/>
+    <location_path environment_variable="userdocuments" path="My Saved Games\Blackwell Legacy v1.7" platform_version="XP"/>
     <save/>
     <contributor>Arc Angel</contributor>
     <contributor>SanMadJack</contributor>
@@ -661,7 +664,8 @@
   <game name="BlackwellUnbound" platform="Windows" type="Game">
     <title>Blackwell Unbound</title>
     <location_path environment_variable="steamcommon" path="blackwell unbound\Saves"/>
-    <location_path environment_variable="savedgames" path="Blackwell Unbound"/>
+    <location_path environment_variable="savedgames" path="Blackwell Unbound" platform_version="Vista"/>
+    <location_path environment_variable="userdocuments" path="My Saved Games\Blackwell Unbound" platform_version="XP"/>
     <save/>
     <contributor>Arc Angel</contributor>
     <contributor>SanMadJack</contributor>
