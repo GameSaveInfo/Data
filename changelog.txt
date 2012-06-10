@@ -25,6 +25,11 @@ New DOS Games:
 * Sam & Max Hit The Road
 New Flash Games:
 * Lone Survivor
+New Android Games:
+* Galaxy on Fire 2
+* Grand Theft Auto 3
+* Shadowgun
+* Minecraft
 Updated Windows Games:
 * Blackwell Trilogy - Updated for regular installs
 * Cryostasis - Added GoG info

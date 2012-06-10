@@ -1,337 +1,337 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
   <!--This file contains PlayStation 2 games-->
-  <game name="AlterEcho" platform="PS2" region="USA">
+  <game name="AlterEcho" platform="PS2" region="USA" type="Game">
     <title>Alter Echo</title>
     <ps_code prefix="SLUS" suffix="20465"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="BeyondGoodAndEvil" platform="PS2" region="USA">
+  <game name="BeyondGoodAndEvil" platform="PS2" region="USA" type="Game">
     <title>Beyond Good &amp; Evil</title>
     <ps_code prefix="SLUS" suffix="20763"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Bouncer" platform="PS2" region="USA">
+  <game name="Bouncer" platform="PS2" region="USA" type="Game">
     <title>The Bouncer</title>
     <ps_code prefix="SLUS" suffix="20069"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DarkCloud" platform="PS2" region="USA">
+  <game name="DarkCloud" platform="PS2" region="USA" type="Game">
     <title>Dark Cloud</title>
     <ps_code prefix="SCUS" suffix="97111"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DarkCloud2" platform="PS2" region="USA">
+  <game name="DarkCloud2" platform="PS2" region="USA" type="Game">
     <title>Dark Cloud 2</title>
     <ps_code prefix="SCUS" suffix="97213"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DeusEx" platform="PS2" region="USA">
+  <game name="DeusEx" platform="PS2" region="USA" type="Game">
     <title>Deus Ex: The Conspiracy</title>
     <ps_code prefix="SLUS" suffix="20111"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DevilMayCry" platform="PS2" region="USA">
+  <game name="DevilMayCry" platform="PS2" region="USA" type="Game">
     <title>Devil May Cry</title>
     <ps_code prefix="SLUS" suffix="20216"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DevilMayCry2" platform="PS2" region="USA">
+  <game name="DevilMayCry2" platform="PS2" region="USA" type="Game">
     <title>Devil May Cry 2</title>
     <ps_code prefix="SLUS" suffix="20484"/>
     <ps_code prefix="SLUS" suffix="20627"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DevilMayCry3DantesAwakeningSpecialEdition" platform="PS2" region="USA">
+  <game name="DevilMayCry3DantesAwakeningSpecialEdition" platform="PS2" region="USA" type="Game">
     <title>Devil May Cry 3: Dante's Awakening: Special Edition</title>
     <ps_code prefix="SLUS" suffix="21361"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DirgeOfCerberusFinalFantasy7" platform="PS2" region="USA">
+  <game name="DirgeOfCerberusFinalFantasy7" platform="PS2" region="USA" type="Game">
     <title>Dirge of Cerberus: Final Fantasy VII</title>
     <ps_code prefix="SLUS" suffix="21419"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Disgaea2CursedMemories" platform="PS2" region="USA">
+  <game name="Disgaea2CursedMemories" platform="PS2" region="USA" type="Game">
     <title>Disgaea 2: Cursed Memories</title>
     <ps_code prefix="SLUS" suffix="21397"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DisgaeaHourOfDarkness" platform="PS2" region="USA">
+  <game name="DisgaeaHourOfDarkness" platform="PS2" region="USA" type="Game">
     <title>Disgaea: Hour of Darkness</title>
     <ps_code prefix="SLUS" suffix="20666"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="DragonQuest8JourneyOfTheCursedKing" platform="PS2" region="USA">
+  <game name="DragonQuest8JourneyOfTheCursedKing" platform="PS2" region="USA" type="Game">
     <title>Dragon Quest VIII: Journey of the Cursed King</title>
     <ps_code prefix="SLUS" suffix="21207"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="EscapeFromMonkeyIsland" platform="PS2" region="USA">
+  <game name="EscapeFromMonkeyIsland" platform="PS2" region="USA" type="Game">
     <title>Escape From Monkey Island</title>
     <ps_code prefix="SLUS" suffix="20181"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="FinalFantasy10" platform="PS2" region="USA">
+  <game name="FinalFantasy10" platform="PS2" region="USA" type="Game">
     <title>Final Fantasy X</title>
     <ps_code prefix="SLUS" suffix="20312"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="FinalFantasy10-2" platform="PS2" region="USA">
+  <game name="FinalFantasy10-2" platform="PS2" region="USA" type="Game">
     <title>Final Fantasy X-2</title>
     <ps_code prefix="SLUS" suffix="20672"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="FinalFantasy12" platform="PS2" region="USA">
+  <game name="FinalFantasy12" platform="PS2" region="USA" type="Game">
     <title>Final Fantasy XII</title>
     <ps_code prefix="SLUS" suffix="20963"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Frequency" platform="PS2" region="USA">
+  <game name="Frequency" platform="PS2" region="USA" type="Game">
     <title>Frequency</title>
     <ps_code prefix="SCUS" suffix="97125"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="GodOfWar" platform="PS2" region="USA">
+  <game name="GodOfWar" platform="PS2" region="USA" type="Game">
     <title>God of War</title>
     <ps_code prefix="SCUS" suffix="97399"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="GodOfWar2" platform="PS2" region="USA">
+  <game name="GodOfWar2" platform="PS2" region="USA" type="Game">
     <title>God of War II</title>
     <ps_code prefix="SCUS" suffix="97481"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="HalfLife" platform="PS2" region="USA">
+  <game name="HalfLife" platform="PS2" region="USA" type="Game">
     <title>Half-Life</title>
     <ps_code prefix="SLUS" suffix="20066"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Ico" platform="PS2" region="USA">
+  <game name="Ico" platform="PS2" region="USA" type="Game">
     <title>Ico</title>
     <ps_code prefix="SCUS" suffix="97113"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="IndigoProphecy" platform="PS2" region="USA">
+  <game name="IndigoProphecy" platform="PS2" region="USA" type="Game">
     <title>Indigo Prophecy</title>
     <ps_code prefix="SLUS" suffix="21196"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Jak2" platform="PS2" region="USA">
+  <game name="Jak2" platform="PS2" region="USA" type="Game">
     <title>Jak II</title>
     <ps_code prefix="SCUS" suffix="97265"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Jak3" platform="PS2" region="USA">
+  <game name="Jak3" platform="PS2" region="USA" type="Game">
     <title>Jak 3</title>
     <ps_code prefix="SCUS" suffix="97330"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="JakAndDaxterPrecursorLegacy" platform="PS2" region="USA">
+  <game name="JakAndDaxterPrecursorLegacy" platform="PS2" region="USA" type="Game">
     <title>Jak and Daxter: The Precursor Legacy</title>
     <ps_code prefix="SCUS" suffix="97124"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="JakXCombatRacing" platform="PS2" region="USA">
+  <game name="JakXCombatRacing" platform="PS2" region="USA" type="Game">
     <title>Jak X: Combat Racing</title>
     <ps_code prefix="SCUS" suffix="97429"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Killer7" platform="PS2" region="USA">
+  <game name="Killer7" platform="PS2" region="USA" type="Game">
     <title>Killer 7</title>
     <ps_code prefix="SLUS" suffix="21154"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="KingdomHearts" platform="PS2" region="USA">
+  <game name="KingdomHearts" platform="PS2" region="USA" type="Game">
     <title>Kingdom Hearts</title>
     <ps_code prefix="SLUS" suffix="20370"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="KingdomHearts2" platform="PS2" region="USA">
+  <game name="KingdomHearts2" platform="PS2" region="USA" type="Game">
     <title>Kingdom Hearts II</title>
     <ps_code prefix="SLUS" suffix="21005"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="KingdomHeartsReChainOfMemories" platform="PS2" region="USA">
+  <game name="KingdomHeartsReChainOfMemories" platform="PS2" region="USA" type="Game">
     <title>Kingdom Hearts: Re: Chain of Memories</title>
     <ps_code prefix="SLUS" suffix="21799"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="MetalGearSolid2Substance" platform="PS2" region="USA">
+  <game name="MetalGearSolid2Substance" platform="PS2" region="USA" type="Game">
     <title>Metal Gear Solid 2: Substance</title>
     <ps_code prefix="SLUS" suffix="20554"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="MetalGearSolid3Subsistence" platform="PS2" region="USA">
+  <game name="MetalGearSolid3Subsistence" platform="PS2" region="USA" type="Game">
     <title>Metal Gear Solid 3: Subsistence</title>
     <ps_code prefix="SLUS" suffix="21359"/>
     <ps_code prefix="SLUS" suffix="21243"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="OkageShadowKing" platform="PS2" region="USA">
+  <game name="OkageShadowKing" platform="PS2" region="USA" type="Game">
     <title>Okage: Shadow King</title>
     <ps_code prefix="SCUS" suffix="97129"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Okami" platform="PS2" region="USA">
+  <game name="Okami" platform="PS2" region="USA" type="Game">
     <title>Okami</title>
     <ps_code prefix="SLUS" suffix="21115"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="PrinceOfPersiaSandsOfTime" platform="PS2" region="USA">
+  <game name="PrinceOfPersiaSandsOfTime" platform="PS2" region="USA" type="Game">
     <title>Prince of Persia: The Sands of Time</title>
     <ps_code prefix="SLUS" suffix="20743"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="PrinceOfPersiaTwoThrones" platform="PS2" region="USA">
+  <game name="PrinceOfPersiaTwoThrones" platform="PS2" region="USA" type="Game">
     <title>Prince of Persia: The Two Thrones</title>
     <ps_code prefix="SLUS" suffix="21287"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="PrinceOfPersiaWarriorWithin" platform="PS2" region="USA">
+  <game name="PrinceOfPersiaWarriorWithin" platform="PS2" region="USA" type="Game">
     <title>Prince of Persia: Warrior Within</title>
     <ps_code prefix="SLUS" suffix="21022"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Psychonauts" platform="PS2" region="USA">
+  <game name="Psychonauts" platform="PS2" region="USA" type="Game">
     <title>Psychonauts</title>
     <ps_code prefix="SLUS" suffix="21120"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RatchetClank" platform="PS2" region="USA">
+  <game name="RatchetClank" platform="PS2" region="USA" type="Game">
     <title>Ratchet &amp; Clank</title>
     <ps_code prefix="SCUS" suffix="97199"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RatchetClankGoingCommando" platform="PS2" region="USA">
+  <game name="RatchetClankGoingCommando" platform="PS2" region="USA" type="Game">
     <title>Ratchet &amp; Clank: Going Commando</title>
     <ps_code prefix="SCUS" suffix="97268"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RatchetClankUpYourArsenal" platform="PS2" region="USA">
+  <game name="RatchetClankUpYourArsenal" platform="PS2" region="USA" type="Game">
     <title>Ratchet &amp; Clank: Up Your Arsenal</title>
     <ps_code prefix="SCUS" suffix="97353"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RatchetDeadlocked" platform="PS2" region="USA">
+  <game name="RatchetDeadlocked" platform="PS2" region="USA" type="Game">
     <title>Ratchet: Deadlocked</title>
     <ps_code prefix="SCUS" suffix="97465"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="ResidentEvil4" platform="PS2" region="USA">
+  <game name="ResidentEvil4" platform="PS2" region="USA" type="Game">
     <title>Resident Evil 4</title>
     <ps_code prefix="SLUS" suffix="21134"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="ResidentEvilCodeVeronicaX" platform="PS2" region="USA">
+  <game name="ResidentEvilCodeVeronicaX" platform="PS2" region="USA" type="Game">
     <title>Resident Evil: Code Veronica X</title>
     <ps_code prefix="SLUS" suffix="20184"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RogueGalaxy" platform="PS2" region="USA">
+  <game name="RogueGalaxy" platform="PS2" region="USA" type="Game">
     <title>Rogue Galaxy</title>
     <ps_code prefix="SCUS" suffix="97490"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="RuleOfRose" platform="PS2" region="USA">
+  <game name="RuleOfRose" platform="PS2" region="USA" type="Game">
     <title>Rule Of Rose</title>
     <ps_code prefix="SLUS" suffix="21448"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="ShadowOfTheColossus" platform="PS2" region="USA">
+  <game name="ShadowOfTheColossus" platform="PS2" region="USA" type="Game">
     <title>Shadow of the Colossus</title>
     <ps_code prefix="SCUS" suffix="97472"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="SilentHill2GreatestHits" platform="PS2" region="USA">
+  <game name="SilentHill2GreatestHits" platform="PS2" region="USA" type="Game">
     <title>Silent Hill 2: Greatest Hits Edition</title>
     <ps_code prefix="SLUS" suffix="20228"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="SilentHill3" platform="PS2" region="USA">
+  <game name="SilentHill3" platform="PS2" region="USA" type="Game">
     <title>Silent Hill 3</title>
     <ps_code prefix="SLUS" suffix="20622"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="SilentHill4Room" platform="PS2" region="USA">
+  <game name="SilentHill4Room" platform="PS2" region="USA" type="Game">
     <title>Silent Hill 4: The Room</title>
     <ps_code prefix="SLUS" suffix="20873"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="SilentHillShatteredMemories" platform="PS2" region="USA">
+  <game name="SilentHillShatteredMemories" platform="PS2" region="USA" type="Game">
     <title>Silent Hill: Shattered Memories</title>
     <ps_code prefix="SLUS" suffix="21899"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="SlyCooperAndtheThievusRaccoonus" platform="PS2" region="USA">
+  <game name="SlyCooperAndtheThievusRaccoonus" platform="PS2" region="USA" type="Game">
     <title>Sky Cooper and the Thievus Raccoonus</title>
     <ps_code prefix="SCUS" suffix="97198"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="SoulCalibur3" platform="PS2" region="USA">
+  <game name="SoulCalibur3" platform="PS2" region="USA" type="Game">
     <title>Soul Calibur III</title>
     <ps_code prefix="SLUS" suffix="21216"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="StarOceanTillTheEndOfTime" platform="PS2" region="USA">
+  <game name="StarOceanTillTheEndOfTime" platform="PS2" region="USA" type="Game">
     <title>Star Ocean: Till the End of Time</title>
     <ps_code prefix="SLUS" suffix="20488"/>
     <ps_code prefix="SLUS" suffix="20891"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Summoner" platform="PS2" region="USA">
+  <game name="Summoner" platform="PS2" region="USA" type="Game">
     <title>Summoner</title>
     <ps_code prefix="SLUS" suffix="20074"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Summoner2" platform="PS2" region="USA">
+  <game name="Summoner2" platform="PS2" region="USA" type="Game">
     <title>Summoner 2</title>
     <ps_code prefix="SLUS" suffix="20448"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Tekken5" platform="PS2" region="USA">
+  <game name="Tekken5" platform="PS2" region="USA" type="Game">
     <title>Tekken 5</title>
     <ps_code prefix="SLUS" suffix="21059"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="UnrealTournament" platform="PS2" region="USA">
+  <game name="UnrealTournament" platform="PS2" region="USA" type="Game">
     <title>Unreal Tournament</title>
     <ps_code prefix="SLUS" suffix="20034"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Xenosaga" platform="PS2" region="USA">
+  <game name="Xenosaga" platform="PS2" region="USA" type="Game">
     <title>Xenosaga Episode I: Der Wille zur Macht</title>
     <ps_code prefix="SLUS" suffix="20469"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Xenosaga2" platform="PS2" region="USA">
+  <game name="Xenosaga2" platform="PS2" region="USA" type="Game">
     <title>Xenosaga Episode II: Jenseits von Gut und Böse</title>
     <ps_code prefix="SLUS" suffix="20892"/>
     <ps_code prefix="SLUS" suffix="21133"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Xenosaga3" platform="PS2" region="USA">
+  <game name="Xenosaga3" platform="PS2" region="USA" type="Game">
     <title>Xenosaga Episode III: Also sprach Zarathustra</title>
     <ps_code prefix="SLUS" suffix="21389"/>
     <ps_code prefix="SLUS" suffix="21417"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="XFilesResistOrServe" platform="PS2" region="USA">
+  <game name="XFilesResistOrServe" platform="PS2" region="USA" type="Game">
     <title>The X-Files: Resist or Serve</title>
     <ps_code prefix="SLUS" suffix="20179"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="XIII" platform="PS2" region="USA">
+  <game name="XIII" platform="PS2" region="USA" type="Game">
     <title>XIII</title>
     <ps_code prefix="SLUS" suffix="20677"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="XMenLegends" platform="PS2" region="USA">
+  <game name="XMenLegends" platform="PS2" region="USA" type="Game">
     <title>X-Men Legends</title>
     <ps_code prefix="SLUS" suffix="20656"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="XMenLegends2" platform="PS2" region="USA">
+  <game name="XMenLegends2" platform="PS2" region="USA" type="Game">
     <title>X-Men Legends II: Rise of Apocalypse</title>
     <ps_code prefix="SLUS" suffix="21138"/>
     <contributor>SanMadJack</contributor>
