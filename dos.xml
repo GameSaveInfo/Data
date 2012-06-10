@@ -359,6 +359,7 @@
     <title>Sam &amp; Max Hit The Road</title>
     <location_path environment_variable="installlocation" path="SAMNMAX.CD"/>
     <save filename="SAVEGAME.*"/>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="ShatteredSteel" platform="DOS" type="Game">
     <title>Shattered Steel</title>
