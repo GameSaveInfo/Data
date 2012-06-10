@@ -3345,6 +3345,7 @@
     <title>Orcs Must Die!</title>
     <location_path environment_variable="userdocuments" path="Orcs Must Die"/>
     <save/>
+    <contributor>SanMadJack</contributor>
   </game>
   <game name="Osmos" platform="Windows" type="Game">
     <title>Osmos</title>
@@ -4235,7 +4236,7 @@
     <location_path environment_variable="installlocation" path="AeriaGames\Shaiya"/>
     <location_registry root="local_machine" key="SOFTWARE\SONOV\Shaiya" value="Path"/>
     <save filename="*CONFIG.INI" type="Settings"/>
-    <comment>AdmiringWorm</comment>
+    <contributor>AdmiringWorm</contributor>
   </game>
   <game name="Shellshock2" platform="Windows" type="Game">
     <title>Shellshock 2</title>
