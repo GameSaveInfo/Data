@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-04-28T08:50:40">
   <!--This file contains game data that was originally mislabeled, or for some other reason incorrect to the point that backup support had to be removed. The main purpose of these is to allow deprecated games to be able to still restore.-->
-  <game name="Blackwell3ConvergenceRemastered" platform="Windows" deprecated="true" type="Game">
-    <title>Blackwell Episode 3: Blackwell Convergence (Remastered)</title>
-    <location_path environment_variable="steamcommon" path="blackwell convergence"/>
-    <save path="Saves"/>
-    <comment>Newer release rendered this incompatible</comment>
-    <contributor>Arc Angel</contributor>
-  </game>
   <game name="Blackwell1LegacyRemastered" platform="Windows" deprecated="true" type="Game">
     <title>Blackwell Episode 1: The Blackwell Legacy (Remastered)</title>
     <location_path environment_variable="steamcommon" path="blackwell legacy"/>
@@ -18,6 +11,13 @@
   <game name="Blackwell2UnboundRemastered" platform="Windows" deprecated="true" type="Game">
     <title>Blackwell Episode 2: Blackwell Unbound (Remastered)</title>
     <location_path environment_variable="steamcommon" path="blackwell unbound"/>
+    <save path="Saves"/>
+    <comment>Newer release rendered this incompatible</comment>
+    <contributor>Arc Angel</contributor>
+  </game>
+  <game name="Blackwell3ConvergenceRemastered" platform="Windows" deprecated="true" type="Game">
+    <title>Blackwell Episode 3: Blackwell Convergence (Remastered)</title>
+    <location_path environment_variable="steamcommon" path="blackwell convergence"/>
     <save path="Saves"/>
     <comment>Newer release rendered this incompatible</comment>
     <contributor>Arc Angel</contributor>

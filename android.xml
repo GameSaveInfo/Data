@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-01-14T08:40:15">
+<?xml version="1.0" encoding="UTF-8"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="1" minorVersion="2" date="2012-06-04T00:00:00">
+  <!--This file stores entries for Android games that store their entries on the SD card (and thus are not covered by things like Titanium Backup)-->
   <game name="GalaxyOnFire2" platform="Android" type="Game">
     <title>Galaxy on Fire 2</title>
     <location_path environment_variable="drive" path="Android\data\net.fishlabs.GalaxyonFire2THD"/>
@@ -14,6 +15,12 @@
     <save path="files\GTA3" filename="GTA3sf*.b"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="Minecraft" platform="Android" type="Game">
+    <title>Minecraft</title>
+    <location_path environment_variable="drive" path="games\com.mojang\minecraftWorlds"/>
+    <save/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="Shadowgun" platform="Android" type="Game">
     <title>Shadowgun</title>
     <location_path environment_variable="drive" path="Android\data\com.madfingergames.shadowgun"/>
@@ -21,11 +28,11 @@
     <save path="files" filename="SaveGameSinglePlayer0"/>
     <contributor>SanMadJack</contributor>
   </game>
-  <game name="Minecraft" platform="Android" type="Game">
-    <title>Minecraft</title>
-    <location_path environment_variable="drive" path="games\com.mojang\minecraftWorlds"/>
-    <save />
+  <game name="ShadowgunTheLeftover" platform="Android" type="Expansion">
+    <title>Shadowgun: The Leftover</title>
+    <location_path environment_variable="drive" path="Android\data\com.madfingergames.shadowgun"/>
+    <identifier path="files" filename="SaveGameSinglePlayer1"/>
+    <save path="files" filename="SaveGameSinglePlayer1"/>
     <contributor>SanMadJack</contributor>
   </game>
-  
 </games>
