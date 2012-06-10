@@ -3,14 +3,14 @@
   <!--This file contains games whose saves are only compatible with Steam releases of the game-->
   <game name="AlanWake" platform="Steam" type="Game">
     <title>Alan Wake</title>
-    <location_path environment_variable="steamuserdata" path="108710" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="108710"/>
+    <save/>
     <contributor>Arc Angel</contributor>
-  </game>  
+  </game>
   <game name="AlanWakesAmericanNightmare" platform="Steam" type="Game">
     <title>Alan Wake's American Nightmare</title>
-    <location_path environment_variable="steamuserdata" path="202750" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="202750"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="AlienSwarm" platform="Steam" type="Game">
@@ -85,6 +85,12 @@
     <save/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="DeusExHumanRevolutionTheMissingLink" platform="Steam" type="Expansion">
+    <title>Deus Ex: Human Revolution - The Missing Link</title>
+    <location_path environment_variable="steamuserdata" path="201280"/>
+    <save/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="DocClockTheToastedSandwichOfTime" platform="Steam" type="Game">
     <title>Doc Clock: The Toasted Sandwich of Time</title>
     <location_path environment_variable="steamuserdata" path="57800"/>
@@ -129,8 +135,8 @@
   </game>
   <game name="KingdomsOfAmalurReckoning" platform="Steam" type="Game">
     <title>Kingdoms of Amalur: Reckoning</title>
-    <location_path environment_variable="steamuserdata" path="102500" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="102500"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="LaraCroftAndTheGuardianOfLight" platform="Steam" type="Game">
@@ -149,15 +155,15 @@
   </game>
   <game name="MadballsBaboInvasion" platform="Steam" type="Game">
     <title>Madballs in.. BaboInvasion</title>
-    <location_path environment_variable="steamuserdata" path="25700" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="25700"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="MidnightClub2" platform="Steam" type="Game">
     <title>Midnight Club 2</title>
-    <location_path environment_variable="steamcommon" path="Midnight Club 2\userdata" />
-    <save />
-    <ignore path="mp3" />
+    <location_path environment_variable="steamcommon" path="Midnight Club 2\userdata"/>
+    <save/>
+    <ignore path="mp3"/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="MonkeyIsland2SpecialEditionLeChucksRevenge" platform="Steam" type="Game">
@@ -168,8 +174,8 @@
   </game>
   <game name="PaydayTheHeist" platform="Steam" type="Game">
     <title>Payday: The Heist</title>
-    <location_path environment_variable="steamuserdata" path="24240\remote" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="24240\remote"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="PoundOfGround" platform="Steam" type="Game">
@@ -256,6 +262,12 @@
     <save/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="TitanXCIX1" platform="Steam" type="Mod">
+    <title>Titan: XCIX - Part 1</title>
+    <location_path environment_variable="steamsourcemods" path="SurvivorIZ"/>
+    <save path="SAVE"/>
+    <contributor>Arc Angel</contributor>
+  </game>
   <game name="Trine" platform="Steam" type="Game">
     <title>Trine</title>
     <location_path environment_variable="steamuserdata" path="35700"/>
@@ -264,8 +276,8 @@
   </game>
   <game name="Trine2" platform="Steam" type="Game">
     <title>Trine 2</title>
-    <location_path environment_variable="steamuserdata" path="35720" />
-    <save />
+    <location_path environment_variable="steamuserdata" path="35720"/>
+    <save/>
     <contributor>Arc Angel</contributor>
   </game>
   <game name="Warhammer40kDawnOfWar2Retribution" platform="Steam" type="Game">

@@ -6,7 +6,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Beneath a Steel Sky"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBENEATH" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Beneath a Steel Sky\Beneath a Steel Sky.lnk" detract="ScummVM"/>
-    <location_scummvm name="sky" />
+    <location_scummvm name="sky"/>
     <identifier filename="SKY-VM.*"/>
     <save filename="SKY-VM.*"/>
     <contributor>SanMadJack</contributor>
@@ -16,7 +16,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Broken Sword - The Shadow of the Templars"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD1" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Broken Sword - The Shadow of the Templars\Broken Sword - The Shadow of the Templars\Broken Sword - The Shadow of the Templars.lnk" detract="ScummVM"/>
-    <location_scummvm name="sword1" />
+    <location_scummvm name="sword1"/>
     <save filename="sword1.*"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -25,7 +25,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Broken Sword II - The Smoking Mirror"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD2" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Broken Sword II - The Smoking Mirror\Broken Sword II - The Smoking Mirror.lnk" detract="ScummVM"/>
-    <location_scummvm name="sword2" />
+    <location_scummvm name="sword2"/>
     <save filename="bsword2.*"/>
     <contributor>SanMadJack</contributor>
   </game>
@@ -34,13 +34,13 @@
     <location_path environment_variable="installlocation" path="GOG.com\The Feeble Files"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGFEBBLEFILES" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\The Feeble Files\The Feeble Files.lnk" detract="ScummVM"/>
-    <location_scummvm name="feeble" />
+    <location_scummvm name="feeble"/>
     <save filename="feeble.0??"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="FullThrottle" platform="ScummVM" type="Game">
     <title>Full Throttle</title>
-    <location_scummvm name="ft" />
+    <location_scummvm name="ft"/>
     <identifier filename="ft.s*"/>
     <save filename="ft.s*"/>
     <contributor>SanMadJack</contributor>
@@ -124,20 +124,20 @@
     <location_path environment_variable="installlocation" path="GOG.com\Lure of the Temptress"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGLURE" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Lure of the Temptress\Lure of the Temptress.lnk"/>
-    <location_scummvm name="lure" />
+    <location_scummvm name="lure"/>
     <save filename="lure.*"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="ReturnToZork" platform="ScummVM" type="Game">
     <title>Return To Zork</title>
-    <location_scummvm name="rtz-cd" />
+    <location_scummvm name="rtz-cd"/>
     <identifier filename="rtz-cd.*"/>
     <save filename="rtz-cd.*"/>
     <contributor>SanMadJack</contributor>
   </game>
   <game name="SamAndMaxHitTheRoad" platform="ScummVM" type="Game">
     <title>Sam &amp; Max Hit The Road</title>
-    <location_scummvm name="samnmax" />
+    <location_scummvm name="samnmax"/>
     <identifier filename="samnmax.s*"/>
     <save filename="samnmax.s*"/>
     <contributor>SanMadJack</contributor>
@@ -147,7 +147,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Simon the Sorcerer"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSIMON" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Simon the Sorcerer\Simon the Sorcerer.lnk" detract="ScummVM"/>
-    <location_scummvm name="simon1" />
+    <location_scummvm name="simon1"/>
     <save filename="simon1.0*"/>
     <save filename="simon1.ini" type="Settings"/>
     <contributor>SanMadJack</contributor>
@@ -157,7 +157,7 @@
     <location_path environment_variable="installlocation" path="GOG.com\Simon the Sorcerer 2"/>
     <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGSIMON2" value="PATH"/>
     <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Simon the Sorcerer 2\Simon the Sorcerer 2.lnk" detract="ScummVM"/>
-    <location_scummvm name="simon2" />
+    <location_scummvm name="simon2"/>
     <save filename="simon2.0*"/>
     <save filename="simon2.ini" type="Settings"/>
     <contributor>SanMadJack</contributor>
