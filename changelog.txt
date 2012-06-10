@@ -15,6 +15,7 @@ New Windows Games:
 * Lone Survivor - Contributed by Arc Angel
 * Normality - GoG only
 * Sam & Max Hit The Road - ScummVM only
+* Space Rangers 2: Reboot - GoG only
 * Superbrothers: Sword & Sorcery
 * The Walking Dead - Contributed by Arc Angel
 * Wing Commander IV: The Price Of Freedom - GoG only

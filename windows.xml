@@ -4374,6 +4374,14 @@
     <save path="Save"/>
     <contributor>SanMadJack</contributor>
   </game>
+  <game name="SpaceRangers2Reboot" platform="Windows" type="Game">
+    <title>Space Rangers 2: Reboot</title>
+    <location_path environment_variable="installlocation" path="GOG.com\Space Rangers 2 - Reboot"/>
+    <location_registry root="local_machine" key="SOFTWARE\GOG.com\GOGPACKSPACERANGERS2REBOOT" value="PATH"/>
+    <location_shortcut environment_variable="startmenu" path="Programs\GOG.com\Space Rangers 2 - Reboot\Space Rangers 2 - Reboot.lnk"/>
+    <save path="Save"/>
+    <contributor>SanMadJack</contributor>
+  </game>
   <game name="SpellForce" platform="Windows" type="Game">
     <title>SpellForce: The Order of the Dawn</title>
     <location_path environment_variable="userdocuments" path="SpellForce"/>
