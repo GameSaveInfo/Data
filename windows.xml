@@ -1302,12 +1302,6 @@
     <save path="Profiles"/>
     <contributor>Arc Angel</contributor>
   </game>
-  <game name="DeepBlackReloaded" platform="Windows" type="Game">
-    <title>Deep Black: Reloaded</title>
-    <location_path environment_variable="userdocuments" path="DeepBlackReloaded" />
-    <save />
-    <contributor>Arc Angel</contributor>
-  </game>
   <game name="DeathTrackResurrection" platform="Windows" type="Game">
     <title>Death Track: Resurrection</title>
     <location_path environment_variable="userdocuments" path="Skyfallen Entertaiment\DeathTrack"/>
