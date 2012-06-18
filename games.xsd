@@ -3,7 +3,6 @@
 
   <!--simple elements-->
   <xs:element name="title" type="xs:string"/>
-  <xs:element name="version_title" type="xs:string"/>
   <xs:element name="contributor" type="xs:string"/>
   <xs:element name="comment" type="xs:string"/>
   <xs:element name="restore_comment" type="xs:string"/>
@@ -45,6 +44,26 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
+
+  <xs:attribute name="detect">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="required"/>
+        <xs:enumeration value="optional"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+
+  <xs:attribute name="virtualstore">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="use"/>
+        <xs:enumeration value="ignore"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
 
   <xs:attribute name="name">
     <xs:simpleType>
@@ -123,8 +142,6 @@
     </xs:simpleType>
   </xs:attribute>
 
-  <xs:attribute name="ignore_virtualstore" type="xs:boolean" />
-  <xs:attribute name="detect_required" type="xs:boolean" />
 
   <!--attribute groups-->
   <xs:attributeGroup name="playstation_code">
@@ -168,6 +185,10 @@
   <xs:attributeGroup name="files">
     <xs:attribute ref="path" use="optional"/>
     <xs:attribute ref="filename" use="optional"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="dated_files">
+    <xs:attributeGroup ref="files"/>
     <xs:attribute name="modified_after" use="optional">
       <xs:simpleType>
         <xs:restriction base="xs:string" >
@@ -177,21 +198,17 @@
     </xs:attribute>
   </xs:attributeGroup>
 
-  <xs:attributeGroup name="typed_files">
-    <xs:attributeGroup ref="files"/>
-    <xs:attribute name="type" type="xs:string" use="optional"/>
-  </xs:attributeGroup>
-
   <xs:attributeGroup name="item_attributes">
     <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="deprecated" use="optional"/>
   </xs:attributeGroup>
   
   <xs:attributeGroup name="version_attributes">
     <xs:attribute ref="platform" use="required"/>
     <xs:attribute ref="region" use="optional"/>
+    <xs:attribute ref="virtualstore" use="optional" />
+    <xs:attribute ref="detect" use="optional" />
     <xs:attribute ref="deprecated" use="optional"/>
-    <xs:attribute ref="ignore_virtualstore" use="optional" />
-    <xs:attribute ref="detect_required" use="optional" />
   </xs:attributeGroup>
   
   <!--complex elements-->
@@ -237,13 +254,25 @@
 
   <xs:element name="save">
     <xs:complexType>
-      <xs:attributeGroup ref="typed_files" />
+      <xs:sequence>
+        <xs:element ref="except" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="dated_files" />
     </xs:complexType>
   </xs:element>
 
-  <xs:element name="ignore">
+  <xs:element name="files">
     <xs:complexType>
-      <xs:attributeGroup ref="typed_files" />
+      <xs:sequence>
+            <xs:element ref="save" minOccurs="1" maxOccurs="unbounded" /> 
+      </xs:sequence>  
+    <xs:attribute name="type" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="except">
+    <xs:complexType>
+      <xs:attributeGroup ref="files" />
     </xs:complexType>
   </xs:element>
 
@@ -280,24 +309,15 @@
     </xs:complexType>
   </xs:element>
 
-  <xs:element name="files">
-    <xs:complexType>
-      <xs:choice minOccurs="1" maxOccurs="unbounded">
-        <xs:element ref="save" minOccurs="1" maxOccurs="unbounded"/>
-        <xs:element ref="ignore" minOccurs="0" maxOccurs="unbounded"/>
-      </xs:choice>
-    </xs:complexType>
-  </xs:element>
   
     <xs:element name="version">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="version_title" minOccurs="0" maxOccurs="1" />
+        <xs:element ref="title" minOccurs="0" maxOccurs="1" />
         <xs:choice>
           <xs:sequence>
             <xs:element ref="locations" minOccurs="1" maxOccurs="1"/>
-            <xs:element ref="files" minOccurs="1" maxOccurs="1" />
-            
+            <xs:element ref="files" minOccurs="1" maxOccurs="unbounded" /> 
             <xs:element ref="identifier" minOccurs="0" maxOccurs="unbounded"/>
           </xs:sequence>
           <xs:element ref="ps_code" minOccurs="1" maxOccurs="unbounded"/>
