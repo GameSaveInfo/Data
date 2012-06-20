@@ -4354,7 +4354,6 @@
         <path environment_variable="installlocation" path="Interplay\Fallout"/>
         <path environment_variable="installlocation" path="GOG.com\Fallout"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\falloutw.exe" value="Path"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\falloutw.exe" value="Path"/>
         <shortcut environment_variable="startmenu" path="Programs\GOG.com\Fallout\Fallout.lnk"/>
       </locations>
       <files type="Saves">
