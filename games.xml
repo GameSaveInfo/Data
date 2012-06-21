@@ -822,7 +822,7 @@
     </version>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="Assassin's Creed Brotherhood"/>
+        <path environment_variable="savedgames" path="Assassin's Creed Brotherhood" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -1042,7 +1042,7 @@
     </version>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="Bastion"/>
+        <path environment_variable="savedgames" path="Bastion" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -2936,7 +2936,7 @@
     <title>Darwinia</title>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="Darwinia"/>
+        <path environment_variable="savedgames" path="Darwinia" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save path="users"/>
@@ -3558,7 +3558,7 @@
     <title>Downfall</title>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="Downfall"/>
+        <path environment_variable="savedgames" path="Downfall" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -4309,7 +4309,7 @@
     <title>Fable III</title>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="Lionhead Studios\Fable 3"/>
+        <path environment_variable="savedgames" path="Lionhead Studios\Fable 3" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -9467,7 +9467,7 @@
     <title>Rage</title>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="id Software\Rage"/>
+        <path environment_variable="savedgames" path="id Software\Rage" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save path="base\savegame"/>
@@ -10235,7 +10235,7 @@
     <title>Sacred 2: Fallen Angel</title>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="Ascaron Entertainment\Sacred 2"/>
+        <path environment_variable="savedgames" path="Ascaron Entertainment\Sacred 2" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -11804,7 +11804,7 @@
     <title>Star Wars: Empire at War</title>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="Petroglyph\Empire At War"/>
+        <path environment_variable="savedgames" path="Petroglyph\Empire At War" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -11816,7 +11816,7 @@
     <title>Star Wars: Empire at War - Forces of Corruption</title>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="Petroglyph\Empire At War - Forces of Corruption"/>
+        <path environment_variable="savedgames" path="Petroglyph\Empire At War - Forces of Corruption" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -11948,7 +11948,7 @@
     <title>Steel Storm: Burning Retribution</title>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="steelstorm"/>
+        <path environment_variable="savedgames" path="steelstorm" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save path="gamedata\data\profiles"/>
@@ -13002,7 +13002,7 @@
     <title>Two Worlds II</title>
     <version platform="Windows">
       <locations>
-        <path environment_variable="savedgames" path="Two Worlds II"/>
+        <path environment_variable="savedgames" path="Two Worlds II" platform_version="Vista"/>
       </locations>
       <files type="Saves">
         <save/>
