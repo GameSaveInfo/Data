@@ -220,8 +220,8 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="AlanWakeAmericanNightmare">
-    <title>Alan Wake American Nightmare</title>
+  <game name="AlanWakesAmericanNightmare">
+    <title>Alan Wake's American Nightmare</title>
     <version platform="Windows">
       <locations>
         <path environment_variable="userdocuments" path="Remedy\AmericanNightmare_GOG_Version"/>
@@ -234,9 +234,6 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-  </game>
-  <game name="AlanWakesAmericanNightmare">
-    <title>Alan Wake's American Nightmare</title>
     <version platform="Steam">
       <locations>
         <path environment_variable="steamuserdata" path="202750"/>
