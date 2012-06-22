@@ -161,7 +161,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-  
+
     <xs:attribute name="append" use="optional">
       <xs:simpleType>
         <xs:restriction base="xs:string" />
@@ -202,7 +202,7 @@
     <xs:attribute ref="name" use="required"/>
     <xs:attribute ref="deprecated" use="optional"/>
   </xs:attributeGroup>
-  
+
   <xs:attributeGroup name="version_attributes">
     <xs:attribute ref="platform" use="required"/>
     <xs:attribute ref="region" use="optional"/>
@@ -210,7 +210,7 @@
     <xs:attribute ref="detect" use="optional" />
     <xs:attribute ref="deprecated" use="optional"/>
   </xs:attributeGroup>
-  
+
   <!--complex elements-->
   <xs:element name="registry">
     <xs:complexType>
@@ -264,9 +264,9 @@
   <xs:element name="files">
     <xs:complexType>
       <xs:sequence>
-            <xs:element ref="save" minOccurs="1" maxOccurs="unbounded" /> 
-      </xs:sequence>  
-    <xs:attribute name="type" type="xs:string" use="optional"/>
+        <xs:element ref="save" minOccurs="1" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="type" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
 
@@ -304,20 +304,28 @@
         <xs:element ref="shortcut" minOccurs="1" maxOccurs="unbounded" />
         <xs:element ref="parent" minOccurs="1" maxOccurs="unbounded" />
         <xs:element ref="path" minOccurs="1" maxOccurs="unbounded" />
-        <xs:element ref="scummvm" minOccurs="1" maxOccurs="unbounded" />
       </xs:choice>
     </xs:complexType>
   </xs:element>
 
-  
-    <xs:element name="version">
+
+  <xs:element name="version">
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="title" minOccurs="0" maxOccurs="1" />
         <xs:choice>
           <xs:sequence>
-            <xs:element ref="locations" minOccurs="1" maxOccurs="1"/>
-            <xs:element ref="files" minOccurs="1" maxOccurs="unbounded" /> 
+            <xs:choice>
+              <xs:sequence>
+                <xs:element ref="scummvm" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="locations" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="files" minOccurs="0" maxOccurs="unbounded" />
+              </xs:sequence>
+              <xs:sequence>
+                <xs:element ref="locations" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="files" minOccurs="1" maxOccurs="unbounded" />
+              </xs:sequence>
+            </xs:choice>
             <xs:element ref="identifier" minOccurs="0" maxOccurs="unbounded"/>
           </xs:sequence>
           <xs:element ref="ps_code" minOccurs="1" maxOccurs="unbounded"/>
@@ -329,7 +337,7 @@
       <xs:attributeGroup ref="version_attributes"/>
     </xs:complexType>
   </xs:element>
-  
+
   <xs:element name="programs">
     <xs:complexType>
       <xs:choice minOccurs="1" maxOccurs="unbounded">
