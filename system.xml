@@ -13,17 +13,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </system>
-  <system name="MASGAUCustomXML">
-    <title>MASGAU Custom XML</title>
+  <system name="MASGAU">
+    <title>MASGAU Automatic Save Game Archive Utility</title>
     <version>
+      <title>MASGAU Custom XML</title>
       <locations>
         <path environment_variable="installlocation" path="MASGAU"/>
         <registry root="local_machine" key="SOFTWARE\MASGAU" value="InstallPath"/>
       </locations>
-      <files type="Saves">
-        <save filename="custom.xml"/>
+      <files type="CustomXML">
+        <save path="data" filename="custom.xml"/>
       </files>
-      <identifier filename="custom.xml"/>
+      <identifier path="data" filename="custom.xml"/>
       <contributor>SanMadJack</contributor>
     </version>
   </system>
@@ -70,14 +71,14 @@
       <contributor>SanMadJack</contributor>
     </version>
   </system>
-  <system name="UPlayData">
-    <title>UPlay Data</title>
+  <system name="UPlay">
+    <title>UPlay</title>
     <version os="Windows">
       <locations>
         <path environment_variable="installlocation" path="Ubisoft\Ubisoft Game Launcher"/>
         <registry root="local_machine" key="SOFTWARE\UbiSoft\Launcher" value="InstallDir"/>
       </locations>
-      <files type="Saves">
+      <files type="Data">
         <save path="storage">
           <except path="storage\temp"/>
         </save>
@@ -85,13 +86,13 @@
       <contributor>Arc Angel</contributor>
     </version>
   </system>
-  <system name="XfireData">
-    <title>Xfire Data</title>
+  <system name="Xfire">
+    <title>Xfire</title>
     <version os="Windows">
       <locations>
         <path environment_variable="allusersprofile" path="Xfire"/>
       </locations>
-      <files type="Saves">
+      <files type="Data">
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
