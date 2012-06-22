@@ -3,7 +3,7 @@
   <!--Contains profiles for backing up system-related files-->
   <system name="GamesForWindows">
     <title>Games for Windows</title>
-    <version platform="Windows">
+    <version os="Windows">
       <locations>
         <path environment_variable="localappdata" path="Microsoft\XLive\Content"/>
       </locations>
@@ -15,7 +15,7 @@
   </system>
   <system name="MASGAUCustomXML">
     <title>MASGAU Custom XML</title>
-    <version platform="Multiple">
+    <version>
       <locations>
         <path environment_variable="installlocation" path="MASGAU"/>
         <registry root="local_machine" key="SOFTWARE\MASGAU" value="InstallPath"/>
@@ -29,7 +29,7 @@
   </system>
   <system name="Raptr">
     <title>Raptr</title>
-    <version platform="Windows">
+    <version os="Windows">
       <locations>
         <path environment_variable="appdata" path="Raptr"/>
       </locations>
@@ -45,7 +45,7 @@
   </system>
   <system name="RGSC">
     <title>Rockstar Games Social Club</title>
-    <version platform="Windows">
+    <version os="Windows">
       <locations>
         <path environment_variable="localappdata" path="Rockstar Games\RGSC"/>
       </locations>
@@ -57,7 +57,7 @@
   </system>
   <system name="Tomboy">
     <title>Tomboy</title>
-    <version platform="Multiple">
+    <version>
       <locations>
         <path environment_variable="appdata" path="Tomboy"/>
       </locations>
@@ -72,7 +72,7 @@
   </system>
   <system name="UPlayData">
     <title>UPlay Data</title>
-    <version platform="Windows">
+    <version os="Windows">
       <locations>
         <path environment_variable="installlocation" path="Ubisoft\Ubisoft Game Launcher"/>
         <registry root="local_machine" key="SOFTWARE\UbiSoft\Launcher" value="InstallDir"/>
@@ -87,7 +87,7 @@
   </system>
   <system name="XfireData">
     <title>Xfire Data</title>
-    <version platform="Windows">
+    <version os="Windows">
       <locations>
         <path environment_variable="allusersprofile" path="Xfire"/>
       </locations>

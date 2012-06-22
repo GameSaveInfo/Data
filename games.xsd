@@ -93,15 +93,6 @@
   </xs:attribute>
   <xs:attribute name="value" type="xs:string"/>
 
-  <xs:attribute name="platform_version">
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-        <xs:enumeration value="XP"/>
-        <xs:enumeration value="Vista"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:attribute>
-
   <xs:attribute name="date">
     <xs:simpleType>
       <xs:restriction base="xs:string" >
@@ -110,25 +101,47 @@
     </xs:simpleType>
   </xs:attribute>
 
+  <xs:simpleType name="os_type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Linux"/>
+      <xs:enumeration value="DOS"/>
+      <xs:enumeration value="OSX"/>
+      <xs:enumeration value="PS1"/>
+      <xs:enumeration value="PS2"/>
+      <xs:enumeration value="PS3"/>
+      <xs:enumeration value="PSP"/>
+      <xs:enumeration value="Windows"/>
+      <xs:enumeration value="WindowsXP"/>
+      <xs:enumeration value="WindowsVista"/>
+      <xs:enumeration value="Android"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:attribute name="os" type="os_type" />
+  <xs:attribute name="only_for" type="os_type" />
+
   <xs:attribute name="platform">
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:enumeration value="ScummVM"/>
-        <xs:enumeration value="Steam"/>
-        <xs:enumeration value="Linux"/>
         <xs:enumeration value="Flash"/>
-        <xs:enumeration value="DOS"/>
-        <xs:enumeration value="OSX"/>
-        <xs:enumeration value="PS1"/>
-        <xs:enumeration value="PS2"/>
-        <xs:enumeration value="PS3"/>
-        <xs:enumeration value="PSP"/>
-        <xs:enumeration value="Windows"/>
-        <xs:enumeration value="Android"/>
-        <xs:enumeration value="Multiple"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
+
+  <xs:attribute name="media">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Steam"/>
+        <xs:enumeration value="Floppy"/>
+        <xs:enumeration value="CD"/>
+        <xs:enumeration value="GoG"/>
+        <xs:enumeration value="Download"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  
+  <xs:attribute name="other" type="xs:string"/>
 
   <xs:attribute name="type">
     <xs:simpleType>
@@ -172,7 +185,7 @@
   </xs:attributeGroup>
 
   <xs:attributeGroup name="location_attributes">
-    <xs:attribute ref="platform_version" use="optional"/>
+    <xs:attribute ref="only_for" use="optional"/>
     <xs:attribute ref="deprecated" use="optional"/>
     <xs:attributeGroup ref="append_detract" />
   </xs:attributeGroup>
@@ -203,9 +216,16 @@
     <xs:attribute ref="deprecated" use="optional"/>
   </xs:attributeGroup>
 
-  <xs:attributeGroup name="version_attributes">
-    <xs:attribute ref="platform" use="required"/>
+  <xs:attributeGroup name="version_identifiers">
+    <xs:attribute ref="os" use="optional"/>
+    <xs:attribute ref="platform" use="optional"/>
+    <xs:attribute ref="media" use="optional"/>
     <xs:attribute ref="region" use="optional"/>
+    <xs:attribute ref="other" use="optional"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="version_attributes">
+    <xs:attributeGroup ref="version_identifiers"/>
     <xs:attribute ref="virtualstore" use="optional" />
     <xs:attribute ref="detect" use="optional" />
     <xs:attribute ref="deprecated" use="optional"/>
@@ -235,11 +255,11 @@
     </xs:complexType>
   </xs:element>
 
+  
   <xs:element name="parent">
     <xs:complexType>
       <xs:attribute ref="name" use="required"/>
-      <xs:attribute ref="platform" use="optional"/>
-      <xs:attribute ref="region" use="optional"/>
+      <xs:attributeGroup ref="version_identifiers"/>
       <xs:attributeGroup ref="location_attributes" />
     </xs:complexType>
   </xs:element>
