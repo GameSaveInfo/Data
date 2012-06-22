@@ -152,7 +152,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="AgeOfMythologyTheTitansExpansion">
+  <expansion name="AgeOfMythologyTheTitansExpansion" for="AgeOfMythology">
     <title>Age of Mythology: The Titans Expansion</title>
     <version os="Windows">
       <locations>
@@ -372,7 +372,7 @@
       <contributor>Michael Lamere</contributor>
     </version>
   </game>
-  <expansion name="AliensVsPredator2PrimalHunt">
+  <expansion name="AliensVsPredator2PrimalHunt" for="AliensVsPredator2">
     <title>Aliens vs. Predator 2: Primal Hunt</title>
     <version os="Windows">
       <locations>
@@ -1062,10 +1062,8 @@
       <restore_comment>Restoring saves for this game also requires restoring Game for Windows Account Data, which MASGAU automatically backs up in G4WAccountData.</restore_comment>
       <contributor>Michael Lamere</contributor>
     </version>
-  </game>
-  <game name="BatmanArkhamAsylumGOTY">
-    <title>Batman: Arkham Asylum GOTY</title>
-    <version os="Windows">
+    <version os="Windows" release="GOTY">
+      <title>Batman: Arkham Asylum GOTY</title>
       <locations>
         <path environment_variable="userdocuments" path="Square Enix\Batman Arkham Asylum GOTY"/>
       </locations>
@@ -1522,10 +1520,8 @@
       <comment>Includes Blood Bowl Dark Elves Edition as well.</comment>
       <contributor>AvvA</contributor>
     </version>
-  </game>
-  <game name="BloodBowlLegendaryEdition">
-    <title>Blood Bowl: Legendary Edition</title>
-    <version os="Windows">
+    <version os="Windows" release="LegendaryEdition">
+      <title>Blood Bowl: Legendary Edition</title>
       <locations>
         <path environment_variable="userdocuments" path="BloodBowlLegendary"/>
       </locations>
@@ -1701,6 +1697,16 @@
       </locations>
       <contributor>SanMadJack</contributor>
     </version>
+    <version os="Windows" release="DirectorsCut">
+      <title>Broken Sword: The Shadow of the Templars - The Director's Cut</title>
+      <locations>
+        <path environment_variable="userdocuments" path="Broken Sword - Director's Cut"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
   </game>
   <game name="BrokenSword2">
     <title>Broken Sword II: The Smoking Mirror</title>
@@ -1714,10 +1720,8 @@
       </locations>
       <contributor>SanMadJack</contributor>
     </version>
-  </game>
-  <game name="BrokenSword2Remastered">
-    <title>Broken Sword II: The Smoking Mirror - Remastered</title>
-    <version os="Windows">
+    <version os="Windows" release="Remastered">
+      <title>Broken Sword II: The Smoking Mirror - Remastered</title>
       <locations>
         <path environment_variable="userdocuments" path="Broken Sword II - Remastered"/>
       </locations>
@@ -1756,18 +1760,6 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BrokenSwordDirectorsCut">
-    <title>Broken Sword: Shadow of the Templars - The Director's Cut</title>
-    <version os="Windows">
-      <locations>
-        <path environment_variable="userdocuments" path="Broken Sword - Director's Cut"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </game>
   <game name="BrutalLegend">
     <title>Brütal Legend</title>
     <version os="PS3" region="USA">
@@ -1790,9 +1782,10 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="BullyScholarshipEdition">
-    <title>Bully Scolarship Edition</title>
+  <game name="Bully">
+    <title>Bully</title>
     <version os="Windows">
+      <title>Bully Scolarship Edition</title>
       <locations>
         <path environment_variable="userdocuments" path="Bully Scholarship Edition"/>
       </locations>
@@ -2133,9 +2126,10 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Civilization2Gold">
-    <title>Sid Meier's Civilization II: Multiplayer Gold</title>
-    <version os="Windows">
+  <game name="Civilization2">
+    <title>Sid Meier's Civilization II</title>
+    <version os="Windows" release="MultiplayerGold">
+      <title>Sid Meier's Civilization II: Multiplayer Gold</title>
       <locations>
         <path environment_variable="installlocation" path="Sid Meier's Civilization Chronicles\Sid Meier's Civilization II Multiplayer Gold"/>
         <shortcut environment_variable="startmenu" path="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Sid Meier's Civilization II - Multiplayer Gold.lnk"/>
@@ -2145,10 +2139,8 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-  </game>
-  <game name="Civilization2TestOfTime">
-    <title>Sid Meier's Civilization II: Test of Time</title>
-    <version os="Windows">
+    <version os="Windows" release="TestOfTime">
+      <title>Sid Meier's Civilization II: Test of Time</title>
       <locations>
         <path environment_variable="installlocation" path="Sid Meier's Civilization Chronicles\Civilization II Test of Time"/>
         <shortcut environment_variable="startmenu" path="Programs\Firaxis Games\Sid Meier's Civilization Chronicles\Launch Civilization II - Test of Time.lnk"/>
@@ -2175,7 +2167,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="Civilization3Conquests">
+  <expansion name="Civilization3Conquests" for="Civilization3">
     <title>Sid Meier's Civilization III: Conquests</title>
     <version os="Windows">
       <locations>
@@ -2192,7 +2184,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <expansion name="Civilization3PlayTheWorld">
+  <expansion name="Civilization3PlayTheWorld" for="Civilization3">
     <title>Sid Meier's Civilization III: Play The World</title>
     <version os="Windows">
       <locations>
@@ -2221,7 +2213,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="Civilization4BeyondTheSword">
+  <expansion name="Civilization4BeyondTheSword" for="Civilization4">
     <title>Sid Meier's Civilization IV: Beyond the Sword</title>
     <version os="Windows">
       <locations>
@@ -2245,7 +2237,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="Civilization4Warlords">
+  <expansion name="Civilization4Warlords" for="Civilization4">
     <title>Sid Meier's Civilization IV: Warlords</title>
     <version os="Windows">
       <locations>
@@ -2360,7 +2352,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="CommandAndConquer3KanesWrath">
+  <expansion name="CommandAndConquer3KanesWrath" for="CommandAndConquer3TiberiumWars">
     <title>Command &amp; Conquer 3: Kane's Wrath</title>
     <version os="Windows">
       <locations>
@@ -2396,7 +2388,7 @@
       <contributor>Håvard Krüger</contributor>
     </version>
   </game>
-  <expansion name="CommandAndConquerGeneralsZeroHour">
+  <expansion name="CommandAndConquerGeneralsZeroHour" for="CommandAndConquerGenerals">
     <title>Command &amp; Conquer: Generals - Zero Hour</title>
     <version os="Windows">
       <locations>
@@ -2482,7 +2474,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="CounterStrikeConditionZeroDeletedScenes">
+  <expansion name="CounterStrikeConditionZeroDeletedScenes" for="CounterStrikeConditionZero">
     <title>Counter-Strike: Condition Zero: Deleted Scenes</title>
     <version os="Windows">
       <locations>
@@ -3275,7 +3267,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="DeusExHumanRevolutionTheMissingLink">
+  <expansion name="DeusExHumanRevolutionTheMissingLink" for="DeusExHumanRevolution">
     <title>Deus Ex: Human Revolution - The Missing Link</title>
     <version media="Steam">
       <locations>
@@ -3314,9 +3306,10 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="DevilMayCry3DantesAwakeningSpecialEdition">
-    <title>Devil May Cry 3: Dante's Awakening: Special Edition</title>
-    <version os="PS2" region="USA">
+  <game name="DevilMayCry3DantesAwakening">
+    <title>Devil May Cry 3: Dante's Awakening</title>
+    <version os="PS2" region="USA" release="SpecialEdition">
+      <title>Devil May Cry 3: Dante's Awakening: Special Edition</title>
       <ps_code prefix="SLUS" suffix="21361"/>
       <contributor>SanMadJack</contributor>
     </version>
@@ -3356,7 +3349,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="DiabloHellfire">
+  <expansion name="DiabloHellfire" for="Diablo">
     <title>Diablo: Hellfire</title>
     <version os="Windows">
       <locations>
@@ -4055,7 +4048,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="EmpireEarth2TheArtOfSupremacy">
+  <expansion name="EmpireEarth2TheArtOfSupremacy" for="EmpireEarth2">
     <title>Empire Earth II: The Art of Supremacy</title>
     <version os="Windows">
       <locations>
@@ -4100,7 +4093,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="EmpireEarthTheArtOfConquest">
+  <expansion name="EmpireEarthTheArtOfConquest" for="EmpireEarth">
     <title>Empire Earth: The Art of Conquest</title>
     <version os="Windows">
       <locations>
@@ -4552,7 +4545,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="FEARExtractionPoint">
+  <expansion name="FEARExtractionPoint" for="FEARFirstEncounterAssaultRecon">
     <title>F.E.A.R.: Extraction Point</title>
     <version os="Windows">
       <locations>
@@ -4674,7 +4667,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FinalFantasy13-2">
+  <game name="FinalFantasy13-2" follows="FinalFantasy13">
     <title>Final Fantasy XIII-2</title>
     <version os="PS3" region="EUR">
       <ps_code prefix="BLES" suffix="01269"/>
@@ -4739,10 +4732,8 @@
       <ps_code prefix="SLUS" suffix="94221"/>
       <contributor>SanMadJack</contributor>
     </version>
-  </game>
-  <game name="FinalFantasyTacticsWarOfTheLions">
-    <title>Final Fantasy Tactics: War of the Lions</title>
-    <version os="PSP" region="USA">
+    <version os="PSP" region="USA" release="WarOfTheLions">
+      <title>Final Fantasy Tactics: War of the Lions</title>
       <ps_code prefix="ULUS" suffix="10297"/>
       <contributor>SanMadJack</contributor>
     </version>
@@ -5030,7 +5021,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="GalacticCivilizations2DarkAvatar">
+  <expansion name="GalacticCivilizations2DarkAvatar" for="GalacticCivilizations2DreadLords">
     <title>Galactic Civilizations II: Dark Avatar</title>
     <version os="Windows">
       <locations>
@@ -5198,7 +5189,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <expansion name="GhostReconDesertSiege">
+  <expansion name="GhostReconDesertSiege" for="GhostRecon">
     <title>Tom Clancy's Ghost Recon: Desert Siege</title>
     <version os="Windows">
       <locations>
@@ -5214,7 +5205,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </expansion>
-  <expansion name="GhostReconIslandThunder">
+  <expansion name="GhostReconIslandThunder" for="GhostRecon">
     <title>Tom Clancy's Ghost Recon: Island Thunder</title>
     <version os="Windows">
       <locations>
@@ -5718,7 +5709,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="HaegemoniaTheSolonHeritage">
+  <expansion name="HaegemoniaTheSolonHeritage" for="HaegemoniaLegionsOfIron">
     <title>Haegemonia: The Solon Heritage</title>
     <version os="Windows">
       <locations>
@@ -5739,7 +5730,7 @@
       <ps_code prefix="SLUS" suffix="20066"/>
       <contributor>SanMadJack</contributor>
     </version>
-    <version os="Windows">
+    <version os="Windows" media="Steam">
       <locations>
         <path environment_variable="installlocation" path="Sierra\Half-Life\valve"/>
         <path environment_variable="steamuser" path="half-life\valve"/>
@@ -5800,9 +5791,9 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="HalfLifeBlueShift">
+  <expansion name="HalfLifeBlueShift" for="HalfLife">
     <title>Half-Life: Blue Shift</title>
-    <version os="Windows">
+    <version os="Windows" media="Steam">
       <locations>
         <path environment_variable="installlocation" path="Sierra\Half-Life\bshift"/>
         <path environment_variable="steamuser" path="half-life blue shift\bshift"/>
@@ -5815,9 +5806,9 @@
       <contributor>Scandalon</contributor>
     </version>
   </expansion>
-  <expansion name="HalfLifeOpposingForce">
+  <expansion name="HalfLifeOpposingForce" for="HalfLife">
     <title>Half-Life: Opposing Force</title>
-    <version os="Windows">
+    <version os="Windows" media="Steam">
       <locations>
         <path environment_variable="installlocation" path="Sierra\Half-Life\gearbox"/>
         <path environment_variable="steamuser" path="opposing force\gearbox"/>
@@ -5899,7 +5890,7 @@
       <contributor>Craig Schlieve</contributor>
     </version>
   </game>
-  <expansion name="HeartsOfIron2Doomsday">
+  <expansion name="HeartsOfIron2Doomsday" for="HeartsOfIron2">
     <title>Hearts of Iron II: Doomsday</title>
     <version os="Windows">
       <locations>
@@ -6060,7 +6051,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="HomeworldCataclysm">
+  <expansion name="HomeworldCataclysm" for="Homeworld">
     <title>Homeworld: Cataclysm</title>
     <version os="Windows">
       <locations>
@@ -6156,9 +6147,9 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="IcyTower15">
-    <title>Icy Tower 1.5</title>
-    <version os="Windows">
+  <game name="IcyTower">
+    <title>Icy Tower</title>
+    <version os="Windows" release="1.5">
       <locations>
         <path environment_variable="installlocation" path="games\icytower1.5"/>
         <registry root="local_machine" key="SOFTWARE\Conduit\AppPaths\icytower15.exe" value="AppPath" detract="\icytower15.exe"/>
@@ -6268,7 +6259,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="IndependenceWarDefiance">
+  <expansion name="IndependenceWarDefiance" for="IndependenceWar">
     <title>Independence War: Defiance</title>
     <version os="Windows">
       <locations>
@@ -7477,8 +7468,28 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
+    <version os="Windows" release="TitaniumEdition">
+      <title>MechWarrior 2: 31st Century Combat: Titanium Edition</title>
+      <locations>
+        <path environment_variable="installlocation" path="Activision\Titanium\Mechwarrior2"/>
+        <path environment_variable="installlocation" path="MechVM\games\mw2-31stcc-tt"/>
+        <registry root="local_machine" key="SOFTWARE\Activision\Activenet\Applications\1020.2.1" value="Cwd"/>
+        <shortcut environment_variable="startmenu" path="Programs\Titanium\Mechwarrior2\Play MechWarrior2.lnk" detract="splash"/>
+      </locations>
+      <files type="Mechs">
+        <save path="mek"/>
+      </files>
+      <files type="Saves">
+        <save filename="userstar.bwd"/>
+      </files>
+      <files type="Settings">
+        <save filename="MW2PRM.CFG"/>
+        <save filename="MW2REG.CFG"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
   </game>
-  <expansion name="MechWarrior2GhostBearsLegacy">
+  <expansion name="MechWarrior2GhostBearsLegacy" for="MechWarrior2">
     <title>MechWarrior 2: Ghost Bear's Legacy</title>
     <version os="Windows">
       <locations>
@@ -7497,10 +7508,8 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-  </expansion>
-  <expansion name="MechWarrior2GhostBearsLegacyTitanium">
-    <title>MechWarrior 2: Ghost Bear's Legacy: Titanium Edition</title>
-    <version os="Windows">
+    <version os="Windows" release="TitaniumEdition">
+      <title>MechWarrior 2: Ghost Bear's Legacy: Titanium Edition</title>
       <locations>
         <path environment_variable="installlocation" path="Activision\Titanium\GhostBearsLegacy"/>
         <path environment_variable="installlocation" path="MechVM\games\mw2-gbl-tt"/>
@@ -7538,37 +7547,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-  </game>
-  <game name="MechWarrior2MercenariesTitanium">
-    <title>MechWarrior 2: Mercenaries: Titanium Edition</title>
-    <version os="Windows">
+    <version os="Windows" release="TitaniumEdition">
+      <title>MechWarrior 2: Mercenaries: Titanium Edition</title>
       <locations>
         <path environment_variable="installlocation" path="Activision\Titanium\Mercenaries"/>
         <path environment_variable="installlocation" path="MechVM\games\mw2-mercs-tt"/>
         <registry root="local_machine" key="SOFTWARE\Activision\Activenet\Applications\1060.2.1" value="Cwd"/>
         <shortcut environment_variable="startmenu" path="Programs\Titanium\Mercenaries\Play Mercenaries.lnk" detract="splash"/>
-      </locations>
-      <files type="Mechs">
-        <save path="mek"/>
-      </files>
-      <files type="Saves">
-        <save filename="userstar.bwd"/>
-      </files>
-      <files type="Settings">
-        <save filename="MW2PRM.CFG"/>
-        <save filename="MW2REG.CFG"/>
-      </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </game>
-  <game name="MechWarrior2Titanium">
-    <title>MechWarrior 2: 31st Century Combat: Titanium Edition</title>
-    <version os="Windows">
-      <locations>
-        <path environment_variable="installlocation" path="Activision\Titanium\Mechwarrior2"/>
-        <path environment_variable="installlocation" path="MechVM\games\mw2-31stcc-tt"/>
-        <registry root="local_machine" key="SOFTWARE\Activision\Activenet\Applications\1020.2.1" value="Cwd"/>
-        <shortcut environment_variable="startmenu" path="Programs\Titanium\Mechwarrior2\Play MechWarrior2.lnk" detract="splash"/>
       </locations>
       <files type="Mechs">
         <save path="mek"/>
@@ -7603,7 +7588,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="MechWarrior3PiratesMoon">
+  <expansion name="MechWarrior3PiratesMoon" for="MechWarrior3">
     <title>MechWarrior 3: Pirate's Moon</title>
     <version os="Windows">
       <locations>
@@ -7621,7 +7606,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <expansion name="MechWarrior4BlackKnight">
+  <expansion name="MechWarrior4BlackKnight" for="MechWarrior4Vengeance">
     <title>MechWarrior 4: Black Knight</title>
     <version os="Windows">
       <locations>
@@ -7706,9 +7691,10 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="Medieval2TotalWarKingdomsAmericas">
-    <title>Medieval II: Total War: Kingdoms - Americas</title>
-    <version os="Windows">
+  <expansion name="Medieval2TotalWarKingdomsAmericas" for="Medieval2TotalWar">
+    <title>Medieval II: Total War: Kingdoms</title>
+    <version os="Windows" release="Americas">
+      <title>Medieval II: Total War: Kingdoms (Americas)</title>
       <locations>
         <parent name="Medieval2TotalWar" os="Windows" append="mods\americas"/>
       </locations>
@@ -7720,10 +7706,8 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-  </expansion>
-  <expansion name="Medieval2TotalWarKingdomsBritannia">
-    <title>Medieval II: Total War: Kingdoms - Britannia</title>
-    <version os="Windows">
+    <version os="Windows" release="Britannia">
+      <title>Medieval II: Total War: Kingdoms (Britannia)</title>
       <locations>
         <parent name="Medieval2TotalWar" os="Windows" append="mods\british_isles"/>
       </locations>
@@ -7735,10 +7719,8 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-  </expansion>
-  <expansion name="Medieval2TotalWarKingdomsCrusades">
-    <title>Medieval II: Total War: Kingdoms - Crusades</title>
-    <version os="Windows">
+    <version os="Windows" release="Crusades">
+      <title>Medieval II: Total War: Kingdoms (Crusades)</title>
       <locations>
         <parent name="Medieval2TotalWar" os="Windows" append="mods\crusades"/>
       </locations>
@@ -7750,10 +7732,8 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-  </expansion>
-  <expansion name="Medieval2TotalWarKingdomsTeutonic">
-    <title>Medieval II: Total War: Kingdoms - Teutonic</title>
-    <version os="Windows">
+    <version os="Windows" release="Teutonic">
+      <title>Medieval II: Total War: Kingdoms (Teutonic)</title>
       <locations>
         <parent name="Medieval2TotalWar" os="Windows" append="mods\teutonic"/>
       </locations>
@@ -7854,16 +7834,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MetalGearSolid2Substance">
-    <title>Metal Gear Solid 2: Substance</title>
-    <version os="PS2" region="USA">
+  <game name="MetalGearSolid2">
+    <title>Metal Gear Solid 2: Sons of Liberty</title>
+    <version os="PS2" region="USA" release="Substance">
+      <title>Metal Gear Solid 2: Substance</title>
       <ps_code prefix="SLUS" suffix="20554"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MetalGearSolid3Subsistence">
-    <title>Metal Gear Solid 3: Subsistence</title>
-    <version os="PS2" region="USA">
+  <game name="MetalGearSolid3">
+    <title>Metal Gear Solid 3: Snake Eater</title>
+    <version os="PS2" region="USA" release="Subsistence">
+      <title>Metal Gear Solid 3: Subsistence</title>
       <ps_code prefix="SLUS" suffix="21359"/>
       <ps_code prefix="SLUS" suffix="21243"/>
       <contributor>SanMadJack</contributor>
@@ -7994,9 +7976,10 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="MonkeyIsland2SpecialEditionLeChucksRevenge">
-    <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
-    <version media="Steam">
+  <game name="MonkeyIsland2LeChucksRevenge">
+    <title>Monkey Island™ 2 LeChuck’s Revenge</title>
+    <version media="Steam" release="SpecialEdition">
+      <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
       <locations>
         <path environment_variable="steamuserdata" path="32460"/>
       </locations>
@@ -8005,7 +7988,8 @@
       </files>
       <contributor>slake_jones</contributor>
     </version>
-    <version os="Windows">
+    <version os="Windows" release="SpecialEdition">
+      <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
       <locations>
         <path environment_variable="appdata" path=" LucasArts\Monkey Island 2 Special Edition "/>
       </locations>
@@ -8143,8 +8127,8 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MystMasterpieceEdtition">
-    <title>Myst: Masterpiece Edition</title>
+  <game name="Myst">
+    <title>Myst</title>
     <version os="Windows">
       <locations>
         <path environment_variable="userdocuments" path="Myst"/>
@@ -8158,9 +8142,10 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MystUruCompleteChronicles">
-    <title>Myst: Uru - Complete Chronicles</title>
-    <version os="Windows">
+  <game name="Uru">
+    <title>Uru: Ages Beyond Myst</title>
+    <version os="Windows" release="CompleteChronicles">
+      <title>Uru: The Complete Chronicles</title>
       <locations>
         <path environment_variable="installlocation" path="Ubi Soft\Cyan Worlds\Myst Uru Complete Chronicles"/>
         <path environment_variable="installlocation" path="GOG.com\Myst Uru Complete Chronicles"/>
@@ -8847,7 +8832,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="PenumbraRequiem">
+  <expansion name="PenumbraRequiem" for="PenumbraBlackPlague">
     <title>Penumbra: Requiem</title>
     <version os="Windows">
       <locations>
@@ -9040,7 +9025,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="Postal2ApocalypseWeekend">
+  <expansion name="Postal2ApocalypseWeekend" for="Postal2">
     <title>Postal 2: Apocalypse Weekend</title>
     <version os="Windows">
       <locations>
@@ -9416,7 +9401,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <expansion name="RainbowSix3AthenaSword">
+  <expansion name="RainbowSix3AthenaSword" for="RainbowSix3RavenShield">
     <title>Tom Clancy's Rainbow Six 3: Athena Sword</title>
     <version os="Windows">
       <locations>
@@ -9743,7 +9728,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="RedneckRampageRidesAgain">
+  <expansion name="RedneckRampageRidesAgain" for="RedneckRampage">
     <title>Redneck Rampage Rides Again</title>
     <version os="DOS">
       <locations>
@@ -10038,7 +10023,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="RomeTotalWarAlexander">
+  <expansion name="RomeTotalWarAlexander" for="RomeTotalWar">
     <title>Rome: Total War: Alexander</title>
     <version os="Windows">
       <locations>
@@ -10054,7 +10039,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <expansion name="RomeTotalWarBarbarianInvasion">
+  <expansion name="RomeTotalWarBarbarianInvasion" for="RomeTotalWar">
     <title>Rome: Total War: Barbarian Invasion</title>
     <version os="Windows">
       <locations>
@@ -10609,9 +10594,10 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SecretOfMonkeyIslandSpecialEdition">
-    <title>The Secret of Monkey Island™ Special Edition</title>
-    <version os="Windows">
+  <game name="SecretOfMonkeyIsland">
+    <title>The Secret of Monkey Island™</title>
+    <version os="Windows" release="SpecialEdition">
+      <title>The Secret of Monkey Island™ Special Edition</title>
       <locations>
         <path environment_variable="appdata" path="LucasArts\The Secret of Monkey Island Special Edition"/>
       </locations>
@@ -10691,9 +10677,10 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="SeriousSamHD1">
-    <title>Serious Sam HD: The First Encounter</title>
-    <version media="Steam">
+  <game name="SeriousSamTheFirstEncounter">
+    <title>Serious Sam: The First Encounter</title>
+    <version media="Steam" release="HD">
+      <title>Serious Sam HD: The First Encounter</title>
       <locations>
         <path environment_variable="steamuserdata" path="41000\local\SeriousSamHD"/>
       </locations>
@@ -10703,9 +10690,10 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SeriousSamHD2">
-    <title>Serious Sam HD: The Second Encounter</title>
-    <version media="Steam">
+  <game name="SeriousSamTheSecondEncounter" follows="SeriousSamFirstEncounter">
+    <title>Serious Sam: The Second Encounter</title>
+    <version media="Steam" release="HD">
+      <title>Serious Sam HD: The Second Encounter</title>
       <locations>
         <path environment_variable="steamuserdata" path="41010\local\SeriousSamHD_TSE"/>
       </locations>
@@ -10760,7 +10748,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="ShadowgunTheLeftover">
+  <expansion name="ShadowgunTheLeftover" for="Shadowgun">
     <title>Shadowgun: The Leftover</title>
     <version os="Android">
       <locations>
@@ -10920,9 +10908,9 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SilentHill2GreatestHits">
+  <game name="SilentHill2">
     <title>Silent Hill 2</title>
-    <version os="PS2" region="USA">
+    <version os="PS2" region="USA" release="GreatestHits">
       <title>Silent Hill 2: Greatest Hits Edition</title>
       <ps_code prefix="SLUS" suffix="20228"/>
       <contributor>SanMadJack</contributor>
@@ -11331,10 +11319,8 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-  </game>
-  <game name="SpaceRangers2Reboot">
-    <title>Space Rangers 2: Reboot</title>
-    <version os="Windows">
+    <version os="Windows" release="Reboot">
+      <title>Space Rangers 2: Reboot</title>
       <locations>
         <path environment_variable="installlocation" path="GOG.com\Space Rangers 2 - Reboot"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPACKSPACERANGERS2REBOOT" value="PATH"/>
@@ -11696,7 +11682,7 @@
       <contributor>AvvA</contributor>
     </version>
   </game>
-  <expansion name="StarWarsEmpireAtWarForcesOfCorruption">
+  <expansion name="StarWarsEmpireAtWarForcesOfCorruption" for="StarWarsEmpireAtWar">
     <title>Star Wars: Empire at War - Forces of Corruption</title>
     <version os="Windows">
       <locations>
@@ -11747,7 +11733,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <expansion name="StarWarsJediKnightMysteriesOfTheSith">
+  <expansion name="StarWarsJediKnightMysteriesOfTheSith" for="StarWarsJediKnightDarkForces2">
     <title>Star Wars: Jedi Knight: Mysteries of the Sith</title>
     <version os="Windows">
       <locations>
@@ -12382,19 +12368,6 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="ThiefGold">
-    <title>Thief Gold</title>
-    <version os="Windows">
-      <locations>
-        <path environment_variable="installlocation" path="ThiefG"/>
-        <shortcut environment_variable="startmenu" path="Programs\Thief Gold\Thief.lnk"/>
-      </locations>
-      <files type="Saves">
-        <save path="SAVES"/>
-      </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </expansion>
   <game name="ThiefTheDarkProject">
     <title>Thief: The Dark Project</title>
     <version os="Windows">
@@ -12407,9 +12380,20 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
+    <version os="Windows" release="Gold">
+      <title>Thief Gold</title>
+      <locations>
+        <path environment_variable="installlocation" path="ThiefG"/>
+        <shortcut environment_variable="startmenu" path="Programs\Thief Gold\Thief.lnk"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVES"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
   </game>
   <game name="ThrillvilleOffTheRails">
-    <title>ThrillvilleOffTheRails</title>
+    <title>Thrillville: Off The Rails</title>
     <version os="Windows">
       <locations>
         <path environment_variable="localappdata" path="LucasArts\Thrillville 07"/>
@@ -12449,7 +12433,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <expansion name="TitanQuestImmortalThrone">
+  <expansion name="TitanQuestImmortalThrone" for="TitanQuest">
     <title>Titan Quest: Immortal Throne</title>
     <version os="Windows">
       <locations>
@@ -12488,7 +12472,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="TombRaider2TheGoldenMask">
+  <expansion name="TombRaider2TheGoldenMask" for="TombRaider2">
     <title>Tomb Raider II: The Golden Mask</title>
     <version os="Windows">
       <locations>
@@ -12515,7 +12499,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="TombRaider3TheLostArtifact">
+  <expansion name="TombRaider3TheLostArtifact" for="TombRaider3AdventuresOfLaraCroft">
     <title>Tomb Raider III: The Lost Artifact</title>
     <version os="Windows">
       <locations>
@@ -12617,7 +12601,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <expansion name="TombRaiderUnfinishedBusiness">
+  <expansion name="TombRaiderUnfinishedBusiness" for="TombRaider">
     <title>Tomb Raider: Unfinished Business</title>
     <version os="DOS">
       <locations>

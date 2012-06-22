@@ -65,13 +65,15 @@
   </xs:attribute>
 
 
-  <xs:attribute name="name">
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-        <xs:pattern value="[-_A-Za-z0-9]*"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:attribute>
+  <xs:simpleType name="game_name">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[-_A-Za-z0-9]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:attribute name="name" type="game_name" />
+  <xs:attribute name="for" type="game_name" />
+  <xs:attribute name="follows" type="game_name" />
 
   <xs:attribute name="override" default="false" type="xs:boolean" />
 
@@ -221,7 +223,7 @@
     <xs:attribute ref="platform" use="optional"/>
     <xs:attribute ref="media" use="optional"/>
     <xs:attribute ref="region" use="optional"/>
-    <xs:attribute ref="other" use="optional"/>
+    <xs:attribute name="release" type="xs:string" use="optional" />
   </xs:attributeGroup>
 
   <xs:attributeGroup name="version_attributes">
@@ -317,6 +319,22 @@
     <xs:attributeGroup ref="item_attributes"/>
   </xs:complexType>
 
+  <xs:complexType name="program_sequel">
+    <xs:complexContent>
+      <xs:extension base="program">
+        <xs:attribute ref="follows" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="program_expansion">
+    <xs:complexContent>
+      <xs:extension base="program">
+        <xs:attribute ref="for" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
   <xs:element name="locations">
     <xs:complexType>
       <xs:choice minOccurs="1" maxOccurs="unbounded">
@@ -361,10 +379,10 @@
   <xs:element name="programs">
     <xs:complexType>
       <xs:choice minOccurs="1" maxOccurs="unbounded">
-        <xs:element name="game" minOccurs="0" maxOccurs="unbounded" type="program" />
         <xs:element name="system" minOccurs="0" maxOccurs="unbounded" type="program"/>
-        <xs:element name="mod" minOccurs="0" maxOccurs="unbounded" type="program"/>
-        <xs:element name="expansion" minOccurs="0" maxOccurs="unbounded" type="program"/>
+        <xs:element name="game" minOccurs="0" maxOccurs="unbounded" type="program_sequel" />
+        <xs:element name="mod" minOccurs="0" maxOccurs="unbounded" type="program_expansion"/>
+        <xs:element name="expansion" minOccurs="0" maxOccurs="unbounded" type="program_expansion"/>
       </xs:choice>
       <xs:attribute name="majorVersion" type="xs:integer" use="required"/>
       <xs:attribute name="minorVersion" type="xs:integer" use="required"/>
