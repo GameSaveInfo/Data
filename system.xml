@@ -5,7 +5,7 @@
     <title>Games for Windows</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="localappdata" path="Microsoft\XLive\Content"/>
+        <path ev="localappdata" path="Microsoft\XLive\Content"/>
       </locations>
       <files type="AccountData">
         <save/>
@@ -18,7 +18,7 @@
     <version>
       <title>MASGAU Custom XML</title>
       <locations>
-        <path environment_variable="installlocation" path="MASGAU"/>
+        <path ev="installlocation" path="MASGAU"/>
         <registry root="local_machine" key="SOFTWARE\MASGAU" value="InstallPath"/>
       </locations>
       <files type="CustomXML">
@@ -32,7 +32,7 @@
     <title>Raptr</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="appdata" path="Raptr"/>
+        <path ev="appdata" path="Raptr"/>
       </locations>
       <files type="Data">
         <save path="data"/>
@@ -48,7 +48,7 @@
     <title>Rockstar Games Social Club</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="localappdata" path="Rockstar Games\RGSC"/>
+        <path ev="localappdata" path="Rockstar Games\RGSC"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -60,7 +60,7 @@
     <title>Tomboy</title>
     <version>
       <locations>
-        <path environment_variable="appdata" path="Tomboy"/>
+        <path ev="appdata" path="Tomboy"/>
       </locations>
       <files type="Saves">
         <save path="notes"/>
@@ -75,7 +75,7 @@
     <title>UPlay</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="installlocation" path="Ubisoft\Ubisoft Game Launcher"/>
+        <path ev="installlocation" path="Ubisoft\Ubisoft Game Launcher"/>
         <registry root="local_machine" key="SOFTWARE\UbiSoft\Launcher" value="InstallDir"/>
       </locations>
       <files type="Data">
@@ -90,7 +90,7 @@
     <title>Xfire</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="allusersprofile" path="Xfire"/>
+        <path ev="allusersprofile" path="Xfire"/>
       </locations>
       <files type="Data">
         <save/>

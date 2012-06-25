@@ -9,7 +9,7 @@
 
   <!--attributes-->
 
-  <xs:attribute name="environment_variable">
+  <xs:attribute name="ev">
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:enumeration value="allusersprofile"/>
@@ -245,7 +245,7 @@
 
   <xs:element name="shortcut">
     <xs:complexType>
-      <xs:attribute ref="environment_variable" use="required"/>
+      <xs:attribute ref="ev" use="required"/>
       <xs:attribute ref="path" use="required"/>
       <xs:attributeGroup ref="location_attributes" />
     </xs:complexType>
@@ -268,7 +268,7 @@
 
   <xs:element name="path">
     <xs:complexType>
-      <xs:attribute ref="environment_variable" use="required"/>
+      <xs:attribute ref="ev" use="required"/>
       <xs:attribute ref="path" use="required"/>
       <xs:attributeGroup ref="location_attributes" />
     </xs:complexType>

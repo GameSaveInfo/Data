@@ -4,7 +4,7 @@
     <title>Cinematic Mod 10</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="steamsourcemods" path="FAKEFACTORY_CM10\hl2"/>
+        <path ev="steamsourcemods" path="FAKEFACTORY_CM10\hl2"/>
       </locations>
       <files type="Saves">
         <save path="SAVE"/>
@@ -16,7 +16,7 @@
     <title>Cinematic Mod 10</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="steamsourcemods" path="FAKEFACTORY_CM10\episodic"/>
+        <path ev="steamsourcemods" path="FAKEFACTORY_CM10\episodic"/>
       </locations>
       <files type="Saves">
         <save path="SAVE"/>
@@ -28,7 +28,7 @@
     <title>Cinematic Mod 10</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="steamsourcemods" path="FAKEFACTORY_CM10\ep2"/>
+        <path ev="steamsourcemods" path="FAKEFACTORY_CM10\ep2"/>
       </locations>
       <files type="Saves">
         <save path="SAVE"/>
@@ -40,7 +40,7 @@
     <title>Flesh</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="steamsourcemods" path="Flesh"/>
+        <path ev="steamsourcemods" path="Flesh"/>
       </locations>
       <files type="Saves">
         <save path="SAVE"/>
@@ -52,7 +52,7 @@
     <title>The Nameless Mod</title>
     <version os="Windows">
       <locations>
-        <shortcut environment_variable="startmenu" path="Programs\The Nameless Mod\The Nameless Mod.lnk" append="TNM" detract="System"/>
+        <shortcut ev="startmenu" path="Programs\The Nameless Mod\The Nameless Mod.lnk" append="TNM" detract="System"/>
         <parent name="DeusEx" os="Windows" append="TNM"/>
       </locations>
       <files type="Saves">
@@ -68,7 +68,7 @@
     <title>Research and Development</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="steamsourcemods" path="Research and Development"/>
+        <path ev="steamsourcemods" path="Research and Development"/>
       </locations>
       <files type="Saves">
         <save path="SAVE"/>

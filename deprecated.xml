@@ -5,7 +5,7 @@
     <title>Blackwell Episode 1: The Blackwell Legacy (Remastered)</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="steamcommon" path="blackwell legacy"/>
+        <path ev="steamcommon" path="blackwell legacy"/>
       </locations>
       <files type="Saves">
         <save path="Saves"/>
@@ -18,7 +18,7 @@
     <title>Blackwell Episode 2: Blackwell Unbound (Remastered)</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="steamcommon" path="blackwell unbound"/>
+        <path ev="steamcommon" path="blackwell unbound"/>
       </locations>
       <files type="Saves">
         <save path="Saves"/>
@@ -31,7 +31,7 @@
     <title>Blackwell Episode 3: Blackwell Convergence (Remastered)</title>
     <version os="Windows">
       <locations>
-        <path environment_variable="steamcommon" path="blackwell convergence"/>
+        <path ev="steamcommon" path="blackwell convergence"/>
       </locations>
       <files type="Saves">
         <save path="Saves"/>
