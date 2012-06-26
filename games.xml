@@ -10189,7 +10189,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode1">
-    <title>Sam &amp; Max Season One Episode 1 - Culture Shock</title>
+    <title>Sam &amp; Max Save The World Episode 1 - Culture Shock</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 1 - Culture Shock Data"/>
@@ -10209,7 +10209,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode2">
-    <title>Sam &amp; Max Season One Episode 2 - Situation Comedy</title>
+    <title>Sam &amp; Max Save The World Episode 2 - Situation Comedy</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy Data"/>
@@ -10229,7 +10229,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode3">
-    <title>Sam &amp; Max Season One Episode 3 - The Mole, the Mob, and the Meatball</title>
+    <title>Sam &amp; Max Save The World Episode 3 - The Mole, the Mob, and the Meatball</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball Data"/>
@@ -10249,7 +10249,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode4">
-    <title>Sam &amp; Max Season One Episode 4 - Abe Lincoln Must Die!</title>
+    <title>Sam &amp; Max Save The World Episode 4 - Abe Lincoln Must Die!</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die! Data"/>
@@ -10269,7 +10269,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode5">
-    <title>Sam &amp; Max Season One Episode 5 - Reality 2.0</title>
+    <title>Sam &amp; Max Save The World Episode 5 - Reality 2.0</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0 Data"/>
@@ -10289,7 +10289,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode6">
-    <title>Sam &amp; Max Season One Episode 6 - Bright Side of the Moon</title>
+    <title>Sam &amp; Max Save The World Episode 6 - Bright Side of the Moon</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon Data"/>
@@ -10309,7 +10309,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode1">
-    <title>Sam &amp; Max Season Two Episode 1 - Ice Station Santa</title>
+    <title>Sam &amp; Max Beyond Time and Space Episode 1 - Ice Station Santa</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 201 - Ice Station Santa"/>
@@ -10329,7 +10329,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode2">
-    <title>Sam &amp; Max Season Two Episode 2 - Moai Better Blues</title>
+    <title>Sam &amp; Max Beyond Time and Space Episode 2 - Moai Better Blues</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 202 - Moai Better Blues"/>
@@ -10349,7 +10349,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode3">
-    <title>Sam &amp; Max Season Two Episode 3 - Night of the Raving Dead</title>
+    <title>Sam &amp; Max Beyond Time and Space Episode 3 - Night of the Raving Dead</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 203 - Night of the Raving Dead"/>
@@ -10369,7 +10369,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode4">
-    <title>Sam &amp; Max Season Two Episode 4 - Chariots of the Dogs</title>
+    <title>Sam &amp; Max Beyond Time and Space Episode 4 - Chariots of the Dogs</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 204 - Chariots of the Dogs"/>
@@ -10389,7 +10389,7 @@
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode5">
-    <title>Sam &amp; Max Season Two Episode 5 - What's New, Beelzebub</title>
+    <title>Sam &amp; Max Beyond Time and Space Episode 5 - What's New, Beelzebub</title>
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season Two\Episode 205 - What's New, Beelzebub"/>
