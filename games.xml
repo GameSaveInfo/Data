@@ -12350,7 +12350,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ThiefDeadlyShadows">
+  <game name="ThiefDeadlyShadows" follows="Thief2">
     <title>Thief: Deadly Shadows</title>
     <version os="Windows">
       <locations>
@@ -12364,7 +12364,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ThiefTheDarkProject" follows="Thief2">
+  <game name="ThiefTheDarkProject">
     <title>Thief: The Dark Project</title>
     <version os="Windows">
       <locations>
