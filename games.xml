@@ -1808,6 +1808,19 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="BusDriver">
+    <title>Bus Driver</title>
+    <version os="Windows">
+      <title>Bus Driver</title>
+      <locations>
+        <path ev="userdocuments" path="Bus Driver"/>
+      </locations>
+      <files type="Saves">
+        <save path="save"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
   <game name="CallOfCthulhuDarkCornersOfTheEarth">
     <title>Call of Cthulhu: Dark Corners of the Earth</title>
     <version os="Windows">
@@ -3390,6 +3403,18 @@
       </locations>
       <files type="Saves">
         <save path="user"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
+  <game name="DinsCurse">
+    <title>Din's Curse</title>
+    <version>
+      <locations>
+        <path ev="localappdata" path="DinsCurse"/>
+      </locations>
+      <files type="Saves">
+        <save />
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -5889,6 +5914,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="HarryPotterAndTheHalfBloodPrince">
+    <title>Harry Potter and the Half-Blood Prince</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Electronic Arts\Harry Potter and the Half Blood Prince"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="HeartsOfIron2">
     <title>Hearts of Iron II</title>
     <version os="Windows">
@@ -7071,9 +7108,19 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="LostPlanetColonies">
-    <title>Lost Planet: Colonies</title>
+  <game name="LostPlanet">
+    <title>Lost Planet: Extreme Condition</title>
     <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="CAPCOM\LOSTPLANET"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>Caleb Love</contributor>
+    </version>
+    <version os="Windows" release="Colonies">
+      <title>Lost Planet: Colonies</title>
       <locations>
         <path ev="localappdata" path="CAPCOM\LOSTPLANETCOLONIES"/>
       </locations>
@@ -8958,6 +9005,18 @@
         <save filename="*.ldw"/>
       </files>
       <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="PocketTanks">
+    <title>Pocket Tanks</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Pocket Tanks"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="PokerNightAtTheInventory">
