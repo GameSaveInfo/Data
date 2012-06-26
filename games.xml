@@ -124,7 +124,7 @@
       <contributor>Samuel Barbour</contributor>
     </version>
   </game>
-  <game name="AgeOfEmpires3" follows="AgeOfEmpires3">
+  <game name="AgeOfEmpires3" follows="AgeOfEmpires2">
     <title>Age of Empires III</title>
     <version os="Windows">
       <locations>
