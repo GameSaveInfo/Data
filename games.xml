@@ -124,7 +124,7 @@
       <contributor>Samuel Barbour</contributor>
     </version>
   </game>
-  <game name="AgeOfEmpires3">
+  <game name="AgeOfEmpires3" follows="AgeOfEmpires3">
     <title>Age of Empires III</title>
     <version os="Windows">
       <locations>
@@ -220,7 +220,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="AlanWakesAmericanNightmare">
+  <game name="AlanWakesAmericanNightmare" follows="AlanWake">
     <title>Alan Wake's American Nightmare</title>
     <version os="Windows" media="GoG">
       <locations>
@@ -260,7 +260,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="AliceMadnessReturns">
+  <game name="AliceMadnessReturns" follows="Alice">
     <title>Alice: Madness Returns</title>
     <version os="Windows">
       <locations>
@@ -290,7 +290,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="AlienBreed3Descent">
+  <game name="AlienBreed3Descent" follows="AlienBreed2Assault">
     <title>Alien Breed 3: Descent</title>
     <version os="Windows">
       <locations>
@@ -305,7 +305,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="AlienBreedImpact">
+  <game name="AlienBreedImpact" follows="AlienBreed3Descent">
     <title>Alien Breed: Impact</title>
     <version os="Windows">
       <locations>
@@ -320,19 +320,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="AlienShooter2Reloaded">
-    <title>Alien Shooter 2: Reloaded</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="AlienShooter2 Reloaded Saves"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>Arc Angel</contributor>
-    </version>
-  </game>
-  <game name="AlienShooterVengeance">
+  <game name="AlienShooter2">
     <title>Alien Shooter: Vengeance</title>
     <version os="Windows">
       <locations>
@@ -342,6 +330,16 @@
         <save/>
       </files>
       <contributor>SanMadJack</contributor>
+    </version>
+    <version os="Windows" release="Reloaded">
+      <title>Alien Shooter 2: Reloaded</title>
+      <locations>
+        <path ev="userdocuments" path="AlienShooter2 Reloaded Saves"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="AliensVsPredator2">
@@ -360,7 +358,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="AliensVsPredator2010">
+  <game name="AliensVsPredator2010" follows="AliensVsPredator2">
     <title>Aliens vs. Predator (2010)</title>
     <version os="Windows">
       <locations>
@@ -414,7 +412,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="AloneInTheDark2">
+  <game name="AloneInTheDark2" follows="AloneInTheDark">
     <title>Alone in the Dark 2</title>
     <version os="DOS">
       <locations>
@@ -428,7 +426,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="AloneInTheDark3">
+  <game name="AloneInTheDark3" follows="AloneInTheDark2">
     <title>Alone in the Dark 3</title>
     <version os="DOS">
       <locations>
@@ -442,7 +440,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="AloneInTheDarkTheNewNightmare">
+  <game name="AloneInTheDarkTheNewNightmare" follows="AloneInTheDark3">
     <title>Alone in the Dark: The New Nightmare</title>
     <version os="Windows">
       <locations>
@@ -656,7 +654,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Aquanox2">
+  <game name="Aquanox2" follows="Aquanox">
     <title>Aquanox 2: Revelation</title>
     <version os="Windows">
       <locations>
@@ -744,7 +742,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="ArmA2">
+  <game name="ArmA2" follows="ArmACombatOperations">
     <title>ArmA II</title>
     <version os="Windows">
       <locations>
@@ -814,7 +812,7 @@
       <contributor>Joe Looney</contributor>
     </version>
   </game>
-  <game name="AssassinsCreedBrotherhood">
+  <game name="AssassinsCreedBrotherhood" follows="AssassinsCreed">
     <title>Assassin's Creed: Brotherhood</title>
     <version os="PS3" region="EUR">
       <ps_code prefix="BLES" suffix="00909"/>
@@ -830,7 +828,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="AssassinsCreedRevelations">
+  <game name="AssassinsCreedRevelations" follows="AssassinsCreedBrotherhood">
     <title>Assassin's Creed: Revelations</title>
     <version os="PS3" region="EUR">
       <ps_code prefix="BLES" suffix="01384"/>
@@ -925,7 +923,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="BackToTheFutureEpisode2GetTannen">
+  <game name="BackToTheFutureEpisode2GetTannen" follows="BackToTheFutureEpisode1ItsAboutTime">
     <title>Back to the Future: Episode 2: Get Tannen!</title>
     <version os="Windows">
       <locations>
@@ -937,7 +935,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="BackToTheFutureEpisode3CitizenBrown">
+  <game name="BackToTheFutureEpisode3CitizenBrown" follows="BackToTheFutureEpisode2GetTannen">
     <title>Back to the Future: Episode 3: Citizen Brown</title>
     <version os="Windows">
       <locations>
@@ -949,7 +947,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="BackToTheFutureEpisode4DoubleVisions">
+  <game name="BackToTheFutureEpisode4DoubleVisions" follows="BackToTheFutureEpisode3CitizenBrown">
     <title>Back to the Future: Episode 4: Double Visions</title>
     <version os="Windows">
       <locations>
@@ -961,7 +959,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="BackToTheFutureEpisode5OUTATIME">
+  <game name="BackToTheFutureEpisode5OUTATIME" follows="BackToTheFutureEpisode4DoubleVisions">
     <title>Back to the Future: Episode 5: OUTATIME</title>
     <version os="Windows">
       <locations>
@@ -995,7 +993,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BaldursGate2">
+  <game name="BaldursGate2" follows="BaldursGate">
     <title>Baldur's Gate II</title>
     <version os="Windows">
       <locations>
@@ -1074,7 +1072,7 @@
       <contributor>Michael Lamere</contributor>
     </version>
   </game>
-  <game name="BatmanArkhamCity">
+  <game name="BatmanArkhamCity" follows="BatmanArkhamAsylum">
     <title>Batman: Arkham City</title>
     <version os="Windows">
       <locations>
@@ -1124,7 +1122,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BattlefieldBadCompany2">
+  <game name="BattlefieldBadCompany2" follows="BattlefieldBadcompany">
     <title>Battlefield: Bad Company 2</title>
     <version os="Windows">
       <locations>
@@ -1186,7 +1184,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="Bejeweled2Deluxe">
+  <game name="Bejeweled2Deluxe" follows="BejeweledDeluxe">
     <title>Bejeweled 2 Deluxe</title>
     <version os="Windows">
       <locations>
@@ -1289,7 +1287,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BeyondZork">
+  <game name="BeyondZork" follows="Zork3">
     <title>Beyond Zork: The Coconut of Quendor</title>
     <version os="DOS">
       <locations>
@@ -1330,7 +1328,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BioShock2">
+  <game name="BioShock2" follows="BioShock">
     <title>BioShock 2</title>
     <version os="Windows">
       <locations>
@@ -1391,7 +1389,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="BlackwellConvergence">
+  <game name="BlackwellConvergence" follows="BlackwellUnbound">
     <title>Blackwell Convergence</title>
     <version os="Windows">
       <locations>
@@ -1406,7 +1404,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BlackwellDeception">
+  <game name="BlackwellDeception" follows="BlackwellConvergence">
     <title>Blackwell Deception</title>
     <version os="Windows">
       <locations>
@@ -1434,7 +1432,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BlackwellUnbound">
+  <game name="BlackwellUnbound" follows="BlackwellLegacy">
     <title>Blackwell Unbound</title>
     <version os="Windows">
       <locations>
@@ -1469,7 +1467,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Blood2TheChosen">
+  <game name="Blood2TheChosen" follows="OneUnitWholeBlood">
     <title>Blood II: The Chosen</title>
     <version os="Windows">
       <locations>
@@ -1570,7 +1568,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BloodRayne2">
+  <game name="BloodRayne2" follows="BloodRayne">
     <title>BloodRayne 2</title>
     <version os="Windows">
       <locations>
@@ -1708,7 +1706,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BrokenSword2">
+  <game name="BrokenSword2" follows="BrokenSword1">
     <title>Broken Sword II: The Smoking Mirror</title>
     <version platform="ScummVM">
       <scummvm name="sword2"/>
@@ -1734,7 +1732,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BrokenSword3TheSleepingDragon">
+  <game name="BrokenSword3TheSleepingDragon" follows="BrokenSword2">
     <title>Broken Sword: The Sleeping Dragon</title>
     <version os="Windows">
       <locations>
@@ -1748,7 +1746,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="BrokenSword4TheAngelOfDeath">
+  <game name="BrokenSword4TheAngelOfDeath" follows="BrokenSword3TheSleepingDragon">
     <title>Broken Sword: The Angel of Death</title>
     <version os="Windows">
       <locations>
@@ -1837,7 +1835,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="CallOfDuty2">
+  <game name="CallOfDuty2" follows="CallOfDuty">
     <title>Call of Duty 2</title>
     <version os="Windows">
       <locations>
@@ -1864,7 +1862,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="CallOfDutyBlackOps">
+  <game name="CallOfDutyBlackOps" follows="CallOfDutyWorldAtWar">
     <title>Call of Duty: Black Ops</title>
     <version os="Windows">
       <locations>
@@ -1880,7 +1878,7 @@
       <contributor>javier.ark</contributor>
     </version>
   </game>
-  <game name="CallOfDutyModernWarfare2">
+  <game name="CallOfDutyModernWarfare2" follows="CallOfDuty4ModernWarfare">
     <title>Call of Duty: Modern Warfare 2</title>
     <version os="Windows">
       <locations>
@@ -1892,7 +1890,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="CallOfDutyModernWarfare3">
+  <game name="CallOfDutyModernWarfare3" follows="CallOfDutyModernWarfare2">
     <title>Call of Duty: Modern Warfare 3</title>
     <version os="Windows">
       <locations>
@@ -1907,7 +1905,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="CallOfDutyUnitedOffensive">
+  <expansion name="CallOfDutyUnitedOffensive" for="CallOfDuty">
     <title>Call of Duty: United Offensive</title>
     <version os="Windows">
       <locations>
@@ -1921,7 +1919,7 @@
       </files>
       <contributor>Arc Angel</contributor>
     </version>
-  </game>
+  </expansion>
   <game name="CallOfDutyWorldAtWar">
     <title>Call of Duty: World at War</title>
     <version os="Windows">
@@ -2045,7 +2043,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="ChromeSpecForce">
+  <game name="ChromeSpecForce" follows="Chrome">
     <title>Chrome: SpecForce</title>
     <version os="Windows">
       <locations>
@@ -2057,7 +2055,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="ChroniclesOfRiddickAssaultOnDarkAthena">
+  <game name="ChroniclesOfRiddickAssaultOnDarkAthena" follows="ChroniclesOfRiddickEscapeFromButcherBay">
     <title>The Chronicles of Riddick: Assault on Dark Athena</title>
     <version os="Windows">
       <locations>
@@ -2081,7 +2079,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ChronoCross">
+  <game name="ChronoCross" follows="ChronoTrigger">
     <title>Chrono Cross</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="01041"/>
@@ -2126,7 +2124,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Civilization2">
+  <game name="Civilization2" follows="Civilization">
     <title>Sid Meier's Civilization II</title>
     <version os="Windows" release="MultiplayerGold">
       <title>Sid Meier's Civilization II: Multiplayer Gold</title>
@@ -2151,7 +2149,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Civilization3">
+  <game name="Civilization3" follows="Civilization2">
     <title>Sid Meier's Civilization III</title>
     <version os="Windows">
       <locations>
@@ -2201,7 +2199,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <game name="Civilization4">
+  <game name="Civilization4" follows="Civilization3">
     <title>Sid Meier's Civilization IV</title>
     <version os="Windows">
       <locations>
@@ -2249,7 +2247,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <game name="Civilization5">
+  <game name="Civilization5" follows="Civilization4">
     <title>Sid Meier's Civilization V</title>
     <version media="Steam">
       <locations>
@@ -2376,7 +2374,7 @@
       <contributor>Paul Taylor</contributor>
     </version>
   </game>
-  <game name="CommandAndConquer4TiberianTwilight">
+  <game name="CommandAndConquer4TiberianTwilight" follows="CommandAndConquer3TiberiumWars">
     <title>Command &amp; Conquer 4: Tiberian Twilight</title>
     <version os="Windows">
       <locations>
@@ -2535,7 +2533,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Crysis2">
+  <game name="Crysis2" follows="CrysisWarhead">
     <title>Crysis 2</title>
     <version os="Windows">
       <locations>
@@ -2548,7 +2546,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="CrysisWarhead">
+  <game name="CrysisWarhead" follows="Crysis">
     <title>Crysis Warhead</title>
     <version os="Windows">
       <locations>
@@ -2662,7 +2660,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Cyberstorm2">
+  <game name="Cyberstorm2" follows="Cyberstorm">
     <title>Cyberstorm 2: Corporate Wars</title>
     <version os="Windows">
       <locations>
@@ -2712,7 +2710,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="DarkCloud2">
+  <game name="DarkCloud2" follows="DarkCloud">
     <title>Dark Cloud 2</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97213"/>
@@ -2733,7 +2731,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="DarkFall2LightsOut">
+  <game name="DarkFall2LightsOut" follows="DarkFallTheJournal">
     <title>Dark Fall II: Lights Out</title>
     <version os="Windows">
       <locations>
@@ -2792,7 +2790,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Darkness2">
+  <game name="Darkness2" follows="Darkness">
     <title>The Darkness II</title>
     <version os="Windows">
       <locations>
@@ -2821,7 +2819,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="DarknessWithin2">
+  <game name="DarknessWithin2" follows="DarknessWithin">
     <title>Darkness Within 2</title>
     <version os="Windows">
       <locations>
@@ -2986,7 +2984,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="DeadSpace2">
+  <game name="DeadSpace2" follows="DeadSpace">
     <title>Dead Space 2</title>
     <version os="Windows">
       <locations>
@@ -3119,7 +3117,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Descent2">
+  <game name="Descent2" follows="Descent">
     <title>Descent II</title>
     <version os="Windows">
       <locations>
@@ -3144,7 +3142,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Descent3">
+  <game name="Descent3" follows="Descent2">
     <title>Descent³</title>
     <version os="Windows">
       <locations>
@@ -3180,7 +3178,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="DescentMaximum">
+  <game name="DescentMaximum" follows="Descent">
     <title>Descent: Maximum</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="00460"/>
@@ -3200,7 +3198,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Desperados2">
+  <game name="Desperados2" follows="Desperados">
     <title>Desperados 2: Cooper's Revenge</title>
     <version os="Windows">
       <locations>
@@ -3255,7 +3253,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="DeusExHumanRevolution">
+  <game name="DeusExHumanRevolution" follows="DeusExInvisibleWar">
     <title>Deus Ex: Human Revolution</title>
     <version media="Steam">
       <locations>
@@ -3279,7 +3277,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <game name="DeusExInvisibleWar">
+  <game name="DeusExInvisibleWar" follows="DeusEx">
     <title>Deus Ex: Invisible War</title>
     <version os="Windows">
       <locations>
@@ -3298,7 +3296,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="DevilMayCry2">
+  <game name="DevilMayCry2" follows="DevilMayCry">
     <title>Devil May Cry 2</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20484"/>
@@ -3306,7 +3304,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="DevilMayCry3DantesAwakening">
+  <game name="DevilMayCry3DantesAwakening" follows="DevilMayCry2">
     <title>Devil May Cry 3: Dante's Awakening</title>
     <version os="PS2" region="USA" release="SpecialEdition">
       <title>Devil May Cry 3: Dante's Awakening: Special Edition</title>
@@ -3314,7 +3312,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="DevilMayCry4">
+  <game name="DevilMayCry4" follows="DevilMayCry3DantesAwakening">
     <title>Devil May Cry 4</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30092"/>
@@ -3336,7 +3334,7 @@
       <contributor>Mark Barbour</contributor>
     </version>
   </game>
-  <game name="Diablo2">
+  <game name="Diablo2" follows="Diablo">
     <title>Diablo II</title>
     <version os="Windows">
       <locations>
@@ -3394,7 +3392,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="DiRT2">
+  <game name="DiRT2" follows="DiRT">
     <title>DiRT 2</title>
     <version os="Windows">
       <locations>
@@ -3406,7 +3404,7 @@
       <contributor>Snap_shot</contributor>
     </version>
   </game>
-  <game name="DiRT3">
+  <game name="DiRT3" follows="DiRT2">
     <title>DiRT 3</title>
     <version os="Windows">
       <locations>
@@ -3436,7 +3434,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="Disgaea2CursedMemories">
+  <game name="Disgaea2CursedMemories" follows="DisgaeaHourOfDarkness">
     <title>Disgaea 2: Cursed Memories</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21397"/>
@@ -3514,7 +3512,7 @@
       <contributor>Kee715</contributor>
     </version>
   </game>
-  <game name="Doom2">
+  <game name="Doom2" follows="Doom">
     <title>Doom II</title>
     <version os="Windows">
       <locations>
@@ -3526,7 +3524,7 @@
       <contributor>Kee715</contributor>
     </version>
   </game>
-  <game name="Doom3">
+  <game name="Doom3" follows="Doom2">
     <title>Doom 3</title>
     <version os="Windows" virtualstore="ignore" detect="required">
       <locations>
@@ -3551,7 +3549,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="DragonAge2">
+  <game name="DragonAge2" follows="DragonAgeOrigins">
     <title>Dragon Age II</title>
     <version os="Windows">
       <locations>
@@ -3621,7 +3619,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="DreamfallTheLongestJourney">
+  <game name="DreamfallTheLongestJourney" follows="LongestJourney">
     <title>Dreamfall: The Longest Journey</title>
     <version os="Windows">
       <locations>
@@ -3674,7 +3672,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="DriverParallelLines">
+  <game name="DriverParallelLines" follows="Driver3">
     <title>Driver: Parallel Lines</title>
     <version os="Windows">
       <locations>
@@ -3689,7 +3687,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="DriverSanFrancisco">
+  <game name="DriverSanFrancisco" follows="DriverParallelLines">
     <title>Driver San Francisco</title>
     <version os="Windows">
       <locations>
@@ -3747,7 +3745,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="DungeonKeeper2">
+  <game name="DungeonKeeper2" follows="DungeonKeeper">
     <title>Dungeon Keeper II</title>
     <version os="Windows">
       <locations>
@@ -3821,7 +3819,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Earth2150">
+  <game name="Earth2150" follows="Earth2140">
     <title>Earth 2150</title>
     <version os="Windows">
       <locations>
@@ -3836,7 +3834,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Earth2150LostSouls">
+  <game name="Earth2150LostSouls" follows="Earth2150">
     <title>Earth 2150: Lost Souls</title>
     <version os="Windows">
       <locations>
@@ -3851,7 +3849,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Earth2150TheMoonProject">
+  <game name="Earth2150TheMoonProject" follows="Earth2150LostSouls">
     <title>Earth 2150: The Moon Project</title>
     <version os="Windows">
       <locations>
@@ -3866,7 +3864,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Earth2160">
+  <game name="Earth2160" follows="Earth2150TheMoonProject">
     <title>Earth 2160</title>
     <version os="Windows">
       <locations>
@@ -3928,7 +3926,7 @@
       <contributor>Jetsetlemming</contributor>
     </version>
   </game>
-  <game name="ElderScrolls3Morrowind">
+  <game name="ElderScrolls3Morrowind" follows="ElderScrolls2Daggerfall">
     <title>The Elder Scrolls III: Morrowind</title>
     <version os="Windows">
       <locations>
@@ -3943,7 +3941,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="ElderScrolls4Oblivion">
+  <game name="ElderScrolls4Oblivion" follows="ElderScrolls3Morrowind">
     <title>The Elder Scrolls IV: Oblivion</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30007"/>
@@ -3962,7 +3960,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ElderScrolls5Skyrim">
+  <game name="ElderScrolls5Skyrim" follows="ElderScrolls4Oblivion">
     <title>The Elder Scrolls V: Skyrim</title>
     <version os="Windows">
       <locations>
@@ -4024,7 +4022,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="EmpireEarth2">
+  <game name="EmpireEarth2" follows="EmpireEarth">
     <title>Empire Earth II</title>
     <version os="Windows">
       <locations>
@@ -4072,7 +4070,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <game name="EmpireEarth3">
+  <game name="EmpireEarth3" follows="EmpireEarth2">
     <title>Empire Earth III</title>
     <version os="Windows">
       <locations>
@@ -4138,7 +4136,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="EschalonBook2">
+  <game name="EschalonBook2" follows="EschalonBook1">
     <title>Eschalon: Book II</title>
     <version os="Windows">
       <locations>
@@ -4290,7 +4288,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="Fable3">
+  <game name="Fable3" follows="Fable">
     <title>Fable III</title>
     <version os="Windows">
       <locations>
@@ -4345,7 +4343,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="Fallout2">
+  <game name="Fallout2" follows="Fallout">
     <title>Fallout 2</title>
     <version os="Windows">
       <locations>
@@ -4362,7 +4360,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="Fallout3">
+  <game name="Fallout3" follows="FalloutTactics">
     <title>Fallout 3</title>
     <version os="Windows">
       <locations>
@@ -4377,7 +4375,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FalloutNewVegas">
+  <game name="FalloutNewVegas" follows="Fallout3">
     <title>Fallout: New Vegas</title>
     <version os="Windows">
       <locations>
@@ -4392,7 +4390,7 @@
       <contributor>David Barbour</contributor>
     </version>
   </game>
-  <game name="FalloutTactics">
+  <game name="FalloutTactics" follows="Fallout2">
     <title>Fallout Tactics</title>
     <version os="Windows">
       <locations>
@@ -4421,7 +4419,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FarCry2">
+  <game name="FarCry2" follows="FarCry">
     <title>Far Cry 2</title>
     <version os="Windows">
       <locations>
@@ -4480,7 +4478,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FEAR2ProjectOrigin">
+  <game name="FEAR2ProjectOrigin" follows="FEARFirstEncounterAssaultRecon">
     <title>F.E.A.R. 2: Project Origin</title>
     <version os="Windows">
       <locations>
@@ -4492,7 +4490,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FEAR3">
+  <game name="FEAR3" follows="FEAR2ProjectOrigin">
     <title>F.3.A.R.</title>
     <version media="Steam">
       <locations>
@@ -4535,7 +4533,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FearEffect2">
+  <game name="FearEffect2" follows="FearEffect">
     <title>Fear Effect 2: Retro Helix</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="01266"/>
@@ -4579,7 +4577,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FEARPerseusMandate">
+  <game name="FEARPerseusMandate" follows="FEARFirstEncounterAssaultRecon">
     <title>F.E.A.R.: Perseus Mandate</title>
     <version os="Windows">
       <locations>
@@ -4620,7 +4618,7 @@
       <contributor>Caleb Love</contributor>
     </version>
   </game>
-  <game name="FinalDoom">
+  <game name="FinalDoom" follows="Doom2">
     <title>Final Doom</title>
     <version os="Windows">
       <locations>
@@ -4639,28 +4637,28 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FinalFantasy10">
+  <game name="FinalFantasy10" follows="FinalFantasy9">
     <title>Final Fantasy X</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20312"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FinalFantasy10-2">
+  <game name="FinalFantasy10-2" follows="FinalFantasy10">
     <title>Final Fantasy X-2</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20672"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FinalFantasy12">
+  <game name="FinalFantasy12" follows="FinalFantasy10">
     <title>Final Fantasy XII</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20963"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FinalFantasy13">
+  <game name="FinalFantasy13" follows="FinalFantasy12">
     <title>Final Fantasy XIII</title>
     <version os="PS3" region="USA">
       <ps_code prefix="MRTC" suffix="00003"/>
@@ -4674,21 +4672,21 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="FinalFantasy2">
+  <game name="FinalFantasy2" follows="FinalFantasy">
     <title>Final Fantasy II</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10263"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FinalFantasy4">
+  <game name="FinalFantasy4" follows="FinalFantasy2">
     <title>Final Fantasy IV</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="01360"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FinalFantasy7">
+  <game name="FinalFantasy7" follows="FinalFantasy4">
     <title>Final Fantasy VII</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SCUS" suffix="94163"/>
@@ -4706,7 +4704,7 @@
       <contributor>Caleb Love</contributor>
     </version>
   </game>
-  <game name="FinalFantasy8">
+  <game name="FinalFantasy8" follows="FinalFantasy7">
     <title>Final Fantasy VIII</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="00892"/>
@@ -4716,7 +4714,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FinalFantasy9">
+  <game name="FinalFantasy9" follows="FinalFantasy8">
     <title>Final Fantasy IX</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="01251"/>
@@ -4774,7 +4772,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="FlatOutUltimateCarnage">
+  <game name="FlatOutUltimateCarnage" follows="FlatOut2">
     <title>FlatOut: Ultimate Carnage</title>
     <version os="Windows">
       <locations>
@@ -4848,7 +4846,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="FreedomForceVsThe3rdReich">
+  <game name="FreedomForceVsThe3rdReich" follows="FreedomForce">
     <title>Freedom Force vs. The 3rd Reich</title>
     <version os="Windows">
       <locations>
@@ -4874,7 +4872,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="FreeSpace2">
+  <game name="FreeSpace2" follows="DescentFreeSpaceTheGreatWar">
     <title>FreeSpace 2</title>
     <version os="Windows">
       <locations>
@@ -5007,7 +5005,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="GabrielKnight3">
+  <game name="GabrielKnight3" follows="GabrielKnight">
     <title>Gabriel Knight 3: Blood of the Sacred, Blood of the Damned</title>
     <version os="Windows">
       <locations>
@@ -5300,7 +5298,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="GoblinsQuest3">
+  <game name="GoblinsQuest3" follows="Gobliins2">
     <title>Goblins Quest 3</title>
     <version platform="ScummVM">
       <locations>
@@ -5344,14 +5342,14 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="GodOfWar2">
+  <game name="GodOfWar2" follows="GodOfWarChainsOfOlympus">
     <title>God of War II</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97481"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="GodOfWarChainsOfOlympus">
+  <game name="GodOfWarChainsOfOlympus" follows="GodOfWar">
     <title>God of War: Chains of Olympus</title>
     <version os="PSP" region="USA">
       <ps_code prefix="UCUS" suffix="98653"/>
@@ -5395,7 +5393,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="GrandTheftAuto4">
+  <game name="GrandTheftAuto4" follows="GrandTheftAutoSanAndreas">
     <title>Grand Theft Auto IV</title>
     <version os="Windows">
       <locations>
@@ -5426,7 +5424,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="GrandTheftAutoSanAndreas">
+  <game name="GrandTheftAutoSanAndreas" follows="GrandTheftAutoViceCity">
     <title>Grand Theft Auto: San Andreas</title>
     <version os="Windows">
       <locations>
@@ -5439,7 +5437,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="GrandTheftAutoViceCity">
+  <game name="GrandTheftAutoViceCity" follows="GrandTheftAuto3">
     <title>Grand Theft Auto: Vice City</title>
     <version os="Windows">
       <locations>
@@ -5452,7 +5450,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="GrandTheftAutoViceCityStories">
+  <game name="GrandTheftAutoViceCityStories" follows="GrandTheftAutoViceCity">
     <title>Grand Theft Auto: Vice City Stories</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10160"/>
@@ -5524,7 +5522,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="GrotesqueTactics2">
+  <game name="GrotesqueTactics2" follows="GrotesqueTacticsEvilHeroes">
     <title>Grotesque Tactics 2: Dungeons and Donuts</title>
     <version os="Windows">
       <locations>
@@ -5606,7 +5604,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="GumboyCrazyFeatures">
+  <game name="GumboyCrazyFeatures" follows="GumboyCrazyAdventures">
     <title>Gumboy: Crazy Features</title>
     <version os="Windows">
       <locations>
@@ -5674,7 +5672,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="HackerEvolutionDuality">
+  <game name="HackerEvolutionDuality" follows="HackerEvolution">
     <title>Hacker Evolution Duality</title>
     <version os="Windows">
       <locations>
@@ -5742,8 +5740,18 @@
       <contributor>SanMadJack</contributor>
       <contributor>Scandalon</contributor>
     </version>
+    <version os="Windows" release="Source">
+      <title>Half-Life: Source</title>
+      <locations>
+        <path ev="steamuser" path="half-life source\hl1"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVE"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
   </game>
-  <game name="HalfLife2">
+  <game name="HalfLife2" follows="HalfLife">
     <title>Half-Life 2</title>
     <version os="Windows">
       <locations>
@@ -5755,7 +5763,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="HalfLife2EpisodeOne">
+  <game name="HalfLife2EpisodeOne" follows="HalfLife2">
     <title>Half-Life 2: Episode One</title>
     <version os="Windows">
       <locations>
@@ -5767,7 +5775,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="HalfLife2EpisodeTwo">
+  <game name="HalfLife2EpisodeTwo" follows="HalfLife2EpisodeOne">
     <title>Half-Life 2: Episode Two</title>
     <version os="Windows">
       <locations>
@@ -5779,7 +5787,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="HalfLife2LostCoast">
+  <game name="HalfLife2LostCoast" follows="HalfLife2">
     <title>Half-Life 2: Lost Coast</title>
     <version os="Windows">
       <locations>
@@ -5821,18 +5829,6 @@
       <contributor>Scandalon</contributor>
     </version>
   </expansion>
-  <game name="HalfLifeSource">
-    <title>Half-Life: Source</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuser" path="half-life source\hl1"/>
-      </locations>
-      <files type="Saves">
-        <save path="SAVE"/>
-      </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </game>
   <game name="Halo">
     <title>Halo: Combat Evolved</title>
     <version os="Windows">
@@ -5962,7 +5958,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Hitman2SilentAssassin">
+  <game name="Hitman2SilentAssassin" follows="HitmanCodename47">
     <title>Hitman 2: Silent Assassin</title>
     <version os="Windows">
       <locations>
@@ -5979,7 +5975,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="HitmanBloodMoney">
+  <game name="HitmanBloodMoney" follows="HitmanContracts">
     <title>Hitman: Blood Money</title>
     <version os="Windows">
       <locations>
@@ -6004,7 +6000,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="HitmanContracts">
+  <game name="HitmanContracts" follows="Hitman2SilentAssassin">
     <title>Hitman: Contracts</title>
     <version os="Windows">
       <locations>
@@ -6036,7 +6032,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Homeworld2">
+  <game name="Homeworld2" follows="Homeworld">
     <title>Homeworld 2</title>
     <version os="Windows">
       <locations>
@@ -6115,7 +6111,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="IcewindDale2">
+  <game name="IcewindDale2" follows="IcewindDale">
     <title>Icewind Dale II</title>
     <version os="Windows">
       <locations>
@@ -6242,7 +6238,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="IndependenceWar2">
+  <game name="IndependenceWar2" follows="IndependenceWar">
     <title>Independence War 2: Edge of Chaos</title>
     <version os="Windows">
       <locations>
@@ -6352,7 +6348,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Ishar2">
+  <game name="Ishar2" follows="Ishar">
     <title>Ishar 2: Messengers of Doom</title>
     <version os="DOS">
       <locations>
@@ -6366,7 +6362,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Ishar3">
+  <game name="Ishar3" follows="Ishar2">
     <title>Ishar 3: The Seven Gates of Infinity</title>
     <version os="DOS">
       <locations>
@@ -6422,7 +6418,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Jak2">
+  <game name="Jak2" follows="JakAndDaxterPrecursorLegacy">
     <title>Jak II</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97265"/>
@@ -6433,7 +6429,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Jak3">
+  <game name="Jak3" follows="Jak2">
     <title>Jak 3</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97330"/>
@@ -6455,7 +6451,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="JakXCombatRacing">
+  <game name="JakXCombatRacing" follows="Jak3">
     <title>Jak X: Combat Racing</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97429"/>
@@ -6563,7 +6559,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="JustCause2">
+  <game name="JustCause2" follows="JustCause">
     <title>Just Cause 2</title>
     <version media="Steam">
       <locations>
@@ -6575,7 +6571,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="KaneAndLynch2DogDays">
+  <game name="KaneAndLynch2DogDays" follows="KaneAndLynchDeadMen">
     <title>Kane &amp; Lynch 2: Dog Days</title>
     <version os="Windows">
       <locations>
@@ -6633,7 +6629,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="KingArthur2">
+  <game name="KingArthur2" follows="KingArthur">
     <title>King Arthur II: The Role-Playing Wargame</title>
     <version os="Windows">
       <locations>
@@ -6652,14 +6648,14 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="KingdomHearts2">
+  <game name="KingdomHearts2" follows="KingdomHeartsReChainOfMemories">
     <title>Kingdom Hearts II</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21005"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="KingdomHeartsReChainOfMemories">
+  <game name="KingdomHeartsReChainOfMemories" follows="KingdomHearts">
     <title>Kingdom Hearts: Re: Chain of Memories</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21799"/>
@@ -6708,7 +6704,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="KingsQuest2">
+  <game name="KingsQuest2" follows="KingsQuest">
     <title>King's Quest II: Romancing the Throne</title>
     <version os="DOS">
       <locations>
@@ -6726,7 +6722,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="KingsQuest3">
+  <game name="KingsQuest3" follows="KingsQuest2">
     <title>King's Quest III: To Heir is Human</title>
     <version os="DOS">
       <locations>
@@ -6744,7 +6740,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="KingsQuest4">
+  <game name="KingsQuest4" follows="KingsQuest3">
     <title>King's Quest 4: The Perils of Rosella</title>
     <version os="DOS">
       <locations>
@@ -6762,7 +6758,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="KingsQuest5">
+  <game name="KingsQuest5" follows="KingsQuest4">
     <title>King's Quest 5: Absence Makes the Heart Go Yonder</title>
     <version os="DOS">
       <locations>
@@ -6780,7 +6776,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="KingsQuest6">
+  <game name="KingsQuest6" follows="KingsQuest5">
     <title>King's Quest 6: Heir Today, Gone Tomorrow</title>
     <version os="DOS">
       <locations>
@@ -6798,7 +6794,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="KingsQuest7">
+  <game name="KingsQuest7" follows="KingsQuest6">
     <title>King's Quest 7: The Princeless Bride</title>
     <version os="DOS">
       <locations>
@@ -6812,7 +6808,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="KingsQuest8">
+  <game name="KingsQuest8" follows="KingsQuest7">
     <title>King's Quest: Mask of Eternity</title>
     <version os="Windows">
       <locations>
@@ -6953,7 +6949,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="LittleBigAdventure2">
+  <game name="LittleBigAdventure2" follows="LittleBigAdventure">
     <title>Little Big Adventure 2</title>
     <version os="DOS">
       <locations>
@@ -7042,7 +7038,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="LostPlanet2">
+  <game name="LostPlanet2" follows="LostPlanetColonies">
     <title>Lost Planet 2</title>
     <version os="Windows">
       <locations>
@@ -7155,7 +7151,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Mafia2">
+  <game name="Mafia2" follows="Mafia">
     <title>Mafia II</title>
     <version os="Windows">
       <locations>
@@ -7191,7 +7187,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="Manhunt2">
+  <game name="Manhunt2" follows="Manhunt">
     <title>Manhunt 2</title>
     <version os="Windows">
       <locations>
@@ -7220,7 +7216,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="MartianMemorandum">
+  <game name="MartianMemorandum" follows="MeanStreets">
     <title>Martian Memorandum</title>
     <version os="DOS">
       <locations>
@@ -7250,7 +7246,7 @@
       <contributor>Christian Hamann</contributor>
     </version>
   </game>
-  <game name="MassEffect2">
+  <game name="MassEffect2" follows="MassEffect">
     <title>Mass Effect 2</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30650"/>
@@ -7270,7 +7266,7 @@
       <contributor>Christian Hamann</contributor>
     </version>
   </game>
-  <game name="MassEffect3">
+  <game name="MassEffect3" follows="MassEffect2">
     <title>Mass Effect 3</title>
     <version os="Windows">
       <locations>
@@ -7316,7 +7312,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MasterOfOrion2">
+  <game name="MasterOfOrion2" follows="MasterOfOrion">
     <title>Master of Orion 2: Battle at Antares</title>
     <version os="Windows">
       <locations>
@@ -7358,7 +7354,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="MaxPayne2">
+  <game name="MaxPayne2" follows="MaxPayne">
     <title>Max Payne 2: The Fall of Max Payne</title>
     <version os="Windows">
       <locations>
@@ -7387,7 +7383,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MDK2">
+  <game name="MDK2" follows="MDK">
     <title>MDK 2</title>
     <version os="Windows">
       <locations>
@@ -7432,7 +7428,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MechCommander2">
+  <game name="MechCommander2" follows="MechCommander">
     <title>MechCommander 2</title>
     <version os="Windows">
       <locations>
@@ -7528,7 +7524,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <game name="MechWarrior2Mercenaries">
+  <game name="MechWarrior2Mercenaries" follows="MechWarrior2">
     <title>MechWarrior 2: Mercenaries</title>
     <version os="Windows">
       <locations>
@@ -7568,7 +7564,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MechWarrior3">
+  <game name="MechWarrior3" follows="MechWarrior2Mercenaries">
     <title>MechWarrior 3</title>
     <version os="Windows">
       <locations>
@@ -7626,7 +7622,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <game name="MechWarrior4Mercenaries">
+  <game name="MechWarrior4Mercenaries" follows="MechWarrior4Vengeance">
     <title>MechWarrior 4: Mercenaries</title>
     <version os="Windows">
       <locations>
@@ -7642,7 +7638,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MechWarrior4Vengeance">
+  <game name="MechWarrior4Vengeance" follows="MechWarrior3">
     <title>MechWarrior 4: Vengeance</title>
     <version os="Windows">
       <locations>
@@ -7760,7 +7756,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Megarace2">
+  <game name="Megarace2" follows="Megarace">
     <title>Megarace 2</title>
     <version os="DOS">
       <locations>
@@ -7777,7 +7773,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Megarace3">
+  <game name="Megarace3" follows="Megarace2">
     <title>Megarace 3</title>
     <version os="Windows">
       <locations>
@@ -7819,7 +7815,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="MetalGearAcid2">
+  <game name="MetalGearAcid2" follows="MetalGearAcid">
     <title>Metal Gear Ac!d 2</title>
     <version os="PSP" region="EUR">
       <ps_code prefix="ULES" suffix="00284"/>
@@ -7834,7 +7830,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MetalGearSolid2">
+  <game name="MetalGearSolid2" follows="MetalGearSolid">
     <title>Metal Gear Solid 2: Sons of Liberty</title>
     <version os="PS2" region="USA" release="Substance">
       <title>Metal Gear Solid 2: Substance</title>
@@ -7842,7 +7838,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="MetalGearSolid3">
+  <game name="MetalGearSolid3" follows="MetalGearSolid2">
     <title>Metal Gear Solid 3: Snake Eater</title>
     <version os="PS2" region="USA" release="Subsistence">
       <title>Metal Gear Solid 3: Subsistence</title>
@@ -7976,7 +7972,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="MonkeyIsland2LeChucksRevenge">
+  <game name="MonkeyIsland2LeChucksRevenge" follows="SecretOfMonkeyIsland">
     <title>Monkey Island™ 2 LeChuck’s Revenge</title>
     <version media="Steam" release="SpecialEdition">
       <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
@@ -8058,7 +8054,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="MountAndBladeWarband">
+  <game name="MountAndBladeWarband" follows="MountAndBlade">
     <title>Mount &amp; Blade: Warband</title>
     <version os="Windows">
       <locations>
@@ -8085,7 +8081,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="Myst3">
+  <game name="Myst3" follows="Riven">
     <title>Myst III: Exile</title>
     <version os="Windows">
       <locations>
@@ -8101,7 +8097,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Myst4">
+  <game name="Myst4" follows="Myst3">
     <title>Myst IV: Revelation</title>
     <version os="Windows">
       <locations>
@@ -8114,7 +8110,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Myst5">
+  <game name="Myst5" follows="Myst4">
     <title>Myst V: End of Ages</title>
     <version os="Windows">
       <locations>
@@ -8206,7 +8202,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="NeedForSpeedShift">
+  <game name="NeedForSpeedShift" follows="NeedForSpeedUndercover">
     <title>Need For Speed: Shift</title>
     <version os="Windows">
       <locations>
@@ -8269,7 +8265,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="NeverwinterNights2">
+  <game name="NeverwinterNights2" follows="NeverwinterNights">
     <title>Neverwinter Nights 2</title>
     <version os="Windows">
       <locations>
@@ -8344,7 +8340,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="NoOneLivesForever2">
+  <game name="NoOneLivesForever2" follows="NoOneLivesForever">
     <title>No One Lives Forever 2: A Spy In H.A.R.M.'s Way</title>
     <version os="Windows">
       <locations>
@@ -8375,7 +8371,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="OddworldAbesExoddus">
+  <game name="OddworldAbesExoddus" follows="OddworldAbesOddysee">
     <title>Oddworld: Abe's Exoddus</title>
     <version os="Windows">
       <locations>
@@ -8407,7 +8403,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="OddworldMunchsOddysee">
+  <game name="OddworldMunchsOddysee" follows="OddworldAbesExoddus">
     <title>Oddworld: Munch's Oddysee</title>
     <version os="Windows">
       <locations>
@@ -8419,7 +8415,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="OddworldStrangersWrath">
+  <game name="OddworldStrangersWrath" follows="OddworldMunchsOddysee">
     <title>Oddworld: Stranger's Wrath</title>
     <version os="Windows">
       <locations>
@@ -8507,7 +8503,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="OperationFlashpointRedRiver">
+  <game name="OperationFlashpointRedRiver" follows="OperationFlashpointDragonRising">
     <title>Operation Flashpoint: Red River</title>
     <version os="Windows">
       <locations>
@@ -8583,7 +8579,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="Overlord2">
+  <game name="Overlord2" follows="Overlord">
     <title>Overlord II</title>
     <version os="Windows">
       <locations>
@@ -8614,7 +8610,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="PainkillerRedemption">
+  <game name="PainkillerRedemption" follows="Painkiller">
     <title>Painkiller: Redemption</title>
     <version os="Windows">
       <locations>
@@ -8626,7 +8622,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="PandoraDirective">
+  <game name="PandoraDirective" follows="UnderAKillingMoon">
     <title>The Pandora Directive</title>
     <version os="DOS">
       <locations>
@@ -8649,7 +8645,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ParasiteEve2">
+  <game name="ParasiteEve2" follows="ParasiteEve">
     <title>Parasite Eve II</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="01042"/>
@@ -8787,7 +8783,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="PennyArcadeAdventures2">
+  <game name="PennyArcadeAdventures2" follows="PennyArcadeAdventures1">
     <title>Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness, Episode Two</title>
     <version os="Windows">
       <locations>
@@ -8802,7 +8798,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="PenumbraBlackPlague">
+  <game name="PenumbraBlackPlague" follows="PenumbraOverture">
     <title>Penumbra: Black Plague</title>
     <version os="Windows">
       <locations>
@@ -8861,7 +8857,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Phantasmagoria2APuzzleOfFlesh">
+  <game name="Phantasmagoria2APuzzleOfFlesh" follows="Phantasmagoria">
     <title>Phantasmagoria 2: A Puzzle of Flesh</title>
     <version os="DOS">
       <locations>
@@ -8967,7 +8963,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Portal2">
+  <game name="Portal2" follows="Portal">
     <title>Portal 2</title>
     <version os="Windows">
       <locations>
@@ -9009,7 +9005,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Postal2">
+  <game name="Postal2" follows="Postal">
     <title>Postal 2</title>
     <version os="Windows">
       <locations>
@@ -9124,7 +9120,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="PrinceOfPersiaForgottenSands">
+  <game name="PrinceOfPersiaForgottenSands" follows="PrinceOfPersiaWarriorWithin">
     <title>Prince of Persia: The Forgotten Sands</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30401"/>
@@ -9159,7 +9155,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="PrinceOfPersiaTwoThrones">
+  <game name="PrinceOfPersiaTwoThrones" follows="PrinceOfPersiaWarriorWithin">
     <title>Prince of Persia: The Two Thrones</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21287"/>
@@ -9170,7 +9166,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="PrinceOfPersiaWarriorWithin">
+  <game name="PrinceOfPersiaWarriorWithin" follows="PrinceOfPersiaSandsOfTime">
     <title>Prince of Persia: Warrior Within</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21022"/>
@@ -9262,7 +9258,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="PuzzleQuest2">
+  <game name="PuzzleQuest2" follows="PuzzleQuestChallengeOfTheWarlords">
     <title>Puzzle Quest 2</title>
     <version os="Windows">
       <locations>
@@ -9305,7 +9301,7 @@
       <contributor>Jetsetlemming</contributor>
     </version>
   </game>
-  <game name="Quake4">
+  <game name="Quake4" follows="Quake2">
     <title>Quake 4</title>
     <version os="Windows" virtualstore="ignore" detect="required">
       <locations>
@@ -9379,7 +9375,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="RagDollKungFuFistsOfPlastic">
+  <game name="RagDollKungFuFistsOfPlastic" follows="RagDollKungFu">
     <title>Rag Doll Kung Fu: Fists of Plastic</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80217"/>
@@ -9427,7 +9423,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="RainbowSixLockdown">
+  <game name="RainbowSixLockdown" follows="RainbowSix3RavenShield">
     <title>Tom Clancy's Rainbow Six: Lockdown</title>
     <version os="Windows">
       <locations>
@@ -9441,7 +9437,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="RainbowSixVegas">
+  <game name="RainbowSixVegas" follows="RainbowSixLockdown">
     <title>Tom Clancy's Rainbow Six: Vegas</title>
     <version os="Windows">
       <locations>
@@ -9453,7 +9449,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="RainbowSixVegas2">
+  <game name="RainbowSixVegas2" follows="RainbowSixVegas">
     <title>Tom Clancy's Rainbow Six: Vegas 2</title>
     <version os="Windows">
       <locations>
@@ -9486,7 +9482,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="RatchetClankFutureQuestForBooty">
+  <game name="RatchetClankFutureQuestForBooty" follows="RatchetClankFutureToolsOfDestruction">
     <title>Ratchet &amp; Clank Future: Quest For Booty</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80145"/>
@@ -9500,7 +9496,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="RatchetClankGoingCommando">
+  <game name="RatchetClankGoingCommando" follows="RatchetClank">
     <title>Ratchet &amp; Clank: Going Commando</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97268"/>
@@ -9514,14 +9510,14 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="RatchetClankUpYourArsenal">
+  <game name="RatchetClankUpYourArsenal" follows="RatchetClankGoingCommando">
     <title>Ratchet &amp; Clank: Up Your Arsenal</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97353"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="RatchetDeadlocked">
+  <game name="RatchetDeadlocked" follows="RatchetClankUpYourArsenal">
     <title>Ratchet: Deadlocked</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97465"/>
@@ -9559,7 +9555,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Rayman3">
+  <game name="Rayman3" follows="Rayman2">
     <title>Rayman 3: Hoodlum Havoc</title>
     <version os="Windows">
       <locations>
@@ -9667,7 +9663,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="RedFaction2">
+  <game name="RedFaction2" follows="RedFaction">
     <title>Red Faction II</title>
     <version os="Windows">
       <locations>
@@ -9683,7 +9679,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="RedFactionArmageddon">
+  <game name="RedFactionArmageddon" follows="RedFactionGuerrilla">
     <title>Red Faction: Armageddon</title>
     <version media="Steam">
       <locations>
@@ -9695,7 +9691,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="RedFactionGuerrilla">
+  <game name="RedFactionGuerrilla" follows="RedFaction2">
     <title>Red Faction: Guerrilla</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30258"/>
@@ -9767,7 +9763,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ResidentEvil5">
+  <game name="ResidentEvil5" follows="ResidentEvil4">
     <title>Resident Evil 5</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30270"/>
@@ -9790,7 +9786,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Resistance2">
+  <game name="Resistance2" follows="ResistanceFallOfMan">
     <title>Resistance 2</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98120"/>
@@ -9819,7 +9815,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ReturnToCastleWolfenstein">
+  <game name="ReturnToCastleWolfenstein" follows="Wolfenstein3D">
     <title>Return to Castle Wolfenstein</title>
     <version os="Windows">
       <locations>
@@ -9839,7 +9835,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ReturnToZork">
+  <game name="ReturnToZork" follows="Zork0">
     <title>Return To Zork</title>
     <version os="DOS">
       <locations>
@@ -9918,7 +9914,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="Riven">
+  <game name="Riven" follows="Myst">
     <title>Riven</title>
     <version os="Windows">
       <locations>
@@ -9995,7 +9991,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="RollerCoasterTycoon3">
+  <game name="RollerCoasterTycoon3" follows="RollerCoasterTycoon2">
     <title>RollerCoaster Tycoon 3</title>
     <version os="Windows">
       <locations>
@@ -10061,7 +10057,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Runaway2TheDreamOfTheTurtle">
+  <game name="Runaway2TheDreamOfTheTurtle" follows="RunawayARoadAdventure">
     <title>Runaway 2: The Dream Of The Turtle</title>
     <version os="Windows">
       <locations>
@@ -10188,7 +10184,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason1Episode1">
+  <game name="SamAndMaxSeason1Episode1" follows="SamAndMaxHitTheRoad">
     <title>Sam &amp; Max Save The World Episode 1 - Culture Shock</title>
     <version os="Windows">
       <locations>
@@ -10208,7 +10204,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason1Episode2">
+  <game name="SamAndMaxSeason1Episode2" follows="SamAndMaxSeason1Episode1">
     <title>Sam &amp; Max Save The World Episode 2 - Situation Comedy</title>
     <version os="Windows">
       <locations>
@@ -10228,7 +10224,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason1Episode3">
+  <game name="SamAndMaxSeason1Episode3" follows="SamAndMaxSeason1Episode2">
     <title>Sam &amp; Max Save The World Episode 3 - The Mole, the Mob, and the Meatball</title>
     <version os="Windows">
       <locations>
@@ -10248,7 +10244,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason1Episode4">
+  <game name="SamAndMaxSeason1Episode4" follows="SamAndMaxSeason1Episode3">
     <title>Sam &amp; Max Save The World Episode 4 - Abe Lincoln Must Die!</title>
     <version os="Windows">
       <locations>
@@ -10268,7 +10264,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason1Episode5">
+  <game name="SamAndMaxSeason1Episode5" follows="SamAndMaxSeason1Episode4">
     <title>Sam &amp; Max Save The World Episode 5 - Reality 2.0</title>
     <version os="Windows">
       <locations>
@@ -10288,7 +10284,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason1Episode6">
+  <game name="SamAndMaxSeason1Episode6" follows="SamAndMaxSeason1Episode5">
     <title>Sam &amp; Max Save The World Episode 6 - Bright Side of the Moon</title>
     <version os="Windows">
       <locations>
@@ -10308,7 +10304,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason2Episode1">
+  <game name="SamAndMaxSeason2Episode1" follows="SamAndMaxSeason1Episode6">
     <title>Sam &amp; Max Beyond Time and Space Episode 1 - Ice Station Santa</title>
     <version os="Windows">
       <locations>
@@ -10328,7 +10324,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason2Episode2">
+  <game name="SamAndMaxSeason2Episode2" follows="SamAndMaxSeason2Episode1">
     <title>Sam &amp; Max Beyond Time and Space Episode 2 - Moai Better Blues</title>
     <version os="Windows">
       <locations>
@@ -10348,7 +10344,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason2Episode3">
+  <game name="SamAndMaxSeason2Episode3" follows="SamAndMaxSeason2Episode2">
     <title>Sam &amp; Max Beyond Time and Space Episode 3 - Night of the Raving Dead</title>
     <version os="Windows">
       <locations>
@@ -10368,7 +10364,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason2Episode4">
+  <game name="SamAndMaxSeason2Episode4" follows="SamAndMaxSeason2Episode3">
     <title>Sam &amp; Max Beyond Time and Space Episode 4 - Chariots of the Dogs</title>
     <version os="Windows">
       <locations>
@@ -10388,7 +10384,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxSeason2Episode5">
+  <game name="SamAndMaxSeason2Episode5" follows="SamAndMaxSeason2Episode4">
     <title>Sam &amp; Max Beyond Time and Space Episode 5 - What's New, Beelzebub</title>
     <version os="Windows">
       <locations>
@@ -10408,7 +10404,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxTheDevilsPlayhouseEpisode1">
+  <game name="SamAndMaxTheDevilsPlayhouseEpisode1" follows="SamAndMaxSeason2Episode5">
     <title>Sam &amp; Max - The Devil's Playhouse Episode 1 - The Penal Zone</title>
     <version os="Windows">
       <locations>
@@ -10425,7 +10421,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxTheDevilsPlayhouseEpisode2">
+  <game name="SamAndMaxTheDevilsPlayhouseEpisode2" follows="SamAndMaxTheDevilsPlayhouseEpisode1">
     <title>Sam &amp; Max - The Devil's Playhouse Episode 2 - The Tomb of Sammun-Mak</title>
     <version os="Windows">
       <locations>
@@ -10437,7 +10433,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxTheDevilsPlayhouseEpisode3">
+  <game name="SamAndMaxTheDevilsPlayhouseEpisode3" follows="SamAndMaxTheDevilsPlayhouseEpisode2">
     <title>Sam &amp; Max - The Devil's Playhouse Episode 3 - They Stole Max's Brain</title>
     <version os="Windows">
       <locations>
@@ -10449,7 +10445,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxTheDevilsPlayhouseEpisode4">
+  <game name="SamAndMaxTheDevilsPlayhouseEpisode4" follows="SamAndMaxTheDevilsPlayhouseEpisode3">
     <title>Sam &amp; Max - The Devil's Playhouse Episode 4 - Beyond the Alley of the Dolls</title>
     <version os="Windows">
       <locations>
@@ -10461,7 +10457,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SamAndMaxTheDevilsPlayhouseEpisode5">
+  <game name="SamAndMaxTheDevilsPlayhouseEpisode5" follows="SamAndMaxTheDevilsPlayhouseEpisode4">
     <title>Sam &amp; Max - The Devil's Playhouse Episode 5 - The City That Dares Not Sleep</title>
     <version os="Windows">
       <locations>
@@ -10623,7 +10619,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="Section8Prejudice">
+  <game name="Section8Prejudice" follows="Section8">
     <title>Section 8: Prejudice</title>
     <version os="Windows">
       <locations>
@@ -10652,7 +10648,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SeriousSam2">
+  <game name="SeriousSam2" follows="SeriousSamTheSecondEncounter">
     <title>Serious Sam 2</title>
     <version os="Windows">
       <locations>
@@ -10665,7 +10661,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="SeriousSam3BFE">
+  <game name="SeriousSam3BFE" follows="SeriousSam2">
     <title>Serious Sam 3: BFE</title>
     <version media="Steam">
       <locations>
@@ -10690,7 +10686,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SeriousSamTheSecondEncounter" follows="SeriousSamFirstEncounter">
+  <game name="SeriousSamTheSecondEncounter" follows="SeriousSamTheFirstEncounter">
     <title>Serious Sam: The Second Encounter</title>
     <version media="Steam" release="HD">
       <title>Serious Sam HD: The Second Encounter</title>
@@ -10720,7 +10716,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ShadowgroundsSurvivor">
+  <game name="ShadowgroundsSurvivor" follows="Shadowgrounds">
     <title>Shadowgrounds: Survivor</title>
     <version os="Windows">
       <locations>
@@ -10776,7 +10772,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="ShadowOfTheColossus">
+  <game name="ShadowOfTheColossus" follows="Ico">
     <title>Shadow of the Colossus</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97472"/>
@@ -10908,7 +10904,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SilentHill2">
+  <game name="SilentHill2" follows="SilentHill">
     <title>Silent Hill 2</title>
     <version os="PS2" region="USA" release="GreatestHits">
       <title>Silent Hill 2: Greatest Hits Edition</title>
@@ -10920,7 +10916,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SilentHill3">
+  <game name="SilentHill3" follows="SilentHill2">
     <title>Silent Hill 3</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20622"/>
@@ -10932,14 +10928,14 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SilentHill4Room">
+  <game name="SilentHill4Room" follows="SilentHill3">
     <title>Silent Hill 4: The Room</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20873"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SilentHillHomecoming">
+  <game name="SilentHillHomecoming" follows="SilentHill4Room">
     <title>Silent Hill: Homecoming</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30169"/>
@@ -10988,7 +10984,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SimonTheSorcerer2">
+  <game name="SimonTheSorcerer2" follows="SimonTheSorcerer">
     <title>Simon the Sorcerer 2</title>
     <version platform="ScummVM">
       <scummvm name="simon2"/>
@@ -11000,7 +10996,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SimonTheSorceror3D">
+  <game name="SimonTheSorceror3D" follows="SimonTheSorcerer2">
     <title>Simon the Sorceror 3D</title>
     <version os="Windows">
       <locations>
@@ -11032,7 +11028,7 @@
       <contributor>Samuel Barbour</contributor>
     </version>
   </game>
-  <game name="Sims3">
+  <game name="Sims3" follows="Sims2">
     <title>The Sims 3</title>
     <version os="Windows">
       <locations>
@@ -11066,7 +11062,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SinEpisodesEmergence">
+  <game name="SinEpisodesEmergence" follows="Sin">
     <title>Sin Episodes: Emergence</title>
     <version os="Windows">
       <locations>
@@ -11179,7 +11175,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SoulCalibur4">
+  <game name="SoulCalibur4" follows="SoulCalibur3">
     <title>Soul Calibur IV</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30160"/>
@@ -11204,7 +11200,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SpaceQuest2">
+  <game name="SpaceQuest2" follows="SpaceQuest">
     <title>Space Quest II: Vohaul's Revenge and Space Quest</title>
     <version os="DOS">
       <locations>
@@ -11222,7 +11218,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SpaceQuest3">
+  <game name="SpaceQuest3" follows="SpaceQuest2">
     <title>Space Quest III: The Pirates of Pestulon</title>
     <version os="DOS">
       <locations>
@@ -11240,7 +11236,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SpaceQuest4">
+  <game name="SpaceQuest4" follows="SpaceQuest3">
     <title>Space Quest IV: Roger Wilco and the Time Rippers</title>
     <version os="DOS">
       <locations>
@@ -11258,7 +11254,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SpaceQuest5">
+  <game name="SpaceQuest5" follows="SpaceQuest4">
     <title>Space Quest V: The Next Mutation</title>
     <version os="DOS">
       <locations>
@@ -11276,7 +11272,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="SpaceQuest6">
+  <game name="SpaceQuest6" follows="SpaceQuest5">
     <title>Space Quest 6: The Spinal Frontier</title>
     <version os="DOS">
       <locations>
@@ -11306,7 +11302,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="SpaceRangers2Dominators">
+  <game name="SpaceRangers2Dominators" follows="SpaceRangers">
     <title>Space Rangers 2: Dominators</title>
     <version os="Windows">
       <locations>
@@ -11344,7 +11340,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="SpellForce2">
+  <game name="SpellForce2" follows="SpellForce">
     <title>SpellForce 2: Shadow Wars</title>
     <version os="Windows">
       <locations>
@@ -11380,7 +11376,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="SplinterCellChaosTheory">
+  <game name="SplinterCellChaosTheory" follows="SplinterCell">
     <title>Tom Clancy's Splinter Cell: Chaos Theory</title>
     <version os="Windows">
       <locations>
@@ -11392,7 +11388,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="SplinterCellConviction">
+  <game name="SplinterCellConviction" follows="SplinterCellDoubleAgent">
     <title>Tom Clancy's Splinter Cell: Conviction</title>
     <version os="Windows">
       <locations>
@@ -11404,7 +11400,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="SplinterCellDoubleAgent">
+  <game name="SplinterCellDoubleAgent" follows="SplinterCellChaosTheory">
     <title>Tom Clancy's Splinter Cell: Double Agent</title>
     <version os="Windows">
       <locations>
@@ -11464,7 +11460,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="StalkerCallofPripyat">
+  <game name="StalkerCallofPripyat" follows="StalkerClearSky">
     <title>S.T.A.L.K.E.R.: Call of Pripyat</title>
     <version os="Windows">
       <locations>
@@ -11480,7 +11476,7 @@
       <contributor>Håvard Krüger</contributor>
     </version>
   </game>
-  <game name="StalkerClearSky">
+  <game name="StalkerClearSky" follows="StalkerShadowOfChernobyl">
     <title>S.T.A.L.K.E.R.: Clear Sky</title>
     <version os="Windows">
       <locations>
@@ -11521,7 +11517,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="StarControl2">
+  <game name="StarControl2" follows="StarControl">
     <title>Star Control II: The Ur-Quan Masters</title>
     <version os="DOS">
       <locations>
@@ -11535,7 +11531,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="StarControl3">
+  <game name="StarControl3" follows="StarControl2">
     <title>Star Control 3</title>
     <version os="DOS">
       <locations>
@@ -11568,7 +11564,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Starcraft2">
+  <game name="Starcraft2" follows="Starcraft">
     <title>Starcraft II: Wings of Liberty</title>
     <version os="Windows">
       <locations>
@@ -11597,7 +11593,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Starflight2">
+  <game name="Starflight2" follows="Starflight">
     <title>Starflight 2</title>
     <version os="DOS">
       <locations>
@@ -11694,7 +11690,7 @@
       <contributor>AvvA</contributor>
     </version>
   </expansion>
-  <game name="StarWarsJediKnight2JediOutcast">
+  <game name="StarWarsJediKnight2JediOutcast" follows="StarWarsJediKnightDarkForces2">
     <title>Star Wars: Jedi Knight II: Jedi Outcast</title>
     <version os="Windows">
       <locations>
@@ -11706,7 +11702,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="StarWarsJediKnightDarkForces2">
+  <game name="StarWarsJediKnightDarkForces2" follows="StarWarsDarkForces">
     <title>Star Wars: Jedi Knight: Dark Forces II</title>
     <version os="Windows">
       <locations>
@@ -11721,7 +11717,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="StarWarsJediKnightJediAcademy">
+  <game name="StarWarsJediKnightJediAcademy" follows="StarWarsJediKnight2JediOutcast">
     <title>Star Wars: Jedi Knight: Jedi Academy</title>
     <version os="Windows">
       <locations>
@@ -11761,7 +11757,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="StarWarsKnightsOfTheOldRepublic2TheSithLords">
+  <game name="StarWarsKnightsOfTheOldRepublic2TheSithLords" follows="StarWarsKnightsOfTheOldRepublic">
     <title>Star Wars: Knights of the Old Republic II: The Sith Lords</title>
     <version os="Windows">
       <locations>
@@ -11787,7 +11783,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="StarWarsTheForceUnleashed2">
+  <game name="StarWarsTheForceUnleashed2" follows="StarWarsTheForceUnleashed">
     <title>Star Wars: The Force Unleashed II</title>
     <version os="Windows">
       <locations>
@@ -11832,7 +11828,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="StillLife">
+  <game name="StillLife" follows="PostMortem">
     <title>Still Life</title>
     <version os="Windows">
       <locations>
@@ -11894,7 +11890,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Summoner2">
+  <game name="Summoner2" follows="Summoner">
     <title>Summoner 2</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20448"/>
@@ -11985,7 +11981,7 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
-  <game name="SupremeCommanderForgedAlliance">
+  <game name="SupremeCommanderForgedAlliance" follows="SupremeCommander">
     <title>Supreme Commander: Forged Alliance</title>
     <version os="Windows">
       <locations>
@@ -12021,7 +12017,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Syberia2">
+  <game name="Syberia2" follows="Syberia">
     <title>Syberia II</title>
     <version os="Windows">
       <locations>
@@ -12093,7 +12089,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TalesOfMonkeyIsland2">
+  <game name="TalesOfMonkeyIsland2" follows="TalesOfMonkeyIsland1">
     <title>Tales of Monkey Island Chapter 2: The Siege of Spinner Cay</title>
     <version os="Windows">
       <locations>
@@ -12110,7 +12106,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TalesOfMonkeyIsland3">
+  <game name="TalesOfMonkeyIsland3" follows="TalesOfMonkeyIsland2">
     <title>Tales of Monkey Island Chapter 3: Lair of the Leviathan</title>
     <version os="Windows">
       <locations>
@@ -12126,7 +12122,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TalesOfMonkeyIsland4">
+  <game name="TalesOfMonkeyIsland4" follows="TalesOfMonkeyIsland3">
     <title>Tales of Monkey Island Chapter 4: The Trial and Execution of Guybrush Threepwood</title>
     <version os="Windows">
       <locations>
@@ -12142,7 +12138,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TalesOfMonkeyIsland5">
+  <game name="TalesOfMonkeyIsland5" follows="TalesOfMonkeyIsland4">
     <title>Tales of Monkey Island Chapter 5: Rise of the Pirate God</title>
     <version os="Windows">
       <locations>
@@ -12251,7 +12247,7 @@
       <contributor>murasaki8</contributor>
     </version>
   </game>
-  <game name="TerroristTakedown2">
+  <game name="TerroristTakedown2" follows="TerroristTakedownCovertOperations">
     <title>Terrorist Takedown 2</title>
     <version os="Windows">
       <locations>
@@ -12263,7 +12259,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="TerroristTakedown3">
+  <game name="TerroristTakedown3" follows="TerroristTakedown2">
     <title>Terrorist Takedown 3</title>
     <version os="Windows">
       <locations>
@@ -12307,7 +12303,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="TexMurphyOverseer">
+  <game name="TexMurphyOverseer" follows="PandoraDirective">
     <title>Tex Murphy: Overseer</title>
     <version os="Windows">
       <locations>
@@ -12336,7 +12332,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="Thief2">
+  <game name="Thief2" follows="ThiefTheDarkProject">
     <title>Thief II: The Metal Age</title>
     <version os="Windows">
       <locations>
@@ -12368,7 +12364,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ThiefTheDarkProject">
+  <game name="ThiefTheDarkProject" follows="Thief2">
     <title>Thief: The Dark Project</title>
     <version os="Windows">
       <locations>
@@ -12408,7 +12404,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="TimeGentlemenPlease">
+  <game name="TimeGentlemenPlease" follows="BenThereDanThat">
     <title>Time Gentlemen, Please!</title>
     <version os="Windows">
       <locations>
@@ -12458,7 +12454,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TombRaider2">
+  <game name="TombRaider2" follows="TombRaider">
     <title>Tomb Raider II</title>
     <version os="Windows">
       <locations>
@@ -12487,7 +12483,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <game name="TombRaider3AdventuresOfLaraCroft">
+  <game name="TombRaider3AdventuresOfLaraCroft" follows="TombRaider2">
     <title>Tomb Raider III: Adventures Of Lara Croft</title>
     <version os="Windows">
       <locations>
@@ -12511,7 +12507,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
-  <game name="TombRaiderAnniversary">
+  <game name="TombRaiderAnniversary" follows="TombRaiderLegend">
     <title>Tomb Raider: Anniversary</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30718" append="-TALIST"/>
@@ -12528,7 +12524,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TombRaiderChronicles">
+  <game name="TombRaiderChronicles" follows="TombRaiderTheLastRevelation">
     <title>Tomb Raider: Chronicles</title>
     <version os="Windows">
       <locations>
@@ -12540,7 +12536,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TombRaiderLegend">
+  <game name="TombRaiderLegend" follows="TombRaiderTheAngelOfDarkness">
     <title>Tomb Raider: Legend</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30718" append="-T7LIST"/>
@@ -12561,7 +12557,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TombRaiderTheAngelOfDarkness">
+  <game name="TombRaiderTheAngelOfDarkness" follows="TombRaiderChronicles">
     <title>Tomb Raider: The Angel of Darkness</title>
     <version os="Windows">
       <locations>
@@ -12573,7 +12569,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TombRaiderTheLastRevelation">
+  <game name="TombRaiderTheLastRevelation" follows="TombRaider3AdventuresOfLaraCroft">
     <title>Tomb Raider: The Last Revelation</title>
     <version os="Windows">
       <locations>
@@ -12585,7 +12581,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="TombRaiderUnderworld">
+  <game name="TombRaiderUnderworld" follows="TombRaiderAnniversary">
     <title>Tomb Raider: Underworld</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30718" append="-SAVE"/>
@@ -12738,7 +12734,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Trine2">
+  <game name="Trine2" follows="Trine">
     <title>Trine 2</title>
     <version media="Steam">
       <locations>
@@ -12794,7 +12790,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="Tropico2PirateCove">
+  <game name="Tropico2PirateCove" follows="Tropico">
     <title>Tropico 2: Pirate Cove</title>
     <version os="Windows">
       <locations>
@@ -12810,7 +12806,7 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="Tropico3">
+  <game name="Tropico3" follows="Tropico2PirateCove">
     <title>Tropico 3</title>
     <version os="Windows">
       <locations>
@@ -12938,7 +12934,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="UnderAKillingMoon">
+  <game name="UnderAKillingMoon" follows="MartianMemorandum">
     <title>Under A Killing Moon</title>
     <version os="DOS">
       <locations>
@@ -13003,7 +12999,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Unreal2">
+  <game name="Unreal2" follows="Unreal">
     <title>Unreal II: The Awakening</title>
     <version os="Windows">
       <locations>
@@ -13049,7 +13045,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="UnrealTournament2004">
+  <game name="UnrealTournament2004" follows="UnrealTournament">
     <title>Unreal Tournament 2004</title>
     <version os="Windows">
       <locations>
@@ -13069,7 +13065,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="UnrealTournament3">
+  <game name="UnrealTournament3" follows="UnrealTournament2004">
     <title>Unreal Tournament III</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30086"/>
@@ -13285,7 +13281,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="WallaceAndGrommitsGrandAdventures2">
+  <game name="WallaceAndGrommitsGrandAdventures2" follows="WallaceAndGrommitsGrandAdventures1">
     <title>Wallace &amp; Gromit's Grand Adventures Episode 2: The Last Resort</title>
     <version os="Windows">
       <locations>
@@ -13297,7 +13293,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="WallaceAndGrommitsGrandAdventures3">
+  <game name="WallaceAndGrommitsGrandAdventures3" follows="WallaceAndGrommitsGrandAdventures2">
     <title>Wallace &amp; Gromit's Grand Adventures Episode 3: Muzzled!</title>
     <version os="Windows">
       <locations>
@@ -13309,7 +13305,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="WallaceAndGrommitsGrandAdventures4">
+  <game name="WallaceAndGrommitsGrandAdventures4" follows="WallaceAndGrommitsGrandAdventures3">
     <title>Wallace &amp; Gromit's Grand Adventures Episode 4: The Bogey Man</title>
     <version os="Windows">
       <locations>
@@ -13456,7 +13452,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="WatchmenTheEndIsNigh2">
+  <game name="WatchmenTheEndIsNigh2" follows="WatchmenTheEndIsNigh1">
     <title>Watchmen: The End is Nigh - Part 2</title>
     <version os="Windows">
       <locations>
@@ -13520,7 +13516,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="WingCommander2">
+  <game name="WingCommander2" follows="WingCommander">
     <title>Wing Commander II: Vengeance of the Kilrathi</title>
     <version os="DOS">
       <locations>
@@ -13534,7 +13530,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="WingCommander3">
+  <game name="WingCommander3" follows="WingCommander2">
     <title>Wing Commander III</title>
     <version os="DOS">
       <locations>
@@ -13548,7 +13544,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="WingCommander4">
+  <game name="WingCommander4" follows="WingCommander3">
     <title>Wing Commander IV: The Price of Freedom</title>
     <version os="Windows">
       <locations>
@@ -13607,7 +13603,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Witcher2">
+  <game name="Witcher2" follows="Witcher">
     <title>The Witcher 2: Assassin of Kings</title>
     <version os="Windows">
       <locations>
@@ -13625,7 +13621,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="Wolfenstein">
+  <game name="Wolfenstein" follows="ReturnToCastleWolfenstein">
     <title>Wolfenstein</title>
     <version os="Windows">
       <locations>
@@ -13725,7 +13721,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="X3AlbionPrelude">
+  <game name="X3AlbionPrelude" follows="X3TerranConflict">
     <title>X3: Albion Prelude</title>
     <version os="Windows">
       <locations>
@@ -13737,7 +13733,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="X3Reunion">
+  <game name="X3Reunion" follows="X2TheThreat">
     <title>X3: Reunion</title>
     <version os="Windows">
       <locations>
@@ -13749,7 +13745,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="X3TerranConflict">
+  <game name="X3TerranConflict" follows="X3Reunion">
     <title>X3: Terran Conflict</title>
     <version os="Windows">
       <locations>
@@ -13768,7 +13764,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Xenosaga2">
+  <game name="Xenosaga2" follows="Xenosaga">
     <title>Xenosaga Episode II: Jenseits von Gut und Böse</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20892"/>
@@ -13776,7 +13772,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Xenosaga3">
+  <game name="Xenosaga3" follows="Xenosaga2">
     <title>Xenosaga Episode III: Also sprach Zarathustra</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21389"/>
@@ -13847,7 +13843,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="XMenLegends2">
+  <game name="XMenLegends2" follows="XMenLegends">
     <title>X-Men Legends II: Rise of Apocalypse</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21138"/>
@@ -13891,7 +13887,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="XpandRallyExtreme">
+  <game name="XpandRallyExtreme" follows="XpandRally">
     <title>Xpand Rally Extreme</title>
     <version os="Windows">
       <locations>
@@ -13952,7 +13948,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="ZombieShooter2">
+  <game name="ZombieShooter2" follows="ZombieShooter">
     <title>Zombie Shooter 2</title>
     <version os="Windows">
       <locations>
@@ -13964,7 +13960,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="Zork0">
+  <game name="Zork0" follows="BeyondZork">
     <title>Zero Zork: The Revenge of Megaboz</title>
     <version os="DOS">
       <locations>
@@ -13992,7 +13988,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Zork2">
+  <game name="Zork2" follows="Zork1">
     <title>Zork II: The Wizard Of Frobozz</title>
     <version os="DOS">
       <locations>
@@ -14006,7 +14002,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="Zork3">
+  <game name="Zork3" follows="Zork2">
     <title>Zork III: The Dungeon Master</title>
     <version os="DOS">
       <locations>
@@ -14020,7 +14016,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ZorkGrandInquisitor">
+  <game name="ZorkGrandInquisitor" follows="ZorkNemesisTheForbiddenLands">
     <title>Zork Grand Inquisitor</title>
     <version os="Windows">
       <locations>
@@ -14034,7 +14030,7 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="ZorkNemesisTheForbiddenLands">
+  <game name="ZorkNemesisTheForbiddenLands" follows="ReturnToZork">
     <title>Zork Nemesis: The Forbidden Lands</title>
     <version os="DOS">
       <locations>
