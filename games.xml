@@ -2386,6 +2386,24 @@
       <contributor>Håvard Krüger</contributor>
     </version>
   </game>
+  <game name="CommandAndConquerGenerals">
+    <title>Command &amp; Conquer: Generals</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Command and Conquer Generals Data"/>
+      </locations>
+      <files type="Saves">
+        <save path="Save"/>
+      </files>
+      <files type="Replays">
+        <save path="Replays"/>
+      </files>
+      <files type="Statistics">
+        <save filename="SkirmishStats.ini"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <expansion name="CommandAndConquerGeneralsZeroHour" for="CommandAndConquerGenerals">
     <title>Command &amp; Conquer: Generals - Zero Hour</title>
     <version os="Windows">
@@ -2394,6 +2412,9 @@
       </locations>
       <files type="Saves">
         <save path="Save"/>
+      </files>
+      <files type="Replays">
+        <save path="Replays"/>
       </files>
       <files type="Statistics">
         <save filename="SkirmishStats.ini"/>
@@ -3249,9 +3270,9 @@
         <save path="System" filename="*.ini"/>
       </files>
       <identifier path="Save"/>
-      <comment>The best game EVER!</comment>
       <contributor>SanMadJack</contributor>
     </version>
+    <comment>The best game EVER!</comment>
   </game>
   <game name="DeusExHumanRevolution" follows="DeusExInvisibleWar">
     <title>Deus Ex: Human Revolution</title>
