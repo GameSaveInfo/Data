@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" majorVersion="2" minorVersion="0" date="2012-06-18T20:33:32">
-  <!--This file contains games, mods and expansions-->
+<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-06-27T20:05:55">
   <game name="18WheelsOfSteelExtremeTrucker">
     <title>18 Wheels of Steel: Extreme Trucker</title>
     <version os="Windows">
@@ -79,10 +78,10 @@
     <title>Advent Rising</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="advent rising"/>
         <path ev="installlocation" path="GOG.com\Advent Rising"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Advent" value="UninstallString"/>
+        <path ev="steamcommon" path="advent rising"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGADVENTRISING" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Advent" value="UninstallString"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Advent Rising\Advent Rising.lnk" detract="System"/>
       </locations>
       <files type="Saves">
@@ -146,8 +145,8 @@
         <shortcut ev="startmenu" path="Programs\Microsoft Games\Age of Mythology\Age of Mythology.lnk"/>
       </locations>
       <files type="Saves">
-        <save path="savegame" filename="*.sav"/>
         <save path="savegame" filename="*.rec"/>
+        <save path="savegame" filename="*.sav"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -159,8 +158,8 @@
         <path ev="userdocuments" path="My Games\Age of Mythology"/>
       </locations>
       <files type="Saves">
-        <save path="Savegame" filename="*.svx"/>
         <save path="Savegame" filename="*.rcx"/>
+        <save path="Savegame" filename="*.svx"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -169,10 +168,10 @@
     <title>Age of Wonders</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Triumph Studios\Age of Wonders"/>
         <path ev="installlocation" path="GOG.com\Age of Wonders"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAOM1" value="PATH"/>
+        <path ev="installlocation" path="Triumph Studios\Age of Wonders"/>
         <registry root="current_user" key="Software\Triumph Studios\Age of Wonders\General" value="Root Directory"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAOM1" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\Age of Wonders\Age of Wonders.lnk"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Age of Wonders\Age of Wonders.lnk"/>
       </locations>
@@ -222,6 +221,15 @@
   </game>
   <game name="AlanWakesAmericanNightmare" follows="AlanWake">
     <title>Alan Wake's American Nightmare</title>
+    <version media="Steam">
+      <locations>
+        <path ev="steamuserdata" path="202750"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
     <version os="Windows" media="GoG">
       <locations>
         <path ev="userdocuments" path="Remedy\AmericanNightmare_GOG_Version"/>
@@ -233,15 +241,6 @@
         <save filename="*"/>
       </files>
       <contributor>SanMadJack</contributor>
-    </version>
-    <version media="Steam">
-      <locations>
-        <path ev="steamuserdata" path="202750"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="Alice">
@@ -352,8 +351,8 @@
         <shortcut ev="startmenu" path="Programs\Fox Interactive\Aliens vs. Predator 2\Aliens vs. Predator 2.lnk"/>
       </locations>
       <files type="Saves">
-        <save path="Save"/>
         <save path="Profiles"/>
+        <save path="Save"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -380,8 +379,8 @@
         <shortcut ev="startmenu" path="Programs\Fox Interactive\Aliens versus Predator 2 - Primal Hunt\Aliens versus Predator 2 - Primal Hunt.lnk"/>
       </locations>
       <files type="Saves">
-        <save path="Save"/>
         <save path="Profiles"/>
+        <save path="Save"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -459,10 +458,10 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Firaxis Games\Sid Meier's Alpha Centauri"/>
-        <path ev="installlocation" path="GOGcom\Sid Meiers Alpha Centauri"/>
         <path ev="installlocation" path="GOG.com\Sid Meiers Alpha Centauri"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Sid Meier's Alpha Centauri" value="Path"/>
+        <path ev="installlocation" path="GOGcom\Sid Meiers Alpha Centauri"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSIDMAIERSALPHACENTAURI" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Sid Meier's Alpha Centauri" value="Path"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Sid Meier's Alpha Centauri\Sid Meier's Alpha Centauri.lnk"/>
       </locations>
       <files type="Maps">
@@ -530,8 +529,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\AmerZone"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAMERZONEUS" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAMERZONE" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAMERZONEUS" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microfolie's\L'Amerzone\1.0" value="res"/>
         <registry root="local_machine" key="SOFTWARE\Microfolie's\L'Amerzone\1.0" value="source"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\AmerZone - The Explorer's Legacy\AmerZone - The Explorer's Legacy.lnk"/>
@@ -627,8 +626,8 @@
     <title>APB Reloaded</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="apb reloaded"/>
         <path ev="installlocation" path="GamersFirst\APB Reloaded"/>
+        <path ev="steamcommon" path="apb reloaded"/>
         <registry root="local_machine" key="SOFTWARE\GamersFirst\APB\APB Reloaded" value="Installation Path"/>
         <shortcut ev="startmenu" path="Programs\GamersFirst\APB Reloaded\APB Reloaded.lnk" detract="Launcher"/>
       </locations>
@@ -636,8 +635,8 @@
         <save path="APBGame\Config\Account"/>
       </files>
       <files type="Settings">
-        <save path="APBGame\Config\Linux"/>
         <save path="APBGame\Config" filename="*.ini"/>
+        <save path="APBGame\Config\Linux"/>
       </files>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -1202,8 +1201,8 @@
     <title>Bejeweled Deluxe</title>
     <version os="Windows">
       <locations>
-        <path ev="allusersprofile" path="Steam\Bejeweled" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="PopCapGames\Bejeweled" only_for="WindowsVista"/>
+        <path ev="allusersprofile" path="Steam\Bejeweled" only_for="WindowsVista"/>
         <path ev="steamcommon" path="bejeweled deluxe" only_for="WindowsXP"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Bejeweled Deluxe 1.87" value="UninstallString" only_for="WindowsXP"/>
       </locations>
@@ -1275,10 +1274,10 @@
         <path ev="installlocation" path="GOG.com\Beyond Good and Evil"/>
         <path ev="installlocation" path="Ubisoft\Beyond Good &amp; Evil"/>
         <path ev="steamcommon" path="beyond good and evil"/>
-        <registry root="local_machine" key="SOFTWARE\Ubisoft\Beyond Good &amp; Evil" value="Install path"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBEYONDGOODANDEVIL" value="PATH"/>
-        <shortcut ev="startmenu" path="Programs\Ubisoft\Beyond Good &amp; Evil\Play Beyond Good &amp; Evil.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\Ubisoft\Beyond Good &amp; Evil" value="Install path"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Beyond Good and Evil\Beyond Good and Evil.lnk"/>
+        <shortcut ev="startmenu" path="Programs\Ubisoft\Beyond Good &amp; Evil\Play Beyond Good &amp; Evil.lnk"/>
       </locations>
       <files type="Saves">
         <save filename="*.sav"/>
@@ -1393,8 +1392,8 @@
     <title>Blackwell Convergence</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="blackwell convergence\Saves"/>
         <path ev="savedgames" path="Blackwell Convergence" only_for="WindowsVista"/>
+        <path ev="steamcommon" path="blackwell convergence\Saves"/>
         <path ev="userdocuments" path="My Saved Games\Blackwell Convergence" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
@@ -1421,8 +1420,8 @@
     <title>The Blackwell Legacy</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="blackwell legacy\Saves"/>
         <path ev="savedgames" path="Blackwell Legacy v1.7" only_for="WindowsVista"/>
+        <path ev="steamcommon" path="blackwell legacy\Saves"/>
         <path ev="userdocuments" path="My Saved Games\Blackwell Legacy v1.7" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
@@ -1436,8 +1435,8 @@
     <title>Blackwell Unbound</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="blackwell unbound\Saves"/>
         <path ev="savedgames" path="Blackwell Unbound" only_for="WindowsVista"/>
+        <path ev="steamcommon" path="blackwell unbound\Saves"/>
         <path ev="userdocuments" path="My Saved Games\Blackwell Unbound" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
@@ -1499,14 +1498,14 @@
       </files>
       <files type="Saves">
         <save>
+          <except filename="*.log"/>
+          <except filename="Config.xml"/>
+          <except path="Cache\3d"/>
           <except path="Saves" filename="Achievements*"/>
           <except path="Saves\Replays"/>
           <except path="Saves\Teams"/>
           <except path="Screenshots"/>
-          <except filename="Config.xml"/>
           <except path="Scripts"/>
-          <except path="Cache\3d"/>
-          <except filename="*.log"/>
         </save>
       </files>
       <files type="Screenshots">
@@ -1534,14 +1533,14 @@
       </files>
       <files type="Saves">
         <save>
+          <except filename="*.log"/>
+          <except filename="Config.xml"/>
+          <except path="Cache\3d"/>
           <except path="Saves" filename="Achievements*"/>
           <except path="Saves\Replays"/>
           <except path="Saves\Teams"/>
           <except path="Screenshots"/>
-          <except filename="Config.xml"/>
           <except path="Scripts"/>
-          <except path="Cache\3d"/>
-          <except filename="*.log"/>
         </save>
       </files>
       <files type="Screenshots">
@@ -1709,8 +1708,8 @@
   <game name="BrokenSword2" follows="BrokenSword1">
     <title>Broken Sword II: The Smoking Mirror</title>
     <version platform="ScummVM">
-      <scummvm name="sword2"/>
       <scummvm name="bsword2"/>
+      <scummvm name="sword2"/>
       <locations>
         <path ev="installlocation" path="GOG.com\Broken Sword II - The Smoking Mirror"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD2" value="PATH"/>
@@ -1879,8 +1878,8 @@
     <title>Call of Duty: Black Ops</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="call of duty black ops"/>
         <path ev="installlocation" path="Call of Duty - Black Ops"/>
+        <path ev="steamcommon" path="call of duty black ops"/>
         <registry root="local_machine" key="SOFTWARE\Activision\Call of Duty Black Ops" value="InstallPath"/>
         <shortcut ev="startmenu" path="Programs\Activision\Call of Duty - Black Ops\Call of Duty - Black Ops.lnk"/>
       </locations>
@@ -1952,8 +1951,8 @@
         <path ev="userdocuments" path="Call of Juarez - Bound in Blood"/>
       </locations>
       <files type="Saves">
-        <save path="Out\save"/>
         <save path="Out\profiles"/>
+        <save path="Out\save"/>
       </files>
       <contributor>Michael Lamere</contributor>
     </version>
@@ -2019,10 +2018,10 @@
     <title>Chaser</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="chaser"/>
         <path ev="installlocation" path="GOG.com\Chaser"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGCHASER" value="PATH"/>
+        <path ev="steamcommon" path="chaser"/>
         <registry root="local_machine" key="SOFTWARE\Cauldron\Chaser" value="InstallDir"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGCHASER" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Chaser\Chaser.lnk"/>
       </locations>
       <files type="Saves">
@@ -2312,8 +2311,8 @@
         <path ev="userdocuments" path="My Games\Sid Meier's Civilization 5"/>
       </locations>
       <files type="Saves">
-        <save path="Saves"/>
         <save path="ModdedSaves"/>
+        <save path="Saves"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -2441,11 +2440,11 @@
       <locations>
         <path ev="userdocuments" path="Command and Conquer Generals Data"/>
       </locations>
-      <files type="Saves">
-        <save path="Save"/>
-      </files>
       <files type="Replays">
         <save path="Replays"/>
+      </files>
+      <files type="Saves">
+        <save path="Save"/>
       </files>
       <files type="Statistics">
         <save filename="SkirmishStats.ini"/>
@@ -2459,11 +2458,11 @@
       <locations>
         <path ev="userdocuments" path="Command and Conquer Generals Zero Hour Data"/>
       </locations>
-      <files type="Saves">
-        <save path="Save"/>
-      </files>
       <files type="Replays">
         <save path="Replays"/>
+      </files>
+      <files type="Saves">
+        <save path="Save"/>
       </files>
       <files type="Statistics">
         <save filename="SkirmishStats.ini"/>
@@ -2502,8 +2501,8 @@
     <title>Condemned: Criminal Origins</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\Monolith Productions\Condemned" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\Monolith Productions\Condemned" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\Monolith Productions\Condemned" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
         <save path="Profiles"/>
@@ -2578,8 +2577,8 @@
     <title>Cryostasis</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="cryostasis"/>
         <path ev="installlocation" path="GOG.com\Cryostasis"/>
+        <path ev="steamcommon" path="cryostasis"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGCRYOSTASIS" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Cryostasis\Cryostasis.lnk"/>
       </locations>
@@ -2610,8 +2609,8 @@
         <path ev="savedgames" path="Crysis2" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
-        <save path="SaveGames"/>
         <save path="Profiles"/>
+        <save path="SaveGames"/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -2719,8 +2718,8 @@
     <title>Missionforce: Cyberstorm</title>
     <version os="Windows">
       <locations>
+        <path ev="altsavepaths"/>
         <path ev="userdocuments" path="Cyberstorm"/>
-        <path ev="altsavepaths" path=""/>
       </locations>
       <files type="Saves">
         <save filename="*.cbs"/>
@@ -2734,8 +2733,8 @@
     <title>Cyberstorm 2: Corporate Wars</title>
     <version os="Windows">
       <locations>
+        <path ev="altsavepaths"/>
         <path ev="userdocuments" path="Cyberstorm 2"/>
-        <path ev="altsavepaths" path=""/>
       </locations>
       <files type="Saves">
         <save filename="*.cbs"/>
@@ -2975,8 +2974,8 @@
         <path ev="userdocuments" path="My Games\Airtight\Dark Void"/>
       </locations>
       <files type="Saves">
-        <save path="SavedGames"/>
         <save filename="profile.dvp"/>
+        <save path="SavedGames"/>
       </files>
       <files type="Settings">
         <save path="SkyGame\Config"/>
@@ -3193,8 +3192,8 @@
       <locations>
         <path ev="installlocation" path="GAMES\DESCENT2"/>
         <path ev="installlocation" path="GOG.com\Descent and Descent 2\Descent 2"/>
-        <registry root="local_machine" key="SOFTWARE\PARALLAX\DESCENT II\1.1\INSTALL" value="WINPATH"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDESCENT2" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\PARALLAX\DESCENT II\1.1\INSTALL" value="WINPATH"/>
         <shortcut ev="startmenu" path="Programs\Games\Descent II Win95.lnk"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Descent and Descent 2\Descent 2\Documents\Readme.lnk"/>
       </locations>
@@ -3307,8 +3306,8 @@
         <path ev="installlocation" path="DeusEx"/>
         <path ev="installlocation" path="GOG.com\Deus Ex"/>
         <path ev="steamcommon" path="deus ex"/>
-        <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\Deus Ex" value="Folder"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDEUSX" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\Deus Ex" value="Folder"/>
         <shortcut ev="startmenu" path="Programs\Deus Ex\Play Deus Ex.lnk" detract="System"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Deus Ex GOTY\Deus Ex GOTY.lnk" detract="System"/>
       </locations>
@@ -3450,7 +3449,7 @@
         <path ev="localappdata" path="DinsCurse"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -3705,13 +3704,13 @@
     <title>Dreamfall: The Longest Journey</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Micro Application\Dreamfall"/>
         <path ev="installlocation" path="Dreamfall the Longest Journey"/>
+        <path ev="installlocation" path="Micro Application\Dreamfall"/>
         <path ev="steamcommon" path="dreamfall the longest journey"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D751B34C-058F-42EF-BE95-14EBB0D2C585}" value="InstallLocation"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Dreamfall the Longest Journey_is1" value="InstallLocation"/>
-        <shortcut ev="startmenu" path="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D751B34C-058F-42EF-BE95-14EBB0D2C585}" value="InstallLocation"/>
         <shortcut ev="startmenu" path="Programs\Dreamfall the Longest Journey\Dreamfall the Longest Journey.lnk"/>
+        <shortcut ev="startmenu" path="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk"/>
       </locations>
       <files type="Saves">
         <save path="saves"/>
@@ -3811,10 +3810,10 @@
       <locations>
         <path ev="installlocation" path="Bullfrog\Keeper"/>
         <path ev="installlocation" path="GOG.com\Dungeon Keeper"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Keeper" value="Path"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDUNGEONKEEPERDOS" value="PATH"/>
-        <shortcut ev="startmenu" path="Programs\GOG.com\Dungeon Keeper\Dungeon Keeper.lnk" detract="DOSBOX"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Keeper" value="Path"/>
         <shortcut ev="startmenu" path="Programs\Bullfrog\Dungeon Keeper Gold\Play Dungeon Keeper.lnk"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Dungeon Keeper\Dungeon Keeper.lnk" detract="DOSBOX"/>
       </locations>
       <files type="Saves">
         <save path="Save">
@@ -3873,9 +3872,9 @@
         <path ev="userdocuments" path="Gaslamp Games\Dungeons of Dredmor"/>
       </locations>
       <files type="Saves">
-        <save filename="loadsave.dat"/>
         <save filename="*.sav"/>
         <save filename="last.txt"/>
+        <save filename="loadsave.dat"/>
       </files>
       <files type="Scores">
         <save filename="hiscores.txt"/>
@@ -3891,8 +3890,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Earth 2140"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGEARTH2140" value="PATH"/>
         <registry root="current_user" key="Software\Reality Pump\Earth 2140" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGEARTH2140" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Earth 2140\Earth 2140.lnk"/>
       </locations>
       <files type="Saves">
@@ -4273,17 +4272,17 @@
     <title>Evil Genius</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="evil genius"/>
-        <path ev="installlocation" path="GOG.com\Evil Genius"/>
         <path ev="installlocation" path="Evil Genius"/>
+        <path ev="installlocation" path="GOG.com\Evil Genius"/>
+        <path ev="steamcommon" path="evil genius"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGEVILGENIUS" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\VUGames\Evil Genius\1.0.0.0" value="Directory"/>
-        <shortcut ev="startmenu" path="Programs\GOG.com\Evil Genius\Evil Genius.lnk" detract="ReleaseExe"/>
         <shortcut ev="startmenu" path="Programs\Evil Genius\Evil Genius.lnk" detract="ReleaseExe"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Evil Genius\Evil Genius.lnk" detract="ReleaseExe"/>
       </locations>
       <files type="Saves">
-        <save path="DynamicResources\Layouts"/>
         <save path="DynamicResources\CodeGeneratedData"/>
+        <save path="DynamicResources\Layouts"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
       <contributor>SanMadJack</contributor>
@@ -4295,13 +4294,13 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Evolva"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGEVOLVA" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Computer Artworks\Evolva\1.0" value="InstallDir"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGEVOLVA" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Evolva\Evolva.lnk"/>
       </locations>
       <files type="Saves">
-        <save path="SaveGames"/>
         <save path="Genohunters"/>
+        <save path="SaveGames"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -4413,8 +4412,8 @@
     <title>Fallout</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Interplay\Fallout"/>
         <path ev="installlocation" path="GOG.com\Fallout"/>
+        <path ev="installlocation" path="Interplay\Fallout"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\falloutw.exe" value="Path"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Fallout\Fallout.lnk"/>
       </locations>
@@ -4588,8 +4587,8 @@
     <title>F.E.A.R. Combat</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\Monolith Productions\FEARCombat" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\Monolith Productions\FEARCombat" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\Monolith Productions\FEARCombat" only_for="WindowsVista"/>
       </locations>
       <files type="MODs">
         <save path="Custom"/>
@@ -4629,8 +4628,8 @@
     <title>F.E.A.R.: Extraction Point</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\TimeGate Studios\FEARXP" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\TimeGate Studios\FEARXP" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\TimeGate Studios\FEARXP" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
         <save path="Profiles"/>
@@ -4646,8 +4645,8 @@
     <title>F.E.A.R.: First Encounter Assault Recon</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\Monolith Productions\FEAR" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\Monolith Productions\FEAR" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\Monolith Productions\FEAR" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
         <save path="Profiles"/>
@@ -4663,8 +4662,8 @@
     <title>F.E.A.R.: Perseus Mandate</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\TimeGate Studios\FEARXP2" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\TimeGate Studios\FEARXP2" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\TimeGate Studios\FEARXP2" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
         <save path="Profiles"/>
@@ -5071,6 +5070,10 @@
   </game>
   <game name="FullThrottle">
     <title>Full Throttle</title>
+    <version platform="ScummVM">
+      <scummvm name="ft"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="THROTTLE"/>
@@ -5078,10 +5081,6 @@
       <files type="Saves">
         <save filename="SAVEGAME.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-    <version platform="ScummVM">
-      <scummvm name="ft"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -5243,8 +5242,8 @@
         <save path="Mods\Origmiss\Save\Replay"/>
       </files>
       <files type="Saves">
-        <save path="Mods\Origmiss\Save\Game"/>
         <save filename="*unlocked*.xml"/>
+        <save path="Mods\Origmiss\Save\Game"/>
       </files>
       <files type="Settings">
         <save filename="options.xml"/>
@@ -5272,8 +5271,8 @@
         <path ev="localappdata" path="GRAW2"/>
       </locations>
       <files type="Saves">
-        <save path="settings\profiles"/>
         <save filename="level_snapshot.dsl"/>
+        <save path="settings\profiles"/>
       </files>
       <files type="Settings">
         <save path="data\settings"/>
@@ -5319,9 +5318,9 @@
       <locations>
         <path ev="installlocation" path="Giants"/>
         <path ev="installlocation" path="GOG.com\Giants – Citizen Kabuto"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\giants.exe" value="Path"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGGIANTS" value="PATH"/>
         <registry root="current_user" key="Software\PlanetMoon\Giants" value="DestDir"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGGIANTS" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\giants.exe" value="Path"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Giants – Citizen Kabuto\Giants – Citizen Kabuto.lnk"/>
       </locations>
       <files type="Saves">
@@ -5791,8 +5790,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Haegemonia Gold Edition\Haegemonia - Legions of Iron"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGHAEGEMONIALOI" value="PATH"/>
         <registry root="local_machine" key="Software\Digital Reality\Haegemonia" value="InstallPath"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGHAEGEMONIALOI" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Haegemonia - Legions of Iron\Haegemonia - Legions of Iron.lnk"/>
       </locations>
       <files type="Saves">
@@ -5806,8 +5805,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Haegemonia Gold Edition\Haegemonia - The Solon Heritage"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGHAEGEMONIATSH" value="PATH"/>
         <registry root="current_user" key="Software\Digital Reality\HaegemoniaAddOn" value="InstallPath"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGHAEGEMONIATSH" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Haegemonia - Legions of Iron\Haegemonia - The Solon Heritage.lnk"/>
       </locations>
       <files type="Saves">
@@ -5822,6 +5821,16 @@
       <ps_code prefix="SLUS" suffix="20066"/>
       <contributor>SanMadJack</contributor>
     </version>
+    <version os="Windows" release="Source">
+      <title>Half-Life: Source</title>
+      <locations>
+        <path ev="steamuser" path="half-life source\hl1"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVE"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="Windows" media="Steam">
       <locations>
         <path ev="installlocation" path="Sierra\Half-Life\valve"/>
@@ -5833,16 +5842,6 @@
       </files>
       <contributor>SanMadJack</contributor>
       <contributor>Scandalon</contributor>
-    </version>
-    <version os="Windows" release="Source">
-      <title>Half-Life: Source</title>
-      <locations>
-        <path ev="steamuser" path="half-life source\hl1"/>
-      </locations>
-      <files type="Saves">
-        <save path="SAVE"/>
-      </files>
-      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="HalfLife2" follows="HalfLife">
@@ -5969,7 +5968,7 @@
         <path ev="localappdata" path="Electronic Arts\Harry Potter and the Half Blood Prince"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -5986,8 +5985,8 @@
         <save path="scenarios\save games"/>
       </files>
       <files type="Settings">
-        <save filename="settings.cfg"/>
         <save filename="config.eu"/>
+        <save filename="settings.cfg"/>
       </files>
       <contributor>Craig Schlieve</contributor>
     </version>
@@ -6004,8 +6003,8 @@
         <save path="scenarios\save games"/>
       </files>
       <files type="Settings">
-        <save filename="settings.cfg"/>
         <save filename="config.eu"/>
+        <save filename="settings.cfg"/>
       </files>
       <contributor>Craig Schlieve</contributor>
     </version>
@@ -6117,8 +6116,8 @@
         <save path="Save"/>
       </files>
       <files type="Settings">
-        <save filename="HitmanContracts.ini"/>
         <save filename="HitmanContracts.cfg"/>
+        <save filename="HitmanContracts.ini"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -6143,8 +6142,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Sierra\Homeworld2"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Homeworld2" value="UninstallString" detract="uninstall.exe"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3098754084-4185171617-473594350-1001\{0BAF4666-90BC-40F3-B9E1-0784F10089F4}" value="ConfigApplicationPath" detract="\Bin\Release"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Homeworld2" value="UninstallString" detract="uninstall.exe"/>
         <shortcut ev="startmenu" path="Programs\Sierra\Homeworld2\Homeworld2.lnk" detract="\Bin\Release"/>
       </locations>
       <files type="Saves">
@@ -6200,8 +6199,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Icewind Dale Complete"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGICEWINDDALE1" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Black Isle\Icewind Dale - Heart of Winter" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGICEWINDDALE1" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Icewind Dale Complete\Icewind Dale Complete.lnk"/>
       </locations>
       <files type="Characters">
@@ -6304,7 +6303,7 @@
     <title>The Incredible Machine 3</title>
     <version os="Windows">
       <locations>
-        <path ev="drive" path=""/>
+        <path ev="drive"/>
       </locations>
       <files type="Saves">
         <save filename="TIM*.SAV"/>
@@ -6331,12 +6330,12 @@
     <title>Independence War</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Particle Systems\Independence War"/>
         <path ev="installlocation" path="GOG.com\Independence War Deluxe"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IWar.exe" value="Path"/>
+        <path ev="installlocation" path="Particle Systems\Independence War"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGIWAR" value="PATH"/>
-        <shortcut ev="startmenu" path="Programs\Independence War\Independence War.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IWar.exe" value="Path"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Independence War Deluxe\Independence War.lnk"/>
+        <shortcut ev="startmenu" path="Programs\Independence War\Independence War.lnk"/>
       </locations>
       <files type="Saves">
         <save path="psg" filename="*.sav"/>
@@ -6348,12 +6347,12 @@
     <title>Independence War 2: Edge of Chaos</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Infogrames\Independence War 2 - Edge of Chaos"/>
         <path ev="installlocation" path="GOG.com\Independence War 2 - Edge of Chaos"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3098754084-4185171617-473594350-1001\{78195E7A-960D-4D09-95F6-E4DF5FF739CB}" value="ConfigApplicationPath"/>
+        <path ev="installlocation" path="Infogrames\Independence War 2 - Edge of Chaos"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGIWAR2" value="PATH"/>
-        <shortcut ev="startmenu" path="Programs\Infogrames\Independence War 2 - Edge of Chaos\Independence War 2 - Edge of Chaos.lnk" detract="bin\release"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3098754084-4185171617-473594350-1001\{78195E7A-960D-4D09-95F6-E4DF5FF739CB}" value="ConfigApplicationPath"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Independence War 2 - Edge of Chaos\Independence War 2 - Edge of Chaos.lnk" detract="bin\release"/>
+        <shortcut ev="startmenu" path="Programs\Infogrames\Independence War 2 - Edge of Chaos\Independence War 2 - Edge of Chaos.lnk" detract="bin\release"/>
       </locations>
       <files type="Saves">
         <save path="saves"/>
@@ -6627,8 +6626,8 @@
     <title>Judge Dredd: Dredd vs. Death</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="dreddvsdeath"/>
         <path ev="installlocation" path="GOG.com\Judge Dredd - Dredd vs Death"/>
+        <path ev="steamcommon" path="dreddvsdeath"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGJUDGEDREDD" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Rebellion\Dredd" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Judge Dredd - Dredd vs Death\Judge Dredd - Dredd vs Death.lnk"/>
@@ -6794,6 +6793,10 @@
   </game>
   <game name="KingsQuest">
     <title>King's Quest</title>
+    <version platform="ScummVM">
+      <scummvm name="kq1"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 1"/>
@@ -6805,13 +6808,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version platform="ScummVM">
-      <scummvm name="kq1"/>
-      <contributor>SanMadJack</contributor>
-    </version>
   </game>
   <game name="KingsQuest2" follows="KingsQuest">
     <title>King's Quest II: Romancing the Throne</title>
+    <version platform="ScummVM">
+      <scummvm name="kq2"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 2"/>
@@ -6823,13 +6826,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version platform="ScummVM">
-      <scummvm name="kq2"/>
-      <contributor>SanMadJack</contributor>
-    </version>
   </game>
   <game name="KingsQuest3" follows="KingsQuest2">
     <title>King's Quest III: To Heir is Human</title>
+    <version platform="ScummVM">
+      <scummvm name="kq3"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Kings Quest 1-2-3\Kings Quest 3"/>
@@ -6841,13 +6844,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version platform="ScummVM">
-      <scummvm name="kq3"/>
-      <contributor>SanMadJack</contributor>
-    </version>
   </game>
   <game name="KingsQuest4" follows="KingsQuest3">
     <title>King's Quest 4: The Perils of Rosella</title>
+    <version platform="ScummVM">
+      <scummvm name="kq4sci"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 4"/>
@@ -6859,13 +6862,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version platform="ScummVM">
-      <scummvm name="kq4sci"/>
-      <contributor>SanMadJack</contributor>
-    </version>
   </game>
   <game name="KingsQuest5" follows="KingsQuest4">
     <title>King's Quest 5: Absence Makes the Heart Go Yonder</title>
+    <version platform="ScummVM" media="CD">
+      <scummvm name="kq5-cd"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 5"/>
@@ -6877,13 +6880,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version platform="ScummVM" media="CD">
-      <scummvm name="kq5-cd"/>
-      <contributor>SanMadJack</contributor>
-    </version>
   </game>
   <game name="KingsQuest6" follows="KingsQuest5">
     <title>King's Quest 6: Heir Today, Gone Tomorrow</title>
+    <version platform="ScummVM" media="CD">
+      <scummvm name="kq6-cd"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Kings Quest 4-5-6\Kings Quest 6"/>
@@ -6893,10 +6896,6 @@
       <files type="Saves">
         <save filename="KQ6SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-    <version platform="ScummVM" media="CD">
-      <scummvm name="kq6-cd"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -7106,8 +7105,8 @@
     <title>The Longest Journey</title>
     <version os="Windows" detect="required">
       <locations>
-        <path ev="installlocation" path="Funcom\The Longest Journey"/>
         <path ev="appdata" path="The Longest Journey"/>
+        <path ev="installlocation" path="Funcom\The Longest Journey"/>
         <registry root="current_user" key="Software\Paper Sun\Roots" value="Root"/>
       </locations>
       <files type="Saves">
@@ -7144,18 +7143,6 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="LostPlanet2" follows="LostPlanet">
-    <title>Lost Planet 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="CAPCOM\LOST PLANET 2"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>Arc Angel</contributor>
-    </version>
-  </game>
   <game name="LostPlanet">
     <title>Lost Planet: Extreme Condition</title>
     <version os="Windows">
@@ -7176,6 +7163,18 @@
         <save/>
       </files>
       <contributor>Caleb Love</contributor>
+    </version>
+  </game>
+  <game name="LostPlanet2" follows="LostPlanet">
+    <title>Lost Planet 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="CAPCOM\LOST PLANET 2"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="LugaruHD">
@@ -7232,8 +7231,8 @@
     <title>Machinarium</title>
     <version platform="Flash">
       <locations>
-        <path ev="flashshared" path="localhost\steam\steamapps\common\machinarium"/>
         <path ev="flashshared" path="localhost\program files\steam\steamapps\common\machinarium"/>
+        <path ev="flashshared" path="localhost\steam\steamapps\common\machinarium"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -7432,11 +7431,11 @@
     <title>Master of Orion 2: Battle at Antares</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Microprose\Orion2"/>
         <path ev="installlocation" path="GOG.com\Master of Orion 1 and 2\Master of Orion 2"/>
+        <path ev="installlocation" path="Microprose\Orion2"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGMASTEROFORION2" value="PATH"/>
-        <shortcut ev="startmenu" path="Programs\Microprose\Master of Orion II\Master of Orion II.lnk"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Master of Orion 1 and 2\Master of Orion 2\Documents\Readme.lnk"/>
+        <shortcut ev="startmenu" path="Programs\Microprose\Master of Orion II\Master of Orion II.lnk"/>
       </locations>
       <files type="Saves">
         <save filename="SAVE*.GAM"/>
@@ -7688,8 +7687,8 @@
         <registry root="local_machine" key="SOFTWARE\MicroProse\MechWarrior 3\1.0" value="Program"/>
       </locations>
       <files type="Mechs">
-        <save path="configs"/>
         <save filename="*.mw3"/>
+        <save path="configs"/>
       </files>
       <files type="Saves">
         <save path="pilots"/>
@@ -7958,8 +7957,8 @@
     <title>Metal Gear Solid 3: Snake Eater</title>
     <version os="PS2" region="USA" release="Subsistence">
       <title>Metal Gear Solid 3: Subsistence</title>
-      <ps_code prefix="SLUS" suffix="21359"/>
       <ps_code prefix="SLUS" suffix="21243"/>
+      <ps_code prefix="SLUS" suffix="21359"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -8079,8 +8078,8 @@
         <path ev="appdata" path="Virtual Prophecy\Mishap"/>
       </locations>
       <files type="Saves">
-        <save path="profiles"/>
         <save path="Mishap.cs.dso"/>
+        <save path="profiles"/>
       </files>
       <files type="Settings">
         <save path="preferences"/>
@@ -8197,6 +8196,21 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="Myst">
+    <title>Myst</title>
+    <version os="Windows">
+      <locations>
+        <path ev="altsavepaths"/>
+        <path ev="userdocuments" path="Myst"/>
+      </locations>
+      <files type="Saves">
+        <save filename="*.mys"/>
+      </files>
+      <identifier filename="*.mys"/>
+      <comment>Checks for saves in Documents\Myst and Alt. Save Paths</comment>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Myst3" follows="Riven">
     <title>Myst III: Exile</title>
     <version os="Windows">
@@ -8234,37 +8248,6 @@
       </locations>
       <files type="Saves">
         <save filename="progress.db"/>
-        <save path="sav"/>
-      </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </game>
-  <game name="Myst">
-    <title>Myst</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Myst"/>
-        <path ev="altsavepaths" path=""/>
-      </locations>
-      <files type="Saves">
-        <save filename="*.mys"/>
-      </files>
-      <identifier filename="*.mys"/>
-      <comment>Checks for saves in Documents\Myst and Alt. Save Paths</comment>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </game>
-  <game name="Uru">
-    <title>Uru: Ages Beyond Myst</title>
-    <version os="Windows" release="CompleteChronicles">
-      <title>Uru: The Complete Chronicles</title>
-      <locations>
-        <path ev="installlocation" path="Ubi Soft\Cyan Worlds\Myst Uru Complete Chronicles"/>
-        <path ev="installlocation" path="GOG.com\Myst Uru Complete Chronicles"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGURUCC" value="PATH"/>
-        <shortcut ev="startmenu" path="Programs\GOG.com\Myst Uru Complete Chronicles\Myst Uru Complete Chronicles.lnk"/>
-      </locations>
-      <files type="Saves">
         <save path="sav"/>
       </files>
       <contributor>SanMadJack</contributor>
@@ -8376,8 +8359,8 @@
     <title>Neverwinter Nights</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="NeverwinterNights\NWN"/>
         <path ev="installlocation" path="GOG.com\Neverwinter Nights Diamond Edition"/>
+        <path ev="installlocation" path="NeverwinterNights\NWN"/>
         <registry root="local_machine" key="SOFTWARE\BioWare\NWN\Neverwinter" value="Location"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGNWNDIAMOND" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Neverwinter Nights Diamond Edition\Neverwinter Nights Diamond Edition.lnk"/>
@@ -8507,8 +8490,8 @@
     <title>Oddworld: Abe's Exoddus</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="oddworld abes exoddus"/>
         <path ev="installlocation" path="GOG.com\Abe's Exoddus"/>
+        <path ev="steamcommon" path="oddworld abes exoddus"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGABESEXODDUS" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Abe's Exoddus\Abe's Exoddus.lnk"/>
       </locations>
@@ -8523,8 +8506,8 @@
     <title>Oddworld: Abe's Oddysee</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="oddworld abes oddysee"/>
         <path ev="installlocation" path="GOG.com\Abe's Oddysee"/>
+        <path ev="steamcommon" path="oddworld abes oddysee"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGABESODDYSEE" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Abe's Oddysee\Abe's Oddysee.lnk"/>
       </locations>
@@ -8727,12 +8710,12 @@
     <title>Painkiller</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="painkiller gold edition"/>
         <path ev="installlocation" path="DreamCatcher\Painkiller Gold Edition"/>
         <path ev="installlocation" path="GOG.com\Painkiller Black"/>
+        <path ev="steamcommon" path="painkiller gold edition"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPAINKILLERBLACK" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\PeopleCanFly\Painkiller" value="AddonPath"/>
         <registry root="local_machine" key="SOFTWARE\PeopleCanFly\Painkiller" value="EXEpath" detract="Bin\Painkiller.exe"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPAINKILLERBLACK" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\DreamCatcher\Painkiller Gold Edition\Painkiller.lnk" detract="Bin"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Painkiller Black\Painkiller Black.lnk" detract="Bin"/>
       </locations>
@@ -8842,8 +8825,8 @@
     <title>Peggle Deluxe</title>
     <version os="Windows">
       <locations>
-        <path ev="allusersprofile" path="Steam\Peggle" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="PopCap Games\Peggle" only_for="WindowsVista"/>
+        <path ev="allusersprofile" path="Steam\Peggle" only_for="WindowsVista"/>
         <path ev="steamcommon" path="peggle deluxe" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
@@ -8872,9 +8855,9 @@
     <title>Peggle Nights</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="peggle nights" only_for="WindowsXP"/>
-        <path ev="allusersprofile" path="Steam\PeggleNights" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="PopCap Games\PeggleNights" only_for="WindowsVista"/>
+        <path ev="allusersprofile" path="Steam\PeggleNights" only_for="WindowsVista"/>
+        <path ev="steamcommon" path="peggle nights" only_for="WindowsXP"/>
         <registry root="current_user" key="Software\PopCap\PeggleNights" value="RunPath" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
@@ -9021,8 +9004,8 @@
       <locations>
         <path ev="installlocation" path="Black Isle\Planescape - Torment"/>
         <path ev="installlocation" path="GOG.com\Planescape Torment"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\torment.exe" value="Path"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPLANESCAPETOURMENT" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\torment.exe" value="Path"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Planescape Torment\Planescape Torment.lnk"/>
       </locations>
       <files type="Saves">
@@ -9078,7 +9061,7 @@
         <path ev="userdocuments" path="My Games\Pocket Tanks"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -9153,10 +9136,10 @@
     <title>Postal 2</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Postal2STP"/>
         <path ev="installlocation" path="GOG.com\Postal 2 Share The Pain"/>
-        <registry root="local_machine" key="SOFTWARE\Running With Scissors\Postal2STP\Full\US" value="InstallDir"/>
+        <path ev="installlocation" path="Postal2STP"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPOSTAL2STP" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Running With Scissors\Postal2STP\Full\US" value="InstallDir"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Postal 2 Share The Pain\Postal 2 Share The Pain.lnk" detract="System"/>
       </locations>
       <files type="Saves">
@@ -9207,8 +9190,8 @@
     <title>Precursors</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\Precursors" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\Precursors" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\Precursors" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
         <save path="SAVE"/>
@@ -9283,13 +9266,13 @@
     </version>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Ubisoft\Prince of Persia The Sands of Time"/>
         <path ev="installlocation" path="GOG.com\Prince of Persia The Sands of Time"/>
+        <path ev="installlocation" path="Ubisoft\Prince of Persia The Sands of Time"/>
         <path ev="steamcommon" path="prince of persia the sands of time"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPOP1" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\UBISOFT\Prince of Persia The Sands of Time\1.00.181" value="Product_Path"/>
-        <shortcut ev="startmenu" path="Programs\Ubisoft\Prince of Persia The Sands of Time\Play Prince of Persia The Sands of Time.lnk"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Prince of Persia The Sands of Time\Prince of Persia The Sands of Time.lnk"/>
+        <shortcut ev="startmenu" path="Programs\Ubisoft\Prince of Persia The Sands of Time\Play Prince of Persia The Sands of Time.lnk"/>
       </locations>
       <files type="Saves">
         <save path="Profiles"/>
@@ -9362,10 +9345,6 @@
   </game>
   <game name="Psychonauts">
     <title>Psychonauts</title>
-    <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21120"/>
-      <contributor>SanMadJack</contributor>
-    </version>
     <version media="Steam">
       <locations>
         <path ev="steamuserdata" path="3830"/>
@@ -9375,13 +9354,17 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
+    <version os="PS2" region="USA">
+      <ps_code prefix="SLUS" suffix="21120"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="psychonauts"/>
-        <path ev="installlocation" path="psychonauts"/>
         <path ev="installlocation" path="GOG.com\Psychonauts"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A129D1F2-CAC4-4AD7-B26D-3C6411B87DCC}" value="InstallLocation"/>
+        <path ev="installlocation" path="psychonauts"/>
+        <path ev="steamcommon" path="psychonauts"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPSYCHONAUTS" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A129D1F2-CAC4-4AD7-B26D-3C6411B87DCC}" value="InstallLocation"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Psychonauts\Psychonauts.lnk"/>
       </locations>
       <files type="Saves">
@@ -9449,8 +9432,8 @@
     <title>Quake 4</title>
     <version os="Windows" virtualstore="ignore" detect="required">
       <locations>
-        <path ev="steamcommon" path="Quake 4"/>
         <path ev="installlocation" path="id Software\Quake 4"/>
+        <path ev="steamcommon" path="Quake 4"/>
         <registry root="local_machine" key="SOFTWARE\id\Quake 4" value="InstallPath"/>
         <shortcut ev="startmenu" path="Programs\Quake 4\Quake 4 single player.lnk"/>
       </locations>
@@ -9483,9 +9466,9 @@
       </files>
       <files type="Saves">
         <save path="UserData">
+          <except path="ReplayTempFiles"/>
           <except path="UserData\LOG"/>
           <except path="UserData\Music"/>
-          <except path="ReplayTempFiles"/>
         </save>
       </files>
       <files type="Settings">
@@ -9977,9 +9960,9 @@
       <locations>
         <path ev="installlocation" path="Return to Castle Wolfenstein"/>
         <path ev="steamcommon" path="return to castle wolfenstein"/>
-        <registry root="local_machine" key="SOFTWARE\Activision\Return to Castle Wolfenstein - Platinum Edition" value="InstallPath"/>
         <registry root="local_machine" key="SOFTWARE\Activision\Return to Castle Wolfenstein" value="InstallPath"/>
         <registry root="local_machine" key="SOFTWARE\Activision\Return to Castle Wolfenstein - Game of The Year Edition" value="InstallPath"/>
+        <registry root="local_machine" key="SOFTWARE\Activision\Return to Castle Wolfenstein - Platinum Edition" value="InstallPath"/>
       </locations>
       <files type="Saves">
         <save path="Main\save"/>
@@ -9993,6 +9976,10 @@
   </game>
   <game name="ReturnToZork" follows="Zork0">
     <title>Return To Zork</title>
+    <version platform="ScummVM" media="CD">
+      <scummvm name="rtz-cd"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Return To Zork"/>
@@ -10002,10 +9989,6 @@
       <files type="Saves">
         <save filename="GAME.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-    <version platform="ScummVM" media="CD">
-      <scummvm name="rtz-cd"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -10074,8 +10057,8 @@
     <title>Riven</title>
     <version os="Windows">
       <locations>
+        <path ev="altsavepaths"/>
         <path ev="userdocuments" path="Riven"/>
-        <path ev="altsavepaths" path=""/>
       </locations>
       <files type="Saves">
         <save filename="*.rvn"/>
@@ -10229,11 +10212,11 @@
     <title>Runaway: A Road Adventure</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="runaway a road adventure"/>
-        <path ev="installlocation" path="PENDULO Studios\RUNAWAY - A road adventure"/>
         <path ev="installlocation" path="GOG.com\Runaway - A Road Adventure"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Runaway_is1" value="InstallLocation"/>
+        <path ev="installlocation" path="PENDULO Studios\RUNAWAY - A road adventure"/>
+        <path ev="steamcommon" path="runaway a road adventure"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGRUNAWAY" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Runaway_is1" value="InstallLocation"/>
         <shortcut ev="startmenu" path="Pendulo Studios\Runaway - A road adventure\Runaway.lnk"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Runaway - A Road Adventure\Runaway - A Road Adventure.lnk"/>
       </locations>
@@ -10326,6 +10309,10 @@
   </game>
   <game name="SamAndMaxHitTheRoad">
     <title>Sam &amp; Max Hit The Road</title>
+    <version platform="ScummVM">
+      <scummvm name="samnmax"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="SAMNMAX.CD"/>
@@ -10333,10 +10320,6 @@
       <files type="Saves">
         <save filename="SAVEGAME.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-    <version platform="ScummVM">
-      <scummvm name="samnmax"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -10364,8 +10347,8 @@
     <title>Sam &amp; Max Save The World Episode 2 - Situation Comedy</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy Data"/>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 102 - Situation Comedy"/>
+        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy Data"/>
         <path ev="steamcommon" path="sam and max episode 2"/>
         <registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax102.exe" value="Install Location"/>
         <shortcut ev="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 2 - Situation Comedy.lnk"/>
@@ -10384,8 +10367,8 @@
     <title>Sam &amp; Max Save The World Episode 3 - The Mole, the Mob, and the Meatball</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball Data"/>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 103 - The Mole, the Mob, and the Meatball"/>
+        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball Data"/>
         <path ev="steamcommon" path="sam and max episode 3"/>
         <registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax103.exe" value="Install Location"/>
         <shortcut ev="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 3 - The Mole, the Mob, and the Meatball.lnk"/>
@@ -10404,8 +10387,8 @@
     <title>Sam &amp; Max Save The World Episode 4 - Abe Lincoln Must Die!</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die! Data"/>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 104 - Abe Lincoln Must Die"/>
+        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die! Data"/>
         <path ev="steamcommon" path="sam and max episode 4"/>
         <registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax104.exe" value="Install Location"/>
         <shortcut ev="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 4 - Abe Lincoln Must Die!.lnk"/>
@@ -10424,8 +10407,8 @@
     <title>Sam &amp; Max Save The World Episode 5 - Reality 2.0</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0 Data"/>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 105 - Reality 2.0"/>
+        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0 Data"/>
         <path ev="steamcommon" path="sam and max episode 5"/>
         <registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax105.exe" value="Install Location"/>
         <shortcut ev="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 5 - Reality 2.0.lnk"/>
@@ -10444,8 +10427,8 @@
     <title>Sam &amp; Max Save The World Episode 6 - Bright Side of the Moon</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon Data"/>
         <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 106 - Bright Side of the Moon"/>
+        <path ev="installlocation" path="Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon Data"/>
         <path ev="steamcommon" path="sam and max episode 6"/>
         <registry root="local_machine" key="SOFTWARE\Telltale Games\SamMax106.exe" value="Install Location"/>
         <shortcut ev="startmenu" path="Programs\Telltale Games\Sam and Max - Season One\Episode 6 - Bright Side of the Moon"/>
@@ -10646,12 +10629,12 @@
     <title>Sanitarium</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="GOG.com\Sanitarium"/>
         <path ev="installlocation" path="ASC Games\Sanitarium"/>
+        <path ev="installlocation" path="GOG.com\Sanitarium"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSANITARIUM" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Sntrm.exe" value="Path"/>
-        <shortcut ev="startmenu" path="Programs\GOG.com\Sanitarium\Sanitarium.lnk"/>
         <shortcut ev="startmenu" path="Programs\ASC Games\Sanitarium\Sanitarium.lnk"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Sanitarium\Sanitarium.lnk"/>
       </locations>
       <files type="Saves">
         <save path="SAVES"/>
@@ -10791,12 +10774,12 @@
     <title>Septerra Core: Legacy of the Creator</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Valkyrie Studios\Septerra Core"/>
         <path ev="installlocation" path="GOG.com\Septerra Core"/>
-        <registry root="local_machine" key="SOFTWARE\Valkyrie Studios\Septerra Core" value="InstallPath"/>
+        <path ev="installlocation" path="Valkyrie Studios\Septerra Core"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSEPTERRACORE" value="PATH"/>
-        <shortcut ev="startmenu" path="Programs\Valkyrie Studios\Septerra Core\Septerra Core.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\Valkyrie Studios\Septerra Core" value="InstallPath"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Septerra Core\Septerra Core.lnk"/>
+        <shortcut ev="startmenu" path="Programs\Valkyrie Studios\Septerra Core\Septerra Core.lnk"/>
       </locations>
       <files type="Saves">
         <save path="savedata"/>
@@ -10811,8 +10794,8 @@
         <path ev="steamcommon" path="serious sam 2"/>
       </locations>
       <files type="Saves">
-        <save path="Content\SeriousSam2\PlayerProfiles"/>
         <save path="Content\SeriousSam2" filename="Sam2.ini"/>
+        <save path="Content\SeriousSam2\PlayerProfiles"/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -11023,8 +11006,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GAMES\Shogo"/>
-        <registry root="local_machine" key="SOFTWARE\Monolith Productions\Shogo\1.0" value="WorkingDirectory"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Shogo" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\Monolith Productions\Shogo\1.0" value="WorkingDirectory"/>
         <shortcut ev="startmenu" path="Programs\Monolith Games\Shogo\Shogo.lnk"/>
       </locations>
       <files type="Saves">
@@ -11161,8 +11144,8 @@
         <shortcut ev="startmenu" path="Programs\GOG.com\Simon the Sorcerer 3D\Simon the Sorcerer 3D.lnk"/>
       </locations>
       <files type="Saves">
-        <save path="Data" filename="SimonSaveGame*"/>
         <save path="Data" filename="SaveGamesNew.txt"/>
+        <save path="Data" filename="SimonSaveGame*"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -11340,6 +11323,10 @@
   </game>
   <game name="SpaceQuest">
     <title>Space Quest: The Sarien Encounter</title>
+    <version platform="ScummVM">
+      <scummvm name="sq1"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Space Quest 1-2-3\Space Quest 1"/>
@@ -11351,13 +11338,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version platform="ScummVM">
-      <scummvm name="sq1"/>
-      <contributor>SanMadJack</contributor>
-    </version>
   </game>
   <game name="SpaceQuest2" follows="SpaceQuest">
     <title>Space Quest II: Vohaul's Revenge and Space Quest</title>
+    <version platform="ScummVM">
+      <scummvm name="sq2"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Space Quest 1-2-3\Space Quest 2"/>
@@ -11369,13 +11356,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version platform="ScummVM">
-      <scummvm name="sq2"/>
-      <contributor>SanMadJack</contributor>
-    </version>
   </game>
   <game name="SpaceQuest3" follows="SpaceQuest2">
     <title>Space Quest III: The Pirates of Pestulon</title>
+    <version platform="ScummVM">
+      <scummvm name="sq3"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Space Quest 1-2-3\Space Quest 3"/>
@@ -11387,13 +11374,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version platform="ScummVM">
-      <scummvm name="sq3"/>
-      <contributor>SanMadJack</contributor>
-    </version>
   </game>
   <game name="SpaceQuest4" follows="SpaceQuest3">
     <title>Space Quest IV: Roger Wilco and the Time Rippers</title>
+    <version platform="ScummVM" media="CD">
+      <scummvm name="sq4-cd"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Space Quest Collection\Space Quest 4"/>
@@ -11405,13 +11392,13 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version platform="ScummVM" media="CD">
-      <scummvm name="sq4-cd"/>
-      <contributor>SanMadJack</contributor>
-    </version>
   </game>
   <game name="SpaceQuest5" follows="SpaceQuest4">
     <title>Space Quest V: The Next Mutation</title>
+    <version platform="ScummVM">
+      <scummvm name="sq5"/>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="DOS">
       <locations>
         <path ev="installlocation" path="GOG.com\Space Quest Collection\Space Quest 5"/>
@@ -11421,10 +11408,6 @@
       <files type="Saves">
         <save filename="SQ5SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-    <version platform="ScummVM">
-      <scummvm name="sq5"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -11446,8 +11429,8 @@
     <title>Space Rangers</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="space rangers"/>
         <path ev="installlocation" path="GOG.com\Space Rangers"/>
+        <path ev="steamcommon" path="space rangers"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSPACERANGERS" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Space Rangers\Space Rangers.lnk"/>
       </locations>
@@ -11620,8 +11603,8 @@
     <title>S.T.A.L.K.E.R.: Call of Pripyat</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\S.T.A.L.K.E.R. - Call of Pripyat" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\S.T.A.L.K.E.R. - Call of Pripyat" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\S.T.A.L.K.E.R. - Call of Pripyat" only_for="WindowsVista"/>
         <path ev="steamcommon" path="stalker call of pripyat\_appdata_"/>
       </locations>
       <files type="Saves">
@@ -11649,8 +11632,8 @@
     <title>S.T.A.L.K.E.R.: Shadow of Chernobyl</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\stalker-shoc" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\stalker-shoc" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\stalker-shoc" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
         <save filename="user.ltx"/>
@@ -11758,10 +11741,10 @@
         <shortcut ev="startmenu" path="Programs\GOG.com\Starflight 1 and 2\Starflight 2\Starflight 2.lnk" append="Starflight 2" detract="DOSBOX"/>
       </locations>
       <files type="Saves">
-        <save filename="STAR*.COM"/>
         <save filename="GAME.*"/>
         <save filename="LASTSAVE.*"/>
         <save filename="ORIGINAL.*"/>
+        <save filename="STAR*.COM"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -11771,8 +11754,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Microsoft Games\StarLancer"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\StarLancer\1.0" value="InstallationDirectory"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\StarLancer" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\StarLancer\1.0" value="InstallationDirectory"/>
         <shortcut ev="startmenu" path="Programs\Microsoft Games\StarLancer\StarLancer.lnk"/>
       </locations>
       <files type="Saves">
@@ -11901,8 +11884,8 @@
     <title>Star Wars: Knights of the Old Republic</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="swkotor"/>
         <path ev="installlocation" path="LucasArts\SWKotOR"/>
+        <path ev="steamcommon" path="swkotor"/>
         <registry root="local_machine" key="SOFTWARE\BioWare\SW\KOTOR" value="Path"/>
         <shortcut ev="startmenu" path="Programs\LucasArts\Star Wars Knights of the Old Republic\ Star Wars Knights of the Old Republic.lnk"/>
       </locations>
@@ -11956,8 +11939,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Star Wolves"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTARWOLVES" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Cenega\Star Wolves\1.0" value="directory"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTARWOLVES" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Star Wolves\Star Wolves.lnk"/>
       </locations>
       <files type="Saves">
@@ -12213,8 +12196,8 @@
     <title>Tachyon: The Fringe</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="tachyon the fringe"/>
         <path ev="installlocation" path="NovaLogic\Tachyon"/>
+        <path ev="steamcommon" path="tachyon the fringe"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\tachyon.exe" value="Path"/>
         <shortcut ev="startmenu" path="Programs\NovaLogic\Tachyon\Tachyon.lnk"/>
       </locations>
@@ -12249,8 +12232,8 @@
     <title>Tales of Monkey Island Chapter 2: The Siege of Spinner Cay</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Telltale Games\The Siege of Spinner Cay"/>
         <path ev="userdocuments" path="Telltale Games\tales of monkey island - chapter 2"/>
+        <path ev="userdocuments" path="Telltale Games\The Siege of Spinner Cay"/>
       </locations>
       <files type="Saves">
         <save filename="*.save"/>
@@ -12496,8 +12479,8 @@
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\thief2.exe" value="Path"/>
       </locations>
       <files type="Saves">
-        <save path="SAVES" filename="*.sav"/>
         <save filename="*.sav"/>
+        <save path="SAVES" filename="*.sav"/>
       </files>
       <files type="Settings">
         <save filename="user.bnd"/>
@@ -12510,8 +12493,8 @@
     <title>Thief: Deadly Shadows</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\Thief - Deadly Shadows" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\Thief - Deadly Shadows" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\Thief - Deadly Shadows" only_for="WindowsVista"/>
         <path ev="steamcommon" path="thief deadly shadows\save"/>
       </locations>
       <files type="Saves">
@@ -12956,8 +12939,8 @@
         <shortcut ev="startmenu" path="Programs\GOG.com\Tropico Reloaded\Tropico 2\Tropico 2.lnk"/>
       </locations>
       <files type="Saves">
-        <save path="Save"/>
         <save path="Campaign"/>
+        <save path="Save"/>
       </files>
       <contributor>slake_jones</contributor>
     </version>
@@ -13138,13 +13121,13 @@
     <title>Unreal</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="UnrealGold"/>
-        <path ev="installlocation" path="Unreal"/>
         <path ev="installlocation" path="GOG.com\Unreal Gold"/>
-        <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\Unreal Gold" value="Folder"/>
+        <path ev="installlocation" path="Unreal"/>
+        <path ev="installlocation" path="UnrealGold"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGUNREAL" value="PATH"/>
-        <shortcut ev="startmenu" path="Programs\Unreal Gold\Play Unreal Gold.lnk" detract="System"/>
+        <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\Unreal Gold" value="Folder"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Unreal Gold\Unreal Gold.lnk" detract="System"/>
+        <shortcut ev="startmenu" path="Programs\Unreal Gold\Play Unreal Gold.lnk" detract="System"/>
       </locations>
       <files type="Saves">
         <save path="Save"/>
@@ -13159,11 +13142,11 @@
     <title>Unreal II: The Awakening</title>
     <version os="Windows">
       <locations>
+        <path ev="installlocation" path="GOG.com\Unreal 2 – The Awakening SE"/>
         <path ev="installlocation" path="Unreal2"/>
         <path ev="steamcommon" path="unreal ii the awakening"/>
-        <path ev="installlocation" path="GOG.com\Unreal 2 – The Awakening SE"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{626F32D6-007C-41D5-8157-9509AB1428BE}" value="InstallLocation"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGUNREAL2" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{626F32D6-007C-41D5-8157-9509AB1428BE}" value="InstallLocation"/>
         <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\U2XMP" value="Folder"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Unreal 2 – The Awakening SE\Unreal 2 – The Awakening.lnk"/>
       </locations>
@@ -13184,8 +13167,8 @@
     </version>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="unreal tournament"/>
         <path ev="installlocation" path="GOG.com\Unreal Tournament GOTY"/>
+        <path ev="steamcommon" path="unreal tournament"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGUT" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\UnrealTournament" value="Folder"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Unreal Tournament GOTY\Unreal Tournament GOTY.lnk"/>
@@ -13205,11 +13188,11 @@
     <title>Unreal Tournament 2004</title>
     <version os="Windows">
       <locations>
+        <path ev="installlocation" path="GOG.com\Unreal Tournament 2004"/>
         <path ev="installlocation" path="UT2004"/>
         <path ev="steamcommon" path="unreal tournament 2004"/>
-        <path ev="installlocation" path="GOG.com\Unreal Tournament 2004"/>
-        <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\UT2004" value="Folder"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGUT2004" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\UT2004" value="Folder"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Unreal Tournament 2004\Unreal Tournament 2004.lnk" detract="System"/>
       </locations>
       <files type="Saves">
@@ -13274,6 +13257,22 @@
         <save filename="*.cfg"/>
       </files>
       <contributor>Scandalon</contributor>
+    </version>
+  </game>
+  <game name="Uru">
+    <title>Uru: Ages Beyond Myst</title>
+    <version os="Windows" release="CompleteChronicles">
+      <title>Uru: The Complete Chronicles</title>
+      <locations>
+        <path ev="installlocation" path="GOG.com\Myst Uru Complete Chronicles"/>
+        <path ev="installlocation" path="Ubi Soft\Cyan Worlds\Myst Uru Complete Chronicles"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGURUCC" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Myst Uru Complete Chronicles\Myst Uru Complete Chronicles.lnk"/>
+      </locations>
+      <files type="Saves">
+        <save path="sav"/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="ValkyriaChronicles">
@@ -13940,8 +13939,8 @@
     <title>Xenus 2: White Gold</title>
     <version os="Windows">
       <locations>
-        <path ev="public" path="Documents\White Gold" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Documents\White Gold" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\White Gold" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
         <save path="SAVE"/>
