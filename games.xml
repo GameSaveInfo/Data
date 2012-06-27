@@ -2107,6 +2107,42 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <mod name="CinematicMod10HL2" for="HalfLife2">
+    <title>Cinematic Mod 10</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamsourcemods" path="FAKEFACTORY_CM10\hl2"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVE"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </mod>
+  <mod name="CinematicMod10HL2Ep1" for="HalfLife2EpisodeOne">
+    <title>Cinematic Mod 10</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamsourcemods" path="FAKEFACTORY_CM10\episodic"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVE"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </mod>
+  <mod name="CinematicMod10HL2Ep2" for="HalfLife2EpisodeTwo">
+    <title>Cinematic Mod 10</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamsourcemods" path="FAKEFACTORY_CM10\ep2"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVE"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </mod>
   <game name="CitiesInMotion">
     <title>Cities in Motion</title>
     <version os="Windows">
@@ -4830,6 +4866,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <mod name="Flesh" for="HalfLife2">
+    <title>Flesh</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamsourcemods" path="Flesh"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVE"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </mod>
   <game name="FlightControlHD">
     <title>Flight Control HD</title>
     <version media="Steam">
@@ -8222,6 +8270,22 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <mod name="NamelessMod" for="DeusEx">
+    <title>The Nameless Mod</title>
+    <version os="Windows">
+      <locations>
+        <shortcut ev="startmenu" path="Programs\The Nameless Mod\The Nameless Mod.lnk" append="TNM" detract="System"/>
+        <parent name="DeusEx" os="Windows" append="TNM"/>
+      </locations>
+      <files type="Saves">
+        <save path="Save"/>
+      </files>
+      <files type="Settings">
+        <save path="System" filename="*.ini"/>
+      </files>
+      <contributor>Trestkon</contributor>
+    </version>
+  </mod>
   <game name="NationRed">
     <title>Nation Red</title>
     <version os="Windows">
@@ -9836,6 +9900,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <mod name="ResearchAndDevelopment" for="HalfLife2">
+    <title>Research and Development</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamsourcemods" path="Research and Development"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVE"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </mod>
   <game name="ResidentEvil4">
     <title>Resident Evil 4</title>
     <version os="PS2" region="USA">
