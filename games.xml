@@ -366,18 +366,6 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
-  <game name="AliensVsPredator2010" follows="AliensVsPredator2">
-    <title>Aliens vs. Predator (2010)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="AliensVsPredator"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>Michael Lamere</contributor>
-    </version>
-  </game>
   <expansion name="AliensVsPredator2PrimalHunt" for="AliensVsPredator2">
     <title>Aliens vs. Predator 2: Primal Hunt</title>
     <version os="Windows">
