@@ -142,7 +142,7 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
-  
+
   <xs:attribute name="other" type="xs:string"/>
 
   <xs:attribute name="type">
@@ -257,7 +257,7 @@
     </xs:complexType>
   </xs:element>
 
-  
+
   <xs:element name="parent">
     <xs:complexType>
       <xs:attribute ref="name" use="required"/>
@@ -269,7 +269,7 @@
   <xs:element name="path">
     <xs:complexType>
       <xs:attribute ref="ev" use="required"/>
-      <xs:attribute ref="path" use="required"/>
+      <xs:attribute ref="path" use="optional"/>
       <xs:attributeGroup ref="location_attributes" />
     </xs:complexType>
   </xs:element>
