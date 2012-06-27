@@ -1,10 +1,50 @@
 New Windows Games:
+* Aliens vs. Predator Classic
+* And Yet It Moves - Steam Only
+* Beat Hazard - Steam only
+* Blur
+* Botanicula
 * Bus Driver
-* Din's Curse
+* Cave Story+ - Steam only
+* Cogs
 * Command & Conquer: Generals
-* Lost Planet: Extreme Condition
+* Dark Scavenger
+* Din's Curse
+* Dungeon Defenders - Steam only
+* Empire: Total War
+* Guilty Gear X2
 * Harry Potter and the Half-Blood Prince
+* Heroes of Might and Magic V
+* Hinterland
+* Hospital Tycoon
+* Jagged Alliance 2 Gold - Steam only
+* Lost Planet: Extreme Condition
+* Lumines
+* Majesty Gold HD
+* Majesty 2
+* Mosby's Confederacy
+* Napoleon: Total War
+* Night Sky
+* Nimbus - Steam only
 * Pocket Tanks
+* Rayman Origins
+* Risen
+* Risen 2
+* Rock of Ages - Steam only
+* Saint's Row 2
+* Sequence - Steam only
+* SpaceChem
+* Spectromancer - Steam only
+* Starscape
+* Star Wars: The Clone Wars - Republic Heroes
+* Supreme Commander 2
+* Yesterday
+Updated Windows Games:
+* Command & Conquer 3 - Added XP paths
+* Doom 3 - Added steam path
+* Rome: Total War - Added steam paths
+* Tropico 2 - Added steam paths
+* VVVVVV - Added new 2.0 paths
 6/15/2011
 New Windows Games:
 * Alan Wake - GoG only

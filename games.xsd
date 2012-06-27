@@ -125,6 +125,7 @@
   <xs:attribute name="platform">
     <xs:simpleType>
       <xs:restriction base="xs:string">
+        <xs:enumeration value="SteamCloud"/>
         <xs:enumeration value="ScummVM"/>
         <xs:enumeration value="Flash"/>
       </xs:restriction>

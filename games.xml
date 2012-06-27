@@ -197,7 +197,7 @@
   </game>
   <game name="AlanWake">
     <title>Alan Wake</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="108710"/>
       </locations>
@@ -221,7 +221,7 @@
   </game>
   <game name="AlanWakesAmericanNightmare" follows="AlanWake">
     <title>Alan Wake's American Nightmare</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="202750"/>
       </locations>
@@ -341,18 +341,27 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="AliensVsPredator2">
-    <title>Aliens vs. Predator 2</title>
+  <game name="AliensVsPredator2010" follows="AliensVsPredator2">
+    <title>Aliens vs. Predator (2010)</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Fox\Aliens vs. Predator 2"/>
-        <registry root="local_machine" key="SOFTWARE\Monolith Productions\Aliens vs. Predator 2\1.0" value="InstallDir"/>
-        <registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\AVP2" value="Directory"/>
-        <shortcut ev="startmenu" path="Programs\Fox Interactive\Aliens vs. Predator 2\Aliens vs. Predator 2.lnk"/>
+        <path ev="localappdata" path="AliensVsPredator"/>
       </locations>
       <files type="Saves">
-        <save path="Profiles"/>
-        <save path="Save"/>
+        <save/>
+      </files>
+      <contributor>Michael Lamere</contributor>
+    </version>
+  </game>
+  <game name="AliensVsPredator">
+    <title>Aliens vs. Predator</title>
+    <version os="Windows" release="Classic">
+      <title>Aliens vs. Predator Classic</title>
+      <locations>
+        <path ev="localappdata" path="Rebellion\AvP Classic"/>
+      </locations>
+      <files type="Saves">
+        <save />
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -387,7 +396,7 @@
   </expansion>
   <game name="AlienSwarm">
     <title>Alien Swarm</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="630"/>
       </locations>
@@ -502,7 +511,7 @@
   </game>
   <game name="AlternativA">
     <title>AlternativA</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="33990"/>
       </locations>
@@ -568,6 +577,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="AndYetItMoves">
+    <title>And Yet It Moves</title>
+    <version media="Steam">
+      <locations>
+        <path ev="appdata" path="Broken Rules\And Yet It Moves Steam"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="AngelsOnline">
     <title>Angels Online</title>
     <version os="Windows">
@@ -612,7 +633,7 @@
   </game>
   <game name="AnomalyWarzoneEarth">
     <title>Anomaly: Warzone Earth</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="91200"/>
       </locations>
@@ -862,10 +883,10 @@
     <title>Avadon: The Black Fortress</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Spiderweb Software"/>
+        <path ev="userdocuments" path="Spiderweb Software\Avadon Saved Games"/>
       </locations>
       <files type="Saves">
-        <save path="Avadon Saved Games"/>
+        <save />
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -1028,7 +1049,7 @@
   </game>
   <game name="Bastion">
     <title>Bastion</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="107100"/>
       </locations>
@@ -1183,6 +1204,18 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
+  <game name="BeatHazard">
+    <title>Beat Hazard</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="49600"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Bejeweled2Deluxe" follows="BejeweledDeluxe">
     <title>Bejeweled 2 Deluxe</title>
     <version os="Windows">
@@ -1281,6 +1314,7 @@
       </locations>
       <files type="Saves">
         <save filename="*.sav"/>
+        <save filename="sally.idx"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
       <contributor>SanMadJack</contributor>
@@ -1593,6 +1627,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="Blur">
+    <title>Blur</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="bizarre creations\blur"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="BookwormAdventureDeluxe">
     <title>Bookworm Adventures Deluxe</title>
     <version os="Windows">
@@ -1619,6 +1665,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="Botanicula">
+    <title>Botanicula</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="BotaniculaSaves"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Bouncer">
     <title>The Bouncer</title>
     <version os="PS2" region="USA">
@@ -1628,7 +1686,7 @@
   </game>
   <game name="Braid">
     <title>Braid</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="26800"/>
       </locations>
@@ -1673,7 +1731,7 @@
   </game>
   <game name="Brink">
     <title>Brink</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="22350"/>
       </locations>
@@ -1959,7 +2017,7 @@
   </game>
   <game name="CallOfJuarezTheCartel">
     <title>Call of Juarez: The Cartel</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="33420\remote\out"/>
       </locations>
@@ -1991,6 +2049,18 @@
       </locations>
       <files type="Saves">
         <save path="Players"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
+  <game name="CaveStoryPlus">
+    <title>Cave Story+</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="cave story+"/>
+      </locations>
+      <files type="Profile">
+        <save filename="Profile.dat"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -2297,7 +2367,7 @@
   </expansion>
   <game name="Civilization5" follows="Civilization4">
     <title>Sid Meier's Civilization V</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="8930"/>
       </locations>
@@ -2375,6 +2445,18 @@
       <contributor>AvvA</contributor>
     </version>
   </game>
+  <game name="Cogs">
+    <title>Cogs</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Lazy 8 Studios\Cogs"/>
+      </locations>
+      <files type="Saves">
+        <save filename="playerInfo.dat"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Colonization">
     <title>Sid Meier's Colonization</title>
     <version os="DOS">
@@ -2403,6 +2485,7 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Command &amp; Conquer 3 Kane's Wrath" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Command &amp; Conquer 3 Kane's Wrath" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -2415,6 +2498,7 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Command &amp; Conquer 3 Tiberium Wars" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Command &amp; Conquer 3 Tiberium Wars" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -2902,6 +2986,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="DarkScavenger">
+    <title>Dark Scavenger</title>
+    <version platform="Flash">
+      <locations>
+        <path ev="flashshared" path="localhost\Games\Dark Scavenger\Dark Scavenger.exe"/>
+      </locations>
+      <files type="Saves">
+        <save filename="DarkScavenger_Dellida.sol"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="DarkSector">
     <title>Dark Sector</title>
     <version os="Windows">
@@ -3008,7 +3104,7 @@
   </game>
   <game name="DeadIsland">
     <title>Dead Island</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="91310"/>
       </locations>
@@ -3067,7 +3163,7 @@
   </game>
   <game name="DearEsther">
     <title>Dear Esther</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="203810"/>
       </locations>
@@ -3121,7 +3217,7 @@
   </game>
   <game name="DefenseGridTheAwakening">
     <title>Defense Grid: The Awakening</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="18500"/>
       </locations>
@@ -3324,7 +3420,7 @@
   </game>
   <game name="DeusExHumanRevolution" follows="DeusExInvisibleWar">
     <title>Deus Ex: Human Revolution</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="28050"/>
       </locations>
@@ -3336,7 +3432,7 @@
   </game>
   <expansion name="DeusExHumanRevolutionTheMissingLink" for="DeusExHumanRevolution">
     <title>Deus Ex: Human Revolution - The Missing Link</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="201280"/>
       </locations>
@@ -3550,7 +3646,7 @@
   </game>
   <game name="DocClockTheToastedSandwichOfTime">
     <title>Doc Clock: The Toasted Sandwich of Time</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="57800"/>
       </locations>
@@ -3610,6 +3706,7 @@
     <version os="Windows" virtualstore="ignore" detect="required">
       <locations>
         <path ev="installlocation" path="DOOM 3"/>
+        <path ev="steamcommon" path="doom 3" />
         <registry root="local_machine" key="SOFTWARE\id\Doom 3" value="InstallPath"/>
       </locations>
       <files type="Saves">
@@ -3794,7 +3891,7 @@
   </game>
   <game name="DukeNukemForever">
     <title>Duke Nukem Forever</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="57900"/>
       </locations>
@@ -3802,6 +3899,18 @@
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="DungeonDefenders">
+    <title>Dungeon Defenders</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Dungeon Defenders"/>
+      </locations>
+      <files type="Saves">
+        <save path="Binaries\Win32" filename="DunDefHeroes.dun "/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="DungeonKeeper">
@@ -4196,6 +4305,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
+  <game name="EmpireTotalWar">
+    <title>Empire: Total War</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="The Creative Assembly\Empire"/>
+      </locations>
+      <files type="Saves">
+        <save path="save_games" />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="EscapeFromMonkeyIsland">
     <title>Escape From Monkey Island</title>
     <version os="PS2" region="USA">
@@ -4573,7 +4694,7 @@
   </game>
   <game name="FEAR3" follows="FEAR2ProjectOrigin">
     <title>F.3.A.R.</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="21100"/>
       </locations>
@@ -4879,7 +5000,7 @@
   </mod>
   <game name="FlightControlHD">
     <title>Flight Control HD</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="62000"/>
       </locations>
@@ -5019,7 +5140,7 @@
   </game>
   <game name="FrontMissionEvolved">
     <title>Front Mission Evolved</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="43000"/>
       </locations>
@@ -5685,6 +5806,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="GuiltyGearX2">
+    <title>Guilty Gear X2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="ZOO Digital Publishing\GuiltyGearX2" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="GumboyCrazyAdventures">
     <title>Gumboy: Crazy Adventures</title>
     <version os="Windows">
@@ -6063,6 +6196,30 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="HeroesOfMightAndMagic5">
+    <title>Heroes of Might and Magic V</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Heroes of Might and Magic V"/>
+      </locations>
+      <files type="Saves">
+        <save path="Profiles"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
+  <game name="Hinterland">
+    <title>Hinterland</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Tilted Mill\Hinterland"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Hitman2SilentAssassin" follows="HitmanCodename47">
     <title>Hitman 2: Silent Assassin</title>
     <version os="Windows">
@@ -6167,6 +6324,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </expansion>
+  <game name="HospitalTycoon">
+    <title>Hospital Tycoon</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="HospitalTycoon"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="HuntedTheDemonsForge">
     <title>Hunted: The Demon's Forge</title>
     <version os="Windows">
@@ -6184,7 +6353,7 @@
   </game>
   <game name="HydrophobiaProphecy">
     <title>Hydrophobia: Prophecy</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="92000"/>
       </locations>
@@ -6523,6 +6692,19 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="JaggedAlliance2">
+    <title>Jaged Alliance 2</title>
+    <version os="Windows" release="Gold">
+      <title>Jaged Alliance 2 Gold</title>
+      <locations>
+        <path ev="steamcommon" path="jagged alliance 2 gold"/>
+      </locations>
+      <files type="Saves">
+        <save path="SavedGames"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Jak2" follows="JakAndDaxterPrecursorLegacy">
     <title>Jak II</title>
     <version os="PS2" region="USA">
@@ -6666,7 +6848,7 @@
   </game>
   <game name="JustCause2" follows="JustCause">
     <title>Just Cause 2</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="8190"/>
       </locations>
@@ -6769,7 +6951,7 @@
   </game>
   <game name="KingdomsOfAmalurReckoning">
     <title>Kingdoms of Amalur: Reckoning</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="102500"/>
       </locations>
@@ -6944,7 +7126,7 @@
   </game>
   <game name="LaraCroftAndTheGuardianOfLight">
     <title>Lara Croft and the Guardian of Light</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="35130" deprecated="true"/>
         <path ev="steamuserdata" path="35150"/>
@@ -6998,8 +7180,8 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="LegendsofGrimrock">
-    <title>Legends of Grimrock</title>
+  <game name="LegendOfGrimrock">
+    <title>Legend of Grimrock</title>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Almost Human\Legend of Grimrock"/>
@@ -7019,7 +7201,7 @@
   </game>
   <game name="Limbo">
     <title>Limbo</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="48000"/>
       </locations>
@@ -7203,6 +7385,15 @@
   </game>
   <game name="Lumines">
     <title>Lumines</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Valve\Lumines"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="PSP" region="EUR">
       <ps_code prefix="ULES" suffix="00043"/>
       <contributor>duncans_pumpkin</contributor>
@@ -7242,7 +7433,7 @@
   </game>
   <game name="MadballsBaboInvasion">
     <title>Madballs in.. BaboInvasion</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="25700"/>
       </locations>
@@ -7288,6 +7479,30 @@
         <save path="SaveData"/>
       </files>
       <contributor>slake_jones</contributor>
+    </version>
+  </game>
+  <game name="Majesty">
+    <title>Majesty</title>
+    <version os="Windows" release="GoldHD">
+      <locations>
+        <path ev="userdocuments" path="My Games\MajestyHD"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
+  <game name="Majesty2">
+    <title>Majesty 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="majesty2"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Manhunt">
@@ -7990,13 +8205,13 @@
   </game>
   <game name="MidnightClub2">
     <title>Midnight Club 2</title>
-    <version media="Steam">
+    <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="Midnight Club 2\userdata"/>
+        <path ev="steamcommon" path="Midnight Club 2"/>
       </locations>
       <files type="Saves">
-        <save>
-          <except path="mp3"/>
+        <save path="userdata">
+          <except path="userdata\mp3"/>
         </save>
       </files>
       <contributor>Arc Angel</contributor>
@@ -8089,7 +8304,7 @@
   </game>
   <game name="MonkeyIsland2LeChucksRevenge" follows="SecretOfMonkeyIsland">
     <title>Monkey Island™ 2 LeChuck’s Revenge</title>
-    <version media="Steam" release="SpecialEdition">
+    <version platform="SteamCloud" release="SpecialEdition">
       <title>Monkey Island™ 2 Special Edition: LeChuck’s Revenge</title>
       <locations>
         <path ev="steamuserdata" path="32460"/>
@@ -8141,6 +8356,18 @@
         <save path="data" filename="*.sav"/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="MosbysConfederacy">
+    <title>Mosby's Confederacy</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Tilted Mill\Mosby's Confederacy"/>
+      </locations>
+      <files type="Saves">
+        <save path="saves"/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="MotocrossMadness">
@@ -8269,6 +8496,18 @@
       <contributor>Trestkon</contributor>
     </version>
   </mod>
+  <game name="NapoleonTotalWar">
+    <title>Napoleon: Total War</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="The Creative Assembly\Napoleon"/>
+      </locations>
+      <files type="Saves">
+        <save path="save_games "/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="NationRed">
     <title>Nation Red</title>
     <version os="Windows">
@@ -8397,6 +8636,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="NightSky">
+    <title>Night Sky</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Nicalis\NightSky"/>
+      </locations>
+      <files type="Saves">
+        <save filename="Default.ini"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Nikopol">
     <title>Nikopol: Secrets of the Immortals</title>
     <version os="Windows">
@@ -8407,6 +8658,18 @@
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="Nimbus">
+    <title>Nimbus</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="50000"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="NinjaBlade">
@@ -8803,7 +9066,7 @@
   </game>
   <game name="PaydayTheHeist">
     <title>Payday: The Heist</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="24240\remote"/>
       </locations>
@@ -9176,7 +9439,7 @@
   </game>
   <game name="PoundOfGround">
     <title>Pound of Ground</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="33980"/>
       </locations>
@@ -9345,7 +9608,7 @@
   </game>
   <game name="Psychonauts">
     <title>Psychonauts</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="3830"/>
       </locations>
@@ -9445,7 +9708,7 @@
   </game>
   <game name="Quantz">
     <title>Quantz</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="37800"/>
       </locations>
@@ -9665,6 +9928,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="RaymanOrigins">
+    <title>Rayman Origins</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Rayman Origins"/>
+      </locations>
+      <files type="Saves">
+        <save path="Savegame"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Rayman2">
     <title>Rayman 2: The Great Escape</title>
     <version os="Windows">
@@ -9808,7 +10083,7 @@
   </game>
   <game name="RedFactionArmageddon" follows="RedFactionGuerrilla">
     <title>Red Faction: Armageddon</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="55110"/>
       </locations>
@@ -9994,7 +10269,7 @@
   </game>
   <game name="RevengeOfTheTitans">
     <title>Revenge of the Titans</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="93200\remote\.revenge_of_the_titans_1.80"/>
       </locations>
@@ -10035,6 +10310,30 @@
         <save/>
       </files>
       <contributor>slake_jones</contributor>
+    </version>
+  </game>
+  <game name="Risen">
+    <title>Risen</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Risen"/>
+      </locations>
+      <files type="Saves">
+        <save path="SaveGames"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
+  <game name="Risen2">
+    <title>Risen 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Saved Games\Risen2"/>
+      </locations>
+      <files type="Saves">
+        <save path="SaveGames"/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="RiseOfTheArgonauts">
@@ -10097,6 +10396,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="RockOfAges">
+    <title>Rock of Ages</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="22230"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="RogueGalaxy">
     <title>Rogue Galaxy</title>
     <version os="PS2" region="USA">
@@ -10147,6 +10458,8 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Activision\Rome - Total War"/>
+        <path ev="steamcommon" path="rome total war"/>
+        <path ev="steamcommon" path="rome total war gold"/>
         <registry root="local_machine" key="SOFTWARE\The Creative Assembly\Rome - Total War" value="InstallPath"/>
       </locations>
       <files type="Saves">
@@ -10228,7 +10541,7 @@
   </game>
   <game name="RunespellOverture">
     <title>Runespell: Overture</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="102200"/>
       </locations>
@@ -10240,16 +10553,7 @@
   </game>
   <game name="RUSE">
     <title>R.U.S.E.</title>
-    <version media="Steam">
-      <locations>
-        <path ev="steamuserdata" path="21970"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>Arc Angel</contributor>
-    </version>
-    <version os="Windows">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="21970"/>
       </locations>
@@ -10295,9 +10599,21 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="SaintsRow2">
+    <title>Saint's Row 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="THQ\Saints Row 2"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="SaintsRow3">
     <title>Saint's Row: The Third</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="55230"/>
       </locations>
@@ -10787,6 +11103,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="Sequence">
+    <title>Sequence</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="200910"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="SeriousSam2" follows="SeriousSamTheSecondEncounter">
     <title>Serious Sam 2</title>
     <version os="Windows">
@@ -10802,7 +11130,7 @@
   </game>
   <game name="SeriousSam3BFE" follows="SeriousSam2">
     <title>Serious Sam 3: BFE</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="41070\local"/>
       </locations>
@@ -10814,7 +11142,7 @@
   </game>
   <game name="SeriousSamTheFirstEncounter">
     <title>Serious Sam: The First Encounter</title>
-    <version media="Steam" release="HD">
+    <version platform="SteamCloud" release="HD">
       <title>Serious Sam HD: The First Encounter</title>
       <locations>
         <path ev="steamuserdata" path="41000\local\SeriousSamHD"/>
@@ -10827,7 +11155,7 @@
   </game>
   <game name="SeriousSamTheSecondEncounter" follows="SeriousSamTheFirstEncounter">
     <title>Serious Sam: The Second Encounter</title>
-    <version media="Steam" release="HD">
+    <version platform="SteamCloud" release="HD">
       <title>Serious Sam HD: The Second Encounter</title>
       <locations>
         <path ev="steamuserdata" path="41010\local\SeriousSamHD_TSE"/>
@@ -10937,7 +11265,7 @@
   </game>
   <game name="Shank">
     <title>Shank</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="6120"/>
       </locations>
@@ -11321,6 +11649,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="SpaceChem">
+    <title>SpaceChem</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Zachtronics Industries\SpaceChem"/>
+      </locations>
+      <files type="Saves">
+        <save path="save"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="SpaceQuest">
     <title>Space Quest: The Sarien Encounter</title>
     <version platform="ScummVM">
@@ -11467,6 +11807,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="Spectromancer">
+    <title>Spectromancer</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Spectromancer"/>
+      </locations>
+      <files type="Saves">
+        <save path="Saves"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="SpellForce">
     <title>SpellForce: The Order of the Dawn</title>
     <version os="Windows">
@@ -11589,7 +11941,7 @@
   </game>
   <game name="Stacking">
     <title>Stacking</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="115110"/>
       </locations>
@@ -11779,6 +12131,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="Starscape">
+    <title>Starscape</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Starscape"/>
+      </locations>
+      <files type="Saves">
+        <save path="data\saves "/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="StarTopia">
     <title>StarTopia</title>
     <version os="Windows">
@@ -11791,6 +12155,18 @@
         <save path="Profiles"/>
       </files>
       <contributor>slake_jones</contributor>
+    </version>
+  </game>
+  <game name="StarWarsTheCloneWarsRepublicHeroes">
+    <title>Star Wars: The Clone Wars - Republic Heroes</title>
+    <version os="Windows">
+      <locations>
+        <path ev="allusersprofile" path="SWTCWRH"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="StarWarsDarkForces">
@@ -12038,7 +12414,7 @@
   </game>
   <game name="SuperbrothersSwordAndSorcery">
     <title>Superbrothers: Sword &amp; Sorcery</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="204060"/>
       </locations>
@@ -12118,6 +12494,24 @@
         <save filename="Game.prefs"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
+    </version>
+  </game>
+  <game name="SupremeCommander2" follows="SupremeCommander">
+    <title>Supreme Commander 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Gas Powered Games\Supreme Commander 2 "/>
+      </locations>
+      <files type="Replays">
+        <save path="replays"/>
+      </files>
+      <files type="Saves">
+        <save path="savegames"/>
+      </files>
+      <files type="Settings">
+        <save filename="Game.prefs"/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="SupremeCommanderForgedAlliance" follows="SupremeCommander">
@@ -12765,6 +13159,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="ToTheMoon">
+    <title>To the Moon</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="To the Moon - Freebird Games"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="TotalWarShogun2">
     <title>Total War: Shogun 2</title>
     <version os="Windows">
@@ -12849,6 +13255,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="Tremulous">
+    <title>Tremulous</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Tremulous"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Trials2SecondEdition">
     <title>Trials 2: Second Edition</title>
     <version os="Windows">
@@ -12863,7 +13281,7 @@
   </game>
   <game name="Trine">
     <title>Trine</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="35700"/>
       </locations>
@@ -12875,7 +13293,7 @@
   </game>
   <game name="Trine2" follows="Trine">
     <title>Trine 2</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="35720"/>
       </locations>
@@ -12934,6 +13352,7 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Tropico Reloaded\Tropico 2"/>
+        <path ev="steamcommon" path="tropico 2"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTROPICO2" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Kalypso Media\Tropico Reloaded\Tropico2" value="Directory"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Tropico Reloaded\Tropico 2\Tropico 2.lnk"/>
@@ -13411,6 +13830,15 @@
       </files>
       <contributor>AvvA</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userprofile" path="VVVVVV"/>
+      </locations>
+      <files type="Saves">
+        <save path="Saves" />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
   </game>
   <game name="WalkingDead">
     <title>The Walking Dead</title>
@@ -13523,7 +13951,7 @@
   </game>
   <game name="Warhammer40kDawnOfWar2Retribution">
     <title>Warhammer 40,000: Dawn of War II - Retribution</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="56400"/>
       </locations>
@@ -13570,7 +13998,7 @@
   </game>
   <game name="Warhammer40kSpaceMarine">
     <title>Warhammer 40,000: Space Marine</title>
-    <version media="Steam">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="55150\remote"/>
       </locations>
@@ -14067,6 +14495,19 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="Yesterday">
+    <title>Yesterday</title>
+    <version os="Windows">
+      <locations>
+        <path ev="allusersprofile" path="Application Data\Pendulo Studios\Yesterday" only_for="WindowsXP"/>
+        <path ev="allusersprofile" path="Pendulo Studios\Yesterday" only_for="WindowsVista"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVEGAME"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="ZenoClash">
     <title>Zeno Clash</title>
     <version os="Windows">
@@ -14077,6 +14518,18 @@
         <save path="zenozoik\SAVE"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
+    </version>
+  </game>
+  <game name="Ziro">
+    <title>Ziro</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games/Ziro"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="ZombieDriver">
