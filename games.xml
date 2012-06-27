@@ -7096,7 +7096,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="LostPlanet2" follows="LostPlanetColonies">
+  <game name="LostPlanet2" follows="LostPlanet">
     <title>Lost Planet 2</title>
     <version os="Windows">
       <locations>
