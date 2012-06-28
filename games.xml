@@ -7802,7 +7802,7 @@
       <title>MechWarrior 2: 31st Century Combat: Titanium Edition</title>
       <locations>
         <path ev="installlocation" path="Activision\Titanium\Mechwarrior2"/>
-        <path ev="installlocation" path="MechVM\games\mw2-31stcc-tt"/>
+        <path ev="altsavepaths" path="MechVM\games\mw2-31stcc-tt"/>
         <registry root="local_machine" key="SOFTWARE\Activision\Activenet\Applications\1020.2.1" value="Cwd"/>
         <shortcut ev="startmenu" path="Programs\Titanium\Mechwarrior2\Play MechWarrior2.lnk" detract="splash"/>
       </locations>
@@ -7842,7 +7842,7 @@
       <title>MechWarrior 2: Ghost Bear's Legacy: Titanium Edition</title>
       <locations>
         <path ev="installlocation" path="Activision\Titanium\GhostBearsLegacy"/>
-        <path ev="installlocation" path="MechVM\games\mw2-gbl-tt"/>
+        <path ev="altsavepaths" path="MechVM\games\mw2-gbl-tt"/>
         <shortcut ev="startmenu" path="Programs\Titanium\GhostBearsLegacy\Play Ghost Bear's Legacy.lnk" detract="splash"/>
       </locations>
       <files type="Mechs">
@@ -7881,7 +7881,7 @@
       <title>MechWarrior 2: Mercenaries: Titanium Edition</title>
       <locations>
         <path ev="installlocation" path="Activision\Titanium\Mercenaries"/>
-        <path ev="installlocation" path="MechVM\games\mw2-mercs-tt"/>
+        <path ev="altsavepaths" path="MechVM\games\mw2-mercs-tt"/>
         <registry root="local_machine" key="SOFTWARE\Activision\Activenet\Applications\1060.2.1" value="Cwd"/>
         <shortcut ev="startmenu" path="Programs\Titanium\Mercenaries\Play Mercenaries.lnk" detract="splash"/>
       </locations>
