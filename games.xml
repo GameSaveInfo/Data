@@ -366,6 +366,22 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="AliensVsPredator2">
+    <title>Aliens vs. Predator 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Fox\Aliens vs. Predator 2"/>
+        <registry root="local_machine" key="SOFTWARE\Monolith Productions\Aliens vs. Predator 2\1.0" value="InstallDir"/>
+        <registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\AVP2" value="Directory"/>
+        <shortcut ev="startmenu" path="Programs\Fox Interactive\Aliens vs. Predator 2\Aliens vs. Predator 2.lnk"/>
+      </locations>
+      <files type="Saves">
+        <save path="Profiles"/>
+        <save path="Save"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <expansion name="AliensVsPredator2PrimalHunt" for="AliensVsPredator2">
     <title>Aliens vs. Predator 2: Primal Hunt</title>
     <version os="Windows">
