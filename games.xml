@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-06-27T20:05:55">
+<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-06-28T15:19:19">
   <game name="18WheelsOfSteelExtremeTrucker">
     <title>18 Wheels of Steel: Extreme Trucker</title>
     <version os="Windows">
@@ -341,18 +341,6 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="AliensVsPredator2010" follows="AliensVsPredator2">
-    <title>Aliens vs. Predator (2010)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="AliensVsPredator"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>Michael Lamere</contributor>
-    </version>
-  </game>
   <game name="AliensVsPredator">
     <title>Aliens vs. Predator</title>
     <version os="Windows" release="Classic">
@@ -361,7 +349,7 @@
         <path ev="localappdata" path="Rebellion\AvP Classic"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -380,6 +368,18 @@
         <save path="Save"/>
       </files>
       <contributor>SanMadJack</contributor>
+    </version>
+  </game>
+  <game name="AliensVsPredator2010" follows="AliensVsPredator2">
+    <title>Aliens vs. Predator (2010)</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="AliensVsPredator"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>Michael Lamere</contributor>
     </version>
   </game>
   <expansion name="AliensVsPredator2PrimalHunt" for="AliensVsPredator2">
@@ -890,7 +890,7 @@
         <path ev="userdocuments" path="Spiderweb Software\Avadon Saved Games"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -1215,7 +1215,7 @@
         <path ev="steamuserdata" path="49600"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -1676,7 +1676,7 @@
         <path ev="userdocuments" path="BotaniculaSaves"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -2057,6 +2057,13 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="Catan">
+    <title>Catan</title>
+    <version os="PS3" region="USA">
+      <ps_code prefix="NPUB" suffix="30236"/>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="CaveStoryPlus">
     <title>Cave Story+</title>
     <version os="Windows">
@@ -2066,13 +2073,6 @@
       <files type="Profile">
         <save filename="Profile.dat"/>
       </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </game>
-  <game name="Catan">
-    <title>Catan</title>
-    <version os="PS3" region="USA">
-      <ps_code prefix="NPUB" suffix="30236"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3710,7 +3710,7 @@
     <version os="Windows" virtualstore="ignore" detect="required">
       <locations>
         <path ev="installlocation" path="DOOM 3"/>
-        <path ev="steamcommon" path="doom 3" />
+        <path ev="steamcommon" path="doom 3"/>
         <registry root="local_machine" key="SOFTWARE\id\Doom 3" value="InstallPath"/>
       </locations>
       <files type="Saves">
@@ -4316,7 +4316,7 @@
         <path ev="appdata" path="The Creative Assembly\Empire"/>
       </locations>
       <files type="Saves">
-        <save path="save_games" />
+        <save path="save_games"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -5814,10 +5814,10 @@
     <title>Guilty Gear X2</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="ZOO Digital Publishing\GuiltyGearX2" />
+        <path ev="appdata" path="ZOO Digital Publishing\GuiltyGearX2"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -6219,7 +6219,7 @@
         <path ev="userdocuments" path="Tilted Mill\Hinterland"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -6335,7 +6335,7 @@
         <path ev="userdocuments" path="HospitalTycoon"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -7389,18 +7389,18 @@
   </game>
   <game name="Lumines">
     <title>Lumines</title>
+    <version os="PSP" region="EUR">
+      <ps_code prefix="ULES" suffix="00043"/>
+      <contributor>duncans_pumpkin</contributor>
+    </version>
     <version os="Windows">
       <locations>
         <path ev="appdata" path="Valve\Lumines"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
-    </version>
-    <version os="PSP" region="EUR">
-      <ps_code prefix="ULES" suffix="00043"/>
-      <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
   <game name="LuminesSupernova">
@@ -7492,7 +7492,7 @@
         <path ev="userdocuments" path="My Games\MajestyHD"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -7504,7 +7504,7 @@
         <path ev="userdocuments" path="majesty2"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -9932,18 +9932,6 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="RaymanOrigins">
-    <title>Rayman Origins</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="My Games\Rayman Origins"/>
-      </locations>
-      <files type="Saves">
-        <save path="Savegame"/>
-      </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </game>
   <game name="Rayman2">
     <title>Rayman 2: The Great Escape</title>
     <version os="Windows">
@@ -10006,6 +9994,18 @@
       </files>
       <files type="Settings">
         <save filename="RAYMAN.CFG"/>
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
+  <game name="RaymanOrigins">
+    <title>Rayman Origins</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Rayman Origins"/>
+      </locations>
+      <files type="Saves">
+        <save path="Savegame"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -10292,30 +10292,6 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="RiseOfLegends">
-    <title>Rise Of Legends</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="My Games\Rise Of Legends"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>slake_jones</contributor>
-    </version>
-  </game>
-  <game name="RiseOfNations">
-    <title>Rise Of Nations</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="My Games\Rise Of Nations"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>slake_jones</contributor>
-    </version>
-  </game>
   <game name="Risen">
     <title>Risen</title>
     <version os="Windows">
@@ -10338,6 +10314,30 @@
         <save path="SaveGames"/>
       </files>
       <contributor>SanMadJack</contributor>
+    </version>
+  </game>
+  <game name="RiseOfLegends">
+    <title>Rise Of Legends</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Rise Of Legends"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>slake_jones</contributor>
+    </version>
+  </game>
+  <game name="RiseOfNations">
+    <title>Rise Of Nations</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Rise Of Nations"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>slake_jones</contributor>
     </version>
   </game>
   <game name="RiseOfTheArgonauts">
@@ -10407,7 +10407,7 @@
         <path ev="steamuserdata" path="22230"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -11114,7 +11114,7 @@
         <path ev="steamuserdata" path="200910"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -12161,18 +12161,6 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
-  <game name="StarWarsTheCloneWarsRepublicHeroes">
-    <title>Star Wars: The Clone Wars - Republic Heroes</title>
-    <version os="Windows">
-      <locations>
-        <path ev="allusersprofile" path="SWTCWRH"/>
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </game>
   <game name="StarWarsDarkForces">
     <title>Star Wars: Dark Forces</title>
     <version os="DOS">
@@ -12288,6 +12276,18 @@
         <save path="Saves"/>
       </files>
       <contributor>David Barbour</contributor>
+    </version>
+  </game>
+  <game name="StarWarsTheCloneWarsRepublicHeroes">
+    <title>Star Wars: The Clone Wars - Republic Heroes</title>
+    <version os="Windows">
+      <locations>
+        <path ev="allusersprofile" path="SWTCWRH"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="StarWarsTheForceUnleashed">
@@ -13163,18 +13163,6 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="ToTheMoon">
-    <title>To the Moon</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="To the Moon - Freebird Games"/>
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <contributor>SanMadJack</contributor>
-    </version>
-  </game>
   <game name="TotalWarShogun2">
     <title>Total War: Shogun 2</title>
     <version os="Windows">
@@ -13193,6 +13181,18 @@
         <save path="scripts"/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="ToTheMoon">
+    <title>To the Moon</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="To the Moon - Freebird Games"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Trackmania2">
@@ -13266,7 +13266,7 @@
         <path ev="appdata" path="Tremulous"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
@@ -13839,7 +13839,7 @@
         <path ev="userprofile" path="VVVVVV"/>
       </locations>
       <files type="Saves">
-        <save path="Saves" />
+        <save path="Saves"/>
       </files>
       <contributor>SanMadJack</contributor>
     </version>
