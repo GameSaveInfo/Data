@@ -29,7 +29,7 @@
     <version release="01drive">
       <title>01 - Drive Test</title>
       <locations>
-        <path ev="altsavepaths" path="Windows" />
+        <path ev="drive" path="Windows" />
       </locations>
       <files type="Test">
         <save filename="*.log" />
@@ -40,7 +40,7 @@
     <version release="02parent">
       <title>02 - Parent Test</title>
       <locations>
-        <parent name="0Test" release="drive" />
+        <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
         <save filename="*.log" />
@@ -51,7 +51,7 @@
     <version release="03comment">
       <title>03 - Comment Test</title>
       <locations>
-        <parent name="0Test" release="drive" />
+        <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
         <save filename="*.log" />
@@ -63,7 +63,7 @@
     <version release="04restorecomment">
       <title>04 - Restore Comment Test</title>
       <locations>
-        <parent name="0Test" release="drive" />
+        <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
         <save filename="*.log" />
@@ -75,7 +75,7 @@
     <version release="05types">
       <title>05 - Types Test</title>
       <locations>
-        <parent name="0Test" release="drive" />
+        <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
         <save filename="*.log" />
@@ -92,7 +92,7 @@
     <version release="06excepts">
       <title>06 - Except Test</title>
       <locations>
-        <parent name="0Test" release="drive" />
+        <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
         <save filename="*.log">
@@ -113,7 +113,7 @@
     <version release="07identifier">
       <title>07 - Identifier Test</title>
       <locations>
-        <parent name="0Test" release="drive" />
+        <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
         <save filename="*.log" />
@@ -125,7 +125,7 @@
     <version release="08modifiedafter">
       <title>08 - Modified After Test</title>
       <locations>
-        <parent name="0Test" release="drive" />
+        <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
         <save filename="*.log" modified_after="2011-01-01T00:00:00"/>
@@ -136,7 +136,7 @@
     <version release="09appenddetract">
       <title>09 - Append Detract Test</title>
       <locations>
-        <parent name="0Test" release="drive" detract="Windows" append="RECYCLER" />
+        <parent name="0Test" release="01drive" detract="Windows" append="RECYCLER" />
       </locations>
       <files type="Test">
         <save filename="*.log" />
@@ -248,7 +248,7 @@
     </version>
 
     <version os="Windows" release="00alluserprofile">
-      <title>00 - All Users Profile Test</title>
+      <title>W00 - All Users Profile Test</title>
       <locations>
           <path ev="allusersprofile" path="Start Menu" only_for="WindowsXP" />
           <path ev="appdata" path="Microsoft\Windows\Start Menu" only_for="WindowsVista" />
@@ -260,7 +260,7 @@
     </version>
 
     <version os="Windows" release="01appdata">
-      <title>01 - App Data (Roaming) Test</title>
+      <title>W01 - App Data (Roaming) Test</title>
       <locations>
         <path ev="appdata" path="Microsoft\Internet Explorer" />
       </locations>
@@ -271,7 +271,7 @@
     </version>
     
     <version os="Windows" release="02installlocation">
-      <title>02 - Install Location Test</title>
+      <title>W02 - Install Location Test</title>
       <locations>
         <path ev="installlocation" path="Internet Explorer" />
       </locations>
@@ -282,7 +282,7 @@
     </version>
 
     <version os="Windows" release="03localappdata">
-      <title>03 - Local App Data Test</title>
+      <title>W03 - Local App Data Test</title>
       <locations>
         <path ev="localappdata" path="Microsoft\Internet Explorer" />
       </locations>
@@ -293,7 +293,7 @@
     </version>
 
     <version os="Windows" release="04userprofile">
-      <title>04 - User Profile Test</title>
+      <title>W04 - User Profile Test</title>
       <locations>
         <path ev="userprofile" path="Favorites" />
       </locations>
@@ -304,7 +304,7 @@
     </version>
 
     <version os="Windows" release="05userdocuments">
-      <title>05 - User Documents Test</title>
+      <title>W05 - User Documents Test</title>
       <locations>
         <path ev="userdocuments" />
       </locations>
@@ -315,7 +315,7 @@
     </version>
     
     <version os="Windows" release="06registrynovalue">
-      <title>06 - Registry Key No Value Test</title>
+      <title>W06 - Registry Key No Value Test</title>
       <locations>
         <registry root="current_user" key="Software\Microsoft\Internet Explorer\Default HTML Editor\shell\edit\command"/>
         <registry root="current_user" key="Software\Winamp"/>
@@ -323,22 +323,23 @@
       <files type="Test">
         <save filename="*.ini" />
       </files>
+      <comment>Install Winamp if this test doesn't succeed</comment>
       <contributor>Registered initializer</contributor>
     </version>
 
     <version os="Windows" release="07registrywithvalue">
-      <title>07 - Registry Key With Value Test</title>
+      <title>W07 - Registry Key With Value Test</title>
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\MediaPlayer" value="SkinsDir"/>
+        <registry root="current_user" key="Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders" value="AppData"/>
       </locations>
       <files type="Test">
-        <save />
+        <save filename="*.ini" />
       </files>
       <contributor>Registered squatter</contributor>
     </version>
 
     <version os="Windows" release="08shortcut">
-      <title>08 - Shortcut Test</title>
+      <title>W08 - Shortcut Test</title>
       <locations>
         <shortcut ev="startmenu" path="Programs\Accessories\Notepad.lnk" />
       </locations>
@@ -357,7 +358,7 @@
     <version release="00DVersion" deprecated="true">
       <title>D00 - Deprecated Version Test</title>
       <locations>
-        <parent name="0Test" release="drive" />
+        <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
         <save filename="*.log" />
@@ -367,7 +368,7 @@
     <version release="01Location">
       <title>D01 - Deprecated Location Test</title>
       <locations>
-        <parent name="0Test" release="drive" deprecated="true" />
+        <parent name="0Test" release="01drive" deprecated="true" />
       </locations>
       <files type="Test">
         <save filename="*.log" />
