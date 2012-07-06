@@ -184,6 +184,7 @@
       </xs:simpleType>
     </xs:attribute>
     <xs:attribute name="type" type="xs:string" use="required"/>
+    <xs:attribute name="disc" type="xs:integer" use="optional"/>
 
   </xs:attributeGroup>
 
@@ -385,8 +386,20 @@
         <xs:element name="mod" minOccurs="0" maxOccurs="unbounded" type="program_expansion"/>
         <xs:element name="expansion" minOccurs="0" maxOccurs="unbounded" type="program_expansion"/>
       </xs:choice>
-      <xs:attribute name="majorVersion" type="xs:integer" use="required"/>
-      <xs:attribute name="minorVersion" type="xs:integer" use="required"/>
+      <xs:attribute name="majorVersion" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer" >
+            <xs:pattern value="2"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="minorVersion" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer" >
+            <xs:pattern value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
       <xs:attribute ref="date" use="required"/>
       <xs:anyAttribute processContents="skip"/>
     </xs:complexType>

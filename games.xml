@@ -509,7 +509,7 @@
   <game name="AlterEcho">
     <title>Alter Echo</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20465"/>
+      <ps_code prefix="SLUS" suffix="20465" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -820,7 +820,7 @@
   <game name="AssassinsCreed">
     <title>Assassin's Creed</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30089"/>
+      <ps_code prefix="BLUS" suffix="30089" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -839,7 +839,7 @@
   <game name="AssassinsCreedBrotherhood" follows="AssassinsCreed">
     <title>Assassin's Creed: Brotherhood</title>
     <version os="PS3" region="EUR">
-      <ps_code prefix="BLES" suffix="00909"/>
+      <ps_code prefix="BLES" suffix="00909" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
     <version os="Windows">
@@ -855,7 +855,7 @@
   <game name="AssassinsCreedRevelations" follows="AssassinsCreedBrotherhood">
     <title>Assassin's Creed: Revelations</title>
     <version os="PS3" region="EUR">
-      <ps_code prefix="BLES" suffix="01384"/>
+      <ps_code prefix="BLES" suffix="01384" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -1142,7 +1142,7 @@
   <game name="BattlefieldBadcompany">
     <title>Battlefield: Bad Company</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30118"/>
+      <ps_code prefix="BLUS" suffix="30118" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -1298,12 +1298,12 @@
   <game name="BeyondGoodAndEvil">
     <title>Beyond Good &amp; Evil</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20763"/>
+      <ps_code prefix="SLUS" suffix="20763" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUB" suffix="30394" append="-SALLY" type="Profile"/>
-      <ps_code prefix="NPUB" suffix="30394" append="-SLOT"/>
+      <ps_code prefix="NPUB" suffix="30394" append="-SLOT" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -1487,7 +1487,7 @@
   <game name="BladeKitten">
     <title>BladeKitten</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUB" suffix="30253"/>
+      <ps_code prefix="NPUB" suffix="30253" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -1684,7 +1684,7 @@
   <game name="Bouncer">
     <title>The Bouncer</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20069"/>
+      <ps_code prefix="SLUS" suffix="20069" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -1692,7 +1692,7 @@
     <title>Braid</title>
     <version platform="SteamCloud">
       <locations>
-        <path ev="steamuserdata" path="26800"/>
+        <path ev="steamuserdata" path="26800" />
       </locations>
       <files type="Saves">
         <save/>
@@ -1712,7 +1712,7 @@
   <game name="BraveStoryNewTraveler">
     <title>Brave Story: New Traveler</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10279"/>
+      <ps_code prefix="ULUS" suffix="10279" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -1822,7 +1822,7 @@
   <game name="BrutalLegend">
     <title>Brütal Legend</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30330"/>
+      <ps_code prefix="BLUS" suffix="30330" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -2060,7 +2060,7 @@
   <game name="Catan">
     <title>Catan</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUB" suffix="30236"/>
+      <ps_code prefix="NPUB" suffix="30236" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -2168,15 +2168,15 @@
   <game name="ChronoCross" follows="ChronoTrigger">
     <title>Chrono Cross</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="01041"/>
-      <ps_code prefix="SLUS" suffix="01080"/>
+      <ps_code prefix="SLUS" suffix="01041" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="01080" type="Saves" disc="2"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="ChronoTrigger">
     <title>Chrono Trigger</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="01363"/>
+      <ps_code prefix="SLUS" suffix="01363" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -2394,7 +2394,7 @@
   <game name="CivilizationRevolution">
     <title>Sid Meier's Civilization: Revolution</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30130"/>
+      <ps_code prefix="BLUS" suffix="30130" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -2657,7 +2657,7 @@
   <game name="CrisisCoreFinalFantasy7">
     <title>Crisis Core: Final Fantasy VII</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10336"/>
+      <ps_code prefix="ULUS" suffix="10336" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -2863,14 +2863,14 @@
   <game name="DarkCloud">
     <title>Dark Cloud</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97111"/>
+      <ps_code prefix="SCUS" suffix="97111" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="DarkCloud2" follows="DarkCloud">
     <title>Dark Cloud 2</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97213"/>
+      <ps_code prefix="SCUS" suffix="97213" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -2943,7 +2943,7 @@
   <game name="Darkness">
     <title>The Darkness</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30035"/>
+      <ps_code prefix="BLUS" suffix="30035" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3102,7 +3102,7 @@
   <game name="Daxter">
     <title>Daxter</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="UCUS" suffix="98618"/>
+      <ps_code prefix="UCUS" suffix="98618" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3121,7 +3121,7 @@
   <game name="DeadNation">
     <title>Dead Nation</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80358"/>
+      <ps_code prefix="NPUA" suffix="80358" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3140,7 +3140,7 @@
   <game name="DeadSpace">
     <title>Dead Space</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30177"/>
+      <ps_code prefix="BLUS" suffix="30177" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -3282,7 +3282,7 @@
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="00037"/>
+      <ps_code prefix="SLUS" suffix="00037" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3350,7 +3350,7 @@
   <game name="DescentMaximum" follows="Descent">
     <title>Descent: Maximum</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="00460"/>
+      <ps_code prefix="SLUS" suffix="00460" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3398,7 +3398,7 @@
     <title>Deus Ex</title>
     <version os="PS2" region="USA">
       <title>Deus Ex: The Conspiracy</title>
-      <ps_code prefix="SLUS" suffix="20111"/>
+      <ps_code prefix="SLUS" suffix="20111" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -3461,15 +3461,15 @@
   <game name="DevilMayCry">
     <title>Devil May Cry</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20216"/>
+      <ps_code prefix="SLUS" suffix="20216" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="DevilMayCry2" follows="DevilMayCry">
     <title>Devil May Cry 2</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20484"/>
-      <ps_code prefix="SLUS" suffix="20627"/>
+      <ps_code prefix="SLUS" suffix="20484" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="20627" type="Saves" disc="2"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3477,14 +3477,14 @@
     <title>Devil May Cry 3: Dante's Awakening</title>
     <version os="PS2" region="USA" release="SpecialEdition">
       <title>Devil May Cry 3: Dante's Awakening: Special Edition</title>
-      <ps_code prefix="SLUS" suffix="21361"/>
+      <ps_code prefix="SLUS" suffix="21361" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="DevilMayCry4" follows="DevilMayCry3DantesAwakening">
     <title>Devil May Cry 4</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30092"/>
+      <ps_code prefix="BLUS" suffix="30092" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3557,7 +3557,7 @@
   <game name="DirgeOfCerberusFinalFantasy7">
     <title>Dirge of Cerberus: Final Fantasy VII</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21419"/>
+      <ps_code prefix="SLUS" suffix="21419" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3618,21 +3618,21 @@
   <game name="Disgaea2CursedMemories" follows="DisgaeaHourOfDarkness">
     <title>Disgaea 2: Cursed Memories</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21397"/>
+      <ps_code prefix="SLUS" suffix="21397" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="DisgaeaHourOfDarkness">
     <title>Disgaea: Hour of Darkness</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20666"/>
+      <ps_code prefix="SLUS" suffix="20666" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="DissidiaFinalFantasy">
     <title>Dissidia: Final Fantasy</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10437"/>
+      <ps_code prefix="ULUS" suffix="10437" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -3765,7 +3765,7 @@
   <game name="DragonQuest8JourneyOfTheCursedKing">
     <title>Dragon Quest VIII: Journey of the Cursed King</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21207"/>
+      <ps_code prefix="SLUS" suffix="21207" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -4088,11 +4088,11 @@
   <game name="Echochrome">
     <title>Echochrome</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80134"/>
+      <ps_code prefix="NPUA" suffix="80134" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PSP" region="USA">
-      <ps_code prefix="NPUG" suffix="80135"/>
+      <ps_code prefix="NPUG" suffix="80135" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -4138,7 +4138,7 @@
   <game name="ElderScrolls4Oblivion" follows="ElderScrolls3Morrowind">
     <title>The Elder Scrolls IV: Oblivion</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30007"/>
+      <ps_code prefix="BLUS" suffix="30007" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -4174,7 +4174,7 @@
   <game name="Elefunk">
     <title>Elefunk</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80157"/>
+      <ps_code prefix="NPUA" suffix="80157" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -4324,7 +4324,7 @@
   <game name="EscapeFromMonkeyIsland">
     <title>Escape From Monkey Island</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20181"/>
+      <ps_code prefix="SLUS" suffix="20181" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -4359,7 +4359,7 @@
   <game name="EternalSonata">
     <title>Eternal Sonata</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30161"/>
+      <ps_code prefix="BLUS" suffix="30161" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -4732,20 +4732,20 @@
   <game name="FearEffect">
     <title>Fear Effect</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="00920"/>
-      <ps_code prefix="SLUS" suffix="01056"/>
-      <ps_code prefix="SLUS" suffix="01057"/>
-      <ps_code prefix="SLUS" suffix="01058"/>
+      <ps_code prefix="SLUS" suffix="00920" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="01056" type="Saves" disc="2"/>
+      <ps_code prefix="SLUS" suffix="01057" type="Saves" disc="3"/>
+      <ps_code prefix="SLUS" suffix="01058" type="Saves" disc="4"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FearEffect2" follows="FearEffect">
     <title>Fear Effect 2: Retro Helix</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="01266"/>
-      <ps_code prefix="SLUS" suffix="01275"/>
-      <ps_code prefix="SLUS" suffix="01276"/>
-      <ps_code prefix="SLUS" suffix="01277"/>
+      <ps_code prefix="SLUS" suffix="01266" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="01275" type="Saves" disc="2"/>
+      <ps_code prefix="SLUS" suffix="01276" type="Saves" disc="3"/>
+      <ps_code prefix="SLUS" suffix="01277" type="Saves" disc="4"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -4839,63 +4839,63 @@
   <game name="FinalFantasy">
     <title>Final Fantasy</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10251"/>
+      <ps_code prefix="ULUS" suffix="10251" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FinalFantasy10" follows="FinalFantasy9">
     <title>Final Fantasy X</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20312"/>
+      <ps_code prefix="SLUS" suffix="20312" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FinalFantasy10-2" follows="FinalFantasy10">
     <title>Final Fantasy X-2</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20672"/>
+      <ps_code prefix="SLUS" suffix="20672" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FinalFantasy12" follows="FinalFantasy10">
     <title>Final Fantasy XII</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20963"/>
+      <ps_code prefix="SLUS" suffix="20963" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FinalFantasy13" follows="FinalFantasy12">
     <title>Final Fantasy XIII</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="MRTC" suffix="00003"/>
+      <ps_code prefix="MRTC" suffix="00003" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FinalFantasy13-2" follows="FinalFantasy13">
     <title>Final Fantasy XIII-2</title>
     <version os="PS3" region="EUR">
-      <ps_code prefix="BLES" suffix="01269"/>
+      <ps_code prefix="BLES" suffix="01269" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
   <game name="FinalFantasy2" follows="FinalFantasy">
     <title>Final Fantasy II</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10263"/>
+      <ps_code prefix="ULUS" suffix="10263" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FinalFantasy4" follows="FinalFantasy2">
     <title>Final Fantasy IV</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="01360"/>
+      <ps_code prefix="SLUS" suffix="01360" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FinalFantasy7" follows="FinalFantasy4">
     <title>Final Fantasy VII</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SCUS" suffix="94163"/>
+      <ps_code prefix="SCUS" suffix="94163" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -4913,32 +4913,32 @@
   <game name="FinalFantasy8" follows="FinalFantasy7">
     <title>Final Fantasy VIII</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="00892"/>
-      <ps_code prefix="SLUS" suffix="00908"/>
-      <ps_code prefix="SLUS" suffix="00909"/>
-      <ps_code prefix="SLUS" suffix="00910"/>
+      <ps_code prefix="SLUS" suffix="00892" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="00908" type="Saves" disc="2"/>
+      <ps_code prefix="SLUS" suffix="00909" type="Saves" disc="3"/>
+      <ps_code prefix="SLUS" suffix="00910" type="Saves" disc="4"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FinalFantasy9" follows="FinalFantasy8">
     <title>Final Fantasy IX</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="01251"/>
-      <ps_code prefix="SLUS" suffix="01295"/>
-      <ps_code prefix="SLUS" suffix="01296"/>
-      <ps_code prefix="SLUS" suffix="01297"/>
+      <ps_code prefix="SLUS" suffix="01251" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="01295" type="Saves" disc="2"/>
+      <ps_code prefix="SLUS" suffix="01296" type="Saves" disc="3"/>
+      <ps_code prefix="SLUS" suffix="01297" type="Saves" disc="4"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="FinalFantasyTactics">
     <title>Final Fantasy Tactics</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="94221"/>
+      <ps_code prefix="SLUS" suffix="94221" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PSP" region="USA" release="WarOfTheLions">
       <title>Final Fantasy Tactics: War of the Lions</title>
-      <ps_code prefix="ULUS" suffix="10297"/>
+      <ps_code prefix="ULUS" suffix="10297" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -5030,25 +5030,25 @@
   <game name="Flow">
     <title>Flow</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80001"/>
+      <ps_code prefix="NPUA" suffix="80001" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Flower">
     <title>Flower</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80083"/>
+      <ps_code prefix="NPUA" suffix="80083" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="EUR">
-      <ps_code prefix="NPEA" suffix="00094"/>
+      <ps_code prefix="NPEA" suffix="00094" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
   <game name="Folklore">
     <title>Folklore</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98147"/>
+      <ps_code prefix="BCUS" suffix="98147" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -5109,7 +5109,7 @@
   <game name="Frequency">
     <title>Frequency</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97125"/>
+      <ps_code prefix="SCUS" suffix="97125" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -5556,21 +5556,21 @@
   <game name="GodOfWar">
     <title>God of War</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97399"/>
+      <ps_code prefix="SCUS" suffix="97399" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="GodOfWar2" follows="GodOfWarChainsOfOlympus">
     <title>God of War II</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97481"/>
+      <ps_code prefix="SCUS" suffix="97481" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="GodOfWarChainsOfOlympus" follows="GodOfWar">
     <title>God of War: Chains of Olympus</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="UCUS" suffix="98653"/>
+      <ps_code prefix="UCUS" suffix="98653" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -5631,14 +5631,14 @@
   <game name="GrandTheftAutoChinatownWars">
     <title>Grand Theft Auto: Chinatown Wars</title>
     <version os="PSP" region="EUR">
-      <ps_code prefix="ULES" suffix="01347"/>
+      <ps_code prefix="ULES" suffix="01347" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
   <game name="GrandTheftAutoLibertyCityStories">
     <title>Grand Theft Auto: Liberty City Stories</title>
     <version os="PSP" region="EUR">
-      <ps_code prefix="ULES" suffix="00151"/>
+      <ps_code prefix="ULES" suffix="00151" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -5671,7 +5671,7 @@
   <game name="GrandTheftAutoViceCityStories" follows="GrandTheftAutoViceCity">
     <title>Grand Theft Auto: Vice City Stories</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10160"/>
+      <ps_code prefix="ULUS" suffix="10160" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -5955,7 +5955,7 @@
   <game name="HalfLife">
     <title>Half-Life</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20066"/>
+      <ps_code prefix="SLUS" suffix="20066" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows" release="Source">
@@ -6149,7 +6149,7 @@
   <game name="HeavenlySword">
     <title>Heavenly Sword</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98132"/>
+      <ps_code prefix="BCUS" suffix="98132" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -6413,11 +6413,11 @@
   <game name="Ico">
     <title>Ico</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97113"/>
+      <ps_code prefix="SCUS" suffix="97113" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98259" append="_ICO"/>
+      <ps_code prefix="BCUS" suffix="98259" append="_ICO" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -6548,7 +6548,7 @@
   <game name="IndigoProphecy">
     <title>Indigo Prophecy</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21196"/>
+      <ps_code prefix="SLUS" suffix="21196" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -6564,11 +6564,11 @@
   <game name="inFamous">
     <title>inFamous</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98119"/>
+      <ps_code prefix="BCUS" suffix="98119" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="EUR">
-      <ps_code prefix="BCES" suffix="00609"/>
+      <ps_code prefix="BCES" suffix="00609" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -6712,40 +6712,40 @@
   <game name="Jak2" follows="JakAndDaxterPrecursorLegacy">
     <title>Jak II</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97265"/>
+      <ps_code prefix="SCUS" suffix="97265" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98281" append="_NPWR01819"/>
+      <ps_code prefix="BCUS" suffix="98281" append="_NPWR01819" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Jak3" follows="Jak2">
     <title>Jak 3</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97330"/>
+      <ps_code prefix="SCUS" suffix="97330" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98281" append="_NPWR01820"/>
+      <ps_code prefix="BCUS" suffix="98281" append="_NPWR01820" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="JakAndDaxterPrecursorLegacy">
     <title>Jak and Daxter: The Precursor Legacy</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97124"/>
+      <ps_code prefix="SCUS" suffix="97124" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98281" append="_NPWR01818"/>
+      <ps_code prefix="BCUS" suffix="98281" append="_NPWR01818" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="JakXCombatRacing" follows="Jak3">
     <title>Jak X: Combat Racing</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97429"/>
+      <ps_code prefix="SCUS" suffix="97429" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -6764,14 +6764,14 @@
   <game name="JeanneDArc">
     <title>Jeanne D'Arc</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="UCUS" suffix="98700"/>
+      <ps_code prefix="UCUS" suffix="98700" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Jeopardy">
     <title>Jeopardy!</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80227"/>
+      <ps_code prefix="NPUA" suffix="80227" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -6804,7 +6804,7 @@
   <game name="Journey">
     <title>Journey</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80275"/>
+      <ps_code prefix="NPUA" suffix="80275" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -6904,7 +6904,7 @@
   <game name="Killer7">
     <title>Killer 7</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21154"/>
+      <ps_code prefix="SLUS" suffix="21154" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -6935,21 +6935,21 @@
   <game name="KingdomHearts">
     <title>Kingdom Hearts</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20370"/>
+      <ps_code prefix="SLUS" suffix="20370" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="KingdomHearts2" follows="KingdomHeartsReChainOfMemories">
     <title>Kingdom Hearts II</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21005"/>
+      <ps_code prefix="SLUS" suffix="21005" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="KingdomHeartsReChainOfMemories" follows="KingdomHearts">
     <title>Kingdom Hearts: Re: Chain of Memories</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21799"/>
+      <ps_code prefix="SLUS" suffix="21799" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -7199,7 +7199,7 @@
   <game name="Lemmings">
     <title>Lemmings</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80012"/>
+      <ps_code prefix="NPUA" suffix="80012" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -7390,7 +7390,7 @@
   <game name="Lumines">
     <title>Lumines</title>
     <version os="PSP" region="EUR">
-      <ps_code prefix="ULES" suffix="00043"/>
+      <ps_code prefix="ULES" suffix="00043" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
     <version os="Windows">
@@ -7406,7 +7406,7 @@
   <game name="LuminesSupernova">
     <title>Lumines Supernova</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUB" suffix="30048"/>
+      <ps_code prefix="NPUB" suffix="30048" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -7583,7 +7583,7 @@
   <game name="MassEffect2" follows="MassEffect">
     <title>Mass Effect 2</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30650"/>
+      <ps_code prefix="BLUS" suffix="30650" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -8141,26 +8141,26 @@
   <game name="MetalGearAcid">
     <title>Metal Gear Ac!d</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10006"/>
+      <ps_code prefix="ULUS" suffix="10006" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PSP" region="EUR">
-      <ps_code prefix="ULES" suffix="00008"/>
+      <ps_code prefix="ULES" suffix="00008" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
   <game name="MetalGearAcid2" follows="MetalGearAcid">
     <title>Metal Gear Ac!d 2</title>
     <version os="PSP" region="EUR">
-      <ps_code prefix="ULES" suffix="00284"/>
+      <ps_code prefix="ULES" suffix="00284" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
   <game name="MetalGearSolid">
     <title>Metal Gear Solid</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="00594"/>
-      <ps_code prefix="SLUS" suffix="00776"/>
+      <ps_code prefix="SLUS" suffix="00594" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="00776" type="Saves" disc="2"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -8168,7 +8168,7 @@
     <title>Metal Gear Solid 2: Sons of Liberty</title>
     <version os="PS2" region="USA" release="Substance">
       <title>Metal Gear Solid 2: Substance</title>
-      <ps_code prefix="SLUS" suffix="20554"/>
+      <ps_code prefix="SLUS" suffix="20554" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -8176,22 +8176,22 @@
     <title>Metal Gear Solid 3: Snake Eater</title>
     <version os="PS2" region="USA" release="Subsistence">
       <title>Metal Gear Solid 3: Subsistence</title>
-      <ps_code prefix="SLUS" suffix="21243"/>
-      <ps_code prefix="SLUS" suffix="21359"/>
+      <ps_code prefix="SLUS" suffix="21243" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="21359" type="Saves" disc="2"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="MetalGearSolidPortableOps">
     <title>Metal Gear Solid: Portable Ops</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10202"/>
+      <ps_code prefix="ULUS" suffix="10202" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="MetalGearSolidVRMissions">
     <title>Metal Gear Solid: VR Missions</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="00957"/>
+      <ps_code prefix="SLUS" suffix="00957" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -8262,7 +8262,7 @@
   <game name="MirrorsEdge">
     <title>Mirror's Edge</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30179"/>
+      <ps_code prefix="BLUS" suffix="30179" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -8344,7 +8344,7 @@
   <game name="MortalKombatArcadeKollection">
     <title>Mortal Combat: Arcade Kollection</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUB" suffix="30468"/>
+      <ps_code prefix="NPUB" suffix="30468" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -8691,7 +8691,7 @@
   <game name="NoGravity">
     <title>No Gravity</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="NPUH" suffix="10007"/>
+      <ps_code prefix="NPUH" suffix="10007" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -8817,14 +8817,14 @@
   <game name="OkageShadowKing">
     <title>Okage: Shadow King</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97129"/>
+      <ps_code prefix="SCUS" suffix="97129" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Okami">
     <title>Okami</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21115"/>
+      <ps_code prefix="SLUS" suffix="21115" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -9022,23 +9022,23 @@
   <game name="ParasiteEve">
     <title>Parasite Eve</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="00662"/>
-      <ps_code prefix="SLUS" suffix="00668"/>
+      <ps_code prefix="SLUS" suffix="00662" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="00668" type="Saves" disc="2"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="ParasiteEve2" follows="ParasiteEve">
     <title>Parasite Eve II</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="01042"/>
-      <ps_code prefix="SLUS" suffix="01055"/>
+      <ps_code prefix="SLUS" suffix="01042" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="01055" type="Saves" disc="2"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Patapon">
     <title>Patapon</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="UCUS" suffix="98711"/>
+      <ps_code prefix="UCUS" suffix="98711" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -9083,7 +9083,7 @@
   <game name="Peggle">
     <title>Peggle</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="30005"/>
+      <ps_code prefix="NPUA" suffix="30005" type="Saves"/>
       <comment>Includes the Peggle Nights PS3 addon</comment>
       <contributor>SanMadJack</contributor>
     </version>
@@ -9501,7 +9501,7 @@
   <game name="PrinceOfPersia2008">
     <title>Prince of Persia (2008)</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30214"/>
+      <ps_code prefix="BLUS" suffix="30214" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -9517,18 +9517,18 @@
   <game name="PrinceOfPersiaForgottenSands" follows="PrinceOfPersiaWarriorWithin">
     <title>Prince of Persia: The Forgotten Sands</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30401"/>
+      <ps_code prefix="BLUS" suffix="30401" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="PrinceOfPersiaSandsOfTime">
     <title>Prince of Persia: The Sands of Time</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20743"/>
+      <ps_code prefix="SLUS" suffix="20743" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30754" append="DIRSOT"/>
+      <ps_code prefix="BLUS" suffix="30754" append="DIRSOT" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -9552,22 +9552,22 @@
   <game name="PrinceOfPersiaTwoThrones" follows="PrinceOfPersiaWarriorWithin">
     <title>Prince of Persia: The Two Thrones</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21287"/>
+      <ps_code prefix="SLUS" suffix="21287" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30754" append="DIRTT"/>
+      <ps_code prefix="BLUS" suffix="30754" append="DIRTT" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="PrinceOfPersiaWarriorWithin" follows="PrinceOfPersiaSandsOfTime">
     <title>Prince of Persia: Warrior Within</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21022"/>
+      <ps_code prefix="SLUS" suffix="21022" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30754" append="DIRWOW"/>
+      <ps_code prefix="BLUS" suffix="30754" append="DIRWOW" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -9622,7 +9622,7 @@
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21120"/>
+      <ps_code prefix="SLUS" suffix="21120" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -9772,7 +9772,7 @@
   <game name="RagDollKungFuFistsOfPlastic" follows="RagDollKungFu">
     <title>Rag Doll Kung Fu: Fists of Plastic</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80217"/>
+      <ps_code prefix="NPUA" suffix="80217" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -9872,49 +9872,49 @@
   <game name="RatchetClank">
     <title>Ratchet &amp; Clank</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97199"/>
+      <ps_code prefix="SCUS" suffix="97199" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="RatchetClankFutureQuestForBooty" follows="RatchetClankFutureToolsOfDestruction">
     <title>Ratchet &amp; Clank Future: Quest For Booty</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80145"/>
+      <ps_code prefix="NPUA" suffix="80145" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="RatchetClankFutureToolsOfDestruction">
     <title>Ratchet &amp; Clank Future: Tools of Destruction</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98127"/>
+      <ps_code prefix="BCUS" suffix="98127" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="RatchetClankGoingCommando" follows="RatchetClank">
     <title>Ratchet &amp; Clank: Going Commando</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97268"/>
+      <ps_code prefix="SCUS" suffix="97268" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="RatchetClankSizeMatters">
     <title>Ratchet &amp; Clank: Size Matters</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="UCUS" suffix="98633"/>
+      <ps_code prefix="UCUS" suffix="98633" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="RatchetClankUpYourArsenal" follows="RatchetClankGoingCommando">
     <title>Ratchet &amp; Clank: Up Your Arsenal</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97353"/>
+      <ps_code prefix="SCUS" suffix="97353" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="RatchetDeadlocked" follows="RatchetClankUpYourArsenal">
     <title>Ratchet: Deadlocked</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97465"/>
+      <ps_code prefix="SCUS" suffix="97465" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -10100,7 +10100,7 @@
   <game name="RedFactionGuerrilla" follows="RedFaction2">
     <title>Red Faction: Guerrilla</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30258"/>
+      <ps_code prefix="BLUS" suffix="30258" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -10177,14 +10177,14 @@
   <game name="ResidentEvil4">
     <title>Resident Evil 4</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21134"/>
+      <ps_code prefix="SLUS" suffix="21134" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="ResidentEvil5" follows="ResidentEvil4">
     <title>Resident Evil 5</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30270"/>
+      <ps_code prefix="BLUS" suffix="30270" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -10200,21 +10200,21 @@
   <game name="ResidentEvilCodeVeronicaX">
     <title>Resident Evil: Code Veronica X</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20184"/>
+      <ps_code prefix="SLUS" suffix="20184" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Resistance2" follows="ResistanceFallOfMan">
     <title>Resistance 2</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98120"/>
+      <ps_code prefix="BCUS" suffix="98120" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="ResistanceFallOfMan">
     <title>Resistance: Fall of Man</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98107"/>
+      <ps_code prefix="BCUS" suffix="98107" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -10415,7 +10415,7 @@
   <game name="RogueGalaxy">
     <title>Rogue Galaxy</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97490"/>
+      <ps_code prefix="SCUS" suffix="97490" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -10509,7 +10509,7 @@
   <game name="RuleOfRose">
     <title>Rule Of Rose</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21448"/>
+      <ps_code prefix="SLUS" suffix="21448" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -10977,7 +10977,7 @@
   <game name="SavageMoon">
     <title>Savage Moon</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80228"/>
+      <ps_code prefix="NPUA" suffix="80228" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -11246,11 +11246,11 @@
   <game name="ShadowOfTheColossus" follows="Ico">
     <title>Shadow of the Colossus</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97472"/>
+      <ps_code prefix="SCUS" suffix="97472" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98259" append="_SOTC"/>
+      <ps_code prefix="BCUS" suffix="98259" append="_SOTC" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -11282,7 +11282,7 @@
   <game name="Shatter">
     <title>Shatter</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUB" suffix="30091"/>
+      <ps_code prefix="NPUB" suffix="30091" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -11364,14 +11364,14 @@
   <game name="SilentHill">
     <title>Silent Hill</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="00707"/>
+      <ps_code prefix="SLUS" suffix="00707" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="SilentHill0rigins">
     <title>Silent Hill: 0rigins</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10285"/>
+      <ps_code prefix="ULUS" suffix="10285" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -11379,22 +11379,22 @@
     <title>Silent Hill 2</title>
     <version os="PS2" region="USA" release="GreatestHits">
       <title>Silent Hill 2: Greatest Hits Edition</title>
-      <ps_code prefix="SLUS" suffix="20228"/>
+      <ps_code prefix="SLUS" suffix="20228" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30810" append="_SH2"/>
+      <ps_code prefix="BLUS" suffix="30810" append="_SH2" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="SilentHill3" follows="SilentHill2">
     <title>Silent Hill 3</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20622"/>
+      <ps_code prefix="SLUS" suffix="20622" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30810" append="_SH3C"/>
+      <ps_code prefix="BLUS" suffix="30810" append="_SH3C" type="Saves"/>
       <ps_code prefix="BLUS" suffix="30810" append="_SH3OPTN" type="Settings"/>
       <contributor>SanMadJack</contributor>
     </version>
@@ -11402,14 +11402,14 @@
   <game name="SilentHill4Room" follows="SilentHill3">
     <title>Silent Hill 4: The Room</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20873"/>
+      <ps_code prefix="SLUS" suffix="20873" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="SilentHillHomecoming" follows="SilentHill4Room">
     <title>Silent Hill: Homecoming</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30169"/>
+      <ps_code prefix="BLUS" suffix="30169" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -11425,7 +11425,7 @@
   <game name="SilentHillShatteredMemories">
     <title>Silent Hill: Shattered Memories</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21899"/>
+      <ps_code prefix="SLUS" suffix="21899" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -11575,7 +11575,7 @@
   <game name="SlyCooperAndtheThievusRaccoonus">
     <title>Sky Cooper and the Thievus Raccoonus</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SCUS" suffix="97198"/>
+      <ps_code prefix="SCUS" suffix="97198" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -11635,21 +11635,21 @@
   <game name="SoulBlade">
     <title>Soul Blade</title>
     <version os="PS1" region="USA">
-      <ps_code prefix="SLUS" suffix="00240"/>
+      <ps_code prefix="SLUS" suffix="00240" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="SoulCalibur3">
     <title>Soul Calibur III</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21216"/>
+      <ps_code prefix="SLUS" suffix="21216" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="SoulCalibur4" follows="SoulCalibur3">
     <title>Soul Calibur IV</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30160"/>
+      <ps_code prefix="BLUS" suffix="30160" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -12123,15 +12123,15 @@
   <game name="StarOceanFirstDeparture">
     <title>Star Ocean: First Departure</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10374"/>
+      <ps_code prefix="ULUS" suffix="10374" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="StarOceanTillTheEndOfTime">
     <title>Star Ocean: Till the End of Time</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20488"/>
-      <ps_code prefix="SLUS" suffix="20891"/>
+      <ps_code prefix="SLUS" suffix="20488" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="20891" type="Saves" disc="2"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -12405,14 +12405,14 @@
   <game name="Summoner">
     <title>Summoner</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20074"/>
+      <ps_code prefix="SLUS" suffix="20074" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Summoner2" follows="Summoner">
     <title>Summoner 2</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20448"/>
+      <ps_code prefix="SLUS" suffix="20448" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -12471,14 +12471,14 @@
   <game name="SuperStardustHD">
     <title>Super Stardust HD</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80068"/>
+      <ps_code prefix="NPUA" suffix="80068" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="SuperStardustPortable">
     <title>Super Stardust Portable</title>
     <version os="PSP" region="USA">
-      <ps_code prefix="NPUG" suffix="80221"/>
+      <ps_code prefix="NPUG" suffix="80221" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -12735,7 +12735,7 @@
   <game name="Tekken5">
     <title>Tekken 5</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21059"/>
+      <ps_code prefix="SLUS" suffix="21059" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -13047,7 +13047,7 @@
   <game name="TombRaiderAnniversary" follows="TombRaiderLegend">
     <title>Tomb Raider: Anniversary</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30718" append="-TALIST"/>
+      <ps_code prefix="BLUS" suffix="30718" append="-TALIST" type="Saves"/>
       <ps_code prefix="BLUS" suffix="30718" append="-TAPROFILE" type="Profile"/>
       <contributor>SanMadJack</contributor>
     </version>
@@ -13076,12 +13076,12 @@
   <game name="TombRaiderLegend" follows="TombRaiderTheAngelOfDarkness">
     <title>Tomb Raider: Legend</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30718" append="-T7LIST"/>
+      <ps_code prefix="BLUS" suffix="30718" append="-T7LIST" type="Saves"/>
       <ps_code prefix="BLUS" suffix="30718" append="-T7PROFILE" type="Profile"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PSP" region="EUR">
-      <ps_code prefix="ULES" suffix="00283"/>
+      <ps_code prefix="ULES" suffix="00283" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -13121,7 +13121,7 @@
   <game name="TombRaiderUnderworld" follows="TombRaiderAnniversary">
     <title>Tomb Raider: Underworld</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30718" append="-SAVE"/>
+      <ps_code prefix="BLUS" suffix="30718" append="-SAVE" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -13469,7 +13469,7 @@
   <game name="UltimateAlliance">
     <title>Ultimate Alliance</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30010"/>
+      <ps_code prefix="BLUS" suffix="30010" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -13488,11 +13488,11 @@
   <game name="UnchartedDrakesFortune">
     <title>Uncharted: Drake's Fortune</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BCUS" suffix="98103"/>
+      <ps_code prefix="BCUS" suffix="98103" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="EUR">
-      <ps_code prefix="BCES" suffix="00065"/>
+      <ps_code prefix="BCES" suffix="00065" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -13585,7 +13585,7 @@
   <game name="UnrealTournament">
     <title>Unreal Tournament</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20034"/>
+      <ps_code prefix="SLUS" suffix="20034" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -13630,7 +13630,7 @@
   <game name="UnrealTournament3" follows="UnrealTournament2004">
     <title>Unreal Tournament III</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30086"/>
+      <ps_code prefix="BLUS" suffix="30086" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -13701,11 +13701,11 @@
   <game name="ValkyriaChronicles">
     <title>Valkyria Chronicles</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30196"/>
+      <ps_code prefix="BLUS" suffix="30196" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="PS3" region="EUR">
-      <ps_code prefix="BLES" suffix="00372"/>
+      <ps_code prefix="BLES" suffix="00372" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -14054,7 +14054,7 @@
   <game name="Wet">
     <title>Wet</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30403"/>
+      <ps_code prefix="BLUS" suffix="30403" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -14073,7 +14073,7 @@
   <game name="WheelOfFortune">
     <title>Wheel of Fortune</title>
     <version os="PS3" region="USA">
-      <ps_code prefix="NPUA" suffix="80137"/>
+      <ps_code prefix="NPUA" suffix="80137" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -14174,7 +14174,7 @@
   <game name="WipeoutPure">
     <title>Wipeout Pure</title>
     <version os="PSP" region="EUR">
-      <ps_code prefix="UCES" suffix="00001"/>
+      <ps_code prefix="UCES" suffix="00001" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -14224,7 +14224,7 @@
     <title>Wolfenstein 3D</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUB" suffix="30074" append="-PROF" type="Profile"/>
-      <ps_code prefix="NPUB" suffix="30074" append="-SAVE"/>
+      <ps_code prefix="NPUB" suffix="30074" append="-SAVE" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -14347,23 +14347,23 @@
   <game name="Xenosaga">
     <title>Xenosaga Episode I: Der Wille zur Macht</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20469"/>
+      <ps_code prefix="SLUS" suffix="20469" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Xenosaga2" follows="Xenosaga">
     <title>Xenosaga Episode II: Jenseits von Gut und Böse</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20892"/>
-      <ps_code prefix="SLUS" suffix="21133"/>
+      <ps_code prefix="SLUS" suffix="20892" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="21133" type="Saves" disc="2"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Xenosaga3" follows="Xenosaga2">
     <title>Xenosaga Episode III: Also sprach Zarathustra</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21389"/>
-      <ps_code prefix="SLUS" suffix="21417"/>
+      <ps_code prefix="SLUS" suffix="21389" type="Saves" disc="1"/>
+      <ps_code prefix="SLUS" suffix="21417" type="Saves" disc="2"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
@@ -14398,14 +14398,14 @@
   <game name="XFilesResistOrServe">
     <title>The X-Files: Resist or Serve</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20179"/>
+      <ps_code prefix="SLUS" suffix="20179" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="XIII">
     <title>XIII</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20677"/>
+      <ps_code prefix="SLUS" suffix="20677" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -14426,14 +14426,14 @@
   <game name="XMenLegends">
     <title>X-Men Legends</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20656"/>
+      <ps_code prefix="SLUS" suffix="20656" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="XMenLegends2" follows="XMenLegends">
     <title>X-Men Legends II: Rise of Apocalypse</title>
     <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="21138"/>
+      <ps_code prefix="SLUS" suffix="21138" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
   </game>
