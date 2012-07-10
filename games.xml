@@ -838,7 +838,7 @@
   </game>
   <game name="AssassinsCreedBrotherhood" follows="AssassinsCreed">
     <title>Assassin's Creed: Brotherhood</title>
-    <version os="PS3" region="EUR">
+    <version os="PS3" region="EU">
       <ps_code prefix="BLES" suffix="00909" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -854,7 +854,7 @@
   </game>
   <game name="AssassinsCreedRevelations" follows="AssassinsCreedBrotherhood">
     <title>Assassin's Creed: Revelations</title>
-    <version os="PS3" region="EUR">
+    <version os="PS3" region="EU">
       <ps_code prefix="BLES" suffix="01384" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -4873,7 +4873,7 @@
   </game>
   <game name="FinalFantasy13-2" follows="FinalFantasy13">
     <title>Final Fantasy XIII-2</title>
-    <version os="PS3" region="EUR">
+    <version os="PS3" region="EU">
       <ps_code prefix="BLES" suffix="01269" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -5040,7 +5040,7 @@
       <ps_code prefix="NPUA" suffix="80083" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
-    <version os="PS3" region="EUR">
+    <version os="PS3" region="EU">
       <ps_code prefix="NPEA" suffix="00094" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -5630,14 +5630,14 @@
   </game>
   <game name="GrandTheftAutoChinatownWars">
     <title>Grand Theft Auto: Chinatown Wars</title>
-    <version os="PSP" region="EUR">
+    <version os="PSP" region="EU">
       <ps_code prefix="ULES" suffix="01347" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
   <game name="GrandTheftAutoLibertyCityStories">
     <title>Grand Theft Auto: Liberty City Stories</title>
-    <version os="PSP" region="EUR">
+    <version os="PSP" region="EU">
       <ps_code prefix="ULES" suffix="00151" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
@@ -6567,7 +6567,7 @@
       <ps_code prefix="BCUS" suffix="98119" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
-    <version os="PS3" region="EUR">
+    <version os="PS3" region="EU">
       <ps_code prefix="BCES" suffix="00609" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -7389,7 +7389,7 @@
   </game>
   <game name="Lumines">
     <title>Lumines</title>
-    <version os="PSP" region="EUR">
+    <version os="PSP" region="EU">
       <ps_code prefix="ULES" suffix="00043" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
@@ -8144,14 +8144,14 @@
       <ps_code prefix="ULUS" suffix="10006" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
-    <version os="PSP" region="EUR">
+    <version os="PSP" region="EU">
       <ps_code prefix="ULES" suffix="00008" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
   <game name="MetalGearAcid2" follows="MetalGearAcid">
     <title>Metal Gear Ac!d 2</title>
-    <version os="PSP" region="EUR">
+    <version os="PSP" region="EU">
       <ps_code prefix="ULES" suffix="00284" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
@@ -13080,7 +13080,7 @@
       <ps_code prefix="BLUS" suffix="30718" append="-T7PROFILE" type="Profile"/>
       <contributor>SanMadJack</contributor>
     </version>
-    <version os="PSP" region="EUR">
+    <version os="PSP" region="EU">
       <ps_code prefix="ULES" suffix="00283" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
@@ -13491,7 +13491,7 @@
       <ps_code prefix="BCUS" suffix="98103" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
-    <version os="PS3" region="EUR">
+    <version os="PS3" region="EU">
       <ps_code prefix="BCES" suffix="00065" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -13704,7 +13704,7 @@
       <ps_code prefix="BLUS" suffix="30196" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
-    <version os="PS3" region="EUR">
+    <version os="PS3" region="EU">
       <ps_code prefix="BLES" suffix="00372" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -14173,7 +14173,7 @@
   </game>
   <game name="WipeoutPure">
     <title>Wipeout Pure</title>
-    <version os="PSP" region="EUR">
+    <version os="PSP" region="EU">
       <ps_code prefix="UCES" suffix="00001" type="Saves"/>
       <contributor>duncans_pumpkin</contributor>
     </version>

@@ -39,8 +39,7 @@
   <xs:attribute name="region">
     <xs:simpleType>
       <xs:restriction base="xs:string">
-        <xs:enumeration value="USA"/>
-        <xs:enumeration value="EUR"/>
+        <xs:pattern value="([A-Z]{3}|[A-Z]{2})"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
