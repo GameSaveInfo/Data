@@ -224,7 +224,7 @@
     <xs:attribute ref="platform" use="optional"/>
     <xs:attribute ref="media" use="optional"/>
     <xs:attribute ref="region" use="optional"/>
-    <xs:attribute name="release" type="xs:string" use="optional" />
+    <xs:attribute name="release" type="game_name" use="optional" />
   </xs:attributeGroup>
 
   <xs:attributeGroup name="version_attributes">
