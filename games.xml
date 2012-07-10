@@ -8745,7 +8745,7 @@
       <locations>
         <path ev="installlocation" path="GOG.com\Normality"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGNORMALITY" value="SAVEGAMEFOLDER"/>
-        <shortcut ev="startmenu" path="Programs\GOG.com\Normality\Normality.lnk" append="Normality" detract="DOSBOX"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Normality\Normality.lnk" detract="DOSBOX"/>
       </locations>
       <files type="Saves">
         <save path="SAVEGAME"/>
