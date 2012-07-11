@@ -5958,7 +5958,7 @@
       <ps_code prefix="SLUS" suffix="20066" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
-    <version os="Windows" release="Source">
+    <version release="Source">
       <title>Half-Life: Source</title>
       <locations>
         <path ev="steamuser" path="half-life source\hl1"/>
@@ -5968,7 +5968,7 @@
       </files>
       <contributor>SanMadJack</contributor>
     </version>
-    <version os="Windows" media="Steam">
+    <version os="Windows">
       <locations>
         <path ev="installlocation" path="Sierra\Half-Life\valve"/>
         <path ev="steamuser" path="half-life\valve"/>
@@ -6031,11 +6031,9 @@
   </game>
   <expansion name="HalfLifeBlueShift" for="HalfLife">
     <title>Half-Life: Blue Shift</title>
-    <version os="Windows" media="Steam">
+    <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Sierra\Half-Life\bshift"/>
-        <path ev="steamuser" path="half-life blue shift\bshift"/>
-        <registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\HALFLIFE" value="Directory" append="bshift"/>
+        <parent name="HalfLife" os="Windows" detract="valve" append="bshift"/>
       </locations>
       <files type="Saves">
         <save path="SAVE"/>
@@ -6046,11 +6044,9 @@
   </expansion>
   <expansion name="HalfLifeOpposingForce" for="HalfLife">
     <title>Half-Life: Opposing Force</title>
-    <version os="Windows" media="Steam">
+    <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Sierra\Half-Life\gearbox"/>
-        <path ev="steamuser" path="opposing force\gearbox"/>
-        <registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\HALFLIFE" value="Directory" append="gearbox"/>
+        <parent name="HalfLife" os="Windows" detract="valve" append="gearbox"/>
       </locations>
       <files type="Saves">
         <save path="SAVE"/>
