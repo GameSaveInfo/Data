@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-10T20:43:49">
+<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-10T22:07:04">
   <game name="18WheelsOfSteelExtremeTrucker">
     <title>18 Wheels of Steel: Extreme Trucker</title>
     <version os="Windows">
@@ -6423,7 +6423,7 @@
   </game>
   <game name="IcyTower">
     <title>Icy Tower</title>
-    <version os="Windows" release="1.5">
+    <version os="Windows" release="15">
       <locations>
         <path ev="installlocation" path="games\icytower1.5"/>
         <registry root="local_machine" key="SOFTWARE\Conduit\AppPaths\icytower15.exe" value="AppPath" detract="\icytower15.exe"/>
