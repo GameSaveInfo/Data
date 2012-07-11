@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-10T22:07:04">
+<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-11T17:37:12">
+  <!--This file contains games, mods and expansions-->
   <game name="18WheelsOfSteelExtremeTrucker">
     <title>18 Wheels of Steel: Extreme Trucker</title>
     <version os="Windows">
@@ -5954,10 +5955,6 @@
   </expansion>
   <game name="HalfLife">
     <title>Half-Life</title>
-    <version os="PS2" region="USA">
-      <ps_code prefix="SLUS" suffix="20066" type="Saves"/>
-      <contributor>SanMadJack</contributor>
-    </version>
     <version release="Source">
       <title>Half-Life: Source</title>
       <locations>
@@ -5966,6 +5963,10 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+    <version os="PS2" region="USA">
+      <ps_code prefix="SLUS" suffix="20066" type="Saves"/>
       <contributor>SanMadJack</contributor>
     </version>
     <version os="Windows">
@@ -12981,7 +12982,7 @@
         <path ev="steamsourcemods" path="SurvivorIZ"/>
       </locations>
       <files type="Saves">
-        <save path="SAVE" />
+        <save path="SAVE"/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
