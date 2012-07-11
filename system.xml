@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-06-27T20:12:22">
+<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-11T17:37:03">
+  <!--Contains profiles for backing up system-related files-->
   <system name="GamesForWindows">
     <title>Games for Windows</title>
     <version os="Windows">
