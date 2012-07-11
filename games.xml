@@ -12978,6 +12978,18 @@
       <contributor>slake_jones</contributor>
     </version>
   </expansion>
+  <mod name="TitanXCIX1" for="HalfLife2Episode2">
+    <title>Titan: XCIX - Part 1</title>
+    <version media="Steam">
+      <locations>
+        <path ev="steamsourcemods" path="SurvivorIZ"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVE" />
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </mod>
   <game name="TombRaider">
     <title>Tomb Raider</title>
     <version os="DOS">
