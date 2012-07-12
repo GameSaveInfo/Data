@@ -2655,6 +2655,18 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
+  <game name="CrusaderKings2">
+    <title>Crusader Kings II</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Paradox Interactive\Crusader Kings 2"/>
+      </locations>
+      <files type="Saves">
+        <save path="save games" />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="CrisisCoreFinalFantasy7">
     <title>Crisis Core: Final Fantasy VII</title>
     <version os="PSP" region="USA">
@@ -6896,6 +6908,18 @@
         <save filename="*.cfg"/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="KatawaShoujo">
+    <title>Katawa Shoujo</title>
+    <version platform="RenPy">
+      <locations>
+        <path ev="appdata" path="RenPy\katawashoujo_actual"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Killer7">
@@ -14215,6 +14239,15 @@
         <save path="Config"/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="20920"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="Wolfenstein" follows="ReturnToCastleWolfenstein">
