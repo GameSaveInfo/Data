@@ -4369,6 +4369,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="EndlessSpace">
+    <title>Endless Space</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Endless Space"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="EternalSonata">
     <title>Eternal Sonata</title>
     <version os="PS3" region="USA">
@@ -5336,11 +5348,14 @@
     <title>Gemini Rue</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="gemini rue"/>
+        <path ev="userdocuments" path="My Saved Games\Gemini Rue"/>
+        <path ev="savedgames" path="Gemini Rue"/>
+        <path ev="steamcommon" path="gemini rue\Saves"/>
       </locations>
       <files type="Saves">
-        <save path="Saves"/>
+        <save filename="agssave.*"/>
       </files>
+      <contributor>SanMadJack</contributor>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -13684,6 +13699,10 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="uplink"/>
+        <path ev="installlocation" path="GOG.com\Uplink"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGUPLINK" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Uplink_is1" value="InstallLocation"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Uplink\Uplink.lnk"/>
       </locations>
       <files type="Saves">
         <save path="users">
@@ -13696,6 +13715,7 @@
       <files type="Settings">
         <save path="users" filename="options"/>
       </files>
+      <contributor>SanMadJack</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>

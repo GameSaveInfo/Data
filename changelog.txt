@@ -1,7 +1,10 @@
 New Windows Games:
 * Crusader Kings II
+* Endless Space
 * Katawa Shoujo
 Updated Windows Games:
+* Gemini Rue - Added GoG info
+* Uplink - Added GoG info
 * The Witcher 2 - Added Steamcloud info
 =2012/7/11=
 New Windows Games:

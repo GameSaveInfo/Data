@@ -232,7 +232,7 @@
         <path ev="public" />
       </locations>
       <files type="Test">
-        <save />
+        <save filename="*.ini" />
       </files>
       <contributor>The babe with the power</contributor>
     </version>
