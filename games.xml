@@ -4406,6 +4406,18 @@
       <contributor>AvvA</contributor>
     </version>
   </game>
+  <game name="EuropaUniversalis3">
+    <title>Europa Universalis III</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Paradox Interactive\Europa Universalis 3" />
+      </locations>
+      <files type="Saves">
+        <save path="save games" />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="EverlightOfMagicAndPower">
     <title>Everlight: Of Magic and Power</title>
     <version os="Windows">
@@ -6236,6 +6248,18 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="HeroesOfMightAndMagic6">
+    <title>Heroes of Might and Magic VI</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="might and magic heroes 6"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Hinterland">
     <title>Hinterland</title>
     <version os="Windows">
@@ -7545,6 +7569,30 @@
       <contributor>SanMadJack</contributor>
     </version>
   </game>
+  <game name="MLB2K9">
+    <title>Major League Baseball 2K9</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="2K Sports\MLB 2k9"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
+  <game name="MLB2K11">
+    <title>Major League Baseball 2K11</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="2K Sports\MLB 2k11"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
+  </game>
   <game name="Manhunt">
     <title>Manhunt</title>
     <version os="Windows">
@@ -8273,6 +8321,16 @@
   </game>
   <game name="Minecraft">
     <title>Minecraft</title>
+    <version>
+      <locations>
+        <path ev="appdata" path=".minecraft"/>
+        <path ev="userprofile" path=".minecraft" />
+      </locations>
+      <files type="Saves">
+        <save path="saves" />
+      </files>
+      <contributor>SanMadJack</contributor>
+    </version>
     <version os="Android">
       <locations>
         <path ev="drive" path="games\com.mojang\minecraftWorlds"/>
@@ -8558,6 +8616,18 @@
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="NBA2K11">
+    <title>NBA 2K11</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="2K Sports\NBA 2k11"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="NavalWarfare">
@@ -13426,6 +13496,18 @@
         <save/>
       </files>
       <contributor>slake_jones</contributor>
+    </version>
+  </game>
+  <game name="Tropico4" follows="Tropico3">
+    <title>Tropico 4</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="tropico 4"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>SanMadJack</contributor>
     </version>
   </game>
   <game name="TrueCrimeStreetsOfLA">
