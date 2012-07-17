@@ -1,16 +1,31 @@
 New Windows Games:
+* AI War: Fleet Command
+* Armada 2526
+* Assassin's Creed: Revelations
+* Cities XL
+* Conflict: Denied Ops
 * Crusader Kings II
 * Endless Space
+* Escape Goat
 * Europa Universalis III
+* Harvest: Massive Encounter
 * Heroes of Might and Magic VI
+* Insanely Twisted Shadow Planet
 * Katawa Shoujo
 * Major League Baseball 2K9
 * Major League Baseball 2K10
 * Major League Baseball 2K11
 * Minecraft
 * NBA 2K11
+* Puzzle Quest: Galactrix
+* Realflight G5
+* Rogue Trooper
+* Savage 2
+* Shoot Many Robots
 * Tropico 4
+* Virtual Families
 Updated Windows Games:
+* Darwinia - Added XP path
 * Gemini Rue - Added GoG info
 * Uplink - Added GoG info
 * The Witcher 2 - Added Steamcloud info

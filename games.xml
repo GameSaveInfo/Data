@@ -91,7 +91,7 @@
       <files type="Settings">
         <save path="System" filename="My*.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AfterfallInsanity">
@@ -149,7 +149,7 @@
         <save path="savegame" filename="*.rec"/>
         <save path="savegame" filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="AgeOfMythologyTheTitansExpansion" for="AgeOfMythology">
@@ -162,7 +162,7 @@
         <save path="Savegame" filename="*.rcx"/>
         <save path="Savegame" filename="*.svx"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="AgeOfWonders">
@@ -179,7 +179,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AIMRacing">
@@ -194,6 +194,18 @@
         </save>
       </files>
       <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="AIWarFleetCommand">
+    <title>AI War: Fleet Command</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="ai war fleet command"/>
+      </locations>
+      <files type="Saves">
+        <save path="Save" />
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AlanWake">
@@ -217,7 +229,7 @@
       <files type="Settings">
         <save filename="*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AlanWakesAmericanNightmare" follows="AlanWake">
@@ -241,7 +253,7 @@
       <files type="Settings">
         <save filename="*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Alice">
@@ -257,7 +269,7 @@
       <files type="Settings">
         <save path="Base" filename="*.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AliceMadnessReturns" follows="Alice">
@@ -329,7 +341,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="Reloaded">
       <title>Alien Shooter 2: Reloaded</title>
@@ -352,7 +364,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AliensVsPredator2">
@@ -368,7 +380,7 @@
         <save path="Profiles"/>
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AliensVsPredator2010" follows="AliensVsPredator2">
@@ -396,7 +408,7 @@
         <save path="Profiles"/>
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="AlienSwarm">
@@ -422,7 +434,7 @@
       <files type="Saves">
         <save filename="SAVE?.ITD"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AloneInTheDark2" follows="AloneInTheDark">
@@ -436,7 +448,7 @@
       <files type="Saves">
         <save filename="SAVE?.ITD"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AloneInTheDark3" follows="AloneInTheDark2">
@@ -450,7 +462,7 @@
       <files type="Saves">
         <save path="SAVE??" filename="SAVE?.ITD"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AloneInTheDarkTheNewNightmare" follows="AloneInTheDark3">
@@ -464,7 +476,7 @@
       <files type="Saves">
         <save filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AlphaCentauri">
@@ -491,7 +503,7 @@
       <files type="Settings">
         <save filename="Alpha Centauri.Ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AlphaProtocol">
@@ -511,7 +523,7 @@
     <title>Alter Echo</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20465" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AlternativA">
@@ -552,7 +564,7 @@
       <files type="Saves">
         <save filename="Saved_*.bin"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AmnesiaTheDarkDescent">
@@ -579,7 +591,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AndYetItMoves">
@@ -591,7 +603,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AngelsOnline">
@@ -676,7 +688,7 @@
       <files type="Saves">
         <save filename="player*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Aquanox2" follows="Aquanox">
@@ -691,7 +703,7 @@
       <files type="Settings">
         <save filename="Config.txt"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Aquaria">
@@ -747,7 +759,7 @@
       <files type="Saves">
         <save path="modules\Arcanum\Save" filename="*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ARES">
@@ -791,6 +803,30 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="Armada2526">
+    <title>Armada 2526</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Armada 2526"/>
+      </locations>
+      <files type="Saves">
+        <save filename="*.2526sav" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <expansion name="Armada2526Supernova" for="Armada2526">
+    <title>Armada 2526: Supernocva</title>
+    <version os="Windows">
+      <locations>
+        <parent name="Armada2526" append="Supernova"/>
+      </locations>
+      <files type="Saves">
+        <save filename="*.2526sav" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </expansion>
   <game name="ArmedForcesCorps">
     <title>Armed Forces Corps</title>
     <version os="Windows">
@@ -815,14 +851,14 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AssassinsCreed">
     <title>Assassin's Creed</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30089" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -855,6 +891,15 @@
   </game>
   <game name="AssassinsCreedRevelations" follows="AssassinsCreedBrotherhood">
     <title>Assassin's Creed: Revelations</title>
+    <version os="Windows">
+      <locations>
+        <path ev="ubisoftsavestorage" path="40"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
     <version os="PS3" region="EU">
       <ps_code prefix="BLES" suffix="01384" type="Saves"/>
       <contributor>AdmiringWorm</contributor>
@@ -1015,7 +1060,7 @@
         <save filename="Baldur.ini"/>
       </files>
       <comment>Also archives expansion saves</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BaldursGate2" follows="BaldursGate">
@@ -1037,7 +1082,7 @@
         <save filename="baldur.ini"/>
       </files>
       <comment>Also archives expansion saves</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Ball">
@@ -1070,7 +1115,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BatmanArkhamAsylum">
@@ -1144,7 +1189,7 @@
     <title>Battlefield: Bad Company</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30118" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BattlefieldBadCompany2" follows="BattlefieldBadcompany">
@@ -1168,7 +1213,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BattleForWesnoth">
@@ -1180,7 +1225,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BattleLA">
@@ -1218,7 +1263,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Bejeweled2Deluxe" follows="BejeweledDeluxe">
@@ -1248,7 +1293,7 @@
         <save path="userdata"/>
       </files>
       <identifier path="userdata"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BeneathASteelSky">
@@ -1261,7 +1306,7 @@
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBENEATH" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Beneath a Steel Sky\Beneath a Steel Sky.lnk" detract="ScummVM"/>
       </locations>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BenThereDanThat">
@@ -1276,7 +1321,7 @@
       <files type="Saves">
         <save filename="agssave.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BetOnSoldierBloodSport">
@@ -1300,12 +1345,12 @@
     <title>Beyond Good &amp; Evil</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20763" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUB" suffix="30394" append="-SALLY" type="Profile"/>
       <ps_code prefix="NPUB" suffix="30394" append="-SLOT" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -1322,7 +1367,7 @@
         <save filename="sally.idx"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BeyondZork" follows="Zork3">
@@ -1336,7 +1381,7 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BionicCommandoRearmed">
@@ -1363,7 +1408,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BioShock2" follows="BioShock">
@@ -1388,7 +1433,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BlacklightTangoDown">
@@ -1439,7 +1484,7 @@
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BlackwellDeception" follows="BlackwellConvergence">
@@ -1452,7 +1497,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BlackwellLegacy">
@@ -1467,7 +1512,7 @@
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BlackwellUnbound" follows="BlackwellLegacy">
@@ -1482,14 +1527,14 @@
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BladeKitten">
     <title>BladeKitten</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUB" suffix="30253" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BladeRunner">
@@ -1502,7 +1547,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Blood2TheChosen" follows="OneUnitWholeBlood">
@@ -1517,7 +1562,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BloodBowl">
@@ -1603,7 +1648,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BloodRayne2" follows="BloodRayne">
@@ -1617,7 +1662,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BloodStone007">
@@ -1641,7 +1686,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BookwormAdventureDeluxe">
@@ -1679,14 +1724,14 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Bouncer">
     <title>The Bouncer</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20069" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Braid">
@@ -1698,7 +1743,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -1707,14 +1752,14 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BraveStoryNewTraveler">
     <title>Brave Story: New Traveler</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10279" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BreathOfDeath7">
@@ -1755,7 +1800,7 @@
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD1" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Broken Sword - The Shadow of the Templars\Broken Sword - The Shadow of the Templars\Broken Sword - The Shadow of the Templars.lnk" detract="ScummVM"/>
       </locations>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="DirectorsCut">
       <title>Broken Sword: The Shadow of the Templars - The Director's Cut</title>
@@ -1765,7 +1810,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BrokenSword2" follows="BrokenSword1">
@@ -1778,7 +1823,7 @@
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD2" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Broken Sword II - The Smoking Mirror\Broken Sword II - The Smoking Mirror.lnk" detract="ScummVM"/>
       </locations>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="Remastered">
       <title>Broken Sword II: The Smoking Mirror - Remastered</title>
@@ -1791,7 +1836,7 @@
       <files type="Settings">
         <save filename="settings.bin"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BrokenSword3TheSleepingDragon" follows="BrokenSword2">
@@ -1805,7 +1850,7 @@
       <files type="Saves">
         <save path="saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BrokenSword4TheAngelOfDeath" follows="BrokenSword3TheSleepingDragon">
@@ -1817,14 +1862,14 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="BrutalLegend">
     <title>Brütal Legend</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30330" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Bulletstorm">
@@ -1934,7 +1979,7 @@
       <files type="Saves">
         <save path="players\profiles"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="CallOfDutyBlackOps" follows="CallOfDutyWorldAtWar">
@@ -2055,14 +2100,14 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Catan">
     <title>Catan</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUB" suffix="30236" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="CaveStoryPlus">
@@ -2074,7 +2119,7 @@
       <files type="Profile">
         <save filename="Profile.dat"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Ceville">
@@ -2103,7 +2148,7 @@
         <save path="Save"/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Chime">
@@ -2151,7 +2196,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ChroniclesOfRiddickEscapeFromButcherBay">
@@ -2163,7 +2208,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ChronoCross" follows="ChronoTrigger">
@@ -2171,14 +2216,14 @@
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="01041" type="Saves" disc="1"/>
       <ps_code prefix="SLUS" suffix="01080" type="Saves" disc="2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ChronoTrigger">
     <title>Chrono Trigger</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="01363" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <mod name="CinematicMod10HL2" for="HalfLife2">
@@ -2190,7 +2235,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </mod>
   <mod name="CinematicMod10HL2Ep1" for="HalfLife2EpisodeOne">
@@ -2202,7 +2247,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </mod>
   <mod name="CinematicMod10HL2Ep2" for="HalfLife2EpisodeTwo">
@@ -2214,7 +2259,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </mod>
   <game name="CitiesInMotion">
@@ -2234,6 +2279,18 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="CitiesXL">
+    <title>Cities XL</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Monte Cristo\Cities XL"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="Civilization">
     <title>Sid Meier's Civilization</title>
     <version os="Windows">
@@ -2244,7 +2301,7 @@
       <files type="Saves">
         <save filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Civilization2" follows="Civilization">
@@ -2258,7 +2315,7 @@
       <files type="Saves">
         <save filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="TestOfTime">
       <title>Sid Meier's Civilization II: Test of Time</title>
@@ -2269,7 +2326,7 @@
       <files type="Saves">
         <save filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Civilization3" follows="Civilization2">
@@ -2285,7 +2342,7 @@
       <files type="Settings">
         <save filename="Civilization3.Ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="Civilization3Conquests" for="Civilization3">
@@ -2302,7 +2359,7 @@
       <files type="Settings">
         <save filename="conquests.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <expansion name="Civilization3PlayTheWorld" for="Civilization3">
@@ -2319,7 +2376,7 @@
         <save filename="ptw.ini"/>
       </files>
       <identifier path="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="Civilization4" follows="Civilization3">
@@ -2331,7 +2388,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="Civilization4BeyondTheSword" for="Civilization4">
@@ -2343,7 +2400,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="Civilization4Colonization">
@@ -2355,7 +2412,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="Civilization4Warlords" for="Civilization4">
@@ -2367,7 +2424,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="Civilization5" follows="Civilization4">
@@ -2379,7 +2436,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -2389,14 +2446,14 @@
         <save path="ModdedSaves"/>
         <save path="Saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="CivilizationRevolution">
     <title>Sid Meier's Civilization: Revolution</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30130" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ClassicCarRacing">
@@ -2459,7 +2516,7 @@
       <files type="Saves">
         <save filename="playerInfo.dat"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Colonization">
@@ -2482,7 +2539,7 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="CommandAndConquer3KanesWrath" for="CommandAndConquer3TiberiumWars">
@@ -2538,7 +2595,7 @@
       <files type="Statistics">
         <save filename="SkirmishStats.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="CommandAndConquerGeneralsZeroHour" for="CommandAndConquerGenerals">
@@ -2601,7 +2658,19 @@
         <save filename="settings.cfg"/>
       </files>
       <identifier path="Save"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="ConflictDeniedOps">
+    <title>Conflict Denied Ops</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Eidos\ConflictDeniedOps"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="CorsixTH">
@@ -2627,7 +2696,7 @@
         <save path="SAVE"/>
       </files>
       <identifier path="SAVE"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="CounterStrikeConditionZeroDeletedScenes" for="CounterStrikeConditionZero">
@@ -2640,7 +2709,7 @@
         <save path="SAVE"/>
       </files>
       <identifier path="SAVE"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="CrayonPhysicsDeluxe">
@@ -2664,14 +2733,14 @@
       <files type="Saves">
         <save path="save games" />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="CrisisCoreFinalFantasy7">
     <title>Crisis Core: Final Fantasy VII</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10336" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Cryostasis">
@@ -2687,7 +2756,7 @@
         <save path="Data\Save"/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Crysis">
@@ -2700,7 +2769,7 @@
         <save path="Profiles"/>
         <save path="SaveGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Crysis2" follows="CrysisWarhead">
@@ -2752,7 +2821,7 @@
       <files type="Saves">
         <save filename="*.DAT"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="CSIHardEvidence">
@@ -2827,7 +2896,7 @@
       </files>
       <identifier filename="*.cbs"/>
       <comment>Checks for saves in Documents\Cyberstorm and Alt. Save Paths</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Cyberstorm2" follows="Cyberstorm">
@@ -2842,7 +2911,7 @@
       </files>
       <identifier filename="*.cbs"/>
       <comment>Checks for saves in Documents\Cyberstorm 2 and Alt. Save Paths</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Daikatana">
@@ -2870,21 +2939,21 @@
       <files type="Saves">
         <save path="prog\data\Mousechief\RPBG\DHSGiT_v1_0_0"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DarkCloud">
     <title>Dark Cloud</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97111" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DarkCloud2" follows="DarkCloud">
     <title>Dark Cloud 2</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97213" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DarkestOfDays">
@@ -2910,7 +2979,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DarkFallTheJournal">
@@ -2922,7 +2991,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DarkHorizon">
@@ -2950,14 +3019,14 @@
         <save path="mm\SAVE"/>
       </files>
       <identifier path="mm\SAVE"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Darkness">
     <title>The Darkness</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30035" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Darkness2" follows="Darkness">
@@ -3012,7 +3081,7 @@
       <files type="Saves">
         <save filename="DarkScavenger_Dellida.sol"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DarkSector">
@@ -3063,7 +3132,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Darkstone">
@@ -3101,6 +3170,7 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Darwinia" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Saved Games\Darwinia" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
         <save path="users"/>
@@ -3116,7 +3186,7 @@
     <title>Daxter</title>
     <version os="PSP" region="USA">
       <ps_code prefix="UCUS" suffix="98618" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DeadIsland">
@@ -3135,7 +3205,7 @@
     <title>Dead Nation</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80358" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DeadRising2">
@@ -3154,7 +3224,7 @@
     <title>Dead Space</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30177" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -3187,7 +3257,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DeathToSpiesMomentOfTruth">
@@ -3258,7 +3328,7 @@
       <files type="Settings">
         <save filename="*.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DepthHunter">
@@ -3292,11 +3362,11 @@
       <files type="Settings">
         <save filename="DESCENT.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="00037" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Descent2" follows="Descent">
@@ -3321,7 +3391,7 @@
         <save filename="DESCENT.CFG"/>
       </files>
       <comment>Includes Descent II: The Vertigo Series</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Descent3" follows="Descent2">
@@ -3342,7 +3412,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DescentFreeSpaceTheGreatWar">
@@ -3357,14 +3427,14 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DescentMaximum" follows="Descent">
     <title>Descent: Maximum</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="00460" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Desperados">
@@ -3377,7 +3447,7 @@
       <files type="Saves">
         <save path="Game\Data\Savegame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Desperados2" follows="Desperados">
@@ -3404,7 +3474,7 @@
         <save filename="*.dat"/>
         <save filename="SAVE*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DeusEx">
@@ -3412,7 +3482,7 @@
     <version os="PS2" region="USA">
       <title>Deus Ex: The Conspiracy</title>
       <ps_code prefix="SLUS" suffix="20111" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -3431,7 +3501,7 @@
         <save path="System" filename="*.ini"/>
       </files>
       <identifier path="Save"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <comment>The best game EVER!</comment>
   </game>
@@ -3444,7 +3514,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="DeusExHumanRevolutionTheMissingLink" for="DeusExHumanRevolution">
@@ -3456,7 +3526,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="DeusExInvisibleWar" follows="DeusEx">
@@ -3468,14 +3538,14 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DevilMayCry">
     <title>Devil May Cry</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20216" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DevilMayCry2" follows="DevilMayCry">
@@ -3483,7 +3553,7 @@
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20484" type="Saves" disc="1"/>
       <ps_code prefix="SLUS" suffix="20627" type="Saves" disc="2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DevilMayCry3DantesAwakening" follows="DevilMayCry2">
@@ -3491,14 +3561,14 @@
     <version os="PS2" region="USA" release="SpecialEdition">
       <title>Devil May Cry 3: Dante's Awakening: Special Edition</title>
       <ps_code prefix="SLUS" suffix="21361" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DevilMayCry4" follows="DevilMayCry3DantesAwakening">
     <title>Devil May Cry 4</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30092" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Diablo">
@@ -3526,7 +3596,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="DiabloHellfire" for="Diablo">
@@ -3552,7 +3622,7 @@
       <files type="Saves">
         <save path="user"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DinsCurse">
@@ -3564,14 +3634,14 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DirgeOfCerberusFinalFantasy7">
     <title>Dirge of Cerberus: Final Fantasy VII</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21419" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DiRT">
@@ -3632,21 +3702,21 @@
     <title>Disgaea 2: Cursed Memories</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21397" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DisgaeaHourOfDarkness">
     <title>Disgaea: Hour of Darkness</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20666" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DissidiaFinalFantasy">
     <title>Dissidia: Final Fantasy</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10437" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Divinity2DragonKnightSaga">
@@ -3691,7 +3761,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Doom">
@@ -3729,7 +3799,7 @@
       <files type="Saves">
         <save path="base\savegames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Downfall">
@@ -3772,14 +3842,14 @@
         <save path="Settings" filename="DragonAge.ini"/>
         <save path="Settings" filename="KeyBindings.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DragonQuest8JourneyOfTheCursedKing">
     <title>Dragon Quest VIII: Journey of the Cursed King</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21207" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Dragonshard">
@@ -3796,7 +3866,7 @@
       <files type="Settings">
         <save filename="DND.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Dragonsphere">
@@ -3811,7 +3881,7 @@
         <save filename="DRAG*.SAV"/>
         <save filename="SAVES.DIR"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DreamfallTheLongestJourney" follows="LongestJourney">
@@ -3834,7 +3904,7 @@
       </files>
       <contributor>AdmiringWorm</contributor>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Dreamkiller">
@@ -3927,7 +3997,7 @@
       <files type="Saves">
         <save path="Binaries\Win32" filename="DunDefHeroes.dun "/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DungeonKeeper">
@@ -3961,7 +4031,7 @@
       <files type="Saves">
         <save path="Data\Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="DungeonsAndDragonsDaggerdale">
@@ -4023,7 +4093,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Earth2150" follows="Earth2140">
@@ -4038,7 +4108,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Earth2150LostSouls" follows="Earth2150">
@@ -4053,7 +4123,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Earth2150TheMoonProject" follows="Earth2150LostSouls">
@@ -4068,7 +4138,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Earth2160" follows="Earth2150TheMoonProject">
@@ -4080,7 +4150,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="EarthwormJim3D">
@@ -4095,18 +4165,18 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Echochrome">
     <title>Echochrome</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80134" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PSP" region="USA">
       <ps_code prefix="NPUG" suffix="80135" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Eets">
@@ -4152,7 +4222,7 @@
     <title>The Elder Scrolls IV: Oblivion</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30007" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -4164,7 +4234,7 @@
       <files type="Settings">
         <save filename="*.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ElderScrolls5Skyrim" follows="ElderScrolls4Oblivion">
@@ -4188,7 +4258,7 @@
     <title>Elefunk</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80157" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="EliteForcesWWIIIwoJima">
@@ -4202,7 +4272,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="EmpireEarth">
@@ -4226,7 +4296,7 @@
       <files type="Scenarios">
         <save path="Data\Scenarios"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="EmpireEarth2" follows="EmpireEarth">
@@ -4250,7 +4320,7 @@
       <files type="Scenarios">
         <save path="scenario"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="EmpireEarth2TheArtOfSupremacy" for="EmpireEarth2">
@@ -4274,7 +4344,7 @@
       <files type="Scenarios">
         <save path="scenario*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="EmpireEarth3" follows="EmpireEarth2">
@@ -4295,7 +4365,7 @@
       <files type="Scenarios">
         <save path="scenario"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="EmpireEarthTheArtOfConquest" for="EmpireEarth">
@@ -4319,7 +4389,7 @@
       <files type="Scenarios">
         <save path="Data\Scenarios"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="EmpireTotalWar">
@@ -4331,14 +4401,14 @@
       <files type="Saves">
         <save path="save_games"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="EscapeFromMonkeyIsland">
     <title>Escape From Monkey Island</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20181" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="EschalonBook1">
@@ -4378,14 +4448,26 @@
       <files type="Saves">
         <save />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="EternalSonata">
     <title>Eternal Sonata</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30161" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="EscapeGoat">
+    <title>Escape Goat</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Escape Goat"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Eufloria">
@@ -4415,7 +4497,7 @@
       <files type="Saves">
         <save path="save games" />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="EverlightOfMagicAndPower">
@@ -4447,7 +4529,7 @@
         <save path="DynamicResources\Layouts"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -4464,7 +4546,7 @@
         <save path="Genohunters"/>
         <save path="SaveGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ExodusFromTheEarth">
@@ -4513,7 +4595,7 @@
       <files type="Saves">
         <save filename="LSLOT*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Fable">
@@ -4582,7 +4664,7 @@
       <files type="Saves">
         <save path="DATA\SAVEGAME"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -4599,7 +4681,7 @@
       <files type="Saves">
         <save path="data\SAVEGAME"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -4615,7 +4697,7 @@
       <files type="Settings">
         <save filename="*.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FalloutNewVegas" follows="Fallout3">
@@ -4659,7 +4741,7 @@
         <save path="Profiles"/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FarCry2" follows="FarCry">
@@ -4718,7 +4800,7 @@
       <files type="Settings">
         <save filename="options.lua"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FEAR2ProjectOrigin" follows="FEARFirstEncounterAssaultRecon">
@@ -4730,7 +4812,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FEAR3" follows="FEAR2ProjectOrigin">
@@ -4773,7 +4855,7 @@
       <ps_code prefix="SLUS" suffix="01056" type="Saves" disc="2"/>
       <ps_code prefix="SLUS" suffix="01057" type="Saves" disc="3"/>
       <ps_code prefix="SLUS" suffix="01058" type="Saves" disc="4"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FearEffect2" follows="FearEffect">
@@ -4783,7 +4865,7 @@
       <ps_code prefix="SLUS" suffix="01275" type="Saves" disc="2"/>
       <ps_code prefix="SLUS" suffix="01276" type="Saves" disc="3"/>
       <ps_code prefix="SLUS" suffix="01277" type="Saves" disc="4"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="FEARExtractionPoint" for="FEARFirstEncounterAssaultRecon">
@@ -4800,7 +4882,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="FEARFirstEncounterAssaultRecon">
@@ -4817,7 +4899,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FEARPerseusMandate" follows="FEARFirstEncounterAssaultRecon">
@@ -4834,7 +4916,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FeebleFiles">
@@ -4846,7 +4928,7 @@
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGFEBBLEFILES" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\The Feeble Files\The Feeble Files.lnk" detract="ScummVM"/>
       </locations>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FIFA11">
@@ -4877,35 +4959,35 @@
     <title>Final Fantasy</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10251" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FinalFantasy10" follows="FinalFantasy9">
     <title>Final Fantasy X</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20312" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FinalFantasy10-2" follows="FinalFantasy10">
     <title>Final Fantasy X-2</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20672" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FinalFantasy12" follows="FinalFantasy10">
     <title>Final Fantasy XII</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20963" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FinalFantasy13" follows="FinalFantasy12">
     <title>Final Fantasy XIII</title>
     <version os="PS3" region="USA">
       <ps_code prefix="MRTC" suffix="00003" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FinalFantasy13-2" follows="FinalFantasy13">
@@ -4919,21 +5001,21 @@
     <title>Final Fantasy II</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10263" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FinalFantasy4" follows="FinalFantasy2">
     <title>Final Fantasy IV</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="01360" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FinalFantasy7" follows="FinalFantasy4">
     <title>Final Fantasy VII</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SCUS" suffix="94163" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -4954,7 +5036,7 @@
       <ps_code prefix="SLUS" suffix="00908" type="Saves" disc="2"/>
       <ps_code prefix="SLUS" suffix="00909" type="Saves" disc="3"/>
       <ps_code prefix="SLUS" suffix="00910" type="Saves" disc="4"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FinalFantasy9" follows="FinalFantasy8">
@@ -4964,19 +5046,19 @@
       <ps_code prefix="SLUS" suffix="01295" type="Saves" disc="2"/>
       <ps_code prefix="SLUS" suffix="01296" type="Saves" disc="3"/>
       <ps_code prefix="SLUS" suffix="01297" type="Saves" disc="4"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FinalFantasyTactics">
     <title>Final Fantasy Tactics</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="94221" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PSP" region="USA" release="WarOfTheLions">
       <title>Final Fantasy Tactics: War of the Lions</title>
       <ps_code prefix="ULUS" suffix="10297" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FishTycoon">
@@ -5036,7 +5118,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </mod>
   <game name="FlightControlHD">
@@ -5068,7 +5150,7 @@
     <title>Flow</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80001" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Flower">
@@ -5079,14 +5161,14 @@
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80083" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Folklore">
     <title>Folklore</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98147" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FreedomForce">
@@ -5124,7 +5206,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FreeSpace2" follows="DescentFreeSpaceTheGreatWar">
@@ -5140,14 +5222,14 @@
         <save path="data\players\Multi" filename="*.plr"/>
         <save path="data\players\Single" filename="*.plr"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Frequency">
     <title>Frequency</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97125" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Frogger2">
@@ -5161,7 +5243,7 @@
       <files type="Saves">
         <save path="savedata"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="FrontlinesFuelOfWar">
@@ -5215,7 +5297,7 @@
       </files>
       <identifier filename="fs2_open*"/>
       <comment>Doesn't have a default install folder, so might require an Alt. Install Path.</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Fuel">
@@ -5234,7 +5316,7 @@
     <title>Full Throttle</title>
     <version platform="ScummVM">
       <scummvm name="ft"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -5243,7 +5325,7 @@
       <files type="Saves">
         <save filename="SAVEGAME.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GabrielKnight">
@@ -5257,7 +5339,7 @@
       <files type="Saves">
         <save filename="GKSG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GabrielKnight3" follows="GabrielKnight">
@@ -5271,7 +5353,7 @@
       <files type="Saves">
         <save path="Save Games"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="GalacticCivilizations2DarkAvatar" for="GalacticCivilizations2DreadLords">
@@ -5311,7 +5393,7 @@
       <files type="Settings">
         <save path="files\GOF2\gof2nvidia_v01" filename="gof2_save_options"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GarrysMod">
@@ -5323,7 +5405,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GarshaspTheMonsterSlayer">
@@ -5353,7 +5435,7 @@
       <files type="Settings">
         <save path="WarGame\Config"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GeminiRue">
@@ -5367,7 +5449,7 @@
       <files type="Saves">
         <save filename="agssave.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5394,7 +5476,7 @@
         <save path="SaveGames"/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GhostRecon">
@@ -5491,7 +5573,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Gish">
@@ -5542,7 +5624,7 @@
       <files type="Saves">
         <save filename="gobliins2.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version platform="ScummVM" media="Floppy">
       <locations>
@@ -5553,7 +5635,7 @@
       <files type="Saves">
         <save filename="gobliins2FDD.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GoblinsQuest3" follows="Gobliins2">
@@ -5567,7 +5649,7 @@
       <files type="Saves">
         <save filename="goblins3.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version platform="ScummVM" media="Floppy">
       <locations>
@@ -5578,7 +5660,7 @@
       <files type="Saves">
         <save filename="goblins3FDD.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Godfather">
@@ -5597,21 +5679,21 @@
     <title>God of War</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97399" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GodOfWar2" follows="GodOfWarChainsOfOlympus">
     <title>God of War II</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97481" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GodOfWarChainsOfOlympus" follows="GodOfWar">
     <title>God of War: Chains of Olympus</title>
     <version os="PSP" region="USA">
       <ps_code prefix="UCUS" suffix="98653" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Gothic3">
@@ -5638,7 +5720,7 @@
       <files type="Saves">
         <save path="files\GTA3" filename="GTA3sf*.b"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -5719,7 +5801,7 @@
     <title>Gratuitous Space Battles</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="GratuitousSpaceBattles"/>
+        <path ev="userdocuments" path="My Games\GratuitousSpaceBattles"/>
       </locations>
       <files type="Saves">
         <save filename="*"/>
@@ -5777,7 +5859,7 @@
       <files type="Saves">
         <save filename="*.gsv"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GrotesqueTactics2" follows="GrotesqueTacticsEvilHeroes">
@@ -5847,7 +5929,7 @@
         <save path="Templates"/>
       </files>
       <comment>Backs up skill and weapon templates only</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GuiltyGearX2">
@@ -5859,7 +5941,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="GumboyCrazyAdventures">
@@ -5974,7 +6056,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="HaegemoniaTheSolonHeritage" for="HaegemoniaLegionsOfIron">
@@ -5989,7 +6071,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="HalfLife">
@@ -6002,11 +6084,11 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20066" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -6017,7 +6099,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>Scandalon</contributor>
     </version>
   </game>
@@ -6030,7 +6112,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HalfLife2EpisodeOne" follows="HalfLife2">
@@ -6042,7 +6124,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HalfLife2EpisodeTwo" follows="HalfLife2EpisodeOne">
@@ -6054,7 +6136,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HalfLife2LostCoast" follows="HalfLife2">
@@ -6066,7 +6148,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="HalfLifeBlueShift" for="HalfLife">
@@ -6078,7 +6160,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>Scandalon</contributor>
     </version>
   </expansion>
@@ -6091,7 +6173,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>Scandalon</contributor>
     </version>
   </expansion>
@@ -6104,7 +6186,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HardReset">
@@ -6131,7 +6213,7 @@
       <files type="Saves">
         <save filename="*sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HarryPotterAndTheHalfBloodPrince">
@@ -6143,7 +6225,19 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="HarvestMassiveEncounter">
+    <title>Harvest: Massive Encounter</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="harvest massive encounter"/>
+      </locations>
+      <files type="Saves">
+        <save path="harvestClientData\profiles"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HeartsOfIron2">
@@ -6186,7 +6280,7 @@
     <title>Heavenly Sword</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98132" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HeavyMetalFAKK2">
@@ -6201,7 +6295,7 @@
       <files type="Settings">
         <save path="fakk" filename="config.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Hellforces">
@@ -6233,7 +6327,7 @@
       <files type="Saves">
         <save path="games"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HeroesOfMightAndMagic5">
@@ -6245,7 +6339,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HeroesOfMightAndMagic6">
@@ -6257,7 +6351,7 @@
       <files type="Saves">
         <save />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Hinterland">
@@ -6269,7 +6363,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Hitman2SilentAssassin" follows="HitmanCodename47">
@@ -6286,7 +6380,7 @@
         <save filename="Hitman2.ini"/>
         <save filename="Keyboard.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HitmanBloodMoney" follows="HitmanContracts">
@@ -6298,7 +6392,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HitmanCodename47">
@@ -6311,7 +6405,7 @@
       <files type="Saves">
         <save filename="Hitman.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HitmanContracts" follows="Hitman2SilentAssassin">
@@ -6328,7 +6422,7 @@
         <save filename="HitmanContracts.cfg"/>
         <save filename="HitmanContracts.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Homeworld">
@@ -6343,7 +6437,7 @@
       <files type="Saves">
         <save path="SavedGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Homeworld2" follows="Homeworld">
@@ -6358,7 +6452,7 @@
       <files type="Saves">
         <save path="Bin\Profiles"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="HomeworldCataclysm" for="Homeworld">
@@ -6373,7 +6467,7 @@
       <files type="Saves">
         <save path="SavedGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="HospitalTycoon">
@@ -6385,7 +6479,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="HuntedTheDemonsForge">
@@ -6412,7 +6506,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="IcewindDale">
@@ -6434,7 +6528,7 @@
         <save filename="icewind.ini"/>
       </files>
       <comment>Also archives expansion saves</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="IcewindDale2" follows="IcewindDale">
@@ -6455,18 +6549,18 @@
         <save filename="icewind2.ini"/>
       </files>
       <comment>Also archives expansion saves</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Ico">
     <title>Ico</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97113" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98259" append="_ICO" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="IcyTower">
@@ -6517,7 +6611,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="IncredibleMachine3">
@@ -6530,7 +6624,7 @@
         <save filename="TIM*.SAV"/>
       </files>
       <identifier filename="TIM*.SAV"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="IncredibleMachineEvenMoreContraptions">
@@ -6544,7 +6638,7 @@
       <files type="Saves">
         <save path="Saved Games"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="IndependenceWar">
@@ -6561,7 +6655,7 @@
       <files type="Saves">
         <save path="psg" filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="IndependenceWar2" follows="IndependenceWar">
@@ -6578,7 +6672,7 @@
       <files type="Saves">
         <save path="saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="IndependenceWarDefiance" for="IndependenceWar">
@@ -6590,14 +6684,14 @@
       <files type="Saves">
         <save path="psg" filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="IndigoProphecy">
     <title>Indigo Prophecy</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21196" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -6617,7 +6711,7 @@
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98119" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Infernal">
@@ -6630,6 +6724,18 @@
         <save path="game\AutoSave!"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
+    </version>
+  </game>
+  <game name="InsanelyTwistedShadowPlanet">
+    <title>Insanely Twisted Shadow Planet</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Insanely Twisted Shadow Planet"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="InsaniquariumDeluxe">
@@ -6671,7 +6777,7 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Ishar2" follows="Ishar">
@@ -6685,7 +6791,7 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Ishar3" follows="Ishar2">
@@ -6699,7 +6805,7 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="JackInTheDark">
@@ -6713,7 +6819,7 @@
       <files type="Saves">
         <save filename="SAVE?.ITD"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="JackKeane">
@@ -6741,7 +6847,7 @@
       <files type="Settings">
         <save filename="*.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="JaggedAlliance2">
@@ -6754,47 +6860,47 @@
       <files type="Saves">
         <save path="SavedGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Jak2" follows="JakAndDaxterPrecursorLegacy">
     <title>Jak II</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97265" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98281" append="_NPWR01819" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Jak3" follows="Jak2">
     <title>Jak 3</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97330" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98281" append="_NPWR01820" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="JakAndDaxterPrecursorLegacy">
     <title>Jak and Daxter: The Precursor Legacy</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97124" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98281" append="_NPWR01818" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="JakXCombatRacing" follows="Jak3">
     <title>Jak X: Combat Racing</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97429" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Jamestown">
@@ -6813,14 +6919,14 @@
     <title>Jeanne D'Arc</title>
     <version os="PSP" region="USA">
       <ps_code prefix="UCUS" suffix="98700" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Jeopardy">
     <title>Jeopardy!</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80227" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Jericho">
@@ -6846,14 +6952,14 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Journey">
     <title>Journey</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80275" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="JudgeDreddDreddVsDeath">
@@ -6871,7 +6977,7 @@
         <save path="save*"/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="JurassicParkTheGame">
@@ -6931,7 +7037,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KaptainBraweEP1">
@@ -6958,14 +7064,14 @@
       <files type="Saves">
         <save />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Killer7">
     <title>Killer 7</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21154" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingArthur">
@@ -6996,21 +7102,21 @@
     <title>Kingdom Hearts</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20370" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingdomHearts2" follows="KingdomHeartsReChainOfMemories">
     <title>Kingdom Hearts II</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21005" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingdomHeartsReChainOfMemories" follows="KingdomHearts">
     <title>Kingdom Hearts: Re: Chain of Memories</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21799" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingdomsOfAmalurReckoning">
@@ -7041,7 +7147,7 @@
     <title>King's Quest</title>
     <version platform="ScummVM">
       <scummvm name="kq1"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -7052,14 +7158,14 @@
       <files type="Saves">
         <save filename="KQ1SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingsQuest2" follows="KingsQuest">
     <title>King's Quest II: Romancing the Throne</title>
     <version platform="ScummVM">
       <scummvm name="kq2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -7070,14 +7176,14 @@
       <files type="Saves">
         <save filename="KQ2SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingsQuest3" follows="KingsQuest2">
     <title>King's Quest III: To Heir is Human</title>
     <version platform="ScummVM">
       <scummvm name="kq3"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -7088,14 +7194,14 @@
       <files type="Saves">
         <save filename="KQ3SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingsQuest4" follows="KingsQuest3">
     <title>King's Quest 4: The Perils of Rosella</title>
     <version platform="ScummVM">
       <scummvm name="kq4sci"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -7106,14 +7212,14 @@
       <files type="Saves">
         <save filename="KQ4SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingsQuest5" follows="KingsQuest4">
     <title>King's Quest 5: Absence Makes the Heart Go Yonder</title>
     <version platform="ScummVM" media="CD">
       <scummvm name="kq5-cd"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -7124,14 +7230,14 @@
       <files type="Saves">
         <save filename="KQ5SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingsQuest6" follows="KingsQuest5">
     <title>King's Quest 6: Heir Today, Gone Tomorrow</title>
     <version platform="ScummVM" media="CD">
       <scummvm name="kq6-cd"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -7142,7 +7248,7 @@
       <files type="Saves">
         <save filename="KQ6SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingsQuest7" follows="KingsQuest6">
@@ -7156,7 +7262,7 @@
       <files type="Saves">
         <save filename="KQ7CDSG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="KingsQuest8" follows="KingsQuest7">
@@ -7170,7 +7276,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="LANoire">
@@ -7199,7 +7305,7 @@
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="LastExpress">
@@ -7213,7 +7319,7 @@
       <files type="Saves">
         <save filename="BLUE.EGG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="LastRemnant">
@@ -7260,7 +7366,7 @@
     <title>Lemmings</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80012" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Limbo">
@@ -7297,7 +7403,7 @@
       <files type="Saves">
         <save filename="*.LBA"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="LittleBigAdventure2" follows="LittleBigAdventure">
@@ -7311,7 +7417,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Loki">
@@ -7335,7 +7441,7 @@
       <files type="Saves">
         <save path="Local Store\Lone Survivor Saved Game"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -7362,7 +7468,7 @@
         <save filename="Preferences.ini"/>
       </files>
       <identifier path="Save"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="LordOfTheRingsTheReturnOfTheKing">
@@ -7374,7 +7480,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="LostHorizon">
@@ -7460,14 +7566,14 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="LuminesSupernova">
     <title>Lumines Supernova</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUB" suffix="30048" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="LureOfTheTemptress">
@@ -7479,7 +7585,7 @@
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGLURE" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Lure of the Temptress\Lure of the Temptress.lnk"/>
       </locations>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Machinarium">
@@ -7518,7 +7624,7 @@
         <save path="savegame"/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Mafia2" follows="Mafia">
@@ -7554,7 +7660,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Majesty2">
@@ -7566,7 +7672,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MLB2K9">
@@ -7578,7 +7684,7 @@
       <files type="Saves">
         <save />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MLB2K11">
@@ -7590,7 +7696,7 @@
       <files type="Saves">
         <save />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Manhunt">
@@ -7645,7 +7751,7 @@
       <files type="Saves">
         <save filename="*.GAM"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MassEffect">
@@ -7668,7 +7774,7 @@
     <title>Mass Effect 2</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30650" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -7727,7 +7833,7 @@
       <files type="Settings">
         <save filename="CONFIG.MOO"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MasterOfOrion2" follows="MasterOfOrion">
@@ -7743,7 +7849,7 @@
       <files type="Saves">
         <save filename="SAVE*.GAM"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MatrixPathOfNeo">
@@ -7757,7 +7863,7 @@
       <files type="Saves">
         <save path="saved"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MaxPayne">
@@ -7798,7 +7904,7 @@
       <files type="Settings">
         <save filename="MDK.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MDK2" follows="MDK">
@@ -7815,7 +7921,7 @@
       <files type="Settings">
         <save path="save" filename="*.lua"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MeanStreets">
@@ -7829,7 +7935,7 @@
       <files type="Saves">
         <save filename="*.GAM"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MechCommander">
@@ -7843,7 +7949,7 @@
       <files type="Saves">
         <save path="data\savegame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MechCommander2" follows="MechCommander">
@@ -7860,7 +7966,7 @@
       <files type="Settings">
         <save filename="*.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MechWarrior2">
@@ -7880,7 +7986,7 @@
         <save filename="MW2PRM.CFG"/>
         <save filename="MW2REG.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="TitaniumEdition">
       <title>MechWarrior 2: 31st Century Combat: Titanium Edition</title>
@@ -7900,7 +8006,7 @@
         <save filename="MW2PRM.CFG"/>
         <save filename="MW2REG.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="MechWarrior2GhostBearsLegacy" for="MechWarrior2">
@@ -7920,7 +8026,7 @@
         <save filename="MW2PRM.CFG"/>
         <save filename="MW2REG.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="TitaniumEdition">
       <title>MechWarrior 2: Ghost Bear's Legacy: Titanium Edition</title>
@@ -7939,7 +8045,7 @@
         <save filename="MW2PRM.CFG"/>
         <save filename="MW2REG.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="MechWarrior2Mercenaries" follows="MechWarrior2">
@@ -7959,7 +8065,7 @@
         <save filename="MW2PRM.CFG"/>
         <save filename="MW2REG.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="TitaniumEdition">
       <title>MechWarrior 2: Mercenaries: Titanium Edition</title>
@@ -7979,7 +8085,7 @@
         <save filename="MW2PRM.CFG"/>
         <save filename="MW2REG.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MechWarrior3" follows="MechWarrior2Mercenaries">
@@ -7999,7 +8105,7 @@
       <files type="Settings">
         <save path="Keys"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="MechWarrior3PiratesMoon" for="MechWarrior3">
@@ -8017,7 +8123,7 @@
       <files type="Settings">
         <save path="Keys"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <expansion name="MechWarrior4BlackKnight" for="MechWarrior4Vengeance">
@@ -8037,7 +8143,7 @@
         <save filename="optionsx.ini"/>
       </files>
       <identifier filename="optionsx.ini"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="MechWarrior4Mercenaries" follows="MechWarrior4Vengeance">
@@ -8053,7 +8159,7 @@
       <files type="Saves">
         <save path="RESOURCE\Pilots"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MechWarrior4Vengeance" follows="MechWarrior3">
@@ -8072,7 +8178,7 @@
       <files type="Settings">
         <save filename="options.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MedalOfHonor2010">
@@ -8102,7 +8208,7 @@
       <files type="Settings">
         <save path="preferences"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="Medieval2TotalWarKingdoms" for="Medieval2TotalWar">
@@ -8118,7 +8224,7 @@
       <files type="Settings">
         <save path="preferences"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="Britannia">
       <title>Medieval II: Total War: Kingdoms (Britannia)</title>
@@ -8131,7 +8237,7 @@
       <files type="Settings">
         <save path="preferences"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="Crusades">
       <title>Medieval II: Total War: Kingdoms (Crusades)</title>
@@ -8144,7 +8250,7 @@
       <files type="Settings">
         <save path="preferences"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="Teutonic">
       <title>Medieval II: Total War: Kingdoms (Teutonic)</title>
@@ -8157,7 +8263,7 @@
       <files type="Settings">
         <save path="preferences"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="Megarace">
@@ -8171,7 +8277,7 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Megarace2" follows="Megarace">
@@ -8188,7 +8294,7 @@
       <files type="Statistics">
         <save filename="HALL.DAT"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Megarace3" follows="Megarace2">
@@ -8202,7 +8308,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Messiah">
@@ -8219,7 +8325,7 @@
       <files type="Settings">
         <save filename="Messiah.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MetalGearAcid">
@@ -8230,7 +8336,7 @@
     </version>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10006" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MetalGearAcid2" follows="MetalGearAcid">
@@ -8245,7 +8351,7 @@
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="00594" type="Saves" disc="1"/>
       <ps_code prefix="SLUS" suffix="00776" type="Saves" disc="2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MetalGearSolid2" follows="MetalGearSolid">
@@ -8253,7 +8359,7 @@
     <version os="PS2" region="USA" release="Substance">
       <title>Metal Gear Solid 2: Substance</title>
       <ps_code prefix="SLUS" suffix="20554" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MetalGearSolid3" follows="MetalGearSolid2">
@@ -8262,21 +8368,21 @@
       <title>Metal Gear Solid 3: Subsistence</title>
       <ps_code prefix="SLUS" suffix="21243" type="Saves" disc="1"/>
       <ps_code prefix="SLUS" suffix="21359" type="Saves" disc="2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MetalGearSolidPortableOps">
     <title>Metal Gear Solid: Portable Ops</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10202" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MetalGearSolidVRMissions">
     <title>Metal Gear Solid: VR Missions</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="00957" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Metro2033">
@@ -8316,7 +8422,7 @@
       <files type="Saves">
         <save filename="mslot*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Minecraft">
@@ -8329,7 +8435,7 @@
       <files type="Saves">
         <save path="saves" />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Android">
       <locations>
@@ -8338,7 +8444,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MiniNinjas">
@@ -8357,7 +8463,7 @@
     <title>Mirror's Edge</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30179" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -8369,7 +8475,7 @@
       <files type="Settings">
         <save path="TdGame\Config"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MisadventuresOfPBWinterbottom">
@@ -8439,7 +8545,7 @@
     <title>Mortal Combat: Arcade Kollection</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUB" suffix="30468" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Mortyr">
@@ -8465,7 +8571,7 @@
       <files type="Saves">
         <save path="saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MotocrossMadness">
@@ -8479,7 +8585,7 @@
       <files type="Saves">
         <save path="ui\profile"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MountAndBlade">
@@ -8533,7 +8639,7 @@
       </files>
       <identifier filename="*.mys"/>
       <comment>Checks for saves in Documents\Myst and Alt. Save Paths</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Myst3" follows="Riven">
@@ -8549,7 +8655,7 @@
       <files type="Settings">
         <save path="bin" filename="M3prefs.m3p"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Myst4" follows="Myst3">
@@ -8562,7 +8668,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Myst5" follows="Myst4">
@@ -8575,7 +8681,7 @@
         <save filename="progress.db"/>
         <save path="sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <mod name="NamelessMod" for="DeusEx">
@@ -8603,7 +8709,7 @@
       <files type="Saves">
         <save path="save_games "/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="NationRed">
@@ -8627,7 +8733,7 @@
       <files type="Saves">
         <save />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="NavalWarfare">
@@ -8726,7 +8832,7 @@
         <save filename="nwn.ini"/>
         <save filename="nwnplayer.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="NeverwinterNights2" follows="NeverwinterNights">
@@ -8743,7 +8849,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="NightSky">
@@ -8755,7 +8861,7 @@
       <files type="Saves">
         <save filename="Default.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Nikopol">
@@ -8779,7 +8885,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="NinjaBlade">
@@ -8798,7 +8904,7 @@
     <title>No Gravity</title>
     <version os="PSP" region="USA">
       <ps_code prefix="NPUH" suffix="10007" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -8807,7 +8913,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="NoOneLivesForever">
@@ -8825,7 +8931,7 @@
       <files type="Settings">
         <save filename="autoexec.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="NoOneLivesForever2" follows="NoOneLivesForever">
@@ -8842,7 +8948,7 @@
       <files type="Settings">
         <save filename="autoexec.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Normality">
@@ -8856,7 +8962,7 @@
       <files type="Saves">
         <save path="SAVEGAME"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="OddworldAbesExoddus" follows="OddworldAbesOddysee">
@@ -8871,7 +8977,7 @@
       <files type="Saves">
         <save filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -8887,7 +8993,7 @@
       <files type="Saves">
         <save filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -8924,14 +9030,14 @@
     <title>Okage: Shadow King</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97129" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Okami">
     <title>Okami</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21115" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="OmikronTheNomadSoul">
@@ -8944,7 +9050,7 @@
       <files type="Saves">
         <save path="IAM" filename="GAMES"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="OneUnitWholeBlood">
@@ -8961,7 +9067,7 @@
       <files type="Settings">
         <save filename="BLOOD.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Oni">
@@ -8976,7 +9082,7 @@
       <files type="Settings">
         <save filename="key_config.txt"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="OperationFlashpointDragonRising">
@@ -9012,7 +9118,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Osmos">
@@ -9038,7 +9144,7 @@
       <files type="Saves">
         <save path="savegames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Outpost2DividedDestiny">
@@ -9052,7 +9158,7 @@
       <files type="Saves">
         <save filename="*.OP2"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Overlord">
@@ -9095,7 +9201,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PainkillerRedemption" follows="Painkiller">
@@ -9122,7 +9228,7 @@
         <save path="GAMES"/>
         <save path="PLAYERS"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ParasiteEve">
@@ -9130,7 +9236,7 @@
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="00662" type="Saves" disc="1"/>
       <ps_code prefix="SLUS" suffix="00668" type="Saves" disc="2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ParasiteEve2" follows="ParasiteEve">
@@ -9138,14 +9244,14 @@
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="01042" type="Saves" disc="1"/>
       <ps_code prefix="SLUS" suffix="01055" type="Saves" disc="2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Patapon">
     <title>Patapon</title>
     <version os="PSP" region="USA">
       <ps_code prefix="UCUS" suffix="98711" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Path">
@@ -9157,7 +9263,7 @@
       <files type="Saves">
         <save path="userdata"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Pathologic">
@@ -9191,7 +9297,7 @@
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="30005" type="Saves"/>
       <comment>Includes the Peggle Nights PS3 addon</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PeggleDeluxe">
@@ -9207,7 +9313,7 @@
         <save path="userdata" filename="*.sav"/>
       </files>
       <identifier path="userdata"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PeggleExtreme">
@@ -9221,7 +9327,7 @@
         <save path="userdata"/>
       </files>
       <identifier path="userdata"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PeggleNights">
@@ -9237,7 +9343,7 @@
         <save path="userdata"/>
       </files>
       <identifier path="userdata"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PeggleWOWEdition">
@@ -9253,7 +9359,7 @@
         <save path="userdata"/>
       </files>
       <identifier path="userdata"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PennyArcadeAdventures1">
@@ -9268,7 +9374,7 @@
       <files type="Settings">
         <save filename="prefs.cs"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PennyArcadeAdventures2" follows="PennyArcadeAdventures1">
@@ -9283,7 +9389,7 @@
       <files type="Settings">
         <save filename="prefs.cs"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PenumbraBlackPlague" follows="PenumbraOverture">
@@ -9298,7 +9404,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PenumbraOverture">
@@ -9313,7 +9419,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="PenumbraRequiem" for="PenumbraBlackPlague">
@@ -9328,7 +9434,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="Phantasmagoria">
@@ -9342,7 +9448,7 @@
       <files type="Saves">
         <save filename="PHANTSG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Phantasmagoria2APuzzleOfFlesh" follows="Phantasmagoria">
@@ -9356,7 +9462,7 @@
       <files type="Saves">
         <save filename="P2SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Pirates">
@@ -9368,7 +9474,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PlanescapeTorment">
@@ -9384,7 +9490,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Planetfall">
@@ -9398,7 +9504,7 @@
       <files type="Saves">
         <save path="SAVE" filename="*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PlantsVsZombies">
@@ -9436,7 +9542,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PokerNightAtTheInventory">
@@ -9460,7 +9566,7 @@
       <files type="Saves">
         <save path="portal\SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Portal2" follows="Portal">
@@ -9472,7 +9578,7 @@
       <files type="Saves">
         <save path="portal2\SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PortRoyale">
@@ -9502,7 +9608,7 @@
       <files type="Saves">
         <save path="res\SaveGame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Postal2" follows="Postal">
@@ -9518,7 +9624,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="Postal2ApocalypseWeekend" for="Postal2">
@@ -9532,7 +9638,7 @@
       <files type="Saves">
         <save path="AWSave"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="PostMortem">
@@ -9544,7 +9650,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PoundOfGround">
@@ -9584,7 +9690,7 @@
       <files type="Saves">
         <save path="base\savegames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PrimalPrey">
@@ -9601,14 +9707,14 @@
       <files type="Trophies">
         <save filename="trophies.txt"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PrinceOfPersia2008">
     <title>Prince of Persia (2008)</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30214" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -9624,18 +9730,18 @@
     <title>Prince of Persia: The Forgotten Sands</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30401" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PrinceOfPersiaSandsOfTime">
     <title>Prince of Persia: The Sands of Time</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20743" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30754" append="DIRSOT" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -9652,29 +9758,29 @@
       </files>
       <contributor>Caleb Love</contributor>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PrinceOfPersiaTwoThrones" follows="PrinceOfPersiaWarriorWithin">
     <title>Prince of Persia: The Two Thrones</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21287" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30754" append="DIRTT" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PrinceOfPersiaWarriorWithin" follows="PrinceOfPersiaSandsOfTime">
     <title>Prince of Persia: Warrior Within</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21022" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30754" append="DIRWOW" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ProjectBlackSun">
@@ -9701,7 +9807,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Prototype">
@@ -9725,11 +9831,11 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21120" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -9743,7 +9849,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="PuzzleAgent">
@@ -9773,6 +9879,18 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="PuzzleQuestGalactrix" follows="PuzzleQuest2">
+    <title>Puzzle Quest: Galactrix</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Puzzle Quest Galactrix"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="PuzzleQuestChallengeOfTheWarlords">
     <title>Puzzle Quest: Challenge of the Warlords</title>
     <version os="Windows">
@@ -9785,7 +9903,7 @@
       <files type="Statistics">
         <save path="High Scores"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Quake2">
@@ -9813,7 +9931,7 @@
       <files type="Saves">
         <save path="q4base\savegames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Quantz">
@@ -9825,7 +9943,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RACE07">
@@ -9872,14 +9990,14 @@
       <files type="Saves">
         <save path="data"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RagDollKungFuFistsOfPlastic" follows="RagDollKungFu">
     <title>Rag Doll Kung Fu: Fists of Plastic</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80217" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Rage">
@@ -9972,56 +10090,56 @@
       <files type="Saves">
         <save filename="*.FIL"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RatchetClank">
     <title>Ratchet &amp; Clank</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97199" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RatchetClankFutureQuestForBooty" follows="RatchetClankFutureToolsOfDestruction">
     <title>Ratchet &amp; Clank Future: Quest For Booty</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80145" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RatchetClankFutureToolsOfDestruction">
     <title>Ratchet &amp; Clank Future: Tools of Destruction</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98127" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RatchetClankGoingCommando" follows="RatchetClank">
     <title>Ratchet &amp; Clank: Going Commando</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97268" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RatchetClankSizeMatters">
     <title>Ratchet &amp; Clank: Size Matters</title>
     <version os="PSP" region="USA">
       <ps_code prefix="UCUS" suffix="98633" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RatchetClankUpYourArsenal" follows="RatchetClankGoingCommando">
     <title>Ratchet &amp; Clank: Up Your Arsenal</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97353" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RatchetDeadlocked" follows="RatchetClankUpYourArsenal">
     <title>Ratchet: Deadlocked</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97465" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RatHunter">
@@ -10052,7 +10170,7 @@
       <files type="Settings">
         <save path="Data\Options"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Rayman3" follows="Rayman2">
@@ -10067,7 +10185,7 @@
       <files type="Saves">
         <save path="GAMEDATA\SaveGame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RaymanByHisFans">
@@ -10084,7 +10202,7 @@
       <files type="Settings">
         <save filename="RAYFAN.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RaymanForever">
@@ -10101,7 +10219,7 @@
       <files type="Settings">
         <save filename="RAYMAN.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RaymanOrigins">
@@ -10113,7 +10231,19 @@
       <files type="Saves">
         <save path="Savegame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="RealflightG5">
+    <title>Realflight G5</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="RealFlight G5"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RealmsOfTheHaunting">
@@ -10130,7 +10260,7 @@
       <files type="Settings">
         <save filename="ROTH.INI"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RealMyst">
@@ -10144,7 +10274,7 @@
       <files type="Saves">
         <save path="SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RecettearAnItemShopsTale">
@@ -10172,7 +10302,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RedFaction2" follows="RedFaction">
@@ -10188,7 +10318,7 @@
       <files type="Settings">
         <save filename="rf2_config.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RedFactionArmageddon" follows="RedFactionGuerrilla">
@@ -10207,7 +10337,7 @@
     <title>Red Faction: Guerrilla</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30258" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -10233,7 +10363,7 @@
       <files type="Settings">
         <save filename="*.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="RedneckRampageRidesAgain" for="RedneckRampage">
@@ -10250,7 +10380,7 @@
       <files type="Settings">
         <save filename="*.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="RenegadeOps">
@@ -10277,21 +10407,21 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </mod>
   <game name="ResidentEvil4">
     <title>Resident Evil 4</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21134" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ResidentEvil5" follows="ResidentEvil4">
     <title>Resident Evil 5</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30270" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -10307,21 +10437,21 @@
     <title>Resident Evil: Code Veronica X</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20184" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Resistance2" follows="ResistanceFallOfMan">
     <title>Resistance 2</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98120" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ResistanceFallOfMan">
     <title>Resistance: Fall of Man</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98107" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ReturnOfTheIncredibleMachineContraptions">
@@ -10336,7 +10466,7 @@
       <files type="Saves">
         <save path="Saved Games"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ReturnToCastleWolfenstein" follows="Wolfenstein3D">
@@ -10356,14 +10486,14 @@
         <save path="Main" filename="wolfconfig.cfg"/>
       </files>
       <contributor>Jetsetlemming</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ReturnToZork" follows="Zork0">
     <title>Return To Zork</title>
     <version platform="ScummVM" media="CD">
       <scummvm name="rtz-cd"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -10374,7 +10504,7 @@
       <files type="Saves">
         <save filename="GAME.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RevengeOfTheTitans">
@@ -10407,7 +10537,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Risen2">
@@ -10419,7 +10549,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RiseOfLegends">
@@ -10474,7 +10604,7 @@
       </files>
       <identifier filename="*.rvn"/>
       <comment>Checks for saves in My Documents\Riven and Alt. Save Paths</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RobinsonsRequiem">
@@ -10488,7 +10618,7 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RoboBlitz">
@@ -10503,7 +10633,7 @@
       <files type="Settings">
         <save path="RoboGame\Config" filename="Robo*.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RockOfAges">
@@ -10515,14 +10645,26 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RogueGalaxy">
     <title>Rogue Galaxy</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97490" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="RogueTrooper">
+    <title>Rogue Trooper</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Rogue Trooper"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="RogueWarrior">
@@ -10578,7 +10720,7 @@
       <files type="Settings">
         <save path="preferences"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="RomeTotalWarAlexander" for="RomeTotalWar">
@@ -10594,7 +10736,7 @@
       <files type="Settings">
         <save path="preferences"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <expansion name="RomeTotalWarBarbarianInvasion" for="RomeTotalWar">
@@ -10609,14 +10751,14 @@
       <files type="Settings">
         <save path="preferences"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="RuleOfRose">
     <title>Rule Of Rose</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21448" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Runaway2TheDreamOfTheTurtle" follows="RunawayARoadAdventure">
@@ -10718,7 +10860,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SaintsRow3">
@@ -10737,7 +10879,7 @@
     <title>Sam &amp; Max Hit The Road</title>
     <version platform="ScummVM">
       <scummvm name="samnmax"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -10746,7 +10888,7 @@
       <files type="Saves">
         <save filename="SAVEGAME.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode1" follows="SamAndMaxHitTheRoad">
@@ -10766,7 +10908,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode2" follows="SamAndMaxSeason1Episode1">
@@ -10786,7 +10928,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode3" follows="SamAndMaxSeason1Episode2">
@@ -10806,7 +10948,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode4" follows="SamAndMaxSeason1Episode3">
@@ -10826,7 +10968,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode5" follows="SamAndMaxSeason1Episode4">
@@ -10846,7 +10988,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason1Episode6" follows="SamAndMaxSeason1Episode5">
@@ -10866,7 +11008,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode1" follows="SamAndMaxSeason1Episode6">
@@ -10886,7 +11028,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode2" follows="SamAndMaxSeason2Episode1">
@@ -10906,7 +11048,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode3" follows="SamAndMaxSeason2Episode2">
@@ -10926,7 +11068,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode4" follows="SamAndMaxSeason2Episode3">
@@ -10946,7 +11088,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxSeason2Episode5" follows="SamAndMaxSeason2Episode4">
@@ -10966,7 +11108,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>duncans_pumpkin</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxTheDevilsPlayhouseEpisode1" follows="SamAndMaxSeason2Episode5">
@@ -10983,7 +11125,7 @@
       <files type="Settings">
         <save filename="prefs.prop"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxTheDevilsPlayhouseEpisode2" follows="SamAndMaxTheDevilsPlayhouseEpisode1">
@@ -10995,7 +11137,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxTheDevilsPlayhouseEpisode3" follows="SamAndMaxTheDevilsPlayhouseEpisode2">
@@ -11007,7 +11149,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxTheDevilsPlayhouseEpisode4" follows="SamAndMaxTheDevilsPlayhouseEpisode3">
@@ -11019,7 +11161,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SamAndMaxTheDevilsPlayhouseEpisode5" follows="SamAndMaxTheDevilsPlayhouseEpisode4">
@@ -11031,7 +11173,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Sanctum">
@@ -11048,7 +11190,7 @@
           <except path="SanctumGame\Config" filename="SanctumSave.ini"/>
         </save>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Sanitarium">
@@ -11065,7 +11207,7 @@
       <files type="Saves">
         <save path="SAVES"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SASSecureTomorrow">
@@ -11080,11 +11222,23 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="Savage2">
+    <title>Savage 2: A Tortured Soul</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Savage 2 - A Tortured Soul"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="SavageMoon">
     <title>Savage Moon</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80228" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Saw">
@@ -11137,7 +11291,7 @@
       <files type="Settings">
         <save filename="*.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SecondSight">
@@ -11152,7 +11306,7 @@
       <files type="Saves">
         <save path="profiles"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SecretOfMonkeyIsland">
@@ -11169,7 +11323,7 @@
         <save filename="Settings.ini"/>
       </files>
       <identifier filename="monkey1.bin"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Section8">
@@ -11210,7 +11364,7 @@
       <files type="Saves">
         <save path="savedata"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Sequence">
@@ -11222,7 +11376,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SeriousSam2" follows="SeriousSamTheSecondEncounter">
@@ -11260,7 +11414,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SeriousSamTheSecondEncounter" follows="SeriousSamTheFirstEncounter">
@@ -11290,7 +11444,7 @@
       <files type="Settings">
         <save path="Config" filename="options.txt"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ShadowgroundsSurvivor" follows="Shadowgrounds">
@@ -11305,7 +11459,7 @@
       <files type="Settings">
         <save path="Config" filename="options.txt"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Shadowgun">
@@ -11318,7 +11472,7 @@
         <save path="files" filename="SaveGameSinglePlayer0"/>
       </files>
       <identifier path="files" filename="SaveGameSinglePlayer0"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="ShadowgunTheLeftover" for="Shadowgun">
@@ -11331,7 +11485,7 @@
         <save path="files" filename="SaveGameSinglePlayer1"/>
       </files>
       <identifier path="files" filename="SaveGameSinglePlayer1"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="ShadowHarvestPhantomOps">
@@ -11353,11 +11507,11 @@
     <title>Shadow of the Colossus</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97472" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98259" append="_SOTC" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Shaiya">
@@ -11389,7 +11543,7 @@
     <title>Shatter</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUB" suffix="30091" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ShatteredSteel">
@@ -11406,7 +11560,7 @@
       <files type="Settings">
         <save filename="*.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Shellshock2">
@@ -11421,7 +11575,7 @@
       <files type="Settings">
         <save filename="*.txt"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Ship">
@@ -11451,7 +11605,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ShogunTotalWar">
@@ -11467,18 +11621,30 @@
       <contributor>Mark Barbour</contributor>
     </version>
   </game>
+  <game name="ShootManyRobots">
+    <title>Shoot Many Robots</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Demiurge Studios\Shoot Many Robots"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="SilentHill">
     <title>Silent Hill</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="00707" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SilentHill0rigins">
     <title>Silent Hill: 0rigins</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10285" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SilentHill2" follows="SilentHill">
@@ -11486,37 +11652,37 @@
     <version os="PS2" region="USA" release="GreatestHits">
       <title>Silent Hill 2: Greatest Hits Edition</title>
       <ps_code prefix="SLUS" suffix="20228" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30810" append="_SH2" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SilentHill3" follows="SilentHill2">
     <title>Silent Hill 3</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20622" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30810" append="_SH3C" type="Saves"/>
       <ps_code prefix="BLUS" suffix="30810" append="_SH3OPTN" type="Settings"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SilentHill4Room" follows="SilentHill3">
     <title>Silent Hill 4: The Room</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20873" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SilentHillHomecoming" follows="SilentHill4Room">
     <title>Silent Hill: Homecoming</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30169" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -11532,7 +11698,7 @@
     <title>Silent Hill: Shattered Memories</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21899" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SimCity2000">
@@ -11546,7 +11712,7 @@
       <files type="Saves">
         <save path="Cities" modified_after="1998-04-23T00:00:00"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SimonTheSorcerer">
@@ -11558,7 +11724,7 @@
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSIMON" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Simon the Sorcerer\Simon the Sorcerer.lnk" detract="ScummVM"/>
       </locations>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SimonTheSorcerer2" follows="SimonTheSorcerer">
@@ -11570,7 +11736,7 @@
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSIMON2" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Simon the Sorcerer 2\Simon the Sorcerer 2.lnk" detract="ScummVM"/>
       </locations>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SimonTheSorceror3D" follows="SimonTheSorcerer2">
@@ -11585,7 +11751,7 @@
         <save path="Data" filename="SaveGamesNew.txt"/>
         <save path="Data" filename="SimonSaveGame*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Sims2">
@@ -11636,7 +11802,7 @@
       <files type="Saves">
         <save path="base\players"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SinEpisodesEmergence" follows="Sin">
@@ -11648,7 +11814,7 @@
       <files type="Saves">
         <save path="SE1\SAVE"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Singularity">
@@ -11675,14 +11841,14 @@
       <files type="Settings">
         <save path="Setting"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SlyCooperAndtheThievusRaccoonus">
     <title>Sky Cooper and the Thievus Raccoonus</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SCUS" suffix="97198" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Snajper">
@@ -11742,21 +11908,21 @@
     <title>Soul Blade</title>
     <version os="PS1" region="USA">
       <ps_code prefix="SLUS" suffix="00240" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SoulCalibur3">
     <title>Soul Calibur III</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21216" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SoulCalibur4" follows="SoulCalibur3">
     <title>Soul Calibur IV</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30160" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SpaceChem">
@@ -11768,14 +11934,14 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SpaceQuest">
     <title>Space Quest: The Sarien Encounter</title>
     <version platform="ScummVM">
       <scummvm name="sq1"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -11786,14 +11952,14 @@
       <files type="Saves">
         <save filename="SQSG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SpaceQuest2" follows="SpaceQuest">
     <title>Space Quest II: Vohaul's Revenge and Space Quest</title>
     <version platform="ScummVM">
       <scummvm name="sq2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -11804,14 +11970,14 @@
       <files type="Saves">
         <save filename="SQ2SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SpaceQuest3" follows="SpaceQuest2">
     <title>Space Quest III: The Pirates of Pestulon</title>
     <version platform="ScummVM">
       <scummvm name="sq3"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -11822,14 +11988,14 @@
       <files type="Saves">
         <save filename="SQ3SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SpaceQuest4" follows="SpaceQuest3">
     <title>Space Quest IV: Roger Wilco and the Time Rippers</title>
     <version platform="ScummVM" media="CD">
       <scummvm name="sq4-cd"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -11840,14 +12006,14 @@
       <files type="Saves">
         <save filename="SQ4SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SpaceQuest5" follows="SpaceQuest4">
     <title>Space Quest V: The Next Mutation</title>
     <version platform="ScummVM">
       <scummvm name="sq5"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="DOS">
       <locations>
@@ -11858,7 +12024,7 @@
       <files type="Saves">
         <save filename="SQ5SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SpaceQuest6" follows="SpaceQuest5">
@@ -11872,7 +12038,7 @@
       <files type="Saves">
         <save filename="SQ6SG.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SpaceRangers">
@@ -11887,7 +12053,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -11902,7 +12068,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="Reboot">
       <title>Space Rangers 2: Reboot</title>
@@ -11914,7 +12080,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Spectromancer">
@@ -11926,7 +12092,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SpellForce">
@@ -12101,7 +12267,7 @@
         <save filename="user.ltx"/>
         <save path="savedgames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarControl">
@@ -12115,7 +12281,7 @@
       <files type="Saves">
         <save filename="SAVEGAME.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarControl2" follows="StarControl">
@@ -12129,7 +12295,7 @@
       <files type="Saves">
         <save filename="SAVEGAME.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarControl3" follows="StarControl2">
@@ -12149,7 +12315,7 @@
       <files type="Settings">
         <save filename="LEGEND.INI"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Starcraft">
@@ -12162,7 +12328,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Starcraft2" follows="Starcraft">
@@ -12191,7 +12357,7 @@
       <files type="Saves">
         <save path="PLAY" filename="STAR?.COM"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Starflight2" follows="Starflight">
@@ -12208,7 +12374,7 @@
         <save filename="ORIGINAL.*"/>
         <save filename="STAR*.COM"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Starlancer">
@@ -12223,14 +12389,14 @@
       <files type="Saves">
         <save path="SAVES"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarOceanFirstDeparture">
     <title>Star Ocean: First Departure</title>
     <version os="PSP" region="USA">
       <ps_code prefix="ULUS" suffix="10374" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarOceanTillTheEndOfTime">
@@ -12238,7 +12404,7 @@
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20488" type="Saves" disc="1"/>
       <ps_code prefix="SLUS" suffix="20891" type="Saves" disc="2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Starscape">
@@ -12250,7 +12416,7 @@
       <files type="Saves">
         <save path="data\saves "/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarTopia">
@@ -12276,7 +12442,7 @@
       <files type="Saves">
         <save filename="DARKPILO.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarWarsEmpireAtWar">
@@ -12327,7 +12493,7 @@
       <files type="Saves">
         <save path="player"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarWarsJediKnightJediAcademy" follows="StarWarsJediKnight2JediOutcast">
@@ -12351,7 +12517,7 @@
       <files type="Saves">
         <save path="player"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="StarWarsKnightsOfTheOldRepublic">
@@ -12367,7 +12533,7 @@
         <save path="saves"/>
       </files>
       <contributor>David Barbour</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarWarsKnightsOfTheOldRepublic2TheSithLords" follows="StarWarsKnightsOfTheOldRepublic">
@@ -12393,7 +12559,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StarWarsTheForceUnleashed">
@@ -12432,7 +12598,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SteelStormBurningRetribution">
@@ -12465,7 +12631,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="StreetFighter4">
@@ -12512,14 +12678,14 @@
     <title>Summoner</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20074" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Summoner2" follows="Summoner">
     <title>Summoner 2</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20448" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SuperbrothersSwordAndSorcery">
@@ -12531,7 +12697,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -12543,7 +12709,7 @@
       <files type="Settings">
         <save filename="config.txt"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SuperLaserRacer">
@@ -12571,21 +12737,21 @@
         <save path="UserData"/>
       </files>
       <contributor>Arc Angel</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SuperStardustHD">
     <title>Super Stardust HD</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80068" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SuperStardustPortable">
     <title>Super Stardust Portable</title>
     <version os="PSP" region="USA">
       <ps_code prefix="NPUG" suffix="80221" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SupremeCommander">
@@ -12621,7 +12787,7 @@
       <files type="Settings">
         <save filename="Game.prefs"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="SupremeCommanderForgedAlliance" follows="SupremeCommander">
@@ -12657,7 +12823,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Syberia2" follows="Syberia">
@@ -12669,7 +12835,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Syndicate2012">
@@ -12693,7 +12859,7 @@
       <files type="Saves">
         <save path="save_*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TachyonTheFringe">
@@ -12712,7 +12878,7 @@
       <files type="Settings">
         <save filename="Tachyon.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TalesOfMonkeyIsland1">
@@ -12729,7 +12895,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>AdmiringWorm</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TalesOfMonkeyIsland2" follows="TalesOfMonkeyIsland1">
@@ -12746,7 +12912,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>AdmiringWorm</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TalesOfMonkeyIsland3" follows="TalesOfMonkeyIsland2">
@@ -12762,7 +12928,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>AdmiringWorm</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TalesOfMonkeyIsland4" follows="TalesOfMonkeyIsland3">
@@ -12778,7 +12944,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>AdmiringWorm</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TalesOfMonkeyIsland5" follows="TalesOfMonkeyIsland4">
@@ -12794,7 +12960,7 @@
         <save filename="prefs.prop"/>
       </files>
       <contributor>AdmiringWorm</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TankUniversal">
@@ -12842,7 +13008,7 @@
     <title>Tekken 5</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21059" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TempleOfElementalEvil">
@@ -12863,7 +13029,7 @@
         <save filename="ToEE.cfg"/>
       </files>
       <comment>Also archives expansion saves</comment>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TerminatorSalvation">
@@ -12958,7 +13124,7 @@
         <save path="games"/>
         <save path="players"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TheyreAlive">
@@ -12990,7 +13156,7 @@
         <save filename="user.bnd"/>
         <save filename="USER.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ThiefDeadlyShadows" follows="Thief2">
@@ -13004,7 +13170,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ThiefTheDarkProject">
@@ -13017,7 +13183,7 @@
       <files type="Saves">
         <save path="SAVES"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="Gold">
       <title>Thief Gold</title>
@@ -13028,7 +13194,7 @@
       <files type="Saves">
         <save path="SAVES"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ThrillvilleOffTheRails">
@@ -13057,7 +13223,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TitanQuest">
@@ -13106,7 +13272,7 @@
         <save filename="SAVEGAME.*"/>
       </files>
       <identifier filename="SAVEGAME.*"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TombRaider2" follows="TombRaider">
@@ -13120,7 +13286,7 @@
       <files type="Saves">
         <save filename="savegame.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="TombRaider2TheGoldenMask" for="TombRaider2">
@@ -13135,7 +13301,7 @@
       <files type="Saves">
         <save filename="savegame.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="TombRaider3AdventuresOfLaraCroft" follows="TombRaider2">
@@ -13147,7 +13313,7 @@
       <files type="Saves">
         <save filename="savegame.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="TombRaider3TheLostArtifact" for="TombRaider3AdventuresOfLaraCroft">
@@ -13159,7 +13325,7 @@
       <files type="Saves">
         <save filename="savegame.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="TombRaiderAnniversary" follows="TombRaiderLegend">
@@ -13167,7 +13333,7 @@
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30718" append="-TALIST" type="Saves"/>
       <ps_code prefix="BLUS" suffix="30718" append="-TAPROFILE" type="Profile"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -13176,7 +13342,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TombRaiderChronicles" follows="TombRaiderTheLastRevelation">
@@ -13188,7 +13354,7 @@
       <files type="Saves">
         <save filename="savegame.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TombRaiderLegend" follows="TombRaiderTheAngelOfDarkness">
@@ -13196,11 +13362,11 @@
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30718" append="-T7LIST" type="Saves"/>
       <ps_code prefix="BLUS" suffix="30718" append="-T7PROFILE" type="Profile"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="PSP" region="EU">
       <ps_code prefix="ULES" suffix="00283" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -13209,7 +13375,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TombRaiderTheAngelOfDarkness" follows="TombRaiderChronicles">
@@ -13221,7 +13387,7 @@
       <files type="Saves">
         <save path="SaveGame"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TombRaiderTheLastRevelation" follows="TombRaider3AdventuresOfLaraCroft">
@@ -13233,14 +13399,14 @@
       <files type="Saves">
         <save filename="savegame.*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TombRaiderUnderworld" follows="TombRaiderAnniversary">
     <title>Tomb Raider: Underworld</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30718" append="-SAVE" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -13249,7 +13415,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="TombRaiderUnfinishedBusiness" for="TombRaider">
@@ -13262,7 +13428,7 @@
         <save filename="SAVEUB.*"/>
       </files>
       <identifier filename="SAVEUB.*"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
   <game name="TorchLight">
@@ -13310,7 +13476,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Trackmania2">
@@ -13347,7 +13513,7 @@
       <files type="Statistics">
         <save path="Scores"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TransformersWarForCybertron">
@@ -13386,7 +13552,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Trials2SecondEdition">
@@ -13403,6 +13569,16 @@
   </game>
   <game name="Trine">
     <title>Trine</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Trine"/>
+        <registry root="local_machine" key="SOFTWARE\trine" value="TrinePath"/>
+      </locations>
+      <files type="Saves">
+        <save path="profile" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
     <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="35700"/>
@@ -13410,7 +13586,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Trine2" follows="Trine">
@@ -13439,7 +13615,7 @@
       <files type="Settings">
         <save filename="display.cfg"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TronEvolution">
@@ -13507,7 +13683,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="TrueCrimeStreetsOfLA">
@@ -13524,7 +13700,7 @@
       <files type="Settings">
         <save filename="TrueCrime.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Turok2008">
@@ -13580,7 +13756,7 @@
       <files type="Settings">
         <save filename="TYRIAN.CFG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="UFOAftermath">
@@ -13600,7 +13776,7 @@
     <title>Ultimate Alliance</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30010" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="UltimateDoom">
@@ -13623,7 +13799,7 @@
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BCUS" suffix="98103" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="UnderAKillingMoon" follows="MartianMemorandum">
@@ -13638,7 +13814,7 @@
         <save path="GAMES"/>
         <save path="PLAYERS"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Undying">
@@ -13655,7 +13831,7 @@
       <files type="Settings">
         <save path="System" filename="*.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="UniverseAtWarEarthAssault">
@@ -13688,7 +13864,7 @@
       <files type="Settings">
         <save path="System" filename="*.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Unreal2" follows="Unreal">
@@ -13709,14 +13885,14 @@
       <files type="Settings">
         <save path="System" filename="*.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="UnrealTournament">
     <title>Unreal Tournament</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20034" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -13734,7 +13910,7 @@
           <except path="System" filename="User.ini"/>
         </save>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="UnrealTournament2004" follows="UnrealTournament">
@@ -13754,14 +13930,14 @@
       <files type="Settings">
         <save path="System" filename="*.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="UnrealTournament3" follows="UnrealTournament2004">
     <title>Unreal Tournament III</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30086" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -13773,7 +13949,7 @@
       <files type="Settings">
         <save path="UTGame\Config"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Uplink">
@@ -13797,7 +13973,7 @@
       <files type="Settings">
         <save path="users" filename="options"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -13830,7 +14006,7 @@
       <files type="Saves">
         <save path="sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ValkyriaChronicles">
@@ -13841,7 +14017,7 @@
     </version>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30196" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="VampireTheMasqueradeBloodlines">
@@ -13857,7 +14033,7 @@
         <save path="Vampire\SAVE"/>
       </files>
       <contributor>Samuel Barbour</contributor>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="VampireTheMasqueradeRedemption">
@@ -13871,7 +14047,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="VelvetAssassin">
@@ -13912,7 +14088,7 @@
         <save path="Save"/>
       </files>
       <identifier filename="Data.rez"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="VigilBloodBitterness">
@@ -13927,6 +14103,18 @@
         <save path="Vigil\Profiles"/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="VirtualFamilies">
+    <title>Virtual Families</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="LDW\Virtual Families"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Vivisector">
@@ -13976,7 +14164,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WalkingDead">
@@ -14000,7 +14188,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WallaceAndGrommitsGrandAdventures2" follows="WallaceAndGrommitsGrandAdventures1">
@@ -14012,7 +14200,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WallaceAndGrommitsGrandAdventures3" follows="WallaceAndGrommitsGrandAdventures2">
@@ -14024,7 +14212,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WallaceAndGrommitsGrandAdventures4" follows="WallaceAndGrommitsGrandAdventures3">
@@ -14036,7 +14224,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WantedWeaponsOfFate">
@@ -14190,7 +14378,7 @@
     <title>Wet</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30403" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Wheelman">
@@ -14209,7 +14397,7 @@
     <title>Wheel of Fortune</title>
     <version os="PS3" region="USA">
       <ps_code prefix="NPUA" suffix="80137" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WhisperedWorld">
@@ -14235,7 +14423,7 @@
       <files type="Saves">
         <save path="GAMEDAT" filename="SAVEGAME.WLD"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WingCommander2" follows="WingCommander">
@@ -14249,7 +14437,7 @@
       <files type="Saves">
         <save path="GAMEDAT" filename="SAVEGAME.WC2"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WingCommander3" follows="WingCommander2">
@@ -14263,7 +14451,7 @@
       <files type="Saves">
         <save filename="*.WSG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WingCommander4" follows="WingCommander3">
@@ -14277,7 +14465,7 @@
       <files type="Saves">
         <save filename="*.WSG"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WingCommanderPrivateer">
@@ -14291,7 +14479,7 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="WingsOfPrey">
@@ -14322,7 +14510,7 @@
       <files type="Saves">
         <save path="saves"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Witcher2" follows="Witcher">
@@ -14349,7 +14537,7 @@
       <files type="Saves">
         <save />
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Wolfenstein" follows="ReturnToCastleWolfenstein">
@@ -14369,7 +14557,7 @@
     <version os="PS3" region="USA">
       <ps_code prefix="NPUB" suffix="30074" append="-PROF" type="Profile"/>
       <ps_code prefix="NPUB" suffix="30074" append="-SAVE" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Wolfschanze2">
@@ -14436,7 +14624,7 @@
       <files type="Teams">
         <save path="Teams"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="X2TheThreat">
@@ -14449,7 +14637,7 @@
       <files type="Saves">
         <save filename="*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="X3AlbionPrelude" follows="X3TerranConflict">
@@ -14473,7 +14661,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="X3TerranConflict" follows="X3Reunion">
@@ -14492,7 +14680,7 @@
     <title>Xenosaga Episode I: Der Wille zur Macht</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20469" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Xenosaga2" follows="Xenosaga">
@@ -14500,7 +14688,7 @@
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20892" type="Saves" disc="1"/>
       <ps_code prefix="SLUS" suffix="21133" type="Saves" disc="2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Xenosaga3" follows="Xenosaga2">
@@ -14508,7 +14696,7 @@
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21389" type="Saves" disc="1"/>
       <ps_code prefix="SLUS" suffix="21417" type="Saves" disc="2"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Xenus2">
@@ -14536,21 +14724,21 @@
       <files type="Saves">
         <save filename="*.x"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="XFilesResistOrServe">
     <title>The X-Files: Resist or Serve</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20179" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="XIII">
     <title>XIII</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20677" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows">
       <locations>
@@ -14564,21 +14752,21 @@
       <files type="Settings">
         <save path="system" filename="XIII.ini"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="XMenLegends">
     <title>X-Men Legends</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20656" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="XMenLegends2" follows="XMenLegends">
     <title>X-Men Legends II: Rise of Apocalypse</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21138" type="Saves"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="XMenOriginsWolverine">
@@ -14653,7 +14841,7 @@
       <files type="Saves">
         <save path="SAVEGAME"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ZenoClash">
@@ -14677,7 +14865,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ZombieDriver">
@@ -14727,7 +14915,7 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Zork1">
@@ -14741,7 +14929,7 @@
       <files type="Saves">
         <save path="SAVE" filename="*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Zork2" follows="Zork1">
@@ -14755,7 +14943,7 @@
       <files type="Saves">
         <save path="SAVE" filename="*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Zork3" follows="Zork2">
@@ -14769,7 +14957,7 @@
       <files type="Saves">
         <save path="SAVE" filename="*"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ZorkGrandInquisitor" follows="ZorkNemesisTheForbiddenLands">
@@ -14783,7 +14971,7 @@
       <files type="Saves">
         <save filename="inqsav*.sav"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="ZorkNemesisTheForbiddenLands" follows="ReturnToZork">
