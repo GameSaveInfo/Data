@@ -25,6 +25,7 @@
         <xs:enumeration value="steamcommon"/>
         <xs:enumeration value="steamsourcemods"/>
         <xs:enumeration value="steamuserdata"/>
+        <xs:enumeration value="ubisoftsavestorage"/>
         <xs:enumeration value="userprofile"/>
         <xs:enumeration value="userdocuments"/>
         <xs:enumeration value="startmenu" />
@@ -124,9 +125,10 @@
   <xs:attribute name="platform">
     <xs:simpleType>
       <xs:restriction base="xs:string">
-        <xs:enumeration value="SteamCloud"/>
-        <xs:enumeration value="ScummVM"/>
         <xs:enumeration value="Flash"/>
+        <xs:enumeration value="ScummVM"/>
+        <xs:enumeration value="SteamCloud"/>
+        <xs:enumeration value="UbisoftSaveStorage"/>
         <xs:enumeration value="RenPy"/>
       </xs:restriction>
     </xs:simpleType>
