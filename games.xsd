@@ -5,6 +5,7 @@
   <xs:element name="title" type="xs:string"/>
   <xs:element name="contributor" type="xs:string"/>
   <xs:element name="comment" type="xs:string"/>
+  <xs:element name="backup_comment" type="xs:string"/>
   <xs:element name="restore_comment" type="xs:string"/>
 
   <!--attributes-->

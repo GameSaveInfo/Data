@@ -1059,7 +1059,7 @@
       <files type="Settings">
         <save filename="Baldur.ini"/>
       </files>
-      <comment>Also archives expansion saves</comment>
+      <comment>Includes expansion saves</comment>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1081,7 +1081,7 @@
       <files type="Settings">
         <save filename="baldur.ini"/>
       </files>
-      <comment>Also archives expansion saves</comment>
+      <comment>Includes expansion saves</comment>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1598,7 +1598,7 @@
       <files type="Settings">
         <save filename="Config.xml"/>
       </files>
-      <comment>Includes Blood Bowl Dark Elves Edition as well.</comment>
+      <comment>Includes Blood Bowl Dark Elves Edition as well</comment>
       <contributor>AvvA</contributor>
     </version>
     <version os="Windows" release="LegendaryEdition">
@@ -2529,7 +2529,6 @@
       <files type="Saves">
         <save filename="*.SAV"/>
       </files>
-      <comment>Will probably require an Alternate Install Path</comment>
       <contributor>David Barbour</contributor>
     </version>
     <version os="Windows">
@@ -4771,7 +4770,6 @@
       <files type="UserMaps">
         <save path="user maps" filename="*.fc2map"/>
       </files>
-      <comment>This also works with Far Cry 2 Fortune's Edition.</comment>
       <contributor>Arc Angel</contributor>
       <contributor>AvvA</contributor>
     </version>
@@ -5296,7 +5294,6 @@
         <save path="data\players"/>
       </files>
       <identifier filename="fs2_open*"/>
-      <comment>Doesn't have a default install folder, so might require an Alt. Install Path.</comment>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5928,7 +5925,7 @@
       <files type="SkillSets">
         <save path="Templates"/>
       </files>
-      <comment>Backs up skill and weapon templates only</comment>
+      <comment>Skill and weapon templates only</comment>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6527,7 +6524,7 @@
       <files type="Settings">
         <save filename="icewind.ini"/>
       </files>
-      <comment>Also archives expansion saves</comment>
+      <comment>Includes expansion saves</comment>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6548,7 +6545,7 @@
       <files type="Settings">
         <save filename="icewind2.ini"/>
       </files>
-      <comment>Also archives expansion saves</comment>
+      <comment>Includes expansion saves</comment>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -9965,7 +9962,7 @@
       <files type="Settings">
         <save filename="Config.ini"/>
       </files>
-      <comment>This save is also for the STCC: The Game</comment>
+      <comment>Includes STCC: The Game</comment>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -13028,7 +13025,7 @@
       <files type="Settings">
         <save filename="ToEE.cfg"/>
       </files>
-      <comment>Also archives expansion saves</comment>
+      <comment>Includes expansion saves</comment>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -14271,7 +14268,7 @@
       <files type="Settings">
         <save path="Settings"/>
       </files>
-      <comment>Also saves Chaos Rising Extension.</comment>
+      <comment>Includes Chaos Rising expansion</comment>
       <restore_comment>Restoring saves for this game also requires restoring Game for Windows Account Data, which MASGAU automatically backs up in G4WAccountData.</restore_comment>
       <contributor>AvvA</contributor>
     </version>
