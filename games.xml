@@ -882,6 +882,7 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Assassin's Creed Brotherhood" only_for="WindowsVista"/>
+        <path ev="appdata" path="Ubisoft\Assassin's Creed Brotherhood" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -7863,6 +7864,18 @@
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
+  <game name="MaxPayne3" follows="MaxPayne2">
+    <title>Max Payne 3</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Rockstar Games\Max Payne 3"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="MDK">
     <title>MDK</title>
     <version os="Windows">
@@ -9474,6 +9487,18 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  <game name="PiratesOfBlackCove">
+    <title>Pirates of Black Cove</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Nitro Games/PiratesOfBlackCove"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="PlanescapeTorment">
     <title>Planescape: Torment</title>
     <version os="Windows">
@@ -9591,6 +9616,18 @@
         <save path="Save"/>
       </files>
       <contributor>David Barbour</contributor>
+    </version>
+  </game>
+  <game name="PortRoyale3">
+    <title>Port Royale 3: Pirates &amp; Merchants</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="kalypso Media/Port Royal 3"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Postal">
