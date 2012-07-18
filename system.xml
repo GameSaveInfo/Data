@@ -10,7 +10,7 @@
       <files type="AccountData">
         <save/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>MASGAU</contributor>
     </version>
   </system>
   <system name="MASGAU">
@@ -25,7 +25,7 @@
         <save path="data" filename="custom.xml"/>
       </files>
       <identifier path="data" filename="custom.xml"/>
-      <contributor>SanMadJack</contributor>
+      <contributor>MASGAU</contributor>
     </version>
   </system>
   <system name="Raptr">
@@ -68,7 +68,7 @@
       <files type="Settings">
         <save path="config"/>
       </files>
-      <contributor>SanMadJack</contributor>
+      <contributor>MASGAU</contributor>
     </version>
   </system>
   <system name="UPlay">
