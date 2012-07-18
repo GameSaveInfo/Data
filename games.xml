@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-11T17:37:12">
+<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-18T14:38:50">
   <!--This file contains games, mods and expansions-->
   <game name="18WheelsOfSteelExtremeTrucker">
     <title>18 Wheels of Steel: Extreme Trucker</title>
@@ -203,7 +203,7 @@
         <path ev="steamcommon" path="ai war fleet command"/>
       </locations>
       <files type="Saves">
-        <save path="Save" />
+        <save path="Save"/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -810,19 +810,19 @@
         <path ev="userdocuments" path="My Games\Armada 2526"/>
       </locations>
       <files type="Saves">
-        <save filename="*.2526sav" />
+        <save filename="*.2526sav"/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <expansion name="Armada2526Supernova" for="Armada2526">
-    <title>Armada 2526: Supernocva</title>
+    <title>Armada 2526: Supernova</title>
     <version os="Windows">
       <locations>
-        <parent name="Armada2526" append="Supernova"/>
+        <parent name="Armada2526" os="Windows" append="Supernova"/>
       </locations>
       <files type="Saves">
-        <save filename="*.2526sav" />
+        <save filename="*.2526sav"/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -891,18 +891,18 @@
   </game>
   <game name="AssassinsCreedRevelations" follows="AssassinsCreedBrotherhood">
     <title>Assassin's Creed: Revelations</title>
+    <version os="PS3" region="EU">
+      <ps_code prefix="BLES" suffix="01384" type="Saves"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
     <version os="Windows">
       <locations>
         <path ev="ubisoftsavestorage" path="40"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
-    </version>
-    <version os="PS3" region="EU">
-      <ps_code prefix="BLES" suffix="01384" type="Saves"/>
-      <contributor>AdmiringWorm</contributor>
     </version>
   </game>
   <game name="AtomZombieSmasher">
@@ -2286,7 +2286,7 @@
         <path ev="localappdata" path="Monte Cristo\Cities XL"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -2723,6 +2723,13 @@
       <contributor>slake_jones</contributor>
     </version>
   </game>
+  <game name="CrisisCoreFinalFantasy7">
+    <title>Crisis Core: Final Fantasy VII</title>
+    <version os="PSP" region="USA">
+      <ps_code prefix="ULUS" suffix="10336" type="Saves"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="CrusaderKings2">
     <title>Crusader Kings II</title>
     <version os="Windows">
@@ -2730,15 +2737,8 @@
         <path ev="userdocuments" path="Paradox Interactive\Crusader Kings 2"/>
       </locations>
       <files type="Saves">
-        <save path="save games" />
+        <save path="save games"/>
       </files>
-      <contributor>GameSave.Info</contributor>
-    </version>
-  </game>
-  <game name="CrisisCoreFinalFantasy7">
-    <title>Crisis Core: Final Fantasy VII</title>
-    <version os="PSP" region="USA">
-      <ps_code prefix="ULUS" suffix="10336" type="Saves"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4403,10 +4403,34 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  <game name="EndlessSpace">
+    <title>Endless Space</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Endless Space"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="EscapeFromMonkeyIsland">
     <title>Escape From Monkey Island</title>
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="20181" type="Saves"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="EscapeGoat">
+    <title>Escape Goat</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Escape Goat"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4438,34 +4462,10 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="EndlessSpace">
-    <title>Endless Space</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Endless Space"/>
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <contributor>GameSave.Info</contributor>
-    </version>
-  </game>
   <game name="EternalSonata">
     <title>Eternal Sonata</title>
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30161" type="Saves"/>
-      <contributor>GameSave.Info</contributor>
-    </version>
-  </game>
-  <game name="EscapeGoat">
-    <title>Escape Goat</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Escape Goat"/>
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4491,10 +4491,10 @@
     <title>Europa Universalis III</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Paradox Interactive\Europa Universalis 3" />
+        <path ev="installlocation" path="Paradox Interactive\Europa Universalis 3"/>
       </locations>
       <files type="Saves">
-        <save path="save games" />
+        <save path="save games"/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -5439,15 +5439,15 @@
     <title>Gemini Rue</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Saved Games\Gemini Rue"/>
         <path ev="savedgames" path="Gemini Rue"/>
         <path ev="steamcommon" path="gemini rue\Saves"/>
+        <path ev="userdocuments" path="My Saved Games\Gemini Rue"/>
       </locations>
       <files type="Saves">
         <save filename="agssave.*"/>
       </files>
-      <contributor>GameSave.Info</contributor>
       <contributor>Arc Angel</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Ghostbusters">
@@ -6346,7 +6346,7 @@
         <path ev="userdocuments" path="might and magic heroes 6"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -6730,7 +6730,7 @@
         <path ev="localappdata" path="Insanely Twisted Shadow Planet"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -7059,7 +7059,7 @@
         <path ev="appdata" path="RenPy\katawashoujo_actual"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -7668,30 +7668,6 @@
       </locations>
       <files type="Saves">
         <save/>
-      </files>
-      <contributor>GameSave.Info</contributor>
-    </version>
-  </game>
-  <game name="MLB2K9">
-    <title>Major League Baseball 2K9</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="2K Sports\MLB 2k9"/>
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <contributor>GameSave.Info</contributor>
-    </version>
-  </game>
-  <game name="MLB2K11">
-    <title>Major League Baseball 2K11</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="2K Sports\MLB 2k11"/>
-      </locations>
-      <files type="Saves">
-        <save />
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -8427,10 +8403,10 @@
     <version>
       <locations>
         <path ev="appdata" path=".minecraft"/>
-        <path ev="userprofile" path=".minecraft" />
+        <path ev="userprofile" path=".minecraft"/>
       </locations>
       <files type="Saves">
-        <save path="saves" />
+        <save path="saves"/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -8501,6 +8477,30 @@
         <save path="preferences"/>
       </files>
       <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="MLB2K11">
+    <title>Major League Baseball 2K11</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="2K Sports\MLB 2k11"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="MLB2K9">
+    <title>Major League Baseball 2K9</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="2K Sports\MLB 2k9"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="MonkeyIsland2LeChucksRevenge" follows="SecretOfMonkeyIsland">
@@ -8721,18 +8721,6 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="NBA2K11">
-    <title>NBA 2K11</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="2K Sports\NBA 2k11"/>
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <contributor>GameSave.Info</contributor>
-    </version>
-  </game>
   <game name="NavalWarfare">
     <title>Naval Warfare</title>
     <version os="Windows">
@@ -8743,6 +8731,18 @@
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="NBA2K11">
+    <title>NBA 2K11</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="2K Sports\NBA 2k11"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="NecrovisioNLostCompany">
@@ -9876,18 +9876,6 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="PuzzleQuestGalactrix" follows="PuzzleQuest2">
-    <title>Puzzle Quest: Galactrix</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Puzzle Quest Galactrix"/>
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <contributor>>GameSave.Info</contributor>
-    </version>
-  </game>
   <game name="PuzzleQuestChallengeOfTheWarlords">
     <title>Puzzle Quest: Challenge of the Warlords</title>
     <version os="Windows">
@@ -9899,6 +9887,18 @@
       </files>
       <files type="Statistics">
         <save path="High Scores"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="PuzzleQuestGalactrix" follows="PuzzleQuest2">
+    <title>Puzzle Quest: Galactrix</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Puzzle Quest Galactrix"/>
+      </locations>
+      <files type="Saves">
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -10238,7 +10238,7 @@
         <path ev="userdocuments" path="RealFlight G5"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -10482,8 +10482,8 @@
       <files type="Settings">
         <save path="Main" filename="wolfconfig.cfg"/>
       </files>
-      <contributor>Jetsetlemming</contributor>
       <contributor>GameSave.Info</contributor>
+      <contributor>Jetsetlemming</contributor>
     </version>
   </game>
   <game name="ReturnToZork" follows="Zork0">
@@ -11625,7 +11625,7 @@
         <path ev="localappdata" path="Demiurge Studios\Shoot Many Robots"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -13566,22 +13566,22 @@
   </game>
   <game name="Trine">
     <title>Trine</title>
-    <version os="Windows">
-      <locations>
-        <path ev="installlocation" path="Trine"/>
-        <registry root="local_machine" key="SOFTWARE\trine" value="TrinePath"/>
-      </locations>
-      <files type="Saves">
-        <save path="profile" />
-      </files>
-      <contributor>GameSave.Info</contributor>
-    </version>
     <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="35700"/>
       </locations>
       <files type="Saves">
         <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Trine"/>
+        <registry root="local_machine" key="SOFTWARE\trine" value="TrinePath"/>
+      </locations>
+      <files type="Saves">
+        <save path="profile"/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -13953,8 +13953,8 @@
     <title>Uplink</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="uplink"/>
         <path ev="installlocation" path="GOG.com\Uplink"/>
+        <path ev="steamcommon" path="uplink"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGUPLINK" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Uplink_is1" value="InstallLocation"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Uplink\Uplink.lnk"/>
@@ -13970,8 +13970,8 @@
       <files type="Settings">
         <save path="users" filename="options"/>
       </files>
-      <contributor>GameSave.Info</contributor>
       <contributor>AdmiringWorm</contributor>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="UrQuanMasters">
@@ -14029,8 +14029,8 @@
       <files type="Saves">
         <save path="Vampire\SAVE"/>
       </files>
-      <contributor>Samuel Barbour</contributor>
       <contributor>GameSave.Info</contributor>
+      <contributor>Samuel Barbour</contributor>
     </version>
   </game>
   <game name="VampireTheMasqueradeRedemption">
@@ -14109,7 +14109,7 @@
         <path ev="userdocuments" path="LDW\Virtual Families"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -14512,6 +14512,15 @@
   </game>
   <game name="Witcher2" follows="Witcher">
     <title>The Witcher 2: Assassin of Kings</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="20920"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Witcher 2"/>
@@ -14526,15 +14535,6 @@
         <save path="Config"/>
       </files>
       <contributor>Arc Angel</contributor>
-    </version>
-    <version platform="SteamCloud">
-      <locations>
-        <path ev="steamuserdata" path="20920"/>
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="Wolfenstein" follows="ReturnToCastleWolfenstein">
