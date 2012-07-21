@@ -890,7 +890,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="AssassinsCreedRevelations" follows="AssassinsCreedBrotherhood">
+  <game name="AssassinsCreedRevelations" follows="AssassinsCreed2">
     <title>Assassin's Creed: Revelations</title>
     <version os="PS3" region="EU">
       <ps_code prefix="BLES" suffix="01384" type="Saves"/>
@@ -899,6 +899,18 @@
     <version os="Windows">
       <locations>
         <path ev="ubisoftsavestorage" path="40"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="AssassinsCreed2" follows="AssassinsCreedBrotherhood">
+    <title>Assassin's Creed 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="ubisoftsavestorage" path="4"/>
       </locations>
       <files type="Saves">
         <save/>

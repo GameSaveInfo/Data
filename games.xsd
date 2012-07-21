@@ -381,13 +381,54 @@
     </xs:complexType>
   </xs:element>
 
+  <xs:element name="system" type="program">
+    <xs:unique name="uniqueSystemVersions">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@os"/>
+      <xs:field xpath="@platform"/>
+      <xs:field xpath="@media"/>
+      <xs:field xpath="@region"/>
+      <xs:field xpath="@release"/>
+    </xs:unique>
+  </xs:element>
+  <xs:element name="game" type="program_sequel">
+    <xs:unique name="uniqueGameVersions">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@os"/>
+      <xs:field xpath="@platform"/>
+      <xs:field xpath="@media"/>
+      <xs:field xpath="@region"/>
+      <xs:field xpath="@release"/>
+    </xs:unique>
+  </xs:element>
+  <xs:element name="mod" type="program_expansion">
+    <xs:unique name="uniqueModVersions">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@os"/>
+      <xs:field xpath="@platform"/>
+      <xs:field xpath="@media"/>
+      <xs:field xpath="@region"/>
+      <xs:field xpath="@release"/>
+    </xs:unique>
+  </xs:element>
+  <xs:element name="expansion" type="program_expansion">
+    <xs:unique name="uniqueExpansionVersions">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@os"/>
+      <xs:field xpath="@platform"/>
+      <xs:field xpath="@media"/>
+      <xs:field xpath="@region"/>
+      <xs:field xpath="@release"/>
+    </xs:unique>
+  </xs:element>
+
   <xs:element name="programs">
     <xs:complexType>
       <xs:choice minOccurs="1" maxOccurs="unbounded">
-        <xs:element name="system" minOccurs="0" maxOccurs="unbounded" type="program"/>
-        <xs:element name="game" minOccurs="0" maxOccurs="unbounded" type="program_sequel" />
-        <xs:element name="mod" minOccurs="0" maxOccurs="unbounded" type="program_expansion"/>
-        <xs:element name="expansion" minOccurs="0" maxOccurs="unbounded" type="program_expansion"/>
+        <xs:element ref="system" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="game" minOccurs="0" maxOccurs="unbounded"  />
+        <xs:element ref="mod" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="expansion" minOccurs="0" maxOccurs="unbounded" />
       </xs:choice>
       <xs:attribute name="majorVersion" use="required">
         <xs:simpleType>
@@ -406,6 +447,10 @@
       <xs:attribute ref="date" use="required"/>
       <xs:anyAttribute processContents="skip"/>
     </xs:complexType>
+    <xs:unique name="uniqueNames">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@name"/>
+    </xs:unique>
   </xs:element>
 </xs:schema>
 
