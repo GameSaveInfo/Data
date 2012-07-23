@@ -322,6 +322,7 @@
       <xs:element ref="comment" minOccurs="0" maxOccurs="1"/>
     </xs:sequence>
     <xs:attributeGroup ref="item_attributes"/>
+    <xs:attribute name="submitted" type="xs:boolean" />
   </xs:complexType>
 
   <xs:complexType name="program_sequel">
