@@ -80,8 +80,15 @@
 
   <xs:attribute name="deprecated" type="xs:boolean" />
 
-  <xs:attribute name="path" type="xs:string"/>
-  <xs:attribute name="root">
+  <xs:attribute name="path">
+    <xs:simpleType>
+      <xs:restriction base="xs:string" >
+        <xs:pattern value="[^:]*" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+    <xs:attribute name="root">
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:enumeration value="classes_root"/>
@@ -341,6 +348,12 @@
     </xs:complexContent>
   </xs:complexType>
 
+  <xs:element name="linkable">
+    <xs:complexType>
+      <xs:attribute ref="path" use="optional" />
+    </xs:complexType>
+  </xs:element>
+  
   <xs:element name="locations">
     <xs:complexType>
       <xs:choice minOccurs="1" maxOccurs="unbounded">
@@ -363,10 +376,12 @@
               <xs:sequence>
                 <xs:element ref="scummvm" minOccurs="1" maxOccurs="unbounded" />
                 <xs:element ref="locations" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="linkable" minOccurs="0" maxOccurs="unbounded" />
                 <xs:element ref="files" minOccurs="0" maxOccurs="unbounded" />
               </xs:sequence>
               <xs:sequence>
                 <xs:element ref="locations" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="linkable" minOccurs="0" maxOccurs="unbounded" />
                 <xs:element ref="files" minOccurs="1" maxOccurs="unbounded" />
               </xs:sequence>
             </xs:choice>

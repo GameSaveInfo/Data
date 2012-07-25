@@ -308,6 +308,7 @@
       <locations>
         <path ev="userdocuments" />
       </locations>
+      <linkable path="Downloads"/>
       <files type="Test">
         <save filename="*.ini" />
       </files>
