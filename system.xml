@@ -18,13 +18,12 @@
     <version>
       <title>MASGAU Custom XML</title>
       <locations>
-        <path ev="installlocation" path="MASGAU"/>
-        <registry root="local_machine" key="SOFTWARE\MASGAU" value="InstallPath"/>
+        <path ev="commonapplicationdata" path="MASGAU"/>
       </locations>
       <files type="CustomXML">
-        <save path="data" filename="custom.xml"/>
+        <save filename="custom.xml"/>
       </files>
-      <identifier path="data" filename="custom.xml"/>
+      <identifier filename="custom.xml"/>
       <contributor>MASGAU</contributor>
     </version>
   </system>

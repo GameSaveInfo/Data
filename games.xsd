@@ -16,6 +16,7 @@
         <xs:enumeration value="allusersprofile"/>
         <xs:enumeration value="altsavepaths"/>
         <xs:enumeration value="appdata"/>
+        <xs:enumeration value="commonapplicationdata"/>
         <xs:enumeration value="drive"/>
         <xs:enumeration value="flashshared" />
         <xs:enumeration value="installlocation"/>
