@@ -67,6 +67,24 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="11thHour">
+    <title>The 11th Hour</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\The 11th Hour"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOG11H" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\The  11th Hour\The 11th Hour.lnk"/>
+      </locations>
+      <files type="Saves">
+        <save filename="s11h.*"/>
+      </files>
+      <files type="Settings">
+        <save filename="groovie2.ini"/>
+      </files>
+      <linkable path="SaveGames" />
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="AaaaaAAaaaAAAaaAAAAaAAAAA">
     <title>AaaaaAAaaaAAAaaAAAAaAAAAA!!!</title>
     <version os="Windows">
@@ -3521,6 +3539,7 @@
       <files type="Settings">
         <save path="System" filename="*.ini"/>
       </files>
+      <linkable path="Save"/>
       <identifier path="Save"/>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -3911,11 +3930,14 @@
       <locations>
         <path ev="installlocation" path="Dreamfall the Longest Journey"/>
         <path ev="installlocation" path="Micro Application\Dreamfall"/>
+        <path ev="installlocation" path="GOG.com\Dreamfall"/>
         <path ev="steamcommon" path="dreamfall the longest journey"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Dreamfall the Longest Journey_is1" value="InstallLocation"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D751B34C-058F-42EF-BE95-14EBB0D2C585}" value="InstallLocation"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDREAMFALL" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\Dreamfall the Longest Journey\Dreamfall the Longest Journey.lnk"/>
         <shortcut ev="startmenu" path="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Dreamfall - The Longest Journey\Dreamfall - The Longest Journey.lnk"/>
       </locations>
       <files type="Saves">
         <save path="saves"/>
@@ -3923,6 +3945,7 @@
       <files type="Settings">
         <save filename="prefs.dat"/>
       </files>
+      <linkable path="saves" />
       <contributor>AdmiringWorm</contributor>
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
@@ -6981,6 +7004,22 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  <game name="JourneymanProject3">
+    <title>Journeyman Project 3: Legacy of Time</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Journeyman Project 3 - Legacy of Time" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGJOURNEYMAN3" value="Path" />
+        <registry root="local_machine" key="SOFTWARE\Red Orb Entertainment\Journeyman Project 3 - Legacy of Time DVD\1.0" value="$Install_ToDirectory$" />
+        <shortcut ev="startmenu" path="Programs\GOG.com\Journeyman Project 3 - Legacy of Time\Journeyman Project 3 - Legacy of Time.lnk" />
+      </locations>
+      <files type="Saves">
+        <save path="J3 Saved Games"/>
+      </files>
+      <linkable path="J3 Saved Games"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="JudgeDreddDreddVsDeath">
     <title>Judge Dredd: Dredd vs. Death</title>
     <version os="Windows">
@@ -9994,6 +10033,18 @@
     <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="37800"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="QuantumConundrum">
+    <title>Quantum Conundrum</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="200010"/>
       </locations>
       <files type="Saves">
         <save/>
