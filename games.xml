@@ -7,7 +7,6 @@
       <locations>
         <path ev="userdocuments" path="18 WoS Extreme Trucker"/>
       </locations>
-      <linkable />
       <files type="Saves">
         <save path="profile*"/>
       </files>
@@ -16,6 +15,7 @@
           <except filename="extremetrucker.log"/>
         </save>
       </files>
+      <linkable />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -25,7 +25,6 @@
       <locations>
         <path ev="userdocuments" path="25 to Life"/>
       </locations>
-      <linkable />
       <files type="Saves">
         <save path="SaveGames" filename="*.sav"/>
       </files>
@@ -33,6 +32,7 @@
         <save filename="settings.ini"/>
         <save path="SaveGames" filename="*.ini"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -42,10 +42,10 @@
       <locations>
         <path ev="steamcommon" path="4x4 hummer"/>
       </locations>
-      <linkable path="Data\profiles" />
       <files type="Saves">
         <save path="Data\profiles"/>
       </files>
+      <linkable path="Data\profiles" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -57,13 +57,13 @@
         <registry root="current_user" key="Software\7554" value="BASE_PATH_7554"/>
         <shortcut ev="startmenu" path="Programs\7554\7554.lnk"/>
       </locations>
-      <linkable path="SaveGames" />
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
       <files type="Settings">
         <save filename="setting.xml"/>
       </files>
+      <linkable path="SaveGames" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -73,10 +73,10 @@
       <locations>
         <path ev="localappdata" path="AaaaaRecklessDisregard"/>
       </locations>
-      <linkable />
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -90,13 +90,13 @@
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Advent" value="UninstallString"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Advent Rising\Advent Rising.lnk" detract="System"/>
       </locations>
-      <linkable path="System\Saves" />
       <files type="Saves">
         <save path="System\Saves"/>
       </files>
       <files type="Settings">
         <save path="System" filename="My*.ini"/>
       </files>
+      <linkable path="System\Saves" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -106,7 +106,6 @@
       <locations>
         <path ev="userdocuments" path="My Games\Afterfall InSanity"/>
       </locations>
-      <linkable />
       <files type="Saves">
         <save path="Binaries\SaveData"/>
         <save path="RascalGame\SaveData"/>
@@ -114,6 +113,7 @@
       <files type="Settings">
         <save path="RascalGame\Config"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -125,10 +125,10 @@
         <registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\Age of Empires\2.0" value="InstallationDirectory"/>
         <shortcut ev="startmenu" path="Programs\Microsoft Games\Age of Empires II\Age of Empires II.lnk"/>
       </locations>
-      <linkable path="SaveGame" />
       <files type="Saves">
         <save path="SaveGame"/>
       </files>
+      <linkable path="SaveGame" />
       <contributor>Samuel Barbour</contributor>
     </version>
   </game>
@@ -138,11 +138,11 @@
       <locations>
         <path ev="userdocuments" path="My Games\Age of Empires 3"/>
       </locations>
-      <linkable />
       <files type="Saves">
         <save path="Savegame"/>
         <save path="Users"/>
       </files>
+      <linkable />
       <contributor>SamuelTaylor</contributor>
     </version>
   </game>

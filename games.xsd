@@ -377,15 +377,14 @@
               <xs:sequence>
                 <xs:element ref="scummvm" minOccurs="1" maxOccurs="unbounded" />
                 <xs:element ref="locations" minOccurs="0" maxOccurs="1"/>
-                <xs:element ref="linkable" minOccurs="0" maxOccurs="unbounded" />
                 <xs:element ref="files" minOccurs="0" maxOccurs="unbounded" />
               </xs:sequence>
               <xs:sequence>
                 <xs:element ref="locations" minOccurs="1" maxOccurs="1"/>
-                <xs:element ref="linkable" minOccurs="0" maxOccurs="unbounded" />
                 <xs:element ref="files" minOccurs="1" maxOccurs="unbounded" />
               </xs:sequence>
             </xs:choice>
+            <xs:element ref="linkable" minOccurs="0" maxOccurs="unbounded" />
             <xs:element ref="identifier" minOccurs="0" maxOccurs="unbounded"/>
           </xs:sequence>
           <xs:element ref="ps_code" minOccurs="1" maxOccurs="unbounded"/>
