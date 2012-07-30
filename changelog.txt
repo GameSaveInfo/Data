@@ -1,14 +1,22 @@
 =Upcoming=
 New Windows Games:
 * The 11th Hour (GoG only)
+* Aztaka - Steam only - Contributed by telroa
+* Blocks That Matter - Contributed by hadderakk
+* Dead Horde - Contributed by telroa
 * Journeyman Project 3: Legacy of Time (GoG only)
-* Max Payne 3
+* Max Payne 3 - Contributed by Paul Taylor
 * Pirates of Black Cove
 * Port Royale 3: Pirates & Merchants
 * Quantum Conundrum (Steam only)
+* Serious Sam Double D - Contributed by telroa
+* Serious Sam The Random Encounter - Contributed by telroa
+* SkyDrift - Contributed by hadderakk
+* Tribes Ascend - Settings only - Contributed by Paul Taylor
 Updated Windows Games:
 * Assassin's Creed: Brotherhood - Added XP path
 * Dreamfall: The Longest Journery - Added GoG info
+* VVVVVV - Added another path, not sure why there's so many - Contribtued by telroa
 =2012/7/18=
 New Windows Games:
 * AI War: Fleet Command
@@ -34,7 +42,7 @@ New Windows Games:
 * Rogue Trooper
 * Savage 2
 * Shoot Many Robots
-* Tropico 4
+* Tropico 4 - Contributed by alan.briolat
 * Virtual Families
 Updated Windows Games:
 * Darwinia - Added XP path
@@ -49,7 +57,7 @@ New Windows Games:
 * Blur
 * Botanicula
 * Bus Driver
-* Cave Story+ - Steam only
+* Cave Story+ - Steam only - Contributed by telroa
 * Cogs
 * Command & Conquer: Generals
 * Dark Scavenger
@@ -68,7 +76,7 @@ New Windows Games:
 * Majesty 2
 * Mosby's Confederacy
 * Napoleon: Total War
-* Night Sky
+* Night Sky - Contributed by telroa
 * Nimbus - Steam only
 * Pocket Tanks
 * Rayman Origins

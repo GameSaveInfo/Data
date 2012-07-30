@@ -1590,6 +1590,22 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  <game name="BlocksThatMatter">
+    <title>Blocks That Matter</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="BlocksThatMatterUserDatas"/>
+      </locations>
+      <files type="Saves">
+        <save path="Blocks That Matter Save" />
+      </files>
+      <files type="Settings">
+        <save path="config" />
+      </files>
+      <linkable />
+      <contributor>hadderakk</contributor>
+    </version>
+  </game>
   <game name="Blood2TheChosen" follows="OneUnitWholeBlood">
     <title>Blood II: The Chosen</title>
     <version os="Windows">
@@ -2159,7 +2175,7 @@
       <files type="Profile">
         <save filename="Profile.dat"/>
       </files>
-      <contributor>GameSave.Info</contributor>
+      <contributor>telroa</contributor>
     </version>
   </game>
   <game name="Ceville">
@@ -7933,7 +7949,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>GameSave.Info</contributor>
+      <contributor>Paul Taylor</contributor>
     </version>
   </game>
   <game name="MDK">
@@ -8931,7 +8947,7 @@
       <files type="Saves">
         <save filename="Default.ini"/>
       </files>
-      <contributor>GameSave.Info</contributor>
+      <contributor>telroa</contributor>
     </version>
   </game>
   <game name="Nikopol">
@@ -13673,6 +13689,19 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="TribesAscend">
+    <title>Tribes: Ascend</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Tribes Ascend\TribesGame"/>
+      </locations>
+      <files type="Settings">
+        <save path="Config"/>
+      </files>
+      <comment>Settings only</comment>
+      <contributor>Paul Taylor</contributor>
+    </version>
+  </game>
   <game name="Trine">
     <title>Trine</title>
     <version platform="SteamCloud">
@@ -13789,7 +13818,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <contributor>GameSave.Info</contributor>
+      <contributor>alan.briolat</contributor>
     </version>
   </game>
   <game name="TrueCrimeStreetsOfLA">
@@ -14266,10 +14295,12 @@
     <version os="Windows">
       <locations>
         <path ev="userprofile" path="VVVVVV"/>
+        <path ev="userdocuments" path="VVVVVV"/>
       </locations>
       <files type="Saves">
         <save path="Saves"/>
       </files>
+      <contributor>telroa</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -15106,6 +15137,74 @@
       </files>
       <identifier path="userdata"/>
       <contributor>duncans_pumpkin</contributor>
+    </version>
+  </game>
+  <game name="SkyDrift">
+    <title>SkyDrift</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="SkyDrift"/>
+        <shortcut ev="startmenu" path="Programs\SkyDrift\SkyDrift.lnk"/>
+      </locations>
+      <files type="Saves">
+        <save path="*" filename="SkyDrift.cfg"/>
+        <save path="*" filename="vuid"/>
+      </files>
+      <contributor>hadderakk</contributor>
+    </version>
+  </game>
+  <game name="Aztaka">
+    <title>Zuma Deluxe</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="aztaka" />
+      </locations>
+      <files type="Profiles">
+        <save path="Profiles"/>
+      </files>
+      <linkable path="Profiles"/>
+      <contributor>telroa</contributor>
+    </version>
+  </game>
+  <game name="DeadHorde">
+    <title>Dead Horde</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="DeadHorde" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>telroa</contributor>
+    </version>
+  </game>
+  <game name="SeriousSamDoubleD">
+    <title>Serious Sam Double D</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="SSDD" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>telroa</contributor>
+    </version>
+  </game>
+  <game name="SeriousSamTheRandomEncounter">
+    <title>Serious Sam: The Random Encounter</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="serious sam the random encounter" />
+      </locations>
+      <files type="Saves">
+        <save filename="*.sav" />
+      </files>
+      <files type="Settings">
+        <save filename="config.txt" />
+      </files>
+      <contributor>telroa</contributor>
     </version>
   </game>
 </programs>
