@@ -1,72 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-18T14:38:50">
+<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-31T13:05:17">
   <!--This file contains games, mods and expansions-->
-  <game name="18WheelsOfSteelExtremeTrucker">
-    <title>18 Wheels of Steel: Extreme Trucker</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="18 WoS Extreme Trucker"/>
-      </locations>
-      <files type="Saves">
-        <save path="profile*"/>
-      </files>
-      <files type="Settings">
-        <save filename="*">
-          <except filename="extremetrucker.log"/>
-        </save>
-      </files>
-      <linkable />
-      <contributor>AdmiringWorm</contributor>
-    </version>
-  </game>
-  <game name="25ToLife">
-    <title>25 to Life</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="25 to Life"/>
-      </locations>
-      <files type="Saves">
-        <save path="SaveGames" filename="*.sav"/>
-      </files>
-      <files type="Settings">
-        <save filename="settings.ini"/>
-        <save path="SaveGames" filename="*.ini"/>
-      </files>
-      <linkable />
-      <contributor>Arc Angel</contributor>
-    </version>
-  </game>
-  <game name="4x4Hummer">
-    <title>4x4 Hummer</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="4x4 hummer"/>
-      </locations>
-      <files type="Saves">
-        <save path="Data\profiles"/>
-      </files>
-      <linkable path="Data\profiles" />
-      <contributor>AdmiringWorm</contributor>
-    </version>
-  </game>
-  <game name="7554">
-    <title>7554</title>
-    <version os="Windows">
-      <locations>
-        <path ev="installlocation" path="7554"/>
-        <registry root="current_user" key="Software\7554" value="BASE_PATH_7554"/>
-        <shortcut ev="startmenu" path="Programs\7554\7554.lnk"/>
-      </locations>
-      <files type="Saves">
-        <save path="SaveGames"/>
-      </files>
-      <files type="Settings">
-        <save filename="setting.xml"/>
-      </files>
-      <linkable path="SaveGames" />
-      <contributor>AdmiringWorm</contributor>
-    </version>
-  </game>
   <game name="11thHour">
     <title>The 11th Hour</title>
     <version os="Windows">
@@ -84,6 +18,72 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  <game name="18WheelsOfSteelExtremeTrucker">
+    <title>18 Wheels of Steel: Extreme Trucker</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="18 WoS Extreme Trucker"/>
+      </locations>
+      <files type="Saves">
+        <save path="profile*"/>
+      </files>
+      <files type="Settings">
+        <save filename="*">
+          <except filename="extremetrucker.log"/>
+        </save>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="25ToLife">
+    <title>25 to Life</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="25 to Life"/>
+      </locations>
+      <files type="Saves">
+        <save path="SaveGames" filename="*.sav"/>
+      </files>
+      <files type="Settings">
+        <save filename="settings.ini"/>
+        <save path="SaveGames" filename="*.ini"/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="4x4Hummer">
+    <title>4x4 Hummer</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="4x4 hummer"/>
+      </locations>
+      <files type="Saves">
+        <save path="Data\profiles"/>
+      </files>
+      <linkable path="Data\profiles"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="7554">
+    <title>7554</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="7554"/>
+        <registry root="current_user" key="Software\7554" value="BASE_PATH_7554"/>
+        <shortcut ev="startmenu" path="Programs\7554\7554.lnk"/>
+      </locations>
+      <files type="Saves">
+        <save path="SaveGames"/>
+      </files>
+      <files type="Settings">
+        <save filename="setting.xml"/>
+      </files>
+      <linkable path="SaveGames"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="AaaaaAAaaaAAAaaAAAAaAAAAA">
     <title>AaaaaAAaaaAAAaaAAAAaAAAAA!!!</title>
     <version os="Windows">
@@ -93,7 +93,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -113,7 +113,7 @@
       <files type="Settings">
         <save path="System" filename="My*.ini"/>
       </files>
-      <linkable path="System\Saves" />
+      <linkable path="System\Saves"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -130,7 +130,7 @@
       <files type="Settings">
         <save path="RascalGame\Config"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -145,7 +145,7 @@
       <files type="Saves">
         <save path="SaveGame"/>
       </files>
-      <linkable path="SaveGame" />
+      <linkable path="SaveGame"/>
       <contributor>Samuel Barbour</contributor>
     </version>
   </game>
@@ -159,7 +159,7 @@
         <save path="Savegame"/>
         <save path="Users"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>SamuelTaylor</contributor>
     </version>
   </game>
@@ -175,7 +175,7 @@
         <save path="savegame" filename="*.rec"/>
         <save path="savegame" filename="*.sav"/>
       </files>
-      <linkable path="savegame" />
+      <linkable path="savegame"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -189,7 +189,7 @@
         <save path="Savegame" filename="*.rcx"/>
         <save path="Savegame" filename="*.svx"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -207,7 +207,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <linkable path="Save" />
+      <linkable path="Save"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -222,7 +222,7 @@
           <except path="My Music"/>
         </save>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -235,7 +235,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <linkable path="Save" />
+      <linkable path="Save"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -260,7 +260,7 @@
       <files type="Settings">
         <save filename="*"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -285,7 +285,7 @@
       <files type="Settings">
         <save filename="*"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -302,7 +302,7 @@
       <files type="Settings">
         <save path="Base" filename="*.cfg"/>
       </files>
-      <linkable path="Base\save" />
+      <linkable path="Base\save"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -318,7 +318,7 @@
       <files type="Settings">
         <save path="AliceGame\Config"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -334,7 +334,7 @@
       <files type="Settings">
         <save path="Config"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -350,7 +350,7 @@
       <files type="Settings">
         <save path="Config"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -366,7 +366,7 @@
       <files type="Settings">
         <save path="Config"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -379,7 +379,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
     <version os="Windows" release="Reloaded">
@@ -390,7 +390,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -404,7 +404,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -421,8 +421,8 @@
         <save path="Profiles"/>
         <save path="Save"/>
       </files>
-      <linkable path="Profiles" />
-      <linkable path="Save" />
+      <linkable path="Profiles"/>
+      <linkable path="Save"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -435,7 +435,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Michael Lamere</contributor>
     </version>
   </game>
@@ -452,8 +452,8 @@
         <save path="Profiles"/>
         <save path="Save"/>
       </files>
-      <linkable path="Profiles" />
-      <linkable path="Save" />
+      <linkable path="Profiles"/>
+      <linkable path="Save"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -549,7 +549,7 @@
       <files type="Settings">
         <save filename="Alpha Centauri.Ini"/>
       </files>
-      <linkable path="saves" />
+      <linkable path="saves"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -563,7 +563,7 @@
         <save path="Checkpoints"/>
         <save path="Profile"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -625,7 +625,7 @@
         <save path="Main" filename="*.cfg"/>
         <save path="Main\*"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -638,7 +638,7 @@
         <shortcut ev="startmenu" path="Programs\Eidos Interactive\Anachronox\Anachronox.lnk"/>
       </locations>
       <files type="Saves">
-        <save path="anoxdata\SAVE" />
+        <save path="anoxdata\SAVE"/>
       </files>
       <linkable path="anoxdata\SAVE"/>
       <contributor>GameSave.Info</contributor>
@@ -835,7 +835,7 @@
       <files type="Settings">
         <save filename="config.ini"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -848,7 +848,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -861,7 +861,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -874,7 +874,7 @@
       <files type="Saves">
         <save filename="*.2526sav"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -899,7 +899,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -915,7 +915,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
-      <linkable path="Save" />
+      <linkable path="Save"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -935,8 +935,20 @@
       <files type="Settings">
         <save filename="*.ini"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Joe Looney</contributor>
+    </version>
+  </game>
+  <game name="AssassinsCreed2" follows="AssassinsCreedBrotherhood">
+    <title>Assassin's Creed 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="ubisoftsavestorage" path="4"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
   <game name="AssassinsCreedBrotherhood" follows="AssassinsCreed">
@@ -947,13 +959,13 @@
     </version>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Assassin's Creed Brotherhood" only_for="WindowsVista"/>
         <path ev="appdata" path="Ubisoft\Assassin's Creed Brotherhood" only_for="WindowsXP"/>
+        <path ev="savedgames" path="Assassin's Creed Brotherhood" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -973,18 +985,6 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
-  <game name="AssassinsCreed2" follows="AssassinsCreedBrotherhood">
-    <title>Assassin's Creed 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="ubisoftsavestorage" path="4"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>GameSave.Info</contributor>
-    </version>
-  </game>
   <game name="AtomZombieSmasher">
     <title>Atom Zombie Smasher</title>
     <version os="Windows">
@@ -994,7 +994,7 @@
       <files type="Saves">
         <save path="profiles"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1019,7 +1019,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1032,7 +1032,7 @@
       <files type="Saves">
         <save/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1047,7 +1047,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
-      <linkable path="save" />
+      <linkable path="save"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1064,6 +1064,19 @@
       </files>
       <linkable path="SaveGames"/>
       <contributor>David Barbour</contributor>
+    </version>
+  </game>
+  <game name="Aztaka">
+    <title>Zuma Deluxe</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="aztaka"/>
+      </locations>
+      <files type="Profiles">
+        <save path="Profiles"/>
+      </files>
+      <linkable path="Profiles"/>
+      <contributor>telroa</contributor>
     </version>
   </game>
   <game name="BackToTheFutureEpisode1ItsAboutTime">
@@ -1642,12 +1655,12 @@
         <path ev="userdocuments" path="BlocksThatMatterUserDatas"/>
       </locations>
       <files type="Saves">
-        <save path="Blocks That Matter Save" />
+        <save path="Blocks That Matter Save"/>
       </files>
       <files type="Settings">
-        <save path="config" />
+        <save path="config"/>
       </files>
-      <linkable />
+      <linkable/>
       <contributor>hadderakk</contributor>
     </version>
   </game>
@@ -3289,6 +3302,19 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  <game name="DeadHorde">
+    <title>Dead Horde</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="DeadHorde"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <linkable/>
+      <contributor>telroa</contributor>
+    </version>
+  </game>
   <game name="DeadIsland">
     <title>Dead Island</title>
     <version platform="SteamCloud">
@@ -3990,15 +4016,15 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Dreamfall the Longest Journey"/>
-        <path ev="installlocation" path="Micro Application\Dreamfall"/>
         <path ev="installlocation" path="GOG.com\Dreamfall"/>
+        <path ev="installlocation" path="Micro Application\Dreamfall"/>
         <path ev="steamcommon" path="dreamfall the longest journey"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDREAMFALL" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Dreamfall the Longest Journey_is1" value="InstallLocation"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D751B34C-058F-42EF-BE95-14EBB0D2C585}" value="InstallLocation"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDREAMFALL" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\Dreamfall the Longest Journey\Dreamfall the Longest Journey.lnk"/>
-        <shortcut ev="startmenu" path="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Dreamfall - The Longest Journey\Dreamfall - The Longest Journey.lnk"/>
+        <shortcut ev="startmenu" path="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk"/>
       </locations>
       <files type="Saves">
         <save path="saves"/>
@@ -4006,7 +4032,7 @@
       <files type="Settings">
         <save filename="prefs.dat"/>
       </files>
-      <linkable path="saves" />
+      <linkable path="saves"/>
       <contributor>AdmiringWorm</contributor>
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
@@ -7069,10 +7095,10 @@
     <title>Journeyman Project 3: Legacy of Time</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="GOG.com\Journeyman Project 3 - Legacy of Time" />
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGJOURNEYMAN3" value="Path" />
-        <registry root="local_machine" key="SOFTWARE\Red Orb Entertainment\Journeyman Project 3 - Legacy of Time DVD\1.0" value="$Install_ToDirectory$" />
-        <shortcut ev="startmenu" path="Programs\GOG.com\Journeyman Project 3 - Legacy of Time\Journeyman Project 3 - Legacy of Time.lnk" />
+        <path ev="installlocation" path="GOG.com\Journeyman Project 3 - Legacy of Time"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGJOURNEYMAN3" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\Red Orb Entertainment\Journeyman Project 3 - Legacy of Time DVD\1.0" value="$Install_ToDirectory$"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Journeyman Project 3 - Legacy of Time\Journeyman Project 3 - Legacy of Time.lnk"/>
       </locations>
       <files type="Saves">
         <save path="J3 Saved Games"/>
@@ -9746,7 +9772,7 @@
         <path ev="appdata" path="kalypso Media/Port Royal 3"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -10089,11 +10115,11 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
-  <game name="Quantz">
-    <title>Quantz</title>
+  <game name="QuantumConundrum">
+    <title>Quantum Conundrum</title>
     <version platform="SteamCloud">
       <locations>
-        <path ev="steamuserdata" path="37800"/>
+        <path ev="steamuserdata" path="200010"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -10101,11 +10127,11 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
-  <game name="QuantumConundrum">
-    <title>Quantum Conundrum</title>
+  <game name="Quantz">
+    <title>Quantz</title>
     <version platform="SteamCloud">
       <locations>
-        <path ev="steamuserdata" path="200010"/>
+        <path ev="steamuserdata" path="37800"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -11571,6 +11597,19 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="SeriousSamDoubleD">
+    <title>Serious Sam Double D</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="SSDD"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <linkable/>
+      <contributor>telroa</contributor>
+    </version>
+  </game>
   <game name="SeriousSamTheFirstEncounter">
     <title>Serious Sam: The First Encounter</title>
     <version platform="SteamCloud" release="HD">
@@ -11582,6 +11621,21 @@
         <save/>
       </files>
       <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="SeriousSamTheRandomEncounter">
+    <title>Serious Sam: The Random Encounter</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="serious sam the random encounter"/>
+      </locations>
+      <files type="Saves">
+        <save filename="*.sav"/>
+      </files>
+      <files type="Settings">
+        <save filename="config.txt"/>
+      </files>
+      <contributor>telroa</contributor>
     </version>
   </game>
   <game name="SeriousSamTheSecondEncounter" follows="SeriousSamTheFirstEncounter">
@@ -12009,6 +12063,20 @@
         <save path="Setting"/>
       </files>
       <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="SkyDrift">
+    <title>SkyDrift</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="SkyDrift"/>
+        <shortcut ev="startmenu" path="Programs\SkyDrift\SkyDrift.lnk"/>
+      </locations>
+      <files type="Saves">
+        <save path="*" filename="SkyDrift.cfg"/>
+        <save path="*" filename="vuid"/>
+      </files>
+      <contributor>hadderakk</contributor>
     </version>
   </game>
   <game name="SlyCooperAndtheThievusRaccoonus">
@@ -14339,14 +14407,14 @@
     </version>
     <version os="Windows">
       <locations>
-        <path ev="userprofile" path="VVVVVV"/>
         <path ev="userdocuments" path="VVVVVV"/>
+        <path ev="userprofile" path="VVVVVV"/>
       </locations>
       <files type="Saves">
         <save path="Saves"/>
       </files>
-      <contributor>telroa</contributor>
       <contributor>GameSave.Info</contributor>
+      <contributor>telroa</contributor>
     </version>
   </game>
   <game name="WalkingDead">
@@ -15182,74 +15250,6 @@
       </files>
       <identifier path="userdata"/>
       <contributor>duncans_pumpkin</contributor>
-    </version>
-  </game>
-  <game name="SkyDrift">
-    <title>SkyDrift</title>
-    <version os="Windows">
-      <locations>
-        <path ev="installlocation" path="SkyDrift"/>
-        <shortcut ev="startmenu" path="Programs\SkyDrift\SkyDrift.lnk"/>
-      </locations>
-      <files type="Saves">
-        <save path="*" filename="SkyDrift.cfg"/>
-        <save path="*" filename="vuid"/>
-      </files>
-      <contributor>hadderakk</contributor>
-    </version>
-  </game>
-  <game name="Aztaka">
-    <title>Zuma Deluxe</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="aztaka" />
-      </locations>
-      <files type="Profiles">
-        <save path="Profiles"/>
-      </files>
-      <linkable path="Profiles"/>
-      <contributor>telroa</contributor>
-    </version>
-  </game>
-  <game name="DeadHorde">
-    <title>Dead Horde</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="DeadHorde" />
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <linkable />
-      <contributor>telroa</contributor>
-    </version>
-  </game>
-  <game name="SeriousSamDoubleD">
-    <title>Serious Sam Double D</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="SSDD" />
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <linkable />
-      <contributor>telroa</contributor>
-    </version>
-  </game>
-  <game name="SeriousSamTheRandomEncounter">
-    <title>Serious Sam: The Random Encounter</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="serious sam the random encounter" />
-      </locations>
-      <files type="Saves">
-        <save filename="*.sav" />
-      </files>
-      <files type="Settings">
-        <save filename="config.txt" />
-      </files>
-      <contributor>telroa</contributor>
     </version>
   </game>
 </programs>
