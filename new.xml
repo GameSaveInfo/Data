@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-31T13:05:17">
+  <!-- Staging file for the adding of entries -->
+  <!--  
+  <game name="">
+    <title></title>
+    <version>
+      <locations>
+      </locations>
+      <files type="">
+        <save />
+      </files>
+      <contributor></contributor>
+    </version>
+  </game>
+  -->
+  <game name="123KickIt">
+    <title>1... 2... 3... KICK IT! (Drop That Beat Like an Ugly Baby)</title>
+    <version os="Windows" gsm_id="1">
+      <locations>
+        <path ev="localappdata" path="123KickIt" gsm_id="1" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="10DaysUnderTheSea">
+    <title>10 Days under the Sea</title>
+    <version os="Windows" gsm_id="2">
+      <locations>
+        <path ev="commonapplicationdata" path="FlyWheelGames/10DaysUnderTheSea" gsm_id="2" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="5RealmsOfCards">
+    <title>5 Realms of Cards</title>
+    <version os="Windows" gsm_id="5">
+      <locations>
+        <path ev="commonapplicationdata" path="SugarGames/5RealmofCards" gsm_id="5" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="9thCompanyRootsOfTerror">
+    <title>9th Company: Roots of Terror</title>
+    <version os="Windows" gsm_id="6">
+      <locations>
+        <path ev="steamcommon" path="9th company" gsm_id="6" />
+      </locations>
+      <files type="Saves">
+        <save path="Save" />
+      </files>
+      <linkable path="Save"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="ANewBeginning">
+    <title>A New Beginning</title>
+    <version os="Windows" gsm_id="7">
+      <locations>
+        <path ev="localappdata" path="Daedalic Entertainment/A New Beginning" gsm_id="7" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="APOX">
+    <title>APOX</title>
+    <version os="Windows" gsm_id="11">
+      <locations>
+        <path ev="userdocuments" path="APOX/Save" gsm_id="11" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Area51">
+    <title>Area 51</title>
+    <version os="Windows" gsm_id="12">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/Uninstall/AREA-51" value="DisplayIcon" gsm_id="12"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVES" />
+      </files>
+      <linkable path="SAVES"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="AcesOfTheGalaxy">
+    <title>Aces of the Galaxy</title>
+    <version os="Windows" gsm_id="14">
+      <locations>
+        <path ev="userdocuments" path="My Games/Aces of the Galaxy" gsm_id="14"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="ActOfWarDirectAction">
+    <title>Act of War: Direct Action</title>
+    <version os="Windows" gsm_id="15">
+      <locations>
+        <registry root="current_user" key="SOFTWARE/Eugen Systems/ActOfWar" value="AppDir" gsm_id="15"/>
+      </locations>
+      <files type="Saves">
+        <save path="AOW/Save" />
+      </files>
+      <linkable path="AOW/Save"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="ActOfWarHighTreason">
+    <title>Act of War: High Treason</title>
+    <version os="Windows" gsm_id="16">
+      <locations>
+        <registry root="current_user" key="SOFTWARE/Eugen Systems/ActOfWar_HighTreason" value="AppDir" gsm_id="16"/>
+      </locations>
+      <files type="Saves">
+        <save path="AOW/Save" />
+      </files>
+      <linkable path="AOW/Save"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="AgathaChristieDeathOnTheNile">
+    <title>Agatha Christie: Death on the Nile</title>
+    <version os="Windows" gsm_id="19">
+      <locations>
+        <path ev="appdata" path="FloodLightGames/Death on the Nile" gsm_id="21"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="AgeOfConan">
+    <title>Age of Conan</title>
+    <version os="Windows" gsm_id="20">
+      <locations>
+        <path ev="localappdata" path="Funcom/Conan" gsm_id="22"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="AgeOfPirates2">
+    <title>Age of Pirates 2: City of Abandoned Ships</title>
+    <version os="Windows" gsm_id="24">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE/Playlogic/AoP2" value="InstallPath" gsm_id="26"/>
+      </locations>
+      <files type="Saves">
+        <save path="SAVE" />
+      </files>
+      <linkable path="SAVE" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="AgeOfWondersShadowMagic">
+    <title>Age of Wonders: Shadow Magic</title>
+    <version os="Windows" gsm_id="26">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGAOMSM" value="PATH" gsm_id="28"/>
+      </locations>
+      <files type="Saves">
+        <save path="Save" />
+      </files>
+      <linkable path="Save" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="AirConflictsSecretWars">
+    <title>Air Conflicts Secret Wars</title>
+    <version os="Windows" gsm_id="27">
+      <locations>
+        <path ev="localappdata" path="bitComposer/AirConflictsSW" gsm_id="29"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Alamandi">
+    <title>Alamandi</title>
+    <version os="Windows" gsm_id="28">
+      <locations>
+        <path ev="localappdata" path="bitComposer/AirConflictsSW" gsm_id="30"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Prototype2">
+    <title>Prototype 2</title>
+    <version os="Windows" gsm_id="1288">
+      <locations>
+        <path ev="userdocuments" path="Activision/Prototype 2" gsm_id="1581"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="AloneInTheDark2008">
+    <title>Alone in the Dark (2008)</title>
+    <version os="Windows" gsm_id="44">
+      <locations>
+        <path ev="localappdata" path="Atari/AITD" gsm_id="47"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+</programs>

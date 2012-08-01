@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- types -->
+  <xs:complexType name="regs">
+    <xs:sequence>
+      <xs:element ref="hive" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="path" type="xs:string" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dir_reg">
+    <xs:complexContent>
+      <xs:extension base="regs">
+        <xs:sequence>
+          <xs:element name="value" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="save_reg">
+    <xs:complexContent>
+      <xs:extension base="regs">
+        <xs:sequence>
+          <xs:element name="values" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="id" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+
+  <!-- attributes -->
+<xs:attribute name="specialpath">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="%APPDATA_LOCAL%"/>
+      <xs:enumeration value="%APPDATA_COMMON%"/>
+      <xs:enumeration value="%DOCUMENTS%"/>
+      <xs:enumeration value="%SHARED_DOCUMENTS%"/>
+      <xs:enumeration value="%STEAM_CLOUD%"/>
+      <xs:enumeration value="%REGISTRY%"/>
+      <xs:enumeration value="%STEAM%"/>
+      <xs:enumeration value="%USER_PROFILE%"/>
+      <xs:enumeration value="%APPDATA%"/>
+      <xs:enumeration value="%UPLAY%"/>
+      <xs:enumeration value="%STEAM_CACHE%"/>
+      <xs:enumeration value="%SAVED_GAMES%"/>
+      <xs:enumeration value="%PROG_FILES_86%"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+
+  <!-- elements-->
+  <xs:element name="path">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute ref="specialpath" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="hive">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value=""/>
+        <xs:enumeration value="HKEY_LOCAL_MACHINE"/>
+        <xs:enumeration value="HKEY_CURRENT_USER"/>
+        <xs:enumeration value="SteamCloud"/>
+        <xs:enumeration value="UbisoftSaveStorage"/>
+        <xs:enumeration value="RenPy"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+
+  <xs:element name="dir">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="path" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="reg" type="dir_reg" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="include" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="exclude" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:int" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="directories">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="dir" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="registry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reg" type="save_reg" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="entry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="backupwarning" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="restorewarning" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element ref="directories" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="registry" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:int" use="required" />
+      <xs:attribute name="new" type="xs:boolean" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="GameSaveManager_DatabaseUpdate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="entry" minOccurs="1" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:int" use="required" />
+      <xs:attribute name="build" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:unique name="uniqueIDs">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@id"/>
+    </xs:unique>
+    <xs:unique name="uniqueDirIDs">
+      <xs:selector xpath="*/locations/*" />
+      <xs:field xpath="@id"/>
+    </xs:unique>
+  </xs:element>
+</xs:schema>

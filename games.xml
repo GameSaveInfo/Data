@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-31T13:05:17">
   <!--This file contains games, mods and expansions-->
+  
   <game name="11thHour">
     <title>The 11th Hour</title>
     <version os="Windows">
@@ -20,9 +21,9 @@
   </game>
   <game name="18WheelsOfSteelExtremeTrucker">
     <title>18 Wheels of Steel: Extreme Trucker</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="4">
       <locations>
-        <path ev="userdocuments" path="18 WoS Extreme Trucker"/>
+        <path ev="userdocuments" path="18 WoS Extreme Trucker" gsm_id="4"/>
       </locations>
       <files type="Saves">
         <save path="profile*"/>
@@ -38,9 +39,9 @@
   </game>
   <game name="18WheelsOfSteelAmericanLongHaul">
     <title>18 Wheels of Steel: American Long Haul</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="3">
       <locations>
-        <path ev="userdocuments" path="18 WoS American Long Haul"/>
+        <path ev="userdocuments" path="18 WoS American Long Haul" gsm_id="3"/>
       </locations>
       <files type="Saves">
         <save />
@@ -99,9 +100,9 @@
   </game>
   <game name="AaaaaAAaaaAAAaaAAAAaAAAAA">
     <title>AaaaaAAaaaAAAaaAAAAaAAAAA!!!</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="13">
       <locations>
-        <path ev="localappdata" path="AaaaaRecklessDisregard"/>
+        <path ev="localappdata" path="AaaaaRecklessDisregard" gsm_id="13"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -112,7 +113,7 @@
   </game>
   <game name="AdventRising">
     <title>Advent Rising</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="17">
       <locations>
         <path ev="installlocation" path="GOG.com\Advent Rising"/>
         <path ev="steamcommon" path="advent rising"/>
@@ -164,13 +165,12 @@
   </game>
   <game name="AgeOfEmpires3" follows="AgeOfEmpires2">
     <title>Age of Empires III</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="21">
       <locations>
-        <path ev="userdocuments" path="My Games\Age of Empires 3"/>
+        <path ev="userdocuments" path="My Games\Age of Empires 3" gsm_id="23"/>
       </locations>
       <files type="Saves">
-        <save path="Savegame"/>
-        <save path="Users"/>
+        <save />
       </files>
       <linkable/>
       <contributor>SamuelTaylor</contributor>
@@ -178,15 +178,14 @@
   </game>
   <game name="AgeOfMythology">
     <title>Age of Mythology</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="22">
       <locations>
         <path ev="installlocation" path="Microsoft Games\Age of Mythology"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\Age of Mythology\1.0" value="AppPath"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\Age of Mythology\1.0" value="AppPath" gsm_id="24"/>
         <shortcut ev="startmenu" path="Programs\Microsoft Games\Age of Mythology\Age of Mythology.lnk"/>
       </locations>
       <files type="Saves">
-        <save path="savegame" filename="*.rec"/>
-        <save path="savegame" filename="*.sav"/>
+        <save path="savegame" />
       </files>
       <linkable path="savegame"/>
       <contributor>GameSave.Info</contributor>
@@ -194,13 +193,12 @@
   </game>
   <expansion name="AgeOfMythologyTheTitansExpansion" for="AgeOfMythology">
     <title>Age of Mythology: The Titans Expansion</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="23">
       <locations>
-        <path ev="userdocuments" path="My Games\Age of Mythology"/>
+        <path ev="userdocuments" path="My Games\Age of Mythology" gsm_id="25"/>
       </locations>
       <files type="Saves">
-        <save path="Savegame" filename="*.rcx"/>
-        <save path="Savegame" filename="*.svx"/>
+        <save />
       </files>
       <linkable/>
       <contributor>GameSave.Info</contributor>
@@ -208,11 +206,11 @@
   </expansion>
   <game name="AgeOfWonders">
     <title>Age of Wonders</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="25">
       <locations>
         <path ev="installlocation" path="GOG.com\Age of Wonders"/>
         <path ev="installlocation" path="Triumph Studios\Age of Wonders"/>
-        <registry root="current_user" key="Software\Triumph Studios\Age of Wonders\General" value="Root Directory"/>
+        <registry root="current_user" key="Software\Triumph Studios\Age of Wonders\General" value="Root Directory" gsm_id="27" />
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAOM1" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\Age of Wonders\Age of Wonders.lnk"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Age of Wonders\Age of Wonders.lnk"/>
@@ -226,9 +224,9 @@
   </game>
   <game name="AIMRacing">
     <title>A.I.M. Racing</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="8">
       <locations>
-        <path ev="userdocuments" path="My Games\A.I.M. Racing"/>
+        <path ev="userdocuments" path="My Games\A.I.M. Racing" gsm_id="8"/>
       </locations>
       <files type="Saves">
         <save>
@@ -241,9 +239,9 @@
   </game>
   <game name="AIWarFleetCommand">
     <title>AI War: Fleet Command</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="10">
       <locations>
-        <path ev="steamcommon" path="ai war fleet command"/>
+        <path ev="steamcommon" path="ai war fleet command" gsm_id="10"/>
       </locations>
       <files type="Saves">
         <save path="Save"/>
@@ -254,18 +252,19 @@
   </game>
   <game name="AlanWake">
     <title>Alan Wake</title>
-    <version platform="SteamCloud">
+    <version platform="SteamCloud" gsm_id="29">
       <locations>
-        <path ev="steamuserdata" path="108710"/>
+        <path ev="steamuserdata" path="108710" gsm_id="31"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
-    <version os="Windows" media="GoG">
+    <version os="Windows" gsm_id="30">
       <locations>
-        <path ev="userdocuments" path="Remedy\AlanWake_GOG_Version"/>
+        <path ev="userdocuments" path="Remedy\AlanWake_GOG_Version" gsm_id="33"/>
+        <path ev="userdocuments" path="Remedy\AlanWake" gsm_id="32"/>
       </locations>
       <files type="Saves">
         <save path="savegames"/>
@@ -279,18 +278,18 @@
   </game>
   <game name="AlanWakesAmericanNightmare" follows="AlanWake">
     <title>Alan Wake's American Nightmare</title>
-    <version platform="SteamCloud">
+    <version platform="SteamCloud" gsm_id="31">
       <locations>
-        <path ev="steamuserdata" path="202750"/>
+        <path ev="steamuserdata" path="202750" gsm_id="34"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
-    <version os="Windows" media="GoG">
+    <version os="Windows" gsm_id="32">
       <locations>
-        <path ev="userdocuments" path="Remedy\AmericanNightmare_GOG_Version"/>
+        <path ev="userdocuments" path="Remedy\AmericanNightmare_GOG_Version" gsm_id="35"/>
       </locations>
       <files type="Saves">
         <save path="savegames"/>
@@ -321,9 +320,9 @@
   </game>
   <game name="AliceMadnessReturns" follows="Alice">
     <title>Alice: Madness Returns</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="33">
       <locations>
-        <path ev="userdocuments" path="My Games\Alice Madness Returns"/>
+        <path ev="userdocuments" path="My Games\Alice Madness Returns" gsm_id="36"/>
       </locations>
       <files type="Saves">
         <save path="AliceGame\CheckPoint"/>
@@ -337,9 +336,9 @@
   </game>
   <game name="AlienBreed2Assault">
     <title>Alien Breed 2: Assault</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="34">
       <locations>
-        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreed2AssaultGame"/>
+        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreed2AssaultGame" gsm_id="37"/>
       </locations>
       <files type="Saves">
         <save path="SaveData"/>
@@ -353,9 +352,9 @@
   </game>
   <game name="AlienBreed3Descent" follows="AlienBreed2Assault">
     <title>Alien Breed 3: Descent</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="35">
       <locations>
-        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreed3DescentGame"/>
+        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreed3DescentGame" gsm_id="38"/>
       </locations>
       <files type="Saves">
         <save path="SaveData"/>
@@ -369,9 +368,9 @@
   </game>
   <game name="AlienBreedImpact" follows="AlienBreed3Descent">
     <title>Alien Breed: Impact</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="36">
       <locations>
-        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreedEp1Game"/>
+        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreedEp1Game" gsm_id="39"/>
       </locations>
       <files type="Saves">
         <save path="SaveData"/>
@@ -385,9 +384,9 @@
   </game>
   <game name="AlienShooter2">
     <title>Alien Shooter: Vengeance</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="40">
       <locations>
-        <path ev="userdocuments" path="AlienShooter2 Saves"/>
+        <path ev="userdocuments" path="AlienShooter2 Saves" gsm_id="43"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -395,10 +394,10 @@
       <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
-    <version os="Windows" release="Reloaded">
+    <version os="Windows" release="Reloaded" gsm_id="38">
       <title>Alien Shooter 2: Reloaded</title>
       <locations>
-        <path ev="userdocuments" path="AlienShooter2 Reloaded Saves"/>
+        <path ev="userdocuments" path="AlienShooter2 Reloaded Saves" gsm_id="41"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -409,10 +408,10 @@
   </game>
   <game name="AliensVsPredator">
     <title>Aliens vs. Predator</title>
-    <version os="Windows" release="Classic">
+    <version os="Windows" release="Classic" gsm_id="43">
       <title>Aliens vs. Predator Classic</title>
       <locations>
-        <path ev="localappdata" path="Rebellion\AvP Classic"/>
+        <path ev="localappdata" path="Rebellion\AvP Classic" gsm_id="46"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -441,9 +440,9 @@
   </game>
   <game name="AliensVsPredator2010" follows="AliensVsPredator2">
     <title>Aliens vs. Predator (2010)</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="42">
       <locations>
-        <path ev="localappdata" path="AliensVsPredator"/>
+        <path ev="localappdata" path="AliensVsPredator" gsm_id="45"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -472,9 +471,9 @@
   </expansion>
   <game name="AlienSwarm">
     <title>Alien Swarm</title>
-    <version platform="SteamCloud">
+    <version platform="SteamCloud" gsm_id="41">
       <locations>
-        <path ev="steamuserdata" path="630"/>
+        <path ev="steamuserdata" path="630" gsm_id="44"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -659,15 +658,16 @@
   </game>
   <game name="AndYetItMoves">
     <title>And Yet It Moves</title>
-    <version media="Steam">
+    <version os="Windows">
       <locations>
+        <path ev="appdata" path="Broken Rules\And Yet It Moves Greenhouse"/>
         <path ev="appdata" path="Broken Rules\And Yet It Moves Steam"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
       <linkable/>
-      <contributor>GameSave.Info</contributor>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="AngelsOnline">
@@ -786,6 +786,12 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <files type="Screenshots">
+        <save path="screenshots" />
+      </files>
+      <files type="Settings">
+        <save filename="usersettings.xml" />
+      </files>
       <linkable path="save"/>
       <contributor>Dwight Holman</contributor>
       <contributor>slake_jones</contributor>
@@ -836,9 +842,9 @@
   </game>
   <game name="ARES">
     <title>A.R.E.S</title>
-    <version os="Windows">
+    <version os="Windows" gsm_id="9">
       <locations>
-        <path ev="userdocuments" path="ARES"/>
+        <path ev="userdocuments" path="ARES" gsm_id="9"/>
       </locations>
       <files type="Saves">
         <save>
@@ -880,9 +886,21 @@
   </game>
   <game name="Armada2526">
     <title>Armada 2526</title>
+    <version os="Windows" release="Gold">
+      <title>Armada 2526 Gold Edition</title>
+      <locations>
+        <path ev="userdocuments" path="My Games\Armada 2526 Gold"/>
+      </locations>
+      <files type="Saves">
+        <save path=""/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="My Games\Armada 2526"/>
+        <path ev="userdocuments" path="Saved Games\Armada 2526"/>
       </locations>
       <files type="Saves">
         <save filename="*.2526sav"/>
@@ -1053,6 +1071,7 @@
     <title>Avencast: Rise of the Mage</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="avencasts"/>
         <path ev="installlocation" path="Avencast"/>
         <registry root="local_machine" key="SOFTWARE\ClockStone\Avencast" value="InstallPath"/>
         <shortcut ev="startmenu" path="Programs\Avencast\Avencast.lnk"/>
@@ -1061,6 +1080,7 @@
         <save path="save"/>
       </files>
       <linkable path="save"/>
+      <contributor>GameSaveManager</contributor>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1080,15 +1100,17 @@
     </version>
   </game>
   <game name="Aztaka">
-    <title>Zuma Deluxe</title>
+    <title>Aztaka</title>
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="aztaka"/>
+        <path ev="localappdata" path="Aztaka"/>
       </locations>
       <files type="Profiles">
         <save path="Profiles"/>
       </files>
       <linkable path="Profiles"/>
+      <contributor>GameSaveManager</contributor>
       <contributor>telroa</contributor>
     </version>
   </game>
@@ -1123,6 +1145,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Telltale Games\Episode 3"/>
+        <path ev="userdocuments" path="Telltale Games\back to the future 103"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -1135,6 +1158,7 @@
     <title>Back to the Future: Episode 4: Double Visions</title>
     <version os="Windows">
       <locations>
+        <path ev="userdocuments" path="Telltale Games\Episode 4"/>
         <path ev="userdocuments" path="Telltale Games\back to the future 104"/>
       </locations>
       <files type="Saves">
@@ -1149,6 +1173,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Telltale Games\Episode 5"/>
+        <path ev="userdocuments" path="Telltale Games\back to the future 105"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -1164,6 +1189,7 @@
         <path ev="installlocation" path="GOG.com\Baldurs Gate"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBALDURSGATE1" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Baldur's Gate" value="CurrentDirectory"/>
+        <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/App Paths/BGMain.Exe" value="Path"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Baldur's Gate\Baldur's Gate.lnk"/>
       </locations>
       <files type="Characters">
@@ -1188,6 +1214,7 @@
         <path ev="installlocation" path="GOG.com\Baldurs Gate II"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBALDURSGATE2" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Baldur's Gate2" value="CurrentDirectory"/>
+        <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/App Paths/BG2Main.Exe" value="Path"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Baldur's Gate II\Baldur's Gate II.lnk"/>
       </locations>
       <files type="Characters">
@@ -1245,6 +1272,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Eidos\Batman Arkham Asylum"/>
+        <path ev="userdocuments" path="Square Enix\Batman Arkham Asylum"/>
       </locations>
       <files type="Saves">
         <save path="SaveData"/>
@@ -1252,6 +1280,7 @@
       <linkable path="SaveData"/>
       <restore_comment>Restoring saves for this game also requires restoring Game for Windows Account Data, which MASGAU automatically backs up in G4WAccountData.</restore_comment>
       <contributor>Michael Lamere</contributor>
+      <contributor>GameSaveManager</contributor>
     </version>
     <version os="Windows" release="GOTY">
       <title>Batman: Arkham Asylum GOTY</title>
@@ -1268,6 +1297,15 @@
   </game>
   <game name="BatmanArkhamCity" follows="BatmanArkhamAsylum">
     <title>Batman: Arkham City</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="57400"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="WB Games\Batman Arkham City"/>
@@ -1402,6 +1440,7 @@
     <version os="Windows">
       <locations>
         <path ev="allusersprofile" path="Steam\Bejeweled2" only_for="WindowsVista"/>
+        <path ev="allusersprofile" path="PopCap Games\Bejeweled2" only_for="WindowsVista"/>
         <path ev="steamcommon" path="bejeweled 2 deluxe" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
@@ -1557,6 +1596,7 @@
         <save path="SaveGames"/>
       </files>
       <linkable/>
+      <restore_comment>Restoring saves for this game also requires restoring Game for Windows Account Data, which MASGAU automatically backs up in G4WAccountData.</restore_comment>
       <contributor>Håvard Krüger</contributor>
     </version>
   </game>
@@ -1584,6 +1624,7 @@
         <save path="FOXGame\Config"/>
       </files>
       <linkable/>
+      <restore_comment>Restoring saves for this game also requires restoring Game for Windows Account Data, which MASGAU automatically backs up in G4WAccountData.</restore_comment>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1879,7 +1920,9 @@
         <path ev="userdocuments" path="My Games\Borderlands"/>
       </locations>
       <files type="Saves">
-        <save path="SaveData"/>
+        <save path="SaveData">
+          <except path="WillowGame\Logs"/>
+        </save>
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -1993,6 +2036,7 @@
       <scummvm name="bsword2"/>
       <scummvm name="sword2"/>
       <locations>
+        <path ev="steamcommon" path="Broken Sword 2/ScummVM"/>
         <path ev="installlocation" path="GOG.com\Broken Sword II - The Smoking Mirror"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD2" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Broken Sword II - The Smoking Mirror\Broken Sword II - The Smoking Mirror.lnk" detract="ScummVM"/>
@@ -2018,6 +2062,7 @@
     <title>Broken Sword: The Sleeping Dragon</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="Broken Sword 3"/>
         <path ev="installlocation" path="GOG.com\Broken Sword - The Sleeping Dragon"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD3" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Broken Sword - The Sleeping Dragon\Broken Sword - The Sleeping Dragon.lnk"/>
@@ -2127,6 +2172,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="call of duty"/>
+        <registry root="local_machine" key="SOFTWARE/Activision/Call of Duty" value="InstallPath"/>
       </locations>
       <files type="Saves">
         <save path="main\save"/>
@@ -2143,6 +2189,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="call of duty 2"/>
+        <registry root="local_machine" key="SOFTWARE/Activision/Call of Duty 2" value="InstallPath"/>
       </locations>
       <files type="Saves">
         <save path="main\players"/>
@@ -2217,6 +2264,7 @@
     <title>Call of Duty: United Offensive</title>
     <version os="Windows">
       <locations>
+        <registry root="local_machine" key="SOFTWARE/Activision/Call of Duty United Offensive" value="InstallPath" append="uo"/>
         <path ev="steamcommon" path="call of duty\uo"/>
       </locations>
       <files type="Saves">
@@ -2727,6 +2775,7 @@
     <version os="Windows">
       <locations>
         <path ev="appdata" path="Lazy 8 Studios\Cogs"/>
+        <path ev="steamcommon" path="cogs\data"/>
       </locations>
       <files type="Saves">
         <save filename="playerInfo.dat"/>
@@ -2946,6 +2995,7 @@
     <version os="Windows">
       <locations>
         <path ev="appdata" path="Crayon Physics Deluxe"/>
+        <path ev="userdocuments" path="Crayon Physics Deluxe"/>
       </locations>
       <files type="Saves">
         <save path="My Solutions"/>
@@ -2981,12 +3031,14 @@
         <path ev="installlocation" path="GOG.com\Cryostasis"/>
         <path ev="steamcommon" path="cryostasis"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGCRYOSTASIS" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE/Aspyr/Cryostasis" value="InstallDir"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Cryostasis\Cryostasis.lnk"/>
       </locations>
       <files type="Saves">
         <save path="Data\Save"/>
       </files>
       <linkable path="Data\Save"/>
+      <contributor>GameSaveManager</contributor>
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -3338,11 +3390,13 @@
     <version os="Windows">
       <locations>
         <path ev="appdata" path="Dark Sector"/>
+        <path ev="userdocuments" path="Aspyr/Dark Sector"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
       <linkable/>
+      <contributor>GameSaveManager</contributor>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4291,6 +4345,15 @@
   </game>
   <game name="DungeonDefenders">
     <title>Dungeon Defenders</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="65800"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="Dungeon Defenders"/>
@@ -4329,6 +4392,7 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Bullfrog\Dungeon Keeper II"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDUNGEONKEEPER2" value="PATH"/>
       </locations>
       <files type="Saves">
         <save path="Data\Save"/>
@@ -4851,6 +4915,7 @@
         <registry root="local_machine" key="SOFTWARE\VUGames\Evil Genius\1.0.0.0" value="Directory"/>
         <shortcut ev="startmenu" path="Programs\Evil Genius\Evil Genius.lnk" detract="ReleaseExe"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Evil Genius\Evil Genius.lnk" detract="ReleaseExe"/>
+        <path ev="userdocuments" path="Evil Genius"/>
       </locations>
       <files type="Saves">
         <save path="DynamicResources\CodeGeneratedData"/>
@@ -4983,6 +5048,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="atari\Fahrenheit Profile"/>
+        <path ev="userdocuments" path="atari\Fahrenheit"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -4995,6 +5061,7 @@
     <title>Fallout</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="fallout"/>
         <path ev="installlocation" path="GOG.com\Fallout"/>
         <path ev="installlocation" path="Interplay\Fallout"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\falloutw.exe" value="Path"/>
@@ -5012,6 +5079,7 @@
     <title>Fallout 2</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="fallout 2"/>
         <path ev="installlocation" path="BlackIsle\Fallout2"/>
         <path ev="installlocation" path="GOG.com\Fallout 2"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGFALLOUT2" value="PATH"/>
@@ -5062,6 +5130,7 @@
     <title>Fallout Tactics</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="fallout tactics"/>
         <path ev="installlocation" path="GOG.com\Fallout Tactics"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGFALLOUTTACTICS" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Fallout Tactics\Fallout Tactics.lnk"/>
@@ -5374,6 +5443,7 @@
       <locations>
         <path ev="installlocation" path="Final Fantasy VII"/>
         <registry root="local_machine" key="SOFTWARE\Square Soft, Inc.\Final Fantasy VII" value="AppPath"/>
+        <registry root="local_machine" key="SOFTWARE\Square Soft, Inc.\Final Fantasy VII\1.00" value="AppPath"/>
         <shortcut ev="startmenu" path="Programs\Final Fantasy VII\Play Final Fantasy VII.lnk"/>
       </locations>
       <files type="Saves">
@@ -5432,6 +5502,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="flatout"/>
+        <registry root="local_machine" key="SOFTWARE/Bugbear/FlatOut" value="Path"/>
       </locations>
       <files type="Saves">
         <save path="Savegame"/>
@@ -5445,6 +5516,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="flatout2"/>
+        <registry root="local_machine" key="SOFTWARE/Bugbear/FlatOut2" value="Path"/>
       </locations>
       <files type="Saves">
         <save path="Savegame"/>
@@ -5844,6 +5916,7 @@
       <locations>
         <path ev="allusersprofile" path="Documents\Ghost Master"/>
         <path ev="public" path="Documents\Ghost Master"/>
+        <path ev="steamcommon" path="ghost master\GhostData"/>
       </locations>
       <files type="Saves">
         <save path="SaveGames"/>
@@ -6592,6 +6665,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="My Games\Halo"/>
+        <path ev="userdocuments" path="My Games\Halo CE"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -6792,6 +6866,7 @@
     <title>Hitman 2: Silent Assassin</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="hitman 2 silent assassin"/>
         <path ev="installlocation" path="Eidos Interactive\Hitman 2 Silent Assassin"/>
         <registry root="local_machine" key="SOFTWARE\Eidos Interactive\Hitman 2" value="InstallDir"/>
       </locations>
@@ -6823,6 +6898,7 @@
     <title>Hitman: Codename 47</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="hitman codename 47"/>
         <path ev="installlocation" path="Eidos Interactive\IO Interactive\Hitman - Codename 47"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\hitman.exe" value="Path"/>
       </locations>
@@ -6916,6 +6992,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="My Games\Hunted"/>
+        <path ev="userdocuments" path="Hunted"/>
       </locations>
       <files type="Saves">
         <save path="DFGame\SaveData"/>
@@ -7301,6 +7378,7 @@
     <version os="Windows" release="Gold">
       <title>Jaged Alliance 2 Gold</title>
       <locations>
+        <registry root="local_machine" key="SOFTWARE/GOG.com/GOGJAGGEDALLIANCE2" value="PATH"/>
         <path ev="steamcommon" path="jagged alliance 2 gold"/>
       </locations>
       <files type="Saves">
@@ -7450,6 +7528,7 @@
     <title>Jurassic Park: The Game</title>
     <version os="Windows">
       <locations>
+        <path ev="userdocuments" path="Telltale Games\Jurassic Park The Game"/>
         <path ev="userdocuments" path="Telltale Games\jurassicpark"/>
       </locations>
       <files type="Saves">
@@ -7904,15 +7983,6 @@
     <title>Lone Survivor</title>
     <version platform="Flash">
       <locations>
-        <path ev="appdata" path="\LoneSurvivor"/>
-      </locations>
-      <files type="Saves">
-        <save path="Local Store\Lone Survivor Saved Game"/>
-      </files>
-      <contributor>GameSave.Info</contributor>
-    </version>
-    <version os="Windows">
-      <locations>
         <path ev="appdata" path="LoneSurvivor"/>
       </locations>
       <files type="Saves">
@@ -8160,6 +8230,7 @@
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="Rockstar Games\Manhunt 2"/>
+        <path ev="userdocuments" path="Rockstar Games\Manhunt 2"/>
       </locations>
       <files type="Saves">
         <save path="savegames"/>
@@ -8891,6 +8962,9 @@
       <files type="Saves">
         <save path="saves"/>
       </files>
+      <files type="Statistics">
+        <save path="stats" />
+      </files>
       <contributor>GameSave.Info</contributor>
     </version>
     <version os="Android">
@@ -9085,6 +9159,8 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Mount&amp;Blade Warband Savegames"/>
+        <path ev="userdocuments" path="Mount&amp;Blade Warband"/>
+        <path ev="appdata" path="Mount&amp;Blade Warband"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -9233,6 +9309,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="necrovision lost company"/>
+        <registry root="local_machine" key="Software/TheFarm51/Necrovision"/>
       </locations>
       <files type="Saves">
         <save path="Profiles"/>
@@ -9672,6 +9749,7 @@
         <path ev="installlocation" path="DreamCatcher\Painkiller Gold Edition"/>
         <path ev="installlocation" path="GOG.com\Painkiller Black"/>
         <path ev="steamcommon" path="painkiller gold edition"/>
+        <path ev="steamcommon" path="painkiller black edition"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPAINKILLERBLACK" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\PeopleCanFly\Painkiller" value="AddonPath"/>
         <registry root="local_machine" key="SOFTWARE\PeopleCanFly\Painkiller" value="EXEpath" detract="Bin\Painkiller.exe"/>
@@ -9681,6 +9759,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -10004,6 +10083,7 @@
     <version os="Windows">
       <locations>
         <path ev="allusersprofile" path="Steam\PlantsVsZombies" only_for="WindowsVista"/>
+        <path ev="allusersprofile" path="PopCap Games\PlantsVsZombies" only_for="WindowsVista"/>
         <path ev="steamcommon" path="plants vs zombies" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
@@ -10333,7 +10413,7 @@
         <path ev="steamuserdata" path="3830"/>
       </locations>
       <files type="Saves">
-        <save/>
+        <save />
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -10352,6 +10432,7 @@
       </locations>
       <files type="Saves">
         <save path="Profiles"/>
+        <save path="WorkResource/SAVEDGAMES" />
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -10813,11 +10894,13 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Games\RedFaction"/>
+        <path ev="steamcommon" path="red faction"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\RedFaction.exe" value="Path"/>
       </locations>
       <files type="Saves">
         <save path="savegame"/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -10825,6 +10908,7 @@
     <title>Red Faction II</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="red faction ii"/>
         <path ev="installlocation" path="THQ\Red Faction II"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E074FB23-D61B-4C6A-AD15-AB9695ED2EF7}" value="InstallLocation"/>
       </locations>
@@ -11061,10 +11145,12 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Saved Games\Risen2"/>
+        <path ev="savedgames" path="Risen"/>
       </locations>
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -11201,6 +11287,7 @@
       <locations>
         <path ev="installlocation" path="RollerCoaster Tycoon 2"/>
         <registry root="local_machine" key="SOFTWARE\Infogrames\RollerCoaster Tycoon 2 Setup" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGRCT2" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\Infogrames\RollerCoaster Tycoon 2\RollerCoaster Tycoon 2.lnk"/>
       </locations>
       <files type="Saves">
@@ -11360,10 +11447,12 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Ascaron Entertainment\Sacred 2" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Ascaron Entertainment\Sacred 2" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -11814,6 +11903,7 @@
     <title>Second Sight</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="second sight"/>
         <path ev="installlocation" path="GOG.com\Second Sight"/>
         <registry root="local_machine" key="SOFTWARE\Codemasters\Second Sight\Install Location" value="Location"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSECONDSIGHT" value="PATH"/>
@@ -11822,6 +11912,7 @@
       <files type="Saves">
         <save path="profiles"/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -12142,6 +12233,7 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GAMES\Shogo"/>
+        <registry root="local_machine" key="SOFTWARE/GOG.com/GOGSHOGO" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Shogo" value="Path"/>
         <registry root="local_machine" key="SOFTWARE\Monolith Productions\Shogo\1.0" value="WorkingDirectory"/>
         <shortcut ev="startmenu" path="Programs\Monolith Games\Shogo\Shogo.lnk"/>
@@ -12149,6 +12241,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -12715,15 +12808,24 @@
   </game>
   <game name="SplinterCellConviction" follows="SplinterCellDoubleAgent">
     <title>Tom Clancy's Splinter Cell: Conviction</title>
-    <version os="Windows">
+    <version platform="UbisoftSaveStorage">
       <locations>
-        <path ev="allusersprofile" path="Ubisoft\Conviction"/>
+        <path ev="ubisoftsavestorage" path="2"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
-      <contributor>Arc Angel</contributor>
+      <contributor>GameSaveManager</contributor>
     </version>
+      <version os="Windows">
+        <locations>
+          <path ev="allusersprofile" path="Ubisoft\Conviction"/>
+        </locations>
+        <files type="Saves">
+          <save/>
+        </files>
+        <contributor>Arc Angel</contributor>
+      </version>
   </game>
   <game name="SplinterCellDoubleAgent" follows="SplinterCellChaosTheory">
     <title>Tom Clancy's Splinter Cell: Double Agent</title>
@@ -12806,6 +12908,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="stalker clear sky\_appdata_"/>
+        <registry root="local_machine" key="SOFTWARE/GSC Game World/STALKER-STCS" value="InstallPath" append="_appdata_"/>
       </locations>
       <files type="Saves">
         <save filename="user.ltx"/>
@@ -12885,6 +12988,7 @@
       </locations>
       <files type="Saves">
         <save path="save"/>
+        <save path="characters"/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -13008,10 +13112,12 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Petroglyph\Empire At War" only_for="WindowsVista"/>
+        <path ev="appdata" path="Petroglyph\Empire At War" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>AvvA</contributor>
     </version>
   </game>
@@ -13058,11 +13164,13 @@
     <title>Star Wars: Jedi Knight: Jedi Academy</title>
     <version os="Windows">
       <locations>
+        <registry root="local_machine" key="SOFTWARE/LucasArts/Star Wars Jedi Knight Jedi Academy/1.0" value="Install"/>
         <path ev="steamcommon" path="jedi academy"/>
       </locations>
       <files type="Saves">
         <save path="GameData\base\saves"/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -13181,6 +13289,7 @@
     <title>Still Life</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="still life"/>
         <path ev="installlocation" path="GOG.com\Still Life"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTILLLIFE" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microids\StillLife" value="CurrentPath"/>
@@ -13189,6 +13298,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -13335,6 +13445,8 @@
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="Gas Powered Games\Supreme Commander 2 "/>
+        <path ev="userdocuments" path="My Games\Gas Powered Games\Supreme Commander 2 "/>
+        <path ev="userdocuments" path="My Games\SquareEnix\Supreme Commander 2 "/>
       </locations>
       <files type="Replays">
         <save path="replays"/>
@@ -13478,6 +13590,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Telltale Games\Lair of the Leviathan"/>
+        <path ev="userdocuments" path="Telltale Games\tales of monkey island - chapter 3"/>
       </locations>
       <files type="Saves">
         <save filename="*.save"/>
@@ -13494,6 +13607,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Telltale Games\The Trial and Execution of Guybrush Threepwood"/>
+        <path ev="userdocuments" path="Telltale Games\tales of monkey island - chapter 4"/>
       </locations>
       <files type="Saves">
         <save filename="*.save"/>
@@ -13510,6 +13624,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Telltale Games\Rise of the Pirate God"/>
+        <path ev="userdocuments" path="Telltale Games\tales of monkey island - chapter 5"/>
       </locations>
       <files type="Saves">
         <save filename="*.save"/>
@@ -13705,6 +13820,7 @@
       <locations>
         <path ev="installlocation" path="Games\Thief2"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\thief2.exe" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE/GOG.com/GOGTHIEF2" value="PATH"/>
       </locations>
       <files type="Saves">
         <save filename="*.sav"/>
@@ -13737,6 +13853,8 @@
       <locations>
         <path ev="installlocation" path="Thief"/>
         <shortcut ev="startmenu" path="Programs\Thief\Thief.lnk"/>
+        <path ev="steamcommon" path="thief_gold"/>
+        <registry root="local_machine" key="SOFTWARE/GOG.com/GOGTHIEF1GOLD" value="PATH"/>
       </locations>
       <files type="Saves">
         <save path="SAVES"/>
@@ -13929,6 +14047,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Tomb Raider - Legend"/>
+        <path ev="userdocuments" path="Eidos\Tomb Raider - Legend"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -14151,6 +14270,7 @@
     </version>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="Trine"/>
         <path ev="installlocation" path="Trine"/>
         <registry root="local_machine" key="SOFTWARE\trine" value="TrinePath"/>
       </locations>
@@ -14205,6 +14325,7 @@
     <title>Tropico</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="tropico"/>
         <path ev="installlocation" path="GOG.com\Tropico Reloaded\Tropico 1"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTROPICO1" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Kalypso Media\Tropico Reloaded\Tropico" value="Directory"/>
@@ -14213,6 +14334,7 @@
       <files type="Saves">
         <save path="games"/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -14306,6 +14428,7 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Two Worlds II" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Two Worlds II" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -14421,6 +14544,7 @@
     <title>Unreal</title>
     <version os="Windows">
       <locations>
+        <path ev="steamcommon" path="unreal gold"/>
         <path ev="installlocation" path="GOG.com\Unreal Gold"/>
         <path ev="installlocation" path="Unreal"/>
         <path ev="installlocation" path="UnrealGold"/>
@@ -14731,7 +14855,6 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="VVVVVV"/>
-        <path ev="userprofile" path="VVVVVV"/>
       </locations>
       <files type="Saves">
         <save path="Saves"/>
@@ -15565,6 +15688,7 @@
     <title>Zuma Deluxe</title>
     <version os="Windows">
       <locations>
+        <path ev="allusersprofile" path="PopCap Games\Zuma" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Steam\Zuma" only_for="WindowsVista"/>
         <path ev="steamcommon" path="zuma deluxe" only_for="WindowsXP"/>
       </locations>
@@ -15573,6 +15697,7 @@
       </files>
       <linkable path="userdata"/>
       <identifier path="userdata"/>
+      <contributor>GameSaveManager</contributor>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -15581,6 +15706,19 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="The Adventures of Tintin" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="CreeperWorld2">
+    <title>Creeper World 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="CreeperWorld2" />
       </locations>
       <files type="Saves">
         <save />

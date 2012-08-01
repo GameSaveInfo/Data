@@ -1,10 +1,33 @@
+Game to look into: DiRT, The PATH
 =Upcoming=
 New Windows Games:
 * 18 Wheels of Steel: American Long Haul
 * The Adventures of Tintin: The Game
+* Creeper World 2
+Games From GameSaveManager (so generous!)
+* 1... 2... 3... KICK IT! (Drop That Beat Like an Ugly Baby)
+* 10 Days under the Sea
+* 5 Realms of Cards
+* 9th Company: Roots of Terror - Steam only
+* A New Beginning
+* APOX
+* Area 51
+* Aces of the GAlaxy
+* Act of War: Direct Action
+* Act of War: High Treason
+* Agatha Christie: Death on the Nile
+* Age of Conan
+* Age of Pirates 2: City of Abandoned Ships
+* Age of Wonders: Shadow Magic
+* Air Conflicts Secret Wars
+* Alamandi
+* Alone in the Dark (2008)
+* Prototype 2
 Updated Windows Games:
+* Updated various games using GSM data
 * Dragonshard - Corrected, was completely wrong
 * Updated games through J where applicable to have link paths
+* Tweaked a lot of games to try to increase compatability with GameSaveManager
 =2012/7/31=
 New Windows Games:
 * The 11th Hour (GoG only)
