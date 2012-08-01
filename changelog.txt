@@ -1,5 +1,10 @@
 =Upcoming=
 New Windows Games:
+* 18 Wheels of Steel: American Long Haul
+* The Adventures of Tintin: The Game
+Updated Windows Games:
+* Dragonshard - Corrected, was completely wrong
+* Updated games through J where applicable to have link paths
 =2012/7/31=
 New Windows Games:
 * The 11th Hour (GoG only)

@@ -36,6 +36,19 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="18WheelsOfSteelAmericanLongHaul">
+    <title>18 Wheels of Steel: American Long Haul</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="18 WoS American Long Haul"/>
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <game name="25ToLife">
     <title>25 to Life</title>
     <version os="Windows">
@@ -1088,6 +1101,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -1100,6 +1114,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -1112,6 +1127,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -1124,6 +1140,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -1136,6 +1153,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -1157,6 +1175,8 @@
       <files type="Settings">
         <save filename="Baldur.ini"/>
       </files>
+      <linkable path="Characters"/>
+      <linkable path=" Save"/>
       <comment>Includes expansion saves</comment>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -1179,6 +1199,8 @@
       <files type="Settings">
         <save filename="baldur.ini"/>
       </files>
+      <linkable path="characters"/>
+      <linkable path="save"/>
       <comment>Includes expansion saves</comment>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -1192,6 +1214,7 @@
       <files type="Saves">
         <save path="UDKGame\Config"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1213,6 +1236,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1225,6 +1249,7 @@
       <files type="Saves">
         <save path="SaveData"/>
       </files>
+      <linkable path="SaveData"/>
       <restore_comment>Restoring saves for this game also requires restoring Game for Windows Account Data, which MASGAU automatically backs up in G4WAccountData.</restore_comment>
       <contributor>Michael Lamere</contributor>
     </version>
@@ -1236,6 +1261,7 @@
       <files type="Saves">
         <save path="SaveData"/>
       </files>
+      <linkable path="SaveData"/>
       <restore_comment>Restoring saves for this game also requires restoring Game for Windows Account Data, which MASGAU automatically backs up in G4WAccountData.</restore_comment>
       <contributor>Michael Lamere</contributor>
     </version>
@@ -1252,6 +1278,7 @@
       <files type="Settings">
         <save path="BmGame\Config"/>
       </files>
+      <linkable path="SaveData"/>
       <contributor>paul_taylor30</contributor>
     </version>
   </game>
@@ -1280,6 +1307,7 @@
       <files type="Settings">
         <save path="settings"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1299,6 +1327,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1311,6 +1340,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1323,6 +1353,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1335,6 +1366,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1349,6 +1381,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
+      <linkable path="SaveGames"/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -1374,6 +1407,7 @@
       <files type="Saves">
         <save path="users"/>
       </files>
+      <linkable path="users"/>
       <identifier path="users"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
@@ -1390,6 +1424,7 @@
       <files type="Saves">
         <save path="userdata"/>
       </files>
+      <linkable path="userdata"/>
       <identifier path="userdata"/>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -1436,6 +1471,7 @@
       <files type="Settings">
         <save path="Mods\Bos\Settings"/>
       </files>
+      <linkable path="Mods\Bos\Saves"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1494,6 +1530,7 @@
       <files type="Settings">
         <save path="data\settings"/>
       </files>
+      <linkable path="saves"/>
       <contributor>AvvA</contributor>
     </version>
   </game>
@@ -1506,6 +1543,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1518,6 +1556,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
+      <linkable/>
       <contributor>Håvard Krüger</contributor>
     </version>
   </game>
@@ -1531,6 +1570,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
+      <linkable path="Profiles"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1543,6 +1583,7 @@
       <files type="Saves">
         <save path="FOXGame\Config"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1567,6 +1608,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1581,6 +1623,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -1595,6 +1638,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1609,6 +1653,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -1624,6 +1669,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -1645,6 +1691,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1676,6 +1723,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <linkable path="Save"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1712,6 +1760,7 @@
       <files type="Settings">
         <save filename="Config.xml"/>
       </files>
+      <linkable/>
       <comment>Includes Blood Bowl Dark Elves Edition as well</comment>
       <contributor>AvvA</contributor>
     </version>
@@ -1747,6 +1796,7 @@
       <files type="Settings">
         <save filename="Config.xml"/>
       </files>
+      <linkable/>
       <contributor>AvvA</contributor>
     </version>
   </game>
@@ -1762,6 +1812,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
+      <linkable path="savegame"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1776,6 +1827,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
+      <linkable path="savegame"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1788,6 +1840,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1800,6 +1853,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1813,6 +1867,7 @@
       <files type="Saves">
         <save path="users"/>
       </files>
+      <linkable path="users"/>
       <identifier path="users"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
@@ -1826,6 +1881,7 @@
       <files type="Saves">
         <save path="SaveData"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1838,6 +1894,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1866,6 +1923,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1890,6 +1948,7 @@
       <files type="Settings">
         <save filename="Settings"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -1924,6 +1983,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1950,6 +2010,7 @@
       <files type="Settings">
         <save filename="settings.bin"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1964,6 +2025,7 @@
       <files type="Saves">
         <save path="saves"/>
       </files>
+      <linkable path="saves"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1976,6 +2038,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -1998,6 +2061,7 @@
       <files type="Settings">
         <save path="Config"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2011,6 +2075,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2026,6 +2091,7 @@
       <files type="Settings">
         <save filename="config.ini"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2039,6 +2105,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2051,6 +2118,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2066,6 +2134,7 @@
       <files type="Settings">
         <save path="main" filename="*.cfg"/>
       </files>
+      <linkable path="main\save"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2078,6 +2147,7 @@
       <files type="Saves">
         <save path="main\players"/>
       </files>
+      <linkable path="main\players"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2093,6 +2163,7 @@
       <files type="Saves">
         <save path="players\profiles"/>
       </files>
+      <linkable path="players\profiles"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2108,6 +2179,7 @@
       <files type="Saves">
         <save path="players"/>
       </files>
+      <linkable path="players"/>
       <contributor>Arc Angel</contributor>
       <contributor>javier.ark</contributor>
     </version>
@@ -2121,6 +2193,7 @@
       <files type="Saves">
         <save path="players"/>
       </files>
+      <linkable path="players"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2136,6 +2209,7 @@
       <files type="Settings">
         <save path="players2" filename="*"/>
       </files>
+      <linkable path="players2"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2151,6 +2225,7 @@
       <files type="Settings">
         <save filename="*.cfg"/>
       </files>
+      <linkable path="save"/>
       <contributor>Arc Angel</contributor>
     </version>
   </expansion>
@@ -2163,6 +2238,7 @@
       <files type="Saves">
         <save path="players"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2176,6 +2252,7 @@
         <save path="Out\profiles"/>
         <save path="Out\save"/>
       </files>
+      <linkable/>
       <contributor>Michael Lamere</contributor>
     </version>
   </game>
@@ -2214,6 +2291,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
+      <linkable path="Players"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2245,6 +2323,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -2261,6 +2340,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <linkable path="Save"/>
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -2274,6 +2354,7 @@
       <files type="Saves">
         <save filename="*.gamesave"/>
       </files>
+      <linkable/>
       <contributor>AvvA</contributor>
     </version>
   </game>
@@ -2286,6 +2367,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <linkable path="Save"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2298,6 +2380,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <linkable path="Save"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2310,6 +2393,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2322,6 +2406,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2349,6 +2434,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </mod>
@@ -2361,6 +2447,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </mod>
@@ -2373,6 +2460,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </mod>
@@ -2390,6 +2478,7 @@
           <except filename="*.txt"/>
         </save>
       </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -2402,6 +2491,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2456,6 +2546,7 @@
       <files type="Settings">
         <save filename="Civilization3.Ini"/>
       </files>
+      <linkable path="Saves"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2473,6 +2564,7 @@
       <files type="Settings">
         <save filename="conquests.ini"/>
       </files>
+      <linkable path="Saves"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -2489,6 +2581,7 @@
       <files type="Settings">
         <save filename="ptw.ini"/>
       </files>
+      <linkable path="Saves"/>
       <identifier path="Saves"/>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -2502,6 +2595,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2514,6 +2608,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -2526,6 +2621,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2538,6 +2634,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -2560,6 +2657,7 @@
         <save path="ModdedSaves"/>
         <save path="Saves"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2591,6 +2689,7 @@
         <save path="Data" filename="VideoSettingsGTI.scr"/>
         <save path="Data" filename="VideoSettingsGTI_MP.scr"/>
       </files>
+      <linkable path="Data\profiles"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -2606,6 +2705,7 @@
       <files type="Settings">
         <save filename="*.cfg"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2618,6 +2718,7 @@
       <files type="Settings">
         <save filename="hl2d_settings.sol"/>
       </files>
+      <identifier filename="hl2d_settings.sol"/>
       <contributor>AvvA</contributor>
     </version>
   </game>
@@ -2630,6 +2731,7 @@
       <files type="Saves">
         <save filename="playerInfo.dat"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2665,6 +2767,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Paul Taylor</contributor>
     </version>
   </expansion>
@@ -2678,6 +2781,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Paul Taylor</contributor>
     </version>
   </game>
@@ -2686,10 +2790,12 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Command and Conquer 4" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Command and Conquer 4" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Håvard Krüger</contributor>
     </version>
   </game>
@@ -2708,6 +2814,7 @@
       <files type="Statistics">
         <save filename="SkirmishStats.ini"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2726,6 +2833,7 @@
       <files type="Statistics">
         <save filename="SkirmishStats.ini"/>
       </files>
+      <linkable/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </expansion>
@@ -2734,10 +2842,12 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Red Alert 3" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Red Alert 3" only_for="WindowsXP"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>cammkelly</contributor>
     </version>
   </game>
@@ -2753,6 +2863,7 @@
       <files type="Settings">
         <save filename="*.lua"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2770,6 +2881,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
+      <linkable/>
       <identifier path="Save"/>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -2783,6 +2895,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2795,6 +2908,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -2808,6 +2922,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE"/>
       <identifier path="SAVE"/>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -2821,6 +2936,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE"/>
       <identifier path="SAVE"/>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -2834,6 +2950,7 @@
       <files type="Saves">
         <save path="My Solutions"/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -2853,6 +2970,7 @@
       <files type="Saves">
         <save path="save games"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2868,6 +2986,7 @@
       <files type="Saves">
         <save path="Data\Save"/>
       </files>
+      <linkable path="Data\Save"/>
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -2882,6 +3001,7 @@
         <save path="Profiles"/>
         <save path="SaveGames"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -2895,6 +3015,7 @@
         <save path="Profiles"/>
         <save path="SaveGames"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2908,6 +3029,7 @@
         <save path="Profiles"/>
         <save path="SaveGames"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2920,6 +3042,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -2962,6 +3085,7 @@
       <files type="Saves">
         <save filename="csiconfig.dat"/>
       </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -2979,6 +3103,7 @@
       <files type="Settings">
         <save filename="Settings"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -2994,6 +3119,7 @@
       <files type="Settings">
         <save filename="settings.ini"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3040,6 +3166,7 @@
       <files type="Settings">
         <save path="data" filename="*.cfg"/>
       </files>
+      <linkable path="data\save"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3080,6 +3207,7 @@
       <files type="Saves">
         <save path="base\save"/>
       </files>
+      <linkable path="base\save"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3092,6 +3220,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3104,6 +3233,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3118,6 +3248,7 @@
       <files type="Saves">
         <save path="data\profiles"/>
       </files>
+      <linkable path="data\profiles"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3131,6 +3262,7 @@
       <files type="Saves">
         <save path="mm\SAVE"/>
       </files>
+      <linkable path="mm\SAVE"/>
       <identifier path="mm\SAVE"/>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -3151,6 +3283,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3168,6 +3301,7 @@
       <files type="Settings">
         <save filename="config.txt"/>
       </files>
+      <linkable path="save"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3182,6 +3316,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable path="save"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3194,6 +3329,7 @@
       <files type="Saves">
         <save filename="DarkScavenger_Dellida.sol"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3206,6 +3342,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3218,6 +3355,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3233,6 +3371,7 @@
       <files type="Settings">
         <save path="Preferences"/>
       </files>
+      <linkable/>
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -3245,6 +3384,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3259,6 +3399,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable path="save"/>
       <contributor>David Barbour</contributor>
     </version>
   </game>
@@ -3275,6 +3416,7 @@
       <files type="Settings">
         <save path="SkyGame\Config"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3292,6 +3434,7 @@
         <save filename="preferences.txt"/>
         <save filename="user_input_preferences.txt"/>
       </files>
+      <linkable/>
       <contributor>AvvA</contributor>
     </version>
   </game>
@@ -3343,6 +3486,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3359,6 +3503,7 @@
       <files type="Saves">
         <save filename="*.deadspacesaved"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3371,6 +3516,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3395,6 +3541,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3410,6 +3557,7 @@
       <files type="Settings">
         <save path="Config"/>
       </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -3425,6 +3573,7 @@
       <files type="Settings">
         <save filename="userrender.ini"/>
       </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -3466,6 +3615,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3538,6 +3688,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
+      <linkable path="savegame"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3553,6 +3704,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
+      <linkable path="Players"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3573,6 +3725,7 @@
       <files type="Saves">
         <save path="Game\Data\Savegame"/>
       </files>
+      <linkable path="Game\Data\Savegame"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3585,6 +3738,7 @@
       <files type="Saves">
         <save path="Savegame"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3665,6 +3819,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3723,6 +3878,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable path="save"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3749,6 +3905,7 @@
       <files type="Saves">
         <save path="user"/>
       </files>
+      <linkable path="user"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3761,6 +3918,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3780,6 +3938,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
+      <linkable path="savegame"/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3792,6 +3951,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
+      <linkable/>
       <contributor>Snap_shot</contributor>
     </version>
   </game>
@@ -3807,6 +3967,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3822,6 +3983,7 @@
       <files type="Settings">
         <save filename="user.ini"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3855,6 +4017,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3876,18 +4039,20 @@
       <files type="Settings">
         <save/>
       </files>
+      <linkable/>
       <contributor>AvvA</contributor>
     </version>
   </game>
   <game name="DontTakeItPersonallyBabeItJustAintYourStory">
     <title>don't take it personally, babe, it just ain't your story</title>
-    <version>
+    <version platform="RenPy">
       <locations>
         <path ev="appdata" path="RenPy\digital2-1298756237"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3926,6 +4091,7 @@
       <files type="Saves">
         <save path="base\savegames"/>
       </files>
+      <linkable path="base\savegames"/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3938,6 +4104,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3953,6 +4120,7 @@
       <files type="Settings">
         <save path="Settings"/>
       </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -3969,6 +4137,7 @@
         <save path="Settings" filename="DragonAge.ini"/>
         <save path="Settings" filename="KeyBindings.ini"/>
       </files>
+      <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -3983,16 +4152,12 @@
     <title>Dragonshard</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="GOG.com\Dragonshard"/>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDNDDRAGONSHARD" value="PATH"/>
-        <shortcut ev="startmenu" path="Programs\GOG.com\Dungeons and Dragons - Dragonshard\Dungeons and Dragons - Dragonshard.lnk"/>
+        <path ev="userdocuments" path="My Games\Dragonshard"/>
       </locations>
       <files type="Saves">
-        <save path="TriangleMeshes"/>
+        <save />
       </files>
-      <files type="Settings">
-        <save filename="DND.ini"/>
-      </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4050,6 +4215,7 @@
       <files type="Settings">
         <save filename="Config.txt"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4065,6 +4231,7 @@
       <files type="Settings">
         <save path="Configs"/>
       </files>
+      <linkable path="Saves" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -4080,6 +4247,7 @@
       <files type="Settings">
         <save filename="*.DPLUser"/>
       </files>
+      <linkable />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -4092,6 +4260,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4104,6 +4273,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4150,6 +4320,7 @@
       <files type="Settings">
         <save path="Save" filename="*.DAT"/>
       </files>
+      <linkable path="Save" />
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -4162,6 +4333,7 @@
       <files type="Saves">
         <save path="Data\Save"/>
       </files>
+      <linkable path="Data\Save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4177,6 +4349,7 @@
       <files type="Settings">
         <save path="Config"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4189,6 +4362,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4209,6 +4383,7 @@
       <files type="Settings">
         <save filename="config.txt"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4224,6 +4399,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable path="save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4239,6 +4415,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
+      <linkable path="Players" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4254,6 +4431,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
+      <linkable path="Players" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4269,6 +4447,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
+      <linkable path="Players" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4281,6 +4460,7 @@
       <files type="Saves">
         <save path="Players"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4319,6 +4499,7 @@
       <files type="Saves">
         <save path="User\Profiles"/>
       </files>
+      <linkable  path="User\Profiles"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -4346,6 +4527,7 @@
       <files type="Saves">
         <save path="Saves"/>
       </files>
+      <linkable path="Saves" />
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -4365,6 +4547,7 @@
       <files type="Settings">
         <save filename="*.ini"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4382,6 +4565,7 @@
       <files type="Settings">
         <save filename="*.ini"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4403,6 +4587,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable path="save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4427,6 +4612,7 @@
       <files type="Scenarios">
         <save path="Data\Scenarios"/>
       </files>
+      <linkable path="Data\Saved Games" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4451,6 +4637,7 @@
       <files type="Scenarios">
         <save path="scenario"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4475,6 +4662,7 @@
       <files type="Scenarios">
         <save path="scenario*"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -4496,6 +4684,7 @@
       <files type="Scenarios">
         <save path="scenario"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4520,6 +4709,7 @@
       <files type="Scenarios">
         <save path="Data\Scenarios"/>
       </files>
+      <linkable path="Data\Saved Games" />
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -4532,6 +4722,7 @@
       <files type="Saves">
         <save path="save_games"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4544,6 +4735,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4563,6 +4755,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4577,6 +4770,7 @@
           <except path="tmp"/>
         </save>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4591,6 +4785,7 @@
           <except path="tmp"/>
         </save>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4628,6 +4823,7 @@
       <files type="Saves">
         <save path="save games"/>
       </files>
+      <linkable path="save games" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4640,6 +4836,7 @@
       <files type="Saves">
         <save path="savegames"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4659,6 +4856,8 @@
         <save path="DynamicResources\CodeGeneratedData"/>
         <save path="DynamicResources\Layouts"/>
       </files>
+      <linkable path="DynamicResources\CodeGeneratedData" />
+      <linkable path="DynamicResources\Layouts" />
       <contributor>duncans_pumpkin</contributor>
       <contributor>GameSave.Info</contributor>
       <contributor>slake_jones</contributor>
@@ -4677,6 +4876,8 @@
         <save path="Genohunters"/>
         <save path="SaveGames"/>
       </files>
+      <linkable path="Genohunters" />
+      <linkable path="SaveGames" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4689,6 +4890,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4701,6 +4903,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4713,6 +4916,7 @@
       <files type="Saves">
         <save path="EYE\resource\vgui\save"/>
       </files>
+      <linkable path="EYE\resource\vgui\save" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4741,6 +4945,7 @@
       <files type="Tattos">
         <save path="Tattoos"/>
       </files>
+      <linkable />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -4753,6 +4958,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Christian Hamann</contributor>
     </version>
   </game>
@@ -4768,6 +4974,7 @@
       <files type="Settings">
         <save filename="*.txt"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4780,6 +4987,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -4795,6 +5003,7 @@
       <files type="Saves">
         <save path="DATA\SAVEGAME"/>
       </files>
+      <linkable path="DATA\SAVEGAME" />
       <contributor>GameSave.Info</contributor>
       <contributor>slake_jones</contributor>
     </version>
@@ -4812,6 +5021,7 @@
       <files type="Saves">
         <save path="data\SAVEGAME"/>
       </files>
+      <linkable path="data\SAVEGAME" />
       <contributor>GameSave.Info</contributor>
       <contributor>slake_jones</contributor>
     </version>
@@ -4828,6 +5038,7 @@
       <files type="Settings">
         <save filename="*.ini"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4843,6 +5054,7 @@
       <files type="Settings">
         <save filename="*.ini"/>
       </files>
+      <linkable />
       <contributor>David Barbour</contributor>
     </version>
   </game>
@@ -4857,6 +5069,7 @@
       <files type="Saves">
         <save path="core\user"/>
       </files>
+      <linkable path="core\user" />
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -4871,6 +5084,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
+      <linkable path="Profiles" />
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -4902,6 +5116,7 @@
       <files type="UserMaps">
         <save path="user maps" filename="*.fc2map"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
       <contributor>AvvA</contributor>
     </version>
@@ -4915,6 +5130,7 @@
       <files type="Saves">
         <save path="Data\profiles"/>
       </files>
+      <linkable path="Data\profiles" />
       <contributor>murasaki8</contributor>
     </version>
   </game>
@@ -4930,6 +5146,7 @@
       <files type="Settings">
         <save filename="options.lua"/>
       </files>
+      <linkable path="Save Games" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4942,6 +5159,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -4975,6 +5193,7 @@
         <save path="Profiles"/>
         <save path="ServerOptions"/>
       </files>
+      <linkable />
       <contributor>AvvA</contributor>
     </version>
   </game>
@@ -5012,6 +5231,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -5029,6 +5249,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5046,6 +5267,7 @@
       <files type="Settings">
         <save filename="settings.cfg"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5070,6 +5292,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Caleb Love</contributor>
     </version>
   </game>
@@ -5156,6 +5379,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable path="save" />
       <contributor>Caleb Love</contributor>
     </version>
   </game>
@@ -5212,6 +5436,7 @@
       <files type="Saves">
         <save path="Savegame"/>
       </files>
+      <linkable path="Savegame" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5224,6 +5449,7 @@
       <files type="Saves">
         <save path="Savegame"/>
       </files>
+      <linkable path="Savegame" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5236,6 +5462,7 @@
       <files type="Saves">
         <save path="Savegame"/>
       </files>
+      <linkable path="Savegame" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5248,6 +5475,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
     </version>
   </mod>
@@ -5310,6 +5538,7 @@
       <files type="Saves">
         <save path="Data\SaveGames"/>
       </files>
+      <linkable path="Data\SaveGames" />
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -5324,6 +5553,7 @@
           <except path="temp"/>
         </save>
       </files>
+      <linkable />
       <contributor>Mark Barbour</contributor>
     </version>
   </game>
@@ -5336,6 +5566,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5352,6 +5583,7 @@
         <save path="data\players\Multi" filename="*.plr"/>
         <save path="data\players\Single" filename="*.plr"/>
       </files>
+      <linkable path="data\players" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5373,6 +5605,7 @@
       <files type="Saves">
         <save path="savedata"/>
       </files>
+      <linkable path="savedata" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5388,6 +5621,7 @@
       <files type="Settings">
         <save path="GCGame\Config"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5425,6 +5659,7 @@
       <files type="Saves">
         <save path="data\players"/>
       </files>
+      <linkable path="data\players" />
       <identifier filename="fs2_open*"/>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -5438,6 +5673,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5482,6 +5718,7 @@
       <files type="Saves">
         <save path="Save Games"/>
       </files>
+      <linkable path="Save Games" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5494,6 +5731,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Mark Barbour</contributor>
     </version>
   </expansion>
@@ -5506,6 +5744,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Mark Barbour</contributor>
     </version>
   </game>
@@ -5534,6 +5773,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5549,6 +5789,7 @@
       <files type="Settings">
         <save filename="*.xml"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5564,6 +5805,7 @@
       <files type="Settings">
         <save path="WarGame\Config"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5578,6 +5820,7 @@
       <files type="Saves">
         <save filename="agssave.*"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -5591,6 +5834,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5604,6 +5848,7 @@
       <files type="Saves">
         <save path="SaveGames"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -5624,6 +5869,7 @@
       <files type="Settings">
         <save filename="options.xml"/>
       </files>
+      <linkable path="Mods\Origmiss\Save\Game" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5637,6 +5883,7 @@
       <files type="Saves">
         <save path="Settings\profiles"/>
       </files>
+      <linkable path="Settings\profiles" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5653,6 +5900,7 @@
       <files type="Settings">
         <save path="data\settings"/>
       </files>
+      <linkable path="settings\profiles" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5668,6 +5916,7 @@
       <files type="Saves">
         <save path="Mods\Mp1\save\game"/>
       </files>
+      <linkable path="Mods\Mp1\save\game" />
       <identifier path="Mods\Mp1"/>
       <contributor>Arc Angel</contributor>
     </version>
@@ -5684,6 +5933,7 @@
       <files type="Saves">
         <save path="Mods\Mp2\save\game"/>
       </files>
+      <linkable path="Mods\Mp2\save\game" />
       <identifier path="Mods\Mp2"/>
       <contributor>Arc Angel</contributor>
     </version>
@@ -5702,6 +5952,7 @@
       <files type="Saves">
         <save path="savegame"/>
       </files>
+      <linkable path="savegame" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -5739,6 +5990,7 @@
         <save path="Data" filename="VideoSettingsGTI.scr"/>
         <save path="Data" filename="VideoSettingsGTI_MP.scr"/>
       </files>
+      <linkable path="Data\profiles" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -5801,6 +6053,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5837,6 +6090,7 @@
       <files type="Settings">
         <save filename="UserOptions.ini"/>
       </files>
+      <linkable />
       <contributor>AvvA</contributor>
     </version>
   </game>
@@ -5859,6 +6113,7 @@
         <save filename="*.b"/>
         <save filename="*.set"/>
       </files>
+      <linkable />
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -5874,6 +6129,7 @@
       <files type="Settings">
         <save path="Settings"/>
       </files>
+      <linkable />
       <comment>Includes Episodes from Liberty City</comment>
       <contributor>AvvA</contributor>
       <contributor>Virgile</contributor>
@@ -5903,6 +6159,7 @@
         <save filename="*.b"/>
         <save filename="*.set"/>
       </files>
+      <linkable />
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -5916,6 +6173,7 @@
         <save filename="*.b"/>
         <save filename="*.set"/>
       </files>
+      <linkable />
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -5936,6 +6194,7 @@
         <save filename="*"/>
         <save path="deployments"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5963,6 +6222,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Caleb Love</contributor>
     </version>
   </game>
@@ -5975,6 +6235,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable path="save" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -6003,6 +6264,7 @@
       <files type="Settings">
         <save path="Settings"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -6018,6 +6280,7 @@
       <files type="Settings">
         <save path="Settings"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -6042,6 +6305,7 @@
         <save path="Data" filename="VideoSettingsGTI.scr"/>
         <save path="Data" filename="VideoSettingsGTI_MP.scr"/>
       </files>
+      <linkable path="Data\profiles" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -6057,6 +6321,7 @@
       <files type="SkillSets">
         <save path="Templates"/>
       </files>
+      <linkable path="Templates" />
       <comment>Skill and weapon templates only</comment>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -6070,6 +6335,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6106,6 +6372,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -6121,6 +6388,8 @@
         <save path="data\SavedGames"/>
         <save path="data\SavedStates"/>
       </files>
+      <linkable path="data\SavedGames" />
+      <linkable path="data\SavedStates" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -6150,6 +6419,7 @@
       <files type="Settings">
         <save path="he-data"/>
       </files>
+      <linkable path="he-savegames" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -6170,6 +6440,7 @@
       <files type="Statistics">
         <save path="hed-player" filename="achievements.dat"/>
       </files>
+      <linkable path="hed-player" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -6185,6 +6456,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <linkable path="Save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6200,6 +6472,7 @@
       <files type="Saves">
         <save path="Save"/>
       </files>
+      <linkable path="Save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -6213,6 +6486,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
     </version>
     <version os="PS2" region="USA">
@@ -6228,6 +6502,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
       <contributor>Scandalon</contributor>
     </version>
@@ -6241,6 +6516,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6253,6 +6529,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6265,6 +6542,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6277,6 +6555,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6289,6 +6568,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
       <contributor>Scandalon</contributor>
     </version>
@@ -6302,6 +6582,7 @@
       <files type="Saves">
         <save path="SAVE"/>
       </files>
+      <linkable path="SAVE" />
       <contributor>GameSave.Info</contributor>
       <contributor>Scandalon</contributor>
     </version>
@@ -6315,6 +6596,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6328,6 +6610,7 @@
         <save filename="profiles.cfg"/>
         <save path="profiles"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -6354,6 +6637,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6366,6 +6650,7 @@
       <files type="Saves">
         <save path="harvestClientData\profiles"/>
       </files>
+      <linkable path="harvestClientData\profiles" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6384,6 +6669,7 @@
         <save filename="config.eu"/>
         <save filename="settings.cfg"/>
       </files>
+      <linkable path="scenarios\save games" />
       <contributor>Craig Schlieve</contributor>
     </version>
   </game>
@@ -6402,6 +6688,7 @@
         <save filename="config.eu"/>
         <save filename="settings.cfg"/>
       </files>
+      <linkable path="scenarios\save games" />
       <contributor>Craig Schlieve</contributor>
     </version>
   </expansion>
@@ -6424,6 +6711,7 @@
       <files type="Settings">
         <save path="fakk" filename="config.cfg"/>
       </files>
+      <linkable path="fakk\save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6441,6 +6729,7 @@
       <files type="Settings">
         <save path="SAVES" filename="*.cfg"/>
       </files>
+      <linkable path="SAVES" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -6456,6 +6745,7 @@
       <files type="Saves">
         <save path="games"/>
       </files>
+      <linkable path="games" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6468,6 +6758,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6480,6 +6771,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6492,6 +6784,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6509,6 +6802,7 @@
         <save filename="Hitman2.ini"/>
         <save filename="Keyboard.cfg"/>
       </files>
+      <linkable path="Save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6521,6 +6815,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6551,6 +6846,7 @@
         <save filename="HitmanContracts.cfg"/>
         <save filename="HitmanContracts.ini"/>
       </files>
+      <linkable path="Save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6566,6 +6862,7 @@
       <files type="Saves">
         <save path="SavedGames"/>
       </files>
+      <linkable path="SavedGames" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6581,6 +6878,7 @@
       <files type="Saves">
         <save path="Bin\Profiles"/>
       </files>
+      <linkable path="Bin\Profiles" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6596,6 +6894,7 @@
       <files type="Saves">
         <save path="SavedGames"/>
       </files>
+      <linkable path="SavedGames" />
       <contributor>GameSave.Info</contributor>
     </version>
   </expansion>
@@ -6608,6 +6907,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6623,6 +6923,7 @@
       <files type="Settings">
         <save path="DFGame\Config"/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -6656,6 +6957,8 @@
       <files type="Settings">
         <save filename="icewind.ini"/>
       </files>
+      <linkable path="Characters" />
+      <linkable path="mpsave" />
       <comment>Includes expansion saves</comment>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -6677,6 +6980,8 @@
       <files type="Settings">
         <save filename="icewind2.ini"/>
       </files>
+      <linkable path="Characters" />
+      <linkable path="mpsave" />
       <comment>Includes expansion saves</comment>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -6714,6 +7019,7 @@
           <except path="profiles\*\replays"/>
         </save>
       </files>
+      <linkable path="profiles" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -6740,6 +7046,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable path="save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6767,6 +7074,7 @@
       <files type="Saves">
         <save path="Saved Games"/>
       </files>
+      <linkable path="Saved Games" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6784,6 +7092,7 @@
       <files type="Saves">
         <save path="psg" filename="*.sav"/>
       </files>
+      <linkable path="psg" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6801,6 +7110,7 @@
       <files type="Saves">
         <save path="saves"/>
       </files>
+      <linkable path="saves" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6829,6 +7139,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -6852,6 +7163,7 @@
       <files type="Saves">
         <save path="game\AutoSave!"/>
       </files>
+      <linkable path="game\AutoSave!" />
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -6864,6 +7176,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6877,6 +7190,7 @@
       <files type="Saves">
         <save path="userdata"/>
       </files>
+      <linkable path="userdata" />
       <identifier path="userdata"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
@@ -6892,6 +7206,7 @@
       <files type="Saves">
         <save path="profiles"/>
       </files>
+      <linkable path="profiles" />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -6960,6 +7275,7 @@
       <files type="Saves">
         <save path="save"/>
       </files>
+      <linkable />
       <contributor>slake_jones</contributor>
     </version>
   </game>
@@ -6976,6 +7292,7 @@
       <files type="Settings">
         <save filename="*.ini"/>
       </files>
+      <linkable path="Save" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -6989,6 +7306,7 @@
       <files type="Saves">
         <save path="SavedGames"/>
       </files>
+      <linkable path="SavedGames" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -7041,6 +7359,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -7067,6 +7386,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -7081,6 +7401,7 @@
       <files type="Saves">
         <save path="Profiles"/>
       </files>
+      <linkable path="Profiles" />
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
@@ -7134,6 +7455,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -7146,6 +7468,7 @@
       <files type="Saves">
         <save/>
       </files>
+      <linkable />
       <contributor>duncans_pumpkin</contributor>
     </version>
   </game>
@@ -15248,8 +15571,22 @@
       <files type="Saves">
         <save path="userdata"/>
       </files>
+      <linkable path="userdata"/>
       <identifier path="userdata"/>
       <contributor>duncans_pumpkin</contributor>
+    </version>
+  </game>
+  <game name="AdventuresOfTintin">
+    <title>The Adventures of Tintin: The Game</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="The Adventures of Tintin" />
+      </locations>
+      <files type="Saves">
+        <save />
+      </files>
+      <linkable />
+      <contributor>GameSave.Info</contributor>
     </version>
   </game>
 </programs>
