@@ -47,11 +47,13 @@
     <title>Rockstar Games Social Club</title>
     <version os="Windows">
       <locations>
+        <path ev="userdocuments" path="Rockstar Games\Social Club"/>
         <path ev="localappdata" path="Rockstar Games\RGSC"/>
       </locations>
-      <files type="Saves">
+      <files type="Account Data">
         <save/>
       </files>
+      <contributor>Arc Angel</contributor>
       <contributor>AvvA</contributor>
     </version>
   </system>

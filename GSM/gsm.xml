@@ -1583,23 +1583,6 @@
 			</dir>
 		</directories>
 	</entry>
-	<entry new="true" id="233">
-		<title>Commandos 2: Men Of Courage</title>
-		<backupwarning></backupwarning>
-		<restorewarning></restorewarning>
-		<directories>
-			<dir id="292">
-				<path specialpath="%STEAM%">steamapps/common/commandos 2 men of courage/OUTPUT</path>
-				<reg>
-					<hive></hive>
-					<path></path>
-					<value></value>
-				</reg>
-				<include>*.*</include>
-				<exclude></exclude>
-			</dir>
-		</directories>
-	</entry>
 	<entry new="true" id="234">
 		<title>Commandos 3: Destination Berlin</title>
 		<backupwarning></backupwarning>
@@ -1882,23 +1865,6 @@
 		<directories>
 			<dir id="325">
 				<path specialpath="%APPDATA_LOCAL%">DOSBox</path>
-				<reg>
-					<hive></hive>
-					<path></path>
-					<value></value>
-				</reg>
-				<include>*.*</include>
-				<exclude></exclude>
-			</dir>
-		</directories>
-	</entry>
-	<entry new="true" id="264">
-		<title>Damnation</title>
-		<backupwarning></backupwarning>
-		<restorewarning></restorewarning>
-		<directories>
-			<dir id="326">
-				<path specialpath="%DOCUMENTS%">My Games/Damnation</path>
 				<reg>
 					<hive></hive>
 					<path></path>
@@ -5557,24 +5523,6 @@
 			</dir>
 		</directories>
 	</entry>
-	<entry new="true" id="669">
-		<title>Need for Speed: The Run</title>
-		<backupwarning></backupwarning>
-		<restorewarning></restorewarning>
-		<directories>
-			<dir id="806">
-				<path specialpath="%DOCUMENTS%">NFSTR</path>
-				<reg>
-					<hive></hive>
-					<path></path>
-					<value></value>
-				</reg>
-				<include>*.*</include>
-				<exclude></exclude>
-			</dir>
-		</directories>
-	</entry>
-
 	<entry new="true" id="671">
 		<title>Need for Speed: Underground</title>
 		<backupwarning></backupwarning>
@@ -5812,23 +5760,6 @@
 		</directories>
 	</entry>
 
-	<entry new="true" id="702">
-		<title>PAYDAY: The Heist</title>
-		<backupwarning></backupwarning>
-		<restorewarning></restorewarning>
-		<directories>
-			<dir id="847">
-				<path specialpath="%STEAM_CLOUD%">24240</path>
-				<reg>
-					<hive></hive>
-					<path></path>
-					<value></value>
-				</reg>
-				<include>*.*</include>
-				<exclude></exclude>
-			</dir>
-		</directories>
-	</entry>
 	<entry new="true" id="703">
 		<title>PCSX2</title>
 		<backupwarning></backupwarning>
@@ -7540,23 +7471,6 @@
 					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path>SOFTWARE/Wow6432Node/GOG.com/GOGSNIPERELITE2</path>
 					<value>PATH</value>
-				</reg>
-				<include>*.*</include>
-				<exclude></exclude>
-			</dir>
-		</directories>
-	</entry>
-	<entry new="true" id="922">
-		<title>Sniper Elite V2</title>
-		<backupwarning></backupwarning>
-		<restorewarning></restorewarning>
-		<directories>
-			<dir id="1123">
-				<path specialpath="%APPDATA_LOCAL%">SniperV2</path>
-				<reg>
-					<hive></hive>
-					<path></path>
-					<value></value>
 				</reg>
 				<include>*.*</include>
 				<exclude></exclude>
@@ -10323,33 +10237,7 @@
 			</dir>
 		</directories>
 	</entry>
-	<entry new="true" id="1225">
-		<title>Ys - Oath in Felghana</title>
-		<backupwarning></backupwarning>
-		<restorewarning></restorewarning>
-		<directories>
-			<dir id="1496">
-				<path specialpath="%APPDATA%">FALCOM/YSF_Win</path>
-				<reg>
-					<hive></hive>
-					<path></path>
-					<value></value>
-				</reg>
-				<include>*.nacci|*.ini</include>
-				<exclude></exclude>
-			</dir>
-			<dir id="1529">
-				<path specialpath="%STEAM_CLOUD%">207320</path>
-				<reg>
-					<hive>HKEY_LOCAL_MACHINE</hive>
-					<path></path>
-					<value></value>
-				</reg>
-				<include>*.*</include>
-				<exclude></exclude>
-			</dir>
-		</directories>
-	</entry>
+
 	<entry new="true" id="1226">
 		<title>Zen of Sudoku</title>
 		<backupwarning></backupwarning>
@@ -11049,23 +10937,6 @@
 					<hive>HKEY_CURRENT_USER</hive>
 					<path>Software/Cyberlore/Majesty Expansion/InstallShield</path>
 					<value>INSTALLPATH</value>
-				</reg>
-				<include>*.*</include>
-				<exclude></exclude>
-			</dir>
-		</directories>
-	</entry>
-	<entry new="true" id="1276">
-		<title>Dynamite Jack</title>
-		<backupwarning></backupwarning>
-		<restorewarning></restorewarning>
-		<directories>
-			<dir id="1556">
-				<path specialpath="%APPDATA%">Dynamite Jack</path>
-				<reg>
-					<hive>HKEY_LOCAL_MACHINE</hive>
-					<path></path>
-					<value></value>
 				</reg>
 				<include>*.*</include>
 				<exclude></exclude>

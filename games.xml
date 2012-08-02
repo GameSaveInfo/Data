@@ -47,7 +47,7 @@
         <save />
       </files>
       <linkable/>
-      <contributor>GameSave.Info</contributor>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="25ToLife">
@@ -1632,6 +1632,8 @@
     <title>Black Market</title>
     <version os="Windows">
       <locations>
+        <path ev="installlocation" path="Black Market" />
+        <shortcut ev="startmenu" path="Programs\Black Market\Black Market.lnk"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Black Market_is1" value="InstallLocation"/>
       </locations>
       <files type="Saves">
@@ -11135,9 +11137,9 @@
         <path ev="userdocuments" path="Risen"/>
       </locations>
       <files type="Saves">
-        <save path="SaveGames"/>
+        <save />
       </files>
-      <contributor>GameSave.Info</contributor>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="Risen2">
@@ -15711,7 +15713,7 @@
         <save />
       </files>
       <linkable />
-      <contributor>GameSave.Info</contributor>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="CreeperWorld2">
@@ -15724,7 +15726,7 @@
         <save />
       </files>
       <linkable />
-      <contributor>GameSave.Info</contributor>
+      <contributor>GameSaveManger</contributor>
     </version>
   </game>
 </programs>

@@ -1,12 +1,33 @@
 Game to look into: DiRT, The PATH
 =Upcoming=
 New Windows Games:
-* 18 Wheels of Steel: American Long Haul
-* The Adventures of Tintin: The Game
-* Creeper World 2
+Contributed by Arc Angel:
+* Avernum Escape From the Pit
+* Binary Domain
+* Commandos 2: Men of Courage
+* Damnation
+* Disciples III: Resurrection
+* Dynamite Jack
+* Geneforge
+* Geneforge 2
+* Geneforge 3
+* Geneforge 4
+* Geneforge 5
+* Inversion
+* Metal Dead
+* Need For Speed: The Run
+* Payday: The Heist - Steam only
+* Prototype 2
+* Sniper Elite V2
+* Superpower 2
+* The Bard's Tale - Steam only
+* The Cursed Crusade - Steam only
+* Titan Attacks! - Steam only
+* Ys Origin - Steam only
 Games From GameSaveManager (so generous!)
 * 1... 2... 3... KICK IT! (Drop That Beat Like an Ugly Baby)
 * 10 Days under the Sea
+* 18 Wheels of Steel: American Long Haul
 * 5 Realms of Cards
 * 9th Company: Roots of Terror - Steam only
 * A New Beginning
@@ -15,6 +36,7 @@ Games From GameSaveManager (so generous!)
 * Aces of the GAlaxy
 * Act of War: Direct Action
 * Act of War: High Treason
+* The Adventures of Tintin: The Game
 * Agatha Christie: Death on the Nile
 * Age of Conan
 * Age of Pirates 2: City of Abandoned Ships
@@ -22,7 +44,7 @@ Games From GameSaveManager (so generous!)
 * Air Conflicts Secret Wars
 * Alamandi
 * Alone in the Dark (2008)
-* Prototype 2
+* Creeper World 2
 Updated Windows Games:
 * Updated various games using GSM data
 * Dragonshard - Corrected, was completely wrong
