@@ -121,18 +121,6 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="PaydayTheHeist">
-    <title>Payday: The Heist</title>
-    <version platform="SteamCloud">
-      <locations>
-        <path ev="steamuserdata" path="24240"/>
-      </locations>
-      <files type="Saves">
-        <save/>
-      </files>
-      <contributor>Arc Angel</contributor>
-    </version>
-  </game>
   <game name="NeedForSpeedTheRun" >
     <title>Need For Speed: The Run</title>
     <version os="Windows">
