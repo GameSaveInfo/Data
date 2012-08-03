@@ -1,6 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+  <!-- types -->
+  <xs:simpleType name="timestamp">
+    <xs:restriction base="xs:string" >
+      <xs:pattern value="\d{4}[-](0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[0-2])T([0-1][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="program">
+    <xs:sequence>
+      <xs:element ref="title" minOccurs="1" maxOccurs="1"/>
+      <xs:element ref="version" minOccurs="1" maxOccurs="unbounded" />
+      <xs:element ref="comment" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="item_attributes"/>
+    <xs:attribute name="submitted" type="xs:boolean" use="optional" />
+    <xs:attribute name="added" type="timestamp" use="optional" />
+    <xs:attribute name="updated" type="timestamp" use="optional" />
+  </xs:complexType>
+
+  <xs:complexType name="program_sequel">
+    <xs:complexContent>
+      <xs:extension base="program">
+        <xs:attribute ref="follows" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="program_expansion">
+    <xs:complexContent>
+      <xs:extension base="program">
+        <xs:attribute ref="for" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="registry_entry">
+    <xs:attribute ref="root" use="required"/>
+    <xs:attribute ref="key" use="required"/>
+    <xs:attribute ref="value" use="optional"/>
+  </xs:complexType>
+
   <!--simple elements-->
   <xs:element name="title" type="xs:string"/>
   <xs:element name="contributor" type="xs:string"/>
@@ -104,6 +145,7 @@
   </xs:attribute>
   <xs:attribute name="value" type="xs:string"/>
 
+  
   <xs:attribute name="date">
     <xs:simpleType>
       <xs:restriction base="xs:string" >
@@ -217,13 +259,7 @@
 
   <xs:attributeGroup name="dated_files">
     <xs:attributeGroup ref="files"/>
-    <xs:attribute name="modified_after" use="optional">
-      <xs:simpleType>
-        <xs:restriction base="xs:string" >
-          <xs:pattern value="\d{4}[-](0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[0-2])T([0-1][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute name="modified_after" use="optional" type="timestamp" />
   </xs:attributeGroup>
 
   <xs:attributeGroup name="item_attributes">
@@ -247,14 +283,6 @@
   </xs:attributeGroup>
 
   <!--complex elements-->
-  <xs:element name="registry">
-    <xs:complexType>
-      <xs:attribute ref="root" use="required"/>
-      <xs:attribute ref="key" use="required"/>
-      <xs:attribute ref="value" use="optional"/>
-      <xs:attributeGroup ref="location_attributes" />
-    </xs:complexType>
-  </xs:element>
 
   <xs:element name="shortcut">
     <xs:complexType>
@@ -311,6 +339,16 @@
     </xs:complexType>
   </xs:element>
 
+  <xs:element name="registry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="entry" type="registry_entry" minOccurs="1" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="type" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+
   <xs:element name="ps_code">
     <xs:complexType>
       <xs:attributeGroup ref="playstation_code" />
@@ -323,32 +361,6 @@
     </xs:complexType>
   </xs:element>
 
-  <xs:complexType name="program">
-    <xs:sequence>
-      <xs:element ref="title" minOccurs="1" maxOccurs="1"/>
-      <xs:element ref="version" minOccurs="1" maxOccurs="unbounded" />
-      <xs:element ref="comment" minOccurs="0" maxOccurs="1"/>
-    </xs:sequence>
-    <xs:attributeGroup ref="item_attributes"/>
-    <xs:attribute name="submitted" type="xs:boolean" />
-  </xs:complexType>
-
-  <xs:complexType name="program_sequel">
-    <xs:complexContent>
-      <xs:extension base="program">
-        <xs:attribute ref="follows" use="optional" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-
-  <xs:complexType name="program_expansion">
-    <xs:complexContent>
-      <xs:extension base="program">
-        <xs:attribute ref="for" use="required" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-
   <xs:element name="linkable">
     <xs:complexType>
       <xs:attribute ref="path" use="optional" />
@@ -358,7 +370,15 @@
   <xs:element name="locations">
     <xs:complexType>
       <xs:choice minOccurs="1" maxOccurs="unbounded">
-        <xs:element ref="registry" minOccurs="1" maxOccurs="unbounded" />
+        <xs:element name="registry" minOccurs="1" maxOccurs="unbounded" >
+          <xs:complexType>
+            <xs:complexContent>
+              <xs:extension base="registry_entry">
+                <xs:attributeGroup ref="location_attributes" />
+              </xs:extension>
+            </xs:complexContent>
+          </xs:complexType>
+        </xs:element>
         <xs:element ref="shortcut" minOccurs="1" maxOccurs="unbounded" />
         <xs:element ref="parent" minOccurs="1" maxOccurs="unbounded" />
         <xs:element ref="path" minOccurs="1" maxOccurs="unbounded" />
@@ -378,11 +398,14 @@
                 <xs:element ref="scummvm" minOccurs="1" maxOccurs="unbounded" />
                 <xs:element ref="locations" minOccurs="0" maxOccurs="1"/>
                 <xs:element ref="files" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="registry" minOccurs="0" maxOccurs="unbounded"/>
               </xs:sequence>
               <xs:sequence>
                 <xs:element ref="locations" minOccurs="1" maxOccurs="1"/>
                 <xs:element ref="files" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="registry" minOccurs="0" maxOccurs="unbounded"/>
               </xs:sequence>
+              <xs:element ref="registry" minOccurs="1" maxOccurs="unbounded"/>
             </xs:choice>
             <xs:element ref="linkable" minOccurs="0" maxOccurs="unbounded" />
             <xs:element ref="identifier" minOccurs="0" maxOccurs="unbounded"/>

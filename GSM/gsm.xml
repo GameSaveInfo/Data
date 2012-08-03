@@ -10627,23 +10627,6 @@
 			</dir>
 		</directories>
 	</entry>
-	<entry new="true" id="1256">
-		<title>Ys Origin</title>
-		<backupwarning></backupwarning>
-		<restorewarning></restorewarning>
-		<directories>
-			<dir id="1530">
-				<path specialpath="%STEAM_CLOUD%">207350</path>
-				<reg>
-					<hive>HKEY_LOCAL_MACHINE</hive>
-					<path></path>
-					<value></value>
-				</reg>
-				<include>*.*</include>
-				<exclude></exclude>
-			</dir>
-		</directories>
-	</entry>
 	<entry new="true" id="1257">
 		<title>Achron</title>
 		<backupwarning></backupwarning>
