@@ -37,19 +37,6 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="18WheelsOfSteelAmericanLongHaul">
-    <title>18 Wheels of Steel: American Long Haul</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="18 WoS American Long Haul"/>
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <linkable/>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="25ToLife">
     <title>25 to Life</title>
     <version os="Windows">
@@ -170,7 +157,8 @@
         <path ev="userdocuments" path="My Games\Age of Empires 3"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save path="Savegame"/>
+        <save path="Users"/>
       </files>
       <linkable/>
       <contributor>SamuelTaylor</contributor>
@@ -185,7 +173,8 @@
         <shortcut ev="startmenu" path="Programs\Microsoft Games\Age of Mythology\Age of Mythology.lnk"/>
       </locations>
       <files type="Saves">
-        <save path="savegame" />
+        <save path="savegame" filename="*.rec"/>
+        <save path="savegame" filename="*.sav"/>
       </files>
       <linkable path="savegame"/>
       <contributor>GameSave.Info</contributor>
@@ -198,7 +187,8 @@
         <path ev="userdocuments" path="My Games\Age of Mythology"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save path="Savegame" filename="*.rcx"/>
+        <save path="Savegame" filename="*.svx"/>
       </files>
       <linkable/>
       <contributor>GameSave.Info</contributor>
@@ -210,7 +200,7 @@
       <locations>
         <path ev="installlocation" path="GOG.com\Age of Wonders"/>
         <path ev="installlocation" path="Triumph Studios\Age of Wonders"/>
-        <registry root="current_user" key="Software\Triumph Studios\Age of Wonders\General" value="Root Directory" />
+        <registry root="current_user" key="Software\Triumph Studios\Age of Wonders\General" value="Root Directory"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAOM1" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\Age of Wonders\Age of Wonders.lnk"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Age of Wonders\Age of Wonders.lnk"/>
@@ -4208,10 +4198,15 @@
     <title>Dragonshard</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\Dragonshard"/>
+        <path ev="installlocation" path="GOG.com\Dragonshard"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDNDDRAGONSHARD" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Dungeons and Dragons - Dragonshard\Dungeons and Dragons - Dragonshard.lnk"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save path="TriangleMeshes"/>
+      </files>
+      <files type="Settings">
+        <save filename="DND.ini"/>
       </files>
       <linkable />
       <contributor>GameSave.Info</contributor>
@@ -10415,7 +10410,7 @@
         <path ev="steamuserdata" path="3830"/>
       </locations>
       <files type="Saves">
-        <save />
+        <save/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -12819,15 +12814,15 @@
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
-      <version os="Windows">
-        <locations>
-          <path ev="allusersprofile" path="Ubisoft\Conviction"/>
-        </locations>
-        <files type="Saves">
-          <save/>
-        </files>
-        <contributor>Arc Angel</contributor>
-      </version>
+    <version os="Windows">
+      <locations>
+        <path ev="allusersprofile" path="Ubisoft\Conviction"/>
+      </locations>
+      <files type="Saves">
+        <save/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
   </game>
   <game name="SplinterCellDoubleAgent" follows="SplinterCellChaosTheory">
     <title>Tom Clancy's Splinter Cell: Double Agent</title>
@@ -14857,6 +14852,7 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="VVVVVV"/>
+        <path ev="userprofile" path="VVVVVV"/>
       </locations>
       <files type="Saves">
         <save path="Saves"/>
@@ -15701,32 +15697,6 @@
       <identifier path="userdata"/>
       <contributor>GameSaveManager</contributor>
       <contributor>duncans_pumpkin</contributor>
-    </version>
-  </game>
-  <game name="AdventuresOfTintin">
-    <title>The Adventures of Tintin: The Game</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="The Adventures of Tintin" />
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="CreeperWorld2">
-    <title>Creeper World 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="CreeperWorld2" />
-      </locations>
-      <files type="Saves">
-        <save />
-      </files>
-      <linkable />
-      <contributor>GameSaveManger</contributor>
     </version>
   </game>
 </programs>
