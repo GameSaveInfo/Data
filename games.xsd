@@ -203,7 +203,6 @@
     <xs:attribute ref="only_for" use="optional"/>
     <xs:attribute ref="deprecated" use="optional"/>
     <xs:attributeGroup ref="append_detract" />
-    <xs:attribute name="gsm_id" use="optional" type="xs:integer" />
   </xs:attributeGroup>
 
   <xs:attributeGroup name="append_detract">
@@ -245,7 +244,6 @@
     <xs:attribute ref="virtualstore" use="optional" />
     <xs:attribute ref="detect" use="optional" />
     <xs:attribute ref="deprecated" use="optional"/>
-    <xs:attribute name="gsm_id" use="optional" type="xs:integer" />
   </xs:attributeGroup>
 
   <!--complex elements-->
@@ -468,10 +466,6 @@
     <xs:unique name="uniqueNames">
       <xs:selector xpath="*" />
       <xs:field xpath="@name"/>
-    </xs:unique>
-    <xs:unique name="uniqueGsmIDs">
-      <xs:selector xpath="*/version" />
-      <xs:field xpath="@gsm_id"/>
     </xs:unique>
   </xs:element>
 </xs:schema>

@@ -21,9 +21,9 @@
   </game>
   <game name="18WheelsOfSteelExtremeTrucker">
     <title>18 Wheels of Steel: Extreme Trucker</title>
-    <version os="Windows" gsm_id="4">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="18 WoS Extreme Trucker" gsm_id="4"/>
+        <path ev="userdocuments" path="18 WoS Extreme Trucker"/>
       </locations>
       <files type="Saves">
         <save path="profile*"/>
@@ -39,9 +39,9 @@
   </game>
   <game name="18WheelsOfSteelAmericanLongHaul">
     <title>18 Wheels of Steel: American Long Haul</title>
-    <version os="Windows" gsm_id="3">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="18 WoS American Long Haul" gsm_id="3"/>
+        <path ev="userdocuments" path="18 WoS American Long Haul"/>
       </locations>
       <files type="Saves">
         <save />
@@ -100,9 +100,9 @@
   </game>
   <game name="AaaaaAAaaaAAAaaAAAAaAAAAA">
     <title>AaaaaAAaaaAAAaaAAAAaAAAAA!!!</title>
-    <version os="Windows" gsm_id="13">
+    <version os="Windows">
       <locations>
-        <path ev="localappdata" path="AaaaaRecklessDisregard" gsm_id="13"/>
+        <path ev="localappdata" path="AaaaaRecklessDisregard"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -113,7 +113,7 @@
   </game>
   <game name="AdventRising">
     <title>Advent Rising</title>
-    <version os="Windows" gsm_id="17">
+    <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Advent Rising"/>
         <path ev="steamcommon" path="advent rising"/>
@@ -165,9 +165,9 @@
   </game>
   <game name="AgeOfEmpires3" follows="AgeOfEmpires2">
     <title>Age of Empires III</title>
-    <version os="Windows" gsm_id="21">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\Age of Empires 3" gsm_id="23"/>
+        <path ev="userdocuments" path="My Games\Age of Empires 3"/>
       </locations>
       <files type="Saves">
         <save />
@@ -178,10 +178,10 @@
   </game>
   <game name="AgeOfMythology">
     <title>Age of Mythology</title>
-    <version os="Windows" gsm_id="22">
+    <version os="Windows">
       <locations>
         <path ev="installlocation" path="Microsoft Games\Age of Mythology"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\Age of Mythology\1.0" value="AppPath" gsm_id="24"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\Age of Mythology\1.0" value="AppPath"/>
         <shortcut ev="startmenu" path="Programs\Microsoft Games\Age of Mythology\Age of Mythology.lnk"/>
       </locations>
       <files type="Saves">
@@ -193,9 +193,9 @@
   </game>
   <expansion name="AgeOfMythologyTheTitansExpansion" for="AgeOfMythology">
     <title>Age of Mythology: The Titans Expansion</title>
-    <version os="Windows" gsm_id="23">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\Age of Mythology" gsm_id="25"/>
+        <path ev="userdocuments" path="My Games\Age of Mythology"/>
       </locations>
       <files type="Saves">
         <save />
@@ -206,11 +206,11 @@
   </expansion>
   <game name="AgeOfWonders">
     <title>Age of Wonders</title>
-    <version os="Windows" gsm_id="25">
+    <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Age of Wonders"/>
         <path ev="installlocation" path="Triumph Studios\Age of Wonders"/>
-        <registry root="current_user" key="Software\Triumph Studios\Age of Wonders\General" value="Root Directory" gsm_id="27" />
+        <registry root="current_user" key="Software\Triumph Studios\Age of Wonders\General" value="Root Directory" />
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAOM1" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\Age of Wonders\Age of Wonders.lnk"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Age of Wonders\Age of Wonders.lnk"/>
@@ -224,9 +224,9 @@
   </game>
   <game name="AIMRacing">
     <title>A.I.M. Racing</title>
-    <version os="Windows" gsm_id="8">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\A.I.M. Racing" gsm_id="8"/>
+        <path ev="userdocuments" path="My Games\A.I.M. Racing"/>
       </locations>
       <files type="Saves">
         <save>
@@ -239,9 +239,9 @@
   </game>
   <game name="AIWarFleetCommand">
     <title>AI War: Fleet Command</title>
-    <version os="Windows" gsm_id="10">
+    <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="ai war fleet command" gsm_id="10"/>
+        <path ev="steamcommon" path="ai war fleet command"/>
       </locations>
       <files type="Saves">
         <save path="Save"/>
@@ -252,19 +252,19 @@
   </game>
   <game name="AlanWake">
     <title>Alan Wake</title>
-    <version platform="SteamCloud" gsm_id="29">
+    <version platform="SteamCloud">
       <locations>
-        <path ev="steamuserdata" path="108710" gsm_id="31"/>
+        <path ev="steamuserdata" path="108710"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
-    <version os="Windows" gsm_id="30">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Remedy\AlanWake_GOG_Version" gsm_id="33"/>
-        <path ev="userdocuments" path="Remedy\AlanWake" gsm_id="32"/>
+        <path ev="userdocuments" path="Remedy\AlanWake_GOG_Version"/>
+        <path ev="userdocuments" path="Remedy\AlanWake"/>
       </locations>
       <files type="Saves">
         <save path="savegames"/>
@@ -278,18 +278,18 @@
   </game>
   <game name="AlanWakesAmericanNightmare" follows="AlanWake">
     <title>Alan Wake's American Nightmare</title>
-    <version platform="SteamCloud" gsm_id="31">
+    <version platform="SteamCloud">
       <locations>
-        <path ev="steamuserdata" path="202750" gsm_id="34"/>
+        <path ev="steamuserdata" path="202750"/>
       </locations>
       <files type="Saves">
         <save/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
-    <version os="Windows" gsm_id="32">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Remedy\AmericanNightmare_GOG_Version" gsm_id="35"/>
+        <path ev="userdocuments" path="Remedy\AmericanNightmare_GOG_Version"/>
       </locations>
       <files type="Saves">
         <save path="savegames"/>
@@ -320,9 +320,9 @@
   </game>
   <game name="AliceMadnessReturns" follows="Alice">
     <title>Alice: Madness Returns</title>
-    <version os="Windows" gsm_id="33">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\Alice Madness Returns" gsm_id="36"/>
+        <path ev="userdocuments" path="My Games\Alice Madness Returns"/>
       </locations>
       <files type="Saves">
         <save path="AliceGame\CheckPoint"/>
@@ -336,9 +336,9 @@
   </game>
   <game name="AlienBreed2Assault">
     <title>Alien Breed 2: Assault</title>
-    <version os="Windows" gsm_id="34">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreed2AssaultGame" gsm_id="37"/>
+        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreed2AssaultGame"/>
       </locations>
       <files type="Saves">
         <save path="SaveData"/>
@@ -352,9 +352,9 @@
   </game>
   <game name="AlienBreed3Descent" follows="AlienBreed2Assault">
     <title>Alien Breed 3: Descent</title>
-    <version os="Windows" gsm_id="35">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreed3DescentGame" gsm_id="38"/>
+        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreed3DescentGame"/>
       </locations>
       <files type="Saves">
         <save path="SaveData"/>
@@ -368,9 +368,9 @@
   </game>
   <game name="AlienBreedImpact" follows="AlienBreed3Descent">
     <title>Alien Breed: Impact</title>
-    <version os="Windows" gsm_id="36">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreedEp1Game" gsm_id="39"/>
+        <path ev="userdocuments" path="My Games\UnrealEngine3\AlienBreedEp1Game"/>
       </locations>
       <files type="Saves">
         <save path="SaveData"/>
@@ -384,9 +384,9 @@
   </game>
   <game name="AlienShooter2">
     <title>Alien Shooter: Vengeance</title>
-    <version os="Windows" gsm_id="40">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="AlienShooter2 Saves" gsm_id="43"/>
+        <path ev="userdocuments" path="AlienShooter2 Saves"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -394,10 +394,10 @@
       <linkable/>
       <contributor>GameSave.Info</contributor>
     </version>
-    <version os="Windows" release="Reloaded" gsm_id="38">
+    <version os="Windows" release="Reloaded">
       <title>Alien Shooter 2: Reloaded</title>
       <locations>
-        <path ev="userdocuments" path="AlienShooter2 Reloaded Saves" gsm_id="41"/>
+        <path ev="userdocuments" path="AlienShooter2 Reloaded Saves"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -408,10 +408,10 @@
   </game>
   <game name="AliensVsPredator">
     <title>Aliens vs. Predator</title>
-    <version os="Windows" release="Classic" gsm_id="43">
+    <version os="Windows" release="Classic">
       <title>Aliens vs. Predator Classic</title>
       <locations>
-        <path ev="localappdata" path="Rebellion\AvP Classic" gsm_id="46"/>
+        <path ev="localappdata" path="Rebellion\AvP Classic"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -440,9 +440,9 @@
   </game>
   <game name="AliensVsPredator2010" follows="AliensVsPredator2">
     <title>Aliens vs. Predator (2010)</title>
-    <version os="Windows" gsm_id="42">
+    <version os="Windows">
       <locations>
-        <path ev="localappdata" path="AliensVsPredator" gsm_id="45"/>
+        <path ev="localappdata" path="AliensVsPredator"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -471,9 +471,9 @@
   </expansion>
   <game name="AlienSwarm">
     <title>Alien Swarm</title>
-    <version platform="SteamCloud" gsm_id="41">
+    <version platform="SteamCloud">
       <locations>
-        <path ev="steamuserdata" path="630" gsm_id="44"/>
+        <path ev="steamuserdata" path="630"/>
       </locations>
       <files type="Saves">
         <save/>
@@ -842,9 +842,9 @@
   </game>
   <game name="ARES">
     <title>A.R.E.S</title>
-    <version os="Windows" gsm_id="9">
+    <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="ARES" gsm_id="9"/>
+        <path ev="userdocuments" path="ARES"/>
       </locations>
       <files type="Saves">
         <save>
