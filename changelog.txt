@@ -90,7 +90,6 @@ Games From GameSaveManager (so generous!)
 * Bit.Trip Runner
 * Black & White 2
 * Blade Kitten
-
 * BlazBlue - Calamity Trigger
 * Bob Came In Pieces (STEAM Edition)
 * Bone: Out From Boneville
@@ -125,8 +124,6 @@ Games From GameSaveManager (so generous!)
 * Cities XL 2012
 * Close Combat: A Bridge Too Far
 * Colin McRae Rally 2.0
-* Command & Conquer 3: La Ira de Kane
-* Command & Conquer 3: Tiberium Wars (Polish Version)
 * Command & Conquer: Red Alert 3 Uprising
 * Command & Conquer: Tiberian Sun
 * Commander Keen
@@ -139,10 +136,9 @@ Games From GameSaveManager (so generous!)
 * Constructor
 * Contract J.A.C.K.
 * Cooking Dash - DinerTown Studios
-* Counter Strike: Source
-* Crazy Machines 2 (STEAM Edition)
+* Crazy Machines 2
 * Crazy Machines Elements
-* Crazy Machines (STEAM Edition)
+* Crazy Machines 
 * Creative ALchemy
 * Creeper World 2
 * CrimeCraft
@@ -150,11 +146,8 @@ Games From GameSaveManager (so generous!)
 * Crusader: No Remorse
 * Dark Age of Camelot
 * Darklands
-* Dark Reign (GOG.com Edition)
-* Day of Defeat
-* Day of Defeat: Source
+* Dark Reign 
 * Dead Rising 2: Off The Record
-* Dear Esther
 * DeathSpank
 * DeathSpank: Thongs of Virtue
 * Defcon
@@ -167,12 +160,9 @@ Games From GameSaveManager (so generous!)
 * Diner Dash: Seasonal Snack Pack
 * DinerTown Detective Agency
 * DiRT: Showdown
-* Disciples 2 Gold: Dark Prophecy and Gallean's Return
-* Disciples 2 Gold: Rise of the Elves
+* Disciples 2: Dark Prophecy
 * DogFighter
 * Doom 3: Resurrection of Evil
-* Doom II (STEAM Edition)
-* DOSBox
 * Drakensang: The Dark Eye
 * Drakensang: The River of Time
 * Dr. Daisy Pet Vet
@@ -209,7 +199,6 @@ Games From GameSaveManager (so generous!)
 * FIFA 10
 * FIFA 12
 * Fifa Manager 2012
-* Final Doom
 * FiNCK
 * Flight Simulator 9
 * Flight Simulator X
@@ -226,9 +215,8 @@ Games From GameSaveManager (so generous!)
 * Freedom Fighters
 * FreeOrion
 * From Dust
-* Galactic Civilizations II: Ultimate Edition
+* Galactic Civilizations II: Twilight of the Arnor
 * Game of Thrones
-* Games for Windows LIVE (GFW-L) Profile
 * Garshasp: The Monster Slayer
 * Gas Guzzlers Combat Carnage
 * Gatling Gears
@@ -238,15 +226,15 @@ Games From GameSaveManager (so generous!)
 * Gotcha: Celebrity Secrets
 * Gotham City Impostors
 * Gothic
-* Gothic 2 Gold
-* Gothic 3: Forsaken Gods Enhanced Edition
+* Gothic 2
+* Gothic 3: Forsaken Gods
 * Governor of Poker 2
 * Grand Ages: Rome
 * Grand Theft Auto 2
 * Green Moon
 * Grey's Anatomy
 * GridRunner Revolution
-* Ground Control II [GoG Version]
+* Ground Control II]
 * GT Legends
 * Guardians of Graxia
 * Guild Wars 2
@@ -257,19 +245,18 @@ Games From GameSaveManager (so generous!)
 * Half-Life 2 Mod - MINERVA: Metastasis
 * Half-Life 2 Mod - Riot Act
 * Half-Life 2 Mod - Rock 24
-* Half-Life (Spanish)
 * Halo 2
 * Hammerfight
 * Harry Potter and the Prisoner of Azkaban
-* Harry Potter: The Chamber of Secrets
-* Harry Potter: The Philosophers Stone
+* Harry Potter and the Chamber of Secrets
+* Harry Potter and the Philosophers Stone
 * Heavy Weapons Deluxe
 * Hector: Badge of Carnage Episode 1
 * Hellgate London
 * Heretic: Shadow of the Serpent Riders
 * Heroes of Anniilated Empires
-* Heroes of Might and Magic 2 Gold
-* Heroes of Might and Magic 3 Complete
+* Heroes of Might and Magic 2 
+* Heroes of Might and Magic 3 
 * Heroes of Might and Magic V: Hammers of Fate
 * Heroes of Might and Magic V: Tribes of the East
 * Heroes Over Europe
@@ -295,7 +282,6 @@ Games From GameSaveManager (so generous!)
 * Jewel Quest Solitaire
 * Journey of Hope
 * Juiced 2: Hot Import Nights
-* Just Cause 2
 * Killing Floor
 * Kingdoms of Amalur: Reckoning
 * King's Bounty: Armored Princess
@@ -304,9 +290,8 @@ Games From GameSaveManager (so generous!)
 * Lands of Lore 2
 * Larva Mortus
 * Lead and Gold: Gangs of the Wild West
-* Left 4 Dead
-* Left 4 Dead 2
-* Legacy of Kain - Defiance
+* Legacy of Kain: Defiance
+
 * Legend of Fae
 * LEGO Batman
 * LEGO Batman 2 DC Super Heroes™

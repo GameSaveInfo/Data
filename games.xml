@@ -2820,6 +2820,18 @@
       <linkable/>
       <contributor>Paul Taylor</contributor>
     </version>
+    <version os="Windows" region="ESP">
+      <title>Command &amp; Conquer 3: La Ira de Kane</title>
+      <locations>
+        <path ev="appdata" path="Command &amp; Conquer 3 La Ira de Kane" />
+        <path ev="userdocuments" path="Command &amp; Conquer 3 La Ira de Kane" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </expansion>
   <game name="CommandAndConquer3TiberiumWars" added="2012-08-03T22:17:31" updated="2012-08-03T22:17:31">
     <title>Command &amp; Conquer 3: Tiberium Wars</title>
@@ -2833,6 +2845,18 @@
       </files>
       <linkable/>
       <contributor>Paul Taylor</contributor>
+    </version>
+    <version os="Windows" region="POL">
+      <title>Command &amp; Conquer 3: Wojny o tyberium</title>
+      <locations>
+        <path ev="appdata" path="Command &amp; Conquer 3 Wojny o tyberium" />
+        <path ev="userdocuments" path="Command &amp; Conquer 3 Wojny o tyberium" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="CommandAndConquer4TiberianTwilight" follows="CommandAndConquer3TiberiumWars" added="2012-08-03T22:17:31" updated="2012-08-03T22:17:31">
@@ -3586,6 +3610,16 @@
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="dear esther" />
+      </locations>
+      <files>
+        <include path="dearesther\SAVE" />
+      </files>
+      <linkable  path="dearesther\SAVE"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="DeathToSpiesMomentOfTruth" added="2012-08-03T22:17:31" updated="2012-08-03T22:17:31">
     <title>Death to Spies: Moment of Truth</title>
@@ -4133,6 +4167,15 @@
         <include filename="*.zds"/>
       </files>
       <contributor>Kee715</contributor>
+    </version>
+    <version os="DOS">
+      <locations>
+        <path ev="steamcommon" path="doom 2" />
+      </locations>
+      <files>
+        <include path="base" filename="*.dsg" />
+      </files>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="Doom3" follows="Doom2" added="2012-08-03T22:17:31" updated="2012-08-03T22:17:31">
@@ -5382,6 +5425,15 @@
       </files>
       <contributor>Kee715</contributor>
     </version>
+    <version os="DOS">
+      <locations>
+        <path ev="steamcommon" path="final doom" />
+      </locations>
+      <files>
+        <include path="base" filename="*.dsg" />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="FinalFantasy" added="2012-08-03T22:17:31" updated="2012-08-03T22:17:31">
     <title>Final Fantasy</title>
@@ -6585,6 +6637,16 @@
       <contributor>GameSave.Info</contributor>
       <contributor>Scandalon</contributor>
     </version>
+    <version os="Windows" region="ESP">
+      <locations>
+        <path ev="steamuser" path="half-life\valve_spanish" />
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="HalfLife2" follows="HalfLife" added="2012-08-03T22:17:31" updated="2012-08-03T22:17:31">
     <title>Half-Life 2</title>
@@ -7568,6 +7630,16 @@
       </files>
       <contributor>Arc Angel</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Square Enix\Just Cause 2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="KaneAndLynch2DogDays" follows="KaneAndLynchDeadMen" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Kane &amp; Lynch 2: Dog Days</title>
@@ -7682,6 +7754,16 @@
         <include/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Reckoning" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="KingsBountyTheLegend" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">

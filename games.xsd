@@ -2,6 +2,11 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <!-- types -->
+  <xs:simpleType name="path">
+    <xs:restriction base="xs:string" >
+      <xs:pattern value="[^/:]*"/>
+    </xs:restriction>
+  </xs:simpleType>
 
   <xs:simpleType name="timestamp">
     <xs:restriction base="xs:string" >
@@ -77,8 +82,14 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
-  
-  <xs:attribute name="filename" type="xs:string"/>
+
+  <xs:attribute name="filename">
+    <xs:simpleType>
+      <xs:restriction base="xs:string" >
+        <xs:pattern value="[^/\\:]*"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
   
   <xs:attribute name="game" type="xs:string"/>
   
@@ -133,13 +144,7 @@
 
   <xs:attribute name="deprecated" type="xs:boolean" />
 
-  <xs:attribute name="path">
-    <xs:simpleType >
-      <xs:restriction base="xs:string" >
-        <xs:pattern value="[^/:]*"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:attribute>
+  <xs:attribute name="path" type="path"/>
 
     <xs:attribute name="root">
     <xs:simpleType>
@@ -242,14 +247,9 @@
       </xs:simpleType>
     </xs:attribute>
 
-    <xs:attribute name="append" use="optional">
-      <xs:simpleType>
-        <xs:restriction base="xs:string" />
-      </xs:simpleType>
-    </xs:attribute>
     <xs:attribute name="type" type="xs:string" use="optional"/>
     <xs:attribute name="disc" type="xs:integer" use="optional"/>
-
+    <xs:attribute name="append" type="path" use="optional"/>
   </xs:attributeGroup>
 
   <xs:attributeGroup name="location_attributes">
@@ -259,8 +259,8 @@
   </xs:attributeGroup>
 
   <xs:attributeGroup name="append_detract">
-    <xs:attribute name="append" type="xs:string" use="optional"/>
-    <xs:attribute name="detract" type="xs:string" use="optional"/>
+    <xs:attribute name="append" type="path" use="optional"/>
+    <xs:attribute name="detract" type="path" use="optional"/>
   </xs:attributeGroup>
 
   <xs:attributeGroup name="files">
