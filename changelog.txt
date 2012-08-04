@@ -513,8 +513,6 @@ Games From GameSaveManager (so generous!)
 * Sword of the Stars 2
 * Sword of the Stars Complete Collection
 * Syndicate
-* Team Fortress 2
-* Team Fortress 2 (Steam Cloud)
 * TeamSpeak 3 Client
 * TeamSpeak RC2
 * TeeWorlds

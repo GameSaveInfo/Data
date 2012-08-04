@@ -141,7 +141,37 @@
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>  -->
+  </game> 
+    <game name="TeamFortress2">
+    <title>Team Fortress 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="team fortress 2" />
+      </locations>
+      <files>
+        <include>
+          <exclude path="tf\media" />
+          <exclude path="tf\maps" />
+        </include>
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="TeamFortress2SteamCloud">
+    <title>Team Fortress 2 (Steam Cloud)</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuserdata" path="440" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  
+  -->
 
   <game name="3079">
     <title>3079</title>
@@ -6329,34 +6359,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TeamFortress2">
-    <title>Team Fortress 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuser" path="team fortress 2" />
-      </locations>
-      <files>
-        <include>
-          <exclude filename="tf\media\*.*" />
-          <exclude filename="tf\maps\*.*" />
-        </include>
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="TeamFortress2SteamCloud">
-    <title>Team Fortress 2 (Steam Cloud)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuserdata" path="440" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="TeamSpeak3Client">
     <title>TeamSpeak 3 Client</title>
     <version os="Windows">
