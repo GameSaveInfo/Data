@@ -9,13 +9,6 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:simpleType name="path">
-    <xs:restriction base="xs:string" >
-      <xs:pattern value="[^/:]*"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-
   <xs:complexType name="program">
     <xs:sequence>
       <xs:element ref="title" minOccurs="1" maxOccurs="1"/>
@@ -91,7 +84,8 @@
   
   <xs:attribute name="key">
     <xs:simpleType>
-      <xs:restriction base="path">
+      <xs:restriction base="xs:string" >
+        <xs:pattern value="[^/:]*"/>
         <xs:pattern value="^((?!Wow6432Node).)*$"/>
       </xs:restriction>
     </xs:simpleType>
@@ -140,7 +134,13 @@
 
   <xs:attribute name="deprecated" type="xs:boolean" />
 
-  <xs:attribute name="path" type="path"/>
+  <xs:attribute name="path">
+    <xs:simpleType >
+      <xs:restriction base="xs:string" >
+        <xs:pattern value="[^/:]*"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
 
     <xs:attribute name="root">
     <xs:simpleType>

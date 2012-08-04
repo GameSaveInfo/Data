@@ -254,7 +254,7 @@
           <path ev="appdata" path="Microsoft\Windows\Start Menu" only_for="WindowsVista" />
       </locations>
       <files type="Test">
-        <include path="Programs/Accessories" />
+        <include path="Programs\Accessories" />
       </files>
       <contributor>Accessorizer</contributor>
     </version>

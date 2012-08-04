@@ -1186,7 +1186,7 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Baldurs Gate"/>
-        <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/App Paths/BGMain.Exe" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\BGMain.Exe" value="Path"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBALDURSGATE1" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Baldur's Gate" value="CurrentDirectory"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Baldur's Gate\Baldur's Gate.lnk"/>
@@ -1211,7 +1211,7 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GOG.com\Baldurs Gate II"/>
-        <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/App Paths/BG2Main.Exe" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\BG2Main.Exe" value="Path"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBALDURSGATE2" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Baldur's Gate2" value="CurrentDirectory"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Baldur's Gate II\Baldur's Gate II.lnk"/>
@@ -2038,7 +2038,7 @@
       <scummvm name="sword2"/>
       <locations>
         <path ev="installlocation" path="GOG.com\Broken Sword II - The Smoking Mirror"/>
-        <path ev="steamcommon" path="Broken Sword 2/ScummVM"/>
+        <path ev="steamcommon" path="Broken Sword 2\ScummVM"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGBROKENSWORD2" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Broken Sword II - The Smoking Mirror\Broken Sword II - The Smoking Mirror.lnk" detract="ScummVM"/>
       </locations>
@@ -2173,7 +2173,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="call of duty"/>
-        <registry root="local_machine" key="SOFTWARE/Activision/Call of Duty" value="InstallPath"/>
+        <registry root="local_machine" key="SOFTWARE\Activision\Call of Duty" value="InstallPath"/>
       </locations>
       <files>
         <include path="main\save"/>
@@ -2190,7 +2190,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="call of duty 2"/>
-        <registry root="local_machine" key="SOFTWARE/Activision/Call of Duty 2" value="InstallPath"/>
+        <registry root="local_machine" key="SOFTWARE\Activision\Call of Duty 2" value="InstallPath"/>
       </locations>
       <files>
         <include path="main\players"/>
@@ -2266,7 +2266,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="call of duty\uo"/>
-        <registry root="local_machine" key="SOFTWARE/Activision/Call of Duty United Offensive" value="InstallPath" append="uo"/>
+        <registry root="local_machine" key="SOFTWARE\Activision\Call of Duty United Offensive" value="InstallPath" append="uo"/>
       </locations>
       <files>
         <include path="save"/>
@@ -3031,7 +3031,7 @@
       <locations>
         <path ev="installlocation" path="GOG.com\Cryostasis"/>
         <path ev="steamcommon" path="cryostasis"/>
-        <registry root="local_machine" key="SOFTWARE/Aspyr/Cryostasis" value="InstallDir"/>
+        <registry root="local_machine" key="SOFTWARE\Aspyr\Cryostasis" value="InstallDir"/>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGCRYOSTASIS" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\GOG.com\Cryostasis\Cryostasis.lnk"/>
       </locations>
@@ -3391,7 +3391,7 @@
     <version os="Windows">
       <locations>
         <path ev="appdata" path="Dark Sector"/>
-        <path ev="userdocuments" path="Aspyr/Dark Sector"/>
+        <path ev="userdocuments" path="Aspyr\Dark Sector"/>
       </locations>
       <files>
         <include/>
@@ -5508,7 +5508,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="flatout"/>
-        <registry root="local_machine" key="SOFTWARE/Bugbear/FlatOut" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\Bugbear\FlatOut" value="Path"/>
       </locations>
       <files>
         <include path="Savegame"/>
@@ -5522,7 +5522,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="flatout2"/>
-        <registry root="local_machine" key="SOFTWARE/Bugbear/FlatOut2" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\Bugbear\FlatOut2" value="Path"/>
       </locations>
       <files>
         <include path="Savegame"/>
@@ -7385,7 +7385,7 @@
       <title>Jaged Alliance 2 Gold</title>
       <locations>
         <path ev="steamcommon" path="jagged alliance 2 gold"/>
-        <registry root="local_machine" key="SOFTWARE/GOG.com/GOGJAGGEDALLIANCE2" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGJAGGEDALLIANCE2" value="PATH"/>
       </locations>
       <files>
         <include path="SavedGames"/>
@@ -9315,7 +9315,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="necrovision lost company"/>
-        <registry root="local_machine" key="Software/TheFarm51/Necrovision"/>
+        <registry root="local_machine" key="Software\TheFarm51\Necrovision"/>
       </locations>
       <files>
         <include path="Profiles"/>
@@ -10046,7 +10046,7 @@
     <title>Pirates of Black Cove</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Nitro Games/PiratesOfBlackCove"/>
+        <path ev="userdocuments" path="Nitro Games\PiratesOfBlackCove"/>
       </locations>
       <files>
         <include/>
@@ -10178,7 +10178,7 @@
     <title>Port Royale 3: Pirates &amp; Merchants</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="kalypso Media/Port Royal 3"/>
+        <path ev="appdata" path="kalypso Media\Port Royal 3"/>
       </locations>
       <files>
         <include/>
@@ -10438,7 +10438,7 @@
       </locations>
       <files>
         <include path="Profiles"/>
-        <include path="WorkResource/SAVEDGAMES"/>
+        <include path="WorkResource\SAVEDGAMES"/>
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
@@ -12239,7 +12239,7 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="GAMES\Shogo"/>
-        <registry root="local_machine" key="SOFTWARE/GOG.com/GOGSHOGO" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSHOGO" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Shogo" value="Path"/>
         <registry root="local_machine" key="SOFTWARE\Monolith Productions\Shogo\1.0" value="WorkingDirectory"/>
         <shortcut ev="startmenu" path="Programs\Monolith Games\Shogo\Shogo.lnk"/>
@@ -12914,7 +12914,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="stalker clear sky\_appdata_"/>
-        <registry root="local_machine" key="SOFTWARE/GSC Game World/STALKER-STCS" value="InstallPath" append="_appdata_"/>
+        <registry root="local_machine" key="SOFTWARE\GSC Game World\STALKER-STCS" value="InstallPath" append="_appdata_"/>
       </locations>
       <files>
         <include filename="user.ltx"/>
@@ -13171,7 +13171,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="jedi academy"/>
-        <registry root="local_machine" key="SOFTWARE/LucasArts/Star Wars Jedi Knight Jedi Academy/1.0" value="Install"/>
+        <registry root="local_machine" key="SOFTWARE\LucasArts\Star Wars Jedi Knight Jedi Academy\1.0" value="Install"/>
       </locations>
       <files>
         <include path="GameData\base\saves"/>
@@ -13825,7 +13825,7 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Games\Thief2"/>
-        <registry root="local_machine" key="SOFTWARE/GOG.com/GOGTHIEF2" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHIEF2" value="PATH"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\thief2.exe" value="Path"/>
       </locations>
       <files>
@@ -13859,7 +13859,7 @@
       <locations>
         <path ev="installlocation" path="Thief"/>
         <path ev="steamcommon" path="thief_gold"/>
-        <registry root="local_machine" key="SOFTWARE/GOG.com/GOGTHIEF1GOLD" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHIEF1GOLD" value="PATH"/>
         <shortcut ev="startmenu" path="Programs\Thief\Thief.lnk"/>
       </locations>
       <files>
@@ -15563,7 +15563,7 @@
     <title>Ziro</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games/Ziro"/>
+        <path ev="userdocuments" path="My Games\Ziro"/>
       </locations>
       <files>
         <include/>
