@@ -85,8 +85,8 @@
   <xs:attribute name="key">
     <xs:simpleType>
       <xs:restriction base="xs:string" >
-        <xs:pattern value="[^/:]*"/>
-        <xs:pattern value="^((?!Wow6432Node).)*"/>
+        <xs:pattern value="[^/]*"/>
+        <xs:pattern value="(^(?!Wow6432Node))*"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
