@@ -1161,7 +1161,6 @@
     <title>Command &amp; Conquer: Red Alert 3 Uprising</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Red Alert 3 Uprising" />
         <path ev="savedgames" path="Red Alert 3 Uprising" />
         <path ev="userdocuments" path="Red Alert 3 Uprising" />
         <path ev="appdata" path="Red Alert 3 Uprising" />
@@ -4520,7 +4519,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="PennyArcadeAdventuresOntheRainSlickPrecipiceofDarknessEpisodeThree">
+  <game name="PennyArcadeAdventures3">
     <title>Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness, Episode Three</title>
     <version os="Windows">
       <locations>
@@ -6938,7 +6937,6 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Tom Clancy's EndWar" />
-        <path ev="userdocuments" path="Tom Clancy's EndWar" />
         <path ev="userdocuments" path="Tom Clancy's EndWar" />
       </locations>
       <files type="Saves">
