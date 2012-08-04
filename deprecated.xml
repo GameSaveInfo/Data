@@ -7,7 +7,7 @@
       <locations>
         <path ev="steamcommon" path="blackwell legacy"/>
       </locations>
-      <files type="Saves">
+      <files>
         <include path="Saves"/>
       </files>
       <contributor>Arc Angel</contributor>
@@ -20,7 +20,7 @@
       <locations>
         <path ev="steamcommon" path="blackwell unbound"/>
       </locations>
-      <files type="Saves">
+      <files>
         <include path="Saves"/>
       </files>
       <contributor>Arc Angel</contributor>
@@ -33,7 +33,7 @@
       <locations>
         <path ev="steamcommon" path="blackwell convergence"/>
       </locations>
-      <files type="Saves">
+      <files>
         <include path="Saves"/>
       </files>
       <contributor>Arc Angel</contributor>

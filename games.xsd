@@ -9,6 +9,13 @@
     </xs:restriction>
   </xs:simpleType>
 
+  <xs:simpleType name="path">
+    <xs:restriction base="xs:string" >
+      <xs:pattern value="[^/:]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+
   <xs:complexType name="program">
     <xs:sequence>
       <xs:element ref="title" minOccurs="1" maxOccurs="1"/>
@@ -77,10 +84,19 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
-  <xs:attribute name="filename" type="xs:string"/>
-  <xs:attribute name="game" type="xs:string"/>
-  <xs:attribute name="key" type="xs:string"/>
   
+  <xs:attribute name="filename" type="xs:string"/>
+  
+  <xs:attribute name="game" type="xs:string"/>
+  
+  <xs:attribute name="key">
+    <xs:simpleType>
+      <xs:restriction base="path">
+        <xs:pattern value="^((?!Wow6432Node).)*$"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
   <xs:attribute name="region">
     <xs:simpleType>
       <xs:restriction base="xs:string">
@@ -124,13 +140,7 @@
 
   <xs:attribute name="deprecated" type="xs:boolean" />
 
-  <xs:attribute name="path">
-    <xs:simpleType>
-      <xs:restriction base="xs:string" >
-        <xs:pattern value="[^:]*" />
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:attribute>
+  <xs:attribute name="path" type="path"/>
 
     <xs:attribute name="root">
     <xs:simpleType>
@@ -275,6 +285,7 @@
     <xs:attribute ref="media" use="optional"/>
     <xs:attribute ref="region" use="optional"/>
     <xs:attribute name="release" type="game_name" use="optional" />
+    <xs:attribute name="type" type="game_name" use="optional" />
   </xs:attributeGroup>
 
   <xs:attributeGroup name="version_attributes">
@@ -331,7 +342,7 @@
       <xs:sequence>
         <xs:element ref="include" minOccurs="1" maxOccurs="unbounded" />
       </xs:sequence>
-      <xs:attribute name="type" type="xs:string" use="required"/>
+      <xs:attribute name="type" type="xs:string" use="optional"/>
     </xs:complexType>
     <xs:unique name="uniqueIncludes">
       <xs:selector xpath="*" />

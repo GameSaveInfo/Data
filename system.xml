@@ -63,7 +63,7 @@
       <locations>
         <path ev="appdata" path="Tomboy"/>
       </locations>
-      <files type="Saves">
+      <files>
         <include path="notes"/>
       </files>
       <files type="Settings">

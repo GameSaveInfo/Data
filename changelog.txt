@@ -55,13 +55,10 @@ Games From GameSaveManager (so generous!)
 * Angry Birds Seasons
 * Ankh 2: Heart of Osiris
 * Ankh 3: Battle of the Gods
-
 * Anno 2070
-* Anomaly Warzone Earth
 * Another World
 * Armies of Exigo
 * Artificial Academy
-* Assassin's Creed: Revelations
 * Asterix at the Olympic Games
 * AstroPop
 * Avenue Flo
@@ -86,15 +83,14 @@ Games From GameSaveManager (so generous!)
 * Beowulf: The Game
 * Betrayal at Krondor
 * Betrayal in Antara
-* Beyond Good and Evil
 * Bionic Commando
-* Bionic Commando (STEAM Edition)
 * BIONICLE Heroes
 * Birth Of America
 * Bit.Trip Beat
 * Bit.Trip Runner
 * Black & White 2
 * Blade Kitten
+
 * BlazBlue - Calamity Trigger
 * Bob Came In Pieces (STEAM Edition)
 * Bone: Out From Boneville
