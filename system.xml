@@ -8,7 +8,7 @@
         <path ev="localappdata" path="Microsoft\XLive\Content"/>
       </locations>
       <files type="AccountData">
-        <save/>
+        <include/>
       </files>
       <contributor>MASGAU</contributor>
     </version>
@@ -21,7 +21,7 @@
         <path ev="commonapplicationdata" path="MASGAU"/>
       </locations>
       <files type="CustomXML">
-        <save filename="custom.xml"/>
+        <include filename="custom.xml"/>
       </files>
       <identifier filename="custom.xml"/>
       <contributor>MASGAU</contributor>
@@ -34,11 +34,11 @@
         <path ev="appdata" path="Raptr"/>
       </locations>
       <files type="Data">
-        <save filename="raptr*">
-          <except filename="*.exe"/>
-        </save>
-        <save path="data"/>
-        <save path="Unknown"/>
+        <include filename="raptr*">
+          <exclude filename="*.exe"/>
+        </include>
+        <include path="data"/>
+        <include path="Unknown"/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -51,7 +51,7 @@
         <path ev="userdocuments" path="Rockstar Games\Social Club"/>
       </locations>
       <files type="Account Data">
-        <save/>
+        <include/>
       </files>
       <contributor>Arc Angel</contributor>
       <contributor>AvvA</contributor>
@@ -64,10 +64,10 @@
         <path ev="appdata" path="Tomboy"/>
       </locations>
       <files type="Saves">
-        <save path="notes"/>
+        <include path="notes"/>
       </files>
       <files type="Settings">
-        <save path="config"/>
+        <include path="config"/>
       </files>
       <contributor>MASGAU</contributor>
     </version>
@@ -80,9 +80,9 @@
         <registry root="local_machine" key="SOFTWARE\UbiSoft\Launcher" value="InstallDir"/>
       </locations>
       <files type="Data">
-        <save path="storage">
-          <except path="storage\temp"/>
-        </save>
+        <include path="storage">
+          <exclude path="storage\temp"/>
+        </include>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -94,7 +94,7 @@
         <path ev="allusersprofile" path="Xfire"/>
       </locations>
       <files type="Data">
-        <save/>
+        <include/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>

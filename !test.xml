@@ -21,7 +21,7 @@
         <path ev="altsavepaths" />
       </locations>
       <files type="Test">
-        <save path="*" filename="*.ini" />
+        <include path="*" filename="*.ini" />
       </files>
       <contributor>Whimsy Of The Kill</contributor>
     </version>
@@ -32,7 +32,7 @@
         <path ev="drive" path="Windows" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <contributor>Philibuster</contributor>
     </version>
@@ -43,7 +43,7 @@
         <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <contributor>Parents just don't understand</contributor>
     </version>
@@ -54,7 +54,7 @@
         <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <comment>The existence of this as a game is...questionable</comment>
       <contributor>These are hard to come up with</contributor>
@@ -66,7 +66,7 @@
         <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <restore_comment>Restoring this requires MAD skillz!</restore_comment>
       <contributor>Alphanumeric</contributor>
@@ -78,13 +78,13 @@
         <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <files type="KLogs">
-        <save filename="K*.log" />
+        <include filename="K*.log" />
       </files>
       <files type="KB2Logs">
-        <save filename="KB2*.log" />
+        <include filename="KB2*.log" />
       </files>
       <contributor>Logtastic</contributor>
     </version>
@@ -95,17 +95,17 @@
         <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
-        <save filename="*.log">
-          <except filename="o*.log" />
-        </save>
+        <include filename="*.log">
+          <exclude filename="o*.log" />
+        </include>
       </files>
       <files type="KLogs">
-        <save filename="K*.log">
-          <except filename="KB2*.log"/>
-        </save>
+        <include filename="K*.log">
+          <exclude filename="KB2*.log"/>
+        </include>
       </files>
       <files type="KB2Logs">
-        <save filename="KB2*.log" />
+        <include filename="KB2*.log" />
       </files>
       <contributor>Exceptional</contributor>
     </version>
@@ -116,7 +116,7 @@
         <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <identifier filename="*.log"/>
       <contributor>Unidentified</contributor>
@@ -128,7 +128,7 @@
         <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
-        <save filename="*.log" modified_after="2011-01-01T00:00:00"/>
+        <include filename="*.log" modified_after="2011-01-01T00:00:00"/>
       </files>
       <contributor>Chronolographer</contributor>
     </version>
@@ -139,7 +139,7 @@
         <parent name="0Test" release="01drive" detract="Windows" append="RECYCLER" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <contributor>First he giveth then he taketh away</contributor>
     </version>
@@ -154,7 +154,7 @@
         <path ev="flashshared" path="mail.google.com" />
       </locations>
       <files type="Test">
-        <save />
+        <include />
       </files>
       <contributor>Flash Aaa-Aaaaaaaaaaa</contributor>
     </version>
@@ -168,7 +168,7 @@
         <path ev="steamcommon" />
       </locations>
       <files type="Test">
-        <save path="*" filename="*.ini" />
+        <include path="*" filename="*.ini" />
       </files>
       <contributor>Leeroy Jenkins</contributor>
     </version>
@@ -178,7 +178,7 @@
         <path ev="steamsourcemods" />
       </locations>
       <files type="Test">
-        <save path="*" filename="*.cfg" />
+        <include path="*" filename="*.cfg" />
       </files>
       <contributor>Jimmy Hoffa</contributor>
     </version>
@@ -188,7 +188,7 @@
         <path ev="steamuser" />
       </locations>
       <files type="Test">
-        <save path="*" filename="*.cfg" />
+        <include path="*" filename="*.cfg" />
       </files>
       <contributor>Count Chocula</contributor>
     </version>
@@ -198,7 +198,7 @@
         <path ev="steamuserdata" path="7" />
       </locations>
       <files type="Test">
-        <save />
+        <include />
       </files>
       <contributor>Bill S. Preston</contributor>
     </version>
@@ -212,7 +212,7 @@
         <path ev="installlocation" path="Windows" only_for="WindowsXP" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <contributor>You remind me of the babe</contributor>
     </version>
@@ -222,7 +222,7 @@
         <path ev="installlocation" path="Windows" only_for="WindowsVista" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <contributor>What babe</contributor>
     </version>
@@ -232,7 +232,7 @@
         <path ev="public" />
       </locations>
       <files type="Test">
-        <save filename="*.ini" />
+        <include filename="*.ini" />
       </files>
       <contributor>The babe with the power</contributor>
     </version>
@@ -242,7 +242,7 @@
         <path ev="savedgames" />
       </locations>
       <files type="Test">
-        <save />
+        <include />
       </files>
       <contributor>What power</contributor>
     </version>
@@ -254,7 +254,7 @@
           <path ev="appdata" path="Microsoft\Windows\Start Menu" only_for="WindowsVista" />
       </locations>
       <files type="Test">
-        <save path="Programs/Accessories" />
+        <include path="Programs/Accessories" />
       </files>
       <contributor>Accessorizer</contributor>
     </version>
@@ -265,7 +265,7 @@
         <path ev="appdata" path="Microsoft\Internet Explorer" />
       </locations>
       <files type="Test">
-        <save />
+        <include />
       </files>
       <contributor>They see me roamin</contributor>
     </version>
@@ -276,7 +276,7 @@
         <path ev="installlocation" path="Internet Explorer" />
       </locations>
       <files type="Test">
-        <save path="en-us" />
+        <include path="en-us" />
       </files>
       <contributor>The isntallation</contributor>
     </version>
@@ -287,7 +287,7 @@
         <path ev="localappdata" path="Microsoft\Internet Explorer" />
       </locations>
       <files type="Test">
-        <save />
+        <include />
       </files>
       <contributor>A local girl</contributor>
     </version>
@@ -298,7 +298,7 @@
         <path ev="userprofile" path="Favorites" />
       </locations>
       <files type="Test">
-        <save />
+        <include />
       </files>
       <contributor>A user</contributor>
     </version>
@@ -309,7 +309,7 @@
         <path ev="userdocuments" />
       </locations>
       <files type="Test">
-        <save filename="*.ini" />
+        <include filename="*.ini" />
       </files>
       <linkable path="Downloads"/>
       <contributor>Documenter</contributor>
@@ -322,7 +322,7 @@
         <registry root="current_user" key="Software\Winamp"/>
       </locations>
       <files type="Test">
-        <save filename="*.ini" />
+        <include filename="*.ini" />
       </files>
       <comment>Install Winamp if this test doesn't succeed</comment>
       <contributor>Registered initializer</contributor>
@@ -334,7 +334,7 @@
         <registry root="current_user" key="Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders" value="AppData"/>
       </locations>
       <files type="Test">
-        <save filename="*.ini" />
+        <include filename="*.ini" />
       </files>
       <contributor>Registered squatter</contributor>
     </version>
@@ -345,7 +345,7 @@
         <shortcut ev="startmenu" path="Programs\Accessories\Notepad.lnk" />
       </locations>
       <files type="Test">
-        <save filename="notepad.exe" />
+        <include filename="notepad.exe" />
       </files>
       <contributor>Note taker</contributor>
     </version>
@@ -362,7 +362,7 @@
         <parent name="0Test" release="01drive" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <contributor>So ronery</contributor>
     </version>
@@ -372,7 +372,7 @@
         <parent name="0Test" release="01drive" deprecated="true" />
       </locations>
       <files type="Test">
-        <save filename="*.log" />
+        <include filename="*.log" />
       </files>
       <contributor>And I don't know why</contributor>
     </version>

@@ -10,7 +10,7 @@
         <registry root="local_machine" key="" value=""/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor></contributor>
@@ -25,7 +25,7 @@
         <path ev="userprofile" path="3079Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -38,7 +38,7 @@
         <path ev="userdocuments" path="Achron" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -51,7 +51,7 @@
         <path ev="userdocuments" path="aerofly FS" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -64,7 +64,7 @@
         <path ev="userdocuments" path="Sigma Team/Alien Hallway" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -77,7 +77,7 @@
         <path ev="userdocuments" path="AlienShooter Revisited Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -91,10 +91,10 @@
         <path ev="steamcommon" path="alpha prime" />
       </locations>
       <files type="Saves">
-        <save path="save" />
+        <include path="save" />
       </files>
       <files type="Settings">
-        <save filename="settings.cfg" />
+        <include filename="settings.cfg" />
       </files>
       <linkable path="save"/>
       <contributor>GameSaveManager</contributor>
@@ -108,7 +108,7 @@
         <path ev="userdocuments" path="RenPy/Analogue" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -122,7 +122,7 @@
         <path ev="appdata" path="Rovio/Angry Birds" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -135,7 +135,7 @@
         <path ev="appdata" path="Rovio/Angry Birds Rio" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -148,7 +148,7 @@
         <path ev="appdata" path="Rovio/Angry Birds Seasons" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -162,7 +162,7 @@
         <path ev="appdata" path="Ankh - Heart of Osiris" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -175,7 +175,7 @@
         <path ev="userdocuments" path="Ankh - Battle of the Gods" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -188,7 +188,7 @@
         <path ev="userdocuments" path="ANNO 2070" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -201,7 +201,7 @@
         <path ev="userdocuments" path="Anomaly Warzone Earth" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -214,7 +214,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGANOTHERWORLD" value="PATH" />
       </locations>
       <files type="Saves">
-        <save filename="AnotherWorld.ini" />
+        <include filename="AnotherWorld.ini" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -226,7 +226,7 @@
         <path ev="userdocuments" path="Armies of Exigo" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -240,8 +240,8 @@
         <registry root="local_machine" key="SOFTWARE/ILLUSION/AAPLAY" value="INSTALLDIR" append="data/save" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -253,7 +253,7 @@
         <path ev="userdocuments" path="Assassin's Creed Revelations" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -266,7 +266,7 @@
         <path ev="userdocuments" path="Atari/Asterix at the Olympic Games" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -279,7 +279,7 @@
         <path ev="commonapplicationdata" path="PopCap Games/AstroPop/users" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -292,7 +292,7 @@
         <path ev="appdata" path="PlayFirst/avenue-flo" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -305,7 +305,7 @@
         <path ev="appdata" path="Aveyond II" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -318,7 +318,7 @@
         <path ev="appdata" path="Aveyond I" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -331,7 +331,7 @@
         <path ev="appdata" path="Big Fish Games/Azada" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -344,7 +344,7 @@
         <path ev="steamcommon" path="bad rats" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
+        <include filename="*.sav" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -357,7 +357,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Ballance/Settings" value="TargetDir" />
       </locations>
       <files type="Saves">
-        <save filename="Database.tdb" />
+        <include filename="Database.tdb" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -369,7 +369,7 @@
         <path ev="appdata" path="Balloon Express" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -382,7 +382,7 @@
         <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/Uninstall/{2F3121CF-1AA2-4C12-8839-3F297042005E}" value="InstallLocation" append="savegames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -394,7 +394,7 @@
         <path ev="userdocuments" path="Battlefield 2" />
       </locations>
       <files type="Saves">
-        <save filename="*.con" />
+        <include filename="*.con" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -407,7 +407,7 @@
         <path ev="userdocuments" path="Battlefield 2142" />
       </locations>
       <files type="Saves">
-        <save filename="*.con" />
+        <include filename="*.con" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -420,7 +420,7 @@
         <path ev="userdocuments" path="Battlefield Heroes" />
       </locations>
       <files type="Saves">
-        <save filename="*.con" />
+        <include filename="*.con" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -433,7 +433,7 @@
         <path ev="userdocuments" path="BattleForge" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -446,7 +446,7 @@
         <path ev="userdocuments" path="Battlestations-Midway" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -459,7 +459,7 @@
         <path ev="userdocuments" path="Battlestations-Pacific" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -472,7 +472,7 @@
         <path ev="public" path="Documents\City Interactive/Battlestrike Force Of Resistance 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -485,7 +485,7 @@
         <path ev="steamcommon" path="bc kings/PlayerProfiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -501,10 +501,10 @@
         <path ev="localappdata" path="Steam/Bejeweled3/users" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
-        <save />
-        <save />
+        <include />
+        <include />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -520,7 +520,7 @@
         <path ev="commonapplicationdata" path="PopCap Games/BejeweledBlitz/users" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -534,8 +534,8 @@
         <path ev="localappdata" path="PopCap Games/BejeweledTwist/users" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -549,7 +549,7 @@
         <path ev="userdocuments" path="Ubisoft/Beowulf" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -562,7 +562,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGBAK" value="PATH" append="GAMES" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -575,8 +575,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGBIA" value="SAVEGAMEFOLDER" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -597,7 +597,7 @@
         <path ev="localappdata" path="BC/saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -610,7 +610,7 @@
         <path ev="steamuserdata" path="21670" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -622,7 +622,7 @@
         <path ev="localappdata" path="EIDOS/BIONICLE Heroes" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -636,8 +636,8 @@
         <path ev="steamcommon" path="Birth Of America/BoA/Settings" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -652,8 +652,8 @@
         <path ev="steamuserdata" path="63700" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -667,8 +667,8 @@
         <path ev="steamuserdata" path="63710" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -681,7 +681,7 @@
         <path ev="userdocuments" path="Black &amp; White 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -695,8 +695,8 @@
         <path ev="steamuserdata" path="9940" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -709,7 +709,7 @@
         <path ev="userdocuments" path="ARC SYSTEM WORKS/BLAZBLUE-CT" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -722,7 +722,7 @@
         <path ev="steamuserdata" path="46000" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -734,8 +734,8 @@
         <registry root="local_machine" key="SOFTWARE/Telltale Games/Bone1v20.exe" value="Install Location" />
       </locations>
       <files type="Saves">
-        <save filename="*.save" />
-        <save filename="*.prop" />
+        <include filename="*.save" />
+        <include filename="*.prop" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -747,8 +747,8 @@
         <registry root="local_machine" key="SOFTWARE/Telltale Games/Bone2v20.exe" value="Install Location" />
       </locations>
       <files type="Saves">
-        <save filename="*.save" />
-        <save filename="*.prop" />
+        <include filename="*.save" />
+        <include filename="*.prop" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -760,7 +760,7 @@
         <path ev="appdata" path="BoneTown/savegames" />
       </locations>
       <files type="Saves">
-        <save filename="*.sgf" />
+        <include filename="*.sgf" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -773,7 +773,7 @@
         <path ev="userdocuments" path="BTroopers/Savegames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -786,7 +786,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/CDV Software Entertainment AG/Breed" value="target folder" append="Run/Game Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -798,7 +798,7 @@
         <path ev="userdocuments" path="bridgeit" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -811,7 +811,7 @@
         <path ev="appdata" path="Gearbox Software/Earned In Blood" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -824,7 +824,7 @@
         <path ev="userdocuments" path="My Games/BIA Hells Highway" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -837,7 +837,7 @@
         <path ev="appdata" path="Gearbox Software/Brothers In Arms" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -850,7 +850,7 @@
         <path ev="steamcommon" path="buccaneer/buccaneer/data/Captains" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -863,7 +863,7 @@
         <path ev="commonapplicationdata" path="HipSoft/Buildalot" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -876,7 +876,7 @@
         <path ev="commonapplicationdata" path="HipSoft/Buildalot2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -889,7 +889,7 @@
         <path ev="commonapplicationdata" path="HipSoft/Buildalot3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -902,7 +902,7 @@
         <path ev="commonapplicationdata" path="HipSoft/Buildalot4" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -915,7 +915,7 @@
         <path ev="steamcommon" path="bullet candy/Data2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -928,7 +928,7 @@
         <path ev="steamuserdata" path="50510" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -940,8 +940,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGCAESAR3" value="PATH" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
-        <save filename="*.inf" />
+        <include filename="*.sav" />
+        <include filename="*.inf" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -953,7 +953,7 @@
         <path ev="commonapplicationdata" path="Sandlot Games/Cake Mania 3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -966,7 +966,7 @@
         <path ev="userdocuments" path="Call of Juarez" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -979,7 +979,7 @@
         <path ev="commonapplicationdata" path="GameHouse/Games/CampfireLegends1" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -992,7 +992,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGCANNONFODDER" value="PATH" />
       </locations>
       <files type="Saves">
-        <save filename="*.CF" />
+        <include filename="*.CF" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1004,7 +1004,7 @@
         <path ev="userdocuments" path="CannonFodder3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1017,7 +1017,7 @@
         <path ev="steamcommon" path="capsized/Content" />
       </locations>
       <files type="Saves">
-        <save filename="Config.xfg" />
+        <include filename="Config.xfg" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1030,7 +1030,7 @@
         <path ev="userdocuments" path="My Games/Cargo" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1043,7 +1043,7 @@
         <path ev="userdocuments" path="Disney Interactive Studios/Cars2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1056,7 +1056,7 @@
         <path ev="userdocuments" path="CARS" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1069,7 +1069,7 @@
         <path ev="userdocuments" path="CelebrityDeathmatch" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1082,7 +1082,7 @@
         <path ev="steamcommon" path="chantelise" />
       </locations>
       <files type="Saves">
-        <save filename="save.dat" />
+        <include filename="save.dat" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1095,7 +1095,7 @@
         <path ev="localappdata" path="Focus Home Interactive/Cities XL 2011" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1108,7 +1108,7 @@
         <path ev="localappdata" path="Focus Home Interactive/Cities XL 2012" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1121,7 +1121,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Microsoft/Microsoft Games/Close Combat/2.00" value="InstalledTo" append="games" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1133,11 +1133,11 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Codemasters/Colin McRae Rally 2" value="Game_HDPath" />
       </locations>
       <files type="Saves">
-        <save filename="Configuration\*.*" />
-        <save filename="gamesave\*.*" />
-        <save filename="NetworkLeaderboards\*.*" />
-        <save filename="pps\*.*" />
-        <save filename="Replays\*.*" />
+        <include filename="Configuration\*.*" />
+        <include filename="gamesave\*.*" />
+        <include filename="NetworkLeaderboards\*.*" />
+        <include filename="pps\*.*" />
+        <include filename="Replays\*.*" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1150,8 +1150,8 @@
         <path ev="userdocuments" path="Command &amp; Conquer 3 La Ira de Kane" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -1166,8 +1166,8 @@
         <path ev="userdocuments" path="Command &amp; Conquer 3 Wojny o tyberium" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -1184,10 +1184,10 @@
         <path ev="appdata" path="Red Alert 3 Uprising" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
-        <save />
-        <save />
+        <include />
+        <include />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -1203,7 +1203,7 @@
         <registry root="local_machine" key="SOFTWARE/Westwood/Tiberian Sun" value="InstallPath" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
+        <include filename="*.sav" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1215,7 +1215,7 @@
         <path ev="steamcommon" path="commander keen/base1" />
       </locations>
       <files type="Saves">
-        <save filename="saved*.ck1" />
+        <include filename="saved*.ck1" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1228,7 +1228,7 @@
         <path ev="userdocuments" path="Pyro Studios/Commandos/OUTPUT" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1241,7 +1241,7 @@
         <path ev="steamcommon" path="commandos 3 destination berlin/Output" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1254,7 +1254,7 @@
         <path ev="steamcommon" path="commandos behind enemy lines/OUTPUT" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1267,7 +1267,7 @@
         <path ev="steamcommon" path="commandos beyond the call of duty/OUTPUT" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1280,7 +1280,7 @@
         <path ev="userdocuments" path="My Games/Company of Heroes Online" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1293,7 +1293,7 @@
         <path ev="userdocuments" path="Confrontation" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1306,7 +1306,7 @@
         <registry root="local_machine" key="SOFTWARE/Acclaim/Constructor/1.0" value="ConstructorPath" append="Savegame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1319,8 +1319,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Monolith Productions/Contract Jack/1.0" value="InstallDir" append="Save" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1332,7 +1332,7 @@
         <path ev="appdata" path="PlayFirst/cooking-dash-dinertown-studios" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1346,8 +1346,8 @@
         <path ev="steamuser" path="counter-strike source/cstrike" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -1361,7 +1361,7 @@
         <path ev="steamcommon" path="crazy machines 2/profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1374,7 +1374,7 @@
         <path ev="userdocuments" path="My Games/Crazy Machines Elements" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1387,7 +1387,7 @@
         <path ev="steamcommon" path="crazy machines/data/labs" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1400,7 +1400,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Creative Tech/Software Installed/ALchemy/1033" value="Installed Path" />
       </locations>
       <files type="Saves">
-        <save filename="ALchemy.ini" />
+        <include filename="ALchemy.ini" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1412,7 +1412,7 @@
         <path ev="userdocuments" path="My Games/CrimeCraft" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1425,7 +1425,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGCRUSADERNOREGRET" value="PATH" append="SAVEGAME" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1437,7 +1437,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGCRUSADERNOREMORSE" value="PATH" append="SAVEGAME" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1449,7 +1449,7 @@
         <path ev="userdocuments" path="Electronic Arts/Dark Age of Camelot" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1462,7 +1462,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGDARKLANDS" value="PATH" append="DARKLAND/SAVES" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1474,7 +1474,7 @@
         <registry root="local_machine" key="SOFTWARE/GOG.com/GOGDARKREIGN" value="PATH" append="save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1486,7 +1486,7 @@
         <path ev="steamuser" path="day of defeat" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1499,7 +1499,7 @@
         <path ev="steamuser" path="day of defeat source/platform" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1512,7 +1512,7 @@
         <path ev="userdocuments" path="My Games/Dead Rising 2 Off The Record" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1525,7 +1525,7 @@
         <path ev="steamcommon" path="dear esther/dearesther/SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1539,8 +1539,8 @@
         <path ev="steamuserdata" path="18040" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1554,8 +1554,8 @@
         <path ev="steamuserdata" path="18050" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1568,7 +1568,7 @@
         <path ev="steamcommon" path="defcon" />
       </locations>
       <files type="Saves">
-        <save filename="preferences.txt" />
+        <include filename="preferences.txt" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1581,7 +1581,7 @@
         <path ev="userdocuments" path="My Games/Gas Powered Games/Demigod" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1594,7 +1594,7 @@
         <path ev="userdocuments" path="democracy2/savegames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1607,7 +1607,7 @@
         <path ev="userdocuments" path="DemolitionInc" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1620,7 +1620,7 @@
         <path ev="localappdata" path="Daedalic Entertainment/Deponia" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1633,7 +1633,7 @@
         <path ev="userdocuments" path="Capcom/Devilmaycry4" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1646,7 +1646,7 @@
         <path ev="userdocuments" path="Dimensity" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1659,7 +1659,7 @@
         <path ev="appdata" path="PlayFirst/DinerDash4SeasonalSnackPack" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1672,7 +1672,7 @@
         <path ev="appdata" path="PlayFirst/dinertown-detective-agency" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1685,7 +1685,7 @@
         <path ev="steamuserdata" path="201700" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1697,7 +1697,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGDISCIPLES2GOLD" value="PATH" append="SaveGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1709,7 +1709,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGDISCIPLES2ELVES" value="PATH" append="SaveGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1721,7 +1721,7 @@
         <path ev="localappdata" path="DogFighter" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1734,7 +1734,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/id/Doom 3 Resurrection of Evil" value="InstallPath" append="d3xp/savegames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1746,7 +1746,7 @@
         <path ev="steamcommon" path="doom 2/base" />
       </locations>
       <files type="Saves">
-        <save filename="*.dsg" />
+        <include filename="*.dsg" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1759,7 +1759,7 @@
         <path ev="localappdata" path="DOSBox" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1772,7 +1772,7 @@
         <path ev="userdocuments" path="Drakensang" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1785,7 +1785,7 @@
         <path ev="userdocuments" path="Drakensang_TRoT" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1798,7 +1798,7 @@
         <path ev="appdata" path="PlayFirst/Dr. Daisy Pet Vet" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1811,7 +1811,7 @@
         <path ev="commonapplicationdata" path="DreamFarm" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1824,7 +1824,7 @@
         <path ev="appdata" path="Atlus/Droplitz" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1837,7 +1837,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGDUKE3D" value="PATH" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
+        <include filename="*.sav" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1849,7 +1849,7 @@
         <path ev="localappdata" path="VirtualStore/Program Files (x86)/Impulse/Games/Duke Nukem Manhattan Project/duke/base/save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1862,7 +1862,7 @@
         <path ev="userdocuments" path="Dungeons and Dragons Online" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1875,7 +1875,7 @@
         <path ev="userdocuments" path="Dungeon Siege" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1888,7 +1888,7 @@
         <path ev="userdocuments" path="My Games/Dungeon Siege 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1901,7 +1901,7 @@
         <path ev="userdocuments" path="My Games/Dungeon Siege 2 Broken World" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1914,7 +1914,7 @@
         <path ev="userdocuments" path="Dungeon Siege LOA" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1927,7 +1927,7 @@
         <path ev="steamcommon" path="dustforce/user" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1940,7 +1940,7 @@
         <path ev="userdocuments" path="KOEI/Dynasty Warriors 4 Hyper/Savedata" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1953,7 +1953,7 @@
         <path ev="userdocuments" path="KOEI/Dynasty Warriors 6" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1966,7 +1966,7 @@
         <path ev="localappdata" path="Two Tribes/EDGE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1979,7 +1979,7 @@
         <path ev="userdocuments" path="Elven Legacy Profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1992,7 +1992,7 @@
         <path ev="userdocuments" path="id Software/Enemy Territory - QUAKE Wars" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2005,7 +2005,7 @@
         <path ev="userdocuments" path="Escape Goat/Saved Games" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2018,7 +2018,7 @@
         <registry root="local_machine" key="SOFTWARE/Nival Interactive/Etherlords II/Path Settings" value="InstallFolder" append="Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2030,7 +2030,7 @@
         <path ev="userdocuments" path="EVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2043,7 +2043,7 @@
         <path ev="steamcommon" path="eversion" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
+        <include filename="*.sav" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2056,7 +2056,7 @@
         <path ev="steamcommon" path="everyday shooter/data" />
       </locations>
       <files type="Saves">
-        <save filename="fio.data" />
+        <include filename="fio.data" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2069,7 +2069,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/EA SPORTS/F1 2000" value="Install Dir" append="Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2081,7 +2081,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/EA SPORTS/F1 2001" value="Install Dir" append="Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2093,7 +2093,7 @@
         <path ev="userdocuments" path="My Games/FormulaOne" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2106,7 +2106,7 @@
         <path ev="userdocuments" path="My Games/FormulaOne2011" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2119,7 +2119,7 @@
         <path ev="appdata" path="Faerie Solitaire" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2132,7 +2132,7 @@
         <path ev="commonapplicationdata" path="Grey Alien Games/Fairway Solitaire" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2145,7 +2145,7 @@
         <path ev="userdocuments" path="Activision/Fantastic Four" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2158,7 +2158,7 @@
         <path ev="commonapplicationdata" path="FarmFrenzy2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2171,7 +2171,7 @@
         <path ev="userdocuments" path="My Games/FarmingSimulator2011" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2184,7 +2184,7 @@
         <path ev="appdata" path="fotw" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2197,7 +2197,7 @@
         <path ev="userdocuments" path="FIFA 10" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2210,9 +2210,9 @@
         <path ev="userdocuments" path="FIFA 12" />
       </locations>
       <files type="Saves">
-        <save>
-          <except filename="replay0.bin" />
-        </save>
+        <include>
+          <exclude filename="replay0.bin" />
+        </include>
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2226,8 +2226,8 @@
         <path ev="userdocuments" path="FUSSBALL MANAGER 12" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -2241,7 +2241,7 @@
         <path ev="steamcommon" path="final doom/base" />
       </locations>
       <files type="Saves">
-        <save filename="*.dsg" />
+        <include filename="*.dsg" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2254,7 +2254,7 @@
         <path ev="appdata" path="Nifflas/FiNCK" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2267,7 +2267,7 @@
         <path ev="userdocuments" path="Flight Simulator Files" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2281,8 +2281,8 @@
         <path ev="userdocuments" path="Flight Simulator X-Dateien" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -2296,7 +2296,7 @@
         <path ev="userdocuments" path="Flock" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2309,7 +2309,7 @@
         <path ev="userdocuments" path="SavedGames/Flotilla" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2322,10 +2322,10 @@
         <path ev="userdocuments" path="Sports Interactive/Football Manager 2008" />
       </locations>
       <files type="Saves">
-        <save filename="games\*.*" />
-        <save filename="filters\*.*" />
-        <save filename="matches\*.*" />
-        <save filename="tactics\*.*" />
+        <include filename="games\*.*" />
+        <include filename="filters\*.*" />
+        <include filename="matches\*.*" />
+        <include filename="tactics\*.*" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2338,10 +2338,10 @@
         <path ev="userdocuments" path="Sports Interactive/Football Manager 2009" />
       </locations>
       <files type="Saves">
-        <save filename="games\*.*" />
-        <save filename="filters\*.*" />
-        <save filename="matches\*.*" />
-        <save filename="tactics\*.*" />
+        <include filename="games\*.*" />
+        <include filename="filters\*.*" />
+        <include filename="matches\*.*" />
+        <include filename="tactics\*.*" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2354,10 +2354,10 @@
         <path ev="userdocuments" path="Sports Interactive/Football Manager 2010" />
       </locations>
       <files type="Saves">
-        <save filename="games\*.*" />
-        <save filename="filters\*.*" />
-        <save filename="matches\*.*" />
-        <save filename="tactics\*.*" />
+        <include filename="games\*.*" />
+        <include filename="filters\*.*" />
+        <include filename="matches\*.*" />
+        <include filename="tactics\*.*" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2370,10 +2370,10 @@
         <path ev="userdocuments" path="Sports Interactive/Football Manager 2011" />
       </locations>
       <files type="Saves">
-        <save filename="games\*.*" />
-        <save filename="filters\*.*" />
-        <save filename="matches\*.*" />
-        <save filename="tactics\*.*" />
+        <include filename="games\*.*" />
+        <include filename="filters\*.*" />
+        <include filename="matches\*.*" />
+        <include filename="tactics\*.*" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2386,10 +2386,10 @@
         <path ev="userdocuments" path="Sports Interactive/Football Manager 2012" />
       </locations>
       <files type="Saves">
-        <save filename="games\*.*" />
-        <save filename="filters\*.*" />
-        <save filename="matches\*.*" />
-        <save filename="tactics\*.*" />
+        <include filename="games\*.*" />
+        <include filename="filters\*.*" />
+        <include filename="matches\*.*" />
+        <include filename="tactics\*.*" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2402,7 +2402,7 @@
         <path ev="appdata" path="Fortix" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2415,7 +2415,7 @@
         <path ev="steamcommon" path="fortune summoners/user" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2428,7 +2428,7 @@
         <path ev="userprofile" path="freecol" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2441,7 +2441,7 @@
         <path ev="userdocuments" path="Freedom Fighters" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2454,7 +2454,7 @@
         <path ev="appdata" path="FreeOrion" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2467,7 +2467,7 @@
         <path ev="ubisoftsavestorage" path="30" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2479,7 +2479,7 @@
         <path ev="userdocuments" path="My Games/GC2TwilightArnor" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2492,7 +2492,7 @@
         <path ev="userdocuments" path="Game of Thrones" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2505,10 +2505,10 @@
         <path ev="localappdata" path="Microsoft/XLive" />
       </locations>
       <files type="Saves">
-        <save>
-          <except filename="Updates\*.*" />
-          <except filename="DLC\*.*" />
-        </save>
+        <include>
+          <exclude filename="Updates\*.*" />
+          <exclude filename="DLC\*.*" />
+        </include>
       </files>
       <registry type="Saves">
         <entry root="current_user" key="Software/Classes/SOFTWARE/Microsoft/XLive" value="Saves" />
@@ -2524,7 +2524,7 @@
         <path ev="appdata" path="DeadMage/Garshasp/profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2537,7 +2537,7 @@
         <path ev="userdocuments" path="Gamepires/GasGuzzlersCombatCarnage" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2550,7 +2550,7 @@
         <path ev="appdata" path="Gatling Gears" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2563,7 +2563,7 @@
         <path ev="localappdata" path="Bizarre Creations/Geometry Wars Retro Evolved" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2576,7 +2576,7 @@
         <path ev="userdocuments" path="Atari/GhostbustersSOS" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2589,7 +2589,7 @@
         <path ev="commonapplicationdata" path="Sandlot Games/Glyph 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2602,7 +2602,7 @@
         <path ev="appdata" path="PlayFirst/gotcha-celebrity-secrets" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2615,7 +2615,7 @@
         <path ev="userdocuments" path="WB Games/Gotham City Impostors" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2628,7 +2628,7 @@
         <path ev="steamcommon" path="gothic/Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2641,7 +2641,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGGOTHIC2GOLD" value="PATH" append="Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2653,7 +2653,7 @@
         <path ev="userdocuments" path="Gothic3ForsakenGods" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2666,7 +2666,7 @@
         <path ev="appdata" path="YoudaGames/Governor_of_Poker2_v100" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2679,7 +2679,7 @@
         <path ev="appdata" path="Grand Ages Rome" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2692,7 +2692,7 @@
         <registry root="local_machine" key="SOFTWARE/Rockstar Games/GTA2" value="path" append="player" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2704,7 +2704,7 @@
         <path ev="appdata" path="PlayFirst/Green Moon" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2717,7 +2717,7 @@
         <registry root="local_machine" key="SOFTWARE/Ubisoft/Grey's Anatomy" value="Program" append="savegame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2729,7 +2729,7 @@
         <path ev="appdata" path="GridRunnerRev" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2742,7 +2742,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGGROUNDCONTROL2" value="PATH" append="profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2754,7 +2754,7 @@
         <registry root="local_machine" key="SOFTWARE/10tacle Studios/GTL" value="InstallDir" append="UserData" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2766,7 +2766,7 @@
         <path ev="userdocuments" path="Petroglyph/GuardiansofGraxia" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2779,7 +2779,7 @@
         <path ev="userdocuments" path="Guild Wars 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2793,8 +2793,8 @@
         <path ev="localappdata" path="Aspyr/Guitar Hero III" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -2809,8 +2809,8 @@
         <path ev="userdocuments" path="Aspyr/Guitar Hero World Tour" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -2824,7 +2824,7 @@
         <path ev="userdocuments" path="Gumboy Tournament files" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2837,7 +2837,7 @@
         <path ev="steamsourcemods" path="City_7/SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2850,7 +2850,7 @@
         <path ev="steamsourcemods" path="metastasis/SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2863,7 +2863,7 @@
         <path ev="steamsourcemods" path="half-life 2 riot act/SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2876,7 +2876,7 @@
         <path ev="steamsourcemods" path="Rock 24/SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2889,7 +2889,7 @@
         <path ev="steamuser" path="half-life/valve_spanish" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2903,8 +2903,8 @@
         <path ev="savedgames" path="Halo 2" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -2918,7 +2918,7 @@
         <path ev="steamcommon" path="hammerfight/Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2931,7 +2931,7 @@
         <path ev="userdocuments" path="Harry Potter and the Prisoner of Azkaban" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2944,7 +2944,7 @@
         <path ev="userdocuments" path="Harry Potter II" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2957,7 +2957,7 @@
         <path ev="userdocuments" path="Harry Potter" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2970,7 +2970,7 @@
         <path ev="steamcommon" path="heavy weapon deluxe/userdata" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2983,7 +2983,7 @@
         <path ev="userdocuments" path="Telltale Games/Hector Episode 1" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -2996,7 +2996,7 @@
         <path ev="appdata" path="Big Fish Games/Azada My Documents/My Games/Hellgate/Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3009,7 +3009,7 @@
         <path ev="steamcommon" path="Heretic Shadow of the Serpent Riders/base" />
       </locations>
       <files type="Saves">
-        <save filename="*.HSG" />
+        <include filename="*.HSG" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3022,7 +3022,7 @@
         <path ev="steamcommon" path="heroes of annihilated empires/Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3035,7 +3035,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGHOMM2GOLD" value="PATH" append="GAMES" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3047,7 +3047,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGHOMM3COMPLETE" value="PATH" append="GAMES" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3059,7 +3059,7 @@
         <path ev="userdocuments" path="My Games/Heroes of Might and Magic V/Hammers of Fate" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3072,7 +3072,7 @@
         <path ev="userdocuments" path="Heroes of Might and Magic V - Tribes of the East/Profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3085,7 +3085,7 @@
         <path ev="appdata" path="Ubisoft/Heroes Over Europe" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3098,7 +3098,7 @@
         <path ev="steamcommon" path="hexen/base/HEXNDATA" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3122,18 +3122,18 @@
         <path ev="steamcommon" path="Hexen 2/data1/s11" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
-        <save />
-        <save />
-        <save />
-        <save />
-        <save />
-        <save />
-        <save />
-        <save />
-        <save />
-        <save />
+        <include />
+        <include />
+        <include />
+        <include />
+        <include />
+        <include />
+        <include />
+        <include />
+        <include />
+        <include />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -3157,7 +3157,7 @@
         <path ev="userdocuments" path="My Games/Homefront" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3170,7 +3170,7 @@
         <path ev="userdocuments" path="HospitalTycoon" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3183,7 +3183,7 @@
         <path ev="steamuserdata" path="104000" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3195,7 +3195,7 @@
         <path ev="appdata" path="Activision/IceAge3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3208,7 +3208,7 @@
         <path ev="appdata" path="LucasArts/Indiana Jones and the Fate of Atlantis" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3221,7 +3221,7 @@
         <path ev="appdata" path="LucasArts/Indiana Jones and the Last Crusade" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3234,7 +3234,7 @@
         <path ev="userdocuments" path="My Games/insane2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3247,7 +3247,7 @@
         <path ev="userdocuments" path="Sega/Iron Man" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3260,7 +3260,7 @@
         <path ev="appdata" path="Islands" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3273,7 +3273,7 @@
         <path ev="steamcommon" path="Jagged Alliance 2 Gold Unfinished Business/SavedGames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3287,8 +3287,8 @@
         <path ev="public" path="Documents\Jagged Alliance - Back in Action" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -3302,7 +3302,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GFI/Jugged Farm" value="Install Dir" append="bin/Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3314,7 +3314,7 @@
         <path ev="userdocuments" path="Activision/Quantom of Solace" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3327,7 +3327,7 @@
         <path ev="userdocuments" path="My Games/Jessica. Mysterious Journey " />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3340,7 +3340,7 @@
         <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/Uninstall/Jets N Guns_is1" value="InstallLocation" append="saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3352,7 +3352,7 @@
         <registry root="current_user" key="Software/ZEROCOOL/JEWELUS" value="SaveDir" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
+        <include filename="*.sav" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3364,7 +3364,7 @@
         <path ev="userdocuments" path="iWin/JewelQuest" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3377,7 +3377,7 @@
         <path ev="userdocuments" path="iWin/JQSolitaire" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3390,7 +3390,7 @@
         <path ev="commonapplicationdata" path="Alawar/Journey of Hope" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3403,7 +3403,7 @@
         <path ev="userdocuments" path="My Games/Juiced2_HIN" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3416,7 +3416,7 @@
         <path ev="userdocuments" path="Square Enix/Just Cause 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3429,7 +3429,7 @@
         <path ev="steamcommon" path="killingfloor/System" />
       </locations>
       <files type="Saves">
-        <save filename="*.ini" />
+        <include filename="*.ini" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3442,7 +3442,7 @@
         <path ev="userdocuments" path="My Games/Reckoning" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3455,7 +3455,7 @@
         <path ev="userdocuments" path="My Games/Kings Bounty Princess" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3468,7 +3468,7 @@
         <path ev="savedgames" path="Sandlot Games/Kuros" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3481,7 +3481,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGLANDSOFLORE1" value="PATH" />
       </locations>
       <files type="Saves">
-        <save filename="*save*.dat" />
+        <include filename="*save*.dat" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3493,7 +3493,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGLANDSOFLORE2" value="PATH" append="SAVEGAME" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3505,7 +3505,7 @@
         <path ev="steamcommon" path="larva mortus/saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3519,8 +3519,8 @@
         <path ev="commonapplicationdata" path="LAG" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -3536,9 +3536,9 @@
         <path ev="steamcommon" path="left 4 dead/left4dead/save" />
       </locations>
       <files type="Saves">
-        <save />
-        <save filename="*.cfg" />
-        <save />
+        <include />
+        <include filename="*.cfg" />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -3554,9 +3554,9 @@
         <path ev="steamcommon" path="left 4 dead 2/left4dead2/save" />
       </locations>
       <files type="Saves">
-        <save />
-        <save filename="*.cfg" />
-        <save />
+        <include />
+        <include filename="*.cfg" />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -3570,7 +3570,7 @@
         <path ev="userdocuments" path="Legacy of Kain - Defiance" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3583,7 +3583,7 @@
         <path ev="appdata" path="Endless Fluff Games/Legend of Fae" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3596,7 +3596,7 @@
         <path ev="localappdata" path="Warner Bros. Interactive Entertainment/LEGO Batman" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3609,7 +3609,7 @@
         <path ev="appdata" path="Warner Bros. Interactive Entertainment/LEGO Batman 2/SavedGames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3622,7 +3622,7 @@
         <path ev="localappdata" path="LucasArts/LEGOIndianaJones" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3635,7 +3635,7 @@
         <path ev="appdata" path="LucasArts/LEGO" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3648,7 +3648,7 @@
         <path ev="appdata" path="DisneyInteractiveStudios/LEGOPirates" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3661,7 +3661,7 @@
         <path ev="localappdata" path="LucasArts/LEGO Star Wars II" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3674,7 +3674,7 @@
         <path ev="appdata" path="LucasArts/LEGOStarWarsIII/SavedGames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3687,7 +3687,7 @@
         <path ev="localappdata" path="LucasArts/LEGO Star Wars - The Complete Saga" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3700,7 +3700,7 @@
         <path ev="userdocuments" path="My Games/LeisureSuitLarry" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3713,7 +3713,7 @@
         <path ev="commonapplicationdata" path="GameHouse/Games/LittleShopMemories" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3727,8 +3727,8 @@
         <path ev="localappdata" path="Logitech/Logitech Gaming Software/profiles" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -3742,7 +3742,7 @@
         <path ev="localappdata" path="LogiShrd/SetPoint II/Devices" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3755,7 +3755,7 @@
         <path ev="appdata" path="LucasArts/Loom" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3768,7 +3768,7 @@
         <path ev="appdata" path="PlayFirst/love-and-death-bitten" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3781,7 +3781,7 @@
         <path ev="userdocuments" path="MumboJumbo/luxor2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3794,7 +3794,7 @@
         <path ev="commonapplicationdata" path="MumboJumbo/Luxor - Quest For The Afterlife" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3807,7 +3807,7 @@
         <path ev="steamcommon" path="baboinvasion" />
       </locations>
       <files type="Saves">
-        <save filename="*.hdb" />
+        <include filename="*.hdb" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3820,7 +3820,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGMAGICCARPET" value="PATH" append="CARPET.CD/SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3832,7 +3832,7 @@
         <path ev="userdocuments" path="Wizards of the Coast/Magic the Gathering" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3845,7 +3845,7 @@
         <path ev="steamcommon" path="magnetis" />
       </locations>
       <files type="Saves">
-        <save filename="*.conf" />
+        <include filename="*.conf" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3858,7 +3858,7 @@
         <registry root="current_user" key="Software/Cyberlore/Majesty/InstallShield" value="INSTALLPATH" append="SaveGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3870,7 +3870,7 @@
         <registry root="current_user" key="Software/Cyberlore/Majesty Expansion/InstallShield" value="INSTALLPATH" append="SaveGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3882,7 +3882,7 @@
         <path ev="appdata" path="ERS G-Studio/Many Years Ago" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3895,7 +3895,7 @@
         <registry root="local_machine" key="Software/Wow6432Node/Marvel VS" value="Install_Dir" append="save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3907,7 +3907,7 @@
         <path ev="userdocuments" path="Activision/Marvel Ultimate Alliance/Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3920,7 +3920,7 @@
         <path ev="steamcommon" path="master levels of doom/doom2" />
       </locations>
       <files type="Saves">
-        <save filename="*.dsg" />
+        <include filename="*.dsg" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3933,7 +3933,7 @@
         <path ev="userdocuments" path="MataHari" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3946,7 +3946,7 @@
         <path ev="appdata" path="Oyaji Games/Mecho Wars" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3959,7 +3959,7 @@
         <path ev="userdocuments" path="EA Games/Medal of Honor Airborne(tm)" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3973,8 +3973,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/EA Games/Medal of Honor Allied Assault" value="Path" append="main/configs" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3987,8 +3987,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/EA Games/Medal of Honor Allied Assault Breakthrough/2.0" value="Path" append="maintt/save" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4001,8 +4001,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/EA Games/Medal of Honor Allied Assault Spearhead/2.0" value="Path" append="mainta/save" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4014,7 +4014,7 @@
         <path ev="userdocuments" path="EA Games/Medal of Honor Pacific Assault(tm)" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4027,7 +4027,7 @@
         <path ev="userdocuments" path="My Games/Men of War/profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4040,7 +4040,7 @@
         <path ev="userdocuments" path="My Games/men of war - assault squad/profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4053,7 +4053,7 @@
         <path ev="userdocuments" path="My Games/Mercenaries 2 World In Flames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4067,8 +4067,8 @@
         <registry root="current_user" key="software/konami/mgs2s" value="INSTALLDIR" append="savedata" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4080,7 +4080,7 @@
         <path ev="localappdata" path="Microsoft/Flight" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4093,7 +4093,7 @@
         <path ev="commonapplicationdata" path="Alawar Entertainment/MindsEye" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4107,8 +4107,8 @@
         <path ev="public" path="Documents\TikGames/Monopoly" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -4122,7 +4122,7 @@
         <path ev="commonapplicationdata" path="Sandlot Games/Monster Mash" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4136,8 +4136,8 @@
         <path ev="userdocuments" path="Mount&amp;Blade With Fire and Sword" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -4151,7 +4151,7 @@
         <path ev="userdocuments" path="MrRobot" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4164,7 +4164,7 @@
         <path ev="steamcommon" path="multiwinia" />
       </locations>
       <files type="Saves">
-        <save filename="preferences.txt" />
+        <include filename="preferences.txt" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4177,7 +4177,7 @@
         <path ev="appdata" path="PlayFirst/Mystic Emporium" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4190,7 +4190,7 @@
         <path ev="appdata" path="Natural Selection 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4203,7 +4203,7 @@
         <path ev="appdata" path="2K Sports/NBA 2K12" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4216,7 +4216,7 @@
         <path ev="userdocuments" path="NFS Carbon" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4229,7 +4229,7 @@
         <path ev="userdocuments" path="EA Games/Need For Speed Hot Pursuit 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4242,7 +4242,7 @@
         <path ev="userdocuments" path="NFS Most Wanted" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4255,7 +4255,7 @@
         <path ev="userdocuments" path="NFS ProStreet" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4268,7 +4268,7 @@
         <path ev="userdocuments" path="SHIFT 2 UNLEASHED" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4282,8 +4282,8 @@
         <path ev="commonapplicationdata" path="NFS Underground" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -4297,7 +4297,7 @@
         <path ev="localappdata" path="NFS Underground 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4310,7 +4310,7 @@
         <path ev="appdata" path="Need for Speed World" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4323,7 +4323,7 @@
         <path ev="userdocuments" path="New Star Soccer 5" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4336,7 +4336,7 @@
         <path ev="userdocuments" path="NHL09" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4349,7 +4349,7 @@
         <path ev="localappdata" path="digipen/nitronic_rush" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4362,7 +4362,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGNOX" value="PATH" append="Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4374,7 +4374,7 @@
         <path ev="userdocuments" path="numen" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4387,7 +4387,7 @@
         <path ev="userdocuments" path="Over the Top Games/NyxQuest" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4400,7 +4400,7 @@
         <path ev="steamcommon" path="obulis" />
       </locations>
       <files type="Saves">
-        <save filename="config.dat" />
+        <include filename="config.dat" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4413,7 +4413,7 @@
         <path ev="appdata" path="offspringfling/Local Store" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4426,7 +4426,7 @@
         <path ev="userprofile" path="OilRush" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4439,7 +4439,7 @@
         <path ev="userdocuments" path="OpenTTD" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4452,7 +4452,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGOPERATIONFLASHPOINTGOTY" value="PATH" append="Users" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4464,7 +4464,7 @@
         <path ev="steamuserdata" path="102600" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4476,7 +4476,7 @@
         <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/Uninstall/{839911F0-D9CB-400F-AE78-5D8264F38C42}" value="InstallLocation" append="SaveGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4488,7 +4488,7 @@
         <path ev="steamcommon" path="outrun2006 coast 2 coast/SaveGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4501,7 +4501,7 @@
         <path ev="localappdata" path="Painkiller Overdose" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4514,7 +4514,7 @@
         <path ev="localappdata" path="Painkiller Redemption" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4527,7 +4527,7 @@
         <path ev="commonapplicationdata" path="SpieleEntwicklungsKombinat" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4540,7 +4540,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Unreal Technology/Installed Apps/Pariah" value="Folder" append="Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4552,7 +4552,7 @@
         <path ev="appdata" path="PlayFirst/passport-perfume" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4565,7 +4565,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGPATRICIAN3" value="PATH" append="save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4578,8 +4578,8 @@
         <path ev="appdata" path="Kalypso Media/Patrician 4/autoroute" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -4596,10 +4596,10 @@
         <path ev="userdocuments" path="PCSX2/bios" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
-        <save />
-        <save />
+        <include />
+        <include />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -4615,7 +4615,7 @@
         <path ev="userdocuments" path="SavedGames/Rainslick3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4628,7 +4628,7 @@
         <path ev="userdocuments" path="My Games/Perimiter2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4642,8 +4642,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Sierra OnLine/Setup/Pharaoh" value="Directory" append="Save" />
       </locations>
       <files type="Saves">
-        <save filename="Pharaoh.inf" />
-        <save />
+        <include filename="Pharaoh.inf" />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4655,7 +4655,7 @@
         <path ev="userdocuments" path="PineappleSmashCrew" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4668,7 +4668,7 @@
         <path ev="userdocuments" path="THQ/Cars" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4681,7 +4681,7 @@
         <path ev="userdocuments" path="THQ/Cars2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4694,8 +4694,8 @@
         <path ev="steamcommon" path="plain sight/content" />
       </locations>
       <files type="Saves">
-        <save filename="*.bin" />
-        <save filename="Config.xml" />
+        <include filename="*.bin" />
+        <include filename="Config.xml" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4708,7 +4708,7 @@
         <path ev="commonapplicationdata" path="Reflexive/PlantsVsZombies/userdata" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4721,7 +4721,7 @@
         <path ev="steamuserdata" path="3590" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4733,7 +4733,7 @@
         <path ev="steamuserdata" path="620" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4745,7 +4745,7 @@
         <path ev="userdocuments" path="Ascaron Entertainment/Port Royale 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4758,7 +4758,7 @@
         <path ev="steamcommon" path="postal iii/p3/SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4771,7 +4771,7 @@
         <path ev="steamcommon" path="post apocalyptic mayhem" />
       </locations>
       <files type="Saves">
-        <save filename="*.bin" />
+        <include filename="*.bin" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4784,7 +4784,7 @@
         <path ev="appdata" path="PowerRangers" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4797,7 +4797,7 @@
         <path ev="ubisoftsavestorage" path="11" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4809,7 +4809,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Ubisoft/Prince of Persia The Two Thrones/1.00.999" value="Product_Path" append="POP3Profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4821,7 +4821,7 @@
         <registry root="local_machine" key="SOFTWARE/Ubisoft/Prince of Persia The Warrior Within/1.00.999" value="Product_Path" append="POPWWProfiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4833,7 +4833,7 @@
         <registry root="current_user" key="Software/Will/princesswaltz_us" value="InstallDir" append="savedata" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4845,7 +4845,7 @@
         <path ev="userdocuments" path="KONAMI/Pro Evolution Soccer 2008" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4858,7 +4858,7 @@
         <path ev="userdocuments" path="KONAMI/Pro Evolution Soccer 2009" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4871,7 +4871,7 @@
         <path ev="userdocuments" path="KONAMI/Pro Evolution Soccer 2010" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4884,7 +4884,7 @@
         <path ev="userdocuments" path="KONAMI/Pro Evolution Soccer 2011" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4897,7 +4897,7 @@
         <path ev="userdocuments" path="KONAMI/Pro Evolution Soccer 2012" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4910,7 +4910,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GAMESTAR/PsiOps" value="TARGETPATH" append="save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4922,7 +4922,7 @@
         <path ev="appdata" path="Disney Interactive Studios/Pure" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4935,7 +4935,7 @@
         <path ev="userdocuments" path="Telltale Games/Puzzle Agent 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4948,7 +4948,7 @@
         <path ev="userdocuments" path="Telltale Games/The Mystery of Scoggins" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4961,7 +4961,7 @@
         <path ev="steamuserdata" path="57200" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4973,7 +4973,7 @@
         <path ev="userdocuments" path="My Games/Pyroblazer" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4986,7 +4986,7 @@
         <path ev="steamcommon" path="quake/Id1" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
+        <include filename="*.sav" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4999,7 +4999,7 @@
         <path ev="steamcommon" path="quake 2/rogue/save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5012,7 +5012,7 @@
         <path ev="steamcommon" path="quake 3 arena/baseq3" />
       </locations>
       <files type="Saves">
-        <save filename="*.cfg" />
+        <include filename="*.cfg" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5025,7 +5025,7 @@
         <path ev="steamcommon" path="quake 3 arena/missionpack" />
       </locations>
       <files type="Saves">
-        <save filename="*.cfg" />
+        <include filename="*.cfg" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5038,7 +5038,7 @@
         <path ev="steamcommon" path="quake 2/xatrix/save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5051,7 +5051,7 @@
         <path ev="steamcommon" path="quake/hipnotic" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
+        <include filename="*.sav" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5064,7 +5064,7 @@
         <path ev="steamcommon" path="quake/rogue" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
+        <include filename="*.sav" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5077,7 +5077,7 @@
         <path ev="userdocuments" path="Activision/Quantum of Solace" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5090,7 +5090,7 @@
         <path ev="steamcommon" path="qube/UDKGame/Config" />
       </locations>
       <files type="Saves">
-        <save filename="UDKGame.ini" />
+        <include filename="UDKGame.ini" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5103,7 +5103,7 @@
         <path ev="localappdata" path="VirtualStore/Program Files (x86)/Railroad Tycoon 3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5117,9 +5117,9 @@
         <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/App Paths/RT2_PLAT.EX" value="Path" append="games" />
       </locations>
       <files type="Saves">
-        <save filename="hiscore.dat" />
-        <save filename="*.pcx" />
-        <save />
+        <include filename="hiscore.dat" />
+        <include filename="*.pcx" />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5131,7 +5131,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGREALMS1" value="PATH" />
       </locations>
       <files type="Saves">
-        <save filename="*.GAM" />
+        <include filename="*.GAM" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5143,7 +5143,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGREALMS2" value="PATH" append="GAMES" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5155,7 +5155,7 @@
         <path ev="steamcommon" path="red orchestra 2/Binaries/Win32/Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5168,7 +5168,7 @@
         <path ev="appdata" path="eidos/reservoir dogs" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5181,7 +5181,7 @@
         <path ev="userdocuments" path="CAPCOM/RERC" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5194,7 +5194,7 @@
         <registry root="local_machine" key="SOFTWARE/Eidos Interactive/Revenant" value="Path" append="Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5207,8 +5207,8 @@
         <registry root="local_machine" key="SOFTWARE/SCi Games/Richard Burns Rally" value="InstallPath" />
       </locations>
       <files type="Saves">
-        <save />
-        <save filename="RichardBurnsRally.ini" />
+        <include />
+        <include filename="RichardBurnsRally.ini" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5220,7 +5220,7 @@
         <path ev="localappdata" path="Risen2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5233,7 +5233,7 @@
         <path ev="steamuserdata" path="19030" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5245,7 +5245,7 @@
         <path ev="userdocuments" path="My Games/UnrealEngine3/BoulderGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5258,7 +5258,7 @@
         <path ev="localappdata" path="Rockstar Games/RGSC" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5271,7 +5271,7 @@
         <registry root="local_machine" key="Software/Wow6432Node/Gog.com/GOGRTC" value="SAVEGAMEFOLDER" append="Saved Games" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5283,7 +5283,7 @@
         <path ev="appdata" path="PlayFirst/TajMahal" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5296,7 +5296,7 @@
         <path ev="appdata" path="PlayFirst/Route66" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5309,7 +5309,7 @@
         <path ev="commonapplicationdata" path="Pendulo Studios/RATOF/SAVEGAME" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5322,7 +5322,7 @@
         <path ev="userdocuments" path="Runes of Magic" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5335,7 +5335,7 @@
         <path ev="savedgames" path="Ubisoft/RUSE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5349,8 +5349,8 @@
         <path ev="steamuserdata" path="38720" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5363,7 +5363,7 @@
         <path ev="steamcommon" path="Sacred Gold/save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5376,7 +5376,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGSACRIFICE" value="PATH" append="Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5388,7 +5388,7 @@
         <path ev="appdata" path="Nifflas/Saira" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5401,7 +5401,7 @@
         <path ev="appdata" path="ScummVM" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5414,7 +5414,7 @@
         <registry root="local_machine" key="Software/Linden Research, Inc./SecondLife" value="" append="app-settings" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5426,7 +5426,7 @@
         <path ev="appdata" path="smc" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5439,7 +5439,7 @@
         <path ev="userdocuments" path="Secrets of the Ark" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5452,7 +5452,7 @@
         <path ev="userdocuments" path="SEGA Mega Drive Classics" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5465,7 +5465,7 @@
         <path ev="userdocuments" path="SEGA Rally" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5478,7 +5478,7 @@
         <path ev="steamcommon" path="serious sam classic the first encounter/SaveGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5491,7 +5491,7 @@
         <path ev="steamcommon" path="serious sam classic the second encounter/SaveGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5504,7 +5504,7 @@
         <path ev="userdocuments" path="Shadow Ops Profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5518,8 +5518,8 @@
         <path ev="userdocuments" path="My Games/Shank 2/users" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5532,7 +5532,7 @@
         <path ev="localappdata" path="Sidhe/SH" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5545,7 +5545,7 @@
         <path ev="localappdata" path="Futuremark/Shattered Horizon" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5558,7 +5558,7 @@
         <path ev="localappdata" path="Ubisoft/SWSnow" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5571,7 +5571,7 @@
         <path ev="userdocuments" path="ShipSimExtremes Userdata" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5584,7 +5584,7 @@
         <path ev="localappdata" path="Okashi Studios/Shira Oka/Second Chances" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <registry type="Saves">
         <entry root="current_user" key="Software/Okashi Studios/Shira Oka/Second Chances" value="Saves" />
@@ -5600,7 +5600,7 @@
         <path ev="userdocuments" path="My Games/Sid Meier's Railroads!" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5614,12 +5614,12 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Konami/Silent Hill 2" value="INSTALLDIR" />
       </locations>
       <files type="Saves">
-        <save />
-        <save filename="cin.dat" />
-        <save filename="keyconf.dat" />
-        <save filename="options.ini" />
-        <save filename="settings.ini" />
-        <save filename="language.ini" />
+        <include />
+        <include filename="cin.dat" />
+        <include filename="keyconf.dat" />
+        <include filename="options.ini" />
+        <include filename="settings.ini" />
+        <include filename="language.ini" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5631,7 +5631,7 @@
         <path ev="userdocuments" path="SH3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5644,7 +5644,7 @@
         <path ev="userdocuments" path="SH4" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5657,7 +5657,7 @@
         <path ev="userdocuments" path="SH5" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5670,7 +5670,7 @@
         <path ev="userdocuments" path="SimCity 4" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5683,7 +5683,7 @@
         <path ev="userdocuments" path="SimCity 4" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5696,7 +5696,7 @@
         <path ev="appdata" path="Simon4" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5709,7 +5709,7 @@
         <path ev="userdocuments" path="my games/Ironclad Games/Sins of a Solar Empire Rebellion" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5722,9 +5722,9 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Microsoft/Windows/CurrentVersion/Uninstall/Smugglers 3_is1" value="Inno Setup: App Path" />
       </locations>
       <files type="Saves">
-        <save filename="*.int" />
-        <save filename="*.sav" />
-        <save filename="*.str" />
+        <include filename="*.int" />
+        <include filename="*.sav" />
+        <include filename="*.str" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5736,7 +5736,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGSNIPERELITE2" value="PATH" append="Prof" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5748,7 +5748,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Activision/Soldier of Fortune II - Double Helix" value="InstallPath" append="base/Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5760,7 +5760,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Cauldron/SOF3" value="InstallDir" append="Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5772,7 +5772,7 @@
         <path ev="steamuserdata" path="45000" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5784,7 +5784,7 @@
         <path ev="userdocuments" path="Sega/Sonic Adventure DX/Savedata" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5798,8 +5798,8 @@
         <path ev="steamuserdata" path="71340" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5812,8 +5812,8 @@
         <path ev="steamcommon" path="sonic and sega all stars racing" />
       </locations>
       <files type="Saves">
-        <save filename="ssr_save.bin" />
-        <save filename="settings.ini" />
+        <include filename="ssr_save.bin" />
+        <include filename="settings.ini" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5826,8 +5826,8 @@
         <path ev="steamcommon" path="sonic the hedgehog 4 ep 1" />
       </locations>
       <files type="Saves">
-        <save filename="Sonic_vis_save.dat" />
-        <save filename="main.conf" />
+        <include filename="Sonic_vis_save.dat" />
+        <include filename="main.conf" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5840,7 +5840,7 @@
         <path ev="steamuser" path="space empires iv deluxe/se4/savegame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5855,9 +5855,9 @@
         <path ev="steamcommon" path="spaceEmpiresV/SE5/GameSetups" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
-        <save />
+        <include />
+        <include />
+        <include />
       </files>
       <registry type="Saves">
         <entry root="current_user" key="Software/Malfador Machinations/Space Empires V" value="Saves" />
@@ -5873,7 +5873,7 @@
         <path ev="appdata" path="SpaceGiraffe" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5886,7 +5886,7 @@
         <path ev="appdata" path="MinMaxGames/SpacePiratesAndZombies/b_save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5899,7 +5899,7 @@
         <path ev="userdocuments" path="My Games/SpecOps-TheLine" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5912,7 +5912,7 @@
         <path ev="userdocuments" path="Activision/Spider-Man 3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5926,8 +5926,8 @@
         <path ev="userdocuments" path="Activision/Spider-Man (TM) SD" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -5941,7 +5941,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Activision/Spiderman The Movie" value="InstallPath" append="SavedGames0" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5953,7 +5953,7 @@
         <path ev="userdocuments" path="Disney Interactive Studios/Split Second" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5966,7 +5966,7 @@
         <path ev="commonapplicationdata" path="Legendo/Spooky Spirits" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5979,7 +5979,7 @@
         <path ev="userdocuments" path="My Spore Creations" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5992,7 +5992,7 @@
         <path ev="userdocuments" path="StackedPoker/SaveGames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6005,7 +6005,7 @@
         <path ev="appdata" path="Doublefine/Stacking" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6018,7 +6018,7 @@
         <registry root="local_machine" key="SOFTWARE/Activision/Star Trek: Bridge Commander/V1.0" value="INSTALLPATH" append="saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6031,8 +6031,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Activision/Elite Force II" value="InstallPath" append="base/save" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6044,7 +6044,7 @@
         <path ev="userdocuments" path="STLSave" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6057,7 +6057,7 @@
         <path ev="steamcommon" path="star wars battlefront ii/GameData/SaveGames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6071,8 +6071,8 @@
         <path ev="appdata" path="Petroglyph/Empire At War - Forces of Corruption" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -6087,8 +6087,8 @@
         <registry root="local_machine" key="SOFTWARE/LucasArts Entertainment Company LLC/Star Wars Galactic Battlegrounds/1.0" value="Install Path" append="Game" />
       </locations>
       <files type="Saves">
-        <save />
-        <save filename="player*.*" />
+        <include />
+        <include filename="player*.*" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6100,7 +6100,7 @@
         <registry root="local_machine" key="SOFTWARE/Sony Online Entertainment/Station LaunchPad/BkMrks" value="Lp18starwars4main" append="profiles" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6112,7 +6112,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/LucasArts/Star Wars Republic Commando/1.0" value="Launcher" append="GameData/Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6124,7 +6124,7 @@
         <path ev="steamcommon" path="star wars republic commando/GameData/Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6137,7 +6137,7 @@
         <path ev="localappdata" path="SWTOR" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6150,7 +6150,7 @@
         <path ev="steamcommon" path="still life 2/EXTDataSave" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6163,7 +6163,7 @@
         <path ev="localappdata" path="Stormrise" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6177,8 +6177,8 @@
         <path ev="userdocuments" path="Stranglehold" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -6192,7 +6192,7 @@
         <path ev="userdocuments" path="CAPCOM/SFTK" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6205,7 +6205,7 @@
         <path ev="userdocuments" path="Telltale Games/Episode 1 - Homestar Ruiner" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6218,7 +6218,7 @@
         <path ev="userdocuments" path="Telltale Games/Episode 2 - Strong Badia the Free" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6231,7 +6231,7 @@
         <path ev="userdocuments" path="Telltale Games/Episode 3 - Baddest of the Bands" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6244,7 +6244,7 @@
         <path ev="userdocuments" path="Telltale Games/Episode 4 - Dangeresque 3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6257,7 +6257,7 @@
         <path ev="userdocuments" path="Telltale Games/Episode 5 - 8-Bit Is Enough" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6270,7 +6270,7 @@
         <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/App Paths/stronghold.exe" value="Path" append="saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6282,7 +6282,7 @@
         <path ev="userdocuments" path="Stronghold 2/Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6295,7 +6295,7 @@
         <path ev="userdocuments" path="Stronghold 3/Saved Games" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6309,8 +6309,8 @@
         <path ev="userdocuments" path="Stronghold Crusader/Saves" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6323,7 +6323,7 @@
         <path ev="userdocuments" path="Stronghold Crusader/SavesExtreme" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6336,7 +6336,7 @@
         <path ev="appdata" path="Sudeki/Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6349,7 +6349,7 @@
         <path ev="userprofile" path="AppData/LocalLow/Chillingo/Super Crossfire" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6362,7 +6362,7 @@
         <path ev="userdocuments" path="Super Laser Racer" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6375,8 +6375,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Microsoft/Windows/CurrentVersion/Uninstall/{C9EAEE6B-741F-421D-B9CE-9FA300DA92AD}_is1" value="InstallLocation" />
       </locations>
       <files type="Saves">
-        <save filename="*.sav" />
-        <save filename="config.dat" />
+        <include filename="*.sav" />
+        <include filename="config.dat" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6388,7 +6388,7 @@
         <path ev="userdocuments" path="My Games/UnrealEngine3/MNCGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6401,7 +6401,7 @@
         <path ev="userdocuments" path="capcom/SUPERSTREETFIGHTERIV" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6414,7 +6414,7 @@
         <path ev="userdocuments" path="Mis juegos/SquareEnix/Supreme Commander 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6428,9 +6428,9 @@
         <path ev="localappdata" path="VirtualStore/Program Files (x86)/Sierra/SWAT 4/Content/System" />
       </locations>
       <files type="Saves">
-        <save filename="Campaign.ini" />
-        <save filename="MissionResults.ini" />
-        <save />
+        <include filename="Campaign.ini" />
+        <include filename="MissionResults.ini" />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6443,8 +6443,8 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Sierra/SWAT 4 - The Stetchkov Syndicate" value="InstallPath" append="ContentExpansion/System" />
       </locations>
       <files type="Saves">
-        <save filename="Campaign.ini" />
-        <save filename="MissionResults.ini" />
+        <include filename="Campaign.ini" />
+        <include filename="MissionResults.ini" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6456,7 +6456,7 @@
         <path ev="savedgames" path="Sword of the Stars II" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6469,7 +6469,7 @@
         <path ev="steamcommon" path="sword of the stars complete collection/SavedGames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6482,7 +6482,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGSYNDICATE" value="PATH" append="SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6494,10 +6494,10 @@
         <path ev="steamuser" path="team fortress 2" />
       </locations>
       <files type="Saves">
-        <save>
-          <except filename="tf\media\*.*" />
-          <except filename="tf\maps\*.*" />
-        </save>
+        <include>
+          <exclude filename="tf\media\*.*" />
+          <exclude filename="tf\maps\*.*" />
+        </include>
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6510,7 +6510,7 @@
         <path ev="steamuserdata" path="440" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6522,7 +6522,7 @@
         <path ev="appdata" path="TS3Client" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6535,7 +6535,7 @@
         <path ev="appdata" path="teamspeak2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6548,7 +6548,7 @@
         <path ev="appdata" path="TeeWorlds" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6561,7 +6561,7 @@
         <registry root="local_machine" key="SOFTWARE/Telltale Games/Poker.exe" value="Install Location" />
       </locations>
       <files type="Saves">
-        <save filename="*.prop" />
+        <include filename="*.prop" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6573,7 +6573,7 @@
         <path ev="userdocuments" path="Test Drive Unlimited" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6586,7 +6586,7 @@
         <path ev="steamcommon" path="thebaconing" />
       </locations>
       <files type="Saves">
-        <save filename="*.*.gg" />
+        <include filename="*.*.gg" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6599,7 +6599,7 @@
         <path ev="steamcommon" path="the binding of isaac" />
       </locations>
       <files type="Saves">
-        <save filename="serial.txt" />
+        <include filename="serial.txt" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6612,7 +6612,7 @@
         <path ev="userdocuments" path="Book of Unwritten Tales" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6625,7 +6625,7 @@
         <path ev="appdata" path="The Chosen" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6638,7 +6638,7 @@
         <path ev="public" path="Documents\The Club Game Save Data" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6651,7 +6651,7 @@
         <path ev="appdata" path="LucasArts/The Dig" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6664,7 +6664,7 @@
         <path ev="userdocuments" path="the experiment" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6677,7 +6677,7 @@
         <path ev="userdocuments" path="EA Games/The Godfather™ II" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6690,7 +6690,7 @@
         <path ev="commonapplicationdata" path="AltSpace Group/The God's Treasury" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6703,7 +6703,7 @@
         <path ev="localappdata" path="VirtualStore/Program Files (x86)/The I of the Dragon/Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <registry type="Saves">
         <entry root="current_user" key="Software/Primal" value="Saves" />
@@ -6719,7 +6719,7 @@
         <path ev="appdata" path="My Battle for Middle-earth Files" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6733,8 +6733,8 @@
         <path ev="userdocuments" path="The Lord of the Rings - Conquest" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -6748,7 +6748,7 @@
         <path ev="userdocuments" path="The Lord of the Rings Online" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6761,7 +6761,7 @@
         <path ev="localappdata" path="WB Games/War in the North" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6774,7 +6774,7 @@
         <path ev="steamuserdata" path="26000" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6786,7 +6786,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGTHEMEHOSPITAL" value="PATH" append="SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6798,7 +6798,7 @@
         <path ev="userdocuments" path="The Movies" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6811,7 +6811,7 @@
         <path ev="appdata" path="PlayFirst/The Mystery of the Mary Celeste" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6824,7 +6824,7 @@
         <path ev="commonapplicationdata" path="Pendulo Studios/TNBT/SAVEGAME" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6838,8 +6838,8 @@
         <path ev="appdata" path="The Path" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -6853,7 +6853,7 @@
         <path ev="localappdata" path="The Real Texas/2002" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6866,7 +6866,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGSETTLERS2GOLD" value="PATH" append="SAVE" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6878,7 +6878,7 @@
         <path ev="userdocuments" path="Settlers7/Savegames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6892,8 +6892,8 @@
         <path ev="userdocuments" path="Electronic Arts/Los Sims 3/Saves" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -6907,7 +6907,7 @@
         <path ev="userdocuments" path="Electronic Arts/The Sims Medieval/Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6920,7 +6920,7 @@
         <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/Uninstall/The Suffering" value="DisplayIcon" append="Saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6932,7 +6932,7 @@
         <path ev="userdocuments" path="BugFactory/The Tales of Bingwood" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6945,7 +6945,7 @@
         <path ev="steamcommon" path="tidalis/RuntimeData/Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6958,7 +6958,7 @@
         <path ev="userdocuments" path="Tiger Woods PGA TOUR 12 The Masters" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6971,7 +6971,7 @@
         <registry root="local_machine" key="SOFTWARE/Sierra Entertainment/TimeShift/1.00.000" value="PathToEXE" append="UserConfigs" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6983,7 +6983,7 @@
         <path ev="userdocuments" path="" />
       </locations>
       <files type="Saves">
-        <save filename="584109eb_*.sav" />
+        <include filename="584109eb_*.sav" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6996,7 +6996,7 @@
         <path ev="steamcommon" path="TinyAndBig" />
       </locations>
       <files type="Saves">
-        <save filename="*.save" />
+        <include filename="*.save" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7009,7 +7009,7 @@
         <path ev="appdata" path="TMNT" />
       </locations>
       <files type="Saves">
-        <save filename="*.TMNT" />
+        <include filename="*.TMNT" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7022,7 +7022,7 @@
         <path ev="steamcommon" path="race driver 3/savedata" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7035,7 +7035,7 @@
         <path ev="steamuserdata" path="38700" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7049,9 +7049,9 @@
         <path ev="userdocuments" path="Tom Clancy's EndWar" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
-        <save />
+        <include />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -7067,8 +7067,8 @@
         <path ev="ubisoftsavestorage" path="53" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7081,7 +7081,7 @@
         <path ev="savedgames" path="Tom Clancy's H.A.W.X" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7094,7 +7094,7 @@
         <path ev="savedgames" path="Tom Clancy's H.A.W.X. 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7107,7 +7107,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Ubisoft/Splinter Cell Pandora Tomorrow" value="InstalledPath" append="offline/Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7119,7 +7119,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Empire Interactive/Total Immersion Racing" value="INSTALLATION PATH" append="SAVEDATA" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7131,7 +7131,7 @@
         <path ev="userdocuments" path="Total Overdose" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7144,7 +7144,7 @@
         <path ev="steamuserdata" path="34330" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7156,7 +7156,7 @@
         <path ev="userdocuments" path="Disney Interactive Studios/Toy Story 3" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7169,7 +7169,7 @@
         <path ev="userdocuments" path="Activision/Transformers2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7182,7 +7182,7 @@
         <path ev="userdocuments" path="Activision/Transformers" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7195,7 +7195,7 @@
         <path ev="appdata" path="Trine2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7209,8 +7209,8 @@
         <path ev="savedgames" path="Two Worlds Saves" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -7224,7 +7224,7 @@
         <registry root="local_machine" key="SOFTWARE/Ubisoft/Launcher" value="InstallDir" append="storage" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7236,7 +7236,7 @@
         <path ev="appdata" path="UFOAI/2.4/base/save" />
       </locations>
       <files type="Saves">
-        <save filename="*.savx" />
+        <include filename="*.savx" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7249,7 +7249,7 @@
         <path ev="userdocuments" path="UK Truck Simulator/save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7262,7 +7262,7 @@
         <path ev="steamcommon" path="ultimate doom/base" />
       </locations>
       <files type="Saves">
-        <save filename="*.dsg" />
+        <include filename="*.dsg" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7275,7 +7275,7 @@
         <path ev="userdocuments" path="Activision/Ultimate Spider-Man" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7288,7 +7288,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGULTIMAUNDERWORLD1" value="PATH" append="UNDEROM1" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7300,7 +7300,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGULTIMAUNDERWORLD2" value="PATH" append="UNDEROM2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7312,7 +7312,7 @@
         <path ev="commonapplicationdata" path="HoverBee Studios/Undiscovered World - The Incan Sun" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7325,7 +7325,7 @@
         <path ev="userdocuments" path="Universe Sandbox" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7338,7 +7338,7 @@
         <path ev="userdocuments" path="Venetica" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7351,7 +7351,7 @@
         <path ev="appdata" path="Ventrilo" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7364,7 +7364,7 @@
         <path ev="steamcommon" path="vessel/Data/Save Games" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7377,7 +7377,7 @@
         <path ev="localappdata" path="Wheelman" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7390,7 +7390,7 @@
         <path ev="userdocuments" path="LDW/Virtual Villagers - The Lost Children" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7403,7 +7403,7 @@
         <path ev="userdocuments" path="LDW/Virtual Villagers - The Secret City" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7416,7 +7416,7 @@
         <path ev="userdocuments" path="VirtuaTennis2009" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7429,7 +7429,7 @@
         <path ev="userdocuments" path="Virtua Tennis 4" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7443,8 +7443,8 @@
         <path ev="appdata" path="Microsoft Games/Viva Pinata" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -7458,7 +7458,7 @@
         <path ev="userdocuments" path="WALL-E" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7471,7 +7471,7 @@
         <path ev="steamcommon" path="wanted - weapons of fate/saves" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7484,7 +7484,7 @@
         <path ev="savedgames" path="EugenSystems/WarGame" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7498,8 +7498,8 @@
         <path ev="localappdata" path="VirtualStore/Program Files/THQ/Dawn Of War" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7513,8 +7513,8 @@
         <path ev="localappdata" path="VirtualStore/Program Files/THQ/Dawn of War - Soulstorm" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7528,8 +7528,8 @@
         <path ev="steamuserdata" path="55150" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7542,7 +7542,7 @@
         <path ev="userdocuments" path="Warhammer Mark of Chaos" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7555,7 +7555,7 @@
         <path ev="userdocuments" path="My Games/WARP" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7568,7 +7568,7 @@
         <path ev="userdocuments" path="Warzone 2100 v3.0" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7581,7 +7581,7 @@
         <registry root="local_machine" key="Software/Wow6432Node/Unreal Technology/Installed Apps/Wheel of Time" value="Folder" append="save" />
       </locations>
       <files type="Saves">
-        <save filename="*.usa" />
+        <include filename="*.usa" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7593,7 +7593,7 @@
         <path ev="steamuserdata" path="57700" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7605,7 +7605,7 @@
         <path ev="steamcommon" path="Spear of Destiny/base" />
       </locations>
       <files type="Saves">
-        <save filename="SAVEGAM*.*" />
+        <include filename="SAVEGAM*.*" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7618,8 +7618,8 @@
         <path ev="steamcommon" path="wolfenstein 3d/base" />
       </locations>
       <files type="Saves">
-        <save filename="SAVEGAM*.WL6" />
-        <save filename="*.conf" />
+        <include filename="SAVEGAM*.WL6" />
+        <include filename="*.conf" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7632,7 +7632,7 @@
         <path ev="userdocuments" path="World in Conflict/Savegames" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7645,8 +7645,8 @@
         <path ev="steamcommon" path="worms reloaded" />
       </locations>
       <files type="Saves">
-        <save filename="Profile_PROFILES.DAT" />
-        <save filename="local.cfg" />
+        <include filename="Profile_PROFILES.DAT" />
+        <include filename="local.cfg" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7660,8 +7660,8 @@
         <path ev="steamcommon" path="worms reloaded/Replays" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -7675,7 +7675,7 @@
         <path ev="appdata" path="Blackbean/WRC2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7688,7 +7688,7 @@
         <path ev="appdata" path="BlackBean/WRC" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7701,7 +7701,7 @@
         <path ev="localappdata" path="XBlades" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7714,7 +7714,7 @@
         <path ev="steamcommon" path="XCom Apocalypse" />
       </locations>
       <files type="Saves">
-        <save filename="*.00" />
+        <include filename="*.00" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7727,7 +7727,7 @@
         <path ev="steamcommon" path="xcom ufo defense/XCOM" />
       </locations>
       <files type="Saves">
-        <save filename="*.dat" />
+        <include filename="*.dat" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7740,7 +7740,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Activision/Wolverine's Revenge" value="InstallPath" append="Save" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7752,7 +7752,7 @@
         <path ev="userdocuments" path="Activision/X-Men Legends 2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7765,7 +7765,7 @@
         <path ev="userprofile" path=".xmoto" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7778,7 +7778,7 @@
         <path ev="userdocuments" path="Xotic" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7791,8 +7791,8 @@
         <path ev="appdata" path="FALCOM/YS6_WIN" />
       </locations>
       <files type="Saves">
-        <save filename="*.nacci" />
-        <save filename="*.ini" />
+        <include filename="*.nacci" />
+        <include filename="*.ini" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7806,8 +7806,8 @@
         <path ev="localappdata" path="VirtualStore/Program Files (x86)/Yukkuri Panic! ADV/SAVE" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -7822,8 +7822,8 @@
         <path ev="appdata" path="Zen of Sudoku/users" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -7837,7 +7837,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/Microsoft/Microsoft Games/Zoo Tycoon/1.0" value="AppPath" append="Saved Games" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7851,9 +7851,9 @@
         <path ev="commonapplicationdata" path="PopCap Games/ZumasRevenge/users" />
       </locations>
       <files type="Saves">
-        <save />
-        <save />
-        <save />
+        <include />
+        <include />
+        <include />
       </files>
       <linkable />
       <linkable />
@@ -7868,7 +7868,7 @@
         <path ev="commonapplicationdata" path="Reflexive/ZumasRevengeAdventure/users" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7885,7 +7885,7 @@
         <path ev="steamuserdata" path="207350"/>
       </locations>
       <files type="Saves">
-        <save/>
+        <include/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -7898,7 +7898,7 @@
         <path ev="steamuserdata" path="207320"/>
       </locations>
       <files type="Saves">
-        <save/>
+        <include/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -7907,7 +7907,7 @@
         <path ev="appdata" path="FALCOM/YSF_Win"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
@@ -7923,7 +7923,7 @@
         <path ev="steamuserdata" path="203210"/>
       </locations>
       <files type="Saves">
-        <save/>
+        <include/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -7935,7 +7935,7 @@
         <path ev="steamuserdata" path="106000"/>
       </locations>
       <files type="Saves">
-        <save/>
+        <include/>
       </files>
       <contributor>Arc Angel</contributor>
     </version>
@@ -7948,7 +7948,7 @@
         <path ev="steamcommon" path="The Bards Tale"/>
       </locations>
       <files type="Saves">
-        <save path="Saved Games" />
+        <include path="Saved Games" />
       </files>
       <linkable path="Saved Games"/>
       <contributor></contributor>
@@ -7963,7 +7963,7 @@
         <registry root="local_machine" key="Software\GolemLabs\Superpower2" value="Installdir"/>
       </locations>
       <files type="Saves">
-        <save path="MODS\SP2\save" />
+        <include path="MODS\SP2\save" />
       </files>
       <linkable path="MODS\SP2\save"/>
       <contributor></contributor>
@@ -7976,7 +7976,7 @@
         <path ev="localappdata" path="SniperV2"/>
       </locations>
       <files type="Saves">
-        <save/>
+        <include/>
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -7989,7 +7989,7 @@
         <path ev="userdocuments" path="NFSTR"/>
       </locations>
       <files type="Settings">
-        <save/>
+        <include/>
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8002,7 +8002,7 @@
         <path ev="savedgames" path="Metal Dead" only_for="WindowsVista"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8015,7 +8015,7 @@
         <path ev="userdocuments" path="Inversion Saves"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8028,7 +8028,7 @@
         <path ev="userdocuments" path="Spiderweb Software\Geneforge 5 Saved Games"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8041,7 +8041,7 @@
         <path ev="userdocuments" path="Geneforge 4 Saved Games"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8054,7 +8054,7 @@
         <path ev="userdocuments" path="Spiderweb Software\Geneforge 3 Saved Games"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8067,7 +8067,7 @@
         <path ev="userdocuments" path="Spiderweb Software\Geneforge 2 Saved Games"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8080,7 +8080,7 @@
         <path ev="userdocuments" path="Spiderweb Software\Geneforge Saved Games"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8093,7 +8093,7 @@
         <path ev="appdata" path="Dynamite Jack"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8106,10 +8106,10 @@
         <path ev="userdocuments" path="My Games\DisciplesIII Resurrection"/>
       </locations>
       <files type="Saves">
-        <save path="Save"/>
+        <include path="Save"/>
       </files>
       <files type="Settings">
-        <save filename="user.ini"/>
+        <include filename="user.ini"/>
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8123,9 +8123,9 @@
         <path ev="userdocuments" path="My Games\Damnation"/>
       </locations>
       <files type="Saves">
-        <save path="DamnGame\Checkpoints"/>
-        <save path="DamnGame\Config"/>
-        <save path="DamnGame\SaveData"/>
+        <include path="DamnGame\Checkpoints"/>
+        <include path="DamnGame\Config"/>
+        <include path="DamnGame\SaveData"/>
       </files>
       <linkable />
       <contributor>Arc Angel</contributor>
@@ -8139,7 +8139,7 @@
         <registry root="local_machine" key="SOFTWARE\Pyro\Comm2\1.0" value="DirIns"/>
       </locations>
       <files type="Saves">
-        <save path="OUTPUT" />
+        <include path="OUTPUT" />
       </files>
       <linkable path="OUTPUT"/>
       <contributor>Arc Angel</contributor>
@@ -8153,7 +8153,7 @@
         <registry root="local_machine" key="SOFTWARE\Sega\Binary Domain" value="Install_Path"/>
       </locations>
       <files type="Saves">
-        <save path="savedata" />
+        <include path="savedata" />
       </files>
       <linkable path="savedata"/>
       <contributor>Arc Angel</contributor>
@@ -8166,7 +8166,7 @@
         <path ev="userdocuments" path="Spiderweb Software\Avernum Saved Games"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
@@ -8179,7 +8179,7 @@
         <path ev="localappdata" path="123KickIt"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
@@ -8192,7 +8192,7 @@
         <path ev="commonapplicationdata" path="FlyWheelGames/10DaysUnderTheSea" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
@@ -8205,7 +8205,7 @@
         <path ev="commonapplicationdata" path="SugarGames/5RealmofCards"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
@@ -8218,7 +8218,7 @@
         <path ev="steamcommon" path="9th company"/>
       </locations>
       <files type="Saves">
-        <save path="Save" />
+        <include path="Save" />
       </files>
       <linkable path="Save"/>
       <contributor>GameSaveManager</contributor>
@@ -8231,7 +8231,7 @@
         <path ev="localappdata" path="Daedalic Entertainment/A New Beginning"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
@@ -8244,7 +8244,7 @@
         <path ev="userdocuments" path="APOX/Save"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
@@ -8257,7 +8257,7 @@
         <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/Uninstall/AREA-51" value="DisplayIcon"/>
       </locations>
       <files type="Saves">
-        <save path="SAVES" />
+        <include path="SAVES" />
       </files>
       <linkable path="SAVES"/>
       <contributor>GameSaveManager</contributor>
@@ -8270,7 +8270,7 @@
         <path ev="userdocuments" path="My Games/Aces of the Galaxy"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
@@ -8283,7 +8283,7 @@
         <registry root="current_user" key="SOFTWARE/Eugen Systems/ActOfWar" value="AppDir"/>
       </locations>
       <files type="Saves">
-        <save path="AOW/Save" />
+        <include path="AOW/Save" />
       </files>
       <linkable path="AOW/Save"/>
       <contributor>GameSaveManager</contributor>
@@ -8296,7 +8296,7 @@
         <registry root="current_user" key="SOFTWARE/Eugen Systems/ActOfWar_HighTreason" value="AppDir"/>
       </locations>
       <files type="Saves">
-        <save path="AOW/Save" />
+        <include path="AOW/Save" />
       </files>
       <linkable path="AOW/Save"/>
       <contributor>GameSaveManager</contributor>
@@ -8309,7 +8309,7 @@
         <path ev="appdata" path="FloodLightGames/Death on the Nile"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -8322,7 +8322,7 @@
         <path ev="localappdata" path="Funcom/Conan"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -8335,7 +8335,7 @@
         <registry root="local_machine" key="SOFTWARE/Playlogic/AoP2" value="InstallPath"/>
       </locations>
       <files type="Saves">
-        <save path="SAVE" />
+        <include path="SAVE" />
       </files>
       <linkable path="SAVE" />
       <contributor>GameSaveManager</contributor>
@@ -8348,7 +8348,7 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGAOMSM" value="PATH"/>
       </locations>
       <files type="Saves">
-        <save path="Save" />
+        <include path="Save" />
       </files>
       <linkable path="Save" />
       <contributor>GameSaveManager</contributor>
@@ -8361,7 +8361,7 @@
         <path ev="localappdata" path="bitComposer/AirConflictsSW"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -8374,7 +8374,7 @@
         <path ev="localappdata" path="bitComposer/AirConflictsSW"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -8387,7 +8387,7 @@
         <path ev="userdocuments" path="Activision/Prototype 2"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>Arc Angel</contributor>
@@ -8400,7 +8400,7 @@
         <path ev="localappdata" path="Atari/AITD"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -8414,7 +8414,7 @@
         <path ev="userdocuments" path="18 WoS American Long Haul"/>
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
@@ -8427,7 +8427,7 @@
         <path ev="userdocuments" path="The Adventures of Tintin" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -8440,7 +8440,7 @@
         <path ev="appdata" path="CreeperWorld2" />
       </locations>
       <files type="Saves">
-        <save />
+        <include />
       </files>
       <linkable />
       <contributor>GameSaveManger</contributor>
