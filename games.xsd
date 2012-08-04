@@ -331,6 +331,11 @@
       </xs:sequence>
       <xs:attribute name="type" type="xs:string" use="required"/>
     </xs:complexType>
+    <xs:unique name="uniqueIncludes">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@name"/>
+      <xs:field xpath="@path"/>
+    </xs:unique>
   </xs:element>
 
   <xs:element name="exclude">

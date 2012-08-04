@@ -241,7 +241,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -502,13 +501,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
-        <include />
-        <include />
       </files>
-      <linkable />
-      <linkable />
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -535,9 +528,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -575,7 +566,6 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/GOG.com/GOGBIA" value="SAVEGAMEFOLDER" />
       </locations>
       <files type="Saves">
-        <include />
         <include />
       </files>
       <contributor>GameSaveManager</contributor>
@@ -637,7 +627,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <linkable />
       <linkable />
@@ -653,7 +642,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -667,7 +655,6 @@
         <path ev="steamuserdata" path="63710" />
       </locations>
       <files type="Saves">
-        <include />
         <include />
       </files>
       <linkable />
@@ -695,7 +682,6 @@
         <path ev="steamuserdata" path="9940" />
       </locations>
       <files type="Saves">
-        <include />
         <include />
       </files>
       <linkable />
@@ -1151,7 +1137,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <linkable />
       <linkable />
@@ -1167,9 +1152,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1185,13 +1168,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
-        <include />
-        <include />
       </files>
-      <linkable />
-      <linkable />
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1320,7 +1297,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1347,9 +1323,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -1540,7 +1514,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -1554,7 +1527,6 @@
         <path ev="steamuserdata" path="18050" />
       </locations>
       <files type="Saves">
-        <include />
         <include />
       </files>
       <linkable />
@@ -2227,9 +2199,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2282,9 +2252,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2794,9 +2762,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2810,9 +2776,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2904,9 +2868,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3123,29 +3085,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
-        <include />
-        <include />
-        <include />
-        <include />
-        <include />
-        <include />
-        <include />
-        <include />
-        <include />
-        <include />
       </files>
-      <linkable />
-      <linkable />
-      <linkable />
-      <linkable />
-      <linkable />
-      <linkable />
-      <linkable />
-      <linkable />
-      <linkable />
-      <linkable />
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3288,9 +3228,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3520,9 +3458,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3538,9 +3474,7 @@
       <files type="Saves">
         <include />
         <include filename="*.cfg" />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3556,9 +3490,7 @@
       <files type="Saves">
         <include />
         <include filename="*.cfg" />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3728,9 +3660,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3974,7 +3904,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -3988,7 +3917,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4001,7 +3929,6 @@
         <registry root="local_machine" key="SOFTWARE/Wow6432Node/EA Games/Medal of Honor Allied Assault Spearhead/2.0" value="Path" append="mainta/save" />
       </locations>
       <files type="Saves">
-        <include />
         <include />
       </files>
       <contributor>GameSaveManager</contributor>
@@ -4068,7 +3995,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4108,9 +4034,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4137,9 +4061,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4283,9 +4205,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4579,9 +4499,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -4597,13 +4515,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
-        <include />
-        <include />
       </files>
-      <linkable />
-      <linkable />
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5350,7 +5262,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5518,7 +5429,6 @@
         <path ev="userdocuments" path="My Games/Shank 2/users" />
       </locations>
       <files type="Saves">
-        <include />
         <include />
       </files>
       <linkable />
@@ -5799,7 +5709,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5855,8 +5764,6 @@
         <path ev="steamcommon" path="spaceEmpiresV/SE5/GameSetups" />
       </locations>
       <files type="Saves">
-        <include />
-        <include />
         <include />
       </files>
       <registry type="Saves">
@@ -5927,9 +5834,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6032,7 +5937,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6072,9 +5976,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6178,9 +6080,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6309,7 +6209,6 @@
         <path ev="userdocuments" path="Stronghold Crusader/Saves" />
       </locations>
       <files type="Saves">
-        <include />
         <include />
       </files>
       <linkable />
@@ -6734,9 +6633,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6839,9 +6736,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -6893,9 +6788,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7050,11 +6943,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
-        <include />
       </files>
-      <linkable />
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7067,7 +6956,6 @@
         <path ev="ubisoftsavestorage" path="53" />
       </locations>
       <files type="Saves">
-        <include />
         <include />
       </files>
       <linkable />
@@ -7210,9 +7098,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7444,7 +7330,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <linkable />
       <linkable />
@@ -7499,7 +7384,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7514,7 +7398,6 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7528,7 +7411,6 @@
         <path ev="steamuserdata" path="55150" />
       </locations>
       <files type="Saves">
-        <include />
         <include />
       </files>
       <linkable />
@@ -7661,9 +7543,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7807,9 +7687,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7823,9 +7701,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
       </files>
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
@@ -7852,11 +7728,7 @@
       </locations>
       <files type="Saves">
         <include />
-        <include />
-        <include />
       </files>
-      <linkable />
-      <linkable />
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
