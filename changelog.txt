@@ -291,7 +291,6 @@ Games From GameSaveManager (so generous!)
 * Larva Mortus
 * Lead and Gold: Gangs of the Wild West
 * Legacy of Kain: Defiance
-
 * Legend of Fae
 * LEGO Batman
 * LEGO Batman 2 DC Super Heroes™
@@ -303,13 +302,10 @@ Games From GameSaveManager (so generous!)
 * Lego Star Wars: The Complete Saga
 * Leisure Suit Larry: Box Office Bust
 * Little Shop - Memories
-* Logitech G-series Macros
-* Logitech SetPoint II (Macros and settings)
 * Loom
 * Love & Death: Bitten
 * Luxor 2
 * Luxor - Quest for the Afterlife
-* Madballs in Babo Invasion (STEAM Edition)
 * Magic Carpet
 * Magic: The Gathering
 * Magnetis
@@ -317,8 +313,7 @@ Games From GameSaveManager (so generous!)
 * Majesty Expansion
 * Many Years Ago
 * Marvel Trading Card Game (a.k.a. Marvel VS)
-* Marvel Ultimate Alliance
-* Master Levels of Doom II
+* Master Levels for Doom II
 * Mata Hari
 * Mecho Wars
 * Medal of Honor: Airborne
@@ -329,7 +324,6 @@ Games From GameSaveManager (so generous!)
 * Men of War
 * Men of War: Assault Squad
 * Mercenaries 2: World in Flames
-* Metal Gear Solid 2: Substance
 * Microsoft Flight
 * Mind's Eye: Secrets of the Forgotten
 * Monopoly
@@ -354,22 +348,19 @@ Games From GameSaveManager (so generous!)
 * NOX
 * Numen: Contest of Heroes
 * NyxQuest: Kindred Sprits
-* Obulis (STEAM Edition)
+* Obulis 
 * Offspring Fling!
 * Oil Rush
 * OpenTTD
-* Operation Flashpoint GOTY [GoG]
-* Orcs Must Die!
+* Operation Flashpoint
 * OutRun 2006 Coast2Coast
-* OutRun 2006: Coast 2 Coast (STEAM Edition)
+* OutRun 2006: Coast 2 Coast 
 * Painkiller: Overdose
-* Painkiller: Redemption
 * Paraworld
 * Pariah
 * Passport to Perfume
 * Patrician 3
 * Patrician 4
-* PCSX2
 * Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness, Episode Three
 * Perimiter 2: New Earth
 * Pharaoh
@@ -377,9 +368,6 @@ Games From GameSaveManager (so generous!)
 * Pixar Cars
 * Pixar Cars: Mater-National
 * Plain Sight
-* Plants Vs Zombies: Reflexive Arcade Edition
-* Plants Vs Zombies (Steam Cloud)
-* Portal 2
 * Port Royale 2
 * Postal 3
 * Post Apocalyptic Mayhem
@@ -408,7 +396,6 @@ Games From GameSaveManager (so generous!)
 * Quake Mission Pack 2: Dissolution of Eternity
 * Quantum of Solace
 * Q.U.B.E.
-* Railroad Tycoon 3
 * Railroad Tycoon II Platinum
 * Realms of Arkania 1
 * Realms of Arkania 2
@@ -417,10 +404,8 @@ Games From GameSaveManager (so generous!)
 * Resident Evil: Operation Racoon City
 * Revenant
 * Richard Burns Rally
-* Risen 2: Dark Waters
-* Rocket Knight (STEAM Edition)
+* Rocket Knight
 * Rock Of Ages
-* Rockstar Social Club
 * Rollercoaster Tycoon Deluxe (GOG.com Edition)
 * Romancing the Seven Wonders: Taj Mahal
 * Route 66
@@ -431,14 +416,11 @@ Games From GameSaveManager (so generous!)
 * Sacred Gold
 * Sacrifice
 * Saira
-* Scumm VM
 * Second Life
 * Secret Maryo Chronicles
 * Secrets of the Ark: A Broken Sword Game
 * SEGA Genesis & Mega Drive Classics
 * SEGA Rally Revo
-* Serious Sam Classic: The First Encounter
-* Serious Sam Classic: The Second Encounter
 * Shadow Ops Red Mercury
 * Shank 2
 * Shatter
@@ -452,9 +434,7 @@ Games From GameSaveManager (so generous!)
 * Silent Hunter 4
 * Silent Hunter 5
 * Sim City 4
-* SimCity 4 Deluxe
 * Simon the Sorcerer 4: Chaos Happens
-* Sins of a Solar Empire: Rebellion (Complete Backup)
 * Smugglers 3
 * Sniper Elite (GOG.com Edition)
 * Soldier of Fortune II
@@ -474,18 +454,16 @@ Games From GameSaveManager (so generous!)
 * Spider-Man: The Movie
 * Split/Second
 * Spooky Spirits
-* Spore (Creations)
 * Stacked with Daniel Negreanu
 * Stacking
 * Star Trek: Bridge Commander
 * Star Trek: Elite Force 2
 * Star Trek: Legacy
-* Star Wars: Battle Front II (STEAM Edition)
+* Star Wars: Battle Front II
 * Star Wars: Empire at War: Forces Of Corruption
 * Star Wars: Galactic Battlegrounds
 * Star Wars Galaxies
 * Star Wars: Republic Commando
-* Star Wars: Republic Commando (STEAM Edition)
 * Star Wars: The Old Republic
 * Still Life 2
 * Stormrise
@@ -507,14 +485,11 @@ Games From GameSaveManager (so generous!)
 * Super Mario Bros. X
 * Super Monday Night Combat
 * Super Street Fighter IV
-* Supreme Commander 2
 * SWAT 4
 * SWAT 4: The Stetchkov Syndicate
 * Sword of the Stars 2
-* Sword of the Stars Complete Collection
+* Sword of the Stars
 * Syndicate
-* TeamSpeak 3 Client
-* TeamSpeak RC2
 * TeeWorlds
 * Telltale Texas Hold'em
 * Test Drive: Unlimited
@@ -537,7 +512,6 @@ Games From GameSaveManager (so generous!)
 * The Movies
 * The Mystery of the Mary Celeste
 * The Next BIG Thing
-* The Path
 * The Real Texas
 * The Settlers 2 Gold
 * The Settlers 7
@@ -566,17 +540,13 @@ Games From GameSaveManager (so generous!)
 * Transformers: The Game
 * Trine 2
 * Two Worlds
-* Ubisoft Game Launcher
-* UFOAlien Invasion
+* UFO: Alien Invasion
 * UK Truck Simulator
-* Ultimate Doom (STEAM Edition)
+* Ultimate Doom
 * Ultimate Spider-Man
-* Ultima Underworld 1
-* Ultima Underworld 2
 * Undiscovered World - The Incan Sun
 * Universe Sandbox
 * Venetica
-* Ventrilo
 * Vessel
 * Vin Diesel: Wheelman
 * Virtual Villagers 2: The Lost Children
@@ -585,7 +555,7 @@ Games From GameSaveManager (so generous!)
 * Virtua Tennis 4
 * Viva Pinata
 * WALL-E
-* WANTED: Weapons of Fate (STEAM Edition)
+* WANTED: Weapons of Fate
 * Wargame: European Escalation
 * Warhammer 40,000: Dawn of War
 * Warhammer 40,000: Dawn of War - Soulstorm
@@ -596,10 +566,9 @@ Games From GameSaveManager (so generous!)
 * Wheel Of Time
 * Who's That Flying?!
 * Wolfenstein 3D: Spear of Destiny
-* Wolfenstein 3D (STEAM Edition)
+* Wolfenstein 3D
 * World in Conflict
 * Worms Reloaded
-* Worms Reloaded (Maps and Replays)
 * WRC 2
 * WRC 2010
 * X-Blades

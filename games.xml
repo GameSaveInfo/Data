@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2015-01-01T00:00:00">
+<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
+	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
   <!--This file contains games, mods and expansions-->
   <game name="11thHour" added="2012-08-03T22:17:30" updated="2012-08-03T22:17:30">
     <title>The 11th Hour</title>
@@ -1778,7 +1780,7 @@
       <files type="Achievements">
         <include path="Saves" filename="Achievements*"/>
       </files>
-      <files type="Exported Teams">
+      <files type="ExportedTeams">
         <include path="Saves\Teams"/>
       </files>
       <files type="Replays">
@@ -1814,7 +1816,7 @@
       <files type="Achievements">
         <include path="Saves" filename="Achievements*"/>
       </files>
-      <files type="Exported Teams">
+      <files type="ExportedTeams">
         <include path="Saves\Teams"/>
       </files>
       <files type="Replays">
@@ -7015,9 +7017,9 @@
     <version os="Windows">
       <locations>
         <path ev="installlocation" path="Sierra\Homeworld2"/>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3098754084-4185171617-473594350-1001\{0BAF4666-90BC-40F3-B9E1-0784F10089F4}" value="ConfigApplicationPath" detract="\Bin\Release"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3098754084-4185171617-473594350-1001\{0BAF4666-90BC-40F3-B9E1-0784F10089F4}" value="ConfigApplicationPath" detract="Bin\Release"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Homeworld2" value="UninstallString" detract="uninstall.exe"/>
-        <shortcut ev="startmenu" path="Programs\Sierra\Homeworld2\Homeworld2.lnk" detract="\Bin\Release"/>
+        <shortcut ev="startmenu" path="Programs\Sierra\Homeworld2\Homeworld2.lnk" detract="Bin\Release"/>
       </locations>
       <files>
         <include path="Bin\Profiles"/>
@@ -7147,7 +7149,7 @@
     <version os="Windows" release="15">
       <locations>
         <path ev="installlocation" path="games\icytower1.5"/>
-        <registry root="local_machine" key="SOFTWARE\Conduit\AppPaths\icytower15.exe" value="AppPath" detract="\icytower15.exe"/>
+        <registry root="local_machine" key="SOFTWARE\Conduit\AppPaths\icytower15.exe" value="AppPath" detract="icytower15.exe"/>
       </locations>
       <files type="Characters">
         <include path="characters"/>
@@ -8238,6 +8240,16 @@
       </files>
       <contributor>Arc Angel</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="baboinvasion" />
+      </locations>
+      <files>
+        <include filename="*.hdb" />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="Mafia" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Mafia</title>
@@ -8975,6 +8987,18 @@
       <title>Metal Gear Solid 2: Substance</title>
       <ps_code prefix="SLUS" suffix="20554"/>
       <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows" release="Substance">
+      <title>Metal Gear Solid 2: Substance</title>
+      <locations>
+        <registry root="local_machine" key="software\konami\mgs2s" value="INSTALLDIR"  />
+        <registry root="current_user" key="software\konami\mgs2s" value="INSTALLDIR"  />
+      </locations>
+      <files>
+        <include path="savedata" />
+      </files>
+      <linkable path="savedata"/>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="MetalGearSolid3" follows="MetalGearSolid2" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
@@ -9765,6 +9789,15 @@
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="102600" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="Osmos" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Osmos</title>
@@ -10170,6 +10203,7 @@
     <title>Plants Vs. Zombies</title>
     <version os="Windows">
       <locations>
+        <path ev="commonapplicationdata" path="Reflexive\PlantsVsZombies" />
         <path ev="allusersprofile" path="PopCap Games\PlantsVsZombies" only_for="WindowsVista"/>
         <path ev="allusersprofile" path="Steam\PlantsVsZombies" only_for="WindowsVista"/>
         <path ev="steamcommon" path="plants vs zombies" only_for="WindowsXP"/>
@@ -10177,9 +10211,21 @@
       <files>
         <include path="userdata"/>
       </files>
+      <linkable path="userdata"/>
       <identifier path="userdata"/>
       <contributor>duncans_pumpkin</contributor>
     </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="3590" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+
+
   </game>
   <game name="PlantTycoon" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Plant Tycoon</title>
@@ -10239,6 +10285,15 @@
         <include path="portal2\SAVE"/>
       </files>
       <contributor>GameSave.Info</contributor>
+    </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="620" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="PortRoyale" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
@@ -10404,6 +10459,15 @@
       <ps_code prefix="BLUS" suffix="30401"/>
       <contributor>GameSave.Info</contributor>
     </version>
+    <version platform="UbisoftSaveStorage">
+      <locations>
+        <path ev="ubisoftsavestorage" path="11" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="PrinceOfPersiaSandsOfTime" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Prince of Persia: The Sands of Time</title>
@@ -10443,6 +10507,16 @@
       <ps_code prefix="BLUS" suffix="30754" append="DIRTT"/>
       <contributor>GameSave.Info</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\Ubisoft\Prince of Persia The Two Thrones\1.00.999" value="Product_Path" />
+      </locations>
+      <files>
+        <include path="POP3Profiles" />
+      </files>
+      <linkable path="POP3Profiles"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="PrinceOfPersiaWarriorWithin" follows="PrinceOfPersiaSandsOfTime" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Prince of Persia: Warrior Within</title>
@@ -10453,6 +10527,16 @@
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30754" append="DIRWOW"/>
       <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\Ubisoft\Prince of Persia The Warrior Within\1.00.999" value="Product_Path"  />
+      </locations>
+      <files>
+        <include path="POPWWProfiles" />
+      </files>
+      <linkable path="POPWWProfiles"/>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="ProjectBlackSun" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
@@ -10589,6 +10673,7 @@
       <files>
         <include path="baseq2\save"/>
       </files>
+      <linkable path="baseq2\save"/>
       <contributor>Jetsetlemming</contributor>
     </version>
   </game>
@@ -11232,7 +11317,8 @@
     <title>Risen 2</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Risen"/>
+        <path ev="localappdata" path="Risen2" />
+        <path ev="savedgames" path="Risen2"/>
         <path ev="userdocuments" path="Saved Games\Risen2"/>
       </locations>
       <files>
@@ -11336,6 +11422,16 @@
         <include/>
       </files>
       <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\UnrealEngine3\BoulderGame" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="RogueGalaxy" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
@@ -12114,6 +12210,16 @@
   </game>
   <game name="SeriousSamTheFirstEncounter" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Serious Sam: The First Encounter</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="serious sam classic the first encounter" />
+      </locations>
+      <files>
+        <include path="SaveGame" />
+      </files>
+      <linkable path="SaveGame" />
+      <contributor>GameSaveManager</contributor>
+    </version>
     <version platform="SteamCloud" release="HD">
       <title>Serious Sam HD: The First Encounter</title>
       <locations>
@@ -12151,6 +12257,16 @@
         <include/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="serious sam classic the second encounter" />
+      </locations>
+      <files>
+        <include path="SaveGame" />
+      </files>
+      <linkable path="SaveGame" />
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="Shadowgrounds" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
@@ -12383,6 +12499,22 @@
       <ps_code prefix="BLUS" suffix="30810" append="_SH2"/>
       <contributor>GameSave.Info</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\Konami\Silent Hill 2" value="INSTALLDIR" />
+      </locations>
+      <files>
+        <include path="data\save" />
+      </files>
+      <files type="Settings">
+        <include filename="cin.dat" />
+        <include filename="keyconf.dat" />
+        <include filename="options.ini" />
+        <include filename="settings.ini" />
+        <include filename="language.ini" />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="SilentHill3" follows="SilentHill2" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Silent Hill 3</title>
@@ -12517,6 +12649,17 @@
       <contributor>AdmiringWorm</contributor>
       <contributor>Caleb Love</contributor>
     </version>
+    <version os="Windows" region="ESP">
+      <locations>
+        <path ev="userdocuments" path="Electronic Arts\Les Sims 3\Saves" />
+        <path ev="userdocuments" path="Electronic Arts\Los Sims 3\Saves" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="Sin" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Sin</title>
@@ -12611,6 +12754,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="sniper elite"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSNIPERELITE2" value="PATH" />
       </locations>
       <files>
         <include path="Prof"/>
@@ -12973,6 +13117,16 @@
         <include/>
       </files>
       <contributor>AdmiringWorm</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Doublefine\Stacking" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="StalkerCallofPripyat" follows="StalkerClearSky" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
@@ -13535,6 +13689,7 @@
         <path ev="localappdata" path="Gas Powered Games\Supreme Commander 2 "/>
         <path ev="userdocuments" path="My Games\Gas Powered Games\Supreme Commander 2 "/>
         <path ev="userdocuments" path="My Games\SquareEnix\Supreme Commander 2 "/>
+        <path ev="userdocuments" path="Mis juegos\SquareEnix\Supreme Commander 2" />
       </locations>
       <files type="Replays">
         <include path="replays"/>
@@ -14560,6 +14715,16 @@
       <ps_code prefix="BLUS" suffix="30010"/>
       <contributor>GameSave.Info</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Activision\Marvel Ultimate Alliance" />
+      </locations>
+      <files>
+        <include path="Save" />
+      </files>
+      <linkable path="Save" />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="UltimateDoom" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
     <title>Ultimate Doom</title>
@@ -14571,6 +14736,15 @@
         <include filename="*.zds"/>
       </files>
       <contributor>Kee715</contributor>
+    </version>
+    <version os="DOS">
+      <locations>
+        <path ev="steamcommon" path="ultimate doom" />
+      </locations>
+      <files>
+        <include path="base" filename="*.dsg" />
+      </files>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="UnchartedDrakesFortune" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
@@ -15076,7 +15250,7 @@
       <locations>
         <path ev="userdocuments" path="My Games\Dawn of War II - Retribution"/>
       </locations>
-      <files type="Custom Badges">
+      <files type="CustomBadges">
         <include path="Badges"/>
       </files>
       <files type="Playbacks">
@@ -15112,12 +15286,22 @@
     <title>Warhammer 40,000: Space Marine</title>
     <version platform="SteamCloud">
       <locations>
-        <path ev="steamuserdata" path="55150\remote"/>
+        <path ev="steamuserdata" path="55150"/>
       </locations>
       <files>
         <include/>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="THQ\Relic Entertainment\Space Marine" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="Warzone2100" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
@@ -15344,6 +15528,19 @@
       <ps_code prefix="NPUB" suffix="30074" append="-SAVE"/>
       <contributor>GameSave.Info</contributor>
     </version>
+    <version os="DOS">
+      <locations>
+        <path ev="steamcommon" path="wolfenstein 3d" />
+      </locations>
+      <files>
+        <include path="base" filename="SAVEGAM*.WL6" />
+      </files>
+      <files type="Settings">
+        <include path="base" filename="*.conf" />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="Wolfschanze2" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
     <title>Wolfschanze II</title>
@@ -15552,6 +15749,16 @@
     <version os="PS2" region="USA">
       <ps_code prefix="SLUS" suffix="21138"/>
       <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Activision\X-Men Legends 2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="XMenOriginsWolverine" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">

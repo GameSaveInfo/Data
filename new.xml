@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2012-07-31T13:05:17">
+<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
+	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
   <!-- Staging file for the adding of entries -->
   <!--  
   <game name="">
@@ -141,7 +143,77 @@
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
-  </game> 
+  </game>  
+    <game name="LogitechGseriesMacros">
+    <title>Logitech G-series Macros</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Logitech\G-series Software\Keyboard" />
+        <path ev="localappdata" path="Logitech\Logitech Gaming Software\profiles" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+    <game name="LogitechSetPointIIMacrosandsettings">
+    <title>Logitech SetPoint II (Macros and settings)</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="LogiShrd\SetPoint II\Devices" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="PCSX2">
+    <title>PCSX2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="PCSX2\memcards" />
+        <path ev="userdocuments" path="PCSX2\sstates" />
+        <path ev="userdocuments" path="PCSX2\inis" />
+        <path ev="userdocuments" path="PCSX2\bios" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="RailroadTycoon3">
+    <title>Railroad Tycoon 3</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Railroad Tycoon 3" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="ScummVM">
+    <title>Scumm VM</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="ScummVM" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
     <game name="TeamFortress2">
     <title>Team Fortress 2</title>
     <version os="Windows">
@@ -150,8 +222,8 @@
       </locations>
       <files>
         <include>
-          <exclude path="tf\media" />
-          <exclude path="tf\maps" />
+          <exclude filename="tf\media\*.*" />
+          <exclude filename="tf\maps\*.*" />
         </include>
       </files>
       <linkable />
@@ -170,6 +242,96 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+  <game name="TeamSpeak3Client">
+    <title>TeamSpeak 3 Client</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="TS3Client" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="TeamSpeakRC2">
+    <title>TeamSpeak RC2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="teamspeak2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+   <game name="ThePath">
+    <title>The Path</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="The Path" />
+        <path ev="appdata" path="The Path" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="UbisoftGameLauncher">
+    <title>Ubisoft Game Launcher</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\Ubisoft\Launcher" value="InstallDir" append="storage" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="UltimaUnderworld1">
+    <title>Ultima Underworld 1</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGULTIMAUNDERWORLD1" value="PATH" append="UNDEROM1" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="UltimaUnderworld2">
+    <title>Ultima Underworld 2</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGULTIMAUNDERWORLD2" value="PATH" append="UNDEROM2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+    <game name="Ventrilo">
+    <title>Ventrilo</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Ventrilo" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
   
   -->
 
@@ -3452,7 +3614,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LeadandGoldGangsOfTheWildWest">
+  <game name="LeadAndGoldGangsOfTheWildWest">
     <title>Lead and Gold: Gangs of the Wild West</title>
     <version os="Windows">
       <locations>
@@ -3467,7 +3629,7 @@
     </version>
   </game>
 
-  <game name="LegacyofKainDefiance">
+  <game name="LegacyOfKainDefiance">
     <title>Legacy of Kain: Defiance</title>
     <version os="Windows">
       <locations>
@@ -3481,7 +3643,7 @@
     </version>
   </game>
   
-  <game name="LegendofFae">
+  <game name="LegendOfFae">
     <title>Legend of Fae</title>
     <version os="Windows">
       <locations>
@@ -3511,17 +3673,17 @@
     <title>LEGO Batman 2 DC Super Heroes™</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Warner Bros. Interactive Entertainment\LEGO Batman 2\SavedGames" />
+        <path ev="appdata" path="Warner Bros. Interactive Entertainment\LEGO Batman 2" />
       </locations>
       <files>
-        <include />
+        <include path="SavedGames" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LegoIndianaJones">
-    <title>Lego Indiana Jones</title>
+  <game name="LEGOIndianaJones">
+    <title>LEGO Indiana Jones</title>
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="LucasArts\LEGOIndianaJones" />
@@ -3533,8 +3695,8 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LegoIndianaJones2">
-    <title>Lego Indiana Jones 2</title>
+  <game name="LEGOIndianaJones2">
+    <title>LEGO Indiana Jones 2</title>
     <version os="Windows">
       <locations>
         <path ev="appdata" path="LucasArts\LEGO" />
@@ -3546,7 +3708,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LEGOPiratesoftheCaribbean">
+  <game name="LEGOPiratesOfTheCaribbean">
     <title>LEGO Pirates of the Caribbean</title>
     <version os="Windows">
       <locations>
@@ -3559,8 +3721,8 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LegoStarWarsII">
-    <title>Lego Star Wars II</title>
+  <game name="LEGOStarWarsII">
+    <title>LEGO Star Wars II</title>
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="LucasArts\LEGO Star Wars II" />
@@ -3576,17 +3738,17 @@
     <title>LEGO Star Wars III: The Clone Wars</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="LucasArts\LEGOStarWarsIII\SavedGames" />
+        <path ev="appdata" path="LucasArts\LEGOStarWarsIII" />
       </locations>
       <files>
-        <include />
+        <include path="SavedGames" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LegoStarWarsTheCompleteSaga">
-    <title>Lego Star Wars: The Complete Saga</title>
+  <game name="LEGOStarWarsTheCompleteSaga">
+    <title>LEGO Star Wars: The Complete Saga</title>
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="LucasArts\LEGO Star Wars - The Complete Saga" />
@@ -3624,33 +3786,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LogitechGseriesMacros">
-    <title>Logitech G-series Macros</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="Logitech\G-series Software\Keyboard" />
-        <path ev="localappdata" path="Logitech\Logitech Gaming Software\profiles" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="LogitechSetPointIIMacrosandsettings">
-    <title>Logitech SetPoint II (Macros and settings)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="LogiShrd\SetPoint II\Devices" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="Loom">
     <title>Loom</title>
     <version os="Windows">
@@ -3664,7 +3800,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LoveDeathBitten">
+  <game name="LoveAndDeathBitten">
     <title>Love &amp; Death: Bitten</title>
     <version os="Windows">
       <locations>
@@ -3690,8 +3826,8 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LuxorQuestfortheAfterlife">
-    <title>Luxor - Quest for the Afterlife</title>
+  <game name="LuxorQuestForTheAfterlife">
+    <title>Luxor: Quest for the Afterlife</title>
     <version os="Windows">
       <locations>
         <path ev="commonapplicationdata" path="MumboJumbo\Luxor - Quest For The Afterlife" />
@@ -3703,28 +3839,16 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MadballsinBaboInvasionSTEAMEdition">
-    <title>Madballs in Babo Invasion (STEAM Edition)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="baboinvasion" />
-      </locations>
-      <files>
-        <include filename="*.hdb" />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="MagicCarpet">
     <title>Magic Carpet</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGMAGICCARPET" value="PATH" append="CARPET.CD\SAVE" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGMAGICCARPET" value="PATH" />
       </locations>
       <files>
-        <include />
+        <include path="CARPET.CD\SAVE" />
       </files>
+      <linkable path="CARPET.CD\SAVE"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -3750,34 +3874,37 @@
       <files>
         <include filename="*.conf" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="Majesty">
-    <title>Majesty</title>
+    <title>Majesty: The Fantasy Kingdom Sim</title>
     <version os="Windows">
       <locations>
-        <registry root="current_user" key="Software\Cyberlore\Majesty\InstallShield" value="INSTALLPATH" append="SaveGame" />
+        <registry root="current_user" key="Software\Cyberlore\Majesty\InstallShield" value="INSTALLPATH" />
       </locations>
       <files>
-        <include />
+        <include path="SaveGame" />
       </files>
+      <linkable path="SaveGame"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MajestyExpansion">
-    <title>Majesty Expansion</title>
+  
+  <expansion name="MajestyNorthernExpansion" for="Majesty">
+    <title>Majesty: The Northern Expansion</title>
     <version os="Windows">
       <locations>
-        <registry root="current_user" key="Software\Cyberlore\Majesty Expansion\InstallShield" value="INSTALLPATH" append="SaveGame" />
+        <registry root="current_user" key="Software\Cyberlore\Majesty Expansion\InstallShield" value="INSTALLPATH" />
       </locations>
       <files>
-        <include />
+        <include path="SaveGame" />
       </files>
+      <linkable path="SaveGame"/>
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
+  </expansion>
+  
   <game name="ManyYearsAgo">
     <title>Many Years Ago</title>
     <version os="Windows">
@@ -3791,41 +3918,29 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MarvelTradingCardGameakaMarvelVS">
+  <game name="MarvelTradingCardGame">
     <title>Marvel Trading Card Game (a.k.a. Marvel VS)</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="Software\Marvel VS" value="Install_Dir" append="save" />
+        <registry root="local_machine" key="Software\Marvel VS" value="Install_Dir" />
       </locations>
       <files>
-        <include />
+        <include path="save" />
       </files>
+      <linkable path="save" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MarvelUltimateAlliance">
-    <title>Marvel Ultimate Alliance</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Activision\Marvel Ultimate Alliance\Save" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="MasterLevelsofDoomII">
-    <title>Master Levels of Doom II</title>
-    <version os="Windows">
+  
+  <game name="MasterLevelsForDoomII">
+    <title>Master Levels For Doom II</title>
+    <version os="DOS">
       <locations>
         <path ev="steamcommon" path="master levels of doom\doom2" />
       </locations>
       <files>
         <include filename="*.dsg" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -3855,7 +3970,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MedalofHonorAirborne">
+  <game name="MedalOfHonorAirborne">
     <title>Medal of Honor: Airborne</title>
     <version os="Windows">
       <locations>
@@ -3868,46 +3983,60 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MedalofHonorAlliedAssualt">
-    <title>Medal of Honor Allied Assualt</title>
+  <game name="MedalOfHonorAlliedAssault">
+    <title>Medal of Honor: Allied Assault</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\EA Games\Medal of Honor Allied Assault" value="Path" append="main\save" />
-        <registry root="local_machine" key="SOFTWARE\EA Games\Medal of Honor Allied Assault" value="Path" append="main\configs" />
+        <registry root="local_machine" key="SOFTWARE\EA Games\Medal of Honor Allied Assault" value="Path" />
       </locations>
       <files>
-        <include />
+        <include path="main\save" />
       </files>
+      <files type="Settings">
+        <include path="main\configs" />
+      </files>
+      <linkable path="main\save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MedalofHonorAlliedAssualtBreakthrough">
-    <title>Medal of Honor Allied Assualt: Breakthrough</title>
+  <expansion name="MedalOfHonorAlliedAssaultBreakthrough" for="MedalOfHonorAlliedAssault">
+    <title>Medal of Honor Allied Assault: Breakthrough</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\EA Games\Medal of Honor Allied Assault Breakthrough\2.0" value="Path" append="maintt\configs" />
-        <registry root="local_machine" key="SOFTWARE\EA Games\Medal of Honor Allied Assault Breakthrough\2.0" value="Path" append="maintt\save" />
+        <parent name="MedalOfHonorAlliedAssault" os="Windows"/>
+        <registry root="local_machine" key="SOFTWARE\EA Games\Medal of Honor Allied Assault Breakthrough\2.0" value="Path"  />
       </locations>
       <files>
-        <include />
+        <include path="maintt\save" />
       </files>
+      <files type="Settings">
+        <include path="maintt\configs" />
+      </files>
+      <linkable path="maintt\save"/>
+      <identifier path="maintt"/>
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
-  <game name="MedalofHonorAlliedAssualtSpearhead">
-    <title>Medal of Honor Allied Assualt: Spearhead</title>
+  </expansion>
+  <expansion name="MedalOfHonorAlliedAssaultSpearhead" for="MedalOfHonorAlliedAssault">
+    <title>Medal of Honor Allied Assault: Spearhead</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\EA Games\Medal of Honor Allied Assault Spearhead\2.0" value="Path" append="mainta\configs" />
-        <registry root="local_machine" key="SOFTWARE\EA Games\Medal of Honor Allied Assault Spearhead\2.0" value="Path" append="mainta\save" />
+        <parent name="MedalOfHonorAlliedAssault" os="Windows"/>
+        <registry root="local_machine" key="SOFTWARE\EA Games\Medal of Honor Allied Assault Spearhead\2.0" value="Path" />
       </locations>
       <files>
-        <include />
+        <include path="mainta\save" />
       </files>
+      <files type="Settings">
+        <include path="mainta\configs" />
+      </files>
+      <linkable path="mainta\save"/>
+      <identifier path="mainta"/>
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
-  <game name="MedalofHonorPacificAssault">
+  </expansion>
+  
+  <game name="MedalOfHonorPacificAssault">
     <title>Medal of Honor: Pacific Assault</title>
     <version os="Windows">
       <locations>
@@ -3920,33 +4049,35 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MenofWar">
+  
+  <game name="MenOfWar">
     <title>Men of War</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\Men of War\profiles" />
+        <path ev="userdocuments" path="My Games\Men of War" />
       </locations>
       <files>
-        <include />
+        <include path="profiles" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MenofWarAssaultSquad">
+  <game name="MenOfWarAssaultSquad">
     <title>Men of War: Assault Squad</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\men of war - assault squad\profiles" />
+        <path ev="userdocuments" path="My Games\men of war - assault squad" />
       </locations>
       <files>
-        <include />
+        <include path="profiles" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Mercenaries2WorldinFlames">
+  
+  <game name="Mercenaries2WorldInFlames">
     <title>Mercenaries 2: World in Flames</title>
     <version os="Windows">
       <locations>
@@ -3959,19 +4090,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MetalGearSolid2Substance">
-    <title>Metal Gear Solid 2: Substance</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="software\konami\mgs2s" value="INSTALLDIR" append="savedata" />
-        <registry root="current_user" key="software\konami\mgs2s" value="INSTALLDIR" append="savedata" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+  
   <game name="MicrosoftFlight">
     <title>Microsoft Flight</title>
     <version os="Windows">
@@ -3985,7 +4104,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MindsEyeSecretsoftheForgotten">
+  <game name="MindsEyeSecretsOfTheForgotten">
     <title>Mind's Eye: Secrets of the Forgotten</title>
     <version os="Windows">
       <locations>
@@ -4012,6 +4131,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+  
   <game name="MonsterMash">
     <title>Monster Mash</title>
     <version os="Windows">
@@ -4025,7 +4145,8 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="MountBladeWithFireSword">
+  
+  <game name="MountAndBladeWithFireAndSword">
     <title>Mount &amp; Blade: With Fire &amp; Sword</title>
     <version os="Windows">
       <locations>
@@ -4104,7 +4225,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NeedforSpeedCarbon">
+  <game name="NeedForSpeedCarbon">
     <title>Need for Speed: Carbon</title>
     <version os="Windows">
       <locations>
@@ -4117,7 +4238,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NeedforSpeedHotPursuit2">
+  <game name="NeedForSpeedHotPursuit2">
     <title>Need for Speed: Hot Pursuit 2</title>
     <version os="Windows">
       <locations>
@@ -4130,7 +4251,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NeedforSpeedMostWanted">
+  <game name="NeedForSpeedMostWanted">
     <title>Need for Speed: Most Wanted</title>
     <version os="Windows">
       <locations>
@@ -4143,7 +4264,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NeedforSpeedProStreet">
+  <game name="NeedForSpeedProStreet">
     <title>Need for Speed: Pro Street</title>
     <version os="Windows">
       <locations>
@@ -4156,7 +4277,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NeedforSpeedShift2Unleashed">
+  <game name="NeedForSpeedShift2Unleashed">
     <title>Need for Speed: Shift 2 - Unleashed</title>
     <version os="Windows">
       <locations>
@@ -4169,7 +4290,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NeedforSpeedUnderground">
+  <game name="NeedForSpeedUnderground">
     <title>Need for Speed: Underground</title>
     <version os="Windows">
       <locations>
@@ -4183,7 +4304,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NeedforSpeedUnderground2">
+  <game name="NeedForSpeedUnderground2">
     <title>Need for Speed: Underground 2</title>
     <version os="Windows">
       <locations>
@@ -4196,7 +4317,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NeedforSpeedWorld">
+  <game name="NeedForSpeedWorld">
     <title>Need for Speed: World</title>
     <version os="Windows">
       <locations>
@@ -4252,15 +4373,16 @@
     <title>NOX</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGNOX" value="PATH" append="Save" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGNOX" value="PATH" />
       </locations>
       <files>
-        <include />
+        <include path="Save" />
       </files>
+      <linkable path="Save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NumenContestofHeroes">
+  <game name="NumenContestOfHeroes">
     <title>Numen: Contest of Heroes</title>
     <version os="Windows">
       <locations>
@@ -4286,8 +4408,8 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="ObulisSTEAMEdition">
-    <title>Obulis (STEAM Edition)</title>
+  <game name="Obulis">
+    <title>Obulis</title>
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="obulis" />
@@ -4295,7 +4417,6 @@
       <files>
         <include filename="config.dat" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -4303,10 +4424,10 @@
     <title>Offspring Fling!</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="offspringfling\Local Store" />
+        <path ev="appdata" path="offspringfling" />
       </locations>
       <files>
-        <include />
+        <include path="Local Store" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4338,52 +4459,31 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="OperationFlashpointGOTYGoG">
-    <title>Operation Flashpoint GOTY [GoG]</title>
+  <game name="OperationFlashpoint">
+    <title>Operation Flashpoint</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGOPERATIONFLASHPOINTGOTY" value="PATH" append="Users" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGOPERATIONFLASHPOINTGOTY" />
       </locations>
       <files>
-        <include />
+        <include path="Users" />
       </files>
+      <linkable path="Users"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="OrcsMustDie">
-    <title>Orcs Must Die!</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuserdata" path="102600" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="OutRun2006Coast2Coast">
-    <title>OutRun 2006 Coast2Coast</title>
+    <title>OutRun 2006 Coast 2 Coast</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{839911F0-D9CB-400F-AE78-5D8264F38C42}" value="InstallLocation" append="SaveGame" />
+        <path ev="steamcommon" path="outrun2006 coast 2 coast" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{839911F0-D9CB-400F-AE78-5D8264F38C42}" value="InstallLocation" />
       </locations>
       <files>
-        <include />
+        <include path="SaveGame" />
       </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="OutRun2006Coast2CoastSTEAMEdition">
-    <title>OutRun 2006: Coast 2 Coast (STEAM Edition)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="outrun2006 coast 2 coast\SaveGame" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
+      <linkable path="SaveGame"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -4400,19 +4500,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="PainkillerRedemption">
-    <title>Painkiller: Redemption</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="Painkiller Redemption" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="Paraworld">
     <title>Paraworld</title>
     <version os="Windows">
@@ -4430,15 +4518,16 @@
     <title>Pariah</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\Pariah" value="Folder" append="Saves" />
+        <registry root="local_machine" key="SOFTWARE\Unreal Technology\Installed Apps\Pariah" value="Folder" />
       </locations>
       <files>
-        <include />
+        <include path="Saves" />
       </files>
+      <linkable path="Saves"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="PassporttoPerfume">
+  <game name="PassportToPerfume">
     <title>Passport to Perfume</title>
     <version os="Windows">
       <locations>
@@ -4455,11 +4544,12 @@
     <title>Patrician 3</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPATRICIAN3" value="PATH" append="save" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPATRICIAN3" value="PATH" />
       </locations>
       <files>
-        <include />
+        <include path="save" />
       </files>
+      <linkable path="save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -4467,27 +4557,12 @@
     <title>Patrician 4</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Kalypso Media\Patrician 4\savegames" />
-        <path ev="appdata" path="Kalypso Media\Patrician 4\autoroute" />
+        <path ev="appdata" path="Kalypso Media\Patrician 4" />
+        <path ev="appdata" path="Kalypso Media\Patrician 4" />
       </locations>
       <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="PCSX2">
-    <title>PCSX2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="PCSX2\memcards" />
-        <path ev="userdocuments" path="PCSX2\sstates" />
-        <path ev="userdocuments" path="PCSX2\inis" />
-        <path ev="userdocuments" path="PCSX2\bios" />
-      </locations>
-      <files>
-        <include />
+        <include path="savegames" />
+        <include path="autoroute" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -4524,12 +4599,14 @@
     <version os="Windows">
       <locations>
         <registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\Pharaoh" value="Directory" />
-        <registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\Pharaoh" value="Directory" append="Save" />
       </locations>
       <files>
-        <include filename="Pharaoh.inf" />
-        <include />
+        <include path="Save" />
       </files>
+      <files type="Settings">
+        <include filename="Pharaoh.inf" />
+      </files>
+      <linkable path="Save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -4576,53 +4653,18 @@
     <title>Plain Sight</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="plain sight\content" />
+        <path ev="steamcommon" path="plain sight" />
       </locations>
       <files>
-        <include filename="*.bin" />
+        <include path="content" filename="*.bin" />
+      </files>
+      <files type="Settings">
         <include filename="Config.xml" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="PlantsVsZombiesReflexiveArcadeEdition">
-    <title>Plants Vs Zombies: Reflexive Arcade Edition</title>
-    <version os="Windows">
-      <locations>
-        <path ev="commonapplicationdata" path="Reflexive\PlantsVsZombies\userdata" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="PlantsVsZombiesSteamCloud">
-    <title>Plants Vs Zombies (Steam Cloud)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuserdata" path="3590" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="Portal2">
-    <title>Portal 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuserdata" path="620" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+  
   <game name="PortRoyale2">
     <title>Port Royale 2</title>
     <version os="Windows">
@@ -4640,12 +4682,12 @@
     <title>Postal 3</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="postal iii\p3\SAVE" />
+        <path ev="steamcommon" path="postal iii\p3" />
       </locations>
       <files>
-        <include />
+        <include path="SAVE" />
       </files>
-      <linkable />
+      <linkable path="SAVE" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -4658,7 +4700,6 @@
       <files>
         <include filename="*.bin" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -4675,51 +4716,17 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="PrinceofPersiaTheForgottenSands">
-    <title>Prince of Persia: The Forgotten Sands</title>
-    <version os="Windows">
-      <locations>
-        <path ev="ubisoftsavestorage" path="11" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="PrinceofPersiaTheTwoThrones">
-    <title>Prince of Persia: The Two Thrones</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\Ubisoft\Prince of Persia The Two Thrones\1.00.999" value="Product_Path" append="POP3Profiles" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="PrinceofPersiaTheWarriorWithin">
-    <title>Prince of Persia: The Warrior Within</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\Ubisoft\Prince of Persia The Warrior Within\1.00.999" value="Product_Path" append="POPWWProfiles" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+  
   <game name="PrincessWaltz">
     <title>Princess Waltz</title>
     <version os="Windows">
       <locations>
-        <registry root="current_user" key="Software\Will\princesswaltz_us" value="InstallDir" append="savedata" />
+        <registry root="current_user" key="Software\Will\princesswaltz_us" value="InstallDir" />
       </locations>
       <files>
-        <include />
+        <include path="savedata" />
       </files>
+      <linkable path="savedata"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -4792,11 +4799,12 @@
     <title>Psi Ops: The Mindgate Conspiracy</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GAMESTAR\PsiOps" value="TARGETPATH" append="save" />
+        <registry root="local_machine" key="SOFTWARE\GAMESTAR\PsiOps" value="TARGETPATH" />
       </locations>
       <files>
-        <include />
+        <include path="save" />
       </files>
+      <linkable path="save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -4826,8 +4834,8 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="PuzzleAgentTheMysteryofScoggins">
-    <title>Puzzle Agent - The Mystery of Scoggins</title>
+  <game name="PuzzleAgentTheMysteryOfScoggins">
+    <title>Puzzle Agent: The Mystery of Scoggins</title>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Telltale Games\The Mystery of Scoggins" />
@@ -4841,7 +4849,7 @@
   </game>
   <game name="PuzzleDimension">
     <title>Puzzle Dimension</title>
-    <version os="Windows">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="57200" />
       </locations>
@@ -4868,94 +4876,89 @@
     <title>Quake</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="quake\Id1" />
+        <path ev="steamcommon" path="quake" />
       </locations>
       <files>
-        <include filename="*.sav" />
+        <include path="Id1" filename="*.sav" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="QuakeIIGroundZero">
+  <expansion name="Quake2GroundZero" for="Quake2">
     <title>Quake II: Ground Zero</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="quake 2\rogue\save" />
+        <parent name="Quake2" os="Windows" append="rogue"/>
       </locations>
       <files>
-        <include />
+        <include path="save" />
       </files>
-      <linkable />
+      <linkable path="save" />
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
-  <game name="QuakeIIIArena">
+  </expansion>
+  <game name="Quake3Arena">
     <title>Quake III Arena</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="quake 3 arena\baseq3" />
+        <path ev="steamcommon" path="quake 3 arena" />
       </locations>
-      <files>
-        <include filename="*.cfg" />
+      <files type="Settings">
+        <include path="baseq3" filename="*.cfg" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="QuakeIIITeamArena">
+  <expansion name="Quake3TeamArena" for="Quake3Arena">
     <title>Quake III Team Arena</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="quake 3 arena\missionpack" />
+        <parent name="Quake3Arena" os="Windows" append="missionpack"/>
       </locations>
-      <files>
+      <files type="Settings">
         <include filename="*.cfg" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
-  <game name="QuakeIITheReckoning">
+  </expansion>
+  <expansion name="Quake2TheReckoning" for="Quake2">
     <title>Quake II: The Reckoning</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="quake 2\xatrix\save" />
+        <parent name="Quake2" os="Windows" append="xatrix"/>
       </locations>
       <files>
-        <include />
+        <include path="save" />
       </files>
-      <linkable />
+      <linkable path="save" />
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
-  <game name="QuakeMissionPack1ScourgeofArmagon">
+  </expansion>
+  <expansion name="QuakeMissionPack1ScourgeOfArmagon" for="Quake">
     <title>Quake Mission Pack 1: Scourge of Armagon</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="quake\hipnotic" />
+        <parent name="Quake" os="Windows" append="hipnotic"/>
       </locations>
       <files>
         <include filename="*.sav" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
-  <game name="QuakeMissionPack2DissolutionofEternity">
+  </expansion>
+  <expansion name="QuakeMissionPack2DissolutionOfEternity" for="Quake">
     <title>Quake Mission Pack 2: Dissolution of Eternity</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="quake\rogue" />
+        <parent name="Quake" os="Windows" append="rogue"/>
       </locations>
       <files>
         <include filename="*.sav" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
-  <game name="QuantumofSolace">
+  </expansion>
+  <game name="QuantumOfSolace">
     <title>Quantum of Solace</title>
     <version os="Windows">
       <locations>
@@ -4972,44 +4975,35 @@
     <title>Q.U.B.E.</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="qube\UDKGame\Config" />
+        <path ev="steamcommon" path="qube" />
       </locations>
-      <files>
-        <include filename="UDKGame.ini" />
+      <files type="Settings">
+        <include path="UDKGame\Config" filename="UDKGame.ini" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="RailroadTycoon3">
-    <title>Railroad Tycoon 3</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="VirtualStore\Program Files (x86)\Railroad Tycoon 3" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="RailroadTycoonIIPlatinum">
-    <title>Railroad Tycoon II Platinum</title>
+  
+  <game name="RailroadTycoon2">
+    <title>Railroad Tycoon II</title>
     <version os="Windows">
       <locations>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\RT2_PLAT.EXE" value="Path" />
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\RT2_PLAT.EX" value="Path" append="games" />
       </locations>
       <files>
+        <include path="games" />
+      </files>
+      <files type="HighScores">
         <include filename="hiscore.dat" />
+      </files>
+      <files type="Screenshots">
         <include filename="*.pcx" />
-        <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="RealmsofArkania1">
+  <game name="RealmsOfArkania1">
     <title>Realms of Arkania 1</title>
     <version os="Windows">
       <locations>
@@ -5021,28 +5015,29 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="RealmsofArkania2">
+  <game name="RealmsOfArkania2">
     <title>Realms of Arkania 2</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGREALMS2" value="PATH" append="GAMES" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGREALMS2" value="PATH" />
       </locations>
       <files>
-        <include />
+        <include path="GAMES" />
       </files>
+      <linkable path="GAMES"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="RedOrchestra2HeroesofStalingrad">
+  <game name="RedOrchestra2HeroesOfStalingrad">
     <title>Red Orchestra 2: Heroes of Stalingrad</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="red orchestra 2\Binaries\Win32\Saves" />
+        <path ev="steamcommon" path="red orchestra 2" />
       </locations>
       <files>
-        <include />
+        <include path="Binaries\Win32\Saves" />
       </files>
-      <linkable />
+      <linkable path="Binaries\Win32\Saves" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5076,11 +5071,12 @@
     <title>Revenant</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Eidos Interactive\Revenant" value="Path" append="Save" />
+        <registry root="local_machine" key="SOFTWARE\Eidos Interactive\Revenant" value="Path" />
       </locations>
       <files>
-        <include />
+        <include path="Save" />
       </files>
+      <linkable path="Save" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5088,32 +5084,21 @@
     <title>Richard Burns Rally</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\SCi Games\Richard Burns Rally" value="InstallPath" append="SavedGames" />
         <registry root="local_machine" key="SOFTWARE\SCi Games\Richard Burns Rally" value="InstallPath" />
       </locations>
       <files>
-        <include />
+        <include path="SavedGames" />
+      </files>
+      <files type="Settings">
         <include filename="RichardBurnsRally.ini" />
       </files>
+      <linkable path="SavedGames"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Risen2DarkWaters">
-    <title>Risen 2: Dark Waters</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="Risen2" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="RocketKnightSTEAMEdition">
-    <title>Rocket Knight (STEAM Edition)</title>
-    <version os="Windows">
+  <game name="RocketKnight">
+    <title>Rocket Knight</title>
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="19030" />
       </locations>
@@ -5123,45 +5108,21 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="RockOfAges">
-    <title>Rock Of Ages</title>
+
+  <game name="RollercoasterTycoon">
+    <title>Rollercoaster Tycoon</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\UnrealEngine3\BoulderGame" />
+        <registry root="local_machine" key="Software\Gog.com\GOGRTC" value="SAVEGAMEFOLDER" />
       </locations>
       <files>
-        <include />
+        <include path="Saved Games" />
       </files>
-      <linkable />
+      <linkable path="Saved Games"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="RockstarSocialClub">
-    <title>Rockstar Social Club</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="Rockstar Games\RGSC" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="RollercoasterTycoonDeluxeGOGcomEdition">
-    <title>Rollercoaster Tycoon Deluxe (GOG.com Edition)</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="Software\Gog.com\GOGRTC" value="SAVEGAMEFOLDER" append="Saved Games" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="RomancingtheSevenWondersTajMahal">
+  <game name="RomancingTheSevenWondersTajMahal">
     <title>Romancing the Seven Wonders: Taj Mahal</title>
     <version os="Windows">
       <locations>
@@ -5187,20 +5148,20 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="RunawayATwistofFate">
+  <game name="RunawayATwistOfFate">
     <title>Runaway : A Twist of Fate</title>
     <version os="Windows">
       <locations>
-        <path ev="commonapplicationdata" path="Pendulo Studios\RATOF\SAVEGAME" />
+        <path ev="commonapplicationdata" path="Pendulo Studios\RATOF" />
       </locations>
       <files>
-        <include />
+        <include path="SAVEGAME" />
       </files>
-      <linkable />
+      <linkable path="SAVEGAME" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="RunesofMagic">
+  <game name="RunesOfMagic">
     <title>Runes of Magic</title>
     <version os="Windows">
       <locations>
@@ -5228,9 +5189,8 @@
   </game>
   <game name="Rush">
     <title>Rush</title>
-    <version os="Windows">
+    <version platform="SteamCloud">
       <locations>
-        <path ev="localappdata" path="Two Tribes\RUSH" />
         <path ev="steamuserdata" path="38720" />
       </locations>
       <files>
@@ -5239,12 +5199,9 @@
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
-  <game name="SacredGold">
-    <title>Sacred Gold</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="Sacred Gold\save" />
+        <path ev="localappdata" path="Two Tribes\RUSH" />
       </locations>
       <files>
         <include />
@@ -5253,15 +5210,29 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+  <game name="Sacred">
+    <title>Sacred</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Sacred Gold" />
+      </locations>
+      <files>
+        <include path="save" />
+      </files>
+      <linkable path="save" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
   <game name="Sacrifice">
     <title>Sacrifice</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSACRIFICE" value="PATH" append="Saves" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSACRIFICE" value="PATH" />
       </locations>
       <files>
-        <include />
+        <include path="Saves" />
       </files>
+      <linkable path="Saves"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5278,31 +5249,20 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="ScummVM">
-    <title>Scumm VM</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="ScummVM" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+  
   <game name="SecondLife">
     <title>Second Life</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="Software\Linden Research, Inc.\SecondLife" value="" append="app-settings" />
+        <registry root="local_machine" key="Software\Linden Research, Inc.\SecondLife" />
       </locations>
-      <files>
-        <include />
+      <files type="Settings">
+        <include  path="app-settings"/>
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+  
   <game name="SecretMaryoChronicles">
     <title>Secret Maryo Chronicles</title>
     <version os="Windows">
@@ -5316,7 +5276,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SecretsoftheArkABrokenSwordGame">
+  <game name="SecretsOfTheArkABrokenSwordGame">
     <title>Secrets of the Ark: A Broken Sword Game</title>
     <version os="Windows">
       <locations>
@@ -5329,7 +5289,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SEGAGenesisMegaDriveClassics">
+  <game name="SEGAGenesisAndMegaDriveClassics">
     <title>SEGA Genesis &amp; Mega Drive Classics</title>
     <version os="Windows">
       <locations>
@@ -5355,32 +5315,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SeriousSamClassicTheFirstEncounter">
-    <title>Serious Sam Classic: The First Encounter</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="serious sam classic the first encounter\SaveGame" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="SeriousSamClassicTheSecondEncounter">
-    <title>Serious Sam Classic: The Second Encounter</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="serious sam classic the second encounter\SaveGame" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="ShadowOpsRedMercury">
     <title>Shadow Ops Red Mercury</title>
     <version os="Windows">
@@ -5396,13 +5331,22 @@
   </game>
   <game name="Shank2">
     <title>Shank 2</title>
-    <version os="Windows">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="102840" />
-        <path ev="userdocuments" path="My Games\Shank 2\users" />
       </locations>
       <files>
         <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Shank 2" />
+      </locations>
+      <files>
+        <include path="users" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5461,7 +5405,7 @@
     </version>
   </game>
   <game name="ShiraOkaSecondChances">
-    <title>Shira Oka - Second Chances</title>
+    <title>Shira Oka: Second Chances</title>
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="Okashi Studios\Shira Oka\Second Chances" />
@@ -5476,7 +5420,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SidMeiersRailroads">
+  <game name="Railroads">
     <title>Sid Meier's Railroads</title>
     <version os="Windows">
       <locations>
@@ -5486,24 +5430,6 @@
         <include />
       </files>
       <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="SilentHill2">
-    <title>Silent Hill 2</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\Konami\Silent Hill 2" value="INSTALLDIR" append="data\save" />
-        <registry root="local_machine" key="SOFTWARE\Konami\Silent Hill 2" value="INSTALLDIR" />
-      </locations>
-      <files>
-        <include />
-        <include filename="cin.dat" />
-        <include filename="keyconf.dat" />
-        <include filename="options.ini" />
-        <include filename="settings.ini" />
-        <include filename="language.ini" />
-      </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5559,37 +5485,11 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SimCity4Deluxe">
-    <title>SimCity 4 Deluxe</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="SimCity 4" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="SimontheSorcerer4ChaosHappens">
+  <game name="SimonTheSorcerer4ChaosHappens">
     <title>Simon the Sorcerer 4: Chaos Happens</title>
     <version os="Windows">
       <locations>
         <path ev="appdata" path="Simon4" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="SinsofaSolarEmpireRebellionCompleteBackup">
-    <title>Sins of a Solar Empire: Rebellion (Complete Backup)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="my games\Ironclad Games\Sins of a Solar Empire Rebellion" />
       </locations>
       <files>
         <include />
@@ -5612,45 +5512,35 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SniperEliteGOGcomEdition">
-    <title>Sniper Elite (GOG.com Edition)</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSNIPERELITE2" value="PATH" append="Prof" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="SoldierofFortuneII">
+  <game name="SoldierOfFortune2">
     <title>Soldier of Fortune II</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Activision\Soldier of Fortune II - Double Helix" value="InstallPath" append="base\Save" />
+        <registry root="local_machine" key="SOFTWARE\Activision\Soldier of Fortune II - Double Helix" value="InstallPath" />
       </locations>
       <files>
-        <include />
+        <include path="base\Save" />
       </files>
+      <linkable path="base\Save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SoldierofFortunePayback">
-    <title>Soldier of Fortune Payback</title>
+  <game name="SoldierOfFortunePayback">
+    <title>Soldier of Fortune: Payback</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Cauldron\SOF3" value="InstallDir" append="Save" />
+        <registry root="local_machine" key="SOFTWARE\Cauldron\SOF3" value="InstallDir" />
       </locations>
       <files>
-        <include />
+        <include path="Save" />
       </files>
+      <linkable path="Save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="SolSurvivor">
     <title>Sol Survivor</title>
-    <version os="Windows">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="45000" />
       </locations>
@@ -5664,10 +5554,10 @@
     <title>Sonic Adventure DX</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Sega\Sonic Adventure DX\Savedata" />
+        <path ev="userdocuments" path="Sega\Sonic Adventure DX" />
       </locations>
       <files>
-        <include />
+        <include path="Savedata" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5675,9 +5565,8 @@
   </game>
   <game name="SonicGenerations">
     <title>Sonic Generations</title>
-    <version os="Windows">
+    <version platform="SteamCloud">
       <locations>
-        <path ev="userdocuments" path="My Games\Sonic Generations" />
         <path ev="steamuserdata" path="71340" />
       </locations>
       <files>
@@ -5686,9 +5575,19 @@
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Sonic Generations" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
-  <game name="SonicSEGAAllStarsRacingSTEAMEdition">
-    <title>Sonic &amp; SEGA All-Stars Racing (STEAM Edition)</title>
+  <game name="SonicAndSEGAAllStarsRacing">
+    <title>Sonic &amp; SEGA All-Stars Racing</title>
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="sonic and sega all stars racing" />
@@ -5697,7 +5596,6 @@
         <include filename="ssr_save.bin" />
         <include filename="settings.ini" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5711,7 +5609,6 @@
         <include filename="Sonic_vis_save.dat" />
         <include filename="main.conf" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5719,12 +5616,12 @@
     <title>Space Empires IV Deluxe</title>
     <version os="Windows">
       <locations>
-        <path ev="steamuser" path="space empires iv deluxe\se4\savegame" />
+        <path ev="steamuser" path="space empires iv deluxe" />
       </locations>
       <files>
-        <include />
+        <include path="se4\savegame" />
       </files>
-      <linkable />
+      <linkable path="se4\savegame" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5732,12 +5629,12 @@
     <title>Space Empires V</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="SpaceEmpiresV\SE5\Savegame" />
-        <path ev="steamcommon" path="SpaceEmpiresV\SE5\SavedEmpires" />
-        <path ev="steamcommon" path="spaceEmpiresV\SE5\GameSetups" />
+        <path ev="steamcommon" path="SpaceEmpiresV" />
       </locations>
       <files>
-        <include />
+        <include path="SE5\Savegame" />
+        <include path="SE5\SavedEmpires" />
+        <include path="SE5\GameSetups" />
       </files>
       <registry>
         <entry root="current_user" key="Software\Malfador Machinations\Space Empires V" value="Saves" />
@@ -5763,10 +5660,10 @@
     <title>Space Pirates And Zombies</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="MinMaxGames\SpacePiratesAndZombies\b_save" />
+        <path ev="appdata" path="MinMaxGames\SpacePiratesAndZombies" />
       </locations>
       <files>
-        <include />
+        <include path="b_save" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5816,16 +5713,16 @@
     <title>Spider-Man: The Movie</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Activision\Spiderman The Movie" value="InstallPath" append="SavedGames0" />
+        <registry root="local_machine" key="SOFTWARE\Activision\Spiderman The Movie" value="InstallPath" />
       </locations>
       <files>
-        <include />
+        <include path="SavedGames*" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="SplitSecond">
-    <title>Split\Second</title>
+    <title>Split/Second</title>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Disney Interactive Studios\Split Second" />
@@ -5850,40 +5747,16 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SporeCreations">
-    <title>Spore (Creations)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="My Spore Creations" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="StackedwithDanielNegreanu">
+
+  
+  <game name="StackedWithDanielNegreanu">
     <title>Stacked with Daniel Negreanu</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="StackedPoker\SaveGames" />
+        <path ev="userdocuments" path="StackedPoker" />
       </locations>
       <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="Stacking">
-    <title>Stacking</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="Doublefine\Stacking" />
-      </locations>
-      <files>
-        <include />
+        <include path="SaveGames" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -5893,11 +5766,12 @@
     <title>Star Trek: Bridge Commander</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Activision\Star Trek: Bridge Commander\V1.0" value="INSTALLPATH" append="saves" />
+        <registry root="local_machine" key="SOFTWARE\Activision\Star Trek: Bridge Commander\V1.0" value="INSTALLPATH" />
       </locations>
       <files>
-        <include />
+        <include path="saves" />
       </files>
+      <linkable path="saves"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5905,15 +5779,16 @@
     <title>Star Trek: Elite Force 2</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Activision\Elite Force II" value="InstallPath" append="base\global" />
-        <registry root="local_machine" key="SOFTWARE\Activision\Elite Force II" value="InstallPath" append="base\save" />
+        <registry root="local_machine" key="SOFTWARE\Activision\Elite Force II" value="InstallPath" />
       </locations>
       <files>
-        <include />
+        <include path="base\global" />
+        <include path="base\save" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+  
   <game name="StarTrekLegacy">
     <title>Star Trek: Legacy</title>
     <version os="Windows">
@@ -5927,20 +5802,20 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="StarWarsBattleFrontIISTEAMEdition">
-    <title>Star Wars: Battle Front II (STEAM Edition)</title>
+  <game name="StarWarsBattlefront2">
+    <title>Star Wars: Battlefront II</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="star wars battlefront ii\GameData\SaveGames" />
+        <path ev="steamcommon" path="star wars battlefront ii" />
       </locations>
       <files>
-        <include />
+        <include path="GameData\SaveGames" />
       </files>
-      <linkable />
+      <linkable path="GameData\SaveGames" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="StarWarsEmpireatWarForcesOfCorruption">
+  <game name="StarWarsEmpireAtWarForcesOfCorruption">
     <title>Star Wars: Empire at War: Forces Of Corruption</title>
     <version os="Windows">
       <locations>
@@ -5958,12 +5833,11 @@
     <title>Star Wars: Galactic Battlegrounds</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\LucasArts Entertainment Company LLC\Star Wars Galactic Battlegrounds\1.0" value="Install Path" append="Game\SaveGame" />
-        <registry root="local_machine" key="SOFTWARE\LucasArts Entertainment Company LLC\Star Wars Galactic Battlegrounds\1.0" value="Install Path" append="Game" />
+        <registry root="local_machine" key="SOFTWARE\LucasArts Entertainment Company LLC\Star Wars Galactic Battlegrounds\1.0" value="Install Path" />
       </locations>
       <files>
-        <include />
-        <include filename="player*.*" />
+        <include path="Game\SaveGame" />
+        <include path="Game" filename="player*.*" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -5972,11 +5846,12 @@
     <title>Star Wars Galaxies</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Sony Online Entertainment\Station LaunchPad\BkMrks" value="Lp18starwars4main" append="profiles" />
+        <registry root="local_machine" key="SOFTWARE\Sony Online Entertainment\Station LaunchPad\BkMrks" value="Lp18starwars4main" />
       </locations>
       <files>
-        <include />
+        <include path="profiles" />
       </files>
+      <linkable path="profiles"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5984,24 +5859,13 @@
     <title>Star Wars: Republic Commando</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\LucasArts\Star Wars Republic Commando\1.0" value="Launcher" append="GameData\Save" />
+        <path ev="steamcommon" path="star wars republic commando" />
+        <registry root="local_machine" key="SOFTWARE\LucasArts\Star Wars Republic Commando\1.0" value="Launcher" />
       </locations>
       <files>
-        <include />
+        <include path="GameData\Save" />
       </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="StarWarsRepublicCommandoSTEAMEdition">
-    <title>Star Wars: Republic Commando (STEAM Edition)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="star wars republic commando\GameData\Save" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
+      <linkable path="GameData\Save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6022,12 +5886,12 @@
     <title>Still Life 2</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="still life 2\EXTDataSave" />
+        <path ev="steamcommon" path="still life 2" />
       </locations>
       <files>
-        <include />
+        <include path="EXTDataSave" />
       </files>
-      <linkable />
+      <linkable path="EXTDataSave" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6058,7 +5922,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="StreetFightervsTekken">
+  <game name="StreetFighterVsTekken">
     <title>Street Fighter vs. Tekken</title>
     <version os="Windows">
       <locations>
@@ -6071,7 +5935,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="StrongBadsCoolGameforAttractivePeopleSeason1Episode1">
+  <game name="StrongBadsCoolGameForAttractivePeopleSeason1Episode1">
     <title>Strong Bad's Cool Game for Attractive People: Season 1 - Episode 1</title>
     <version os="Windows">
       <locations>
@@ -6084,7 +5948,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="StrongBadsCoolGameforAttractivePeopleSeason1Episode2">
+  <game name="StrongBadsCoolGameForAttractivePeopleSeason1Episode2">
     <title>Strong Bad's Cool Game for Attractive People: Season 1 - Episode 2</title>
     <version os="Windows">
       <locations>
@@ -6097,7 +5961,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="StrongBadsCoolGameforAttractivePeopleSeason1Episode3">
+  <game name="StrongBadsCoolGameForAttractivePeopleSeason1Episode3">
     <title>Strong Bad's Cool Game for Attractive People: Season 1 - Episode 3</title>
     <version os="Windows">
       <locations>
@@ -6110,7 +5974,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="StrongBadsCoolGameforAttractivePeopleSeason1Episode4">
+  <game name="StrongBadsCoolGameForAttractivePeopleSeason1Episode4">
     <title>Strong Bad's Cool Game for Attractive People: Season 1 - Episode 4</title>
     <version os="Windows">
       <locations>
@@ -6123,7 +5987,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="StrongBadsCoolGameforAttractivePeopleSeason1Episode5">
+  <game name="StrongBadsCoolGameForAttractivePeopleSeason1Episode5">
     <title>Strong Bad's Cool Game for Attractive People: Season 1 - Episode 5</title>
     <version os="Windows">
       <locations>
@@ -6140,11 +6004,12 @@
     <title>Stronghold</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\stronghold.exe" value="Path" append="saves" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\stronghold.exe" value="Path" />
       </locations>
       <files>
-        <include />
+        <include path="saves" />
       </files>
+      <linkable path="saves"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6152,10 +6017,10 @@
     <title>Stronghold 2</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Stronghold 2\Saves" />
+        <path ev="userdocuments" path="Stronghold 2" />
       </locations>
       <files>
-        <include />
+        <include path="Saves" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6165,10 +6030,10 @@
     <title>Stronghold 3</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Stronghold 3\Saved Games" />
+        <path ev="userdocuments" path="Stronghold 3" />
       </locations>
       <files>
-        <include />
+        <include path="Saved Games" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6178,13 +6043,13 @@
     <title>Stronghold: Crusader</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Stronghold Crusader.exe" value="Path" append="saves" />
-        <path ev="userdocuments" path="Stronghold Crusader\Saves" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Stronghold Crusader.exe" value="Path" />
+        <path ev="userdocuments" path="Stronghold Crusader" />
       </locations>
       <files>
-        <include />
+        <include path="saves" />
       </files>
-      <linkable />
+      <linkable  path="saves"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6192,7 +6057,7 @@
     <title>Stronghold: Crusader Extreme</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Stronghold Crusader\SavesExtreme" />
+        <parent name="StrongholdCrusader" os="Windows" append="SavesExtreme"/>
       </locations>
       <files>
         <include />
@@ -6205,10 +6070,10 @@
     <title>SUDEKI</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Sudeki\Save" />
+        <path ev="appdata" path="Sudeki" />
       </locations>
       <files>
-        <include />
+        <include path="Save" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6279,32 +6144,19 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SupremeCommander2">
-    <title>Supreme Commander 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Mis juegos\SquareEnix\Supreme Commander 2" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="SWAT4">
     <title>SWAT 4</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Sierra\SWAT 4" value="InstallPath" append="Content\System" />
-        <path ev="localappdata" path="VirtualStore\Program Files (x86)\Sierra\SWAT 4\Content\System" />
+        <registry root="local_machine" key="SOFTWARE\Sierra\SWAT 4" value="InstallPath" />
+        <path ev="installlocation" path="Sierra\SWAT 4" />
       </locations>
       <files>
-        <include filename="Campaign.ini" />
-        <include filename="MissionResults.ini" />
+        <include path="Content\System" filename="Campaign.ini" />
+        <include path="Content\System" filename="MissionResults.ini" />
         <include />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6312,16 +6164,16 @@
     <title>SWAT 4: The Stetchkov Syndicate</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Sierra\SWAT 4 - The Stetchkov Syndicate" value="InstallPath" append="ContentExpansion\System" />
+        <registry root="local_machine" key="SOFTWARE\Sierra\SWAT 4 - The Stetchkov Syndicate" value="InstallPath" />
       </locations>
       <files>
-        <include filename="Campaign.ini" />
-        <include filename="MissionResults.ini" />
+        <include path="ContentExpansion\System" filename="Campaign.ini" />
+        <include path="ContentExpansion\System" filename="MissionResults.ini" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SwordoftheStars2">
+  <game name="SwordOfTheStars2">
     <title>Sword of the Stars 2</title>
     <version os="Windows">
       <locations>
@@ -6334,16 +6186,16 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SwordoftheStarsCompleteCollection">
-    <title>Sword of the Stars Complete Collection</title>
+  <game name="SwordOfTheStars">
+    <title>Sword of the Stars</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="sword of the stars complete collection\SavedGames" />
+        <path ev="steamcommon" path="sword of the stars complete collection" />
       </locations>
       <files>
-        <include />
+        <include path="SavedGames" />
       </files>
-      <linkable />
+      <linkable path="SavedGames" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6351,41 +6203,16 @@
     <title>Syndicate</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSYNDICATE" value="PATH" append="SAVE" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSYNDICATE" value="PATH" />
       </locations>
       <files>
-        <include />
+        <include path="SAVE" />
       </files>
+      <linkable path="SAVE"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
 
-  <game name="TeamSpeak3Client">
-    <title>TeamSpeak 3 Client</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="TS3Client" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="TeamSpeakRC2">
-    <title>TeamSpeak RC2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="teamspeak2" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="TeeWorlds">
     <title>TeeWorlds</title>
     <version os="Windows">
@@ -6424,7 +6251,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheBaconing">
+  <game name="Baconing">
     <title>The Baconing</title>
     <version os="Windows">
       <locations>
@@ -6437,20 +6264,20 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheBindingofIsaac">
+  <game name="BindingOfIsaac">
     <title>The Binding of Isaac</title>
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="the binding of isaac" />
       </locations>
-      <files>
+      <files type="Serial">
         <include filename="serial.txt" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheBookofUnwrittenTales">
+  <game name="BookOfUnwrittenTales">
     <title>The Book of Unwritten Tales</title>
     <version os="Windows">
       <locations>
@@ -6463,7 +6290,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheChosenWellofSouls">
+  <game name="ChosenWellOfSouls">
     <title>The Chosen: Well of Souls</title>
     <version os="Windows">
       <locations>
@@ -6476,7 +6303,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheClub">
+  <game name="Club">
     <title>The Club</title>
     <version os="Windows">
       <locations>
@@ -6489,7 +6316,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheDig">
+  <game name="Dig">
     <title>The Dig</title>
     <version os="Windows">
       <locations>
@@ -6502,7 +6329,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheExperiment">
+  <game name="Experiment">
     <title>The Experiment</title>
     <version os="Windows">
       <locations>
@@ -6515,8 +6342,8 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheGodfather">
-    <title>The Godfather</title>
+  <game name="Godfather2">
+    <title>The Godfather II</title>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="EA Games\The Godfather™ II" />
@@ -6528,7 +6355,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheGodsTreasury">
+  <game name="GodsTreasury">
     <title>The God's Treasury</title>
     <version os="Windows">
       <locations>
@@ -6541,23 +6368,25 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheIoftheDragon">
+  <game name="IOfTheDragon">
     <title>The I of the Dragon</title>
     <version os="Windows">
       <locations>
-        <path ev="localappdata" path="VirtualStore\Program Files (x86)\The I of the Dragon\Saves" />
+        <path ev="installlocation" path="The I of the Dragon" />
       </locations>
       <files>
-        <include />
+        <include path="Saves" />
       </files>
       <registry>
         <entry root="current_user" key="Software\Primal" value="Saves" />
       </registry>
-      <linkable />
+      <linkable path="Saves" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheLordoftheRingsBattleforMiddleEarth">
+  
+  
+  <game name="LordOfTheRingsBattleForMiddleEarth">
     <title>The Lord of the Rings: Battle for Middle Earth</title>
     <version os="Windows">
       <locations>
@@ -6570,7 +6399,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheLordoftheRingsConquest">
+  <game name="LordOfTheRingsConquest">
     <title>The Lord of the Rings: Conquest</title>
     <version os="Windows">
       <locations>
@@ -6584,7 +6413,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheLordoftheRingsOnline">
+  <game name="LordOfTheRingsOnline">
     <title>The Lord of the Rings Online</title>
     <version os="Windows">
       <locations>
@@ -6597,7 +6426,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheLordofTheRingsWarintheNorth">
+  <game name="LordOfTheRingsWarInTheNorth">
     <title>The Lord of The Rings: War in the North</title>
     <version os="Windows">
       <locations>
@@ -6610,9 +6439,9 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheMawSTEAMEdition">
-    <title>The Maw (STEAM Edition)</title>
-    <version os="Windows">
+  <game name="Maw">
+    <title>The Maw</title>
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="26000" />
       </locations>
@@ -6626,15 +6455,16 @@
     <title>Theme Hospital</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHEMEHOSPITAL" value="PATH" append="SAVE" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHEMEHOSPITAL" value="PATH" />
       </locations>
       <files>
-        <include />
+        <include path="SAVE" />
       </files>
+      <linkable path="SAVE"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheMovies">
+  <game name="Movies">
     <title>The Movies</title>
     <version os="Windows">
       <locations>
@@ -6647,7 +6477,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheMysteryoftheMaryCeleste">
+  <game name="MysteryOfTheMaryCeleste">
     <title>The Mystery of the Mary Celeste</title>
     <version os="Windows">
       <locations>
@@ -6660,34 +6490,21 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheNextBIGThing">
+  <game name="NextBIGThing">
     <title>The Next BIG Thing</title>
     <version os="Windows">
       <locations>
-        <path ev="commonapplicationdata" path="Pendulo Studios\TNBT\SAVEGAME" />
+        <path ev="commonapplicationdata" path="Pendulo Studios\TNBT" />
       </locations>
       <files>
-        <include />
+        <include path="SAVEGAME" />
       </files>
-      <linkable />
+      <linkable path="SAVEGAME" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="ThePath">
-    <title>The Path</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="The Path" />
-        <path ev="appdata" path="The Path" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="TheRealTexas">
+
+  <game name="RealTexas">
     <title>The Real Texas</title>
     <version os="Windows">
       <locations>
@@ -6700,71 +6517,60 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheSettlers2Gold">
-    <title>The Settlers 2 Gold</title>
+  <game name="Settlers2">
+    <title>The Settlers 2</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSETTLERS2GOLD" value="PATH" append="SAVE" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSETTLERS2GOLD" value="PATH" />
       </locations>
       <files>
-        <include />
+        <include path="SAVE" />
       </files>
+      <linkable path="SAVE"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheSettlers7">
+  <game name="Settlers7">
     <title>The Settlers 7</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Settlers7\Savegames" />
+        <path ev="userdocuments" path="Settlers7" />
       </locations>
       <files>
-        <include />
+        <include path="Savegames" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheSims3">
-    <title>The Sims 3</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Electronic Arts\Les Sims 3\Saves" />
-        <path ev="userdocuments" path="Electronic Arts\Los Sims 3\Saves" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="TheSimsMedieval">
+
+  <game name="SimsMedieval">
     <title>The Sims Medieval</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Electronic Arts\The Sims Medieval\Saves" />
+        <path ev="userdocuments" path="Electronic Arts\The Sims Medieval" />
       </locations>
       <files>
-        <include />
+        <include path="Saves" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheSuffering">
+  <game name="Suffering">
     <title>The Suffering</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\The Suffering" value="DisplayIcon" append="Saves" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\The Suffering" value="DisplayIcon" />
       </locations>
       <files>
-        <include />
+        <include path="Saves" />
       </files>
+      <linkable path="Saves"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TheTalesofBingwood">
+  <game name="TalesOfBingwood">
     <title>The Tales of Bingwood</title>
     <version os="Windows">
       <locations>
@@ -6781,17 +6587,17 @@
     <title>Tidalis</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="tidalis\RuntimeData\Save" />
+        <path ev="steamcommon" path="tidalis" />
       </locations>
       <files>
-        <include />
+        <include path="RuntimeData\Save" />
       </files>
-      <linkable />
+      <linkable path="RuntimeData\Save" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="TigerWoodsPGATOUR12TheMasters">
-    <title>Tiger Woods PGA TOUR 12 The Masters</title>
+    <title>Tiger Woods PGA TOUR 12: The Masters</title>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Tiger Woods PGA TOUR 12 The Masters" />
@@ -6807,11 +6613,12 @@
     <title>TimeShift</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Sierra Entertainment\TimeShift\1.00.000" value="PathToEXE" append="UserConfigs" />
+        <registry root="local_machine" key="SOFTWARE\Sierra Entertainment\TimeShift\1.00.000" value="PathToEXE" />
       </locations>
       <files>
-        <include />
+        <include path="UserConfigs" />
       </files>
+      <linkable path="UserConfigs"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6819,16 +6626,15 @@
     <title>Tinker</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="" />
+        <path ev="userdocuments" />
       </locations>
       <files>
         <include filename="584109eb_*.sav" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TinyandBigGrandpasLeftovers">
+  <game name="TinyAndBigGrandpasLeftovers">
     <title>Tiny and Big: Grandpa's Leftovers</title>
     <version os="Windows">
       <locations>
@@ -6837,7 +6643,6 @@
       <files>
         <include filename="*.save" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6854,22 +6659,22 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="ToCARaceDriver3STEAMEdition">
-    <title>ToCA Race Driver 3 (STEAM Edition)</title>
+  <game name="ToCARaceDriver3">
+    <title>ToCA Race Driver 3</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="race driver 3\savedata" />
+        <path ev="steamcommon" path="race driver 3" />
       </locations>
       <files>
-        <include />
+        <include path="savedata" />
       </files>
-      <linkable />
+      <linkable path="savedata" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TokiToriSteamCloud">
-    <title>Toki Tori (Steam Cloud)</title>
-    <version os="Windows">
+  <game name="TokiTori">
+    <title>Toki Tori</title>
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="38700" />
       </locations>
@@ -6879,7 +6684,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TomClancysEndWar">
+  <game name="EndWar">
     <title>Tom Clancy's EndWar</title>
     <version os="Windows">
       <locations>
@@ -6893,11 +6698,10 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TomClancysGhostReconFutureSoldier">
+  <game name="GhostReconFutureSoldier">
     <title>Tom Clancy's Ghost Recon: Future Soldier</title>
-    <version os="Windows">
+    <version platform="UbisoftSaveStorage">
       <locations>
-        <path ev="userdocuments" path="Ubisoft\Tom Clancy's Ghost Recon Future Soldier" />
         <path ev="ubisoftsavestorage" path="53" />
       </locations>
       <files>
@@ -6906,8 +6710,18 @@
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Ubisoft\Tom Clancy's Ghost Recon Future Soldier" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
-  <game name="TomClancysHAWX">
+  <game name="HAWX">
     <title>Tom Clancy's H.A.W.X</title>
     <version os="Windows">
       <locations>
@@ -6920,7 +6734,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TomClancysHAWX2">
+  <game name="HAWX2">
     <title>Tom Clancy's H.A.W.X 2</title>
     <version os="Windows">
       <locations>
@@ -6933,15 +6747,16 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TomClancysSplinterCellPandoraTomorrow">
+  <game name="SplinterCellPandoraTomorrow">
     <title>Tom Clancy's Splinter Cell: Pandora Tomorrow</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Ubisoft\Splinter Cell Pandora Tomorrow" value="InstalledPath" append="offline\Save" />
+        <registry root="local_machine" key="SOFTWARE\Ubisoft\Splinter Cell Pandora Tomorrow" value="InstalledPath" />
       </locations>
       <files>
-        <include />
+        <include path="offline\Save" />
       </files>
+      <linkable path="offline\Save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6949,11 +6764,12 @@
     <title>Total Immersion Racing</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Empire Interactive\Total Immersion Racing" value="INSTALLATION PATH" append="SAVEDATA" />
+        <registry root="local_machine" key="SOFTWARE\Empire Interactive\Total Immersion Racing" value="INSTALLATION PATH" />
       </locations>
       <files>
-        <include />
+        <include path="SAVEDATA" />
       </files>
+      <linkable path="SAVEDATA"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6970,9 +6786,9 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TotalWarSHOGUN2SteamCloud">
-    <title>Total War: SHOGUN 2 (Steam Cloud)</title>
-    <version os="Windows">
+  <game name="TotalWarSHOGUN2">
+    <title>Total War: SHOGUN 2</title>
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="34330" />
       </locations>
@@ -7038,7 +6854,7 @@
     <title>Two Worlds</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="TwoWorlds Files\Players" />
+        <path ev="userdocuments" path="TwoWorlds Files" />
         <path ev="savedgames" path="Two Worlds Saves" />
       </locations>
       <files>
@@ -7048,26 +6864,14 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="UbisoftGameLauncher">
-    <title>Ubisoft Game Launcher</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\Ubisoft\Launcher" value="InstallDir" append="storage" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="UFOAlienInvasion">
-    <title>UFOAlien Invasion</title>
+    <title>UFO: Alien Invasion</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="UFOAI\2.4\base\save" />
+        <path ev="appdata" path="UFOAI\2.4" />
       </locations>
       <files>
-        <include filename="*.savx" />
+        <include path="base\save" filename="*.savx" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7077,23 +6881,10 @@
     <title>UK Truck Simulator</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="UK Truck Simulator\save" />
+        <path ev="userdocuments" path="UK Truck Simulator" />
       </locations>
       <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="UltimateDoomSTEAMEdition">
-    <title>Ultimate Doom (STEAM Edition)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="ultimate doom\base" />
-      </locations>
-      <files>
-        <include filename="*.dsg" />
+        <include path="save" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7112,32 +6903,9 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="UltimaUnderworld1">
-    <title>Ultima Underworld 1</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGULTIMAUNDERWORLD1" value="PATH" append="UNDEROM1" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="UltimaUnderworld2">
-    <title>Ultima Underworld 2</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGULTIMAUNDERWORLD2" value="PATH" append="UNDEROM2" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="UndiscoveredWorldTheIncanSun">
-    <title>Undiscovered World - The Incan Sun</title>
+    <title>Undiscovered World: The Incan Sun</title>
     <version os="Windows">
       <locations>
         <path ev="commonapplicationdata" path="HoverBee Studios\Undiscovered World - The Incan Sun" />
@@ -7175,29 +6943,17 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Ventrilo">
-    <title>Ventrilo</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="Ventrilo" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="Vessel">
     <title>Vessel</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="vessel\Data\Save Games" />
+        <path ev="steamcommon" path="vessel" />
       </locations>
       <files>
-        <include />
+        <include path="Data\Save Games" />
       </files>
-      <linkable />
+      <linkable path="Data\Save Games" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -7277,7 +7033,6 @@
         <include />
       </files>
       <linkable />
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -7294,16 +7049,16 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="WANTEDWeaponsofFateSTEAMEdition">
-    <title>WANTED: Weapons of Fate (STEAM Edition)</title>
+  <game name="WANTEDWeaponsofFate">
+    <title>WANTED: Weapons of Fate</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="wanted - weapons of fate\saves" />
+        <path ev="steamcommon" path="wanted - weapons of fate" />
       </locations>
       <files>
-        <include />
+        <include path="saves" />
       </files>
-      <linkable />
+      <linkable path="saves" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -7320,50 +7075,36 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Warhammer40000DawnofWar">
+  <game name="Warhammer40kDawnOfWar">
     <title>Warhammer 40,000: Dawn of War</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="Software\THQ\Dawn Of War" value="InstallLocation" append="Profiles" />
-        <path ev="localappdata" path="VirtualStore\Program Files\THQ\Dawn Of War" />
+        <registry root="local_machine" key="Software\THQ\Dawn Of War" value="InstallLocation" />
+        <path ev="installlocation" path="THQ\Dawn Of War" />
       </locations>
       <files>
-        <include />
+        <include path="Profiles" />
       </files>
-      <linkable />
+      <linkable path="Profiles" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Warhammer40000DawnofWarSoulstorm">
-    <title>Warhammer 40,000: Dawn of War - Soulstorm</title>
+  <game name="Warhammer40kDawnOfWarSoulstorm">
+    <title>Warhammer 40,000: Dawn of War: Soulstorm</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="Software\THQ\Dawn Of War - Soulstorm" value="InstallLocation" append="Profiles" />
-        <path ev="localappdata" path="VirtualStore\Program Files\THQ\Dawn of War - Soulstorm" />
+        <registry root="local_machine" key="Software\THQ\Dawn Of War - Soulstorm" value="InstallLocation" />
+        <path ev="installlocation" path="VirtualStore\Program Files\THQ\Dawn of War - Soulstorm" />
       </locations>
       <files>
-        <include />
+        <include path="Profiles" />
       </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="Warhammer40000SpaceMarine">
-    <title>Warhammer 40,000: Space Marine</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="THQ\Relic Entertainment\Space Marine" />
-        <path ev="steamuserdata" path="55150" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
+      <linkable path="Profiles" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="WarhammerMarkofChaos">
-    <title>Warhammer Mark of Chaos</title>
+    <title>Warhammer: Mark of Chaos</title>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Warhammer Mark of Chaos" />
@@ -7388,9 +7129,9 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Warzone2100v30">
-    <title>Warzone 2100 v3.0</title>
-    <version os="Windows">
+  <game name="Warzone2100">
+    <title>Warzone 2100</title>
+    <version os="Windows" release="3">
       <locations>
         <path ev="userdocuments" path="Warzone 2100 v3.0" />
       </locations>
@@ -7405,17 +7146,17 @@
     <title>Wheel Of Time</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="Software\Unreal Technology\Installed Apps\Wheel of Time" value="Folder" append="save" />
+        <registry root="local_machine" key="Software\Unreal Technology\Installed Apps\Wheel of Time" value="Folder" />
       </locations>
       <files>
-        <include filename="*.usa" />
+        <include path="save" filename="*.usa" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="WhosThatFlying">
     <title>Who's That Flying?!</title>
-    <version os="Windows">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="57700" />
       </locations>
@@ -7427,39 +7168,24 @@
   </game>
   <game name="Wolfenstein3DSpearofDestiny">
     <title>Wolfenstein 3D: Spear of Destiny</title>
-    <version os="Windows">
+    <version os="DOS">
       <locations>
-        <path ev="steamcommon" path="Spear of Destiny\base" />
+        <path ev="steamcommon" path="Spear of Destiny" />
       </locations>
       <files>
-        <include filename="SAVEGAM*.*" />
+        <include path="base" filename="SAVEGAM*.*" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Wolfenstein3DSTEAMEdition">
-    <title>Wolfenstein 3D (STEAM Edition)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="wolfenstein 3d\base" />
-      </locations>
-      <files>
-        <include filename="SAVEGAM*.WL6" />
-        <include filename="*.conf" />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="WorldinConflict">
+  <game name="WorldInConflict">
     <title>World in Conflict</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="World in Conflict\Savegames" />
+        <path ev="userdocuments" path="World in Conflict" />
       </locations>
       <files>
-        <include />
+        <include path="Savegames" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7475,21 +7201,12 @@
         <include filename="Profile_PROFILES.DAT" />
         <include filename="local.cfg" />
       </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="WormsReloadedMapsandReplays">
-    <title>Worms Reloaded (Maps and Replays)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="worms reloaded\UserLandscapes" />
-        <path ev="steamcommon" path="worms reloaded\Replays" />
-      </locations>
-      <files>
-        <include />
+      <files type="UserMaps">
+        <include path="UserLandscapes" />
       </files>
-      <linkable />
+      <files type="Replays">
+        <include path="Replays" />
+      </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -7541,7 +7258,6 @@
       <files>
         <include filename="*.00" />
       </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -7549,12 +7265,12 @@
     <title>X-COM: UFO Defense</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="xcom ufo defense\XCOM" />
+        <path ev="steamcommon" path="xcom ufo defense" />
       </locations>
       <files>
-        <include filename="*.dat" />
+        <include  path="XCOM" filename="*.dat" />
       </files>
-      <linkable />
+      <linkable path="XCOM" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -7562,29 +7278,17 @@
     <title>X-Men 2: Wolverine's Revenge</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Activision\Wolverine's Revenge" value="InstallPath" append="Save" />
+        <registry root="local_machine" key="SOFTWARE\Activision\Wolverine's Revenge" value="InstallPath" />
       </locations>
       <files>
-        <include />
+        <include path="Save" />
       </files>
+      <linkable path="Save"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="XMenLegends2">
-    <title>X-Men Legends 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Activision\X-Men Legends 2" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="Xmoto">
-    <title>Xmoto</title>
+  <game name="XMoto">
+    <title>XMoto</title>
     <version os="Windows">
       <locations>
         <path ev="userprofile" path=".xmoto" />
@@ -7609,8 +7313,8 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="YsArkofNapishtim">
-    <title>Ys - Ark of Napishtim</title>
+  <game name="YsArkOfNapishtim">
+    <title>Ys: Ark of Napishtim</title>
     <version os="Windows">
       <locations>
         <path ev="appdata" path="FALCOM\YS6_WIN" />
@@ -7627,25 +7331,25 @@
     <title>Yukkuri Panic!</title>
     <version os="Windows">
       <locations>
-        <path ev="localappdata" path="VirtualStore\Program Files (x86)\Yukkuri Panic!\SAVE" />
-        <path ev="localappdata" path="VirtualStore\Program Files (x86)\Yukkuri Panic! ADV\SAVE" />
+        <path ev="installlocation" path="Yukkuri Panic!" />
+        <path ev="localappdata" path="Yukkuri Panic! ADV" />
       </locations>
       <files>
-        <include />
+        <include path="SAVE" />
       </files>
-      <linkable />
+      <linkable path="SAVE" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="ZenofSudoku">
+  <game name="ZenOfSudoku">
     <title>Zen of Sudoku</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Zen of Sudoku\cached\games" />
-        <path ev="appdata" path="Zen of Sudoku\users" />
+        <path ev="appdata" path="Zen of Sudoku" />
       </locations>
       <files>
-        <include />
+        <include path="cached\games" />
+        <include path="users" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -7655,11 +7359,12 @@
     <title>Zoo Tycoon</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\Zoo Tycoon\1.0" value="AppPath" append="Saved Games" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Microsoft Games\Zoo Tycoon\1.0" value="AppPath" />
       </locations>
       <files>
-        <include />
+        <include path="Saved Games" />
       </files>
+      <linkable path="Saved Games"/>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -7667,25 +7372,25 @@
     <title>Zuma's Revenge</title>
     <version os="Windows">
       <locations>
-        <path ev="commonapplicationdata" path="iWin\ZumasRevenge\users" />
-        <path ev="commonapplicationdata" path="Steam\ZumasRevenge\users" />
-        <path ev="commonapplicationdata" path="PopCap Games\ZumasRevenge\users" />
+        <path ev="commonapplicationdata" path="iWin\ZumasRevenge" />
+        <path ev="commonapplicationdata" path="Steam\ZumasRevenge" />
+        <path ev="commonapplicationdata" path="PopCap Games\ZumasRevenge" />
       </locations>
       <files>
-        <include />
+        <include path="users" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="ZumasRevengeAdventure">
-    <title>Zuma's Revenge - Adventure</title>
+    <title>Zuma's Revenge: Adventure</title>
     <version os="Windows">
       <locations>
-        <path ev="commonapplicationdata" path="Reflexive\ZumasRevengeAdventure\users" />
+        <path ev="commonapplicationdata" path="Reflexive\ZumasRevengeAdventure" />
       </locations>
       <files>
-        <include />
+        <include path="users" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
