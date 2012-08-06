@@ -2,6 +2,12 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <!-- types -->
+  
+  <xs:simpleType name="nonemptystring">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".+"/>
+    </xs:restriction>
+  </xs:simpleType>
 
   <xs:simpleType name="safestring">
     <xs:restriction base="xs:string">
@@ -64,11 +70,11 @@
   </xs:complexType>
 
   <!--simple elements-->
-  <xs:element name="title" type="xs:string"/>
-  <xs:element name="contributor" type="xs:string"/>
-  <xs:element name="comment" type="xs:string"/>
-  <xs:element name="backup_comment" type="xs:string"/>
-  <xs:element name="restore_comment" type="xs:string"/>
+  <xs:element name="title" type="nonemptystring"/>
+  <xs:element name="contributor" type="nonemptystring"/>
+  <xs:element name="comment" type="nonemptystring"/>
+  <xs:element name="backup_comment" type="nonemptystring"/>
+  <xs:element name="restore_comment" type="nonemptystring"/>
 
   <!--attributes-->
 
