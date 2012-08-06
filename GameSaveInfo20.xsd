@@ -2,9 +2,24 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <!-- types -->
+
+  <xs:simpleType name="safestring">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[-_A-Za-z0-9]*"/>
+      <xs:maxLength value="100" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  
   <xs:simpleType name="path">
     <xs:restriction base="xs:string" >
-      <xs:pattern value="[^/:]*"/>
+      <xs:pattern value="[^/\\:]+([\\][^/\\:]+)*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="filename">
+    <xs:restriction base="xs:string" >
+      <xs:pattern value="[^/\\:]+"/>
     </xs:restriction>
   </xs:simpleType>
 
@@ -83,20 +98,12 @@
     </xs:simpleType>
   </xs:attribute>
 
-  <xs:attribute name="filename">
-    <xs:simpleType>
-      <xs:restriction base="xs:string" >
-        <xs:pattern value="[^/\\:]*"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:attribute>
-  
-  <xs:attribute name="game" type="xs:string"/>
+  <xs:attribute name="filename" type="filename" />
   
   <xs:attribute name="key">
     <xs:simpleType>
       <xs:restriction base="xs:string" >
-        <xs:pattern value="[^/]*"/>
+        <xs:pattern value="[^/\\]+([\\][^/\\]+)*"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
@@ -129,16 +136,9 @@
   </xs:attribute>
 
 
-  <xs:simpleType name="game_name">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[-_A-Za-z0-9]*"/>
-      <xs:maxLength value="100" />
-    </xs:restriction>
-  </xs:simpleType>
-
-  <xs:attribute name="name" type="game_name" />
-  <xs:attribute name="for" type="game_name" />
-  <xs:attribute name="follows" type="game_name" />
+  <xs:attribute name="name" type="safestring" />
+  <xs:attribute name="for" type="safestring" />
+  <xs:attribute name="follows" type="safestring" />
 
   <xs:attribute name="override" default="false" type="xs:boolean" />
 
@@ -160,15 +160,6 @@
     </xs:simpleType>
   </xs:attribute>
   <xs:attribute name="value" type="xs:string"/>
-
-  
-  <xs:attribute name="date">
-    <xs:simpleType>
-      <xs:restriction base="xs:string" >
-        <xs:pattern value="\d{4}[-](0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[0-2])T([0-1][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:attribute>
 
   <xs:simpleType name="os_type">
     <xs:restriction base="xs:string">
@@ -212,8 +203,6 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
-
-  <xs:attribute name="other" type="xs:string"/>
 
   <xs:attribute name="type">
     <xs:simpleType>
@@ -283,8 +272,8 @@
     <xs:attribute ref="platform" use="optional"/>
     <xs:attribute ref="media" use="optional"/>
     <xs:attribute ref="region" use="optional"/>
-    <xs:attribute name="release" type="game_name" use="optional" />
-    <xs:attribute name="type" type="game_name" use="optional" />
+    <xs:attribute name="release" type="safestring" use="optional" />
+    <xs:attribute name="type" type="safestring" use="optional" />
   </xs:attributeGroup>
 
   <xs:attributeGroup name="version_attributes">
@@ -341,7 +330,7 @@
       <xs:sequence>
         <xs:element ref="include" minOccurs="1" maxOccurs="unbounded" />
       </xs:sequence>
-      <xs:attribute name="type" type="xs:string" use="optional"/>
+      <xs:attribute name="type" type="safestring" use="optional"/>
     </xs:complexType>
     <xs:unique name="uniqueIncludes">
       <xs:selector xpath="*" />
@@ -361,7 +350,7 @@
       <xs:sequence>
         <xs:element name="entry" type="registry_entry" minOccurs="1" maxOccurs="unbounded" />
       </xs:sequence>
-      <xs:attribute name="type" type="xs:string" use="optional"/>
+      <xs:attribute name="type" type="safestring" use="optional"/>
     </xs:complexType>
   </xs:element>
 
@@ -500,7 +489,7 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
-      <xs:attribute ref="date" use="required"/>
+      <xs:attribute name="updated" type="timestamp" use="required"/>
       <xs:anyAttribute processContents="skip"/>
     </xs:complexType>
     <xs:unique name="uniqueNames">
