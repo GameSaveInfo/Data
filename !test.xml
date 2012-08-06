@@ -4,8 +4,9 @@
 	It finds data that always exists on the system, 
 	which means if something isn't detected, then something's wrong
 -->
-<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:noNamespaceSchemaLocation="games.xsd"
-	majorVersion="2" minorVersion="0" date="2011-12-25T00:00:00">
+<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+  xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
+	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
   <!-- Currently:
         9 General tests
         1 Flash test

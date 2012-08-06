@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd" date="2015-01-01T00:00:00">
+<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
+	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
   <!--Contains profiles for backing up system-related files-->
   <system name="GamesForWindows" added="2012-08-03T22:17:03" updated="2012-08-03T22:17:03">
     <title>Games for Windows</title>
@@ -50,7 +52,7 @@
         <path ev="localappdata" path="Rockstar Games\RGSC"/>
         <path ev="userdocuments" path="Rockstar Games\Social Club"/>
       </locations>
-      <files type="Account Data">
+      <files type="AccountData">
         <include/>
       </files>
       <contributor>Arc Angel</contributor>
