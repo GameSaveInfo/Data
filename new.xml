@@ -1309,18 +1309,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Capsized">
-    <title>Capsized</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="capsized" />
-      </locations>
-      <files>
-        <include path="Content" filename="Config.xfg" />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="CargoQuestForGravity">
     <title>Cargo! Quest for Gravity</title>
     <version os="Windows">
@@ -2206,19 +2194,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="EscapeGoat">
-    <title>Escape Goat</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Escape Goat" />
-      </locations>
-      <files>
-        <include path="Saved Games" />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="Etherlords2">
     <title>Etherlords 2</title>
     <version os="Windows">
@@ -2689,19 +2664,6 @@
       </locations>
       <files>
         <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="GarshaspTheMonsterSlayer">
-    <title>Garshasp: The Monster Slayer</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="DeadMage\Garshasp" />
-      </locations>
-      <files>
-        <include path="profiles" />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -3203,19 +3165,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="HeroesOfMightAndMagic3">
-    <title>Heroes of Might and Magic 3</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGHOMM3COMPLETE" value="PATH" />
-      </locations>
-      <files>
-        <include path="GAMES" />
-      </files>
-      <linkable path="GAMES"/>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <expansion name="HeroesOfMightAndMagicVHammersOfFate" for="HeroesOfMightAndMagic5">
     <title>Heroes of Might and Magic V: Hammers of Fate</title>
     <version os="Windows">
@@ -3284,19 +3233,6 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="My Games\Homefront" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="HospitalTycoon">
-    <title>Hospital Tycoon</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="HospitalTycoon" />
       </locations>
       <files>
         <include />
@@ -5721,19 +5657,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="SplitSecond">
-    <title>Split/Second</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Disney Interactive Studios\Split Second" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="SpookySpirits">
     <title>Spooky Spirits</title>
     <version os="Windows">
@@ -5812,20 +5735,6 @@
         <include path="GameData\SaveGames" />
       </files>
       <linkable path="GameData\SaveGames" />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="StarWarsEmpireAtWarForcesOfCorruption">
-    <title>Star Wars: Empire at War: Forces Of Corruption</title>
-    <version os="Windows">
-      <locations>
-        <path ev="savedgames" path="petroglyph\Empire At War - Forces of Corruption" />
-        <path ev="appdata" path="Petroglyph\Empire At War - Forces of Corruption" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -6084,19 +5993,6 @@
     <version os="Windows">
       <locations>
         <path ev="userprofile" path="AppData\LocalLow\Chillingo\Super Crossfire" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="SuperLaserRacer">
-    <title>Super Laser Racer</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Super Laser Racer" />
       </locations>
       <files>
         <include />
@@ -6631,6 +6527,7 @@
       <files>
         <include filename="584109eb_*.sav" />
       </files>
+      <identifier filename="584109eb_*.sav" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>

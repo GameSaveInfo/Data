@@ -114,7 +114,6 @@ Games From GameSaveManager (so generous!)
 * Campfire Legends - The Hookman
 * Cannon Fodder
 * Cannon Fodder 3
-* Capsized
 * Cargo! Quest for Gravity
 * Cars 2 The Video Game
 * CARS (Project CARS)
@@ -168,7 +167,7 @@ Games From GameSaveManager (so generous!)
 * Dr. Daisy Pet Vet
 * Dream Farm
 * Droplitz
-* Duke Nukem 3D (GOG)
+* Duke Nukem 3D 
 * Duke Nukem Manhattan Project
 * Dungeons and Dragons Online
 * Dungeon Siege
@@ -217,7 +216,6 @@ Games From GameSaveManager (so generous!)
 * From Dust
 * Galactic Civilizations II: Twilight of the Arnor
 * Game of Thrones
-* Garshasp: The Monster Slayer
 * Gas Guzzlers Combat Carnage
 * Gatling Gears
 * Geometry Wars: Retro Envolved
@@ -256,14 +254,12 @@ Games From GameSaveManager (so generous!)
 * Heretic: Shadow of the Serpent Riders
 * Heroes of Anniilated Empires
 * Heroes of Might and Magic 2 
-* Heroes of Might and Magic 3 
 * Heroes of Might and Magic V: Hammers of Fate
 * Heroes of Might and Magic V: Tribes of the East
 * Heroes Over Europe
 * Hexen
 * Hexen II
 * Homefront
-* Hospital Tycoon
 * iBomber Defense
 * Ice Age: Dawn Of The Dinosaurs
 * Indiana Jones and the Fate of Atlantis
@@ -452,7 +448,6 @@ Games From GameSaveManager (so generous!)
 * Spider-Man 3
 * Spider-Man: Shattered Dimensions
 * Spider-Man: The Movie
-* Split/Second
 * Spooky Spirits
 * Stacked with Daniel Negreanu
 * Stacking
@@ -460,7 +455,6 @@ Games From GameSaveManager (so generous!)
 * Star Trek: Elite Force 2
 * Star Trek: Legacy
 * Star Wars: Battle Front II
-* Star Wars: Empire at War: Forces Of Corruption
 * Star Wars: Galactic Battlegrounds
 * Star Wars Galaxies
 * Star Wars: Republic Commando

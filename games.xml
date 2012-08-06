@@ -13072,7 +13072,7 @@
     </version>
   </game>
   <game name="SplitSecond" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
-    <title>Split Second</title>
+    <title>Split/Second</title>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Disney Interactive Studios\Split Second"/>
@@ -13368,10 +13368,12 @@
     <version os="Windows">
       <locations>
         <path ev="savedgames" path="Petroglyph\Empire At War - Forces of Corruption" only_for="WindowsVista"/>
+        <path ev="appdata" path="Petroglyph\Empire At War - Forces of Corruption" only_for="WindowsXP" />
       </locations>
       <files>
         <include/>
       </files>
+      <contributor>GameSaveManager</contributor>
       <contributor>AvvA</contributor>
     </version>
   </expansion>
