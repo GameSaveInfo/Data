@@ -4,19 +4,6 @@
 	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
   <!-- Staging file for the adding of entries -->
   
-	<game name="Trine2" follows="Trine" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
-    <title>Trine 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="Trine2" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
 
   
   <!--  
@@ -1393,6 +1380,22 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+  
+  	<game name="Trine2" follows="Trine" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
+    <title>Trine 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Trine2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  
   <game name="CloseCombatABridgeTooFar">
     <title>Close Combat: A Bridge Too Far</title>
     <version os="Windows">
