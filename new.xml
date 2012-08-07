@@ -3,6 +3,22 @@
   xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
 	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
   <!-- Staging file for the adding of entries -->
+  
+	<game name="Trine2" follows="Trine" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
+    <title>Trine 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Trine2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  
   <!--  
   <game name="">
     <title></title>
@@ -2842,7 +2858,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="GroundControlII">
+  <game name="GroundControl2">
     <title>Ground Control II</title>
     <version os="Windows">
       <locations>
@@ -2894,7 +2910,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="GuitarHeroIIILegendsOfRock">
+  <game name="GuitarHero3LegendsOfRock">
     <title>Guitar Hero III: Legends of Rock</title>
     <version os="Windows">
       <locations>
@@ -3181,7 +3197,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="HexenII">
+  <game name="Hexen2">
     <title>Hexen II</title>
     <version os="Windows">
       <locations>
@@ -5061,19 +5077,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="RUSE">
-    <title>RUSE</title>
-    <version os="Windows">
-      <locations>
-        <path ev="savedgames" path="Ubisoft\RUSE" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="Rush">
     <title>Rush</title>
     <version platform="SteamCloud">
@@ -5234,19 +5237,6 @@
       </locations>
       <files>
         <include path="users" />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="Shatter">
-    <title>Shatter</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="Sidhe\SH" />
-      </locations>
-      <files>
-        <include />
       </files>
       <linkable />
       <contributor>GameSaveManager</contributor>
@@ -6634,18 +6624,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="TotalWarSHOGUN2">
-    <title>Total War: SHOGUN 2</title>
-    <version platform="SteamCloud">
-      <locations>
-        <path ev="steamuserdata" path="34330" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="ToyStory3">
     <title>Toy Story 3</title>
     <version os="Windows">
@@ -6677,19 +6655,6 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Activision\Transformers" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="Trine2">
-    <title>Trine 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="Trine2" />
       </locations>
       <files>
         <include />
@@ -6897,19 +6862,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="WANTEDWeaponsofFate">
-    <title>WANTED: Weapons of Fate</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="wanted - weapons of fate" />
-      </locations>
-      <files>
-        <include path="saves" />
-      </files>
-      <linkable path="saves" />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   <game name="WargameEuropeanEscalation">
     <title>Wargame: European Escalation</title>
     <version os="Windows">
@@ -6969,19 +6921,6 @@
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="My Games\WARP" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="Warzone2100">
-    <title>Warzone 2100</title>
-    <version os="Windows" release="3">
-      <locations>
-        <path ev="userdocuments" path="Warzone 2100 v3.0" />
       </locations>
       <files>
         <include />

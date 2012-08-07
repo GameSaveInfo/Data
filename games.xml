@@ -11641,6 +11641,16 @@
       </files>
       <contributor>Arc Angel</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="savedgames" path="Ubisoft\RUSE" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="Saboteur" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>The Saboteur</title>
@@ -12424,7 +12434,17 @@
       <ps_code prefix="NPUB" suffix="30091"/>
       <contributor>GameSave.Info</contributor>
     </version>
-  </game>
+   <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Sidhe\SH" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+   </game>
   <game name="ShatteredSteel" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
     <title>Shattered Steel</title>
     <version os="DOS">
@@ -14428,6 +14448,15 @@
       </files>
       <contributor>Arc Angel</contributor>
     </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="34330" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="ToTheMoon" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
     <title>To the Moon</title>
@@ -15228,16 +15257,19 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
-  <game name="WantedWeaponsOfFate" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
-    <title>Wanted: Weapons of Fate</title>
+  <game name="WANTEDWeaponsOfFate">
+    <title>WANTED: Weapons of Fate</title>
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="wanted"/>
+        <path ev="steamcommon" path="wanted - weapons of fate" />
       </locations>
       <files>
-        <include path="saves"/>
+        <include path="saves" />
       </files>
+      <linkable path="saves" />
       <contributor>Arc Angel</contributor>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="Warcraft3" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
@@ -15359,6 +15391,16 @@
         <include filename="keymap.map"/>
       </files>
       <contributor>slake_jones</contributor>
+    </version>
+    <version os="Windows" release="3">
+      <locations>
+        <path ev="userdocuments" path="Warzone 2100 v3.0" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="WatchmenTheEndIsNigh1" added="2012-08-03T22:17:33" updated="2012-08-03T22:17:33">
