@@ -1724,6 +1724,25 @@
       <ps_code prefix="NPUB" suffix="30253"/>
       <contributor>GameSave.Info</contributor>
     </version>
+   <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="9940" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Krome Studios\BladeKitten" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
   <game name="BladeRunner" added="2012-08-03T22:17:30" updated="2012-08-03T22:17:30">
     <title>Blade Runner</title>
@@ -3942,6 +3961,16 @@
     <version os="PS3" region="USA">
       <ps_code prefix="BLUS" suffix="30092"/>
       <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Capcom\Devilmaycry4" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="Diablo" added="2012-08-03T22:17:31" updated="2012-08-03T22:17:31">
@@ -8290,8 +8319,9 @@
     </version>
   </game>
   <game name="Majesty" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">
-    <title>Majesty</title>
+    <title>Majesty: The Fantasy Kingdom Sim</title>
     <version os="Windows" release="GoldHD">
+		<title>Majesty Gold HD</title>
       <locations>
         <path ev="userdocuments" path="My Games\MajestyHD"/>
       </locations>
@@ -8299,6 +8329,16 @@
         <include/>
       </files>
       <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <registry root="current_user" key="Software\Cyberlore\Majesty\InstallShield" value="INSTALLPATH" />
+      </locations>
+      <files>
+        <include path="SaveGame" />
+      </files>
+      <linkable path="SaveGame"/>
+      <contributor>GameSaveManager</contributor>
     </version>
   </game>
   <game name="Majesty2" added="2012-08-03T22:17:32" updated="2012-08-03T22:17:32">

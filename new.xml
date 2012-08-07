@@ -977,28 +977,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="BladeKitten">
-    <title>Blade Kitten</title>
-    <version platform="SteamCloud">
-      <locations>
-        <path ev="steamuserdata" path="9940" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Krome Studios\BladeKitten" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   
   <game name="BlazBlueCalamityTrigger">
     <title>BlazBlue: Calamity Trigger</title>
@@ -1841,19 +1819,6 @@
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="Daedalic Entertainment\Deponia" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="DevilMayCry4">
-    <title>Devil May Cry 4</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Capcom\Devilmaycry4" />
       </locations>
       <files>
         <include />
@@ -2971,7 +2936,7 @@
     </version>
   </game>
   <mod name="City7TorontoConflict" for="HalfLife2">
-    <title>Half-Life 2 Mod - City 7: Toronto Conflict</title>
+    <title>City 7: Toronto Conflict</title>
     <version os="Windows">
       <locations>
         <path ev="steamsourcemods" path="City_7" />
@@ -3010,7 +2975,7 @@
     </version>
   </mod>
   <mod name="Rock24" for="HalfLife2">
-    <title>Half-Life 2 Mod - Rock 24</title>
+    <title>Rock 24</title>
     <version os="Windows">
       <locations>
         <path ev="steamsourcemods" path="Rock 24" />
@@ -3049,7 +3014,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="HarryPotterAndThePrisonerofAzkaban">
+  <game name="HarryPotterAndThePrisonerOfAzkaban">
     <title>Harry Potter and the Prisoner of Azkaban</title>
     <version os="Windows">
       <locations>
@@ -3657,7 +3622,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LEGOStarWarsII">
+  <game name="LEGOStarWars2">
     <title>LEGO Star Wars II</title>
     <version os="Windows">
       <locations>
@@ -3670,7 +3635,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="LEGOStarWarsIIITheCloneWars">
+  <game name="LEGOStarWars3TheCloneWars">
     <title>LEGO Star Wars III: The Clone Wars</title>
     <version os="Windows">
       <locations>
@@ -3710,7 +3675,7 @@
     </version>
   </game>
   <game name="LittleShopMemories">
-    <title>Little Shop - Memories</title>
+    <title>Little Shop: Memories</title>
     <version os="Windows">
       <locations>
         <path ev="commonapplicationdata" path="GameHouse\Games\LittleShopMemories" />
@@ -3813,19 +3778,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Majesty">
-    <title>Majesty: The Fantasy Kingdom Sim</title>
-    <version os="Windows">
-      <locations>
-        <registry root="current_user" key="Software\Cyberlore\Majesty\InstallShield" value="INSTALLPATH" />
-      </locations>
-      <files>
-        <include path="SaveGame" />
-      </files>
-      <linkable path="SaveGame"/>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
   
   <expansion name="MajestyNorthernExpansion" for="Majesty">
     <title>Majesty: The Northern Expansion</title>
@@ -3868,7 +3820,7 @@
     </version>
   </game>
   
-  <game name="MasterLevelsForDoomII">
+  <game name="MasterLevelsForDoom2">
     <title>Master Levels For Doom II</title>
     <version os="DOS">
       <locations>
@@ -4493,7 +4445,6 @@
     <title>Patrician 4</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Kalypso Media\Patrician 4" />
         <path ev="appdata" path="Kalypso Media\Patrician 4" />
       </locations>
       <files>
