@@ -1581,6 +1581,19 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+  <game name="AvernumEscapeFromthePit" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Avernum Escape From the Pit</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Spiderweb Software\Avernum Saved Games"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
   <game name="Aveyond1RhensQuest" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Aveyond I: Rhen's Quest</title>
     <version os="Windows">
@@ -1829,6 +1842,19 @@
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="BardsTale" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>The Bard's Tale</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="The Bards Tale"/>
+      </locations>
+      <files>
+        <include path="Saved Games"/>
+      </files>
+      <linkable path="Saved Games"/>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="Bastion" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
@@ -2340,6 +2366,20 @@
         <include filename="*.SAV"/>
       </files>
       <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="BinaryDomain" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Binary Domain</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="binary domain"/>
+        <registry root="local_machine" key="SOFTWARE\Sega\Binary Domain" value="Install_Path"/>
+      </locations>
+      <files>
+        <include path="savedata"/>
+      </files>
+      <linkable path="savedata"/>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="BindingOfIsaac" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
@@ -4376,6 +4416,20 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+  <game name="Commandos2" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Commandos 2: Men of Courage</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Commandos 2 Men of Courage"/>
+        <registry root="local_machine" key="SOFTWARE\Pyro\Comm2\1.0" value="DirIns"/>
+      </locations>
+      <files>
+        <include path="OUTPUT"/>
+      </files>
+      <linkable path="OUTPUT"/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
   <game name="Commandos3DestinationBerlin" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Commandos 3: Destination Berlin</title>
     <version os="Windows">
@@ -4802,7 +4856,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="csi hard evidence"/>
-        <registry root="local_machine" key="SOFTWARE\Telltale Games\CSI4.exe" value="Install Location"/>
+        <registry root="local_machine" key="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\CSI4.exe" value="Install Location"/>
       </locations>
       <files>
         <include filename="CSISaveGame*"/>
@@ -4841,6 +4895,18 @@
         <include filename="Settings"/>
       </files>
       <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="CursedCrusade" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>The Cursed Crusade</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="106000"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -4904,6 +4970,21 @@
         <include path="data" filename="*.cfg"/>
       </files>
       <linkable path="data\save"/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="Damnation" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Damnation</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Damnation"/>
+      </locations>
+      <files>
+        <include path="DamnGame\Checkpoints"/>
+        <include path="DamnGame\Config"/>
+        <include path="DamnGame\SaveData"/>
+      </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -5983,6 +6064,22 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <expansion name="Disciples3Resurrection" for="Disciples3" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Disciples III: Resurrection</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\DisciplesIII Resurrection"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <files type="Settings">
+        <include filename="user.ini"/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </expansion>
   <game name="Disgaea2CursedMemories" follows="DisgaeaHourOfDarkness" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Disgaea 2: Cursed Memories</title>
     <version os="PS2" region="USA">
@@ -6601,6 +6698,19 @@
       </files>
       <linkable path="user"/>
       <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="DynamiteJack" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Dynamite Jack</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Dynamite Jack"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="DynastyWarriors4" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
@@ -8649,6 +8759,71 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  <game name="GeneForge1" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Geneforge</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Spiderweb Software\Geneforge Saved Games"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="GeneForge2" follows="GeneForge1" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Geneforge 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Spiderweb Software\Geneforge 2 Saved Games"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="GeneForge3" follows="GeneForge2" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Geneforge 3</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Spiderweb Software\Geneforge 3 Saved Games"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="GeneForge4" follows="GeneForge3" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Geneforge 4</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Geneforge 4 Saved Games"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="GeneForge5" follows="GeneForge4" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Geneforge 5</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Spiderweb Software\Geneforge 5 Saved Games"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
   <game name="GeometryWarsRetroEnvolved" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Geometry Wars: Retro Envolved</title>
     <version os="Windows">
@@ -10679,6 +10854,19 @@
         <include path="profiles"/>
       </files>
       <linkable path="profiles"/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="Inversion" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Inversion</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Inversion Saves"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -13071,6 +13259,19 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  <game name="MetalDead" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Metal Dead</title>
+    <version os="Windows">
+      <locations>
+        <path ev="savedgames" path="Metal Dead" only_for="WindowsVista"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
   <game name="MetalGearAcid" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Metal Gear Ac!d</title>
     <version os="PSP" region="EU">
@@ -13803,6 +14004,19 @@
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="NeedForSpeedTheRun" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Need For Speed: The Run</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="NFSTR"/>
+      </locations>
+      <files type="Settings">
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="NeedForSpeedUndercover" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
@@ -15451,6 +15665,19 @@
       <files>
         <include/>
       </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="Prototype2" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Prototype 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Activision\Prototype 2"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
       <contributor>Arc Angel</contributor>
     </version>
   </game>
@@ -18422,6 +18649,19 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+  <game name="SniperEliteV2" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Sniper Elite V2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="SniperV2"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
   <game name="SniperGhostWarrior" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Sniper: Ghost Warrior</title>
     <version os="Windows">
@@ -19914,6 +20154,21 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+  <game name="Superpower2" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Superpower 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Dreamcatcher\Superpower 2"/>
+        <registry root="local_machine" key="Software\GolemLabs\Superpower2" value="Installdir"/>
+        <shortcut ev="startmenu" path="Programs\Dreamcatcher\Superpower 2\Superpower 2.lnk"/>
+      </locations>
+      <files>
+        <include path="MODS\SP2\save"/>
+      </files>
+      <linkable path="MODS\SP2\save"/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
   <game name="SuperStardustHD" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Super Stardust HD</title>
     <version os="PS3" region="USA">
@@ -20615,6 +20870,18 @@
         <include filename="*.save"/>
       </files>
       <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="TitanAttacks" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Titan Attacks!</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="203210"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="TitanQuest" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
@@ -22887,6 +23154,40 @@
       <files>
         <include filename="*.ini"/>
         <include filename="*.nacci"/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="YsOrigin" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Ys Origin</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="207350"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="YsTheOathInFelghana" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+    <title>Ys: The Oath in Felghana</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="207320"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="FALCOM\YSF_Win"/>
+      </locations>
+      <files>
+        <include/>
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
