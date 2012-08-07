@@ -338,7 +338,6 @@
   
   -->
 
-<!--  
     <game name="Prototype2">
     <title>Prototype 2</title>
     <version os="Windows">
@@ -649,6 +648,4 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  
-  -->
 </programs>

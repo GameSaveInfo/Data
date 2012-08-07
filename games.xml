@@ -4802,7 +4802,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="csi hard evidence"/>
-        <registry root="local_machine" key="HKEY_LOCAL_MACHINE\SOFTWARE\Telltale Games\CSI4.exe" value="Install Location"/>
+        <registry root="local_machine" key="SOFTWARE\Telltale Games\CSI4.exe" value="Install Location"/>
       </locations>
       <files>
         <include filename="CSISaveGame*"/>
