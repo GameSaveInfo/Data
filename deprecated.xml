@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
-	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
+<programs majorVersion="2" minorVersion="0" updated="2012-07-19T23:46:10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd">
   <!--This file contains game data that was originally mislabeled, or for some other reason incorrect to the point that backup support had to be removed. The main purpose of these is to allow deprecated games to be able to still restore.-->
-  <game name="Blackwell1LegacyRemastered" added="2012-08-03T22:16:27" updated="2012-08-03T22:16:27" deprecated="true">
+  <game name="Blackwell1LegacyRemastered" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00" deprecated="true">
     <title>Blackwell Episode 1: The Blackwell Legacy (Remastered)</title>
     <version os="Windows">
       <locations>
@@ -16,7 +14,7 @@
     </version>
     <comment>Newer release rendered this incompatible</comment>
   </game>
-  <game name="Blackwell2UnboundRemastered" added="2012-08-03T22:16:27" updated="2012-08-03T22:16:27" deprecated="true">
+  <game name="Blackwell2UnboundRemastered" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00" deprecated="true">
     <title>Blackwell Episode 2: Blackwell Unbound (Remastered)</title>
     <version os="Windows">
       <locations>
@@ -29,7 +27,7 @@
     </version>
     <comment>Newer release rendered this incompatible</comment>
   </game>
-  <game name="Blackwell3ConvergenceRemastered" added="2012-08-03T22:16:27" updated="2012-08-03T22:16:27" deprecated="true">
+  <game name="Blackwell3ConvergenceRemastered" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00" deprecated="true">
     <title>Blackwell Episode 3: Blackwell Convergence (Remastered)</title>
     <version os="Windows">
       <locations>

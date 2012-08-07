@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
-	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
+<programs majorVersion="2" minorVersion="0" updated="2012-07-19T23:46:10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd">
   <!--Contains profiles for backing up system-related files-->
-  <system name="GamesForWindows" added="2012-08-03T22:17:03" updated="2012-08-03T22:17:03">
+  <system name="GamesForWindows" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Games for Windows</title>
     <version os="Windows">
       <locations>
@@ -15,7 +13,7 @@
       <contributor>MASGAU</contributor>
     </version>
   </system>
-  <system name="MASGAU" added="2012-08-03T22:17:03" updated="2012-08-03T22:17:03">
+  <system name="MASGAU" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>MASGAU Automatic Save Game Archive Utility</title>
     <version>
       <title>MASGAU Custom XML</title>
@@ -29,7 +27,7 @@
       <contributor>MASGAU</contributor>
     </version>
   </system>
-  <system name="Raptr" added="2012-08-03T22:17:03" updated="2012-08-03T22:17:03">
+  <system name="Raptr" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Raptr</title>
     <version os="Windows">
       <locations>
@@ -45,7 +43,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </system>
-  <system name="RGSC" added="2012-08-03T22:17:03" updated="2012-08-03T22:17:03">
+  <system name="RGSC" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Rockstar Games Social Club</title>
     <version os="Windows">
       <locations>
@@ -59,7 +57,7 @@
       <contributor>AvvA</contributor>
     </version>
   </system>
-  <system name="Tomboy" added="2012-08-03T22:17:03" updated="2012-08-03T22:17:03">
+  <system name="Tomboy" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Tomboy</title>
     <version>
       <locations>
@@ -74,7 +72,7 @@
       <contributor>MASGAU</contributor>
     </version>
   </system>
-  <system name="UPlay" added="2012-08-03T22:17:03" updated="2012-08-03T22:17:03">
+  <system name="UPlay" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>UPlay</title>
     <version os="Windows">
       <locations>
@@ -89,7 +87,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </system>
-  <system name="Xfire" added="2012-08-03T22:17:03" updated="2012-08-03T22:17:03">
+  <system name="Xfire" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Xfire</title>
     <version os="Windows">
       <locations>
