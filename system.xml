@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" updated="2012-07-19T23:46:10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd">
+<programs majorVersion="2" minorVersion="0" updated="2012-08-07T10:41:53" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd">
   <!--Contains profiles for backing up system-related files-->
+  <system name="DOSBox" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>DOSBox</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="DOSBox"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
   <system name="GamesForWindows" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Games for Windows</title>
     <version os="Windows">
@@ -9,11 +22,38 @@
       </locations>
       <files type="AccountData">
         <include>
-          <exclude path="Updates" />
-          <exclude path="DLC" />
+          <exclude path="DLC"/>
+          <exclude path="Updates"/>
         </include>
       </files>
       <contributor>MASGAU</contributor>
+    </version>
+  </system>
+  <system name="LogitechGseriesMacros" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Logitech G-Series Macros</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Logitech\G-series Software\Keyboard"/>
+        <path ev="localappdata" path="Logitech\Logitech Gaming Software\profiles"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
+  <system name="LogitechSetPointIIMacrosAndSettings" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Logitech SetPoint II (Macros and settings)</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="LogiShrd\SetPoint II\Devices"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
     </version>
   </system>
   <system name="MASGAU" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
@@ -28,6 +68,28 @@
       </files>
       <identifier filename="custom.xml"/>
       <contributor>MASGAU</contributor>
+    </version>
+  </system>
+  <system name="PCSX2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>PCSX2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="PCSX2"/>
+      </locations>
+      <files type="BIOS">
+        <include path="bios"/>
+      </files>
+      <files type="MemoryCards">
+        <include path="memcards"/>
+      </files>
+      <files type="SaveStates">
+        <include path="sstates"/>
+      </files>
+      <files type="Settings">
+        <include path="inis"/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
     </version>
   </system>
   <system name="Raptr" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
@@ -60,6 +122,45 @@
       <contributor>AvvA</contributor>
     </version>
   </system>
+  <system name="ScummVM" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Scumm VM</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="ScummVM"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
+  <system name="TeamSpeak3Client" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>TeamSpeak 3 Client</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="TS3Client"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
+  <system name="TeamSpeakRC2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>TeamSpeak RC2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="teamspeak2"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
   <system name="Tomboy" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Tomboy</title>
     <version>
@@ -88,6 +189,19 @@
         </include>
       </files>
       <contributor>Arc Angel</contributor>
+    </version>
+  </system>
+  <system name="Ventrilo" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Ventrilo</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Ventrilo"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
     </version>
   </system>
   <system name="Xfire" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
