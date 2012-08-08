@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" updated="2012-08-07T10:41:53" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd">
+<programs majorVersion="2" minorVersion="0" updated="2012-08-07T10:41:53" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd">
   <!--This file contains games, mods and expansions-->
   <game name="10DaysUnderTheSea" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>10 Days under the Sea</title>
@@ -1469,6 +1469,16 @@
       </files>
       <contributor>GameSave.Info</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Assassin's Creed Revelations" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
     <version os="PS3" region="EU">
       <ps_code prefix="BLES" suffix="01384"/>
       <contributor>AdmiringWorm</contributor>
@@ -2350,6 +2360,9 @@
         <include filename="*.sav"/>
         <include filename="sally.idx"/>
       </files>
+      <registry>
+        <entry root="current_user" key="Software\Ubisoft\Beyond Good &amp; Evil\SettingsApplication.INI" value="Saves" />
+      </registry>
       <contributor>duncans_pumpkin</contributor>
       <contributor>GameSave.Info</contributor>
     </version>

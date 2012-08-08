@@ -21,256 +21,6 @@
       <contributor></contributor>
     </version>
   </game>
-    <game name="AssassinsCreedRevelations">
-    <title>Assassin's Creed: Revelations</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Assassin's Creed Revelations" />
-      </locations>
-      <files type="Settings">
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="BeyondGoodAndEvil">
-    <title>Beyond Good and Evil</title>
-    <version os="Windows">
-      <registry>
-        <entry root="current_user" key="Software\Ubisoft\Beyond Good &amp; Evil\SettingsApplication.INI" value="Saves" />
-      </registry>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="CounterStrikeSource">
-    <title>Counter Strike: Source</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuser" path="counter-strike source\platform" />
-        <path ev="steamuser" path="counter-strike source\cstrike" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-    <game name="DayofDefeat">
-    <title>Day of Defeat</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuser" path="day of defeat" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="DayofDefeatSource">
-    <title>Day of Defeat: Source</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuser" path="day of defeat source\platform" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-    <game name="DOSBox">
-    <title>DOSBox</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="DOSBox" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="GamesforWindowsLIVEGFWLProfile">
-    <title>Games for Windows LIVE (GFW-L) Profile</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="Microsoft\XLive" />
-      </locations>
-      <files>
-        <include>
-          <exclude filename="Updates\*.*" />
-          <exclude filename="DLC\*.*" />
-        </include>
-      </files>
-      <registry>
-        <entry root="current_user" key="Software\Classes\SOFTWARE\Microsoft\XLive" value="Saves" />
-      </registry>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="Left4Dead">
-    <title>Left 4 Dead</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuserdata" path="500" />
-        <path ev="steamcommon" path="left 4 dead\left4dead\cfg" />
-        <path ev="steamcommon" path="left 4 dead\left4dead\save" />
-      </locations>
-      <files>
-        <include />
-        <include filename="*.cfg" />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="Left4Dead2">
-    <title>Left 4 Dead 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuserdata" path="550" />
-        <path ev="steamcommon" path="left 4 dead 2\left4dead2\cfg" />
-        <path ev="steamcommon" path="left 4 dead 2\left4dead2\save" />
-      </locations>
-      <files>
-        <include />
-        <include filename="*.cfg" />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>  
-    <game name="LogitechGseriesMacros">
-    <title>Logitech G-series Macros</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="Logitech\G-series Software\Keyboard" />
-        <path ev="localappdata" path="Logitech\Logitech Gaming Software\profiles" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-    <game name="LogitechSetPointIIMacrosandsettings">
-    <title>Logitech SetPoint II (Macros and settings)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="localappdata" path="LogiShrd\SetPoint II\Devices" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="PCSX2">
-    <title>PCSX2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="PCSX2\memcards" />
-        <path ev="userdocuments" path="PCSX2\sstates" />
-        <path ev="userdocuments" path="PCSX2\inis" />
-        <path ev="userdocuments" path="PCSX2\bios" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="RailroadTycoon3">
-    <title>Railroad Tycoon 3</title>
-    <version os="Windows">
-      <locations>
-        <path ev="installlocation" path="Railroad Tycoon 3" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="ScummVM">
-    <title>Scumm VM</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="ScummVM" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-
-    <game name="TeamFortress2">
-    <title>Team Fortress 2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuser" path="team fortress 2" />
-      </locations>
-      <files>
-        <include>
-          <exclude filename="tf\media\*.*" />
-          <exclude filename="tf\maps\*.*" />
-        </include>
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="TeamFortress2SteamCloud">
-    <title>Team Fortress 2 (Steam Cloud)</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamuserdata" path="440" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="TeamSpeak3Client">
-    <title>TeamSpeak 3 Client</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="TS3Client" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="TeamSpeakRC2">
-    <title>TeamSpeak RC2</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="teamspeak2" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
    <game name="ThePath">
     <title>The Path</title>
     <version os="Windows">
@@ -285,43 +35,239 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="UbisoftGameLauncher">
-    <title>Ubisoft Game Launcher</title>
+
+
+-->
+  <game name="CounterStrikeSource" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Counter Strike: Source</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE\Ubisoft\Launcher" value="InstallDir" append="storage" />
+        <path ev="steamuser" path="counter-strike source" />
+      </locations>
+      <files>
+        <include path="platform" />
+        <include path="cstrike" />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+    <game name="DayOfDefeat" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Day of Defeat</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="day of defeat" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="DayOfDefeatSource" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Day of Defeat: Source</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="day of defeat source" />
+      </locations>
+      <files>
+        <include path="platform" />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  
+  <game name="Left4Dead" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Left 4 Dead</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="500" />
       </locations>
       <files>
         <include />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="left 4 dead" />
+      </locations>
+      <files>
+        <include path="left4dead\save" />
+      </files>
+      <files type="Settings">
+        <include path="left4dead\cfg" filename="*.cfg" />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
   </game>
-  <game name="UltimaUnderworld1">
+  <game name="Left4Dead2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Left 4 Dead 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="left 4 dead 2" />
+      </locations>
+      <files>
+        <include path="left4dead2\save" />
+      </files>
+      <files type="Settings">
+        <include path="left4dead2\cfg" filename="*.cfg" />
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="550" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>  
+
+
+
+    <game name="TeamFortress2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Team Fortress 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="team fortress 2" />
+      </locations>
+      <files>
+        <include>
+          <exclude path="tf\media" />
+          <exclude path="tf\maps" />
+        </include>
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+      <version platform="SteamCloud">
+        <locations>
+          <path ev="steamuserdata" path="440" />
+        </locations>
+        <files>
+          <include />
+        </files>
+        <contributor>GameSaveManager</contributor>
+      </version>
+    </game>
+
+
+  <game name="RailroadTycoon3" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Railroad Tycoon 3</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Railroad Tycoon 3" />
+        <path ev="steamcommon" path="railroad tycoon 3"/>
+      </locations>
+      <files>
+        <include path="Saved Games" />
+      </files>
+      <linkable path="Saved Games" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+
+  <game name="UltimaUnderworld1" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Ultima Underworld 1</title>
     <version os="Windows">
       <locations>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGULTIMAUNDERWORLD1" value="PATH" append="UNDEROM1" />
       </locations>
       <files>
-        <include />
+        <include path="Save*" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="UltimaUnderworld2">
+  <game name="UltimaUnderworld2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Ultima Underworld 2</title>
     <version os="Windows">
       <locations>
         <registry root="local_machine" key="SOFTWARE\GOG.com\GOGULTIMAUNDERWORLD2" value="PATH" append="UNDEROM2" />
       </locations>
       <files>
-        <include />
+        <include path="Save*" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-    <game name="Ventrilo">
+
+
+
+  <system name="DOSBox" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>DOSBox</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="DOSBox" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
+  
+  <system name="LogitechGseriesMacros" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Logitech G-Series Macros</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Logitech\G-series Software\Keyboard" />
+        <path ev="localappdata" path="Logitech\Logitech Gaming Software\profiles" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
+  <system name="LogitechSetPointIIMacrosAndSettings" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Logitech SetPoint II (Macros and settings)</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="LogiShrd\SetPoint II\Devices" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
+  <system name="PCSX2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>PCSX2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="PCSX2" />
+      </locations>
+      <files type="MemoryCards">
+        <include path="memcards" />
+      </files>
+      <files type="SaveStates">
+        <include path="sstates" />
+      </files>
+      <files type="Settings">
+        <include path="inis" />
+      </files>
+      <files type="BIOS">
+        <include path="bios" />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
+  
+    <system name="Ventrilo" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Ventrilo</title>
     <version os="Windows">
       <locations>
@@ -333,9 +279,47 @@
       <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
-  </game>
+  </system>
+  <system name="TeamSpeak3Client" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>TeamSpeak 3 Client</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="TS3Client" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
+  <system name="TeamSpeakRC2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>TeamSpeak RC2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="teamspeak2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
+  <system name="ScummVM" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Scumm VM</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="ScummVM" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </system>
 
-  
-  -->
+
 
 </programs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" updated="2012-07-19T23:46:10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd">
+<programs majorVersion="2" minorVersion="0" updated="2012-07-19T23:46:10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd">
   <!--Contains profiles for backing up system-related files-->
   <system name="GamesForWindows" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Games for Windows</title>
@@ -8,7 +8,10 @@
         <path ev="localappdata" path="Microsoft\XLive\Content"/>
       </locations>
       <files type="AccountData">
-        <include/>
+        <include>
+          <exclude path="Updates" />
+          <exclude path="DLC" />
+        </include>
       </files>
       <contributor>MASGAU</contributor>
     </version>

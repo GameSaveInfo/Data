@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<programs majorVersion="2" minorVersion="0" updated="2012-07-19T23:46:10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games.xsd">
+<programs majorVersion="2" minorVersion="0" updated="2012-07-19T23:46:10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd">
   <!--This file contains game data that was originally mislabeled, or for some other reason incorrect to the point that backup support had to be removed. The main purpose of these is to allow deprecated games to be able to still restore.-->
   <game name="Blackwell1LegacyRemastered" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00" deprecated="true">
     <title>Blackwell Episode 1: The Blackwell Legacy (Remastered)</title>
