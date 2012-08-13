@@ -353,7 +353,13 @@
 
   </system>
 
-
+  <system name="S0ScummVMTest">
+    <title>ScummVM Test</title>
+    <version>
+      <scummvm name="scummvm"/>
+      <contributor>A hive of SCUMM and villainy</contributor>
+    </version>
+  </system>
 
   <system name="0DeprecatedTest" deprecated="true">
     <title>Deprecated Test</title>
