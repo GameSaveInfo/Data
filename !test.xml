@@ -153,6 +153,7 @@
       <title>F00 - Flash Shared Test</title>
       <locations>
         <path ev="flashshared" path="mail.google.com" />
+        <path ev="flashshared" path="skype.com" />
       </locations>
       <files type="Test">
         <include />
