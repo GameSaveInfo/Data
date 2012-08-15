@@ -8584,7 +8584,7 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="fs2_open" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+<!--  <game name="fs2_open" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>fs2_open</title>
     <version>
       <locations>
@@ -8598,7 +8598,7 @@
       <identifier filename="fs2_open*"/>
       <contributor>GameSave.Info</contributor>
     </version>
-  </game>
+  </game>-->
   <game name="Fuel" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Fuel</title>
     <version os="Windows">
