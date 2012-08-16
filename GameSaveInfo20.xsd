@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- types -->
+  
+  <xs:simpleType name="nonemptystring">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="safestring">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[-_A-Za-z0-9]*"/>
+      <xs:maxLength value="100" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  
+  <xs:simpleType name="path">
+    <xs:restriction base="xs:string" >
+      <xs:pattern value="[^/\\:]+([\\][^/\\:]+)*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="filename">
+    <xs:restriction base="xs:string" >
+      <xs:pattern value="[^/\\:]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="timestamp">
+    <xs:restriction base="xs:string" >
+      <xs:pattern value="\d{4}[-](0[1-9]|1[0-2])[-](0[1-9]|[12][0-9]|3[0-2])T([0-1][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="program">
+    <xs:sequence>
+      <xs:element ref="title" minOccurs="1" maxOccurs="1"/>
+      <xs:element ref="version" minOccurs="1" maxOccurs="unbounded" />
+      <xs:element ref="comment" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="item_attributes"/>
+    <xs:attribute name="submitted" type="xs:boolean" use="optional" />
+    <xs:attribute name="added" type="timestamp" use="optional" />
+    <xs:attribute name="updated" type="timestamp" use="optional" />
+  </xs:complexType>
+
+  <xs:complexType name="program_sequel">
+    <xs:complexContent>
+      <xs:extension base="program">
+        <xs:attribute ref="follows" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="program_expansion">
+    <xs:complexContent>
+      <xs:extension base="program">
+        <xs:attribute ref="for" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="registry_entry">
+    <xs:attribute ref="root" use="required"/>
+    <xs:attribute ref="key" use="required"/>
+    <xs:attribute ref="value" use="optional"/>
+  </xs:complexType>
+
+  <!--simple elements-->
+  <xs:element name="title" type="nonemptystring"/>
+  <xs:element name="contributor" type="nonemptystring"/>
+  <xs:element name="comment" type="nonemptystring"/>
+  <xs:element name="backup_comment" type="nonemptystring"/>
+  <xs:element name="restore_comment" type="nonemptystring"/>
+
+  <!--attributes-->
+
+  <xs:attribute name="ev">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="allusersprofile"/>
+        <xs:enumeration value="altsavepaths"/>
+        <xs:enumeration value="appdata"/>
+        <xs:enumeration value="commonapplicationdata"/>
+        <xs:enumeration value="drive"/>
+        <xs:enumeration value="flashshared" />
+        <xs:enumeration value="installlocation"/>
+        <xs:enumeration value="localappdata"/>
+        <xs:enumeration value="public"/>
+        <xs:enumeration value="savedgames"/>
+        <xs:enumeration value="steamuser"/>
+        <xs:enumeration value="steamcommon"/>
+        <xs:enumeration value="steamsourcemods"/>
+        <xs:enumeration value="steamuserdata"/>
+        <xs:enumeration value="ubisoftsavestorage"/>
+        <xs:enumeration value="userprofile"/>
+        <xs:enumeration value="userdocuments"/>
+        <xs:enumeration value="startmenu" />
+        <xs:enumeration value="desktop" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="filename" type="filename" />
+  
+  <xs:attribute name="key">
+    <xs:simpleType>
+      <xs:restriction base="xs:string" >
+        <xs:pattern value="[^/\\]+([\\][^/\\]+)*"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="region">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="([A-Z]{3}|[A-Z]{2})"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="detect">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="required"/>
+        <xs:enumeration value="optional"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+
+  <xs:attribute name="virtualstore">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="use"/>
+        <xs:enumeration value="ignore"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+
+  <xs:attribute name="name" type="safestring" />
+  <xs:attribute name="for" type="safestring" />
+  <xs:attribute name="follows" type="safestring" />
+
+  <xs:attribute name="override" default="false" type="xs:boolean" />
+
+  <xs:attribute name="deprecated" type="xs:boolean" />
+
+  <xs:attribute name="path" type="path"/>
+
+    <xs:attribute name="root">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="classes_root"/>
+        <xs:enumeration value="current_user"/>
+        <xs:enumeration value="current_config"/>
+        <xs:enumeration value="dyn_data"/>
+        <xs:enumeration value="local_machine"/>
+        <xs:enumeration value="performance_data"/>
+        <xs:enumeration value="users"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="value" type="xs:string"/>
+
+  <xs:simpleType name="os_type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Linux"/>
+      <xs:enumeration value="DOS"/>
+      <xs:enumeration value="OSX"/>
+      <xs:enumeration value="PS1"/>
+      <xs:enumeration value="PS2"/>
+      <xs:enumeration value="PS3"/>
+      <xs:enumeration value="PSP"/>
+      <xs:enumeration value="Windows"/>
+      <xs:enumeration value="WindowsXP"/>
+      <xs:enumeration value="WindowsVista"/>
+      <xs:enumeration value="Android"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:attribute name="os" type="os_type" />
+  <xs:attribute name="only_for" type="os_type" />
+
+  <xs:attribute name="platform">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Flash"/>
+        <xs:enumeration value="ScummVM"/>
+        <xs:enumeration value="SteamCloud"/>
+        <xs:enumeration value="UbisoftSaveStorage"/>
+        <xs:enumeration value="RenPy"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="media">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Steam"/>
+        <xs:enumeration value="Floppy"/>
+        <xs:enumeration value="CD"/>
+        <xs:enumeration value="GoG"/>
+        <xs:enumeration value="Download"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+  <xs:attribute name="type">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Settings"/>
+        <xs:enumeration value="Replays"/>
+        <xs:enumeration value="MODs"/>
+        <xs:enumeration value="Characters"/>
+        <xs:enumeration value="Statistics"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+
+
+  <!--attribute groups-->
+  <xs:attributeGroup name="playstation_code">
+    <xs:attribute name="prefix" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:length value="4"/>
+          <xs:pattern value="[A-Z]{4}"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+
+    <xs:attribute name="suffix" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:integer" >
+          <xs:pattern value="[0-9]{5}"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+
+    <xs:attribute name="type" type="xs:string" use="optional"/>
+    <xs:attribute name="disc" type="xs:integer" use="optional"/>
+    <xs:attribute name="append" type="path" use="optional"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="location_attributes">
+    <xs:attribute ref="only_for" use="optional"/>
+    <xs:attribute ref="deprecated" use="optional"/>
+    <xs:attributeGroup ref="append_detract" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="append_detract">
+    <xs:attribute name="append" type="path" use="optional"/>
+    <xs:attribute name="detract" type="path" use="optional"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="files">
+    <xs:attribute ref="path" use="optional"/>
+    <xs:attribute ref="filename" use="optional"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="dated_files">
+    <xs:attributeGroup ref="files"/>
+    <xs:attribute name="modified_after" use="optional" type="timestamp" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="item_attributes">
+    <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="deprecated" use="optional"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="version_identifiers">
+    <xs:attribute ref="os" use="optional"/>
+    <xs:attribute ref="platform" use="optional"/>
+    <xs:attribute ref="media" use="optional"/>
+    <xs:attribute ref="region" use="optional"/>
+    <xs:attribute name="release" type="safestring" use="optional" />
+    <xs:attribute name="type" type="safestring" use="optional" />
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="version_attributes">
+    <xs:attributeGroup ref="version_identifiers"/>
+    <xs:attribute ref="virtualstore" use="optional" />
+    <xs:attribute ref="detect" use="optional" />
+    <xs:attribute ref="deprecated" use="optional"/>
+  </xs:attributeGroup>
+
+  <!--complex elements-->
+
+  <xs:element name="shortcut">
+    <xs:complexType>
+      <xs:attribute ref="ev" use="required"/>
+      <xs:attribute ref="path" use="required"/>
+      <xs:attributeGroup ref="location_attributes" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="scummvm">
+    <xs:complexType>
+      <xs:attribute ref="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name="parent">
+    <xs:complexType>
+      <xs:attribute ref="name" use="required"/>
+      <xs:attributeGroup ref="version_identifiers"/>
+      <xs:attributeGroup ref="location_attributes" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="path">
+    <xs:complexType>
+      <xs:attribute ref="ev" use="required"/>
+      <xs:attribute ref="path" use="optional"/>
+      <xs:attributeGroup ref="location_attributes" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="include">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="exclude" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="dated_files" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="files">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="include" minOccurs="1" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="type" type="safestring" use="optional"/>
+    </xs:complexType>
+    <xs:unique name="uniqueIncludes">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@name"/>
+      <xs:field xpath="@path"/>
+    </xs:unique>
+  </xs:element>
+
+  <xs:element name="exclude">
+    <xs:complexType>
+      <xs:attributeGroup ref="files" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="registry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="entry" type="registry_entry" minOccurs="1" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="type" type="safestring" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name="ps_code">
+    <xs:complexType>
+      <xs:attributeGroup ref="playstation_code" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="identifier">
+    <xs:complexType>
+      <xs:attributeGroup ref="files" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="linkable">
+    <xs:complexType>
+      <xs:attribute ref="path" use="optional" />
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="locations">
+    <xs:complexType>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="registry" minOccurs="1" maxOccurs="unbounded" >
+          <xs:complexType>
+            <xs:complexContent>
+              <xs:extension base="registry_entry">
+                <xs:attributeGroup ref="location_attributes" />
+              </xs:extension>
+            </xs:complexContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="shortcut" minOccurs="1" maxOccurs="unbounded" />
+        <xs:element ref="parent" minOccurs="1" maxOccurs="unbounded" />
+        <xs:element ref="path" minOccurs="1" maxOccurs="unbounded" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name="version">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title" minOccurs="0" maxOccurs="1" />
+        <xs:choice>
+          <xs:sequence>
+            <xs:choice>
+              <xs:sequence>
+                <xs:element ref="scummvm" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="locations" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="files" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="registry" minOccurs="0" maxOccurs="unbounded"/>
+              </xs:sequence>
+              <xs:sequence>
+                <xs:element ref="locations" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="files" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="registry" minOccurs="0" maxOccurs="unbounded"/>
+              </xs:sequence>
+              <xs:element ref="registry" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:choice>
+            <xs:element ref="linkable" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element ref="identifier" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+          <xs:element ref="ps_code" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:choice>
+        <xs:element ref="comment" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="restore_comment" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="contributor" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="version_attributes"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="system" type="program">
+    <xs:unique name="uniqueSystemVersions">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@os"/>
+      <xs:field xpath="@platform"/>
+      <xs:field xpath="@media"/>
+      <xs:field xpath="@region"/>
+      <xs:field xpath="@release"/>
+    </xs:unique>
+  </xs:element>
+  <xs:element name="game" type="program_sequel">
+    <xs:unique name="uniqueGameVersions">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@os"/>
+      <xs:field xpath="@platform"/>
+      <xs:field xpath="@media"/>
+      <xs:field xpath="@region"/>
+      <xs:field xpath="@release"/>
+    </xs:unique>
+  </xs:element>
+  <xs:element name="mod" type="program_expansion">
+    <xs:unique name="uniqueModVersions">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@os"/>
+      <xs:field xpath="@platform"/>
+      <xs:field xpath="@media"/>
+      <xs:field xpath="@region"/>
+      <xs:field xpath="@release"/>
+    </xs:unique>
+  </xs:element>
+  <xs:element name="expansion" type="program_expansion">
+    <xs:unique name="uniqueExpansionVersions">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@os"/>
+      <xs:field xpath="@platform"/>
+      <xs:field xpath="@media"/>
+      <xs:field xpath="@region"/>
+      <xs:field xpath="@release"/>
+    </xs:unique>
+  </xs:element>
+
+  <xs:element name="programs">
+    <xs:complexType>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element ref="system" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="game" minOccurs="0" maxOccurs="unbounded"  />
+        <xs:element ref="mod" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="expansion" minOccurs="0" maxOccurs="unbounded" />
+      </xs:choice>
+      <xs:attribute name="majorVersion" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer" >
+            <xs:pattern value="2"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="minorVersion" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer" >
+            <xs:pattern value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="updated" type="timestamp" use="required"/>
+      <xs:anyAttribute processContents="skip"/>
+    </xs:complexType>
+    <xs:unique name="uniqueNames">
+      <xs:selector xpath="*" />
+      <xs:field xpath="@name"/>
+    </xs:unique>
+  </xs:element>
+</xs:schema>
+
+

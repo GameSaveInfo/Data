@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
+	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
+  <!-- Staging file for the adding of entries -->
+  
+
+  
+  <!--  
+  <game name="">
+    <title></title>
+    <version os="Windows">
+      <locations>
+        <path ev path=""/>
+        <registry root="local_machine" key="" value=""/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable/>
+      <contributor></contributor>
+    </version>
+  </game>
+   <game name="ThePath">
+    <title>The Path</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="The Path" />
+        <path ev="appdata" path="The Path" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+
+-->
+</programs>
