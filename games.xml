@@ -4383,8 +4383,8 @@
     <version os="Windows">
       <locations>
         <path ev="appdata" path="Red Alert 3 Uprising"/>
-        <path ev="savedgames" path="Red Alert 3 Uprising"/>
-        <path ev="userdocuments" path="Red Alert 3 Uprising"/>
+        <path ev="savedgames" path="Red Alert 3 Uprising" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Red Alert 3 Uprising" only_for="WindowsXP"/>
       </locations>
       <files>
         <include/>
@@ -7176,8 +7176,8 @@
     <title>Tom Clancy's EndWar</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Tom Clancy's EndWar"/>
-        <path ev="userdocuments" path="Tom Clancy's EndWar"/>
+        <path ev="savedgames" path="Tom Clancy's EndWar" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Tom Clancy's EndWar" only_for="WindowsXP"/>
       </locations>
       <files>
         <include/>
@@ -8801,9 +8801,9 @@
     <title>Gemini Rue</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Gemini Rue"/>
-        <path ev="steamcommon" path="gemini rue\Saves"/>
-        <path ev="userdocuments" path="My Saved Games\Gemini Rue"/>
+        <path ev="savedgames" path="Gemini Rue" only_for="WindowsVista"/>
+        <path ev="steamcommon" path="gemini rue\Saves" />
+        <path ev="userdocuments" path="My Saved Games\Gemini Rue" only_for="WindowsXP"/>
       </locations>
       <files>
         <include filename="agssave.*"/>
@@ -9994,7 +9994,7 @@
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="microsoft\halo 2"/>
-        <path ev="savedgames" path="Halo 2"/>
+        <path ev="savedgames" path="Halo 2" only_for="WindowsVista"/>
       </locations>
       <files>
         <include/>
@@ -10113,7 +10113,7 @@
     <title>Tom Clancy's H.A.W.X</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Tom Clancy's H.A.W.X"/>
+        <path ev="savedgames" path="Tom Clancy's H.A.W.X" only_for="WindowsVista"/>
       </locations>
       <files>
         <include/>
@@ -10126,7 +10126,7 @@
     <title>Tom Clancy's H.A.W.X 2</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Tom Clancy's H.A.W.X. 2"/>
+        <path ev="savedgames" path="Tom Clancy's H.A.W.X. 2" only_for="WindowsVista"/>
       </locations>
       <files>
         <include/>
@@ -11697,7 +11697,7 @@
     <title>Kuros</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Sandlot Games\Kuros"/>
+        <path ev="savedgames" path="Sandlot Games\Kuros" only_for="WindowsVista"/>
       </locations>
       <files>
         <include/>
@@ -16879,8 +16879,8 @@
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="Risen2"/>
-        <path ev="savedgames" path="Risen2"/>
-        <path ev="userdocuments" path="Saved Games\Risen2"/>
+        <path ev="savedgames" path="Risen2" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="Saved Games\Risen2" only_for="WindowsXP"/>
       </locations>
       <files>
         <include path="SaveGames"/>
@@ -17254,7 +17254,7 @@
     </version>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Ubisoft\RUSE"/>
+        <path ev="savedgames" path="Ubisoft\RUSE" only_for="WindowsVista"/>
       </locations>
       <files>
         <include/>
@@ -20411,7 +20411,7 @@
     <title>Sword of the Stars 2</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Sword of the Stars II"/>
+        <path ev="savedgames" path="Sword of the Stars II" only_for="WindowsVista"/>
       </locations>
       <files>
         <include/>
@@ -21675,8 +21675,8 @@
     <title>Two Worlds</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Two Worlds Saves"/>
-        <path ev="userdocuments" path="TwoWorlds Files"/>
+        <path ev="savedgames" path="Two Worlds Saves" only_for="WindowsVista"/>
+        <path ev="userdocuments" path="TwoWorlds Files" only_for="WindowsXP"/>
       </locations>
       <files>
         <include/>
@@ -22445,7 +22445,7 @@
     <title>Wargame: European Escalation</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="EugenSystems\WarGame"/>
+        <path ev="savedgames" path="EugenSystems\WarGame" only_for="WindowsVista"/>
       </locations>
       <files>
         <include/>
