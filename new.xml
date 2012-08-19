@@ -1,41 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
-	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
-  <!-- Staging file for the adding of entries -->
-  
-
-  
-  <!--  
-  <game name="">
-    <title></title>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd" majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
+  <game name="ArtOfMurderFBIConfidential">
+    <title>Art of Murder - FBI Confidential</title>
     <version os="Windows">
       <locations>
-        <path ev path=""/>
-        <registry root="local_machine" key="" value=""/>
+        <path ev="savedgames" path="Art of Murder FBI Confidential" />
       </locations>
       <files>
         <include />
       </files>
-      <linkable/>
-      <contributor></contributor>
+      <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-   <game name="ThePath">
-    <title>The Path</title>
+  <game name="Bobby">
+    <title>Bobby</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="The Path" />
-        <path ev="appdata" path="The Path" />
+        <path ev="appdata" path="Nooskewl\Bobby"/>
       </locations>
       <files>
-        <include />
+        <include/>
       </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
+      <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-
-
--->
+  <game name="Bounce">
+    <title>Bounce!</title>
+    <version os="Windows">
+      <locations>
+        <shortcut ev="startmenu" path="Bounce!.lnk"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <linkable path="Save"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="CriminalMinds">
+    <title>Criminal Minds</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="LegacyInteractive\CriminalMinds" />
+      </locations>
+      <files>
+        <include filename="cm.dat" />
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="DeadlyAssociation">
+    <title>Deadly Association</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Hidden Objects DeadlyAssociation" />
+      </locations>
+      <files>
+        <include filename="*.profile*.sav"/>
+      </files>
+      <files type="Settings">
+        <include filename="*.options.sav"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="Pulsen">
+    <title>Pulsen</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Pulsen"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <linkable path="Save"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
 </programs>
