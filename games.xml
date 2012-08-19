@@ -3704,7 +3704,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Ceville" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+  <game name="Ceville" added="1955-11-05T00:00:00" updated="2012-08-19T18:08:00">
     <title>Ceville</title>
     <version os="Windows">
       <locations>
@@ -3713,8 +3713,12 @@
       <files>
         <include path="save"/>
       </files>
-      <linkable/>
+      <files type="Settings">
+        <include filename="config.cfg"/>
+      </files>
+      <linkable path="save"/>
       <contributor>slake_jones</contributor>
+      <contributor>AdmiringWorm</contributor>
     </version>
   </game>
   <game name="Chantelise" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
@@ -15304,14 +15308,17 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
-  <game name="PokerNightAtTheInventory" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+  <game name="PokerNightAtTheInventory" added="1955-11-05T00:00:00" updated="2012-08-19T18:25:00">
     <title>Poker Night at the Inventory</title>
     <version os="Windows">
       <locations>
         <path ev="userdocuments" path="Telltale Games\Poker Night at the Inventory"/>
       </locations>
       <files>
-        <include/>
+        <include filename="*.save"/>
+      </files>
+      <files type="Settings">
+        <include filename="prefs.prop"/>
       </files>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -18768,20 +18775,24 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
-  <game name="SniperEliteV2" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20">
+  <game name="SniperEliteV2" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20" follows="SniperElite">
     <title>Sniper Elite V2</title>
     <version os="Windows">
       <locations>
         <path ev="localappdata" path="SniperV2"/>
       </locations>
       <files>
-        <include/>
+        <include path="PC_ProfileSaves"/>
       </files>
+	  <files type="Settings">
+		<include filename="Settings.ini"/>
+	  </files>
       <linkable/>
       <contributor>Arc Angel</contributor>
+	  <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="SniperGhostWarrior" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+  <game name="SniperGhostWarrior" added="1955-11-05T00:00:00" updated="2012-08-19T16:41:00">
     <title>Sniper: Ghost Warrior</title>
     <version os="Windows">
       <locations>
@@ -18791,7 +18802,11 @@
         <include path="out\profiles"/>
         <include path="out\save"/>
       </files>
+	  <files type="Settings">
+		<include path="out\Settings"/>
+	  </files>
       <contributor>Arc Angel</contributor>
+	  <contributor>AdmiringWorm</contributor>
     </version>
   </game>
   <game name="Solar2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">

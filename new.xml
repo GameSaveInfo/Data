@@ -64,6 +64,20 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="DriftCity">
+    <title>Drift City</title>
+    <version os="Windows" release="GamesCampus">
+      <locations>
+        <path ev="installlocation" path="GamesCampus\DriftCity"/>
+        <registry root="local_machine" key="SOFTWARE\DriftCity" value="Install_Dir_US"/>
+      </locations>
+      <files type="Settings">
+        <include path="Data\Init"/>
+      </files>
+      <linkable path="Data\Init"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="Pulsen">
     <title>Pulsen</title>
     <version os="Windows">

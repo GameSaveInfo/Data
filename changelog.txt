@@ -591,6 +591,10 @@ Updated Windows Games:
 * Dragonshard - Corrected, was completely wrong
 * Updated games through J where applicable to have link paths
 * Tweaked a lot of games to try to increase compatability with GameSaveManager
+* Ceville - Added Settings type - Contributed by AdmiringWorm
+* Poker Night at the Inventory - Added Settings type - Contributed by AdmiringWorm
+* Sniper Elite V2 - Added Settings type - Contributed by AdmiringWorm
+* Sniper: Ghost Warrior - Added Settings type - Contributed by AdmiringWorm
 =2012/7/31=
 New Windows Games:
 * The 11th Hour (GoG only)
