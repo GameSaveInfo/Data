@@ -1,6 +1,9 @@
 Game to look into: DiRT, The PATH
 =Upcoming=
 New Windows Games:
+*Resonance - Contributed by mathieu.lacam
+=8/16/2012=
+New Windows Games:
 Contributed by Arc Angel:
 * Avernum Escape From the Pit
 * Binary Domain

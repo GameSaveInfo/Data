@@ -35,7 +35,20 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-
-
 -->
+  <game name="Resonance">
+    <title>Resonance</title>
+    <version os="Windows">
+      <locations>
+        <path ev="savedgames" path="Resonance" only_for="WindowsVista"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable/>
+      <contributor>mathieu.lacam</contributor>
+    </version>
+  </game>
+
+
 </programs>
