@@ -2,7 +2,10 @@
 <programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
 	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
-  <!-- Staging file for the adding of entries -->
+  <!-- Staging file for the adding of entries 
+      This is the ONLY XML file that can provide duplicate entries without causing an error,
+      The entries in this file will OVERRIDE the entries in ALL other files
+  -->
   
 
   
