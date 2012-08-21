@@ -289,7 +289,7 @@
     <title>Dungeons" The Dark Lord</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Kalypso Media/Dungeons - The Dark Lord" />
+        <path ev="appdata" path="Kalypso Media\Dungeons - The Dark Lord" />
       </locations>
       <files >
         <include path="savegames" />
