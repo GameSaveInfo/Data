@@ -545,6 +545,206 @@
     </version>
   </game>
 
+  <game name="Cogs">
+    <title>Cogs</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="26500"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="DarkestOfDays">
+    <title>Darkest Of Days</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Darkest of Days"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3D6293F2-53DA-45A1-B7F4-1843CA3B2658}" value="InstallLocation"/>
+        <shortcut ev="startmenu" path="Programs\Games\Darkest of Days\Play Darkest of Days.lnk"/>
+        <path ev="steamcommon" path="Darkest of Days" />
+      </locations>
+      <files>
+        <include path="base\save"/>
+      </files>
+      <linkable path="base\save"/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="DogFighter" added="1955-11-05T00:00:00">
+    <title>DogFighter</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="42500"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="DriverSanFrancisco" follows="DriverParallelLines" added="1955-11-05T00:00:00">
+    <title>Driver San Francisco</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Ubisoft\Driver San Francisco"/>
+      </locations>
+      <files>
+        <include>
+          <exclude filename="*.replay"/>
+          <exclude path="temp"/>
+        </include>
+      </files>
+      <files type="Replays">
+        <include filename="*.replay"/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+
+  <game name="FinalFantasy7" follows="FinalFantasy4" added="1955-11-05T00:00:00">
+    <title>Final Fantasy VII</title>
+    <version os="Windows" release="2012">
+      <locations>
+        <path ev="userdocuments" path="Square Enix\FINAL FANTASY VII" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+
+  <game name="FromDust" added="1955-11-05T00:00:00">
+    <title>From Dust</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Dust"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+
+  <game name="HardReset" added="1955-11-05T00:00:00">
+    <title>Hard Reset</title>
+    <version os="Windows" release="Extended">
+      <title>Hard Reset: Extended Edition</title>
+      <locations>
+        <path ev="userdocuments" path="Hard Reset Extended"/>
+      </locations>
+      <files>
+        <include filename="profiles.cfg"/>
+        <include path="profiles"/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+
+  <game name="HAWX2" added="1955-11-05T00:00:00">
+    <title>Tom Clancy's H.A.W.X 2</title>
+    <version platform="UbisoftSaveStorage">
+      <locations>
+        <path ev="ubisoftsavestorage" path="21"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <expansion name="RomeTotalWarAlexander" for="RomeTotalWar" added="1955-11-05T00:00:00">
+    <title>Rome: Total War: Alexander</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\The Creative Assembly\Rome - Total War - Alexander add-on" value="InstallPath" append="alexander"/>
+        <parent name="RomeTotalWar" os="Windows" append="alexander"/>
+        <path ev="steamcommon" path="Rome Total War Alexander"/>
+      </locations>
+      <files>
+        <include path="saves"/>
+      </files>
+      <files type="Settings">
+        <include path="preferences"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </expansion>
+
+  <game name="Sanctum" added="1955-11-05T00:00:00">
+    <title>Sanctum</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="91600"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="ThemeHospital" added="1955-11-05T00:00:00">
+    <title>Theme Hospital</title>
+    <version os="DOS">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Theme Hospital"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHEMEHOSPITAL" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Theme Hospital\Theme Hospital.lnk" detract="DOSBOX"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>ctristan</contributor>
+    </version>
+  </game>
+  
+  <game name="TimeShift" added="1955-11-05T00:00:00">
+    <title>TimeShift</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Sierra Entertainment\TimeShift"/>
+        <path ev="steamcommon" path="Timeshift"/>
+        <registry root="local_machine" key="SOFTWARE\Sierra Entertainment\TimeShift\1.00.000" value="PathToEXE"/>
+      </locations>
+      <files>
+        <include path="UserConfigs"/>
+      </files>
+      <linkable path="UserConfigs"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="ZombieDriver" added="1955-11-05T00:00:00">
+    <title>Zombie Driver</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="31410"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
 
 
 </programs>
