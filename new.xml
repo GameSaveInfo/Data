@@ -35,6 +35,22 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
+    <game name="DarksidersII">
+    <title>Darksiders II</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Darksiders2" />
+        <path ev="localappdata" path="Darksiders2" />
+      </locations>
+      <files>
+        <include />
+        <include />
+      </files>
+      <linkable />
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
 -->
   <game name="Resonance">
     <title>Resonance</title>
@@ -49,6 +65,486 @@
       <contributor>mathieu.lacam</contributor>
     </version>
   </game>
+
+  <game name="JULIA">
+    <title>J.U.L.I.A.</title>
+    <version os="Windows">
+      <locations>
+        <path ev="savedgames" path="J.U.L.I.A." only_for="WindowsVista"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="RollerCoasterRampage">
+    <title>Roller Coaster Rampage</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="209610"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="XBeyondTheFrontier">
+    <title>X: Beyond the Frontier</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="x beyond the frontier"/>
+      </locations>
+      <files>
+        <include filename="*.sav" />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="DivineDivinity">
+    <title>Divine Divinity</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="divine_divinity"/>
+      </locations>
+      <files>
+        <include path="savegames" />
+      </files>
+      <linkable path="savegames"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="GameOfThronesGenesis">
+    <title>Game of Thrones: Genesis</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Agot"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="CostumeQuest">
+    <title>Costume Quest</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="115100"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="Firestorm">
+    <title>Firestorm</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Firestorm"/>
+      </locations>
+      <files>
+        <include>
+          <exclude path="browser_profile"/>
+          <exclude path="logs"/>
+        </include>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="AllZombiesMustDie">
+    <title>All Zombies Must Die!</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\UnrealEngine3\Bzb2Game" />
+      </locations>
+      <files>
+        <include>
+          <exclude filename="Logs" />
+        </include>
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="ChoplifterHD">
+    <title>Choplifter HD</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\UnrealEngine3\ChopGame" />
+      </locations>
+      <files>
+        <include path="SaveData" />
+      </files>
+      <linkable path="SaveData"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  
+  <game name="CrashTime2BurningWheels">
+    <title>Crash Time 2 - Burning Wheels</title>
+    <version os="Windows">
+      <locations>
+        <path ev="commonapplicationdata" path="Synetic\BurningWheels" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="CrashTime3HighwayNights">
+    <title>Crash Time 3 - Highway Nights</title>
+    <version os="Windows">
+      <locations>
+        <path ev="commonapplicationdata" path="Synetic\HighwayNights" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  
+
+  <game name="DeathRally">
+    <title>Death Rally</title>
+    <version os="Windows">
+      <locations>
+        <path ev="commonapplicationdata" path="Remedy\Death Rally\1.0" />
+      </locations>
+      <files>
+        <include path="Profiles" />
+      </files>
+      <linkable path="Profiles" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="DiabloIII">
+    <title>Diablo III</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Diablo III" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="DisciplesIIGalleansReturn">
+    <title>Disciples II: Gallean's Return</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="disciples ii galleans return" />
+      </locations>
+      <files>
+        <include path="SaveGame" />
+      </files>
+      <linkable path="SaveGame" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="DisciplesIIRiseOfTheElves">
+    <title>Disciples II: Rise of the Elves</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="disciples ii rise of the elves" />
+      </locations>
+      <files>
+        <include path="SaveGame" />
+      </files>
+      <linkable path="SaveGame" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Dungeons">
+    <title>Dungeons</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Kalypso Media\Dungeons" />
+      </locations>
+      <files>
+        <include path="savegames" />
+      </files>
+      <linkable path="savegames" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="DungeonsTheDarkLord">
+    <title>Dungeons" The Dark Lord</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Kalypso Media/Dungeons - The Dark Lord" />
+      </locations>
+      <files >
+        <include path="savegames" />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="EuroTruckSimulator">
+    <title>Euro Truck Simulator</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Euro Truck Simulator" />
+      </locations>
+      <files>
+        <include>
+          <exclude filename="*.crash" />
+          <exclude filename="*.log" />
+        </include>
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="EvochronMercenary">
+    <title>Evochron Mercenary</title>
+    <version os="Windows">
+      <locations>
+        <path ev="drive" path="sw3dg\EvochronMercenary" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  
+  <game name="FullSpectrumWarrior">
+    <title>Full Spectrum Warrior</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="full spectrum warrior" />
+      </locations>
+      <files>
+        <include path="Saves" />
+      </files>
+      <linkable path="Saves" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="FullSpectrumWarriorTenHammers">
+    <title>Full Spectrum Warrior: Ten Hammers</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="FSW2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="GratuitousTankBattles">
+    <title>Gratuitous Tank Battles</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\GratuitousTankBattles" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="HackerEvolutionUntold">
+    <title>Hacker Evolution: Untold</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="hacker evolution untold" />
+      </locations>
+      <files>
+        <include path="heuntold-savegames" />
+      </files>
+      <linkable path="heuntold-savegames" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="HOARD">
+    <title>HOARD</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="63000" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="IceAge2">
+    <title>Ice Age 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Ice Age 2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="IceAge4ContinentalDrift">
+    <title>Ice Age 4: Continental Drift</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Activision\IceAge4" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="MagicTheGatheringDuelsOfThePlaneswalkers">
+    <title>Magic: The Gathering - Duels of the Planeswalkers</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="49400" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="OrcsMustDie2">
+    <title>Orcs Must Die! 2</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="201790" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="OrderOfWar">
+    <title>Order of War</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="ORDER OF WAR" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="OrderOfWarChallenge">
+    <title>Order of War: Challenge</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="order of war - challenge" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="SleepingDogs">
+    <title>Sleeping Dogs</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="SleepingDogs" />
+      </locations>
+      <files>
+        <include path="Data" filename="HK*" />
+      </files>
+      <linkable path="Data" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="SoldiersHeroesOfWorldWarII">
+    <title>Soldiers: Heroes of World War II</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="soldiers heroes of world war 2" />
+      </locations>
+      <files>
+        <include path="profiles" />
+      </files>
+      <linkable path="profiles" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="SpaceSiege">
+    <title>Space Siege</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Space Siege" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Symphony">
+    <title>Symphony</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Empty Clip Studios\Symphony" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="TwoWorlds2CastleDefense">
+    <title>Two Worlds 2: Castle Defense</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="TW2CD" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="UnstoppableGorg">
+    <title>Unstoppable Gorg</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="18120" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
 
 
 </programs>

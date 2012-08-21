@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameSaveManager_DatabaseUpdate version="7" build="2012-07-30_01">
+<GameSaveManager_DatabaseUpdate version="7" build="2012-08-20_02">
 	<entry new="true" id="1">
 		<title>1... 2... 3... KICK IT! (Drop That Beat Like an Ugly Baby)</title>
 		<backupwarning></backupwarning>
@@ -162,6 +162,16 @@
 				<path specialpath="%STEAM%">steamapps/common/ai war fleet command/Save</path>
 				<reg>
 					<hive></hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1608">
+				<path specialpath="%STEAM%">steamapps/common/ai war fleet command/RuntimeData/Save</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
@@ -1136,6 +1146,16 @@
 				<path specialpath="%DOCUMENTS%">Anomaly Warzone Earth</path>
 				<reg>
 					<hive></hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1609">
+				<path specialpath="%STEAM_CLOUD%">91200</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
@@ -4087,6 +4107,16 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1612">
+				<path specialpath="%STEAM_CLOUD%">26500</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="217">
@@ -4286,6 +4316,16 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1613">
+				<path specialpath="%SAVED_GAMES%">Command and Conquer 3 Tiberium Wars</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="224">
@@ -4324,6 +4364,16 @@
 				<path specialpath="%APPDATA%">Command and Conquer 4</path>
 				<reg>
 					<hive></hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1614">
+				<path specialpath="%SAVED_GAMES%">Command and Conquer 4</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
@@ -5951,6 +6001,16 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1619">
+				<path specialpath="%STEAM_CLOUD%">42500</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="310">
@@ -6205,12 +6265,12 @@
 			<dir id="398">
 				<path specialpath="%DOCUMENTS%">Ubisoft/Driver San Francisco</path>
 				<reg>
-					<hive></hive>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
 				<include>*.*</include>
-				<exclude></exclude>
+				<exclude>*.replay|temp\*.*</exclude>
 			</dir>
 		</directories>
 	</entry>
@@ -9558,18 +9618,18 @@
 		</directories>
 	</entry>
 	<entry new="true" id="501">
-		<title>Hitman: Codename 47 (STEAM Edition)</title>
+		<title>Hitman: Codename 47</title>
 		<backupwarning></backupwarning>
 		<restorewarning></restorewarning>
 		<directories>
 			<dir id="608">
 				<path specialpath="%STEAM%">steamapps/common/hitman codename 47</path>
 				<reg>
-					<hive></hive>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
-				<include>hitman.cfg\n*.sav\nhitman.ini</include>
+				<include>*.cfg|*.sav|*.ini</include>
 				<exclude></exclude>
 			</dir>
 		</directories>
@@ -9807,6 +9867,16 @@
 				<path specialpath="%DOCUMENTS%">atari/Fahrenheit Profile</path>
 				<reg>
 					<hive></hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1583">
+				<path specialpath="%DOCUMENTS%">Atari/Indigo Prophecy Profile</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
@@ -11177,7 +11247,7 @@
 		</directories>
 	</entry>
 	<entry new="true" id="588">
-		<title>Madballs in Babo Invasion (STEAM Edition)</title>
+		<title>Madballs in Babo Invasion</title>
 		<backupwarning></backupwarning>
 		<restorewarning></restorewarning>
 		<directories>
@@ -11189,6 +11259,16 @@
 					<value></value>
 				</reg>
 				<include>*.hdb</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1635">
+				<path specialpath="%STEAM_CLOUD%">25700</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
 		</directories>
@@ -14685,6 +14765,16 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1647">
+				<path specialpath="%STEAM%">steamapps/common/Quake 4/q4base/savegames</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="771">
@@ -15723,6 +15813,16 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1627">
+				<path specialpath="%STEAM%">steamapps/common/Rome Total War Alexander/saves</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="825">
@@ -16563,6 +16663,16 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1648">
+				<path specialpath="%STEAM_CLOUD%">91600</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="865">
@@ -16955,7 +17065,7 @@
 				<exclude></exclude>
 			</dir>
 			<dir id="1547">
-				<path specialpath="%DOCUMENTS%">My Games/Shank 2/users</path>
+				<path specialpath="%DOCUMENTS%">My Games/Shank 2</path>
 				<reg>
 					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
@@ -16975,6 +17085,16 @@
 				<path specialpath="%APPDATA_LOCAL%">Sidhe/SH</path>
 				<reg>
 					<hive></hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1651">
+				<path specialpath="%STEAM_CLOUD%">20820</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
@@ -17508,9 +17628,9 @@
 		<restorewarning></restorewarning>
 		<directories>
 			<dir id="1115">
-				<path specialpath="%STEAM_CACHE%">sin episodes emergence</path>
+				<path specialpath="%STEAM_CACHE%">sin episodes emergence/SE1/SAVE</path>
 				<reg>
-					<hive></hive>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
@@ -20000,12 +20120,12 @@
 			<dir id="1273">
 				<path specialpath="%DOCUMENTS%">My Games/Skyrim</path>
 				<reg>
-					<hive></hive>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
 				<include>*.*</include>
-				<exclude></exclude>
+				<exclude>*.bak|SKSE\*.*</exclude>
 			</dir>
 		</directories>
 	</entry>
@@ -20920,6 +21040,16 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1657">
+				<path specialpath="%STEAM_CLOUD%">20920</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="1082">
@@ -21154,6 +21284,26 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1600">
+				<path specialpath="%APPDATA_LOCAL%">VirtualStore/Program Files (x86)/Sierra Entertainment/TimeShift/UserConfigs</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1656">
+				<path specialpath="%STEAM%">steamapps/common/Timeshift/UserConfigs</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="1094">
@@ -21354,8 +21504,8 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
-			<dir id="1526">
-				<path specialpath="%APPDATA_LOCAL%">GRAW 2</path>
+			<dir id="1597">
+				<path specialpath="%APPDATA_LOCAL%">GRAW2/settings</path>
 				<reg>
 					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
@@ -21392,6 +21542,16 @@
 				<path specialpath="%SAVED_GAMES%">Tom Clancy's H.A.W.X. 2</path>
 				<reg>
 					<hive></hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1658">
+				<path specialpath="%UPLAY%">21</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
@@ -22292,6 +22452,26 @@
 					<value>InstallLocation</value>
 				</reg>
 				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1629">
+				<path specialpath="%DOCUMENTS%">SteamApps/common/Unreal II The Awakening</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude>*.usa</exclude>
+			</dir>
+			<dir id="1649">
+				<path specialpath="%STEAM%">steamapps/common/Unreal II The Awakening</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.usa|*.ini</include>
 				<exclude></exclude>
 			</dir>
 		</directories>
@@ -23372,6 +23552,16 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1603">
+				<path specialpath="%REGISTRY%">Screenshots</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path>Software/Blizzard Entertainment/World of Warcraft</path>
+					<value>InstallPath</value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="1208">
@@ -23753,6 +23943,16 @@
 				<path specialpath="%APPDATA%">ZombieDriver</path>
 				<reg>
 					<hive></hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1662">
+				<path specialpath="%STEAM_CLOUD%">31410</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
 					<value></value>
 				</reg>
@@ -24704,6 +24904,16 @@
 				<include>*.*</include>
 				<exclude></exclude>
 			</dir>
+			<dir id="1589">
+				<path specialpath="%DOCUMENTS%">Dust</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
 		</directories>
 	</entry>
 	<entry new="true" id="1280">
@@ -24849,6 +25059,1063 @@
 		<directories>
 			<dir id="1581">
 				<path specialpath="%DOCUMENTS%">Activision/Prototype 2</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1289">
+		<title>Bus Driver</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1582">
+				<path specialpath="%DOCUMENTS%">Bus Driver</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1290">
+		<title>J.U.L.I.A.</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1584">
+				<path specialpath="%SAVED_GAMES%">J.U.L.I.A.</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1291">
+		<title>Star Wars: Battlefront II</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1585">
+				<path specialpath="%REGISTRY%">GameData/SaveGames</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path>SOFTWARE/Wow6432Node/Microsoft/Windows/CurrentVersion/Uninstall/{2EF34761-F147-4984-8AF1-BB9F8DA76CDD}_is1</path>
+					<value>InstallLocation</value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1292">
+		<title>Binary Domain</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1586">
+				<path specialpath="%STEAM%">steamapps/common/binary domain/savedata</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1293">
+		<title>Roller Coaster Rampage</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1587">
+				<path specialpath="%STEAM_CLOUD%">209610</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1295">
+		<title>X: Beyond the Frontier</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1588">
+				<path specialpath="%STEAM%">steamapps/common/x beyond the frontier</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.sav</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1296">
+		<title>Divine Divinity</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1590">
+				<path specialpath="%DOCUMENTS%">steamapps/common/divine_divinity/savegames</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1297">
+		<title>Game of Thrones: Genesis</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1591">
+				<path specialpath="%DOCUMENTS%">Agot</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1298">
+		<title>Hard Reset Extended</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1592">
+				<path specialpath="%DOCUMENTS%">Hard Reset Extended</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1299">
+		<title>Space Rangers 2</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1593">
+				<path specialpath="%REGISTRY%">save</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path>SOFTWARE/Wow6432Node/Microsoft/Windows/CurrentVersion/Uninstall/Space Rangers 2</path>
+					<value>InstallLocation</value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1300">
+		<title>Temple Of Elemental Evil</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1594">
+				<path specialpath="%REGISTRY%">modules/ToEE/Save</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path>SOFTWARE/Wow6432Node/GOG.com/GOGTEMPLEOFELEMENTAEVIL</path>
+					<value>SAVEGAMEFOLDER</value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1301">
+		<title>Elemental: War of Magic</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1595">
+				<path specialpath="%DOCUMENTS%">My Games/Elemental/Saves</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1302">
+		<title>Costume Quest</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1596">
+				<path specialpath="%STEAM_CLOUD%">115100</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1303">
+		<title>Forgotten Realms: Demon Stone (GOG Edition)</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1598">
+				<path specialpath="%REGISTRY%"></path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path>SOFTWARE/Wow6432Node/GOG.com/GOGDEMONSTONE</path>
+					<value>SaveGameFolder</value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1599">
+				<path specialpath="%APPDATA_LOCAL%">irtualStore/Program Files (x86)/GOG.com/Demon Stone</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1304">
+		<title>Firestorm</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1601">
+				<path specialpath="%APPDATA%">Firestorm</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude>browser_profile\*.*|logs\*.*</exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1305">
+		<title>Choplifter HD</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1602">
+				<path specialpath="%DOCUMENTS%">My Games/UnrealEngine3/ChopGame/SaveData</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1306">
+		<title>Death Rally</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1604">
+				<path specialpath="%APPDATA_COMMON%">Remedy/Death Rally/1.0/Profiles</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1307">
+		<title>All Zombies Must Die!</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1605">
+				<path specialpath="%DOCUMENTS%">My Games/UnrealEngine3/Bzb2Game</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude>Logs\*.*</exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1308">
+		<title>Euro Truck Simulator</title>
+		<backupwarning>May contain large mod files (*.scs)</backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1606">
+				<path specialpath="%DOCUMENTS%">Euro Truck Simulator</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude>*.crash|*.log</exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1309">
+		<title>4x4 Hummer</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1607">
+				<path specialpath="%STEAM%">steamapps/common/4x4 hummer/Data/profiles</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1310">
+		<title>Blood Bowl</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1610">
+				<path specialpath="%DOCUMENTS%">BloodBowl</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1311">
+		<title>Classic Car Racing</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1611">
+				<path specialpath="%STEAM%">steamapps/common/classic car racing/Data/profiles</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1312">
+		<title>Crash Time 2 - Burning Wheels</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1615">
+				<path specialpath="%APPDATA_COMMON%">Synetic/BurningWheels</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1313">
+		<title>Crash Time 3 - Highway Nights</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1616">
+				<path specialpath="%APPDATA_COMMON%">Synetic/HighwayNights</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1314">
+		<title>Disciples II: Gallean's Return</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1617">
+				<path specialpath="%STEAM_CACHE%">disciples ii galleans return/SaveGame</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1315">
+		<title>Disciples II: Rise of the Elves</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1618">
+				<path specialpath="%STEAM_CACHE%">disciples ii rise of the elves/SaveGame</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1316">
+		<title>Front Mission Evolved</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1620">
+				<path specialpath="%STEAM_CLOUD%">43000</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1317">
+		<title>Full Spectrum Warrior</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1621">
+				<path specialpath="%STEAM%">steamapps/common/full spectrum warrior/Saves</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1318">
+		<title>Full Spectrum Warrior: Ten Hammers</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1622">
+				<path specialpath="%APPDATA%">FSW2</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1319">
+		<title>Gratuitous Tank Battles</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1623">
+				<path specialpath="%DOCUMENTS%">My Games/GratuitousTankBattles</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1320">
+		<title>Hacker Evolution</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1624">
+				<path specialpath="%STEAM%">steamapps/common/hacker evolution/he-savegames</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1321">
+		<title>Hacker Evolution: Untold</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1625">
+				<path specialpath="%STEAM%">steamapps/common/hacker evolution untold/heuntold-savegames</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1322">
+		<title>HOARD</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1626">
+				<path specialpath="%STEAM_CLOUD%">63000</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1323">
+		<title>Rome: Total War Gold</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1628">
+				<path specialpath="%STEAM%">steamapps/common/Rome Total War Gold/saves</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1324">
+		<title>I-Fluid</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1630">
+				<path specialpath="%STEAM%">steamapps/Common/i-fluid/Res</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.dlu</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1325">
+		<title>Darksiders II</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1631">
+				<path specialpath="%DOCUMENTS%">My Games/Darksiders2</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+			<dir id="1632">
+				<path specialpath="%APPDATA_LOCAL%">Darksiders2</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1326">
+		<title>Ice Age 2</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1633">
+				<path specialpath="%APPDATA%">Ice Age 2</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1328">
+		<title>Legendary</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1634">
+				<path specialpath="%DOCUMENTS%">My Games/Legendary</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1329">
+		<title>Magic: The Gathering - Duels of the Planeswalkers</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1636">
+				<path specialpath="%STEAM_CLOUD%">49400</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1330">
+		<title>Black Mirror 2</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1637">
+				<path specialpath="%DOCUMENTS%">BlackMirror2</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1331">
+		<title>Final Fantasy VII</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1638">
+				<path specialpath="%DOCUMENTS%">Square Enix/FINAL FANTASY VII</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1332">
+		<title>Dungeons</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1639">
+				<path specialpath="%APPDATA%">Kalypso Media/Dungeons/savegames</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1333">
+		<title>Dungeons - The Dark Lord</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1640">
+				<path specialpath="%APPDATA%">Kalypso Media/Dungeons - The Dark Lord/savegames</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1334">
+		<title>Manhunt</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1641">
+				<path specialpath="%DOCUMENTS%">Manhunt User Files</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1335">
+		<title>Orcs Must Die! 2</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1642">
+				<path specialpath="%STEAM_CLOUD%">201790</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1336">
+		<title>Order of War</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1643">
+				<path specialpath="%DOCUMENTS%">ORDER OF WAR</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1337">
+		<title>Order of War - Challenge</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1644">
+				<path specialpath="%DOCUMENTS%">order of war - challenge</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1338">
+		<title>Sleeping Dogs</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1645">
+				<path specialpath="%STEAM%">steamapps/common/SleepingDogs/Data</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>HK *.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1339">
+		<title>Darkest of Days</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1646">
+				<path specialpath="%STEAM%">steamapps/common/Darkest of Days/base/save</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1340">
+		<title>Shadow Harvest</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1650">
+				<path specialpath="%DOCUMENTS%">Shadow Harvest</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1341">
+		<title>Soldiers: Heroes of World War II</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1652">
+				<path specialpath="%STEAM%">steamapps/common/soldiers heroes of world war 2/profiles</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1342">
+		<title>Space Siege</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1653">
+				<path specialpath="%DOCUMENTS%">My Games/Space Siege</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1343">
+		<title>Supreme Commander</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1654">
+				<path specialpath="%APPDATA_LOCAL%">Gas Powered Games/SupremeCommander</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1344">
+		<title>Supreme Commander: Forged Alliance</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1655">
+				<path specialpath="%DOCUMENTS%">My Games/Gas Powered Games/Supreme Commander Forged Alliance</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1345">
+		<title>Evochron Mercenary</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1659">
+				<path specialpath="">C:/sw3dg/EvochronMercenary</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1346">
+		<title>Two Worlds 2 - Castle Defense</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1660">
+				<path specialpath="%APPDATA_LOCAL%">TW2CD</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1347">
+		<title>X3: Reunion</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1661">
+				<path specialpath="%DOCUMENTS%">Egosoft/X3</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1348">
+		<title>Unstoppable Gorg</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1663">
+				<path specialpath="%STEAM_CLOUD%">18120</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1349">
+		<title>Diablo III</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1664">
+				<path specialpath="%DOCUMENTS%">Diablo III</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1350">
+		<title>Ice Age 4. Continental Drift</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1665">
+				<path specialpath="%DOCUMENTS%">Activision/IceAge4</path>
+				<reg>
+					<hive>HKEY_LOCAL_MACHINE</hive>
+					<path></path>
+					<value></value>
+				</reg>
+				<include>*.*</include>
+				<exclude></exclude>
+			</dir>
+		</directories>
+	</entry>
+	<entry new="true" id="1351">
+		<title>Symphony</title>
+		<backupwarning></backupwarning>
+		<restorewarning></restorewarning>
+		<directories>
+			<dir id="1666">
+				<path specialpath="%APPDATA%">Empty Clip Studios/Symphony</path>
 				<reg>
 					<hive>HKEY_LOCAL_MACHINE</hive>
 					<path></path>
