@@ -1,5 +1,8 @@
 Game to look into: DiRT, The PATH
 =Upcoming=
+
+
+=8/27/2012=
 * Resonance - Contributed by mathieu.lacam
 * Theme Hospital - Better info from ctristan
 From simtech:
@@ -60,7 +63,6 @@ From GameSaveManager:
 * Unstoppable Gorg
 * X: Beyond the Frontier
 * Zombie Driver - Added steam cloud info
-
 
 =8/16/2012=
 New Windows Games:
