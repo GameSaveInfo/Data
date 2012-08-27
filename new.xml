@@ -758,4 +758,26 @@
   </game>
 
 
+  <game name="HackerEvolution" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Hacker Evolution</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Hacker Evolution"/>
+        <registry root="local_machine" key="SOFTWARE\Stardock\Drengin.net\hev" value="Path"/>
+        <shortcut ev="startmenu" path="Programs\Games\Hacker Evolution.lnk"/>
+        <path ev="steamcommon" path="hacker evolution"/>
+      </locations>
+      <files>
+        <include path="he-savegames" filename="*.profile"/>
+      </files>
+      <files type="Settings">
+        <include path="he-data"/>
+      </files>
+      <linkable path="he-savegames"/>
+      <contributor>AdmiringWorm</contributor>
+      <contributor>simtech76</contributor>
+    </version>
+  </game>
+
+
 </programs>
