@@ -779,5 +779,53 @@
     </version>
   </game>
 
+  <game name="FormulaOne">
+    <title>Formula One</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="FormulaOne"/>
+      </locations>
+      <files>
+        <include path="savegame"/>
+      </files>
+      <files type="Settings">
+        <include path="hardwaresettings"/>
+      </files>
+      <linkable />
+      <contributor>simtech76</contributor>
+    </version>
+  </game>
+
+  <game name="Section8" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Section 8</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Section8"/>
+      </locations>
+      <files>
+        <include path="S8Game\Config"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+      <contributor>simtech76</contributor>
+    </version>
+  </game>
+
+
+  <game name="GratuitousSpaceBattles" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Gratuitous Space Battles</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\GratuitousSpaceBattles"/>
+      </locations>
+      <files>
+        <include filename="*"/>
+        <include path="deployments"/>
+        <include path="campaignprogress"/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+      <contributor>simtech76</contributor>
+    </version>
+  </game>
 
 </programs>
