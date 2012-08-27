@@ -2,10 +2,12 @@ Game to look into: DiRT, The PATH
 =Upcoming=
 * Resonance - Contributed by mathieu.lacam
 * Theme Hospital - Better info from ctristan
-* Hacker Evolution - Added Steam path - Contributed by simtech
-* Formula One - Contributed by simtech
-* Section 8 - Fixed incorrect path with info from simtech
-* Gratuitous Space Battles - Added campaign progress folder with info from simtech
+From simtech:
+* Formula One
+* Gratuitous Space Battles - Added campaign progress folder
+* Hacker Evolution - Added Steam path 
+* Section 8 - Fixed incorrect path 
+* Supreme Commander 2 - Seperated settings folder into new entry
 From GameSaveManager:
 * All Zombies Must Die!
 * Choplifter HD

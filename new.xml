@@ -828,4 +828,31 @@
     </version>
   </game>
 
+  <game name="SupremeCommander2" follows="SupremeCommander" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Supreme Commander 2</title>
+    <version os="Windows" type="Settings">
+      <locations>
+        <path ev="localappdata" path="Gas Powered Games\Supreme Commander 2 "/>
+      </locations>
+      <files>
+        <include filename="Game.prefs"/>
+      </files>
+      <contributor>simtech76</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Mis juegos\SquareEnix\Supreme Commander 2"/>
+        <path ev="userdocuments" path="My Games\Gas Powered Games\Supreme Commander 2 "/>
+        <path ev="userdocuments" path="My Games\SquareEnix\Supreme Commander 2 "/>
+      </locations>
+      <files>
+        <include path="savegames"/>
+      </files>
+      <files type="Replays">
+        <include path="replays"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
 </programs>
