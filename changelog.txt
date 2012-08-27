@@ -8,6 +8,7 @@ From simtech:
 * Hacker Evolution - Added Steam path 
 * Section 8 - Fixed incorrect path 
 * Supreme Commander 2 - Seperated settings folder into new entry
+* UPlay - Updated savegame folder name
 From GameSaveManager:
 * All Zombies Must Die!
 * Choplifter HD

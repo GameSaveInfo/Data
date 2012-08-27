@@ -855,4 +855,23 @@
     </version>
   </game>
 
+  <system name="UPlay" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>UPlay</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Ubisoft\Ubisoft Game Launcher"/>
+        <registry root="local_machine" key="SOFTWARE\UbiSoft\Launcher" value="InstallDir"/>
+      </locations>
+      <files type="Data">
+        <include path="storage">
+          <exclude path="storage\temp"/>
+        </include>
+        <include path="savegames" />
+      </files>
+      <contributor>Arc Angel</contributor>
+      <contributor>simtech76</contributor>
+    </version>
+  </system>
+
+
 </programs>
