@@ -7,7 +7,80 @@ Contributed by AdmiringWorm
 * Bounce!
 * Criminal Minds
 * Deadly Association
+* Drift City
 * Pulsen
+Updated Windows Games:
+Contributed by AdmiringWorm
+* Ceville - Added Settings type
+* Poker Night at the Inventory - Added Settings type
+* Sniper Elite V2 - Added Settings type
+* Sniper: Ghost Warrior - Added Settings type
+
+
+=8/27/2012=
+* Resonance - Contributed by mathieu.lacam
+* Theme Hospital - Better info from ctristan
+From simtech:
+* Formula One
+* Gratuitous Space Battles - Added campaign progress folder
+* Hacker Evolution - Added Steam path 
+* Section 8 - Fixed incorrect path 
+* Supreme Commander 2 - Seperated settings folder into new entry
+* UPlay - Updated savegame folder name
+From GameSaveManager:
+* All Zombies Must Die!
+* Choplifter HD
+* Crash Time 2: Burning Wheels
+* Crash Time 3: Highway Nights
+* Cogs - Added steam cloud info
+* Costume Quest
+* Darkest of Days - Added steam path
+* Death Rally
+* Diablo III
+* Disciples II: Gallean's Return
+* Disciples II: Rise of the Elves
+* Divine Divinity
+* Dogfighter - Added steam cloud info
+* Driver: San Fransisco - Added more refined file info
+* Dungeons
+* Dungeons: The Dark Lord
+* Euro Truck Simulator
+* Evochron Mercenary
+* Final Fantasy VII 2012 Edition
+* Firestorm
+* From Dust - Added non-steam path
+* Full Spectrum Warrior
+* Full Spectrum Warrior: Ten Hammers
+* Game of Thrones: Genesis
+* Gratuitous Tank Battles
+* Hacker Evolution: Untold
+* Hard Reset: Extended Edition
+* H.A.W.X. 2 - Added Ubisoft cloud info
+* HOARD
+* Ice Age 2
+* Ice Age 4: Continental Drift
+* I-Fluid
+* J.U.L.I.A.
+* Legendary
+* Magic: The Gathering - Duels of the Planeswalkers
+* Orcs Must Die! 2
+* Order of War
+* Order of War - Challenge
+* Roller Coaster Rampage
+* Rome: Total War: Alexander - Added steam path
+* Sanctum - Added steam cloud info
+* Sleeping Dogs
+* Soldiers: Heroes of World War II
+* Space Siege
+* Symphony
+* Timeshift - Added steam path and install path
+* Two Worlds 2 - Castle Defense
+* Unstoppable Gorg
+* X: Beyond the Frontier
+* Zombie Driver - Added steam cloud info
+
+=8/16/2012=
+New Windows Games:
 Contributed by Arc Angel:
 * Avernum Escape From the Pit
 * Binary Domain
@@ -591,10 +664,6 @@ Updated Windows Games:
 * Dragonshard - Corrected, was completely wrong
 * Updated games through J where applicable to have link paths
 * Tweaked a lot of games to try to increase compatability with GameSaveManager
-* Ceville - Added Settings type - Contributed by AdmiringWorm
-* Poker Night at the Inventory - Added Settings type - Contributed by AdmiringWorm
-* Sniper Elite V2 - Added Settings type - Contributed by AdmiringWorm
-* Sniper: Ghost Warrior - Added Settings type - Contributed by AdmiringWorm
 =2012/7/31=
 New Windows Games:
 * The 11th Hour (GoG only)
