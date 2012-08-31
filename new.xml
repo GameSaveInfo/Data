@@ -1,14 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd" majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
-  <game name="ArtOfMurderFBIConfidential">
-    <title>Art of Murder - FBI Confidential</title>
+  <!--  
+  <game name="">
+    <title></title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Art of Murder FBI Confidential" />
+        <path ev path=""/>
+        <registry root="local_machine" key="" value=""/>
       </locations>
       <files>
         <include />
       </files>
+      <linkable/>
+      <contributor></contributor>
+    </version>
+  </game>
+   <game name="ThePath">
+    <title>The Path</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="The Path" />
+        <path ev="appdata" path="The Path" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+-->
+  <game name="ArtOfMurderFBIConfidential">
+    <title>Art of Murder - FBI Confidential</title>
+    <version os="Windows">
+      <locations>
+        <path ev="savedgames" path="Art of Murder FBI Confidential" only_for="WindowsVista" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -21,6 +52,7 @@
       <files>
         <include/>
       </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -28,12 +60,31 @@
     <title>Bounce!</title>
     <version os="Windows">
       <locations>
+        <path ev="installlocation" path="Bounce!"/>
         <shortcut ev="startmenu" path="Bounce!.lnk"/>
+        <registry root="current_user" key="Software\Microsoft\Windows\CurrentVersion\Uninstall\Bounce! v2.1" value="UninstallString" detract="Uninstal.exe"/>
       </locations>
       <files>
         <include path="Save"/>
       </files>
       <linkable path="Save"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="Ceville" added="1955-11-05T00:00:00" updated="2012-08-19T18:08:00">
+    <title>Ceville</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Ceville"/>
+      </locations>
+      <files>
+        <include path="save"/>
+      </files>
+      <files type="Settings">
+        <include filename="config.cfg"/>
+      </files>
+      <linkable path="save"/>
+      <contributor>slake_jones</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -44,8 +95,9 @@
         <path ev="appdata" path="LegacyInteractive\CriminalMinds" />
       </locations>
       <files>
-        <include filename="cm.dat" />
+        <include />
       </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -61,12 +113,13 @@
       <files type="Settings">
         <include filename="*.options.sav"/>
       </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
   <game name="DriftCity">
     <title>Drift City</title>
-    <version os="Windows" release="GamesCampus">
+    <version os="Windows">
       <locations>
         <path ev="installlocation" path="GamesCampus\DriftCity"/>
         <registry root="local_machine" key="SOFTWARE\DriftCity" value="Install_Dir_US"/>
@@ -75,6 +128,22 @@
         <include path="Data\Init"/>
       </files>
       <linkable path="Data\Init"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="PokerNightAtTheInventory" added="1955-11-05T00:00:00" updated="2012-08-19T18:25:00">
+    <title>Poker Night at the Inventory</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Telltale Games\Poker Night at the Inventory"/>
+      </locations>
+      <files>
+        <include filename="*.save"/>
+      </files>
+      <files type="Settings">
+        <include filename="prefs.prop"/>
+      </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -88,6 +157,43 @@
         <include path="Save"/>
       </files>
       <linkable path="Save"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="SniperEliteV2" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20" follows="SniperElite">
+    <title>Sniper Elite V2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="SniperV2"/>
+      </locations>
+      <files>
+        <include path="PC_ProfileSaves"/>
+      </files>
+      <files type="Settings">
+        <include filename="Settings.ini"/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="SniperGhostWarrior" added="1955-11-05T00:00:00" updated="2012-08-19T16:41:00">
+    <title>Sniper: Ghost Warrior</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Sniper - Ghost Warrior"/>
+      </locations>
+      <files>
+        <include path="out\profiles"/>
+        <include path="out\save"/>
+      </files>
+      <files type="Settings">
+        <include path="out\Settings"/>
+      </files>
+      <linkable path="out\profiles"/>
+      <linkable path="out\save"/>
+      <linkable path="out\Settings"/>
+      <contributor>Arc Angel</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
