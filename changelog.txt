@@ -1,6 +1,31 @@
 Game to look into: DiRT, The PATH
 =Upcoming=
-
+* Dark Souls: Prepare to Die Edition - Contributed by lonepie
+* Arma II: Operation Arrowhead - Contributed by simtech76
+* Homefront - Steam cloud data - Contributed by simtech76
+Contributed by GameSaveManager
+* Age of Empires
+* Blades of Time
+* Chains
+* ClaDun x2
+* Cold War
+* FTL: Faster Than Light
+* Gotham City Imposters: Free To Play
+* Juiced
+* Luxor
+* MacGuffin's Curse
+* Mad Riders
+* Pro Cycling Manager 2012
+* Sherlock Holmes: Nemesis
+* Sonic CD
+* Taito Legends
+* Taito Legends 2
+* The Guild II: Renaissance
+* The Political Machine 2008
+* The Political Machine 2012
+* Transformers: Fall of Cybertron
+* Wanderlust: Rebirth
+* Wasteland Angel
 
 =8/27/2012=
 * Resonance - Contributed by mathieu.lacam
