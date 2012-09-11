@@ -46,24 +46,79 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-    <game name="DarksidersII">
+
+-->
+  <game name="IAmAlive">
+    <title>I Am Alive</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="IAmAlive"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  
+  <game name="DeathToSpies">
+    <title>Death to Spies</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Death to Spies"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="RigNRoll">
+    <title>Rig 'n' Roll</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\RigNRoll_usa_ws"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="Darksiders2">
     <title>Darksiders II</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games\Darksiders2" />
-        <path ev="localappdata" path="Darksiders2" />
+        <path ev="userdocuments" path="My Games\Darksiders2"/>
       </locations>
       <files>
-        <include />
-        <include />
+        <include/>
       </files>
-      <linkable />
-      <linkable />
-      <contributor>GameSaveManager</contributor>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
--->
 
+  <game name="25ToLife" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>25 to Life</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="25 to Life"/>
+      </locations>
+      <files>
+        <include path="SaveGames"/>
+      </files>
+      <files type="Settings">
+        <include filename="settings.ini"/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
 
   <game name="DarkSouls">
     <title>Dark Souls</title>
