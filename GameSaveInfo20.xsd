@@ -11,7 +11,7 @@
 
   <xs:simpleType name="safestring">
     <xs:restriction base="xs:string">
-      <xs:pattern value="[-_A-Za-z0-9]*"/>
+      <xs:pattern value="[-_A-Za-z0-9]+"/>
       <xs:maxLength value="100" />
     </xs:restriction>
   </xs:simpleType>
@@ -242,7 +242,7 @@
       </xs:simpleType>
     </xs:attribute>
 
-    <xs:attribute name="type" type="xs:string" use="optional"/>
+    <xs:attribute name="type" type="safestring" use="optional"/>
     <xs:attribute name="disc" type="xs:integer" use="optional"/>
     <xs:attribute name="append" type="path" use="optional"/>
   </xs:attributeGroup>

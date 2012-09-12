@@ -46,22 +46,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-    <game name="DarksidersII">
-    <title>Darksiders II</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="My Games\Darksiders2" />
-        <path ev="localappdata" path="Darksiders2" />
-      </locations>
-      <files>
-        <include />
-        <include />
-      </files>
-      <linkable />
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
 -->
   
   <game name="ArtOfMurderFBIConfidential">
