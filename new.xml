@@ -165,6 +165,23 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="JackKeane" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Jack Keane</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Jack Keane"/>
+      </locations>
+      <files>
+        <include path="save"/>
+      </files>
+      <files type="Settings">
+        <include filename="settings.ini"/>
+      </files>
+      <linkable/>
+      <contributor>slake_jones</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="PokerNightAtTheInventory" added="1955-11-05T00:00:00" updated="2012-08-19T18:25:00">
     <title>Poker Night at the Inventory</title>
     <version os="Windows">
@@ -228,6 +245,32 @@
       <linkable path="out\save"/>
       <linkable path="out\Settings"/>
       <contributor>Arc Angel</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="TrackManiaNationsForever" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>TrackMania Nations Forever</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="TrackMania"/>
+      </locations>
+      <files>
+        <include path="Profiles"/>
+      </files>
+      <files type="Statistics">
+        <include path="Scores"/>
+      </files>
+      <files type="Settings">
+        <include path="Config"/>
+      </files>
+      <files type="Skins">
+        <include path="Skins"/>
+      </files>
+      <files type="Tracks">
+        <include path="Tracks"/>
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>

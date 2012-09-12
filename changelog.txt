@@ -12,9 +12,11 @@ Contributed by AdmiringWorm
 Updated Windows Games:
 Contributed by AdmiringWorm
 * Ceville - Added Settings type
+* Jack Keane - Added settings type
 * Poker Night at the Inventory - Added Settings type
 * Sniper Elite V2 - Added Settings type
 * Sniper: Ghost Warrior - Added Settings type
+* Trackmania Nations Forever - Added three new types
 
 
 =8/27/2012=
