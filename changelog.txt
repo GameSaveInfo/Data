@@ -1,5 +1,23 @@
 Game to look into: DiRT, The PATH
 =Upcoming=
+* Legacy of Kain: Soul Reaver - Gog only
+* Legacy of Kain: Soul Reaver 2
+* Nexus: The Jupiter Incident
+* Silver - GoG only
+* Added GoG info for:
+* Anachronox
+* Sid Meier's Colonization
+* Hitman: Codename 47
+* Hitman 2: Silent Assassin
+* Machinarium
+* Thief Gold
+* Tomb Raider
+* Tomb Raider II
+* Tomb Raider III
+* Tomb Raider: Chronicles
+* Tomb Raider: The Angel of Darkness
+* Tomb Raider: The Last Revelation
+=2012-08-21T10:58:39=
 * Dark Souls: Prepare to Die Edition - Contributed by lonepie
 * Arma II: Operation Arrowhead - Contributed by simtech76
 * Homefront - Steam cloud data - Contributed by simtech76
