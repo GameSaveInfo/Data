@@ -49,6 +49,355 @@
 
 -->
 
+  <game name="Colonization" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Sid Meier's Colonization</title>
+    <version os="DOS">
+      <locations>
+        <path ev="installlocation" path="MPS\COLONIZE"/>
+        <path ev="installlocation" path="GOG.com\MPS\COLONIZE"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Colonization\Colonization.lnk" append="MPS\COLONIZE"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGCOLONIZATION" value="PATH" append="MPS\COLONIZE"/>
+      </locations>
+      <files>
+        <include filename="*.SAV"/>
+      </files>
+      <contributor>David Barbour</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <shortcut ev="startmenu" path="Programs\Colonization\Colonization.lnk"/>
+        <path ev="installlocation" path="COLWIN"/>
+      </locations>
+      <files>
+        <include filename="*.SAV"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
 
+  <game name="Hitman2SilentAssassin" follows="HitmanCodename47" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Hitman 2: Silent Assassin</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Eidos Interactive\Hitman 2 Silent Assassin"/>
+        <path ev="installlocation" path="GOG.com\Hitman 2 Silent Assassin"/>
+        <path ev="steamcommon" path="hitman 2 silent assassin"/>
+        <registry root="local_machine" key="SOFTWARE\Eidos Interactive\Hitman 2" value="InstallDir"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGHITMAN2" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Hitman 2 Silent Assassin\Hitman 2 Silent Assassin.lnk"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <files type="Settings">
+        <include filename="Hitman2.ini"/>
+        <include filename="Keyboard.cfg"/>
+      </files>
+      <linkable path="Save"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="HitmanCodename47" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Hitman: Codename 47</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Eidos Interactive\IO Interactive\Hitman - Codename 47"/>
+        <path ev="steamcommon" path="hitman codename 47"/>
+        <path ev="installlocation" path="GOG.com\Hitman Codename 47"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\hitman.exe" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGHITMAN1" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Hitman Codename 47\Hitman Codename 47.lnk"/>
+      </locations>
+      <files>
+        <include filename="*.sav"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="LegacyOfKainSoulReaver" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Legacy of Kain: Soul Reaver</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Legacy of Kain Soul Reaver"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGLEGACYOFKAINSOULREAVER" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Crystal Dynamics\Legacy of Kain: Soul Reaver\1.00.000" value="AppExePath"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Legacy of Kain Soul Reaver\Legacy of Kain Soul Reaver.lnk"/>
+      </locations>
+      <files>
+        <include filename="savegame.her"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+
+  <game name="Anachronox" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Anachronox</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Anachronox"/>
+        <path ev="installlocation" path="GOG.com\Anachronox"/>
+        <registry root="local_machine" key="SOFTWARE\Eidos Interactive\Anachronox" value="SourcePath"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGANACHRONOX" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\Eidos Interactive\Anachronox\Anachronox.lnk"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Anachronox\Anachronox.lnk"/>
+      </locations>
+      <files>
+        <include path="anoxdata\SAVE"/>
+      </files>
+      <linkable path="anoxdata\SAVE"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Machinarium" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Machinarium</title>
+    <version platform="Flash">
+      <locations>
+        <path ev="flashshared" path="localhost\program files\steam\steamapps\common\machinarium"/>
+        <path ev="flashshared" path="localhost\program files (x86)\steam\steamapps\common\machinarium"/>
+        <path ev="flashshared" path="localhost\steam\steamapps\common\machinarium"/>
+        <path ev="flashshared" path="localhost\Program Files\GOG.com\Machinarium\machinarium.exe"/>
+        <path ev="flashshared" path="localhost\Program Files (x86)\GOG.com\Machinarium\machinarium.exe"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>AvvA</contributor>
+    </version>
+  </game>
+  <game name="NexusTheJupiterIncident">
+    <title>Nexus: The Jupiter Incident</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Nexus - The Jupiter Incident"/>
+        <registry root="local_machine" key="SOFTWARE\Mithis\Nexus - The Jupiter Incident" value="Misc_AppFolder"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Nexus - The Jupiter Incident\Nexus - The Jupiter Incident.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGNEXUS" value="PATH"/>
+      </locations>
+      <files>
+        <include path="save" />
+      </files>
+      <files type="ModSaves">
+        <include path="mods\*\save" />
+      </files>
+      <comment>Also backs up mod saves</comment>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="TombRaider" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Tomb Raider</title>
+    <version os="DOS">
+      <locations>
+        <path ev="installlocation" path="TOMBRAID"/>
+        <path ev="installlocation" path="GOG.com\Tomb Raider 1 2 3\Tomb Raider 1\TOMBRAID"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Tomb Raider 1 + 2 + 3\Tomb Raider 1\Tomb Raider 1.lnk" append="TOMBRAID"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTR1" value="PATH" append="TOMBRAID"/>
+      </locations>
+      <files>
+        <include filename="SAVEGAME.*"/>
+      </files>
+      <identifier filename="SAVEGAME.*"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="TombRaider2" follows="TombRaider" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Tomb Raider II</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Core Design\Tomb Raider II"/>
+        <registry root="current_user" key="Software\core design\Tomb Raider II" value="AppPath"/>
+        <shortcut ev="startmenu" path="Programs\Core Design\Tomb Raider 2\ Tomb Raider II.lnk"/>
+        
+        <path ev="installlocation" path="GOG.com\Tomb Raider 1 2 3\Tomb Raider 2"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Tomb Raider 1 + 2 + 3\Tomb Raider 2\Tomb Raider 2.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTR2" value="PATH"/>
+      </locations>
+      <files>
+        <include filename="savegame.*"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="TombRaider3AdventuresOfLaraCroft" follows="TombRaider2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Tomb Raider III: Adventures Of Lara Croft</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Core Design\Tomb Raider III"/>
+
+        <path ev="installlocation" path="GOG.com\Tomb Raider 1 2 3\Tomb Raider 3"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Tomb Raider 1 + 2 + 3\Tomb Raider 3\Tomb Raider 3.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTR3" value="PATH"/>
+
+      </locations>
+      <files>
+        <include filename="savegame.*"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  
+  <game name="TombRaiderChronicles" follows="TombRaiderTheLastRevelation" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Tomb Raider: Chronicles</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Core Design\Tomb Raider Chronicles"/>
+        <registry root="current_user" key="Software\Core Design\Tomb Raider Chronicles" value="App Path"/>
+        <path ev="installlocation" path="GOG.com\Tomb Raider 4-5\Tomb Raider 5"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Tomb Raider 4 + 5\Tomb Raider Chronicles\Tomb Raider Chronicles.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTR5" value="PATH"/>
+      </locations>
+      <files>
+        <include filename="savegame.*"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="TombRaiderTheAngelOfDarkness" follows="TombRaiderChronicles" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Tomb Raider: The Angel of Darkness</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Eidos Interactive\TRAOD"/>
+
+        <registry root="local_machine" key="SOFTWARE\Core Design\TombRaiderAngelOfDarkness\1.0" value="InstalledPath"/>
+        <path ev="installlocation" path="GOG.com\Tomb Raider - The Angel of Darkness"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Tomb Raider - The Angel of Darkness\Tomb Raider - The Angel of Darkness.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTR6" value="PATH"/>
+
+      </locations>
+      <files>
+        <include path="SaveGame"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="TombRaiderTheLastRevelation" follows="TombRaider3AdventuresOfLaraCroft" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Tomb Raider: The Last Revelation</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Core Design\Tomb Raider - The Last Revelation"/>
+
+        <registry root="current_user" key="Software\Core Design\Tomb Raider IV" value="App Path"/>
+        <path ev="installlocation" path="GOG.com\Tomb Raider 4-5\Tomb Raider 4"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Tomb Raider 4 + 5\Tomb Raider - The Last Revelation\Tomb Raider - The Last Revelation.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTR4" value="PATH"/>
+
+      </locations>
+      <files>
+        <include filename="savegame.*"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="ThiefTheDarkProject" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Thief: The Dark Project</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Thief"/>
+        <shortcut ev="startmenu" path="Programs\Thief\Thief.lnk"/>
+      </locations>
+      <files>
+        <include path="SAVES"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows" release="Gold">
+      <title>Thief Gold</title>
+      <locations>
+        <path ev="installlocation" path="ThiefG"/>
+        <path ev="installlocation" path="GOG.com\Thief Gold"/>
+        <path ev="steamcommon" path="thief_gold"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHIEF1GOLD" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\Thief Gold\Thief.lnk"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Thief Gold\Thief Gold.ln"/>
+      </locations>
+      <files>
+        <include path="SAVES"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Thief2" follows="ThiefTheDarkProject" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Thief II: The Metal Age</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Games\Thief2"/>
+        <path ev="installlocation" path="GOG.com\Thief 2"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Thief 2 - The Metal Age\Thief 2 - The Metal Age.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHIEF2" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\thief2.exe" value="Path"/>
+      </locations>
+      <files>
+        <include filename="*.sav"/>
+        <include path="SAVES" filename="*.sav"/>
+      </files>
+      <files type="Settings">
+        <include filename="user.bnd"/>
+        <include filename="USER.CFG"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="ThiefDeadlyShadows" follows="Thief2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Thief: Deadly Shadows</title>
+    <version os="Windows">
+      <locations>
+        <path ev="allusersprofile" path="Documents\Thief - Deadly Shadows" only_for="WindowsXP"/>
+        <path ev="public" path="Documents\Thief - Deadly Shadows" only_for="WindowsVista"/>
+        <path ev="steamcommon" path="thief deadly shadows\save"/>
+
+        <registry root="local_machine" key="SOFTWARE\Ion Storm\Thief - Deadly Shadows" value="ION_ROOT" append="SAVES"/>
+        
+        <path ev="installlocation" path="GOG.com\Thief - Deadly Shadows\SAVES"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Thief - Deadly Shadows\Thief - Deadly Shadows.lnk" append="SAVES"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHIEF3" value="PATH" append="SAVES"/>
+      </locations>
+      <files>
+        <include path="SaveGames"/>
+      </files>
+      <identifier path="SaveGames"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Silver">
+    <title>Silver</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Silver"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Silver\Silver.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSILVER" value="PATH"/>
+      </locations>
+      <files>
+        <include path="SAVEGAME" filename="*.SAV" />
+      </files>
+      <files type="Settings">
+        <include path="SAVEGAME" filename="*.OPT" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="WhisperedWorld" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>The Whispered World</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="whispered world"/>
+
+        <registry root="local_machine" key="SOFTWARE\Ion Storm\Thief - Deadly Shadows" value="ION_ROOT"/>
+
+        <path ev="installlocation" path="GOG.com\The Whispered World"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Thief - Deadly Shadows\Thief - Deadly Shadows.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTHIEF3" value="PATH"/>
+
+      </locations>
+      <files>
+        <include path="savegames"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
 
 </programs>
