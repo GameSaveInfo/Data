@@ -1,5 +1,88 @@
 Game to look into: DiRT, The PATH
 =Upcoming=
+* Adventures of Shuggy - Contributed by Arc Angel
+* Black Mesa - Contributed by Frozer
+* Borderlands 2 - Contributed by Arc Angel and simtech76
+* Hector: Badge of Carnage Episode 2 - Contributed by Arc Angel
+* Hector: Badge of Carnage Episode 3 - Contributed by Arc Angel
+* Legacy of Kain: Soul Reaver - Gog only
+* Legacy of Kain: Soul Reaver 2
+* Nexus: The Jupiter Incident
+* Silver - GoG only
+Added GoG info for:
+* Anachronox
+* Sid Meier's Colonization
+* Hitman: Codename 47
+* Hitman 2: Silent Assassin
+* Machinarium
+* Thief Gold
+* Tomb Raider
+* Tomb Raider II
+* Tomb Raider III
+* Tomb Raider: Chronicles
+* Tomb Raider: The Angel of Darkness
+* Tomb Raider: The Last Revelation
+Contributed by AdmiringWorm
+* 4x4 Hummer - Added Settings type and added new Registry path
+* Aquaria - Added Steam Registry path
+* Art of Murder - FBI Confidential
+* Ben There, Dan That! - Added Settings type and added Steam Registry path
+* Bobby
+* Bounce!
+* Call of Duty - Added Steam Registry path
+* Ceville - Added Settings type
+* Counter-Strike: Condition Zero - Added Settings type and updated detection and added edited save folder
+* Counter-Strike: Condition Zero: Deleted Scenes - Added Settings type and updated detection and added edited save folder
+* Criminal Minds
+* Deadly Association
+* Dreamfall: The Longest Journey - Added Steam Registry path
+* Drift City
+* FishTycoon - Added Steam Registry path
+* Gish - Added Steam Registry path and Settings type
+* GTI Racing - Removed backup of unnecessary settings type files and added a registry location
+* Hacker Evolution Duality - Added Steam Registry path
+* Jack Keane - Added settings type
+* Poker Night at the Inventory - Added Settings type
+* Pulsen
+* Sniper Elite V2 - Added Settings type
+* Sniper: Ghost Warrior - Added Settings type
+* Trackmania Nations Forever - Added three new types
+* Uplink - Added Steam Registry path
+Contributed by GameSaveManager
+* Age of Wonders II
+* Anna
+* Arx Libertatis
+* A Valley Without Wind
+* Bang Bang Racing
+* Crazy Taxi
+* Dirt:Showdown - Disc info
+* Dragon Age: Legends
+* East India Company
+* Europa Universalis 3
+* Gorasul: The Legacy of the Dragon
+* Hack, Slash, Loot
+* Inquisitor
+* McPixel
+* Mercenaries 2 - New vista path
+* Minecraft: Technic
+* Need for Speed: High Stakes
+* Portal Prelude
+* Pro Evolution Soccer 2013
+* Puzzle Kingdoms
+* Rune
+* Shad'O
+* Sleeping Dogs - Added disc path
+* Spider-Man: Friend or Foe
+* Starship Titanic
+* Take On Helicopters
+* Torchlight II
+* UFO Afterlight
+* Victoria II
+* Worms Armageddon
+* Xenonauts
+* X-Men: The Official Game
+
+=2012-08-21T10:58:39=
 * Dark Souls: Prepare to Die Edition - Contributed by lonepie
 * Arma II: Operation Arrowhead - Contributed by simtech76
 * Homefront - Steam cloud data - Contributed by simtech76
@@ -7,14 +90,6 @@ Game to look into: DiRT, The PATH
 * Rig 'n Roll - Contributed by Arc Angel
 * Death to Spies - Contributed by Arc Angel
 * I Am Alive - Contributed by Arc Angel
-Contributed by AdmiringWorm
-* Art of Murder - FBI Confidential
-* Bobby
-* Bounce!
-* Criminal Minds
-* Deadly Association
-* Drift City
-* Pulsen
 Contributed by GameSaveManager
 * Age of Empires
 * Blades of Time
@@ -38,26 +113,6 @@ Contributed by GameSaveManager
 * Transformers: Fall of Cybertron
 * Wanderlust: Rebirth
 * Wasteland Angel
-Updated Windows Games:
-Contributed by AdmiringWorm
-* 4x4 Hummer - Added Settings type and added new Registry path
-* Aquaria - Added Steam Registry path
-* Ben There, Dan That! - Added Settings type and added Steam Registry path
-* Call of Duty - Added Steam Registry path
-* Ceville - Added Settings type
-* Counter-Strike: Condition Zero - Added Settings type and updated detection and added edited save folder
-* Counter-Strike: Condition Zero: Deleted Scenes - Added Settings type and updated detection and added edited save folder
-* Dreamfall: The Longest Journey - Added Steam Registry path
-* FishTycoon - Added Steam Registry path
-* Gish - Added Steam Registry path and Settings type
-* GTI Racing - Removed backup of unnecessary settings type files and added a registry location
-* Hacker Evolution Duality - Added Steam Registry path
-* Jack Keane - Added settings type
-* Poker Night at the Inventory - Added Settings type
-* Sniper Elite V2 - Added Settings type
-* Sniper: Ghost Warrior - Added Settings type
-* Trackmania Nations Forever - Added three new types
-* Uplink - Added Steam Registry path
 
 =8/27/2012=
 * Resonance - Contributed by mathieu.lacam
