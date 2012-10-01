@@ -400,4 +400,517 @@
     </version>
   </game>
 
+  <mod name="BlackMesa" for="HalfLife2">
+    <title>Black Mesa</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamsourcemods" path="BMS"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>Frozer</contributor>
+    </version>
+  </mod>
+
+  <game name="Borderlands2">
+    <title>Borderlands 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Borderlands 2"/>
+      </locations>
+      <files>
+        <include path="WillowGame\SaveData"/>
+      </files>
+      <files type="Settings">
+        <include path="WillowGame\Config"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+      <contributor>simtech76</contributor>
+    </version>
+  </game>
+
+  <game name="HectorBadgeOfCarnageEpisode2">
+    <title>Hector: Badge of Carnage Episode 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Telltale Games\hector ep 2"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="HectorBadgeOfCarnageEpisode3">
+    <title>Hector: Badge of Carnage Episode 3</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Telltale Games\hector ep 3"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="AdventuresofShuggy">
+    <title>Adventures of Shuggy</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="211440"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+
+  <game name="Mercenaries2WorldInFlames" added="1955-11-05T00:00:00" >
+    <title>Mercenaries 2: World in Flames</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Mercenaries 2 World In Flames" only_for="WindowsXP"/>
+        <path ev="savedgames" path="Mercenaries 2" only_for="WindowsVista"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+
+  <game name="DiRTShowdown" added="1955-11-05T00:00:00" >
+    <title>DiRT: Showdown</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\DiRT Showdown"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="SleepingDogs" added="2012-08-27T18:13:36">
+    <title>Sleeping Dogs</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="SleepingDogs"/>
+        <path ev="installlocation" path="SQUARE ENIX\Sleeping Dogs - Limited Edition"/>
+      </locations>
+      <files>
+        <include path="Data" filename="HK*"/>
+      </files>
+      <linkable path="Data"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  
+  
+  <game name="AgeOfWonders2">
+    <title>Age of Wonders II</title>
+    <version os="Windows">
+      <locations>
+        <registry root="current_user" key="Software\Triumph Studios\Age of Wonders II\General" value="Root Directory"/>
+      </locations>
+      <files>
+        <include path="Save" />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Anna">
+    <title>Anna</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userprofile" path="AppData\LocalLow\Dreampainters\Anna" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="ArxLibertatis">
+    <title>Arx Libertatis</title>
+    <version os="Windows">
+      <locations>
+        <path ev="savedgames" path="Arx Libertatis" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="AValleyWithoutWind">
+    <title>A Valley Without Wind</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="a valley without wind" />
+      </locations>
+      <files>
+        <include path="RuntimeData\WorldBackups" />
+        <include path="RuntimeData\Worlds"  />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="BangBangRacing">
+    <title>Bang Bang Racing</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuserdata" path="207020" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="CrazyTaxi">
+    <title>Crazy Taxi</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="SEGA\Crazy Taxi" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="DragonAgeLegends">
+    <title>Dragon Age: Legends</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Dragon Age Legends" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="EastIndiaCompany">
+    <title>East India Company</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="East India Company" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="EuropaUniversalis3" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Europa Universalis III</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="europa universalis iii - complete" />
+        <path ev="installlocation" path="Paradox Interactive\Europa Universalis 3"/>
+      </locations>
+      <files>
+        <include path="save games"/>
+      </files>
+      <linkable path="save games"/>
+      <contributor>GameSave.Info</contributor>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  
+  <game name="GorasulTheLegacyOfTheDragon">
+    <title>Gorasul: The Legacy of the Dragon</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="Software\SilverStyle\Gorasul" value="INSTALLDIR" />
+      </locations>
+      <files>
+        <include path="save" />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="HackSlashLoot">
+    <title>Hack, Slash, Loot</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="HackSlashLoot" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Inquisitor">
+    <title>Inquisitor</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Inquisitor_SaveGames" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="McPixel">
+    <title>McPixel</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="gd.sos.McPixel" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="MinecraftTechnic">
+    <title>Minecraft: Technic</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path=".techniclauncher\technicssp" />
+      </locations>
+      <files>
+        <include path="saves" />
+      </files>
+      <files type="Statistics">
+        <include path="stats" />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="NeedForSpeedHighStakes">
+    <title>Need for Speed: High Stakes</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="Software\Electronic Arts\Need for Speed High Stakes" value="InstallPath"/>
+      </locations>
+      <files>
+        <include path="SaveData" />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <mod name="PortalPrelude" for="HalfLife2">
+    <title>Portal Prelude</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamsourcemods" path="portal prelude" />
+      </locations>
+      <files>
+        <include path="save" />
+      </files>
+      <linkable path="save" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </mod>
+  <game name="ProEvolutionSoccer2013">
+    <title>Pro Evolution Soccer 2013</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="KONAMI\Pro Evolution Soccer 2013" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="PuzzleKingdoms">
+    <title>Puzzle Kingdoms</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Puzzle Kingdoms" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Rune">
+    <title>Rune</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\Human Head Studios\Installed Apps\Rune" value="Folder" />
+      </locations>
+      <files>
+        <include path="Save" filename="*.usa" />
+      </files>
+      <files type="Settings">
+        <include path="System" filename="Rune.ini" />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="ShadO">
+    <title>Shad'O</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuserdata" path="215770" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="SpiderManFriendOrFoe">
+    <title>Spider-Man: Friend or Foe</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Activision\Spider-Man FoF" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="StarshipTitanic">
+    <title>Starship Titanic</title>
+    <version os="Windows">
+      <locations>
+        <registry root="current_user" key="Software\The Digital Village\Setup\FileLocations" value="STdir" />
+      </locations>
+      <files>
+        <include path="SaveGames" />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="TakeOnHelicopters">
+    <title>Take On Helicopters</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Take On Helicopters" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Torchlight2">
+    <title>Torchlight II</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Runic Games\Torchlight 2" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="UFOAfterlight">
+    <title>UFO Afterlight</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="UFO Afterlight" />
+      </locations>
+      <files>
+        <include path="Profiles" />
+      </files>
+      <linkable path="Profiles" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Victoria2">
+    <title>Victoria II</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="victoria 2" />
+      </locations>
+      <files>
+        <include path="saved games" />
+      </files>
+      <linkable path="saved games" />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="WormsArmageddon">
+    <title>Worms Armageddon</title>
+    <version os="Windows">
+      <locations>
+        <registry root="current_user" key="Software\Team17SoftwareLtd\WormsArmageddon" value="Path" />
+      </locations>
+      <files>
+        <include path="User\Teams" />
+        <include path="User\Schemes" filename="*.wsc">
+          <exclude path="User\Schemes" filename="{{*}}*"/>
+        </include>
+        <include path="User\Flags" />
+        <include path="User\Graves" />
+        <include path="User\Capture" />
+        <include path="User\Games" filename="*.WAgame" />
+      </files>
+      <files type="CustomMaps">
+        <include path="User\SavedLevels" />
+      </files>
+      <files type="CustomVoice">
+        <include path="User\Fanfare" />
+        <include path="User\Import" />
+        <include path="User\Speech" />
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="Xenonauts">
+    <title>Xenonauts</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Xenonauts" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+  <game name="XMenTheOfficialGame">
+    <title>X-Men: The Official Game</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Activision\X-Men The Official Game" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+
+
+
 </programs>

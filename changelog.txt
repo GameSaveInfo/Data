@@ -1,10 +1,15 @@
 Game to look into: DiRT, The PATH
 =Upcoming=
+* Adventures of Shuggy - Contributed by Arc Angel
+* Black Mesa - Contributed by Frozer
+* Borderlands 2 - Contributed by Arc Angel and simtech76
+* Hector: Badge of Carnage Episode 2 - Contributed by Arc Angel
+* Hector: Badge of Carnage Episode 3 - Contributed by Arc Angel
 * Legacy of Kain: Soul Reaver - Gog only
 * Legacy of Kain: Soul Reaver 2
 * Nexus: The Jupiter Incident
 * Silver - GoG only
-* Added GoG info for:
+Added GoG info for:
 * Anachronox
 * Sid Meier's Colonization
 * Hitman: Codename 47
@@ -17,6 +22,40 @@ Game to look into: DiRT, The PATH
 * Tomb Raider: Chronicles
 * Tomb Raider: The Angel of Darkness
 * Tomb Raider: The Last Revelation
+Contributed by GameSaveManager
+* Age of Wonders II
+* Anna
+* Arx Libertatis
+* A Valley Without Wind
+* Bang Bang Racing
+* Crazy Taxi
+* Dirt:Showdown - Disc info
+* Dragon Age: Legends
+* East India Company
+* Europa Universalis 3
+* Gorasul: The Legacy of the Dragon
+* Hack, Slash, Loot
+* Inquisitor
+* McPixel
+* Mercenaries 2 - New vista path
+* Minecraft: Technic
+* Need for Speed: High Stakes
+* Portal Prelude
+* Pro Evolution Soccer 2013
+* Puzzle Kingdoms
+* Rune
+* Shad'O
+* Sleeping Dogs - Added disc path
+* Spider-Man: Friend or Foe
+* Starship Titanic
+* Take On Helicopters
+* Torchlight II
+* UFO Afterlight
+* Victoria II
+* Worms Armageddon
+* Xenonauts
+* X-Men: The Official Game
+
 =2012-08-21T10:58:39=
 * Dark Souls: Prepare to Die Edition - Contributed by lonepie
 * Arma II: Operation Arrowhead - Contributed by simtech76
