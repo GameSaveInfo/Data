@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
 	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
@@ -49,6 +49,51 @@
 
 -->
   
+  
+  <game name="4x4Hummer" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>4x4 Hummer</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="4x4 hummer" />
+      </locations>
+      <files>
+        <include path="Data\profiles" />
+      </files>
+      <files type="Settings">
+        <include path="Data" filename="*Settings.scr">
+          <exclude path="Data" filename="DefaultServerSettings.scr" />
+        </include>
+        <include filename="Controls.txt" />
+      </files>
+      <linkable path="Data\profiles" />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="Aquaria" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Aquaria</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Aquaria" />
+        <path ev="steamcommon" path="aquaria" />
+        <registry root="local_machine" key="SOFTWARE\BITBLOT_Aquaria" value="Install_Dir" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 24420" value="InstallLocation" />
+        <shortcut ev="startmenu" path="Programs\Aquaria\Aquaria.lnk" />
+      </locations>
+      <files>
+        <include path="save" />
+      </files>
+      <files type="Screenshots">
+        <include path="screenshots" />
+      </files>
+      <files type="Settings">
+        <include filename="usersettings.xml" />
+      </files>
+      <linkable path="save" />
+      <contributor>Dwight Holman</contributor>
+      <contributor>slake_jones</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="ArtOfMurderFBIConfidential">
     <title>Art of Murder - FBI Confidential</title>
     <version os="Windows">
@@ -58,7 +103,27 @@
       <files>
         <include />
       </files>
-      <linkable/>
+      <linkable />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="BenThereDanThat" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Ben There, Dan That!</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Ben There Dan That" />
+        <path ev="steamcommon" path="ben there, dan that!" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3CD921DC-FE10-404C-99DB-FA57A6FCB32E}_is1" value="InstallLocation" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 3740" value="InstallLocation" />
+        <shortcut ev="startmenu" path="Programs\Ben There Dan That\Ben There Dan That.lnk" />
+      </locations>
+      <files>
+        <include filename="agssave.*" />
+      </files>
+      <files type="Settings">
+        <include filename="acsetup.cfg" />
+      </files>
+      <contributor>GameSave.Info</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -66,12 +131,12 @@
     <title>Bobby</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Nooskewl\Bobby"/>
+        <path ev="appdata" path="Nooskewl\Bobby" />
       </locations>
       <files>
-        <include/>
+        <include />
       </files>
-      <linkable/>
+      <linkable />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -79,14 +144,33 @@
     <title>Bounce!</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="Bounce!"/>
-        <shortcut ev="startmenu" path="Bounce!.lnk"/>
-        <registry root="current_user" key="Software\Microsoft\Windows\CurrentVersion\Uninstall\Bounce! v2.1" value="UninstallString" detract="Uninstal.exe"/>
+        <path ev="installlocation" path="Bounce!" />
+        <shortcut ev="startmenu" path="Bounce!.lnk" />
+        <registry root="current_user" key="Software\Microsoft\Windows\CurrentVersion\Uninstall\Bounce! v2.1" value="UninstallString" detract="Uninstal.exe" />
       </locations>
       <files>
-        <include path="Save"/>
+        <include path="Save" />
       </files>
-      <linkable path="Save"/>
+      <linkable path="Save" />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="CallOfDuty" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:01">
+    <title>Call of Duty</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="call of duty" />
+        <registry root="local_machine" key="SOFTWARE\Activision\Call of Duty" value="InstallPath" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 2620" value="InstallLocation" />
+      </locations>
+      <files>
+        <include path="main\save" />
+      </files>
+      <files type="Settings">
+        <include path="main" filename="*.cfg" />
+      </files>
+      <linkable path="main\save" />
+      <contributor>Arc Angel</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -94,19 +178,58 @@
     <title>Ceville</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Ceville"/>
+        <path ev="userdocuments" path="Ceville" />
       </locations>
       <files>
-        <include path="save"/>
+        <include path="save" />
       </files>
       <files type="Settings">
-        <include filename="config.cfg"/>
+        <include filename="config.cfg" />
       </files>
-      <linkable path="save"/>
+      <linkable path="save" />
       <contributor>slake_jones</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="CounterStrikeConditionZero" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Counter-Strike: Condition Zero</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="condition zero" />
+        <registry root="local_machine" key="SOFTWARE\Valve\CZero" value="InstallPath" />
+      </locations>
+      <files>
+        <include path="czero*\SAVE" />
+      </files>
+      <files type="Settings">
+        <include path="cstrike" />
+        <include path="czero*" filename="*.cfg" />
+      </files>
+      <linkable path="czero*\SAVE" />
+      <identifier path="czero" />
+      <contributor>GameSave.Info</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <expansion name="CounterStrikeConditionZeroDeletedScenes" for="CounterStrikeConditionZero" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Counter-Strike: Condition Zero: Deleted Scenes</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="condition zero deleted scenes" />
+      </locations>
+      <files>
+        <include path="czeror*\SAVE" />
+      </files>
+      <files type="Settings">
+        <include path="cstrike" />
+        <include path="czeror*" filename="*.cfg" />
+      </files>
+      <linkable path="czeror*\SAVE" />
+      <identifier path="czeror" />
+      <contributor>GameSave.Info</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </expansion>
   <game name="CriminalMinds">
     <title>Criminal Minds</title>
     <version os="Windows">
@@ -116,8 +239,26 @@
       <files>
         <include />
       </files>
-      <linkable/>
+      <linkable />
       <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="DayOfDefeat" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Day of Defeat</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="day of defeat"/>
+      </locations>
+      <files type="Settings">
+        <include path="dod*"/>
+		<include path="valve">
+			<exclude path="valve\cl_dlls"/>
+		</include>
+      </files>
+      <linkable/>
+	  <comment>Settings only</comment>
+      <contributor>GameSaveManager</contributor>
+	  <contributor>AdmiringWorm</contributor>
     </version>
   </game>
   <game name="DeadlyAssociation">
@@ -127,12 +268,40 @@
         <path ev="appdata" path="Hidden Objects DeadlyAssociation" />
       </locations>
       <files>
-        <include filename="*.profile*.sav"/>
+        <include filename="*.profile*.sav" />
       </files>
       <files type="Settings">
-        <include filename="*.options.sav"/>
+        <include filename="*.options.sav" />
       </files>
-      <linkable/>
+      <linkable />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="DreamfallTheLongestJourney" follows="LongestJourney" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Dreamfall: The Longest Journey</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Dreamfall the Longest Journey" />
+        <path ev="installlocation" path="GOG.com\Dreamfall" />
+        <path ev="installlocation" path="Micro Application\Dreamfall" />
+        <path ev="installlocation" path="SteamLibrary\SteamApps\common\Dreamfall The Longest Journey" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDREAMFALL" value="PATH" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Dreamfall the Longest Journey_is1" value="InstallLocation" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D751B34C-058F-42EF-BE95-14EBB0D2C585}" value="InstallLocation" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 6300" value="InstallLocation" />
+        <shortcut ev="startmenu" path="Programs\Dreamfall the Longest Journey\Dreamfall the Longest Journey.lnk" />
+        <shortcut ev="startmenu" path="Programs\GOG.com\Dreamfall - The Longest Journey\Dreamfall - The Longest Journey.lnk" />
+        <shortcut ev="startmenu" path="Programs\Micro Application\Dreamfall\Dreamfall - The Longest Journey.lnk" />
+      </locations>
+      <files>
+        <include path="saves" />
+      </files>
+      <files type="Settings">
+        <include filename="prefs.dat" />
+      </files>
+      <linkable path="saves" />
+      <contributor>Arc Angel</contributor>
+      <contributor>GameSave.Info</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -140,13 +309,91 @@
     <title>Drift City</title>
     <version os="Windows">
       <locations>
-        <path ev="installlocation" path="GamesCampus\DriftCity"/>
-        <registry root="local_machine" key="SOFTWARE\DriftCity" value="Install_Dir_US"/>
+        <path ev="installlocation" path="GamesCampus\DriftCity" />
+        <shortcut ev="startmenu" path="Programs\Drift City\Drift City.lnk" />
+        <registry root="local_machine" key="SOFTWARE\DriftCity" value="Install_Dir_US" />
       </locations>
       <files type="Settings">
-        <include path="Data\Init"/>
+        <include path="Data\Init" />
       </files>
-      <linkable path="Data\Init"/>
+      <linkable path="Data\Init" />
+      <comment>Settings only</comment>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="FishTycoon" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Fish Tycoon</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Fish Tycoon" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 16130" value="InstallLocation" />
+      </locations>
+      <files>
+        <include filename="*.pts" />
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="Gish" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Gish</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="gish" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 9500" value="InstallLocation" />
+      </locations>
+      <files>
+        <include filename="gish.his" />
+        <include filename="gish.pla" />
+      </files>
+      <files type="Settings">
+        <include filename="config.txt" />
+      </files>
+      <contributor>slake_jones</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="GTIRacing" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>GTI Racing</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="gti racing"/>
+        <registry root="local_machine" key="SOFTWARE\Techland\GTIRacing" value="DestinationDir"/>
+      </locations>
+      <files>
+        <include path="Data\profiles"/>
+      </files>
+      <files type="Replays">
+        <include path="Replays"/>
+      </files>
+      <files type="Settings">
+        <include path="Data" filename="*Settings.scr">
+          <exclude path="Data" filename="DefaultServerSettings.scr" />
+        </include>
+        <include filename="Controls.txt" />
+      </files>
+      <linkable path="Data\profiles"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="HackerEvolutionDuality" follows="HackerEvolution" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Hacker Evolution Duality</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="hacker evolution duality"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 70120" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="hed-player">
+          <exclude path="hed-player" filename="achievements.dat"/>
+        </include>
+      </files>
+      <files type="Settings">
+        <include path="hed-text" filename="settings.ini"/>
+      </files>
+      <files type="Statistics">
+        <include path="hed-player" filename="achievements.dat"/>
+      </files>
+      <linkable path="hed-player"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -154,15 +401,15 @@
     <title>Jack Keane</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Jack Keane"/>
+        <path ev="userdocuments" path="Jack Keane" />
       </locations>
       <files>
-        <include path="save"/>
+        <include path="save" />
       </files>
       <files type="Settings">
-        <include filename="settings.ini"/>
+        <include filename="settings.ini" />
       </files>
-      <linkable/>
+      <linkable />
       <contributor>slake_jones</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -171,15 +418,15 @@
     <title>Poker Night at the Inventory</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Telltale Games\Poker Night at the Inventory"/>
+        <path ev="userdocuments" path="Telltale Games\Poker Night at the Inventory" />
       </locations>
       <files>
-        <include filename="*.save"/>
+        <include filename="*.save" />
       </files>
       <files type="Settings">
-        <include filename="prefs.prop"/>
+        <include filename="prefs.prop" />
       </files>
-      <linkable/>
+      <linkable />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -187,12 +434,12 @@
     <title>Pulsen</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Pulsen"/>
+        <path ev="appdata" path="Pulsen" />
       </locations>
       <files>
-        <include path="Save"/>
+        <include path="Save" />
       </files>
-      <linkable path="Save"/>
+      <linkable path="Save" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -200,15 +447,15 @@
     <title>Sniper Elite V2</title>
     <version os="Windows">
       <locations>
-        <path ev="localappdata" path="SniperV2"/>
+        <path ev="localappdata" path="SniperV2" />
       </locations>
       <files>
-        <include path="PC_ProfileSaves"/>
+        <include path="PC_ProfileSaves" />
       </files>
       <files type="Settings">
-        <include filename="Settings.ini"/>
+        <include filename="Settings.ini" />
       </files>
-      <linkable/>
+      <linkable />
       <contributor>Arc Angel</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -217,18 +464,18 @@
     <title>Sniper: Ghost Warrior</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Sniper - Ghost Warrior"/>
+        <path ev="userdocuments" path="Sniper - Ghost Warrior" />
       </locations>
       <files>
-        <include path="out\profiles"/>
-        <include path="out\save"/>
+        <include path="out\profiles" />
+        <include path="out\save" />
       </files>
       <files type="Settings">
-        <include path="out\Settings"/>
+        <include path="out\Settings" />
       </files>
-      <linkable path="out\profiles"/>
-      <linkable path="out\save"/>
-      <linkable path="out\Settings"/>
+      <linkable path="out\profiles" />
+      <linkable path="out\save" />
+      <linkable path="out\Settings" />
       <contributor>Arc Angel</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -237,27 +484,53 @@
     <title>TrackMania Nations Forever</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="TrackMania"/>
+        <path ev="userdocuments" path="TrackMania" />
       </locations>
       <files>
-        <include path="Profiles"/>
+        <include path="Profiles" />
       </files>
       <files type="Statistics">
-        <include path="Scores"/>
+        <include path="Scores" />
       </files>
       <files type="Settings">
-        <include path="Config"/>
+        <include path="Config" />
       </files>
       <files type="Skins">
-        <include path="Skins"/>
+        <include path="Skins" />
       </files>
       <files type="Tracks">
-        <include path="Tracks"/>
+        <include path="Tracks" />
       </files>
-      <linkable/>
+      <linkable />
       <contributor>GameSave.Info</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-
+  <game name="Uplink" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Uplink</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Uplink" />
+        <path ev="steamcommon" path="uplink" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGUPLINK" value="PATH" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Uplink_is1" value="InstallLocation" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 1510" value="InstallLocation" />
+        <shortcut ev="startmenu" path="Programs\GOG.com\Uplink\Uplink.lnk" />
+      </locations>
+      <files>
+        <include path="users">
+          <exclude path="users" filename="debug.log" />
+          <exclude path="users" filename="options" />
+        </include>
+        <include path="usersold" />
+        <include path="userstmp" />
+      </files>
+      <files type="Settings">
+        <include path="users" filename="options" />
+      </files>
+      <contributor>AdmiringWorm</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  
 </programs>

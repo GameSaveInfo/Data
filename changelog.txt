@@ -40,12 +40,24 @@ Contributed by GameSaveManager
 * Wasteland Angel
 Updated Windows Games:
 Contributed by AdmiringWorm
+* 4x4 Hummer - Added Settings type and added new Registry path
+* Aquaria - Added Steam Registry path
+* Ben There, Dan That! - Added Settings type and added Steam Registry path
+* Call of Duty - Added Steam Registry path
 * Ceville - Added Settings type
+* Counter-Strike: Condition Zero - Added Settings type and updated detection and added edited save folder
+* Counter-Strike: Condition Zero: Deleted Scenes - Added Settings type and updated detection and added edited save folder
+* Dreamfall: The Longest Journey - Added Steam Registry path
+* FishTycoon - Added Steam Registry path
+* Gish - Added Steam Registry path and Settings type
+* GTI Racing - Removed backup of unnecessary settings type files and added a registry location
+* Hacker Evolution Duality - Added Steam Registry path
 * Jack Keane - Added settings type
 * Poker Night at the Inventory - Added Settings type
 * Sniper Elite V2 - Added Settings type
 * Sniper: Ghost Warrior - Added Settings type
 * Trackmania Nations Forever - Added three new types
+* Uplink - Added Steam Registry path
 
 =8/27/2012=
 * Resonance - Contributed by mathieu.lacam
