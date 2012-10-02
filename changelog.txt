@@ -23,8 +23,8 @@ Added GoG info for:
 * Tomb Raider: The Angel of Darkness
 * Tomb Raider: The Last Revelation
 Contributed by AdmiringWorm
-* 4x4 Hummer - Added Settings type and added new Registry path
-* Aquaria - Added Steam Registry path
+* 4x4 Hummer - Added Settings type and added new Registry key
+* Aquaria - Added two more registry paths
 * Art of Murder - FBI Confidential
 * Ben There, Dan That! - Added Settings type and added Steam Registry path
 * Bobby

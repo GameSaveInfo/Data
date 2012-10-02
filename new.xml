@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
 	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
@@ -916,6 +916,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="4x4 hummer" />
+        <registry root="local_machine" key="SOFTWARE\Avalon\HUMMER_EE" value="installdir"/>
       </locations>
       <files>
         <include path="Data\profiles" />
@@ -937,6 +938,7 @@
         <path ev="installlocation" path="Aquaria" />
         <path ev="steamcommon" path="aquaria" />
         <registry root="local_machine" key="SOFTWARE\BITBLOT_Aquaria" value="Install_Dir" />
+        <registry root="current_user" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths" value="url4" />
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 24420" value="InstallLocation" />
         <shortcut ev="startmenu" path="Programs\Aquaria\Aquaria.lnk" />
       </locations>
@@ -1255,6 +1257,77 @@
         <include path="hed-player" filename="achievements.dat"/>
       </files>
       <linkable path="hed-player"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="HalfLife" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Half-Life</title>
+    <version release="Source">
+      <title>Half-Life: Source</title>
+      <locations>
+        <path ev="steamuser" path="half-life source\hl1"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="PS2" region="USA">
+      <ps_code prefix="SLUS" suffix="20066"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Sierra\Half-Life\valve"/>
+        <path ev="steamuser" path="half-life\valve"/>
+        <registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\HALFLIFE" value="Directory" append="valve"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>GameSave.Info</contributor>
+      <contributor>Scandalon</contributor>
+    </version>
+    <version os="Windows" region="ESP">
+      <locations>
+        <path ev="steamuser" path="half-life\valve_spanish"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+    <version os="Windows" region="NOR">
+      <locations>
+        <path ev="steamuser" path="half-life\valve_norwegian"/>
+        <registry root="current_user" key="Software\Valve\Steam" value="ModInstallPath" append="valve_norwegian"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <files type="Settings">
+        <include filename="config.cfg"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="HalfLife2" follows="HalfLife" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Half-Life 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="half-life 2\hl2"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <files type="Settings">
+        <include path="cfg"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>GameSave.Info</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
