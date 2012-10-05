@@ -24,30 +24,58 @@ Added GoG info for:
 * Tomb Raider: The Last Revelation
 Contributed by AdmiringWorm
 * 4x4 Hummer - Added Settings type and added new Registry key
+* A.I.M. Racing - Added new Registry key
+* APB Reloaded - Added Steam registry key
 * Aquaria - Added two more registry paths
 * Art of Murder - FBI Confidential
 * Ben There, Dan That! - Added Settings type and added Steam Registry path
 * Bobby
 * Bounce!
 * Call of Duty - Added Steam Registry path
+* Call of Duty 2 - Added Steam Registry path
+* Call of Duty 4: Modern Warfare - Added Steam Registry path
+* Call of Duty: Modern Warfare 3 - Added Steam Registry paths
+* Call of Duty: United Offensive - Added Steam Registry path
 * Ceville - Added Settings type
-* Counter-Strike: Condition Zero - Added Settings type and updated detection and added edited save folder
-* Counter-Strike: Condition Zero: Deleted Scenes - Added Settings type and updated detection and added edited save folder
+* Counter-Strike: Condition Zero - Added Norwegian region
+* Counter-Strike: Condition Zero: Deleted Scenes - Added Norwegian region
+* CSI: Hard Evidence - Added Steam Registry path
 * Criminal Minds
+* Day of Defeat - Added Steam Registry path and updated the files to back up
 * Deadly Association
 * Dreamfall: The Longest Journey - Added Steam Registry path
 * Drift City
+* The Elder Scrolls 3: Morrowind - Added Steam Registry path and Settings type
 * FishTycoon - Added Steam Registry path
 * Gish - Added Steam Registry path and Settings type
+* GM Rally - Removed backup of unnecessary settings type files and added a steam registry location
+* Grand Theft Auto 2 - Added Registry paths
 * GTI Racing - Removed backup of unnecessary settings type files and added a registry location
-* Hacker Evolution Duality - Added Steam Registry path
+* Hacker Evolution Duality - Added Steam Registry path and new files to backup
+* Half-Life - Added Norwegian region
+* Half-Life 2 - Added Steam Registry path
+* Half-Life 2: Deathmatch
+* Half-Life: Blue Shift - Added Norwegian region
+* Half-Life: OpposingForce - Added Norwegian region
 * Jack Keane - Added settings type
+* Lugaru HD - Fixed the files to back up (Files in xml does not exist)
+* Machinarium - Added new flashshared path
+* Osmos - Added new types
 * Poker Night at the Inventory - Added Settings type
 * Pulsen
+* Recettear: An Item Shop's Tale - Added Steam Registry path
+* Sniper Elite - Added Steam Registry Path
 * Sniper Elite V2 - Added Settings type
 * Sniper: Ghost Warrior - Added Settings type
+* Spaces Pirates and Zombies - Added Settings type
+* Streets of Moscow - Updated Settings type
+* Team Fortress Classic
 * Trackmania Nations Forever - Added three new types
+* Trials 2: Second Edition - Added Settings type
 * Uplink - Added Steam Registry path
+* Virtual Villages: A New Home
+* Xpand Rally - Updated Settings type
+* Xpand Rally Extreme - Updated Settings type
 Contributed by GameSaveManager
 * Age of Wonders II
 * Anna

@@ -50,23 +50,43 @@
 -->
 
 
-<game name="4x4Hummer" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+  <game name="4x4Hummer" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>4x4 Hummer</title>
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="4x4 hummer" />
         <registry root="local_machine" key="SOFTWARE\Avalon\HUMMER_EE" value="installdir"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 46210" value="InstallLocation" />
       </locations>
       <files>
-        <include path="Data\profiles" />
+        <include path="Data\profiles"/>
+      </files>
+      <files type="Replays">
+        <include path="Replays"/>
       </files>
       <files type="Settings">
-        <include path="Data" filename="*Settings.scr">
+        <include path="Data" filename="*Settings*.scr">
           <exclude path="Data" filename="DefaultServerSettings.scr" />
         </include>
         <include filename="Controls.txt" />
       </files>
-      <linkable path="Data\profiles" />
+      <linkable path="Data\profiles"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="AIMRacing" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>A.I.M. Racing</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\A.I.M. Racing"/>
+        <registry root="local_machine" key="SOFTWARE\1C:Multimedia\A.I.M. Racing\Path" value="1"/>
+      </locations>
+      <files>
+        <include>
+          <exclude path="My Music"/>
+        </include>
+      </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -93,6 +113,26 @@
       <linkable path="save" />
       <contributor>Dwight Holman</contributor>
       <contributor>slake_jones</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="APBReloaded" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>APB Reloaded</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GamersFirst\APB Reloaded"/>
+        <path ev="steamcommon" path="apb reloaded"/>
+        <registry root="local_machine" key="SOFTWARE\GamersFirst\APB\APB Reloaded" value="Installation Path"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 113400" value="InstallLocation"/>
+        <shortcut ev="startmenu" path="Programs\GamersFirst\APB Reloaded\APB Reloaded.lnk" detract="Launcher"/>
+      </locations>
+      <files type="Accounts">
+        <include path="APBGame\Config\Account"/>
+      </files>
+      <files type="Settings">
+        <include path="APBGame\Config" filename="*.ini"/>
+        <include path="APBGame\Config\Linux"/>
+      </files>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -153,6 +193,10 @@
       <files>
         <include path="Save" />
       </files>
+      <files type="Settings">
+        <include path="Data\Engine" filename="input.cfg" />
+        <include path="Data\Custom\configuration" />
+      </files>
       <linkable path="Save" />
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -176,6 +220,79 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="CallOfDuty2" follows="CallOfDuty" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Call of Duty 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="call of duty 2"/>
+        <registry root="local_machine" key="SOFTWARE\Activision\Call of Duty 2" value="InstallPath"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 2630" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="main\players"/>
+      </files>
+      <linkable path="main\players"/>
+      <contributor>Arc Angel</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="CallOfDuty4ModernWarfare" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Call of Duty 4: Modern Warfare</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Activision\Call of Duty 4 - Modern Warfare"/>
+        <path ev="steamcommon" path="call of duty 4"/>
+        <registry root="local_machine" key="SOFTWARE\Activision\Call of Duty 4" value="InstallPath"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 7940" value="InstallLocation"/>
+        <shortcut ev="startmenu" path="Programs\Activision\Call of Duty(R) 4 - Modern Warfare(TM)\Call of Duty(R) 4 - Modern Warfare(TM) Singleplayer.lnk"/>
+      </locations>
+      <files>
+        <include path="players\profiles"/>
+      </files>
+      <linkable path="players\profiles"/>
+      <contributor>GameSave.Info</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="CallOfDutyModernWarfare3" follows="CallOfDutyModernWarfare2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Call of Duty: Modern Warfare 3</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="call of duty modern warfare 3"/>
+        <registry root="local_machine" key="SOFTWARE\Activision\Modern Warfare 3" value="InstallPath"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 42680" value="InstallLocation"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 42690" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="players2\save"/>
+      </files>
+      <files type="Settings">
+        <include path="players2" filename="*"/>
+      </files>
+      <linkable path="players2"/>
+      <contributor>Arc Angel</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <expansion name="CallOfDutyUnitedOffensive" for="CallOfDuty" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Call of Duty: United Offensive</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="call of duty\uo"/>
+        <registry root="local_machine" key="SOFTWARE\Activision\Call of Duty United Offensive" value="InstallPath" append="uo"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 2640" append="uo"/>
+      </locations>
+      <files>
+        <include path="save"/>
+      </files>
+      <files type="Settings">
+        <include filename="*.cfg"/>
+      </files>
+      <linkable path="save"/>
+      <contributor>Arc Angel</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </expansion>
   <game name="Ceville" added="1955-11-05T00:00:00" updated="2012-08-19T18:08:00">
     <title>Ceville</title>
     <version os="Windows">
@@ -197,19 +314,29 @@
     <title>Counter-Strike: Condition Zero</title>
     <version os="Windows">
       <locations>
-        <path ev="steamuser" path="condition zero" />
-        <registry root="local_machine" key="SOFTWARE\Valve\CZero" value="InstallPath" />
+        <path ev="steamuser" path="condition zero\czero"/>
+        <registry root="local_machine" key="SOFTWARE\Valve\CZero" value="InstallPath" append="czero"/>
       </locations>
       <files>
-        <include path="czero*\SAVE" />
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <identifier path="SAVE"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows" region="NOR">
+      <locations>
+        <path ev="steamuser" path="condition zero\czero_norwegian"/>
+        <registry root="local_machine" key="SOFTWARE\Valve\CZero" value="InstallPath" append="czero_norwegian"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
       </files>
       <files type="Settings">
-        <include path="cstrike" />
-        <include path="czero*" filename="*.cfg" />
+        <include filename="*.cfg"/>
       </files>
-      <linkable path="czero*\SAVE" />
-      <identifier path="czero" />
-      <contributor>GameSave.Info</contributor>
+      <linkable path="SAVE"/>
+      <identifier path="SAVE"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -217,18 +344,27 @@
     <title>Counter-Strike: Condition Zero: Deleted Scenes</title>
     <version os="Windows">
       <locations>
-        <path ev="steamuser" path="condition zero deleted scenes" />
+        <path ev="steamuser" path="condition zero deleted scenes\czeror"/>
       </locations>
       <files>
-        <include path="czeror*\SAVE" />
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <identifier path="SAVE"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows" region="NOR">
+      <locations>
+        <path ev="steamuser" path="condition zero deleted scenes\czeror_norwegian"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
       </files>
       <files type="Settings">
-        <include path="cstrike" />
-        <include path="czeror*" filename="*.cfg" />
+        <include filename="*.cfg"/>
       </files>
-      <linkable path="czeror*\SAVE" />
-      <identifier path="czeror" />
-      <contributor>GameSave.Info</contributor>
+      <linkable path="SAVE"/>
+      <identifier path="SAVE"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </expansion>
@@ -245,11 +381,29 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="CSIHardEvidence" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>CSI: Hard Evidence</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="csi hard evidence"/>
+        <registry root="local_machine" key="SOFTWARE\Telltale Games\CSI4.exe" value="Install Location"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 21730" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include filename="CSISaveGame*"/>
+      </files>
+      <files type="Settings">
+        <include filename="prefs.prop"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="DayOfDefeat" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Day of Defeat</title>
     <version os="Windows">
       <locations>
         <path ev="steamuser" path="day of defeat"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 30" value="InstallLocation"/>
       </locations>
       <files type="Settings">
         <include path="dod*"/>
@@ -323,6 +477,27 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="ElderScrolls3Morrowind" follows="ElderScrolls2Daggerfall" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>The Elder Scrolls III: Morrowind</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Bethesda Softworks\Morrowind"/>
+        <path ev="steamcommon" path="morrowind"/>
+        <registry root="local_machine" key="SOFTWARE\Bethesda Softworks\Morrowind" value="Installed Path"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Steam App 22320" value="InstallLocation"/>
+        <shortcut ev="startmenu" path="Programs\Bethesda Softworks\Morrowind\Morrowind.lnk"/>
+      </locations>
+      <files>
+        <include path="Saves"/>
+      </files>
+      <files type="Settings">
+        <include filename="Morrowind.ini"/>
+      </files>
+      <linkable path="Saves"/>
+      <contributor>duncans_pumpkin</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="FishTycoon" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Fish Tycoon</title>
     <version os="Windows">
@@ -354,12 +529,12 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="GTIRacing" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
-    <title>GTI Racing</title>
+  <game name="GMRally" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>GM Rally</title>
     <version os="Windows">
       <locations>
-        <path ev="steamcommon" path="gti racing"/>
-        <registry root="local_machine" key="SOFTWARE\Techland\GTIRacing" value="DestinationDir"/>
+        <path ev="steamcommon" path="gm rally"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 3150" value="InstallLocation"/>
       </locations>
       <files>
         <include path="Data\profiles"/>
@@ -368,7 +543,47 @@
         <include path="Replays"/>
       </files>
       <files type="Settings">
-        <include path="Data" filename="*Settings.scr">
+        <include path="Data" filename="*Settings*.scr">
+          <exclude path="Data" filename="DefaultServerSettings.scr" />
+        </include>
+        <include filename="Controls.txt" />
+      </files>
+      <linkable path="Data\profiles"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="GrandTheftAuto2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Grand Theft Auto 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Grand Theft Auto 2"/>
+        <registry root="local_machine" key="SOFTWARE\Rockstar Games\GTA2" value="path"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 12180" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="player"/>
+      </files>
+      <linkable path="player"/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="GTIRacing" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>GTI Racing</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="gti racing"/>
+        <registry root="local_machine" key="SOFTWARE\Techland\GTIRacing" value="DestinationDir"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 3000" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="Data\profiles"/>
+      </files>
+      <files type="Replays">
+        <include path="Replays"/>
+      </files>
+      <files type="Settings">
+        <include path="Data" filename="*Settings*.scr">
           <exclude path="Data" filename="DefaultServerSettings.scr" />
         </include>
         <include filename="Controls.txt" />
@@ -388,12 +603,16 @@
         <include path="hed-player">
           <exclude path="hed-player" filename="achievements.dat"/>
         </include>
+        <include path="sys-hed-appdata" filename="*.profile"/>
+        <include path="sys-hed-appdata" filename="profiles"/>
       </files>
       <files type="Settings">
         <include path="hed-text" filename="settings.ini"/>
+        <include path="sys-hed-appdata" filename="settings.ini"/>
       </files>
       <files type="Statistics">
         <include path="hed-player" filename="achievements.dat"/>
+        <include path="sys-hed-appdata" filename="achievments.dat"/>
       </files>
       <linkable path="hed-player"/>
       <contributor>AdmiringWorm</contributor>
@@ -458,6 +677,7 @@
     <version os="Windows">
       <locations>
         <path ev="steamuser" path="half-life 2\hl2"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 220" value="InstallLocation"/>
       </locations>
       <files>
         <include path="SAVE"/>
@@ -470,6 +690,80 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="HalfLife2Deathmatch">
+    <title>Half-Life 2: Deathmatch</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="half-life 2 deathmatch"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 320" value="InstallLocation"/>
+      </locations>
+      <files type="Settings">
+        <include path="hl2mp\cfg"/>
+        <include path="hl2mp" filename="mapcycle.txt"/>
+        <include path="platform\config"/>
+      </files>
+      <linkable path="hl2mp\cfg"/>
+      <linkable path="platform\config"/>
+      <comment>Settings only</comment>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <expansion name="HalfLifeBlueShift" for="HalfLife" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Half-Life: Blue Shift</title>
+    <version os="Windows">
+      <locations>
+        <parent name="HalfLife" os="Windows" detract="valve" append="bshift"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>GameSave.Info</contributor>
+      <contributor>Scandalon</contributor>
+    </version>
+    <version os="Windows" region="NOR">
+      <locations>
+        <path ev="steamuser" path="half-life blue shift" append="bshift_norwegian"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 130" value="InstallLocation" append="bshift_norwegian"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <files type="Settings">
+        <include filename="config.cfg"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </expansion>
+  <expansion name="HalfLifeOpposingForce" for="HalfLife" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Half-Life: Opposing Force</title>
+    <version os="Windows">
+      <locations>
+        <parent name="HalfLife" os="Windows" detract="valve" append="gearbox"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>GameSave.Info</contributor>
+      <contributor>Scandalon</contributor>
+    </version>
+    <version os="Windows" region="NOR">
+      <locations>
+        <path ev="steamuser" path="opposing force" append="gearbox_norwegian"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 50" value="InstallLocation" append="gearbox_norwegian"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <files type="Settings">
+        <include filename="config.cfg"/>
+      </files>
+      <linkable path="SAVE"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </expansion>
   <game name="JackKeane" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Jack Keane</title>
     <version os="Windows">
@@ -484,6 +778,48 @@
       </files>
       <linkable />
       <contributor>slake_jones</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="LugaruHD" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Lugaru HD</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="lugaru hd"/>
+      </locations>
+      <files>
+        <include path="Campaigns"/>
+        <include filename="Users"/>
+      </files>
+      <files type="Settings">
+        <include filename="config.txt"/>
+      </files>
+      <linkable path="Data\Campaigns"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="Osmos" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Osmos</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Osmos"/>
+      </locations>
+      <files>
+        <include filename="*">
+          <exclude filename="Config.cfg"/>
+        </include>
+      </files>
+      <files type="Statistics">
+        <include path="Stats"/>
+      </files>
+      <files type="Screenshots">
+        <include path="Screenshots"/>
+      </files>
+      <files type="Settings">
+        <include filename="Config.cfg"/>
+      </files>
+      <linkable />
+      <contributor>duncans_pumpkin</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -514,6 +850,36 @@
       </files>
       <linkable path="Save" />
       <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="RecettearAnItemShopsTale" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Recettear: An Item Shop's Tale</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="recettear"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 70400" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include filename="*.dat"/>
+      </files>
+      <files type="Settings">
+        <include filename="recet.ini"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="SniperElite" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Sniper Elite</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="sniper elite"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSNIPERELITE2" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 3700" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="Prof"/>
+      </files>
+      <contributor>Arc Angel</contributor>
     </version>
   </game>
   <game name="SniperEliteV2" added="2012-08-07T19:25:20" updated="2012-08-07T19:25:20" follows="SniperElite">
@@ -549,6 +915,99 @@
       <linkable path="out\profiles" />
       <linkable path="out\save" />
       <linkable path="out\Settings" />
+      <contributor>Arc Angel</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="SpacePiratesAndZombies" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Space Pirates And Zombies</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="MinMaxGames\SpacePiratesAndZombies"/>
+      </locations>
+      <files>
+        <include path="b_save"/>
+      </files>
+      <files type="Settings">
+        <include path="b_settings"/>
+        <include path="common"/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+	  <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="StreetsOfMoscow" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Streets of Moscow</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Streets of Moscow"/>
+      </locations>
+      <files>
+        <include path="profiles"/>
+      </files>
+      <files type="Settings">
+        <include filename="*.blk"/>
+        <include path="config"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="TeamFortress2" follows="TeamFortressClassic" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Team Fortress 2</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="440"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="team fortress 2"/>
+      </locations>
+      <files>
+        <include>
+          <exclude path="tf\maps"/>
+          <exclude path="tf\media"/>
+        </include>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="TeamFortressClassic">
+    <title>Team Fortress Classic</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="team fortress classic"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 20" value="InstallLocation"/>
+      </locations>
+      <files type="Settings">
+        <include path="tfc*" filename="*"/>
+      </files>
+      <linkable/>
+      <comment>Settings Only</comment>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="Trials2SecondEdition" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Trials 2: Second Edition</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Redlynx\Trials 2 SE"/>
+      </locations>
+      <files>
+        <include>
+          <exclude path="2.0" filename="setup.dat"/>
+        </include>
+      </files>
+      <files type="Settings">
+        <include path="2.0" filename="setup.dat"/>
+      </files>
       <contributor>Arc Angel</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
@@ -605,5 +1064,67 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
-
+  <game name="VirtualVillagersANewHome" submitted="false">
+    <title>Virtual Villagers: A New Home</title>
+    <version os="Windows" release="Custom">
+      <locations>
+        <path ev="steamcommon" path="Virtual Villagers"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 16100" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include filename="*.ldw" />
+      </files>
+      <files type="Settings">
+        <include filename="ldw.ini"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="XpandRally" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Xpand Rally</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="xpand rally"/>
+        <registry root="local_machine" key="SOFTWARE\Techland\XpandRally" value="DestinationDir"/>
+      </locations>
+      <files>
+        <include path="Data\profiles"/>
+      </files>
+      <files type="Replays">
+        <include path="Replays"/>
+      </files>
+      <files type="Settings">
+        <include path="Data" filename="*Settings*.scr">
+          <exclude path="Data" filename="DefaultServerSettings.scr" />
+        </include>
+        <include filename="Controls.txt" />
+      </files>
+      <linkable path="Data\profiles"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="XpandRallyExtreme" follows="XpandRally" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Xpand Rally Extreme</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="xpand rally xtreme"/>
+        <registry root="local_machine" key="SOFTWARE\Techland\XpandRallyXtreme" value="DestinationDir"/>
+      </locations>
+      <files>
+        <include path="Data\profiles"/>
+      </files>
+      <files type="Replays">
+        <include path="Replays"/>
+      </files>
+      <files type="Settings">
+        <include path="Data" filename="*Settings*.scr">
+          <exclude path="Data" filename="DefaultServerSettings.scr" />
+        </include>
+        <include filename="Controls.txt" />
+      </files>
+      <linkable path="Data\profiles"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  
 </programs>
