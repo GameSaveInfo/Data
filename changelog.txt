@@ -25,8 +25,9 @@ Added GoG info for:
 Contributed by AdmiringWorm
 * 4x4 Hummer - Added Settings type and added new Registry key
 * A.I.M. Racing - Added new Registry key
+* Angels Online - Updated Settings Type
 * APB Reloaded - Added Steam registry key
-* Aquaria - Added two more registry paths
+* Aquaria - Added Steam registry key
 * Art of Murder - FBI Confidential
 * Ben There, Dan That! - Added Settings type and added Steam Registry path
 * Bobby
@@ -37,16 +38,22 @@ Contributed by AdmiringWorm
 * Call of Duty: Modern Warfare 3 - Added Steam Registry paths
 * Call of Duty: United Offensive - Added Steam Registry path
 * Ceville - Added Settings type
+* Cities in Motion - Added Maps Type
+* Counter-Strike
 * Counter-Strike: Condition Zero - Added Norwegian region
 * Counter-Strike: Condition Zero: Deleted Scenes - Added Norwegian region
+* Counter-Strike: Global Offensive - Settings Only
+* Counter-Strike: Source - Updated files to save and added Beta Release
 * CSI: Hard Evidence - Added Steam Registry path
 * Criminal Minds
 * Day of Defeat - Added Steam Registry path and updated the files to back up
+* Day of Defeat: Source - Updated files to save
 * Deadly Association
 * Dreamfall: The Longest Journey - Added Steam Registry path
 * Drift City
 * The Elder Scrolls 3: Morrowind - Added Steam Registry path and Settings type
 * FishTycoon - Added Steam Registry path
+* Garry's Mod - Added new Settings type and Steam Registry path and Added Beta Release
 * Gish - Added Steam Registry path and Settings type
 * GM Rally - Removed backup of unnecessary settings type files and added a steam registry location
 * Grand Theft Auto 2 - Added Registry paths
@@ -55,6 +62,7 @@ Contributed by AdmiringWorm
 * Half-Life - Added Norwegian region
 * Half-Life 2 - Added Steam Registry path
 * Half-Life 2: Deathmatch
+* Half-Life 2: Lost Coast - Added Settings type and Added Steam registry path
 * Half-Life: Blue Shift - Added Norwegian region
 * Half-Life: OpposingForce - Added Norwegian region
 * Jack Keane - Added settings type
@@ -62,10 +70,15 @@ Contributed by AdmiringWorm
 * Machinarium - Added new flashshared path
 * Osmos - Added new types
 * Poker Night at the Inventory - Added Settings type
+* Portal - Added Settings Type and Steam Registry path
 * Pulsen
 * Recettear: An Item Shop's Tale - Added Steam Registry path
+* Sam & Max: - The Devil's Playground Episode 2 - Added Settings type
+* Sam & Max: - The Devil's Playground Episode 3 - Added Settings type
+* Sam & Max: - The Devil's Playground Episode 4 - Added Settings type
+* Sam & Max: - The Devil's Playground Episode 5 - Added Settings type
 * Sniper Elite - Added Steam Registry Path
-* Sniper Elite V2 - Added Settings type
+* Sniper Elite V2 - Added Settings type and SteamCloud
 * Sniper: Ghost Warrior - Added Settings type
 * Spaces Pirates and Zombies - Added Settings type
 * Streets of Moscow - Updated Settings type
@@ -74,8 +87,9 @@ Contributed by AdmiringWorm
 * Trials 2: Second Edition - Added Settings type
 * Uplink - Added Steam Registry path
 * Virtual Villages: A New Home
-* Xpand Rally - Updated Settings type
-* Xpand Rally Extreme - Updated Settings type
+* Xpand Rally - Updated Settings type and Added Steam Registry path
+* Xpand Rally Extreme - Updated Settings type and Added Steam Registry path and Fixed title name
+* Zero Gear
 Contributed by GameSaveManager
 * Age of Wonders II
 * Anna

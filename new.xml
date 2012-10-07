@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
-	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
-	
-	
-  <!-- 	Staging file for the adding of entries.
-		If you are modifying an existing entry, copy-paste the entire entry into this file
-		so that the update system can automatically change the update time
-		This is the ONLY XML file that can provide duplicate entries without causing an error,
-		The entries in this file will OVERRIDE the entries in ALL other files.
-		If this file contains duplicate entries only the LAST one will end up being used
-  -->
-  
+  majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
 
-  
+
+  <!-- 	Staging file for the adding of entries.
+    If you are modifying an existing entry, copy-paste the entire entry into this file
+    so that the update system can automatically change the update time
+    This is the ONLY XML file that can provide duplicate entries without causing an error,
+    The entries in this file will OVERRIDE the entries in ALL other files.
+    If this file contains duplicate entries only the LAST one will end up being used
+  -->
+
+
+
   <!--  
   This is a quick profile template, makes it easy:
   <game name="">
@@ -90,6 +90,24 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="AngelsOnline" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Angels Online</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Angels Online"/>
+        <registry root="local_machine" key="SOFTWARE\IGG Games\Angels Online\Settings" value="Path"/>
+        <shortcut ev="startmenu" path="Programs\Angels Online\Angels Online.lnk"/>
+      </locations>
+      <files>
+        <include path="save\data"/>
+      </files>
+      <files type="Settings">
+        <include path="save\cfg"/>
+        <include path="midage.ini"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="Aquaria" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Aquaria</title>
     <version os="Windows">
@@ -97,7 +115,6 @@
         <path ev="installlocation" path="Aquaria" />
         <path ev="steamcommon" path="aquaria" />
         <registry root="local_machine" key="SOFTWARE\BITBLOT_Aquaria" value="Install_Dir" />
-        <registry root="current_user" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths" value="url4" />
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 24420" value="InstallLocation" />
         <shortcut ev="startmenu" path="Programs\Aquaria\Aquaria.lnk" />
       </locations>
@@ -310,7 +327,43 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="CounterStrikeConditionZero" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+  <game name="CitiesInMotion" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Cities in Motion</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Cities In Motion"/>
+      </locations>
+      <files>
+        <include path="saves"/>
+      </files>
+      <files type="Settings">
+        <include filename="*">
+          <exclude filename="*.txt"/>
+        </include>
+      </files>
+      <files type="Maps">
+        <include path="maps"/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="CounterStrike">
+    <title>Counter-Strike</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="counter-strike"/>
+      </locations>
+      <files type="Settings">
+        <include path="cstrike*"/>
+        <include path="platform"/>
+        <include path="valve" filename="*"/>
+      </files>
+      <comment>Settings Only</comment>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="CounterStrikeConditionZero" follows="CounterStrike" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Counter-Strike: Condition Zero</title>
     <version os="Windows">
       <locations>
@@ -368,6 +421,51 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </expansion>
+  <game name="CounterStrikeGlobalOffensive" follows="CounterStrikeSource">
+    <title>Counter Strike: Global Offensive</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Counter-Strike Global Offensive"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 730" value="InstallLocation"/>
+      </locations>
+      <files type="Settings">
+        <include path="csgo\cfg"/>
+        <include path="csgo" filename="*settings*"/>
+        <include path="csgo" filename="autobuy.txt"/>
+        <include path="csgo" filename="mapcycle.txt"/>
+        <include path="csgo" filename="rebuy.txt"/>
+        <include path="csgo\platform\config"/>
+      </files>
+      <comment>Settings only</comment>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="CounterStrikeSource" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Counter Strike: Source</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="counter-strike source"/>
+      </locations>
+      <files>
+        <include path="cstrike*"/>
+        <include path="platform"/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+    <version os="Windows" release="Beta">
+      <locations>
+        <path ev="steamuser" path="counterstrike source beta"/>
+      </locations>
+      <files>
+        <include path="cstrike*"/>
+        <include path="platform"/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="CriminalMinds">
     <title>Criminal Minds</title>
     <version os="Windows">
@@ -407,14 +505,29 @@
       </locations>
       <files type="Settings">
         <include path="dod*"/>
-		<include path="valve">
-			<exclude path="valve\cl_dlls"/>
-		</include>
+        <include path="valve">
+          <exclude path="valve\cl_dlls"/>
+        </include>
       </files>
       <linkable/>
-	  <comment>Settings only</comment>
+      <comment>Settings only</comment>
       <contributor>GameSaveManager</contributor>
-	  <contributor>AdmiringWorm</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="DayOfDefeatSource" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Day of Defeat: Source</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="day of defeat source"/>
+      </locations>
+      <files>
+        <include path="platform"/>
+        <include path="dod*"/>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>AdmiringWorm</contributor>
     </version>
   </game>
   <game name="DeadlyAssociation">
@@ -508,6 +621,40 @@
       <files>
         <include filename="*.pts" />
       </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="GarrysMod" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Garry's Mod</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="garrysmod\garrysmod"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 4000" value="InstallLocation" append="garrysmod"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <files type="Settings">
+        <include path="cfg"/>
+      </files>
+      <linkable path="SAVE"/>
+      <linkable path="cfg"/>
+      <contributor>GameSave.Info</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+    <version os="Windows" release="Beta">
+      <locations>
+        <path ev="steamuser" path="garry's mod beta\garrysmodbeta"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 4010" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <files type="Settings">
+        <include path="cfg"/>
+      </files>
+      <linkable path="SAVE"/>
+      <linkable path="cfg"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -690,7 +837,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  <game name="HalfLife2Deathmatch">
+  <game name="HalfLife2Deathmatch" follows="HalfLife2">
     <title>Half-Life 2: Deathmatch</title>
     <version os="Windows">
       <locations>
@@ -705,6 +852,25 @@
       <linkable path="hl2mp\cfg"/>
       <linkable path="platform\config"/>
       <comment>Settings only</comment>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="HalfLife2LostCoast" follows="HalfLife2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Half-Life 2: Lost Coast</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="half-life 2 lostcoast\lostcoast"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 340" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <files type="Settings">
+        <include path="cfg"/>
+      </files>
+      <linkable path="SAVE"/>
+      <linkable path="cfg"/>
+      <contributor>GameSave.Info</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -839,6 +1005,24 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="Portal" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Portal</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuser" path="portal"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 400" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="portal\SAVE"/>
+      </files>
+      <files type="Settings">
+        <include path="portal\cfg"/>
+        <include path="platform\config"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="Pulsen">
     <title>Pulsen</title>
     <version os="Windows">
@@ -865,6 +1049,78 @@
       <files type="Settings">
         <include filename="recet.ini"/>
       </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="SamAndMaxTheDevilsPlayhouseEpisode2" follows="SamAndMaxTheDevilsPlayhouseEpisode1" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Sam &amp; Max - The Devil's Playhouse Episode 2 - The Tomb of Sammun-Mak</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Telltale Games\The Tomb of Sammun-Mak"/>
+      </locations>
+      <files>
+        <include>
+          <exclude filename="prefs.prop"/>
+        </include>
+      </files>
+      <files type="Settings">
+        <include filename="prefs.prop"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="SamAndMaxTheDevilsPlayhouseEpisode3" follows="SamAndMaxTheDevilsPlayhouseEpisode2" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Sam &amp; Max - The Devil's Playhouse Episode 3 - They Stole Max's Brain</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Telltale Games\They Stole Maxs Brain"/>
+      </locations>
+      <files>
+        <include>
+          <exclude filename="prefs.prop"/>
+        </include>
+      </files>
+      <files type="Settings">
+        <include filename="prefs.prop"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="SamAndMaxTheDevilsPlayhouseEpisode4" follows="SamAndMaxTheDevilsPlayhouseEpisode3" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Sam &amp; Max - The Devil's Playhouse Episode 4 - Beyond the Alley of the Dolls</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Telltale Games\Beyond the Alley of the Dolls"/>
+      </locations>
+      <files>
+        <include>
+          <exclude filename="prefs.prop"/>
+        </include>
+      </files>
+      <files type="Settings">
+        <include filename="prefs.prop"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="SamAndMaxTheDevilsPlayhouseEpisode5" follows="SamAndMaxTheDevilsPlayhouseEpisode4" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Sam &amp; Max - The Devil's Playhouse Episode 5 - The City That Dares Not Sleep</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Telltale Games\The City That Dares Not Sleep"/>
+      </locations>
+      <files>
+        <include>
+          <exclude filename="prefs.prop"/>
+        </include>
+      </files>
+      <files type="Settings">
+        <include filename="prefs.prop"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -896,6 +1152,16 @@
       </files>
       <linkable />
       <contributor>Arc Angel</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuser" path="63380\Remote"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -934,7 +1200,7 @@
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
-	  <contributor>AdmiringWorm</contributor>
+      <contributor>AdmiringWorm</contributor>
     </version>
   </game>
   <game name="StreetsOfMoscow" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
@@ -1086,6 +1352,7 @@
       <locations>
         <path ev="steamcommon" path="xpand rally"/>
         <registry root="local_machine" key="SOFTWARE\Techland\XpandRally" value="DestinationDir"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 3010" value="InstallLocation"/>
       </locations>
       <files>
         <include path="Data\profiles"/>
@@ -1104,11 +1371,12 @@
     </version>
   </game>
   <game name="XpandRallyExtreme" follows="XpandRally" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
-    <title>Xpand Rally Extreme</title>
+    <title>Xpand Rally Xtreme</title>
     <version os="Windows">
       <locations>
         <path ev="steamcommon" path="xpand rally xtreme"/>
         <registry root="local_machine" key="SOFTWARE\Techland\XpandRallyXtreme" value="DestinationDir"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 3050" value="InstallLocation"/>
       </locations>
       <files>
         <include path="Data\profiles"/>
@@ -1126,5 +1394,30 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
-  
+  <game name="ZeroGear">
+    <title>Zero Gear</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Zero Gear"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 18820" value="InstallLocation"/>
+      </locations>
+      <files type="Settings">
+        <include path="Client" filename="*.xml"/>
+        <include path="Server" filename="*Control*.txt"/>
+        <include path="Server" filename="serverSettings.txt"/>
+      </files>
+      <comment>Settings Only</comment>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="18820\remote" />
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
 </programs>
