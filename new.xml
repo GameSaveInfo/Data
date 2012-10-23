@@ -348,6 +348,29 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="ClassicCarRacing" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Classic Car Racing</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="classic car racing"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Steam App 46220" value="InstallLocation"/>
+      </locations>
+      <files>
+        <include path="Data\profiles"/>
+      </files>
+      <files type="Replays">
+        <include path="Replays"/>
+      </files>
+      <files type="Settings">
+        <include path="Data" filename="*Settings*.scr">
+          <exclude path="Data" filename="DefaultServerSettings.scr" />
+        </include>
+        <include filename="Controls.txt" />
+      </files>
+      <linkable path="Data\profiles"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="CounterStrike">
     <title>Counter-Strike</title>
     <version os="Windows">
@@ -355,8 +378,10 @@
         <path ev="steamuser" path="counter-strike"/>
       </locations>
       <files type="Settings">
-        <include path="cstrike*"/>
-        <include path="platform"/>
+        <include path="cstrike*">
+          <exclude path="cstrike*\*dlls"/>
+          <exclude path="cstrike*\manual"/>
+        </include>
         <include path="valve" filename="*"/>
       </files>
       <comment>Settings Only</comment>
@@ -447,7 +472,9 @@
         <path ev="steamuser" path="counter-strike source"/>
       </locations>
       <files>
-        <include path="cstrike*"/>
+        <include path="cstrike*">
+          <exclude path="cstrike\bin"/>
+        </include>
         <include path="platform"/>
       </files>
       <linkable/>
@@ -455,11 +482,14 @@
       <contributor>AdmiringWorm</contributor>
     </version>
     <version os="Windows" release="Beta">
+      <title>Counter Strike: Source Beta</title>
       <locations>
         <path ev="steamuser" path="counterstrike source beta"/>
       </locations>
       <files>
-        <include path="cstrike*"/>
+        <include path="cstrike_beta*">
+          <exclude path="cstrike_beta\bin"/>
+        </include>
         <include path="platform"/>
       </files>
       <linkable/>
@@ -476,6 +506,26 @@
         <include />
       </files>
       <linkable />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="CrusaderKings">
+    <title>Crusader Kings</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Paradox Interactive\Crusader Kings"/>
+        <registry root="local_machine" key="SOFTWARE\Paradox Entertainment\Crusader Kings" value="path"/>
+        <shortcut ev="startmenu" path="Programs\Paradox Interactive\Crusader Kings\Crusader Kings.lnk"/>
+      </locations>
+      <files>
+        <include path="scenarios\save games"/>
+      </files>
+      <files type="Settings">
+        <include filename="config.eu"/>
+        <include path="config"/>
+      </files>
+      <linkable path="scenarios\save game"/>
+      <linkable path="config"/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -504,7 +554,9 @@
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 30" value="InstallLocation"/>
       </locations>
       <files type="Settings">
-        <include path="dod*"/>
+        <include path="dod*">
+          <exclude path="dod\cl_dlls"/>
+        </include>
         <include path="valve">
           <exclude path="valve\cl_dlls"/>
         </include>
@@ -523,7 +575,9 @@
       </locations>
       <files>
         <include path="platform"/>
-        <include path="dod*"/>
+        <include path="dod*">
+          <exclude path="dod\bin"/>
+        </include>
       </files>
       <linkable/>
       <contributor>GameSaveManager</contributor>
@@ -543,6 +597,22 @@
         <include filename="*.options.sav" />
       </files>
       <linkable />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="DeadMeetsLead">
+    <title>Dead Meets Lead</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="DeadMeetsLead"/>
+      </locations>
+      <files>
+        <include path="Profiles"/>
+      </files>
+      <files type="Settings">
+        <include filename="*"/>
+      </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -586,7 +656,7 @@
         <include path="Data\Init" />
       </files>
       <linkable path="Data\Init" />
-      <comment>Settings only</comment>
+      <comment>Settings only, does not backup launcher settings.</comment>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -643,6 +713,7 @@
       <contributor>AdmiringWorm</contributor>
     </version>
     <version os="Windows" release="Beta">
+      <title>Garry's Mod Beta</title>
       <locations>
         <path ev="steamuser" path="garry's mod beta\garrysmodbeta"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 4010" value="InstallLocation"/>
@@ -889,7 +960,7 @@
     </version>
     <version os="Windows" region="NOR">
       <locations>
-        <path ev="steamuser" path="half-life blue shift" append="bshift_norwegian"/>
+        <path ev="steamuser" path="half-life blue shift\bshift_norwegian" />
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 130" value="InstallLocation" append="bshift_norwegian"/>
       </locations>
       <files>
@@ -917,7 +988,7 @@
     </version>
     <version os="Windows" region="NOR">
       <locations>
-        <path ev="steamuser" path="opposing force" append="gearbox_norwegian"/>
+        <path ev="steamuser" path="opposing force\gearbox_norwegian"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 50" value="InstallLocation" append="gearbox_norwegian"/>
       </locations>
       <files>
@@ -954,11 +1025,11 @@
         <path ev="steamcommon" path="lugaru hd"/>
       </locations>
       <files>
-        <include path="Campaigns"/>
-        <include filename="Users"/>
+        <include path="Data\Campaigns"/>
+        <include path="Data" filename="Users"/>
       </files>
       <files type="Settings">
-        <include filename="config.txt"/>
+        <include path="Data" filename="config.txt"/>
       </files>
       <linkable path="Data\Campaigns"/>
       <contributor>AdmiringWorm</contributor>
@@ -1002,6 +1073,21 @@
         <include filename="prefs.prop" />
       </files>
       <linkable />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="PoliceForce">
+    <title>Police Force - The realistic simulation of the German police</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Quadriga Games\Police Force"/>
+      </locations>
+      <files>
+        <include filename="profiles.json"/>
+      </files>
+      <files type="Settings">
+        <include filename="police.cfg"/>
+      </files>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -1296,8 +1382,13 @@
       <files type="Skins">
         <include path="Skins" />
       </files>
+      <files type="Replays">
+        <include path="Tracks\Replays"/>
+      </files>
       <files type="Tracks">
-        <include path="Tracks" />
+        <include path="Tracks">
+          <exclude path="Tracks\Replays"/>
+        </include>
       </files>
       <linkable />
       <contributor>GameSave.Info</contributor>
@@ -1330,9 +1421,41 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
-  <game name="VirtualVillagersANewHome" submitted="false">
+  <game name="VirtualVillagers2TheLostChildren" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Virtual Villagers 2: The Lost Children</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="LDW\Virtual Villagers - The Lost Children"/>
+      </locations>
+      <files>
+        <include>
+          <exclude filename="ldwLog.txt"/>
+        </include>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="VirtualVillagers3TheSecretCity" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Virtual Villagers 3: The Secret City</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="LDW\Virtual Villagers - The Secret City"/>
+      </locations>
+      <files>
+        <include>
+          <exclude filename="ldwLog.txt"/>
+        </include>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="VirtualVillagersANewHome">
     <title>Virtual Villagers: A New Home</title>
-    <version os="Windows" release="Custom">
+    <version os="Windows">
       <locations>
         <path ev="steamcommon" path="Virtual Villagers"/>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 16100" value="InstallLocation"/>
@@ -1342,6 +1465,24 @@
       </files>
       <files type="Settings">
         <include filename="ldw.ini"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  <game name="VolvoTheGame">
+    <title>Volvo - The Game</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="SimBin\Volvo - The Game"/>
+      </locations>
+      <files>
+        <include path="USERDATA">
+          <exclude path="USERDATA\LOG"/>
+          <exclude path="USERDATA\*TEMP*"/>
+        </include>
+      </files>
+      <files type="Replays">
+        <include path="REPLAYDATA"/>
       </files>
       <contributor>AdmiringWorm</contributor>
     </version>

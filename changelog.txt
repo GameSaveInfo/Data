@@ -39,6 +39,7 @@ Contributed by AdmiringWorm
 * Call of Duty: United Offensive - Added Steam Registry path
 * Ceville - Added Settings type
 * Cities in Motion - Added Maps Type
+* Classic Car Racing - Updated Settings type and Added Steam Registry path
 * Counter-Strike
 * Counter-Strike: Condition Zero - Added Norwegian region
 * Counter-Strike: Condition Zero: Deleted Scenes - Added Norwegian region
@@ -46,8 +47,10 @@ Contributed by AdmiringWorm
 * Counter-Strike: Source - Updated files to save and added Beta Release
 * CSI: Hard Evidence - Added Steam Registry path
 * Criminal Minds
+* Crusader Kings
 * Day of Defeat - Added Steam Registry path and updated the files to back up
 * Day of Defeat: Source - Updated files to save
+* Dead Meets Lead
 * Deadly Association
 * Dreamfall: The Longest Journey - Added Steam Registry path
 * Drift City
@@ -70,6 +73,7 @@ Contributed by AdmiringWorm
 * Machinarium - Added new flashshared path
 * Osmos - Added new types
 * Poker Night at the Inventory - Added Settings type
+* Police Force
 * Portal - Added Settings Type and Steam Registry path
 * Pulsen
 * Recettear: An Item Shop's Tale - Added Steam Registry path
@@ -83,10 +87,13 @@ Contributed by AdmiringWorm
 * Spaces Pirates and Zombies - Added Settings type
 * Streets of Moscow - Updated Settings type
 * Team Fortress Classic
-* Trackmania Nations Forever - Added three new types
+* Trackmania Nations Forever - Added four(4) new types
 * Trials 2: Second Edition - Added Settings type
 * Uplink - Added Steam Registry path
-* Virtual Villages: A New Home
+* Virtual Villagers 2: The Lost Children - Added exclude
+* Virtual Villagers 3: The Secret City - Added exclude
+* Virtual Villagers: A New Home
+* Volvo - The Game
 * Xpand Rally - Updated Settings type and Added Steam Registry path
 * Xpand Rally Extreme - Updated Settings type and Added Steam Registry path and Fixed title name
 * Zero Gear
