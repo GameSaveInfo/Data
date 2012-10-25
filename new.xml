@@ -1035,6 +1035,22 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="MedalOfHonorWarfighter" follows="MedalOfHonor2010">
+    <title>Medal of Honor: Warfighter</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="MOHW"/>
+      </locations>
+      <files>
+        <include path="settings" filename="meta.xml"/>
+      </files>
+      <files type="Settings">
+        <include path="settings" filename="PROF_SAVE*"/>
+      </files>
+      <linkable path="settings"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="Osmos" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Osmos</title>
     <version os="Windows">

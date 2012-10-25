@@ -71,6 +71,7 @@ Contributed by AdmiringWorm
 * Jack Keane - Added settings type
 * Lugaru HD - Fixed the files to back up (Files in xml does not exist)
 * Machinarium - Added new flashshared path
+* Medal of Honor: Warfighter
 * Osmos - Added new types
 * Poker Night at the Inventory - Added Settings type
 * Police Force
