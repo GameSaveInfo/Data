@@ -1001,6 +1001,35 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </expansion>
+  <game name="IcyTower" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Icy Tower</title>
+    <version os="Windows" release="15">
+      <locations>
+        <path ev="installlocation" path="games\icytower1.5"/>
+        <registry root="local_machine" key="SOFTWARE\Conduit\AppPaths\icytower15.exe" value="AppPath" detract="icytower15.exe"/>
+      </locations>
+      <files>
+        <include path="profiles">
+          <exclude path="profiles" filename="dummy.txt"/>
+          <exclude path="profiles\*" filename="dummy.txt"/>
+          <exclude path="profiles\*\replays"/>
+        </include>
+      </files>
+      <files type="Characters">
+        <include path="characters"/>
+      </files>
+      <files type="Replays">
+        <include path="profiles\*\replays">
+          <exclude path="profiles\*\replays" filename="dummy.txt"/>
+        </include>
+      </files>
+	  <files type="Settings">
+		<include filename="*.cfg"/>
+	  </files>
+      <linkable path="profiles"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
   <game name="JackKeane" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Jack Keane</title>
     <version os="Windows">

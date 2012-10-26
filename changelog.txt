@@ -68,6 +68,7 @@ Contributed by AdmiringWorm
 * Half-Life 2: Lost Coast - Added Settings type and Added Steam registry path
 * Half-Life: Blue Shift - Added Norwegian region
 * Half-Life: OpposingForce - Added Norwegian region
+* Icy Tower 1.5 - Added Settings type
 * Jack Keane - Added settings type
 * Lugaru HD - Fixed the files to back up (Files in xml does not exist)
 * Machinarium - Added new flashshared path
