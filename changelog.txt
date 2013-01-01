@@ -1,27 +1,42 @@
-Game to look into: DiRT, The PATH
+Games to look into: DiRT, The PATH
 =Upcoming=
-* Adventures of Shuggy - Contributed by Arc Angel
-* Black Mesa - Contributed by Frozer
-* Borderlands 2 - Contributed by Arc Angel and simtech76
-* Hector: Badge of Carnage Episode 2 - Contributed by Arc Angel
-* Hector: Badge of Carnage Episode 3 - Contributed by Arc Angel
-* Legacy of Kain: Soul Reaver - Gog only
-* Legacy of Kain: Soul Reaver 2
-* Nexus: The Jupiter Incident
-* Silver - GoG only
-Added GoG info for:
-* Anachronox
-* Sid Meier's Colonization
-* Hitman: Codename 47
-* Hitman 2: Silent Assassin
-* Machinarium
-* Thief Gold
-* Tomb Raider
-* Tomb Raider II
-* Tomb Raider III
-* Tomb Raider: Chronicles
-* Tomb Raider: The Angel of Darkness
-* Tomb Raider: The Last Revelation
+* Atlantis: The Lost Tales
+* Atlantis II: Beyond Atlantis
+* Atlantis III: The New World
+* Carmageddon
+* Carmageddon Splat Pack
+* Closure - Steam only
+* The Dark Eye - Chains of Satinav
+* Dungeon Defenders - Added support for non-steam copies
+* Enda & Harvey: The Breakout
+* Harvey's New Eyes
+* Iron Brigade
+* Mutant Mudds
+* NecroVisioN - Contributed by simtech76
+* Oddworld: Stranger's Wrath HD
+* Perimiter
+* Return to Mysterious Island
+* Rochard - Steam Cloud
+* Snapshot
+* Splice - Steam Cloud
+* Star Wars: Tie Fighter - Contributed by Jason Lambert
+* Unmechanical
+* Warhammer 40,000: Dawn Of War GOTY - Added Steam support
+* Wing Commander: The Secret Missions 2: Crusade
+* Wing Commenter II: Special Operations 1
+* Wing Commenter II: Special Operations 2
+* Wizorb - Steam cloud
+* Zen Bound 2 - Steam Cloud
+
+
+
+Contributed by Arc Angel:
+* Deadlight
+* Dishonored
+* Hotline Miami
+* Realm of Ancient War
+* Retro City Rampage
+
 Contributed by AdmiringWorm
 * 4x4 Hummer - Added Settings type and added new Registry key
 * A.I.M. Racing - Added new Registry key
@@ -99,6 +114,34 @@ Contributed by AdmiringWorm
 * Xpand Rally - Updated Settings type and Added Steam Registry path
 * Xpand Rally Extreme - Updated Settings type and Added Steam Registry path and Fixed title name
 * Zero Gear
+
+Contributed by GameSaveManager
+* Baldur's Gate: Enhanced Edition
+
+
+=Not sure on the date for these=
+* Adventures of Shuggy - Contributed by Arc Angel
+* Black Mesa - Contributed by Frozer
+* Borderlands 2 - Contributed by Arc Angel and simtech76
+* Hector: Badge of Carnage Episode 2 - Contributed by Arc Angel
+* Hector: Badge of Carnage Episode 3 - Contributed by Arc Angel
+* Legacy of Kain: Soul Reaver - Gog only
+* Legacy of Kain: Soul Reaver 2
+* Nexus: The Jupiter Incident
+* Silver - GoG only
+Added GoG info for:
+* Anachronox
+* Sid Meier's Colonization
+* Hitman: Codename 47
+* Hitman 2: Silent Assassin
+* Machinarium
+* Thief Gold
+* Tomb Raider
+* Tomb Raider II
+* Tomb Raider III
+* Tomb Raider: Chronicles
+* Tomb Raider: The Angel of Darkness
+* Tomb Raider: The Last Revelation
 Contributed by GameSaveManager
 * Age of Wonders II
 * Anna

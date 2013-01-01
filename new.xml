@@ -1605,5 +1605,552 @@
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
+  <game name="Dishonored">
+    <title>Dishonored</title>
+    <version os="Windows" type="Settings">
+      <locations>
+        <path ev="userdocuments" path="My Games\Dishonored\DishonoredGame"/>
+      </locations>
+      <files>
+        <include path="Config"/>
+      </files>
+      <linkable />
+      <contributor>Arc Angel</contributor>
+    </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="205100"/>
+      </locations>
+      <files>
+        <include path="remote"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
 
+  <game name="NecroVisionN">
+    <title>NecroVisioN</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="NecroVisioN"/>
+      </locations>
+      <files>
+        <include path="Profiles" />
+      </files>
+      <linkable path="Profiles" />
+      <contributor>simtech76</contributor>
+    </version>
+  </game>
+
+  <game name="Deadlight">
+    <title>Deadlight</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Deadlight"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable />
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="RealmsOfAncientWar">
+    <title>Realms of Ancient War</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Realms of Ancient War"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable />
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="RetroCityRampage">
+    <title>Retro City Rampage</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Retro City Rampage"/>
+      </locations>
+      <files>
+        <include filename="*.rsv"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="HotlineMiami">
+    <title>Hotline Miami</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="hotline_miami"/>
+      </locations>
+      <files>
+        <include filename="*.sav"/>
+        <include filename="saves.dat"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  <game name="Perimiter">
+    <title>Perimiter</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GoG.com\Perimeter"/>
+        <registry root="local_machine" key="SOFTWARE\Codemasters\Perimeter" value="INSTALL_PATH"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPERIMETER" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Perimeter\Perimeter.lnk"/>
+      </locations>
+      <files>
+        <include path="Resource\Saves" />
+      </files>
+      <linkable path="Resource\Saves" />
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Unmechanical">
+    <title>Unmechanical</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Unmechanical"/>
+      </locations>
+      <files>
+        <include path="SavedElements" />
+      </files>
+      <files type="Settings">
+        <include path="UDKGame\Config" />
+      </files>
+      <linkable />
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="MutantMudds">
+    <title>Mutant Mudds</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Renegade Kid\Mutant Mudds"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="SwordsAndSoldiersHD" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Swords and Soldiers HD</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="swords and soldiers"/>
+        <path ev="steamcommon" path="SwordsAndSoldiersHD"/>
+      </locations>
+      <files>
+        <include path="Data" filename="Save.txt"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+  
+  <game name="Rochard">
+    <title>Rochard</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="107800"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="Closure">
+    <title>Closure</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="72000" />
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Closure"/>
+      </locations>
+      <files>
+        <include path="Resources\userdata" filename="*.sav" />
+      </files>
+      <files type="Settings">
+        <include path="Resources" filename="savedsettings.cfg" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="DungeonDefenders" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Dungeon Defenders</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Dungeon Defenders"/>
+        <path ev="installlocation" path="Trendy Entertainment\Dungeon Defenders"/>
+        <registry root="local_machine" key="SOFTWARE\TrendyEntertainment\DungeonDefenders" value="BinaryPath" detract="Binaries\Win32"/>
+      </locations>
+      <files>
+        <include path="Binaries\Win32" filename="DunDefHeroes.dun "/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="Snapshot">
+    <title>Snapshot</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Snapshot"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="Warhammer40kDawnOfWar" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Warhammer 40,000: Dawn of War</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="THQ\Dawn Of War"/>
+        <registry root="local_machine" key="Software\THQ\Dawn Of War" value="InstallLocation"/>
+        <path ev="steamcommon" path="Dawn of War Gold"/>
+      </locations>
+      <files>
+        <include path="Profiles"/>
+      </files>
+      <linkable path="Profiles"/>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+
+  <game name="Splice">
+    <title>Splice</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamcommon" path="209790"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Wizorb">
+    <title>Wizorb</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamcommon" path="207420"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="ZenBound2">
+    <title>Zen Bound 2</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamcommon" path="61600"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <expansion name="WingCommanderSecretMissions2Crusade" for="WingCommander">
+    <title>Wing Commander: The Secret Missions 2: Crusade</title>
+    <version os="DOS">
+      <locations>
+        <parent name="WingCommander" os="DOS"/>
+      </locations>
+      <files>
+        <include path="GAMEDAT" filename="CRUSADE.WLD"/>
+      </files>
+      <identifier path="GAMEDAT" filename="CRUSADE.WLD" />
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </expansion>
+
+  <expansion name="WingCommander2SpecialOperations1" for="WingCommander">
+    <title>Wing Commander II: Special Operations 1</title>
+    <version os="DOS">
+      <locations>
+        <parent name="WingCommander2" os="DOS"/>
+      </locations>
+      <files>
+        <include path="GAMEDAT" filename="SAVEGAME.SO1"/>
+      </files>
+      <identifier path="GAMEDAT" filename="SAVEGAME.SO1" />
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </expansion>
+  <expansion name="WingCommander2SpecialOperations2" for="WingCommander">
+    <title>Wing Commander II: Special Operations 2</title>
+    <version os="DOS">
+      <locations>
+        <parent name="WingCommander2" os="DOS"/>
+      </locations>
+      <files>
+        <include path="GAMEDAT" filename="SAVEGAME.SO2"/>
+      </files>
+      <identifier path="GAMEDAT" filename="SAVEGAME.SO2" />
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </expansion>
+  <game name="AtlantisTheLostTales">
+    <title>Atlantis: The Lost Tales</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Atlantis - The Lost Tales"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGATLANTIS" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Atlantis - The Lost Tales\Atlantis - The Lost Tales.lnk"/>
+        <registry root="current_user" key="Software\CRYO\Atlantis\GameDirectory"/>
+      </locations>
+      <files>
+        <include filename="players.atl" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Atlantis2BeyondAtlantis">
+    <title>Atlantis II: Beyond Atlantis</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Beyond Atlantis"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGATLANTIS2" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Beyond Atlantis\Beyond Atlantis.lnk"/>
+      </locations>
+      <files>
+        <include path="save" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Atlantis3TheNewWorld">
+    <title>Atlantis III: The New World</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Atlantis III - The New World"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGATLANTIS3" value="PATH"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Atlantis III - The New World\Atlantis III - The New World.ln"/>
+      </locations>
+      <files>
+        <include path="Datas\save" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+
+
+  <game name="Carmageddon">
+    <title>Carmageddon</title>
+    <version os="DOS">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Carmageddon\CARMA"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGCARMAGEDDON" value="PATH" append="CARMA"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Carmageddon\Carmageddon\Carmageddon.lnk" detract="DOSBOX" append="CARMA"/>
+      </locations>
+      <files>
+        <include path="DATA\SAVEGAME" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="CarmageddonSplatPack">
+    <title>Carmageddon Splat Pack</title>
+    <version os="DOS">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Carmageddon\CARSPLAT"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGCARMAGEDDONSPLAT" value="PATH" append="CARSPLAT"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Carmageddon\Carmageddon\Carmageddon.lnk" detract="DOSBOX" append="CARSPLAT"/>
+      </locations>
+      <files>
+        <include path="DATA\SAVEGAME" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  
+  <game name="DukeNukem3D" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Duke Nukem 3D</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDUKE3D" value="PATH"/>
+        <path ev="installlocation" path="GOG.com\Duke Nukem 3D" />
+      </locations>
+      <files>
+        <include filename="*.sav"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="ReturnToMysteriousIsland">
+    <title>Return to Mysterious Island</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGRTMI" value="PATH"/>
+        <path ev="installlocation" path="GOG.com\Return to Mysterious Island" />
+        <registry root="current_user" key="Software\The Adventure Company\Return to Mysterious Island" value="Install_Dir"/>
+        <shortcut ev="startmenu" path="Programs\GOG.com\Return to Mysterious Island\Return to Mysterious Island.lnk"/>
+      </locations>
+      <files>
+        <include path="Users"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="DarkEyeChainsOfSatinav">
+    <title>The Dark Eye - Chains of Satinav</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Daedalic Entertainment\Satinav"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="HarveysNewEyes">
+    <title>Harvey's New Eyes</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Daedalic Entertainment\Harvey"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="EdnaAndHarveyTheBreakout">
+    <title>Edna &amp; Harvey: The Breakout</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userprofile" path="Daedalic\EdnaSE"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="OddworldStrangersWrath" follows="OddworldMunchsOddysee" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Oddworld: Stranger's Wrath</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="stranger's wrath" deprecated="true"/>
+        <path ev="userdocuments" path="Oddworld\Stranger's Wrath"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <files type="Settings">
+        <include filename="config.txt"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+      <contributor>slake_jones</contributor>
+    </version>
+    <version os="Windows" release="HD">
+      <title>Oddworld: Stranger's Wrath HD</title>
+      <locations>
+        <path ev="userdocuments" path="Oddworld\Stranger's Wrath HD"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <files type="Settings">
+        <include filename="config.txt"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="IronBrigade">
+    <title>Iron Brigade</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Doublefine\IronBrigade"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <restore_comment>Restoring saves for this game also requires restoring Game for Windows Account Data, which MASGAU automatically backs up in G4WAccountData.</restore_comment>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="StarWarsTieFighter">
+    <title>Star Wars: Tie Fighter</title>
+    <version os="DOS" media="Floppy">
+      <locations>
+        <path ev="installlocation" path="TIE"/>
+      </locations>
+      <files>
+        <include filename="*.tfr" />
+      </files>
+      <contributor>Jason Lambert</contributor>
+    </version>
+    <version os="DOS" media="CD">
+      <locations>
+        <path ev="installlocation" path="TIECD"/>
+      </locations>
+      <files>
+        <include filename="*.tfr" />
+      </files>
+      <contributor>Jason Lambert</contributor>
+    </version>
+  </game>
+
+  <game name="BatmanArkhamCity" follows="BatmanArkhamAsylum">
+    <title>Batman: Arkham City</title>
+    <version os="Windows" release="GOTY">
+      <title>Batman: Arkham City GOTY</title>
+      <locations>
+        <path ev="userdocuments" path="WB Games\Batman Arkham City GOTY"/>
+      </locations>
+      <files>
+        <include path="SaveData"/>
+      </files>
+      <files type="Settings">
+        <include path="BmGame\Config"/>
+      </files>
+      <linkable path="SaveData"/>
+      <contributor>Jan</contributor>
+    </version>
+  </game>
+  
+  <game name="XComEnemyUnknown">
+    <title>X-Com: Enemy Unknown</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\XCOM - Enemy Unknown"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>Frozen Fire</contributor>
+    </version>
+  </game>
 </programs>
