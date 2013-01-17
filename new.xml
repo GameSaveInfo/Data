@@ -49,4 +49,24 @@
 
 -->
 
+  <game name="EuroTruckSimulator2">
+    <title>Euro Truck Simulator 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Euro Truck Simulator 2"/>
+      </locations>
+      <files>
+        <include path="profile" />
+      </files>
+      <files type="Settings">
+        <include filename="*.cfg"/>
+      </files>
+      <files type="Mods">
+        <include path="mod" />
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
 </programs>
