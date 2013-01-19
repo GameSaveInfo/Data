@@ -1,4 +1,19 @@
 Games to look into: DiRT, The PATH
+=Upcoming=
+* Age of Wonders II: Added GoG info
+* Age of Wonders: Shadow Magic - Added more GoG info
+* Depserados - Added GoG info
+* Dungeon Keeper II - Added more GoG info
+* Far Cry 3 - Contributed by thereid84
+* Hotline Miami - Added GoG info
+* In Cold Blood
+* Jack Orlando: Director's Cut
+* Lords of the Realm III
+* Populous 2
+* Populous: The Beginning
+* Runaway 2 - Added GoG info
+* Stronghold - Deprecated old save locations, moved to dcuments folder
+* SpecOps: The Update - Contributed by Arc Angel
 =1/5/2013=
 * Atlantis: The Lost Tales
 * Atlantis II: Beyond Atlantis

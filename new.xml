@@ -48,5 +48,249 @@
   </game>
 
 -->
+  <game name="AgeOfWonders2" added="2012-10-01T16:54:44" updated="2012-10-01T16:54:44">
+    <title>Age of Wonders II</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Age of Wonders II"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Age of Wonders 2\Age of Wonders 2.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAOM2" value="PATH"/>
+        <registry root="current_user" key="Software\Triumph Studios\Age of Wonders II\General" value="Root Directory"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <contributor>GameSaveManager</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="AgeOfWondersShadowMagic" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Age of Wonders: Shadow Magic</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Age of Wonders Shadow Magic"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Age of Wonders - Shadow Magic\Age of Wonders - Shadow Magic.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGAOMSM" value="PATH"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <linkable path="Save"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Desperados" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Desperados: Wanted Dead or Alive</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Desperados Wanted Dead or Alive"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Desperados Wanted Dead or Alive\Desperados Wanted Dead or Alive.lnk" detract="Game"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDESPERADOSWANTEDDEADORALIVE" value="PATH"/>
+        <path ev="installlocation" path="Infogrames\Desperados"/>
+        <registry root="local_machine" key="SOFTWARE\Spellbound Software\Desperados 1.0" value="InstallPath" />
+      </locations>
+      <files>
+        <include path="Game\Data\Savegame"/>
+      </files>
+      <linkable path="Game\Data\Savegame"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="DungeonKeeper2" follows="DungeonKeeper" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Dungeon Keeper II</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Dungeon Keeper 2"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Dungeon Keeper 2\Dungeon Keeper 2.lnk"/>
+        <path ev="installlocation" path="Bullfrog\Dungeon Keeper II"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGDUNGEONKEEPER2" value="PATH"/>
+      </locations>
+      <files>
+        <include path="Data\Save"/>
+      </files>
+      <linkable path="Data\Save"/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="HotlineMiami" added="2013-01-05T16:19:39" updated="2013-01-05T16:19:39">
+    <title>Hotline Miami</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Hotline Miami"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Hotline Miami\Hotline Miami.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGHOTLINEMIAMI" value="PATH"/>
+        <path ev="steamcommon" path="hotline_miami"/>
+      </locations>
+      <files>
+        <include filename="*.sav"/>
+        <include filename="saves.dat"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Runaway2TheDreamOfTheTurtle" follows="RunawayARoadAdventure" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Runaway 2: The Dream Of The Turtle</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Runaway 2 - The Dream of the Turtle"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Runaway 2 - The Dream of the Turtle\Runaway 2 - The Dream of the Turtle.lnk"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGRUNAWAY2" value="PATH"/>
+        <path ev="steamcommon" path="runaway the dream of the turtle"/>
+      </locations>
+      <files>
+        <include path="SAVEGAME"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
 
+  <game name="Stronghold" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Stronghold</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Stronghold" deprecated="true"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Stronghold\Stronghold.lnk" deprecated="true"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTRONGHOLD" value="PATH" deprecated="true"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\stronghold.exe" value="Path" deprecated="true"/>
+        <path ev="userdocuments" path="Stronghold"/>
+      </locations>
+      <files>
+        <include path="saves"/>
+      </files>
+      <files type="Maps">
+        <include path="Maps"/>
+      </files>
+      <files type="Settings">
+        <include path="stronghold.cfg"/>
+      </files>
+      <linkable path="saves"/>
+      <comment>Includes Stronghold HD</comment>
+      <contributor>GameSaveManager</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="InColdBlood" >
+    <title>In Cold Blood</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\In Cold Blood"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\In Cold Blood\In Cold Blood.lnk" detract="engine\linc"/>
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGINCOLDBLOOD" value="PATH"/>
+        <registry root="current_user" key="Software\RevolutionSoftware\InColdBlood" value="ICB_INSTALL_PATH"/>
+      </locations>
+      <files>
+        <include path="engine\linc\saves"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="JackOrlando" >
+    <title>Jack Orlando: A Cinematic Adventure</title>
+    <version os="Windows" release="DirectorsCut">
+      <title>Jack Orlando: Director's Cut</title>
+      <locations>
+        <path ev="installlocation" path="GOG.com\Jack Orlando Director's Cut"/>
+        <path ev="installlocation" path="GOGcom\Jack Orlando Director's Cut"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Jack Orlando Director's Cut\Jack Orlando Director's Cut.lnk" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGJACKORLANDODC" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\TopWare Poland\Jack Orlando" value="Directory"/>
+      </locations>
+      <files>
+        <include path="Savegame"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  
+  <game name="LordsOfTheRealm3">
+    <title>Lords of the Realm 3</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Lords of the Realm III"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Lords of the Realm III\Lords of the Realm III.lnk" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGLORDSOFTHEREALM3" value="PATH"/>
+      </locations>
+      <files>
+        <include path="Nobles"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+
+  <game name="Populous2">
+    <title>Populous 2</title>
+    <version os="DOS">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Populous 2"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Populous 2\Populous 2.lnk" detract="DOSBOX" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPOPULOUS2" value="PATH"/>
+      </locations>
+      <files>
+        <include path="POPSAVE"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="Populous3TheBeginning">
+    <title>Populous: The Beginning</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Populous 3"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Populous - The Beginning\Populous - The Beginning.lnk" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGPOPULOUS3" value="PATH"/>
+        <registry root="local_machine" key="SOFTWARE\Bullfrog Productions Ltd\Populous: The Beginning" value="InstallPath"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Populous: The Beginning" value="Path"/>
+      </locations>
+      <files>
+        <include path="SAVE"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="TorinsPassage">
+    <title>Torin's Passage</title>
+    <version os="DOS">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Torins Passage"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Torin's Passage\Torin's Passage.lnk" detract="DOSBOX" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGTORINSPASSAGE" value="PATH"/>
+      </locations>
+      <files>
+        <include filename="AUTOSAVE.*"/>
+        <include filename="TORINSG.*"/>
+        <include filename="TORIN.PRF" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="FarCry3">
+    <title>Far Cry 3</title>
+    <version os="Windows">
+      <locations>
+        <path ev="commonapplicationdata" path="Orbit\46"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>thereid84</contributor>
+    </version>
+  </game>
+  <game name="SpecOpsTheUpdate">
+    <title>SpecOps: The Update</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamuserdata" path="50300"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
 </programs>
+
