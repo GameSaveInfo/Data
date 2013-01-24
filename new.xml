@@ -61,9 +61,6 @@
       <files type="Settings">
         <include filename="*.cfg"/>
       </files>
-      <files type="Mods">
-        <include path="mod" />
-      </files>
       <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
