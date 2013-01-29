@@ -1,4 +1,5 @@
 Contributed by AdmiringWorm
+* The Book of Unwritten Tales - Added Settings path
 * Euro Truck Simulator 2
 Games to look into: DiRT, The PATH
 =1/5/2013=

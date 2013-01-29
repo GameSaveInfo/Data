@@ -49,6 +49,27 @@
 
 -->
 
+  <game name="BookOfUnwrittenTales" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>The Book of Unwritten Tales</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Book of Unwritten Tales"/>
+        <path ev="userdocuments" path="Unwritten Tales"/>
+      </locations>
+      <files>
+        <include path="savegames"/>
+      </files>
+      <files type="Settings">
+        <include filename="*">
+          <exclude filename="*.log"/>
+        </include>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
   <game name="EuroTruckSimulator2">
     <title>Euro Truck Simulator 2</title>
     <version os="Windows">
