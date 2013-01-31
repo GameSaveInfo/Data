@@ -87,4 +87,21 @@
     </version>
   </game>
 
+  <game name="OmertaCityOfGangsters">
+    <title>Omerta: City of Gangsters</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Omerta"/>
+      </locations>
+      <files>
+        <include>
+          <exclude path="logs"/>
+        </include>
+      </files>
+      <linkable/>
+      <comment>These saves is being synchronized with Steam server, and will automatically be downloaded on launch.</comment>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
 </programs>
