@@ -15,10 +15,462 @@ Games to look into: DiRT, The PATH
 * Strike Suite Zero
 * Stronghold - Deprecated old save locations, moved to dcuments folder
 * SpecOps: The Update - Contributed by Arc Angel
+
 Contributed by AdmiringWorm
 * The Book of Unwritten Tales - Added Settings path
 * Euro Truck Simulator 2
 * Omerta: City of Gangsters
+
+Contributed by GameSaveManager
+* 10 Days to Save the World
+* 18 Wheels of Steel: Across America
+* 18 Wheels of Steel: Extreme Trucker 2
+* Achtung Panzer: Operation Star
+* Adam's Venture 2
+* Affair Bureau
+* A Game of Dwarves
+* Age of Oracles: Tara's Journey
+* Agricultural Simulator 2011
+* Airline Tycoon 2
+* Airport Control Simulator
+* Aladdin and the Wonderful Lamp: The 1001 Nights
+* Algodoo
+* America's Army 3
+* Anno 1404: Dawn of Discovery
+* Anno 1404: Venice
+* Apache: Air Assault
+* Archibald's Adventures
+* Archon Classics
+* ArmA 2: REINFORCEMENTS
+* Assassin's Creed 3
+* Atomic City Adventures: The Case of the Black Dragon
+* AutoClubRevolution
+* Autumn's Treasures: The Jade Coin
+* A Virus Named Tom
+* Awakening: The Dreamless Castle
+* Awesomenauts
+* Axis & Allies (2004)
+* Azada: Ancient Magic
+* Backyard Sports Sandlot Sluggers
+* Battlefield 1942
+* Battlefield Play4Free
+* Battlefield Vietnam
+* Battlestar Galactica
+* Battle vs. Chess
+* BBC Battlefield Academy
+* Beach Life
+* Beat Hazard
+* BEEP
+* Beijing 2008
+* Belkin Nostromo n52te
+* Binary Domain
+* Blacksite: Area 51
+* Blocks That Matter
+* Blood Ties
+* Bloody Good Time
+* Boogie Bunnies
+* Boonka
+* Born Into Darkness
+* Botanicula
+* Boulder Dash XL
+* BoXiKoN
+* Bunch of Heroes
+* Call of Duty: Black Ops II
+* Call to Power 2
+* Carrier Command
+* Cars: Toon Mater's Tall Tales
+* Cassandra's Journey 2: The Fifth Sun of Nostradamus
+* Cassandra's Journey: The Legacy of Nostradamus
+* Caster
+* Catwoman
+* Deponia 2: Chaos on Deponia
+* Checkers-7
+* Chess-7
+* Chicken Invaders 4: Ultimate Omelette
+* Chronostorm
+* City Sights: Hello, Seattle!
+* Cloning Clyde
+* Club Control
+* Cobalt
+* Coconut Queen
+* Codename Panzers: Cold War
+* Colour Bind
+* Combat Mission: Afghanistan
+* Combat Mission: Battle for Normandy
+* Combat Zone: Special Forces
+* Commandos Strike Force
+* Cortex Command
+* Crash Time 4: The Syndicate
+* Create
+* CreaVures
+* Creed Arena
+* Culpa Innata
+* Cyberstorm 2: Corporate Wars
+* DaisyWords
+* Dark Horizon
+* Darksiders II
+* Darkstar: The Interactive Movie
+* DCS: A-10C Warthog
+* DCS: World
+* DC Universe Online
+* Dead Block
+* Dead Horde
+* Dead Island
+* Deadlight
+* Deathmatch Classic
+* Defenders of Law
+* Defy Gravity
+* Delta Force: Black Hawk Down
+* Deluxe Hotel Imperium
+* Demolition Company
+* Department 42: The Mystery of the Nine
+* Detour
+* Deus Machina Demonbane
+* Devastation
+* Dexter: The Game
+* Diamond Dan
+* Dishonored
+* Disney Universe
+* Dive: The Medes Islands
+* DJMAX Trilogy
+* Doc Clock: The Toasted Sandwich of Time
+* Don't Starve
+* Doom 3 BFG Edition
+* DoomsDay
+* Drawn: The Painted Tower
+* Dress Up Rush
+* Drox Operative
+* Dungeonbowl
+* Dwarfs
+* Dynamite Jack
+* EDGE
+* Elemental: Fallen Enchantress
+* Elementals: The Magic Key
+* Elements of War
+* Emberwind
+* Empire at War
+* Enlightenus
+* Enter the Matrix
+* Escape Rosecliff Island
+* F1 2012
+* F1 RACE STARS™
+* Fairy Island
+* Far Cry 3
+* Farming Simulator 2009
+* Farming Simulator 2010
+* Farming Simulator 2013
+* Fate of the World
+* Feeding Frenzy 2
+* Ferrari Virtual Race
+* FIFA 13
+* FIFA Manager 07
+* FIFA Manager 08
+* FIFA Manager 09
+* FIFA Manager 10
+* FIFA Manager 11
+* FIFA Soccer 2007
+* FIFA Soccer 2008
+* FIFA Soccer 2009
+* FIM Speedway Grand Prix 4
+* Fish Tycoon
+* Flight Control HD
+* Football Manager 2006
+* Football Manager 2007
+* Football Manager 2013
+* Forsaken World
+* Fortix 2
+* Front Mission Evolved
+* Fruit Ninja HD
+* Future Wars
+* Galaxy on Fire 2 HD
+* Galcon Fusion
+* Garden Defense
+* Gateways
+* Giana Sisters: Twisted Dreams
+* Global Agenda
+* Global Ops: Commando Libya
+* Glowfish
+* Gnomoria
+* Grand Theft Auto
+* Ground Control [GOG Version]
+* GundeadliGne
+* Gundemonium Collection
+* Gundemonium Recollection
+* Half-Life 2 Mod - FakeFactory CM11
+* Half-Life 2 Mod - FakeFactory CM11: Episode 1
+* Half-Life 2 Mod - FakeFactory CM11: Episode 2
+* Half-Life 2 Mod - FakeFactory CM9
+* Half-Life 2 Mod - FakeFactory CM9: Episode 1
+* Half-Life 2 Mod - FakeFactory CM9: Episode 2
+* Half-Life Deathmatch: Source
+* Hamilton's Great Adventure
+* Harry Potter and the Deathly Hallows: Part 1
+* Harry Potter and the Deathly Hallows: Part 2
+* Harveys Neue Augen
+* Hawken
+* Hearts of Iron 3
+* Helldorado
+* Hell Yeah! Wrath of the Dead Rabbit
+* Heroes of Might and Magic IV
+* Heroes of Might and Magic V: Martillos del Destino
+* Heroes of Newerth
+* HISTORY Great Battles Medieval
+* Hitman: Absolution
+* Hitogata Happa
+* HOARD: Dynamite Roll!
+* Hot Wheels
+* Hoyle Card Games
+* Hoyle Games
+* Hoyle Puzzle and Board Games
+* Ignite
+* IL-2 Sturmovik: Cliffs of Dover
+* Incredipede
+* Inside a Star-Filled Sky
+* Insurgency
+* Intrusion 2
+* Iron Grip: Marauders
+* Jagged Alliance: Crossfire
+* Jane's Advanced Strike Fighters
+* Jazz Jackrabbit 2
+* Jekyll & Hyde
+* Jenny's Fish Shop
+* Jet Set Radio
+* John Daly's Pro Stroke Golf 2010
+* Journalist Journey: The Eye of Odin
+* Jungle Racers
+* Kelly Green: Garden Queen
+* King's Bounty: Crossworlds
+* King's Bounty: Warriors of the North
+* Kitten Sanctuary
+* Kung Fu Panda
+* Kung Fu Strike - The Warrior's Rise
+* League of Legends
+* Left Behind 3: Rise of the Antichrist
+* Legend: Hand of God
+* Lego® Harry Potter™ Years 1 - 4
+* Lego® Harry Potter™ Years 5 - 7
+* LEGO Racers 2
+* LEGO The Lord of the Rings
+* Line Rider
+* Lionheart: Kings' Crusade
+* Little Inferno
+* Lost Realms: The Curse of Babylon
+* Lost Via Domus
+* Lumines
+* Luxor: Fifth Passage
+* Luxor HD
+* Madagascar
+* Magic: The Gathering - Duels of the Planeswalkers 2013
+* Mah Jong Quest
+* Mah Jong Quest 2
+* Mah Jong Quest 3
+* Mahjong Suite
+* Major League Baseball 2011
+* ManiaPlanet
+* Mari0
+* Mark of the Ninja
+* Marvel VS
+* MDK 2 HD
+* MechWarrior 2: 31st Century Combat
+* MechWarrior 2: Mercenaries
+* Men of Valor
+* Men of War: Condemned Heroes
+* Metro 2033
+* M.I.A. Mission in Asia
+* Miasma: Citizens of Free Thought
+* Might & Magic Heroes VI
+* Miner Wars 2081
+* Mischief by Alimardankhan
+* Missionforce: Cyberstorm
+* Monday Night Combat
+* Monkey Island™ Collection
+* Monopoly - Spongebob Squarepants Edition
+* Mortyr: Operation Thunderstorm
+* Mosby's Confederacy
+* Mr. Jones' Graveyard Shift
+* MX vs ATX Reflex
+* Mysterious City: Vegas
+* Mysterious Travel: The Magic Diary
+* Mystery in London
+* Mystical Solitaire
+* Nail'd
+* Nancy Drew: Alibi in Ashes
+* Nat Geo Adventure: Lost City of Z
+* Nat Geo Games: Mystery of Cleopatra
+* NBA 2K10
+* NBA 2K13
+* NBA 2K9
+* NBA Live 07
+* NBA Live 08
+* Need for Speed: Most Wanted [2012]
+* Neighbours From Hell
+* Neighbours from Hell 2: On Vacation
+* Nexuiz
+* NHL 06
+* NHL 07
+* NHL 08
+* NHL 10
+* Noitu Love 2: Devolution
+* Nuclear Dawn
+* Officers
+* Off-Road Drive
+* Onimusha 3
+* Painkiller: Hell and Damnation
+* Painkiller: Resurrection
+* Paradise Quest
+* PAYDAY: The Heist
+* PegIt
+* Pirates of the Caribbean: At World's End
+* Pirates, Vikings, and Knights 2
+* Pocket Tanks
+* Prison Architect
+* Pro Evolution Soccer 5
+* Pro Evolution Soccer 6
+* PT Boats: South Gambit
+* Puddle
+* Purify Puzzle
+* Puzzlegeddon
+* Puzzle Hero
+* Quake Live
+* Quantum Conundrum
+* Ravaged
+* R.A.W. Realms of Ancient War
+* Real Crimes: Jack the Ripper
+* Real Warfare 2: Northern Crusades
+* Reaxxion
+* Reel Deal Slots Adventure World Tour
+* Reload: Target Down
+* Renegade Ops
+* Resonance
+* Restaurant Empire 2
+* Revolution Under Siege
+* Ridge Racer Unbounded
+* RIFT
+* Rigonauts
+* Risk Factions
+* Royal Marines Commando
+* Rugby Challenge
+* Sacred
+* Samurai Warriors 2
+* Saving Private Sheep
+* SBK: Superbike World Championship 2011
+* Scavenger
+* Scooby Doo: First Frights
+* Scorpion: Disfigured
+* Secret Mission: The Forgotten Island
+* Secret of the Magic Crystal
+* Sengoku
+* Shad'O
+* Shellshock 2: Blood Trails
+* Shogun 2: Total War
+* Shutter Island
+* Sine Mora
+* SkyDrift
+* Smite
+* So Blonde
+* Soldier of Fortune
+* SolSuite
+* Sonic Adventure 2
+* Space Colony
+* Spear of Destiny
+* Spec Ops: The Line
+* Spirits
+* Spring
+* Star Conflict
+* Starpoint Gemini
+* Star Ruler
+* Starship Troopers
+* Star Trek Online
+* Star-Twine
+* Star Wolves 3: Civil War
+* Steel Armor
+* Stoked: Big Air Edition
+* Storm: Frontline Nation
+* Street Karate
+* Strike Ball 2
+* Sudoku Up
+* Super Cow
+* Super Crate Box
+* Superior Save
+* Supertuxcart
+* Supreme Ruler: Cold War
+* Swarm Arena
+* Tank Combat
+* Team Fortress Classic
+* Tekkit (full)
+* The Amazing Spider-Man
+* The Baconing
+* The Beast Within
+* The Binding of Isaac
+* The Clumsys
+* The Clumsys 2: Butterfly Effect
+* The Elder Scrolls V: Skyrim (Plugins)
+* The Fall: Last Days of Gaia
+* The First Templar
+* The Godfather
+* The Haunted: Hell's Reach
+* The Humans
+* The Lord of the Rings: War of the Ring
+* The Otherside: Realm of Eons
+* The Polynomial
+* The Race for the White House
+* The Rockin' Dead
+* The Settlers: Rise of an Empire Gold Edition
+* The Tomorrow War
+* The Tudors
+* They Bleed Pixels
+* Thief III: Deadly Shadows
+* Tibia
+* Tiny and Big: Grandpa's Leftovers
+* Tobe's Vertical Adventure
+* Tony Hawk's Pro Skater HD
+* Total War Battles: Shogun
+* Towns
+* Trino
+* Turning Point: Fall of Liberty
+* Ultimate Stunts
+* Under a Killing Moon
+* Unity of Command
+* Up
+* VDrift
+* Vietcong 2
+* Virtual Villagers 4: The Tree of Life
+* Virtual Villagers 5: New Believers
+* Waking Mars
+* Warfare Reloaded
+* Warhammer: Battle March
+* War Inc. Battlezone
+* Warriors Orochi
+* Warsow
+* War Thunder
+* Waves
+* White Gold (Xenus 2)
+* Wildlife Park 3
+* Wing Commander Saga: The Darkest Dawn
+* Winning Eleven 9
+* Winter Sports 2011
+* Winter Sports 2012
+* Wisegal
+* Wizard's Hat
+* Women's Murder Club: A Darker Shade of Grey
+* Women's Murder Club: Death in Scarlet
+* Women's Murder Club: Little Black Lies
+* Women's Murder Club: Twice in a Blue Moon
+* World of Tanks
+* Worms Reloaded
+* Worms: Ultimate Mayhem
+* X-COM: Terror From the Deep
+* XIII Century
+* Yar's Revenge
+* You Are Empty
+* Youda Survivor 2v1
+* You Don't Know Jack
+* Zeit²
+* Zombie Bowling
+* Zombie Driver HD
+* Zombie Driver: Summer of Slaughter
+
+
 =1/5/2013=
 * Atlantis: The Lost Tales
 * Atlantis II: Beyond Atlantis
