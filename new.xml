@@ -311,5 +311,61 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  
+  <game name="BookOfUnwrittenTales" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>The Book of Unwritten Tales</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Book of Unwritten Tales"/>
+        <path ev="userdocuments" path="Unwritten Tales"/>
+      </locations>
+      <files>
+        <include path="savegames"/>
+      </files>
+      <files type="Settings">
+        <include filename="*">
+          <exclude filename="*.log"/>
+        </include>
+      </files>
+      <linkable/>
+      <contributor>GameSaveManager</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
+  <game name="EuroTruckSimulator2">
+    <title>Euro Truck Simulator 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Euro Truck Simulator 2"/>
+      </locations>
+      <files>
+        <include path="profile" />
+      </files>
+      <files type="Settings">
+        <include filename="*.cfg"/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
+  <game name="OmertaCityOfGangsters">
+    <title>Omerta: City of Gangsters</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="Omerta"/>
+      </locations>
+      <files>
+        <include>
+          <exclude path="logs"/>
+        </include>
+      </files>
+      <linkable/>
+      <comment>These saves is being synchronized with Steam server, and will automatically be downloaded on launch.</comment>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
 </programs>
 

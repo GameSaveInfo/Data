@@ -15,6 +15,10 @@ Games to look into: DiRT, The PATH
 * Strike Suite Zero
 * Stronghold - Deprecated old save locations, moved to dcuments folder
 * SpecOps: The Update - Contributed by Arc Angel
+Contributed by AdmiringWorm
+* The Book of Unwritten Tales - Added Settings path
+* Euro Truck Simulator 2
+* Omerta: City of Gangsters
 =1/5/2013=
 * Atlantis: The Lost Tales
 * Atlantis II: Beyond Atlantis
