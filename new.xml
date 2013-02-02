@@ -292,5 +292,24 @@
       <contributor>Arc Angel</contributor>
     </version>
   </game>
+
+  <game name="StrikeSuiteZero">
+    <title>Strike Suite Zero</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="GOG.com\Strike Suit Zero"/>
+        <shortcut ev ="startmenu" path="Programs\GOG.com\Strike Suit Zero\Strike Suit Zero.lnk" detract="pc\main\Binary" />
+        <registry root="local_machine" key="SOFTWARE\GOG.com\GOGSTRIKESUITZERO" value="PATH"/>
+      </locations>
+      <files>
+        <include path="pc\main\Binary" filename="Main.sav"/>
+        <include path="pc\main\Binary" filename="background.sav"/>
+      </files>
+      <files type="Settings">
+        <include path="pc\main\Binary" filename="settings.sav"/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
 </programs>
 

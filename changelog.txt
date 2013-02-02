@@ -12,6 +12,7 @@ Games to look into: DiRT, The PATH
 * Populous 2
 * Populous: The Beginning
 * Runaway 2 - Added GoG info
+* Strike Suite Zero
 * Stronghold - Deprecated old save locations, moved to dcuments folder
 * SpecOps: The Update - Contributed by Arc Angel
 =1/5/2013=
