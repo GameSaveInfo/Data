@@ -472,7 +472,7 @@
     <title>10 Days to Save the World</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="FlyWheelGames/10DaysToSaveTheWorld" />
+        <path ev="appdata" path="FlyWheelGames\10DaysToSaveTheWorld" />
       </locations>
       <files>
         <include />
@@ -512,10 +512,10 @@
     <title>Achtung Panzer: Operation Star</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE/Microsoft/Windows/CurrentVersion/Uninstall/{688A396E-0C6B-4CC7-9B58-76619E9E530F}_is1" value="InstallLocation" />
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{688A396E-0C6B-4CC7-9B58-76619E9E530F}_is1" value="InstallLocation" />
       </locations>
       <files>
-        <include path="users/profiles" />
+        <include path="users\profiles" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -524,7 +524,7 @@
     <title>Adam's Venture 2</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games/VentureGame" />
+        <path ev="userdocuments" path="My Games\VentureGame" />
       </locations>
       <files>
         <include />
@@ -537,7 +537,7 @@
     <title>Affair Bureau</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Azuzaz Games/Bureau" />
+        <path ev="appdata" path="Azuzaz Games\Bureau" />
       </locations>
       <files>
         <include />
@@ -551,7 +551,7 @@
     <title>A Game of Dwarves</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="Zeal Game Studio/A Game of Dwarves" />
+        <path ev="appdata" path="Zeal Game Studio\A Game of Dwarves" />
       </locations>
       <files>
         <include />
@@ -565,7 +565,7 @@
     <title>Age of Oracles: Tara's Journey</title>
     <version os="Windows">
       <locations>
-        <path ev="localappdata" path="JollyBear/Age of Oracles Taras Journey" />
+        <path ev="localappdata" path="JollyBear\Age of Oracles Taras Journey" />
       </locations>
       <files>
         <include />
@@ -578,7 +578,7 @@
     <title>Agricultural Simulator 2011</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="My Games/agrar simulator 2011" />
+        <path ev="userdocuments" path="My Games\agrar simulator 2011" />
       </locations>
       <files>
         <include />
@@ -591,7 +591,7 @@
     <title>Airline Tycoon 2</title>
     <version os="Windows">
       <locations>
-        <path ev="userdocuments" path="Kalypso Media/Airline Tycoon 2" />
+        <path ev="userdocuments" path="Kalypso Media\Airline Tycoon 2" />
       </locations>
       <files>
         <include />
@@ -617,7 +617,7 @@
     <title>Aladdin and the Wonderful Lamp: The 1001 Nights</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="HdO Adventure/Aladin" />
+        <path ev="appdata" path="HdO Adventure\Aladin" />
       </locations>
       <files>
         <include />
@@ -1107,7 +1107,7 @@
     <title>Boonka</title>
     <version os="Windows">
       <locations>
-        <path ev="savedgames" path="Sandlot Games/Boonka" />
+        <path ev="savedgames" path="Sandlot Games\Boonka" />
       </locations>
       <files>
         <include />
@@ -1120,7 +1120,7 @@
     <title>Born Into Darkness</title>
     <version os="Windows">
       <locations>
-        <path ev="appdata" path="PoBros/Born Into Darkness" />
+        <path ev="appdata" path="PoBros\Born Into Darkness" />
       </locations>
       <files>
         <include />
@@ -1588,10 +1588,10 @@
     <title>Dark Horizon</title>
     <version os="Windows">
       <locations>
-        <registry root="local_machine" key="SOFTWARE/Paradox Interactive/Dark Horizon" value="Path" append="data/profiles" />
+        <registry root="local_machine" key="SOFTWARE\Paradox Interactive\Dark Horizon" value="Path" />
       </locations>
       <files>
-        <include />
+        <include path="data\profiles" />
       </files>
       <contributor>GameSaveManager</contributor>
     </version>
@@ -2933,7 +2933,7 @@
   </game>
   <game name="HellYeahWrathOfTheDeadRabbit">
     <title>Hell Yeah! Wrath of the Dead Rabbit</title>
-    <version platform="SteamCloud"">
+    <version platform="SteamCloud">
       <locations>
         <path ev="steamuserdata" path="205230" />
       </locations>
@@ -3146,7 +3146,7 @@
         <include path="settings"  />
         <include filename="settings.*" />
       </files>
-      <linkable path="" />
+      <linkable  />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -3181,7 +3181,7 @@
     <title>Iron Grip: Marauders</title>
     <version os="Windows">
       <locations>
-        <path ev="localappdata" path="Prism/IG-Marauders" />
+        <path ev="localappdata" path="Prism\IG-Marauders" />
       </locations>
       <files>
         <include />
@@ -3308,8 +3308,6 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-
-MARKER
 
 
 <game name="KellyGreenGardenQueen">
@@ -4228,10 +4226,9 @@ MARKER
       <path ev="steamcommon" path="noitu love 2 devolution" />
     </locations>
     <files>
-      <include path="" filename="save" />
-      <include path="" filename="config.sav" />
+      <include filename="save" />
+      <include filename="config.sav" />
     </files>
-    <linkable path="" />
     <contributor>GameSaveManager</contributor>
   </version>
 </game>
@@ -4278,12 +4275,12 @@ MARKER
   <title>Onimusha 3</title>
   <version os="Windows">
     <locations>
-      <path ev="steamcommon" path="Onimusha 3\save" />
+      <path ev="steamcommon" path="Onimusha 3" />
     </locations>
     <files>
-      <include path="" />
+      <include path="save" />
     </files>
-    <linkable path="" />
+    <linkable path="save" />
     <contributor>GameSaveManager</contributor>
   </version>
 </game>
@@ -4722,10 +4719,9 @@ MARKER
         <path ev="steamcommon" path="risk factions" />
       </locations>
       <files>
-        <include path="" filename="*.cfg" />
-        <include path="" filename="*.sav" />
+        <include filename="*.cfg" />
+        <include filename="*.sav" />
       </files>
-      <linkable path="" />
       <contributor>GameSaveManager</contributor>
     </version>
     <version platform="SteamCloud">
@@ -5288,9 +5284,8 @@ MARKER
         <path ev="steamcommon" path="supercratebox" />
       </locations>
       <files>
-        <include path="" filename="*.sav" />
+        <include filename="*.sav" />
       </files>
-      <linkable path="" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -5646,9 +5641,8 @@ MARKER
         <path ev="steamcommon" path="they bleed pixels" />
       </locations>
       <files>
-        <include path="" filename="*.bin" />
+        <include filename="*.bin" />
       </files>
-      <linkable path="" />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
