@@ -58,7 +58,6 @@ Contributed by GameSaveManager
 * Battlestar Galactica
 * Battle vs. Chess
 * BBC Battlefield Academy
-* Beach Life
 * Beat Hazard
 * BEEP
 * Beijing 2008
@@ -107,7 +106,6 @@ Contributed by GameSaveManager
 * Culpa Innata
 * Cyberstorm 2: Corporate Wars
 * DaisyWords
-* Dark Horizon
 * Darksiders II
 * Darkstar: The Interactive Movie
 * DCS: A-10C Warthog
@@ -133,7 +131,6 @@ Contributed by GameSaveManager
 * Disney Universe
 * Dive: The Medes Islands
 * DJMAX Trilogy
-* Doc Clock: The Toasted Sandwich of Time
 * Don't Starve
 * Doom 3 BFG Edition
 * DoomsDay
@@ -172,8 +169,6 @@ Contributed by GameSaveManager
 * FIFA Soccer 2008
 * FIFA Soccer 2009
 * FIM Speedway Grand Prix 4
-* Fish Tycoon
-* Flight Control HD
 * Football Manager 2006
 * Football Manager 2007
 * Football Manager 2013

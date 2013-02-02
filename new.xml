@@ -958,18 +958,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="BeachLife">
-    <title>Beach Life</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\Eidos Interactive\Beach Life" value="Path" />
-      </locations>
-      <files>
-        <include path="SaveGames" />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="BeatHazard">
     <title>Beat Hazard</title>
     <version os="Windows">
@@ -1584,18 +1573,7 @@
     </version>
   </game>
 
-  <game name="DarkHorizon">
-    <title>Dark Horizon</title>
-    <version os="Windows">
-      <locations>
-        <registry root="local_machine" key="SOFTWARE\Paradox Interactive\Dark Horizon" value="Path" />
-      </locations>
-      <files>
-        <include path="data\profiles" />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
 
   <game name="DarksidersII">
     <title>Darksiders II</title>
@@ -1910,19 +1888,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="DocClockTheToastedSandwichOfTime">
-    <title>Doc Clock: The Toasted Sandwich of Time</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="DocClockGame" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="DontStarve">
     <title>Don't Starve</title>
     <version platform="SteamCloud">
@@ -2416,30 +2382,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="FishTycoon">
-    <title>Fish Tycoon</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="fish tycoon" />
-      </locations>
-      <files>
-        <include filename="FishSaveGame*.pts" />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-  <game name="FlightControlHD">
-    <title>Flight Control HD</title>
-    <version platform="SteamCloud">
-      <locations>
-        <path ev="steamuserdata" path="62000" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="FootballManager2006">
     <title>Football Manager 2006</title>
     <version os="Windows">
@@ -2549,7 +2492,7 @@
   </game>
   <game name="GalaxyOnFire2HD">
     <title>Galaxy on Fire 2</title>
-    <version os="Windows" region="HD">
+    <version os="Windows" release="HD">
       <title>Galaxy on Fire 2 HD</title>
       <locations>
         <path ev="appdata" path="Galaxy on Fire 2 Full HD" />
