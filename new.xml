@@ -3841,19 +3841,7 @@
     <contributor>GameSaveManager</contributor>
   </version>
 </game>
-<game name="MosbysConfederacy">
-  <title>Mosby's Confederacy</title>
-  <version os="Windows">
-    <locations>
-      <path ev="userdocuments" path="Tilted Mill\Mosby's Confederacy" />
-    </locations>
-    <files>
-      <include />
-    </files>
-    <linkable />
-    <contributor>GameSaveManager</contributor>
-  </version>
-</game>
+
 <game name="MrJonesGraveyardShift">
   <title>Mr. Jones' Graveyard Shift</title>
   <version os="Windows">
@@ -4329,20 +4317,6 @@
   </version>
 </game>
 
-  <game name="PocketTanks">
-    <title>Pocket Tanks</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="My Games\Pocket Tanks" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
-
   <game name="PrisonArchitect">
     <title>Prison Architect</title>
     <version os="Windows">
@@ -4772,19 +4746,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="ScorpionDisfigured">
-    <title>Scorpion: Disfigured</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="My Games\Atari\Scorpion-Disfigured" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="SecretMissionTheForgottenIsland">
     <title>Secret Mission: The Forgotten Island</title>
     <version os="Windows">

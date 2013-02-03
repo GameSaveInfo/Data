@@ -281,7 +281,6 @@ Contributed by GameSaveManager
 * Monkey Island™ Collection
 * Monopoly - Spongebob Squarepants Edition
 * Mortyr: Operation Thunderstorm
-* Mosby's Confederacy
 * Mr. Jones' Graveyard Shift
 * MX vs ATX Reflex
 * Mysterious City: Vegas
@@ -317,7 +316,6 @@ Contributed by GameSaveManager
 * PegIt
 * Pirates of the Caribbean: At World's End
 * Pirates, Vikings, and Knights 2
-* Pocket Tanks
 * Prison Architect
 * Pro Evolution Soccer 5
 * Pro Evolution Soccer 6
@@ -351,7 +349,6 @@ Contributed by GameSaveManager
 * SBK: Superbike World Championship 2011
 * Scavenger
 * Scooby Doo: First Frights
-* Scorpion: Disfigured
 * Secret Mission: The Forgotten Island
 * Secret of the Magic Crystal
 * Sengoku
