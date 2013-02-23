@@ -6,13 +6,37 @@
 -->
 <programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
   xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
-	majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
+	majorVersion="2" minorVersion="2" updated="2011-12-25T00:00:00">
   <!-- Currently:
         9 General tests
         1 Flash test
         4 Steam tests
         
   -->
+	<system name="0LinuxTest">
+		<title>Linux Test</title>
+		<version os="Linux" release="00LinuxHomeTest">
+			<title>L00 - Linux Home Test</title>
+			<locations>
+				<path ev="home" path=".config/dconf" />
+			</locations>
+			<files type="Test">
+				<include />
+			</files>
+			<contributor>Yo mama</contributor>
+		</version>
+		<version os="Linux" release="01LinuxRootTest">
+			<title>L01 - Linux Root Test</title>
+			<locations>
+				<path ev="root" path="etc/dhcp" />
+			</locations>
+			<files type="Test">
+				<include />
+			</files>
+			<contributor>Yo mama</contributor>
+		</version>
+	</system>
+	
   <system name="0Test">
     <title>Test</title>
 

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="GameSaveInfo20.xsd"
-  majorVersion="2" minorVersion="0" updated="2011-12-25T00:00:00">
+  majorVersion="2" minorVersion="2" updated="2011-12-25T00:00:00">
 
 
   <!-- 	Staging file for the adding of entries.
