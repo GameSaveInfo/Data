@@ -169,6 +169,19 @@
       </registry>
     </version>
   </game>
+  <game name="TonyHawksProSkater3">
+    <title>Tony Hawk's Pro Skater 3</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\Activision\THPS3PC" value="InstallPath"/>
+      </locations>
+      <files>
+        <include path="Data\Settings"/> 
+      </files>
+      <linkable path="Data\Settings"/>
+      <contributor>rlabrecque</contributor>
+    </version>
+  </game>
 -->
     
 </programs>
