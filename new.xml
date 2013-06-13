@@ -183,6 +183,22 @@
     </version>
   </game>
 -->
+
+<game name="SniperGhostWarrior2">
+	<title>Sniper: Ghost Warrior 2</title>
+	<version os="Windows">
+		<locations>
+			<path ev="savedgames" path="SniperGhostWarrior2" />
+		</locations>
+		<files>
+			<include path="*">
+				<exclude path="Shaders" />
+			</include>
+		</files>
+		<linkable />
+		<contributor>AdmiringWorm</contributor>
+	</version>
+</game>
     
 </programs>
 
