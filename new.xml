@@ -1655,9 +1655,9 @@
         <path ev="steamcommon" path="Ninja Reflex" />
       </locations>
       <files>
-        <include path="" filename="save.dat" />
+        <include filename="save.dat" />
       </files>
-      <linkable path="" />
+      <linkable />
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
@@ -1728,7 +1728,7 @@
   </game>
   <game name="KingKong">
     <title>Peter Jackson's King Kong</title>
-    <version os="Windows" release="Gamers Edition">
+    <version os="Windows" release="GamersEdition">
       <locations>
         <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2C391F94-B8B9-4832-9C57-3AFC332CC037}" value="InstallLocation" />
       </locations>
