@@ -177,12 +177,13 @@
         <registry root="local_machine" key="SOFTWARE\Activision\THPS3PC" value="InstallPath"/>
       </locations>
       <files>
-        <include path="Data\Settings"/> 
+        <include path="Data\Settings"/>
       </files>
       <linkable path="Data\Settings"/>
       <contributor>rlabrecque</contributor>
     </version>
   </game>
+
   <game name="Voxatron">
     <title>Voxatron</title>
     <version os="Windows">
@@ -366,5 +367,22 @@
       <contributor>Scandalon</contributor>
     </version>
   </game>
+
+  <game name="SniperGhostWarrior2">
+    <title>Sniper: Ghost Warrior 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="savedgames" path="SniperGhostWarrior2" />
+      </locations>
+      <files>
+        <include path="*">
+          <exclude path="Shaders" />
+        </include>
+      </files>
+      <linkable />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
 </programs>
 
