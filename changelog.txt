@@ -43,7 +43,6 @@ Contributed by GameSaveManager
 * CivCity: Rome
 * Claustrophobia: The Downward Struggle
 * Cooper's Revenge
-* Counter Strike: Global Offensive
 * Crayon Chronicles
 * Cry of Fear
 * Dark Matter
@@ -78,7 +77,6 @@ Contributed by GameSaveManager
 * Half-Life: Gunman
 * Hamlet or the Last Game without MMORPG Features, Shaders and Product Placement
 * Hidden & Dangerous 2
-* Hinterland
 * HitBlock
 * iBomber Defense Pacific
 * Impire
@@ -112,7 +110,6 @@ Contributed by GameSaveManager
 * Nancy Drew: Tomb of the Lost Queen
 * Nancy Drew: Trail of the Twister
 * Nancy Drew: Warnings at Waverly Academy
-* Naval Warfare
 * Need for Speed: Porsche Unleashed
 * Ninja Reflex
 * Northern Tale
@@ -152,7 +149,6 @@ Contributed by GameSaveManager
 * Stronghold Legends
 * Super Amazing Wagon Adventure
 * Sword of the Stars: The Pit
-* The Adventures of Shuggy
 * The Basement Collection
 * The Bridge
 * The Even More Incredible Machine

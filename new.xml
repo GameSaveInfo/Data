@@ -281,10 +281,6 @@
   </game>
   <game name="BrutalLegend" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Brütal Legend</title>
-    <version os="PS3" region="USA">
-      <ps_code prefix="BLUS" suffix="30330"/>
-      <contributor>GameSave.Info</contributor>
-    </version>
     <version os="Windows">
       <locations>
         <path ev="appdata" path="Doublefine\BrutalLegend"/>
@@ -690,19 +686,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="CounterStrikeGlobalOffensive">
-    <title>Counter Strike: Global Offensive</title>
-    <version os="Windows">
-      <locations>
-        <path ev="steamcommon" path="Counter-Strike Global Offensive" />
-      </locations>
-      <files type="Settings">
-        <include path="csgo\cfg" />
-      </files>
-      <linkable path="csgo\cfg" />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="CrayonChronicles">
     <title>Crayon Chronicles</title>
     <version os="Windows">
@@ -1167,19 +1151,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="Hinterland">
-    <title>Hinterland</title>
-    <version os="Windows">
-      <locations>
-        <path ev="userdocuments" path="Tilted Mill\Hinterland" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="HitBlock">
     <title>HitBlock</title>
     <version os="Windows">
@@ -1620,19 +1592,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="NavalWarfare">
-    <title>Naval Warfare</title>
-    <version os="Windows">
-      <locations>
-        <path ev="appdata" path="Naval Warfare" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <linkable />
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="NeedForSpeedPorscheUnleashed">
     <title>Need for Speed: Porsche Unleashed</title>
     <version os="Windows">
@@ -2146,18 +2106,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-  <game name="AdventuresOfShuggy">
-    <title>The Adventures of Shuggy</title>
-    <version platform="SteamCloud">
-      <locations>
-        <path ev="steamuserdata" path="211440" />
-      </locations>
-      <files>
-        <include />
-      </files>
-      <contributor>GameSaveManager</contributor>
-    </version>
-  </game>
+
   <game name="BasementCollection">
     <title>The Basement Collection</title>
     <version os="Windows">
