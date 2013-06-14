@@ -21,6 +21,159 @@ Contributed By Alessandro
 * Worms Crazy Golf
 Contributed by AdmiringWorm
 * Sniper: Ghost Warrior 2
+Contributed by GameSaveManager
+* 1000 Amps
+* Academagia
+* Age of Empires II HD
+* Animal Color Cross
+* Anodyne
+* Antichamber
+* Armed and Dangerous
+* AstroPop Deluxe
+* Auditorium
+* Bad Piggies
+* Blade: The Edge of Darkness
+* Blood Bowl: Chaos Edition
+* Brave: The Video Game
+* Bridge Project
+* Burger Shop 2
+* Call of Juarez® Gunslinger
+* Children of the Nile
+* City of Fools
+* CivCity: Rome
+* Claustrophobia: The Downward Struggle
+* Cooper's Revenge
+* Counter Strike: Global Offensive
+* Crayon Chronicles
+* Cry of Fear
+* Dark Matter
+* Darkout
+* Doom and Destiny
+* Driftmoon
+* Duke Nukem 3D (Steam Cloud)
+* Dust: An Elysian Tail
+* Evil Islands: Curse of the Lost Soul
+* Evoland
+* Fairway
+* Far Cry 3: Blood Dragon
+* Farm Frenzy 3: Ice Age
+* Farm Frenzy 3: Madagascar
+* Farm Frenzy 4: Gone Fishing
+* Farm Frenzy: Pizza Party
+* Farm Frenzy: Viking Heroes
+* FATE
+* FATE: The Cursed King
+* FATE: The Traitor Soul
+* FATE: Undiscovered Realms
+* FEZ
+* Final Fantasy XIV: A Realm Reborn Beta
+* Fishdom: Harvest Splash
+* Game Dev Tycoon
+* Gardenscapes 2
+* Gear Jack
+* Gemsweeper
+* Grim Dawn
+* Gunpoint
+* Half-Life 2 Mod - Black Snow
+* Half-Life: Gunman
+* Hamlet or the Last Game without MMORPG Features, Shaders and Product Placement
+* Hidden & Dangerous 2
+* Hinterland
+* HitBlock
+* iBomber Defense Pacific
+* Impire
+* Island Tribe 2
+* Kentucky Route Zero
+* Kerbal Space Program
+* Krater
+* Lair Of The Evildoer
+* LaserCat
+* Lightfish
+* Light of Altair
+* Lucius
+* Mars: War Logs
+* Marvins' Mittens
+* Mayan Prophecies: Ship of Spirits
+* Memento Mori 2
+* Miasmata
+* Monaco
+* MotioninJoy
+* Nancy Drew: Danger by Design
+* Nancy Drew: Legend of the Crystal Skull
+* Nancy Drew: Ransom of the Seven Ships
+* Nancy Drew: Secrets Can Kill REMASTERED
+* Nancy Drew: Shadow at the Water's Edge
+* Nancy Drew: The Captive Curse
+* Nancy Drew: The Creature of Kapu Cave
+* Nancy Drew: The Deadly Device
+* Nancy Drew: The Haunting of Castle Malloy
+* Nancy Drew: The Phantom of Venice
+* Nancy Drew: The White Wolf of Icicle Creek
+* Nancy Drew: Tomb of the Lost Queen
+* Nancy Drew: Trail of the Twister
+* Nancy Drew: Warnings at Waverly Academy
+* Naval Warfare
+* Need for Speed: Porsche Unleashed
+* Ninja Reflex
+* Northern Tale
+* Open Broadcaster Software
+* Out of the Park Baseball 2011
+* Out of the Park Baseball 2012
+* Path of Exile
+* Peter Jackson's King Kong - Gamers Edition
+* Pid
+* Planet Explorers
+* Poker Night 2
+* Postal 2 Complete
+* Praetorians
+* Primordia
+* PuppetShow: Destiny Undone
+* PuppetShow: Lost Town
+* PuppetShow: Mystery of Joyville
+* PuppetShow: Return to Joyville
+* PuppetShow: Souls of the Innocent
+* Puzzle Bots
+* Race Driver: GRID 2
+* Rally Trophy
+* Real Heroes: Firefighter
+* Resident Evil 6
+* Resident Evil: Revelations
+* ResidualVM
+* Reus
+* Rocketbirds: Hardboiled Chicken
+* Saitek SD6 Profiles
+* SHMUP
+* Silent Hill 3
+* Silent Hill 4
+* Sniper Elite: Nazi Zombie Army
+* Sons Of Triskelion
+* StarDrive
+* Star Trek (2013)
+* Stronghold Legends
+* Super Amazing Wagon Adventure
+* Sword of the Stars: The Pit
+* The Adventures of Shuggy
+* The Basement Collection
+* The Bridge
+* The Even More Incredible Machine
+* The Incredible Adventures of Van Helsing
+* The Sea Will Claim Everything
+* The Settlers II - 10th Anniversary
+* The Stanley Parabel
+* The Swapper
+* The Tiny Bang Story
+* The Trouble With Robots
+* The Walking Dead: Survival Instinct
+* Transcipted
+* Treasure Adventure Game
+* Trials Evolution: Gold Edition
+* Ultramon
+* Unepic
+* Wild Earth Africa
+* Winter Voices
+* World Mosaics 6
+* Ys I & II: Chronicles+
+
 =2013/02/23=
 * Legacy of Kain: Blood Omen 2
 * System Shock 2 - Added GoG info
