@@ -5,7 +5,7 @@ obj/
 # MonoDevelop files
 *.pidb
 
-# Mac files 
+# Mac files
 ._*
 .DS_Store
 ._*
@@ -16,3 +16,6 @@ obj/
 ehthumbs.db
 Icon?
 Thumbs.db
+
+# Cloud9 stuff #
+.c9revisions
