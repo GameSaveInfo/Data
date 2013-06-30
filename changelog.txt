@@ -1,5 +1,7 @@
 Games to look into: DiRT, The PATH
 =Upcoming=
+* Updated Half-Life 2 for SteamPipe
+* Updated Portal for SteamPipe
 =2013-06-15=
 * Voxatron
 Contributed By Scandalon
