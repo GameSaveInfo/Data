@@ -12,7 +12,18 @@
     If this file contains duplicate entries only the LAST one will end up being used
   -->
 
-
+  <game name="SaintsRow4">
+    <title>Saint's Row IV</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="206420"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>Thomas Joiner</contributor>
+    </version>
+  </game>
 
   <!--  
   This is a quick profile template, makes it easy:
