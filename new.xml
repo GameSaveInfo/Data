@@ -12,6 +12,185 @@
     If this file contains duplicate entries only the LAST one will end up being used
   -->
 
+  <game name="StarWarsKnightsOfTheOldRepublic2TheSithLords" follows="StarWarsKnightsOfTheOldRepublic" added="1955-11-05T00:00:00">
+    <title>Star Wars: Knights of the Old Republic II: The Sith Lords</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="LucasArts\SWKotOR2"/>
+        <path ev="steamcommon" path="Knights of the Old Republic II"/>
+        <registry root="local_machine" key="SOFTWARE\LucasArts\KotOR2" value="Path"/>
+        <shortcut ev="startmenu" path="Programs\LucasArts\Star Wars Knights of the Old Republic II - The Sith Lords\ Star Wars Knights of the Old Republic II - The Sith Lords.lnk"/>
+      </locations>
+      <files>
+        <include path="Saves"/>
+      </files>
+      <contributor>David Barbour</contributor>
+      <contributor>savethelost007</contributor>
+    </version>
+  </game>
+
+  <game name="StarTrek2013" added="2013-06-14T05:17:42" >
+    <title>Star Trek (2013)</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="203250"/>
+      </locations>
+      <files>
+        <include path="remote"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="LostPlanet3"  follows="LostPlanet2" added="1955-11-05T00:00:00">
+    <title>Lost Planet 3</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\LostPlanetGame\LostPlanetGame"/>
+      </locations>
+      <files>
+        <include path="SaveData"/>
+      </files>
+      <files type="Settings">
+        <include path="Config"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="SplinterCellBlacklist" follows="SplinterCellConviction" added="1955-11-05T00:00:00">
+    <title>Tom Clancy's Splinter Cell: Blacklist</title>
+    <version platform="UbisoftSaveStorage">
+      <locations>
+        <path ev="ubisoftsavestorage" path="91"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="CastlevaniaLordsofShadow" added="2012-09-07T23:18:00">
+    <title>Castlevania: Lords of Shadow</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="234080"/>
+      </locations>
+      <files>
+        <include path="remote"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="Outlast" added="2012-09-07T23:18:00" >
+    <title>Outlast</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="238320"/>
+      </locations>
+      <files>
+        <include path="remote"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="ShadowWarrior2013"  added="1955-11-05T00:00:00" >
+    <title>Shadow Warrior (2013)</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Shadow Warrior"/>
+      </locations>
+      <files>
+        <include path="profiles"/>
+        <include filename="profiles.cfg"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="DarknessWithin2" follows="DarknessWithin" added="1955-11-05T00:00:00">
+    <title>Darkness Within 2: The Dark Lineage</title>
+    <version os="Windows" revision="2">
+      <locations>
+        <path ev="userdocuments" path="Darkness Within 2"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+    <version os="Windows" deprecated="true">
+      <locations>
+        <path ev="installlocation" path="Iceberg Interactive\Darkness Within 2"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Darkness Within 2: The Dark Lineage_is1" value="InstallLocation"/>
+        <shortcut ev="startmenu" path="Programs\Iceberg Interactive\Darkness Within 2\Darkness Within 2.lnk"/>
+      </locations>
+      <files>
+        <include path="save"/>
+      </files>
+      <linkable path="save"/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="BatmanArkhamAsylum" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Batman: Arkham Asylum</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="35140"/>
+      </locations>
+      <files>
+        <include path="remote"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="OperationThunderstorm" added="1955-11-05T00:00:00">
+    <title>Operation Thunderstorm</title>
+    <version os="Windows">
+      <locations>
+        <path ev="public" path="Documents\City Interactive\Operation Thunderstorm" only_for="WindowsVista"/>
+      </locations>
+      <files>
+        <include path="Profiles"/>
+        <include path="Save"/>
+        <include filename="settings.cfg"/>
+        <include filename="Game.ini"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="RememberMe" added="2012-09-07T23:18:00" >
+    <title>Remember Me</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="228300"/>
+      </locations>
+      <files>
+        <include path="remote"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="MarsWarLogs" added="1955-11-05T00:00:00" >
+    <title>Mars: War Logs</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Mars - War Logs"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
   <game name="SaintsRow4">
     <title>Saint's Row IV</title>
     <version platform="SteamCloud">
@@ -25,6 +204,104 @@
     </version>
   </game>
 
+
+  <game name="PetzHorsez">
+    <title>Petz Horsez</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Horsez"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>Anonymous Hero</contributor>
+    </version>
+  </game>
+
+  <game name="PetzHorseClub">
+    <title>Petz Horse Club</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Horsez08"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>Anonymous Hero</contributor>
+    </version>
+  </game>
+
+  <game name="PetzHorsez2">
+    <title>Petz Horsez 2</title>
+    <version os="Windows">
+      <locations>
+        <path ev="commonapplicationdata" path="Petz Horsez 2"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <linkable />
+      <contributor>Anonymous Hero</contributor>
+    </version>
+  </game>
+
+  <game name="ChampionDreams">
+    <title>Champion Dreams</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Champion Dreams"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <linkable />
+      <contributor>Anonymous Hero</contributor>
+    </version>
+  </game>
+
+  <game name="Horsez">
+    <title>Horsez</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Horsez"/>
+      </locations>
+      <files>
+        <include path="Save"/>
+      </files>
+      <linkable />
+      <contributor>Anonymous Hero</contributor>
+    </version>
+  </game>
+
+  <game name="SaddleUpTimeToRide">
+    <title>Saddle Up: Time To Ride</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Time to Ride"/>
+      </locations>
+      <files>
+        <include path="Saves"/>
+      </files>
+      <linkable />
+      <contributor>Anonymous Hero</contributor>
+    </version>
+  </game>
+
+  <game name="PapersPlease">
+    <title>Papers, Please</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="3909\PapersPlease"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable />
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
   <!--  
   This is a quick profile template, makes it easy:
   <game name="">
