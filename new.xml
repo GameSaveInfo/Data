@@ -302,6 +302,20 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </game>
+  <game name="LongLiveTheQueen">
+    <title>Long Live The Queen</title>
+    <version platform="RenPy">
+      <locations>
+        <path ev="appdata" path="RenPy\LongLiveTheQueen"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
   <!--  
   This is a quick profile template, makes it easy:
   <game name="">
