@@ -1,7 +1,12 @@
 Games to look into: DiRT, The PATH
 =Upcoming=
 * Updated Half-Life 2 for SteamPipe
+* Updated Half-Life 2: Episode One for SteamPipe
+* Updated Half-Life 2: Episode Two for SteamPipe
+* Updated Half-Life 2: Lost Coast for SteamPipe
 * Updated Portal for SteamPipe
+* Updated Left 4 Dead and Left 4 Dead to handle multiple languages
+* Sentinel 3: Homerworld
 =2013-06-15=
 * Voxatron
 Contributed By Scandalon
