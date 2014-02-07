@@ -1,12 +1,46 @@
 Games to look into: DiRT, The PATH
+=ToDo=
+* GoG Outlast
+* Steam pipe games
+
 =Upcoming=
-* Updated Half-Life 2 for SteamPipe
 * Updated Half-Life 2: Episode One for SteamPipe
 * Updated Half-Life 2: Episode Two for SteamPipe
 * Updated Half-Life 2: Lost Coast for SteamPipe
-* Updated Portal for SteamPipe
 * Updated Left 4 Dead and Left 4 Dead to handle multiple languages
-* Sentinel 3: Homerworld
+* Sentinel 3: Homeworld
+
+=2014-01-28=
+* Long Live The Queen
+* Papers, Please
+* Updated Half-Life 2 for SteamPipe
+* Updated Portal for SteamPipe
+
+* Saint's Row IV - Contributed by Thomas Joiner
+
+* Added Steam path for Knights of the Old Republic 2 - Contributed by savethelost007
+
+Contributed by Arc Angel:
+* Batman: Arkham Asylum - Added SteamCloud info
+* Castlevania: Lords of Shadow - Steam only
+* Darkness Within 2 - Latest patch moved save location
+* Lost Planet 3
+* Mars: War Logs
+* Operation Thunderstorm (Vista/7 only)
+* Outlast - Steam path
+* Remember Me
+* Shadow Warrior (2013)
+* Splinter Cell: Blacklist - Ubisoft save storage
+* Star Trek (2013) - Added Steam cloud path
+
+Contributed by Anonymous Hero
+* Champion Dreams
+* Horsez
+* Petz Horsez
+* Petz Horsez 2
+* Petz Horse Club
+* Saddle Up: Time To Ride
+
 =2013-06-15=
 * Voxatron
 Contributed By Scandalon
