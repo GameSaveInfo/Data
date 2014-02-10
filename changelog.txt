@@ -4,11 +4,23 @@ Games to look into: DiRT, The PATH
 * Steam pipe games
 
 =Upcoming=
-* Updated Half-Life 2: Episode One for SteamPipe
-* Updated Half-Life 2: Episode Two for SteamPipe
-* Updated Half-Life 2: Lost Coast for SteamPipe
+Updated for SteamPipe:
+* Counter-Strike: Condition Zero: Deleted Scene
+* Deathmatch Classic
+* Half-Life: Blue Shift
+* Half-Life: Opposing Force
+* Half-Life: Source
+* Half-Life Deathmatch: Source
+* Half-Life 2: Episode One
+* Half-Life 2: Episode Two
+* Half-Life 2: Lost Coast 
+* SiN
+* Team Fortress Classic
 * Updated Left 4 Dead and Left 4 Dead to handle multiple languages
+
+New Games
 * Sentinel 3: Homeworld
+* Ricochet
 
 * Brothers: A Tale of Two Sons - Contributed by Scandalon
 

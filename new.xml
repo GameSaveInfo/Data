@@ -284,6 +284,21 @@
       <linkable/>
       <contributor>splatter</contributor>
     </version>
-  </game>  
+  </game>
+
+  <mod name="Ricochet" for="HalfLife" >
+    <title>Ricochet</title>
+    <version os="Windows">
+      <locations>
+        <parent name="HalfLife" os="Windows" revision="1"/>
+      </locations>
+      <files type="Settings">
+        <include path="ricochet*" filename="*.cfg"/>
+      </files>
+      <identifier path="ricochet*"/>
+      <comment>Settings Only</comment>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </mod>
 </programs>
 
