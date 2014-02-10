@@ -188,6 +188,102 @@
   </game>
 -->
 
+  <game name="ShadowrunReturns">
+    <title>Shadowrun Returns</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Harebrained Schemes\Shadowrun Returns"/>
+      </locations>
+      <files>
+        <include path="Saves" />
+      </files>
+      <linkable/>
+      <contributor>Mar</contributor>
+    </version>
+  </game>
+  
+  <game name="KingOfFighters13">
+    <title>The King Of Fighters XIII</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="222940"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <contributor>Mar</contributor>
+    </version>
+  </game>
 
+  <game name="CallOfDutyGhosts" follows="CallOfDutyBlackOps2">
+    <title>Call of Duty: Ghosts</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Call of Duty Ghosts"/>
+      </locations>
+      <files>
+        <include path="players2"/>
+      </files>
+      <linkable path="players2"/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="Battlefield4" follows="Battlefield3">
+    <title>Battlefield 4</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Battlefield 4"/>
+      </locations>
+      <files type="Settings">
+        <include path="settings"/>
+      </files>
+      <linkable/>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="DeadfallAdventures">
+    <title>Deadfall Adventures</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="231330"/>
+      </locations>
+      <files>
+        <include path="remote"/>
+      </files>
+      <contributor>Arc Angel</contributor>
+    </version>
+  </game>
+
+  <game name="BrothersATaleOfTwoSons"  >
+    <title>Brothers: A Tale of Two Sons</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Brothers - A Tale of Two Sons"/>
+      </locations>
+      <files>
+        <include />
+      </files>
+      <linkable/>
+      <contributor>Scandalon</contributor>
+    </version>
+  </game>
+
+  
+  <game name="ZeusMasterOfOlympus">
+    <title>Zeus: Master of Olympus</title>
+    <version os="Windows">
+      <locations>
+        <path ev="installlocation" path="Sierra\Il Signore dell'Olimpo - Zeus"/>
+        <registry root="local_machine" key="SOFTWARE\Sierra OnLine\Setup\Zeus" value="Directory"/>
+      </locations>
+      <files>
+        <include path="Save" />
+      </files>
+      <linkable/>
+      <contributor>splatter</contributor>
+    </version>
+  </game>  
 </programs>
 

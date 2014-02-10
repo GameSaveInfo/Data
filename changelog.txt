@@ -10,6 +10,17 @@ Games to look into: DiRT, The PATH
 * Updated Left 4 Dead and Left 4 Dead to handle multiple languages
 * Sentinel 3: Homeworld
 
+* Brothers: A Tale of Two Sons - Contributed by Scandalon
+
+* Shadowrun Returns - Contributed by Mar
+* The King Of Fighters XIII - Steam only - Contributed by Mar
+* Zeus: Master of Olympus - Contributed by splatter
+
+Contributed by Arc Angel:
+* Battlefield 4
+* Call of Duty: Ghosts - Steam only
+* Deadfall Adventures - Steam only
+
 =2014-01-28=
 * Long Live The Queen
 * Papers, Please
