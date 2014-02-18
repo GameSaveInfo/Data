@@ -198,7 +198,7 @@
         <include path="Saves" />
       </files>
       <linkable/>
-      <contributor>Mar</contributor>
+      <contributor>Feline_Quota</contributor>
     </version>
   </game>
   
@@ -211,7 +211,7 @@
       <files>
         <include />
       </files>
-      <contributor>Mar</contributor>
+      <contributor>Feline_Quota</contributor>
     </version>
   </game>
 
@@ -282,7 +282,7 @@
         <include path="Save" />
       </files>
       <linkable/>
-      <contributor>splatter</contributor>
+      <contributor>beppe9000</contributor>
     </version>
   </game>
 
