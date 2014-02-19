@@ -1,5 +1,301 @@
 Games to look into: DiRT, The PATH
+=ToDo=
+* GoG Outlast
+* Steam pipe games
+
 =Upcoming=
+Updated for SteamPipe:
+* Counter-Strike: Condition Zero: Deleted Scene
+* Deathmatch Classic
+* Half-Life: Blue Shift
+* Half-Life: Opposing Force
+* Half-Life: Source
+* Half-Life Deathmatch: Source
+* Half-Life 2: Episode One
+* Half-Life 2: Episode Two
+* Half-Life 2: Lost Coast 
+* SiN
+* Team Fortress Classic
+* Updated Left 4 Dead and Left 4 Dead to handle multiple languages
+
+New Games
+* Sentinel 3: Homeworld
+* Ricochet
+
+* Brothers: A Tale of Two Sons - Contributed by Scandalon
+
+* Shadowrun Returns - Contributed by Feline_Quota
+* The King Of Fighters XIII - Steam only - Contributed by Feline_Quota
+* Zeus: Master of Olympus - Contributed by beppe9000
+
+Contributed by Arc Angel:
+* Battlefield 4
+* Call of Duty: Ghosts - Steam only
+* Deadfall Adventures - Steam only
+
+=2014-01-28=
+* Long Live The Queen
+* Papers, Please
+* Updated Half-Life 2 for SteamPipe
+* Updated Portal for SteamPipe
+
+* Saint's Row IV - Contributed by Thomas Joiner
+
+* Added Steam path for Knights of the Old Republic 2 - Contributed by savethelost007
+
+Contributed by Arc Angel:
+* Batman: Arkham Asylum - Added SteamCloud info
+* Castlevania: Lords of Shadow - Steam only
+* Darkness Within 2 - Latest patch moved save location
+* Lost Planet 3
+* Mars: War Logs
+* Operation Thunderstorm (Vista/7 only)
+* Outlast - Steam path
+* Remember Me
+* Shadow Warrior (2013)
+* Splinter Cell: Blacklist - Ubisoft save storage
+* Star Trek (2013) - Added Steam cloud path
+
+Contributed by Anonymous Hero
+* Champion Dreams
+* Horsez
+* Petz Horsez
+* Petz Horsez 2
+* Petz Horse Club
+* Saddle Up: Time To Ride
+
+=2013-06-15=
+* Voxatron
+Contributed By Scandalon
+* Perspective
+* Ur-Quan Masters HD
+Contributed By LVS
+* DLC Quest
+Contributed by Arc Angel
+* BioShock Infinite
+* Brutal Legend PC
+* Resident Evil 6
+* Tomb Raider (2013)
+Contributed by rlabrecque
+* Tony Hawk's Pro Skater 3
+Contributed By Alessandro
+* Drive To The Titanic
+* Hidden and Dangerous Deluxe
+* Panzer Elite Action: Dunes of War
+* Panzer Elite Action: Fields of Glory
+* Worms Crazy Golf
+Contributed by AdmiringWorm
+* Sniper: Ghost Warrior 2
+Contributed by GameSaveManager
+* 1000 Amps
+* Academagia
+* Age of Empires II HD
+* Animal Color Cross
+* Anodyne
+* Antichamber
+* Armed and Dangerous
+* AstroPop Deluxe
+* Auditorium
+* Bad Piggies
+* Blade: The Edge of Darkness
+* Blood Bowl: Chaos Edition
+* Brave: The Video Game
+* Bridge Project
+* Burger Shop 2
+* Call of Juarez® Gunslinger
+* Children of the Nile
+* City of Fools
+* CivCity: Rome
+* Claustrophobia: The Downward Struggle
+* Cooper's Revenge
+* Crayon Chronicles
+* Cry of Fear
+* Dark Matter
+* Darkout
+* Doom and Destiny
+* Driftmoon
+* Duke Nukem 3D (Steam Cloud)
+* Dust: An Elysian Tail
+* Evil Islands: Curse of the Lost Soul
+* Evoland
+* Fairway
+* Far Cry 3: Blood Dragon
+* Farm Frenzy 3: Ice Age
+* Farm Frenzy 3: Madagascar
+* Farm Frenzy 4: Gone Fishing
+* Farm Frenzy: Pizza Party
+* Farm Frenzy: Viking Heroes
+* FATE
+* FATE: The Cursed King
+* FATE: The Traitor Soul
+* FATE: Undiscovered Realms
+* FEZ
+* Final Fantasy XIV: A Realm Reborn Beta
+* Fishdom: Harvest Splash
+* Game Dev Tycoon
+* Gardenscapes 2
+* Gear Jack
+* Gemsweeper
+* Grim Dawn
+* Gunpoint
+* Half-Life 2 Mod - Black Snow
+* Half-Life: Gunman
+* Hamlet or the Last Game without MMORPG Features, Shaders and Product Placement
+* Hidden & Dangerous 2
+* HitBlock
+* iBomber Defense Pacific
+* Impire
+* Island Tribe 2
+* Kentucky Route Zero
+* Kerbal Space Program
+* Krater
+* Lair Of The Evildoer
+* LaserCat
+* Lightfish
+* Light of Altair
+* Lucius
+* Mars: War Logs
+* Marvins' Mittens
+* Mayan Prophecies: Ship of Spirits
+* Memento Mori 2
+* Miasmata
+* Monaco
+* MotioninJoy
+* Nancy Drew: Danger by Design
+* Nancy Drew: Legend of the Crystal Skull
+* Nancy Drew: Ransom of the Seven Ships
+* Nancy Drew: Secrets Can Kill REMASTERED
+* Nancy Drew: Shadow at the Water's Edge
+* Nancy Drew: The Captive Curse
+* Nancy Drew: The Creature of Kapu Cave
+* Nancy Drew: The Deadly Device
+* Nancy Drew: The Haunting of Castle Malloy
+* Nancy Drew: The Phantom of Venice
+* Nancy Drew: The White Wolf of Icicle Creek
+* Nancy Drew: Tomb of the Lost Queen
+* Nancy Drew: Trail of the Twister
+* Nancy Drew: Warnings at Waverly Academy
+* Need for Speed: Porsche Unleashed
+* Ninja Reflex
+* Northern Tale
+* Open Broadcaster Software
+* Out of the Park Baseball 2011
+* Out of the Park Baseball 2012
+* Path of Exile
+* Peter Jackson's King Kong - Gamers Edition
+* Pid
+* Planet Explorers
+* Poker Night 2
+* Postal 2 Complete
+* Praetorians
+* Primordia
+* PuppetShow: Destiny Undone
+* PuppetShow: Lost Town
+* PuppetShow: Mystery of Joyville
+* PuppetShow: Return to Joyville
+* PuppetShow: Souls of the Innocent
+* Puzzle Bots
+* Race Driver: GRID 2
+* Rally Trophy
+* Real Heroes: Firefighter
+* Resident Evil 6
+* Resident Evil: Revelations
+* ResidualVM
+* Reus
+* Rocketbirds: Hardboiled Chicken
+* Saitek SD6 Profiles
+* SHMUP
+* Silent Hill 3
+* Silent Hill 4
+* Sniper Elite: Nazi Zombie Army
+* Sons Of Triskelion
+* StarDrive
+* Star Trek (2013)
+* Stronghold Legends
+* Super Amazing Wagon Adventure
+* Sword of the Stars: The Pit
+* The Basement Collection
+* The Bridge
+* The Even More Incredible Machine
+* The Incredible Adventures of Van Helsing
+* The Sea Will Claim Everything
+* The Settlers II - 10th Anniversary
+* The Stanley Parabel
+* The Swapper
+* The Tiny Bang Story
+* The Trouble With Robots
+* The Walking Dead: Survival Instinct
+* Transcipted
+* Treasure Adventure Game
+* Trials Evolution: Gold Edition
+* Ultramon
+* Unepic
+* Wild Earth Africa
+* Winter Voices
+* World Mosaics 6
+* Ys I & II: Chronicles+
+
+=2013/02/23=
+* Legacy of Kain: Blood Omen 2
+* System Shock 2 - Added GoG info
+Contributed by Arc Angel
+* DmC: Devil May Cry - Steam info
+Contributed by simtech76
+* Castle Crashers - Steam only
+* Crysis 3
+* Dead Space 3
+* Sins of a Solar Empire: Rebellion
+Contributed by Anonymouse Hero
+* Ellen Whittaker's Horse Life
+* My Riding Stables 2
+* WolfQuest
+Contributed by GameSaveManager
+* 1NSANE
+* 30 Minute Hero: Super Mega Neo Climax Ultimate Boy
+* Ace Combat: Assault Horizon
+* Aliens: Colonial Marines
+* ArmA: Cold War Assault
+* A Walk In The Dark
+* Bleed
+* Carrier Command: Gaia Mission
+* Cherry Tree High Comedy Club
+* Chessmaster 9000
+* Chivalry: Medieval Warfare
+* Creatures 3
+* Crusaders: Thy Kingdom Come
+* Dark Places - Quake Mod
+* Dead Pixels
+* Defender's Quest: Valley of the Forgotten
+* Devil May Cry 3 - Added steam info
+* DmC Devil May Cry - Windows info
+* Dune 2 Legacy
+* Fieldrunners
+* Fieldrunners 2
+* Galactic Arms Race
+* GEAR
+* Gods vs Humans
+* Korsakovia
+* La-Mulana
+* Might & Magic: Clash of Heroes
+* Nightmare House 2
+* ProGammaX
+* Proteus
+* Puzzler World 2
+* Retrovirus
+* Scoregasm
+* Scribblenauts Unlimited
+* Soul Reaver 2
+* Splice
+* Stealth Bastard Deluxe
+* Super Hexagon
+* The Cave
+* Tomb Raider - Steam info
+* Virtual City
+* Warlock: Master of the Arcane
+* Worms Blast
+
+
+=2012/2/3=
 * Age of Wonders II: Added GoG info
 * Age of Wonders: Shadow Magic - Added more GoG info
 * Depserados - Added GoG info

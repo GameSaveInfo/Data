@@ -280,6 +280,7 @@
     <xs:attribute ref="region" use="optional"/>
     <xs:attribute name="release" type="safestring" use="optional" />
     <xs:attribute name="type" type="safestring" use="optional" />
+	<xs:attribute name="revision" type="xs:integer" use="optional" />
   </xs:attributeGroup>
 
   <xs:attributeGroup name="version_attributes">
@@ -492,6 +493,13 @@
         <xs:simpleType>
           <xs:restriction base="xs:integer" >
             <xs:pattern value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+	  <xs:attribute name="revision" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer" >
+            <xs:pattern value="2"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
