@@ -423,7 +423,7 @@
 
   <game name="DeusExHumanRevolution" follows="DeusExInvisibleWar" added="1955-11-05T00:00:00" >
     <title>Deus Ex: Human Revolution</title>
-    <version platform="SteamCloud">
+    <version platform="SteamCloud" release="DirectorsCut">
       <locations>
         <path ev="steamuserdata" path="28050"/>
       </locations>
