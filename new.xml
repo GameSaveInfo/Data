@@ -300,5 +300,100 @@
       <contributor>GameSave.Info</contributor>
     </version>
   </mod>
+
+
+  <game name="FinalFantasy7" follows="FinalFantasy4" >
+    <title>Final Fantasy VII</title>
+    <version os="Windows" media="Steam">
+      <locations>
+        <path ev="userdocuments" path="Square Enix\FINAL FANTASY VII Steam"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  
+  <game name="FinalFantasy8" follows="FinalFantasy7" >
+    <title>Final Fantasy VIII</title>
+    <version os="Windows" media="Steam">
+      <locations>
+        <path ev="userdocuments" path="Square Enix\FINAL FANTASY VIII Steam"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  
+  <game name="AirForte">
+    <title>Air Forte</title>
+    <version os="Windows">
+    <locations>
+      <path ev ="installlocation" path="Air Forte"/>
+      <shortcut ev="startmenu" path="Programs\Air Forte\Air Forte.lnk" detract="data"/>
+      <path ev="steamcommon" path="airforte"/>
+    </locations>
+      <files>
+        <include path="data\AirForteSaveData" filename="*.sav" />
+      </files>
+      <files type="Settings">
+        <include path="data\AirForteSaveData" filename="*settings.dat" />
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+
+  <game name="Anomaly2" >
+    <title>Anomaly 2</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="236730"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="11bitstudios\Anomaly 2"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="AnomalyKorea" >
+    <title>Anomaly Korea</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Anomaly Korea"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  <game name="BadHotel" >
+    <title>Bad Hotel</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="231720"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
 </programs>
 

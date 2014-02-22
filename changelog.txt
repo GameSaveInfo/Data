@@ -4,21 +4,11 @@ Games to look into: DiRT, The PATH
 * Steam pipe games
 
 =Upcoming=
-Updated for SteamPipe:
-* Counter-Strike: Condition Zero: Deleted Scene
-* Deathmatch Classic
-* Half-Life: Blue Shift
-* Half-Life: Opposing Force
-* Half-Life: Source
-* Half-Life Deathmatch: Source
-* Half-Life 2: Episode One
-* Half-Life 2: Episode Two
-* Half-Life 2: Lost Coast 
-* SiN
-* Team Fortress Classic
-* Updated Left 4 Dead and Left 4 Dead to handle multiple languages
-
 New Games
+* Air Forte
+* Anomaly Korea
+* Anomaly 2
+* Bad Hotel - Steam Only
 * Sentinel 3: Homeworld
 * Ricochet
 
@@ -32,6 +22,24 @@ Contributed by Arc Angel:
 * Battlefield 4
 * Call of Duty: Ghosts - Steam only
 * Deadfall Adventures - Steam only
+
+Updated for SteamPipe:
+* Counter-Strike: Condition Zero: Deleted Scene
+* Deathmatch Classic
+* Half-Life: Blue Shift
+* Half-Life: Opposing Force
+* Half-Life: Source
+* Half-Life Deathmatch: Source
+* Half-Life 2: Episode One
+* Half-Life 2: Episode Two
+* Half-Life 2: Lost Coast 
+* SiN
+* Team Fortress Classic
+
+Updated
+* Final Fantasy VII - Added Steam path
+* Final Fantasy VIII - Added Steam path
+* Updated Left 4 Dead and Left 4 Dead to handle multiple languages
 
 =2014-01-28=
 * Long Live The Queen
