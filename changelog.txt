@@ -9,8 +9,11 @@ New Games
 * Anomaly Korea
 * Anomaly 2
 * Bad Hotel - Steam Only
+* Broken Age
+* Deus Ex: Human Revolution Director's Cut
 * Sentinel 3: Homeworld
 * Ricochet
+* Sanctum 2
 
 * Brothers: A Tale of Two Sons - Contributed by Scandalon
 
@@ -37,9 +40,11 @@ Updated for SteamPipe:
 * Team Fortress Classic
 
 Updated
+* Descent - Added Steam path
 * Final Fantasy VII - Added Steam path
 * Final Fantasy VIII - Added Steam path
-* Updated Left 4 Dead and Left 4 Dead to handle multiple languages
+* Left 4 Dead and Left 4 Dead to handle multiple languages
+* System Shock 2 - Added Steam path
 
 =2014-01-28=
 * Long Live The Queen
